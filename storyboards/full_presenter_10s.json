@@ -1,0 +1,79 @@
+{
+  "_comment": "LawWorld product explainer — FULL, presenter clips of 10 s. Script verbatim (only ₹ amounts spelled out for pronunciation); whole sentences per clip; cream studio; Flow verified voice only.",
+  "projectTitle": "LawWorld_Explainer_Full_10s",
+  "aspectRatio": "9:16",
+  "clipDurationSeconds": 10,
+  "maxWordsPerClip": 33,
+  "speedMultiplier": 1.1,
+  "downloadFolder": "/Users/admin/Downloads/New short/product-explainer/downloads/full",
+  "useLastFrameReference": true,
+  "transition": {
+    "type": "cut"
+  },
+  "globalStyle": {
+    "avatar": "@me",
+    "useAccountAvatar": true,
+    "hostName": "Advocate Ravishankar",
+    "channelName": "LawWorld",
+    "voice": "@me verified avatar voice (identical pitch, tone, accent in every clip)",
+    "outfit": "crisp white shirt and black blazer (identical in every scene)",
+    "background": "a seamless, softly lit warm cream studio backdrop (pale warm off-white, like fine paper), perfectly plain with a very gentle soft falloff toward the edges, nothing else in the frame, identical in every scene",
+    "gestures": "Standing still in the same spot, natural calm hand gestures kept below chest level",
+    "audio": "@me verified avatar voice ONLY, continuous speech filling the full clip at a brisk explainer pace, NO background music, NO silence at start or end",
+    "negativePrompts": "Avatar stays centered in the foreground with face and body fully visible at all times; NO objects, icons, graphics or props anywhere in the frame; NO text on screen, NO captions, NO name tags, NO logos, NO outfit change, NO camera cut, NO tripod, NO camera or microphone or any studio equipment visible in frame, nothing in front of the avatar",
+    "camera": "Locked-off static shot, medium close-up framed from chest up, avatar centered in frame at the same size in every scene, eye level, 50mm lens look, no zoom, no pan, no camera movement; the camera itself is never visible",
+    "realism": "Photorealistic live-action footage of a real human presenter recorded in one studio session, natural skin texture, natural eye contact and accurate lip sync, soft flattering key light from the front with soft fill and no harsh shadows, identical exposure and white balance in every scene",
+    "delivery": "Warm, confident, premium brand-film narration, like a founder speaking directly to a colleague: steady brisk pace, continuous speech, no long pauses, natural emphasis on key words; speak the dialogue exactly once, word for word, never repeat, stretch or slow down a word"
+  },
+  "scenes": [
+    {
+      "sceneId": "c01",
+      "sanitizeDialogue": false,
+      "visual3D": "Ravishankar speaking to camera, same pose and framing as every other clip, plain warm cream studio background, no props, no graphics, no text.",
+      "dialogue": "Hello. If you are an advocate, this video is for you. I am Ravishankar, founder of LawWorld. I want you to watch it carefully, as it could change the way you practice law."
+    },
+    {
+      "sceneId": "c02",
+      "sanitizeDialogue": false,
+      "visual3D": "Ravishankar speaking to camera, same pose and framing as every other clip, plain warm cream studio background, no props, no graphics, no text.",
+      "dialogue": "It can make your work better, faster and cheaper. Let me introduce LawWorld, India's newest and most powerful AI platform for advocates. LawWorld has more than fifteen features."
+    },
+    {
+      "sceneId": "c03",
+      "sanitizeDialogue": false,
+      "visual3D": "Ravishankar speaking to camera, same pose and framing as every other clip, plain warm cream studio background, no props, no graphics, no text.",
+      "dialogue": "Each one is built to help you in a different area of your daily legal practice. For case preparation, you get an AI chatbot, drafting tools, legal research and translation."
+    },
+    {
+      "sceneId": "c04",
+      "sanitizeDialogue": false,
+      "visual3D": "Ravishankar speaking to camera, same pose and framing as every other clip, plain warm cream studio background, no props, no graphics, no text.",
+      "dialogue": "Everything you need is ready in one place. Deep Research goes one step further. Hand over your documents, and the AI reads, reasons and returns case-ready citations for you."
+    },
+    {
+      "sceneId": "c07",
+      "sanitizeDialogue": false,
+      "visual3D": "Ravishankar speaking to camera, same pose and framing as every other clip, plain warm cream studio background, no props, no graphics, no text.",
+      "dialogue": "Slides gives you ready-made presentations on law content. Use them to teach, to train your juniors, or to explain a point of law with clarity."
+    },
+    {
+      "sceneId": "c09",
+      "sanitizeDialogue": false,
+      "visual3D": "Ravishankar speaking to camera, same pose and framing as every other clip, plain warm cream studio background, no props, no graphics, no text.",
+      "dialogue": "Both Slides and Law Stories are available in more than ten Indian regional languages. So you can learn and teach in the language you think in."
+    },
+    {
+      "sceneId": "c15",
+      "sanitizeDialogue": false,
+      "visual3D": "Ravishankar speaking to camera, same pose and framing as every other clip, plain warm cream studio background, no props, no graphics, no text.",
+      "dialogue": "Don't worry if you're new to AI. Our training videos show you how to use every feature — basic computer skills are enough to get started."
+    },
+    {
+      "sceneId": "c18",
+      "sanitizeDialogue": false,
+      "visual3D": "Ravishankar speaking to camera, same pose and framing as every other clip, plain warm cream studio background, no props, no graphics, no text.",
+      "dialogue": "It covers most of your needs, and you pay extra only for add-ons and AI usage. Pro includes five users, so it suits a single advocate as well as a growing firm."
+    }
+  ],
+  "flowProjectUrl": "https://flow.google.com/project/62f17d72-0094-4317-b64d-985f6ba797d7"
+}
