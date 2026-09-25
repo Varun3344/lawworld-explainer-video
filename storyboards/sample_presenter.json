@@ -1,0 +1,49 @@
+{
+  "_comment": "LawWorld product explainer — SAMPLE (first 3 presenter clips). Presenter fields copied from the proven reel template; only the background/realism/delivery wording changed for the premium dark look. Script is verbatim; only clip boundaries were chosen (26-33 words per 10 s clip, whole sentences only).",
+  "projectTitle": "LawWorld_Product_Explainer_Sample",
+  "aspectRatio": "9:16",
+  "clipDurationSeconds": 10,
+  "maxWordsPerClip": 33,
+  "speedMultiplier": 1.1,
+  "downloadFolder": "/Users/admin/Downloads/New short/product-explainer/downloads/sample",
+  "useLastFrameReference": true,
+  "transition": {
+    "type": "cut"
+  },
+  "globalStyle": {
+    "avatar": "@me",
+    "useAccountAvatar": true,
+    "hostName": "Advocate Ravishankar",
+    "channelName": "LawWorld",
+    "voice": "@me verified avatar voice (identical pitch, tone, accent in every clip)",
+    "outfit": "crisp white shirt and black blazer (identical in every scene)",
+    "background": "a dark premium studio: a seamless deep charcoal backdrop that fades to near-black at the edges, with one soft, subtle indigo-violet gradient glow directly behind him and a faint cool rim light on his shoulders, nothing else in the frame, identical in every scene",
+    "gestures": "Standing still in the same spot, natural calm hand gestures kept below chest level",
+    "audio": "@me verified avatar voice ONLY, continuous speech filling the full 10 seconds at a brisk explainer pace, NO background music, NO silence at start or end",
+    "negativePrompts": "Avatar stays centered in the foreground with face and body fully visible at all times; NO objects, icons, graphics or props anywhere in the frame; NO text on screen, NO captions, NO name tags, NO logos, NO outfit change, NO camera cut, NO tripod, NO camera or microphone or any studio equipment visible in frame, nothing in front of the avatar",
+    "camera": "Locked-off static shot, medium close-up framed from chest up, avatar centered in frame at the same size in every scene, eye level, 50mm lens look, no zoom, no pan, no camera movement; the camera itself is never visible",
+    "realism": "Photorealistic live-action footage of a real human presenter recorded in one studio session, natural skin texture, natural eye contact and accurate lip sync, soft flattering key light from the front with a gentle cool rim light, identical exposure and white balance in every scene",
+    "delivery": "Warm, confident, premium brand-film narration, like a founder speaking directly to a colleague: steady brisk pace, continuous speech, no long pauses, natural emphasis on key words; speak the dialogue exactly once, word for word, never repeat, stretch or slow down a word"
+  },
+  "scenes": [
+    {
+      "sceneId": "p01_hello",
+      "sanitizeDialogue": false,
+      "visual3D": "Ravishankar speaking to camera, same pose and framing as every other clip, dark studio background with a soft indigo glow behind him, no props, no graphics, no text.",
+      "dialogue": "Hello. If you are an advocate, this video is for you. I am Ravishankar, founder of LawWorld. I want you to watch it carefully, as it could change the way you practice law."
+    },
+    {
+      "sceneId": "p02_introduce",
+      "sanitizeDialogue": false,
+      "visual3D": "Ravishankar speaking to camera, same pose and framing as every other clip, dark studio background with a soft indigo glow behind him, no props, no graphics, no text.",
+      "dialogue": "It can make your work better, faster and cheaper. Let me introduce LawWorld, India's newest and most powerful AI platform for advocates. LawWorld has more than fifteen features."
+    },
+    {
+      "sceneId": "p03_caseprep",
+      "sanitizeDialogue": false,
+      "visual3D": "Ravishankar speaking to camera, same pose and framing as every other clip, dark studio background with a soft indigo glow behind him, no props, no graphics, no text.",
+      "dialogue": "Each one is built to help you in a different area of your daily legal practice. For case preparation, you get an AI chatbot, drafting tools, legal research and translation."
+    }
+  ],
+  "flowProjectUrl": "https://flow.google.com/project/3c52f891-7d38-425c-a11d-067d3f580b0f"
+}
