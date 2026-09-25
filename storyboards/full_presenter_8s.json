@@ -1,0 +1,97 @@
+{
+  "_comment": "LawWorld product explainer — FULL, presenter clips of 8 s. Script verbatim (only ₹ amounts spelled out for pronunciation); whole sentences per clip; cream studio; Flow verified voice only.",
+  "projectTitle": "LawWorld_Explainer_Full_8s",
+  "aspectRatio": "9:16",
+  "clipDurationSeconds": 8,
+  "maxWordsPerClip": 25,
+  "speedMultiplier": 1.1,
+  "downloadFolder": "/Users/admin/Downloads/New short/product-explainer/downloads/full",
+  "useLastFrameReference": true,
+  "transition": {
+    "type": "cut"
+  },
+  "globalStyle": {
+    "avatar": "@me",
+    "useAccountAvatar": true,
+    "hostName": "Advocate Ravishankar",
+    "channelName": "LawWorld",
+    "voice": "@me verified avatar voice (identical pitch, tone, accent in every clip)",
+    "outfit": "crisp white shirt and black blazer (identical in every scene)",
+    "background": "a seamless, softly lit warm cream studio backdrop (pale warm off-white, like fine paper), perfectly plain with a very gentle soft falloff toward the edges, nothing else in the frame, identical in every scene",
+    "gestures": "Standing still in the same spot, natural calm hand gestures kept below chest level",
+    "audio": "@me verified avatar voice ONLY, continuous speech filling the full clip at a brisk explainer pace, NO background music, NO silence at start or end",
+    "negativePrompts": "Avatar stays centered in the foreground with face and body fully visible at all times; NO objects, icons, graphics or props anywhere in the frame; NO text on screen, NO captions, NO name tags, NO logos, NO outfit change, NO camera cut, NO tripod, NO camera or microphone or any studio equipment visible in frame, nothing in front of the avatar",
+    "camera": "Locked-off static shot, medium close-up framed from chest up, avatar centered in frame at the same size in every scene, eye level, 50mm lens look, no zoom, no pan, no camera movement; the camera itself is never visible",
+    "realism": "Photorealistic live-action footage of a real human presenter recorded in one studio session, natural skin texture, natural eye contact and accurate lip sync, soft flattering key light from the front with soft fill and no harsh shadows, identical exposure and white balance in every scene",
+    "delivery": "Warm, confident, premium brand-film narration, like a founder speaking directly to a colleague: steady brisk pace, continuous speech, no long pauses, natural emphasis on key words; speak the dialogue exactly once, word for word, never repeat, stretch or slow down a word"
+  },
+  "scenes": [
+    {
+      "sceneId": "c05",
+      "sanitizeDialogue": false,
+      "visual3D": "Ravishankar speaking to camera, same pose and framing as every other clip, plain warm cream studio background, no props, no graphics, no text.",
+      "dialogue": "You also get a complete database of judgments, acts, rules and regulations. All your legal data resources are together, on one platform."
+    },
+    {
+      "sceneId": "c06",
+      "sanitizeDialogue": false,
+      "visual3D": "Ravishankar speaking to camera, same pose and framing as every other clip, plain warm cream studio background, no props, no graphics, no text.",
+      "dialogue": "A library of thousands of e-books and videos supports your research. It also helps you grow your knowledge, every single day."
+    },
+    {
+      "sceneId": "c08",
+      "sanitizeDialogue": false,
+      "visual3D": "Ravishankar speaking to camera, same pose and framing as every other clip, plain warm cream studio background, no props, no graphics, no text.",
+      "dialogue": "Law Stories brings you high-quality audio discussions on legal topics. Listen and learn on the move, while travelling or waiting at court."
+    },
+    {
+      "sceneId": "c10",
+      "sanitizeDialogue": false,
+      "visual3D": "Ravishankar speaking to camera, same pose and framing as every other clip, plain warm cream studio background, no props, no graphics, no text.",
+      "dialogue": "For client management, you get team chat, client billing and a client portal. Your clients stay informed and your office stays organised."
+    },
+    {
+      "sceneId": "c11",
+      "sanitizeDialogue": false,
+      "visual3D": "Ravishankar speaking to camera, same pose and framing as every other clip, plain warm cream studio background, no props, no graphics, no text.",
+      "dialogue": "The Your Cases feature connects to e-courts. You can track every case, hearing and order without checking many websites each day."
+    },
+    {
+      "sceneId": "c12",
+      "sanitizeDialogue": false,
+      "visual3D": "Ravishankar speaking to camera, same pose and framing as every other clip, plain warm cream studio background, no props, no graphics, no text.",
+      "dialogue": "The Argument Presenter helps you present your case in court. You no longer need to carry heavy physical files to every hearing."
+    },
+    {
+      "sceneId": "c13",
+      "sanitizeDialogue": false,
+      "visual3D": "Ravishankar speaking to camera, same pose and framing as every other clip, plain warm cream studio background, no props, no graphics, no text.",
+      "dialogue": "LawWorld is a highly secured platform, fully compliant with the DPDP Act. Your client data stays private, protected and in your control."
+    },
+    {
+      "sceneId": "c14",
+      "sanitizeDialogue": false,
+      "visual3D": "Ravishankar speaking to camera, same pose and framing as every other clip, plain warm cream studio background, no props, no graphics, no text.",
+      "dialogue": "LawWorld works on the web, on Android and on iOS. So you can work from your office or on the move."
+    },
+    {
+      "sceneId": "c16",
+      "sanitizeDialogue": false,
+      "visual3D": "Ravishankar speaking to camera, same pose and framing as every other clip, plain warm cream studio background, no props, no graphics, no text.",
+      "dialogue": "We offer two simple ways to pay. With Pay-as-you-go there is no monthly fee, so you pay only for what you use."
+    },
+    {
+      "sceneId": "c17",
+      "sanitizeDialogue": false,
+      "visual3D": "Ravishankar speaking to camera, same pose and framing as every other clip, plain warm cream studio background, no props, no graphics, no text.",
+      "dialogue": "The Pro plan costs just fifteen hundred rupees per month, or twelve thousand rupees for the whole year, plus GST."
+    },
+    {
+      "sceneId": "c20",
+      "sanitizeDialogue": false,
+      "visual3D": "Ravishankar speaking to camera, same pose and framing as every other clip, plain warm cream studio background, no props, no graphics, no text.",
+      "dialogue": "New users get two hundred rupees in free AI credits — click the link below and start using it right now."
+    }
+  ],
+  "flowProjectUrl": "https://flow.google.com/project/e797c819-656a-4af9-bf8b-cdffe790d7a1"
+}

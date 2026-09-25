@@ -1,0 +1,83 @@
+{
+  "_comment": "LawWorld product explainer — FULL 3D cut-aways, 9:16, stylised premium CGI in the LawWorld cream/terracotta palette, no text in shot.",
+  "projectTitle": "LawWorld_Explainer_Full_3D",
+  "aspectRatio": "9:16",
+  "brollAspect": "9:16",
+  "brollStyle": "3d",
+  "clipDurationSeconds": 10,
+  "downloadFolder": "/Users/admin/Downloads/New short/product-explainer/downloads/full",
+  "globalStyle": {
+    "avatar": "@me",
+    "useAccountAvatar": true,
+    "hostName": "Advocate Ravishankar",
+    "channelName": "LawWorld",
+    "voice": "@me verified avatar voice (identical pitch, tone, accent in every clip)",
+    "outfit": "crisp white shirt and black blazer (identical in every scene)",
+    "background": "a seamless, softly lit warm cream studio backdrop (pale warm off-white, like fine paper), perfectly plain with a very gentle soft falloff toward the edges, nothing else in the frame, identical in every scene",
+    "gestures": "Standing still in the same spot, natural calm hand gestures kept below chest level",
+    "audio": "@me verified avatar voice ONLY, continuous speech filling the full clip at a brisk explainer pace, NO background music, NO silence at start or end",
+    "negativePrompts": "Avatar stays centered in the foreground with face and body fully visible at all times; NO objects, icons, graphics or props anywhere in the frame; NO text on screen, NO captions, NO name tags, NO logos, NO outfit change, NO camera cut, NO tripod, NO camera or microphone or any studio equipment visible in frame, nothing in front of the avatar",
+    "camera": "Locked-off static shot, medium close-up framed from chest up, avatar centered in frame at the same size in every scene, eye level, 50mm lens look, no zoom, no pan, no camera movement; the camera itself is never visible",
+    "realism": "Photorealistic live-action footage of a real human presenter recorded in one studio session, natural skin texture, natural eye contact and accurate lip sync, soft flattering key light from the front with soft fill and no harsh shadows, identical exposure and white balance in every scene",
+    "delivery": "Warm, confident, premium brand-film narration, like a founder speaking directly to a colleague: steady brisk pace, continuous speech, no long pauses, natural emphasis on key words; speak the dialogue exactly once, word for word, never repeat, stretch or slow down a word"
+  },
+  "scenes": [
+    {
+      "sceneId": "b01_features",
+      "broll3D": "A luminous constellation of frosted-glass app tiles floating in a bright cream-and-ivory void: each tile is a soft rounded square with a simple terracotta line symbol (a document, a chat bubble, a book, headphones, a shield, a calendar) and no letters at all; the tiles slowly orbit one brilliant four-point silver star at the centre while the camera pushes in gently with parallax and a few tiles drift past close to the lens; warm palette of cream, ivory, soft terracotta, copper and walnut, gentle soft daylight, premium technology product commercial look, soft bloom, no letters, no numbers, no logos anywhere."
+    },
+    {
+      "sceneId": "b02_caseprep",
+      "broll3D": "A stylised 3D advocate's desk in a bright modern chamber with warm daylight: a thin laptop whose screen glows softly with abstract blank shapes, translucent chat bubbles rising out of it, a fountain pen gliding by itself across a floating sheet of blank paper, a neat stack of law books with copper-edged pages, and a small glass globe with drifting ribbons of light; the camera dollies slowly sideways past the desk; warm palette of cream, ivory, soft terracotta, copper and walnut, gentle soft daylight, premium technology product commercial look, soft bloom, no letters, no numbers, no logos anywhere."
+    },
+    {
+      "sceneId": "b03_deepresearch",
+      "broll3D": "A stack of paper documents lifts off a walnut desk and flows as a gentle stream of blank pages into a large glowing glass lens hovering above it; inside the lens, threads of copper light weave the pages together, and small glowing bookmark tabs bloom out of the other side and settle neatly into a tidy row; bright cream room, slow orbiting camera; warm palette of cream, ivory, soft terracotta, copper and walnut, gentle soft daylight, premium technology product commercial look, soft bloom, no letters, no numbers, no logos anywhere."
+    },
+    {
+      "sceneId": "b04_database",
+      "broll3D": "An endless, softly lit library hall of tall walnut shelves filled with leather-bound volumes with copper spines; several volumes glide out and hover, opening into glowing translucent panels of blank pages that align into a neat floating grid; the camera glides slowly forward down the aisle; cream walls; warm palette of cream, ivory, soft terracotta, copper and walnut, gentle soft daylight, premium technology product commercial look, soft bloom, no letters, no numbers, no logos anywhere."
+    },
+    {
+      "sceneId": "b05_library",
+      "broll3D": "Dozens of open books and slim glass screens float in a gentle rising spiral inside a bright cream atrium; the screens show soft glowing abstract shapes and a simple triangular play symbol, the book pages turn by themselves; slow rising camera; warm palette of cream, ivory, soft terracotta, copper and walnut, gentle soft daylight, premium technology product commercial look, soft bloom, no letters, no numbers, no logos anywhere."
+    },
+    {
+      "sceneId": "b06_slides",
+      "broll3D": "A bright modern seminar room with a large floating presentation board made of frosted glass; blank slide cards with simple abstract charts and terracotta accent shapes slide in one after another and stack neatly; a stylised 3D presenter figure with clean simple features gestures toward the board while two stylised junior colleagues watch from chairs; walnut and cream room; warm palette of cream, ivory, soft terracotta, copper and walnut, gentle soft daylight, premium technology product commercial look, soft bloom, no letters, no numbers, no logos anywhere."
+    },
+    {
+      "sceneId": "b07_lawstories",
+      "broll3D": "A stylised 3D advocate figure with clean simple features sits on a bench on a sunlit railway platform with earphones in, eyes closed and relaxed, while soft translucent sound-wave ribbons and small glowing audio bubbles drift around the head; a train glides slowly past in the background; the figure stays seated; warm palette of cream, ivory, soft terracotta, copper and walnut, gentle soft daylight, premium technology product commercial look, soft bloom, no letters, no numbers, no logos anywhere."
+    },
+    {
+      "sceneId": "b08_languages",
+      "broll3D": "A softly glowing 3D map of India made of thousands of small copper and cream dots hovers above a cream surface; from different regions, translucent empty speech bubbles in different warm colours rise up one after another and float gently upward; slow orbiting camera; warm palette of cream, ivory, soft terracotta, copper and walnut, gentle soft daylight, premium technology product commercial look, soft bloom, no letters, no numbers, no logos anywhere."
+    },
+    {
+      "sceneId": "b09_clients",
+      "broll3D": "A bright modern law office in cream and walnut: a stylised 3D team of three with clean simple features around a table, translucent chat bubbles floating between them, a floating glass card with a simple receipt shape and coin symbols, and a large glass tablet on a stand showing an abstract client dashboard of blank cards; slow camera glide; warm palette of cream, ivory, soft terracotta, copper and walnut, gentle soft daylight, premium technology product commercial look, soft bloom, no letters, no numbers, no logos anywhere."
+    },
+    {
+      "sceneId": "b10_yourcases",
+      "broll3D": "Rows of floating glass calendar tiles and case folders connected by fine threads of copper light hover above a walnut desk, arranged like a timeline; small glowing bell markers pulse on some tiles; a stylised 3D advocate figure checks a phone in the foreground, standing still; bright cream room, slow dolly; warm palette of cream, ivory, soft terracotta, copper and walnut, gentle soft daylight, premium technology product commercial look, soft bloom, no letters, no numbers, no logos anywhere."
+    },
+    {
+      "sceneId": "b11_argument",
+      "broll3D": "A stylised 3D advocate figure with clean simple features stands still at a walnut lectern in a bright, dignified hall holding a slim glass tablet that glows softly; beside the lectern a towering heavy stack of paper files gently dissolves into drifting light particles that flow into the tablet; slow push-in; warm palette of cream, ivory, soft terracotta, copper and walnut, gentle soft daylight, premium technology product commercial look, soft bloom, no letters, no numbers, no logos anywhere."
+    },
+    {
+      "sceneId": "b12_security",
+      "broll3D": "A large frosted-glass shield with a soft copper lock symbol hovers in a bright cream space; streams of small glowing data particles flow toward it and are gently absorbed, forming a calm protective ring of light around it; slow orbit camera; warm palette of cream, ivory, soft terracotta, copper and walnut, gentle soft daylight, premium technology product commercial look, soft bloom, no letters, no numbers, no logos anywhere."
+    },
+    {
+      "sceneId": "b13_devices",
+      "broll3D": "A slim laptop, a modern smartphone and a tablet float in a slow rotating ring above a cream surface, each screen glowing softly with the same abstract layout of blank cards; a stylised 3D advocate figure with a leather bag stands calmly beside them looking at the phone; bright cream room; warm palette of cream, ivory, soft terracotta, copper and walnut, gentle soft daylight, premium technology product commercial look, soft bloom, no letters, no numbers, no logos anywhere."
+    },
+    {
+      "sceneId": "b14_training",
+      "broll3D": "A friendly stylised 3D advocate figure with clean simple features sits at a laptop in a bright cream study; from the screen, a sequence of soft glass cards each with a simple triangular play symbol floats up one by one and arranges into a gentle arc; the figure nods and smiles; warm palette of cream, ivory, soft terracotta, copper and walnut, gentle soft daylight, premium technology product commercial look, soft bloom, no letters, no numbers, no logos anywhere."
+    }
+  ],
+  "flowProjectUrl": "https://flow.google.com/project/052b6eba-dc9f-4a6a-b758-40f5af2c7cd8"
+}
