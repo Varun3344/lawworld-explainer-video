@@ -7,3 +7,4 @@ audio/
 __pycache__/
 .DS_Store
 *.log
+storyboard_progress.json
