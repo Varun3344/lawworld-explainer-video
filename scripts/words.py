@@ -4,24 +4,28 @@ import sys, os, json, re, subprocess, tempfile, difflib
 sys.path.insert(0, os.path.dirname(__file__))
 from envkeys import OPENAI_API_KEY
 
+import unicodedata
 def norm(w):
-    w = w.lower().replace("’", "'")
-    w = re.sub(r"[^a-z0-9']+", "", w)
-    return w
+    """Latin: lowercase alphanumerics only. Other scripts (Kannada...): NFC, drop punctuation/space/zero-width joiners, keep everything else."""
+    w = unicodedata.normalize("NFC", w).lower().replace("’", "'")
+    if re.search(r"[^\x00-\x7f]", w):
+        return re.sub(r"[\s\u200b-\u200d\ufeff.,;:!?\"'()\[\]{}\-–—…/]+", "", w)
+    return re.sub(r"[^a-z0-9']+", "", w)
 
+LANG = "en"; PROMPT = "LawWorld, Ravishankar, advocate, AI chatbot, e-courts, DPDP Act, Pay-as-you-go, GST."
 def transcribe(clip):
     tmp = tempfile.mkdtemp(); wav = os.path.join(tmp, "a.mp3")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", clip, "-vn", "-ac", "1", "-ar", "16000", "-b:a", "64k", wav], check=True)
     r = subprocess.run(["curl", "-s", "-m", "180", "https://api.openai.com/v1/audio/transcriptions",
                         "-H", f"Authorization: Bearer {OPENAI_API_KEY}", "-F", f"file=@{wav}", "-F", "model=whisper-1",
                         "-F", "response_format=verbose_json", "-F", "timestamp_granularities[]=word",
-                        "-F", "language=en", "-F", "prompt=LawWorld, Ravishankar, advocate, AI chatbot, e-courts, DPDP Act, Pay-as-you-go, GST."],
+                        "-F", f"language={LANG}", "-F", f"prompt={PROMPT}"],
                        capture_output=True, text=True, check=True)
     d = json.loads(r.stdout)
     if "words" not in d: raise SystemExit(f"[words] unexpected response: {r.stdout[:300]}")
     return d
 
-NUM = [("fifteen hundred","1500"),("twelve thousand","12000"),("two hundred","200"),("fifteen","15"),("twelve","12"),("ten","10"),("five","5"),("two","2"),("rupees","rs"),("rs","rs")]
+NUM = [("four thousand seven hundred","4700"),("two hundred","200"),("forty","40"),("one","1"),("three","3"),("fifteen hundred","1500"),("twelve thousand","12000"),("two hundred","200"),("fifteen","15"),("twelve","12"),("ten","10"),("five","5"),("two","2"),("rupees","rs"),("rs","rs")]
 def numify(tokens):
     """number words -> digits so 'fifteen hundred rupees' == '1,500 rupees' == '₹1,500'"""
     text = " " + " ".join(tokens) + " "
@@ -32,8 +36,8 @@ def numify(tokens):
         out.append(t)
     return out
 def check(dialogue, words):
-    exp = numify([norm(w) for w in dialogue.split() if norm(w)])
-    got = numify([norm(w["word"]) for w in words if norm(w["word"])])
+    exp = numify([norm(w) for w in dialogue.replace("-", " ").split() if norm(w)])
+    got = numify([norm(x) for w in words for x in w["word"].replace("-", " ").split() if norm(x)])
     sm = difflib.SequenceMatcher(a=exp, b=got, autojunk=False)
     missing, extra = [], []
     for tag, i1, i2, j1, j2 in sm.get_opcodes():
@@ -44,6 +48,10 @@ def check(dialogue, words):
     return cr, missing, extra
 
 if __name__ == "__main__":
+    args = sys.argv[1:]
+    if "--lang" in args: i = args.index("--lang"); LANG = args[i + 1]; del args[i:i + 2]
+    if "--prompt" in args: i = args.index("--prompt"); PROMPT = args[i + 1]; del args[i:i + 2]
+    sys.argv = [sys.argv[0]] + args
     sb = json.load(open(sys.argv[1]))
     by_id = {s["sceneId"]: s for s in sb["scenes"]}
     for clip in sys.argv[2:]:
@@ -58,7 +66,7 @@ if __name__ == "__main__":
         if scene:
             ratio, missing, extra = check(scene["dialogue"], words)
             out.update({"match_ratio": ratio, "missing": missing, "extra": extra})
-            verdict = "OK" if ratio >= 0.97 else "CHECK"
+            verdict = "OK" if ratio >= (0.90 if LANG != "en" else 0.97) else "CHECK"   # non-Latin whisper spelling varies more
             print(f"[words] {sid}: {verdict} match={ratio:.2f} speech {first:.2f}-{last:.2f}s of {dur:.2f}s tail={dur-last:.2f}s missing={missing} extra={extra}")
         else:
             print(f"[words] {sid}: (no scene) {first}-{last}s of {dur:.2f}s: {d.get('text','')[:120]}")

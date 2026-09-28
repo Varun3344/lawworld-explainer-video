@@ -1,0 +1,25 @@
+{
+ "projectTitle": "creator_all",
+ "scenes": [
+  {
+   "sceneId": "h01",
+   "dialogue": "Advocates, you are losing hours every week. Not in court. In paperwork. Here are three AI habits that get those hours back."
+  },
+  {
+   "sceneId": "h02",
+   "dialogue": "Habit one. Stop reading forty-page judgments. Ask LawChat the question, and it answers with the citation. In seconds."
+  },
+  {
+   "sceneId": "h03",
+   "dialogue": "Habit two. Never draft from a blank page. Pick from four thousand seven hundred templates. Petitions, pleadings, notices. Fill. Done."
+  },
+  {
+   "sceneId": "h04",
+   "dialogue": "Habit three. Stop checking five websites for hearing dates. Your Cases syncs with e-Courts. Every case, every order, one screen."
+  },
+  {
+   "sceneId": "h05",
+   "dialogue": "That is LawWorld. Fifteen tools, one login. New users get two hundred rupees of AI credits free. Link below. Go."
+  }
+ ]
+}

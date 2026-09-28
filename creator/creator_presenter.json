@@ -1,0 +1,61 @@
+{
+ "_comment": "Creator-style 45 s piece: 3 AI habits for advocates. 8 s clips, punchy lines, cream studio, Flow verified voice.",
+ "projectTitle": "LawWorld_Creator_Habits",
+ "aspectRatio": "9:16",
+ "clipDurationSeconds": 8,
+ "maxWordsPerClip": 25,
+ "speedMultiplier": 1.1,
+ "downloadFolder": "/Users/admin/Downloads/New short/product-explainer/downloads/creator",
+ "useLastFrameReference": true,
+ "transition": {
+  "type": "cut"
+ },
+ "globalStyle": {
+  "avatar": "@me",
+  "useAccountAvatar": true,
+  "hostName": "Advocate Ravishankar",
+  "channelName": "LawWorld",
+  "voice": "@me verified avatar voice (identical pitch, tone, accent in every clip)",
+  "outfit": "crisp white shirt and black blazer (identical in every scene)",
+  "background": "a premium private law office: rich warm walnut wall panelling, a tall bookshelf of leather-bound law books softly out of focus behind him, a brass desk lamp glowing warmly, cream and deep-green accents, soft window daylight from one side, elegant and luxurious, shallow depth of field, identical in every scene",
+  "gestures": "Seated upright in a dark leather executive chair behind a polished walnut desk, forearms resting on the desk, lively natural hand gestures above the desk, small confident nods on emphasis, stays seated throughout",
+  "audio": "@me verified avatar voice ONLY, continuous speech filling the full clip at a brisk explainer pace, NO background music, NO silence at start or end",
+  "negativePrompts": "Avatar stays centered in the foreground with face and body fully visible at all times; NO objects in front of him, NO icons or graphics; NO text on screen, NO captions, NO name tags, NO logos, NO outfit change, NO camera cut, NO tripod, NO camera or microphone or any studio equipment visible in frame, nothing in front of the avatar",
+  "camera": "Locked-off static shot, vertical 9:16. He is SEATED behind a polished walnut desk, framed from the desk top up, centred in the frame with clear space above his head, so the premium office around and behind him is clearly visible: walnut panelled walls, a tall bookshelf of leather-bound law books, a glowing brass desk lamp on the desk, a green leather chair back behind him. Eye level, 35mm lens look, gentle background blur, no zoom, no pan, no camera movement; the camera itself is never visible",
+  "realism": "Photorealistic cinematic footage in a warm, richly furnished premium law office, NOT a studio and NOT a plain backdrop. Soft warm lamplight and window light model his face evenly, natural skin texture, natural eye contact and accurate lip sync, identical exposure and white balance in every scene",
+  "delivery": "Punchy, energetic creator-style delivery, like a sharp founder talking straight to camera: quick pace, short sentences, confident emphasis on key words, a tiny pause after each full stop; speak the dialogue exactly once, word for word, never repeat, stretch or slow down a word"
+ },
+ "scenes": [
+  {
+   "sceneId": "h01",
+   "sanitizeDialogue": false,
+   "visual3D": "Ravishankar seated at his walnut desk in a premium law office, speaking to camera with energy, same pose and framing as every other clip, bookshelf and warm lamp softly blurred behind him, no text.",
+   "dialogue": "Advocates, you are losing hours every week. Not in court. In paperwork. Here are three AI habits that get those hours back."
+  },
+  {
+   "sceneId": "h02",
+   "sanitizeDialogue": false,
+   "visual3D": "Ravishankar seated at his walnut desk in a premium law office, speaking to camera with energy, same pose and framing as every other clip, bookshelf and warm lamp softly blurred behind him, no text.",
+   "dialogue": "Habit one. Stop reading forty-page judgments. Ask LawChat the question, and it answers with the citation. In seconds."
+  },
+  {
+   "sceneId": "h03",
+   "sanitizeDialogue": false,
+   "visual3D": "Ravishankar seated at his walnut desk in a premium law office, speaking to camera with energy, same pose and framing as every other clip, bookshelf and warm lamp softly blurred behind him, no text.",
+   "dialogue": "Habit two. Never draft from a blank page. Pick from four thousand seven hundred templates. Petitions, pleadings, notices. Fill. Done."
+  },
+  {
+   "sceneId": "h04",
+   "sanitizeDialogue": false,
+   "visual3D": "Ravishankar seated at his walnut desk in a premium law office, speaking to camera with energy, same pose and framing as every other clip, bookshelf and warm lamp softly blurred behind him, no text.",
+   "dialogue": "Habit three. Stop checking five websites for hearing dates. Your Cases syncs with e-Courts. Every case, every order, one screen."
+  },
+  {
+   "sceneId": "h05",
+   "sanitizeDialogue": false,
+   "visual3D": "Ravishankar seated at his walnut desk in a premium law office, speaking to camera with energy, same pose and framing as every other clip, bookshelf and warm lamp softly blurred behind him, no text.",
+   "dialogue": "That is LawWorld. Fifteen tools, one login. New users get two hundred rupees of AI credits free. Link below. Go."
+  }
+ ],
+ "flowProjectUrl": "https://flow.google.com/project/2334d117-4ff7-4f37-b279-8ac9cc07679e"
+}

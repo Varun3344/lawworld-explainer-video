@@ -1,0 +1,31 @@
+{
+  "_comment": "Kannada news sample — 3D scene for the three-new-laws moment.",
+  "projectTitle": "LawWorld_KannadaNews_3D",
+  "aspectRatio": "9:16",
+  "brollAspect": "9:16",
+  "brollStyle": "3d",
+  "clipDurationSeconds": 10,
+  "downloadFolder": "/Users/admin/Downloads/New short/product-explainer/downloads/kn",
+  "globalStyle": {
+    "avatar": "@me",
+    "useAccountAvatar": true,
+    "hostName": "Advocate Ravishankar",
+    "channelName": "LawWorld",
+    "voice": "@me verified avatar voice, speaking fluent natural Kannada with a clear Karnataka accent (identical pitch and tone in every clip)",
+    "outfit": "crisp white shirt and black blazer (identical in every scene)",
+    "background": "a seamless, softly lit warm cream studio backdrop (pale warm off-white, like fine paper), perfectly plain with a very gentle soft falloff toward the edges, nothing else in the frame, identical in every scene",
+    "gestures": "Standing still in the same spot, natural calm hand gestures kept below chest level",
+    "audio": "@me verified avatar voice ONLY, speaking the dialogue in the Kannada language exactly as written, continuous speech filling the clip at a steady explainer pace, NO background music, NO silence at start or end",
+    "negativePrompts": "Avatar stays centered in the foreground with face and body fully visible at all times; NO objects, icons, graphics or props anywhere in the frame; NO text on screen, NO captions, NO name tags, NO logos, NO outfit change, NO camera cut, NO tripod, NO camera or microphone or any studio equipment visible in frame, nothing in front of the avatar",
+    "camera": "Locked-off static shot, medium close-up framed from chest up, avatar centered in frame at the same size in every scene, eye level, 50mm lens look, no zoom, no pan, no camera movement; the camera itself is never visible",
+    "realism": "Photorealistic live-action footage of a real human presenter recorded in one studio session, natural skin texture, natural eye contact and accurate lip sync, soft flattering key light from the front with soft fill and no harsh shadows, identical exposure and white balance in every scene",
+    "delivery": "Warm, calm and confident Kannada explainer delivery, like a trusted legal educator speaking to viewers in Karnataka: steady pace, clear pronunciation of every Kannada word, natural emphasis; speak the dialogue exactly once, word for word in Kannada, never translate it, never repeat, stretch or slow down a word"
+  },
+  "scenes": [
+    {
+      "sceneId": "bk01_lawbooks",
+      "broll3D": "Three heavy, dusty, faded leather-bound old law volumes lie on a walnut desk in a bright cream chamber; they slowly dissolve into drifting copper light particles that swirl upward and reassemble into three pristine new volumes with copper-edged pages standing upright and glowing softly, a shaft of warm daylight falling on them; slow orbiting camera; warm palette of cream, ivory, soft terracotta, copper and walnut, gentle soft daylight, premium commercial look, soft bloom, no letters, no numbers, no logos anywhere."
+    }
+  ],
+  "flowProjectUrl": "https://flow.google.com/project/a89cf51b-9b3d-4eac-9904-f0e3327bb3b2"
+}

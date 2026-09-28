@@ -20,7 +20,7 @@ def corner_rgb(path, t=1.0):
 ps = plan["presenter_start"]; total = float(plan["total"]); pres = plan["presenter"]
 ptrack_dur = sum(p["out"] - p["in"] for p in pres)
 NORM = f"scale={W}:{H}:flags=lanczos,fps={FPS},format=yuv420p,setsar=1"
-GRADE_P = "eq=contrast=1.04:saturation=0.97,unsharp=5:5:0.3:5:5:0"; GRADE_3D = "eq=contrast=1.04:saturation=1.06,unsharp=5:5:0.25:5:5:0"
+GRADE_P = plan.get("grade_presenter") or "eq=contrast=1.04:saturation=0.97,unsharp=5:5:0.3:5:5:0"; GRADE_3D = "eq=contrast=1.04:saturation=1.06,unsharp=5:5:0.25:5:5:0"
 
 # ---- pass 1: audio ----
 voice = os.path.join(work, "voice.wav"); final_audio = os.path.join(work, "final_audio.wav")
@@ -33,7 +33,15 @@ ag = (f"[0:a]volume={vg:.2f}dB,adelay={int(ps*1000)}|{int(ps*1000)},apad=whole_d
       f"[1:a]atrim=0:{total:.3f},asetpts=PTS-STARTPTS,volume={mg:.2f}dB,afade=t=in:st=0:d={m['fade_in']},afade=t=out:st={total-m['fade_out']:.3f}:d={m['fade_out']}[mus];"
       "[mus][vkey]sidechaincompress=threshold=0.015:ratio=5:attack=60:release=700:makeup=1:level_sc=1[musd];"
       "[vmain][musd]amix=inputs=2:normalize=0:duration=first:dropout_transition=0,alimiter=limit=0.89:attack=5:release=80,aresample=48000[aout]")
-run(["ffmpeg","-hide_banner","-y","-i",voice,"-i",m["file"],"-filter_complex",ag,"-map","[aout]","-t",f"{total:.3f}","-c:a","pcm_s16le",final_audio], os.path.join(work,"p1b.log"))
+sfx = plan.get("sfx", [])
+if sfx:
+    sin = []; sg = []
+    for k, e in enumerate(sfx):
+        sin += ["-i", e["file"]]; sg.append(f"[{k+2}:a]volume={e.get('gain_db', -8):.1f}dB,adelay={int(e['at']*1000)}|{int(e['at']*1000)},apad=whole_dur={total:.3f}[sx{k}]")
+    ag = ag.replace("[vmain][musd]amix=inputs=2:normalize=0:duration=first:dropout_transition=0,", "".join(sg[:0]) + ";".join(sg) + ";" + "".join(f"[sx{k}]" for k in range(len(sfx))) + f"amix=inputs={len(sfx)}:normalize=0:duration=first:dropout_transition=0[sfxmix];[vmain][musd][sfxmix]amix=inputs=3:normalize=0:duration=first:dropout_transition=0,")
+    run(["ffmpeg","-hide_banner","-y","-i",voice,"-i",m["file"]]+sin+["-filter_complex",ag,"-map","[aout]","-t",f"{total:.3f}","-c:a","pcm_s16le",final_audio], os.path.join(work,"p1b.log"))
+else:
+    run(["ffmpeg","-hide_banner","-y","-i",voice,"-i",m["file"],"-filter_complex",ag,"-map","[aout]","-t",f"{total:.3f}","-c:a","pcm_s16le",final_audio], os.path.join(work,"p1b.log"))
 print(f"[compose2] audio mix {dur(final_audio):.2f}s")
 
 # ---- pass 2: base video ----
@@ -51,7 +59,8 @@ def add(path, extra=None):
 pv = []
 for k, p in enumerate(pres):
     i = add(p["clip"]); g = gains.get(p["clip"]); mix = f"colorchannelmixer=rr={g[0]:.4f}:gg={g[1]:.4f}:bb={g[2]:.4f}," if g else ""
-    fc.append(f"[{i}:v]trim={p['in']}:{p['out']},setpts=PTS-STARTPTS,{NORM},{mix}{GRADE_P}[pv{k}]"); pv.append(f"[pv{k}]")
+    z = float(p.get("zoom", 1.0)); zf = f"crop=iw/{z:.4f}:ih/{z:.4f}:(iw-iw/{z:.4f})/2:(ih-ih/{z:.4f})*0.35," if z > 1.001 else ""
+    fc.append(f"[{i}:v]trim={p['in']}:{p['out']},setpts=PTS-STARTPTS,{zf}{NORM},{mix}{GRADE_P}[pv{k}]"); pv.append(f"[pv{k}]")
 fc.append(f"color=c=black:s={W}x{H}:r={FPS}:d={ps:.3f},format=yuv420p[lead]")
 fc.append("".join(pv)+f"concat=n={len(pv)}:v=1:a=0[ptrack]")
 fc.append("[lead][ptrack]concat=n=2:v=1:a=0,settb=1/24,setpts=N/24/TB[base0]"); main = "[base0]"; main_dur = ps + ptrack_dur
