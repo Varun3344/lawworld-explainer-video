@@ -121,7 +121,7 @@
   .hook .bg{position:absolute;left:-200px;top:-200px;width:1480px;height:2320px;background:radial-gradient(circle at 30% 20%,rgba(217,119,87,.55) 0%,rgba(31,30,29,0) 45%),radial-gradient(circle at 80% 85%,rgba(179,87,63,.5) 0%,rgba(31,30,29,0) 40%);}
   .hook .l1,.hook .l2,.hook .l3{position:absolute;left:70px;width:940px;font-weight:800;line-height:1.02;letter-spacing:-2px;color:#fff;}
   .hook .l1{top:600px;font-size:108px;white-space:nowrap;}
-  .hook .l2{top:720px;font-size:170px;color:#F5C542;white-space:nowrap;}
+  .hook .l2{top:730px;font-size:128px;color:#F5C542;white-space:nowrap;}
   .hook .l3{top:930px;font-size:56px;font-weight:600;letter-spacing:-.5px;color:rgba(255,255,255,.8);}
   .hook .bar{position:absolute;left:70px;top:1040px;height:14px;width:520px;background:var(--brand);border-radius:7px;transform-origin:left;}
   .kcap{left:60px;top:1100px;width:960px;text-align:center;font-weight:800;font-size:82px;line-height:1.08;letter-spacing:-1.5px;color:var(--ink);text-shadow:0 2px 0 rgba(255,252,246,.9),0 0 18px rgba(255,252,246,.9);}
@@ -236,7 +236,7 @@ function seek(t){
         x.q.l1.style.transform=`translateY(${(1-outExpo(a))*90}px) scale(${1.25-0.25*outExpo(a)})`;x.q.l1.style.opacity=String(clamp(a*3));
         x.q.l2.style.transform=`translateY(${(1-outExpo(b))*90}px) scale(${1.25-0.25*outExpo(b)})`;x.q.l2.style.opacity=String(clamp(b*3));
         x.q.l3.style.opacity=String(outCubic(d));x.q.l3.style.transform=`translateY(${(1-outExpo(d))*30}px)`;x.q.bar.style.transform=`scaleX(${outExpo(k)})`;el.style.opacity=String(outA);break;}
-      case 'kcap':{if(EL.some(y=>y.c&&(y.c.type==='endc'||y.c.type==='hook')&&t>=y.c.t0&&t<=y.c.t1)){el.style.opacity='0';break;}const busyLow=EL.some(y=>y.c&&(y.c.type==='stat'||y.c.type==='chips'||y.c.type==='swaprows')&&t>=y.c.t0-0.1&&t<=y.c.t1);el.classList.toggle('up',busyLow);const ph=x.phrases.find(p=>t>=p.start-0.08&&t<=p.hold);if(!ph){el.style.opacity='0';break;}const idx=x.phrases.indexOf(ph);
+      case 'kcap':{if(EL.some(y=>y.c&&(y.c.type==='endc'||y.c.type==='hook'||y.c.type==='pricing')&&t>=y.c.t0&&t<=y.c.t1)){el.style.opacity='0';break;}const busyLow=EL.some(y=>y.c&&(y.c.type==='stat'||y.c.type==='chips'||y.c.type==='swaprows')&&t>=y.c.t0-0.1&&t<=y.c.t1);el.classList.toggle('up',busyLow);const ph=x.phrases.find(p=>t>=p.start-0.08&&t<=p.hold);if(!ph){el.style.opacity='0';break;}const idx=x.phrases.indexOf(ph);
         if(x.cur!==idx){el.innerHTML=ph.words.map(w=>'<span>'+w.t+'</span>').join('');x.cur=idx;x.spans=[...el.querySelectorAll('span')];}
         const a=P(t,ph.start-0.08,0.14);el.style.opacity='1';el.style.transform=`scale(${0.86+0.14*outBack(a)}) rotate(${(1-a)*-1.5}deg)`;
         x.spans.forEach((s,k)=>{const w=ph.words[k];const on=t>=w.s-0.02&&t<w.e+0.06;const done=t>=w.e+0.06;s.className=on?'on':(done?'done':'');s.style.transform=on?`scale(${1.06+0.04*Math.sin(Math.PI*clamp((t-w.s)/Math.max(0.18,w.e-w.s)))})`:'scale(1)';});break;}

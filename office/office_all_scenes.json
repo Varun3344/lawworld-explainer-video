@@ -1,0 +1,73 @@
+{
+ "projectTitle": "office_all",
+ "scenes": [
+  {
+   "sceneId": "o01",
+   "dialogue": "Hello. If you are an advocate, this video is for you. I am Ravishankar, founder of LawWorld. I want you to watch it carefully, as it could change the way you practice law."
+  },
+  {
+   "sceneId": "o02",
+   "dialogue": "It can make your work better, faster and cheaper. Let me introduce LawWorld, India's newest and most powerful AI platform for advocates. LawWorld has more than fifteen features."
+  },
+  {
+   "sceneId": "o03",
+   "dialogue": "Each one is built to help you in a different area of your daily legal practice. For case preparation, you get an AI chatbot, drafting tools, legal research and translation."
+  },
+  {
+   "sceneId": "o04",
+   "dialogue": "Everything you need is ready in one place. You also get a complete database of judgments, acts, rules and regulations. All your legal data resources are together, on one platform."
+  },
+  {
+   "sceneId": "o05",
+   "dialogue": "A library of thousands of e-books and videos supports your research. It also helps you grow your knowledge, every single day."
+  },
+  {
+   "sceneId": "o06",
+   "dialogue": "Slides gives you ready-made presentations on law content. Use them to teach, to train your juniors, or to explain a point of law with clarity."
+  },
+  {
+   "sceneId": "o07",
+   "dialogue": "Law Stories brings you high-quality audio discussions on legal topics. Listen and learn on the move, while travelling or waiting at court."
+  },
+  {
+   "sceneId": "o08",
+   "dialogue": "Both Slides and Law Stories are available in more than ten Indian regional languages. So you can learn and teach in the language you think in."
+  },
+  {
+   "sceneId": "o09",
+   "dialogue": "For client management, you get team chat, client billing and a client portal. Your clients stay informed and your office stays organised."
+  },
+  {
+   "sceneId": "o10",
+   "dialogue": "The Your Cases feature connects to e-courts. You can track every case, hearing and order without checking many websites each day."
+  },
+  {
+   "sceneId": "o11",
+   "dialogue": "The Argument Presenter helps you present your case in court. You no longer need to carry heavy physical files to every hearing."
+  },
+  {
+   "sceneId": "o12",
+   "dialogue": "LawWorld is a highly secured platform, fully compliant with the DPDP Act. Your client data stays private, protected and in your control."
+  },
+  {
+   "sceneId": "o13",
+   "dialogue": "LawWorld works on the web, on Android and on iOS. So you can work from your office or on the move."
+  },
+  {
+   "sceneId": "o14",
+   "dialogue": "Don't worry if you're new to AI. Our training videos show you how to use every feature — basic computer skills are enough to get started."
+  },
+  {
+   "sceneId": "o15",
+   "dialogue": "We offer two simple ways to pay. With Pay-as-you-go there is no monthly fee, so you pay only for what you use."
+  },
+  {
+   "sceneId": "o16",
+   "dialogue": "The Pro plan costs just fifteen hundred rupees per month, or twelve thousand rupees for the whole year, plus GST."
+  },
+  {
+   "sceneId": "o17",
+   "dialogue": "It covers most of your needs, and you pay extra only for add-ons and AI usage."
+  }
+ ]
+}

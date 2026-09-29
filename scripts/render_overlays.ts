@@ -40,9 +40,10 @@ fs.mkdirSync(out, { recursive: true });
     await browser.close(); return;
   }
   const total = Math.ceil(tl.duration * fps);
+  const fromF = Number(arg('--from-frame', '0')); const toF = Number(arg('--to-frame', String(total)));
   let blank: Buffer | null = null; let drawn = 0;
   const t0 = Date.now();
-  for (let i = 0; i < total; i++) {
+  for (let i = fromF; i < Math.min(total, toF); i++) {
     const t = i / fps;
     const f = path.join(out, `f${String(i).padStart(5, '0')}.png`);
     const active = await page.evaluate((t) => (window as any).__seek(t), t);

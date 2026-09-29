@@ -1,0 +1,37 @@
+{
+  "aspectRatio": "9:16",
+  "maxWordsPerClip": 33,
+  "speedMultiplier": 1.1,
+  "downloadFolder": "/Users/admin/Downloads/New short/product-explainer/downloads/office",
+  "useLastFrameReference": true,
+  "referenceFrameFrom": "first",
+  "transition": {
+    "type": "cut"
+  },
+  "globalStyle": {
+    "avatar": "@me",
+    "useAccountAvatar": true,
+    "hostName": "the presenter",
+    "channelName": "LawWorld",
+    "voice": "@me verified avatar voice (identical pitch, tone, accent in every clip)",
+    "outfit": "crisp white shirt and black blazer (identical in every scene)",
+    "background": "a premium modern law office: behind him a wall of large warm stone-beige textured panels separated by thin vertical lines, with a soft glowing warm cove light running along the top of the wall, dark walnut wood panels at both sides, a polished dark walnut desk in front of him with a leather desk pad, a gold globe and a stack of books on the left of the desk, a brass dome desk lamp and a small plant in a black pot on the right of the desk, a tall green plant in the far left corner, recessed ceiling spotlights; elegant, calm and luxurious; identical in every scene",
+    "gestures": "Seated upright in the brown leather executive chair behind the walnut desk, forearms resting on the desk, natural calm hand gestures above the desk, stays seated throughout",
+    "audio": "@me verified avatar voice ONLY, continuous speech filling the full clip at a brisk explainer pace, NO background music, NO silence at start or end",
+    "negativePrompts": "Avatar stays centered in the foreground with face and body fully visible at all times; NO objects in front of him, NO icons or graphics; NO text on screen, NO captions, NO name tags, NO logos, NO outfit change, NO camera cut, NO tripod, NO camera or microphone or any studio equipment visible in frame, nothing in front of the avatar",
+    "camera": "Locked-off static shot, vertical 9:16. He is SEATED in a brown leather executive chair behind the walnut desk, framed from the desk top up, centred, so the textured beige wall panels with the glowing cove light are clearly visible above and around him, the brass lamp at the right and the gold globe at the left of the desk. Eye level, 35mm lens look, gentle background blur, no zoom, no pan, no camera movement; the camera itself is never visible",
+    "realism": "Photorealistic cinematic footage in this richly furnished premium law office, NOT a studio. A warm GOLDEN key light from the brass lamp side falls softly on his face, giving it a gentle golden glow, with soft fill from the other side so both sides of his face stay clear; warm cove light glows on the wall behind him. Natural skin texture, natural eye contact and accurate lip sync, identical exposure and white balance in every scene",
+    "delivery": "Confident, warm and energetic founder delivery, like a sharp creator talking straight to camera: brisk steady pace, clear emphasis on key words, a short natural pause after each full stop; speak the dialogue exactly once, word for word, never repeat, stretch or slow down a word"
+  },
+  "projectTitle": "LawWorld_Office_10s",
+  "clipDurationSeconds": 10,
+  "scenes": [
+    {
+      "sceneId": "o01",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter seated in the brown leather chair behind the walnut desk in the premium beige-panelled law office, warm golden light on his face, speaking to camera, same pose and framing as every other clip, no text.",
+      "dialogue": "Hello. If you are an advocate, this video is for you. I am Ravishankar, founder of LawWorld. I want you to watch it carefully, as it could change the way you practice law."
+    }
+  ],
+  "flowProjectUrl": "https://flow.google.com/project/fc191dec-a2bc-4b67-86b5-a084a37b947b"
+}
