@@ -60,7 +60,12 @@ pv = []
 for k, p in enumerate(pres):
     i = add(p["clip"]); g = gains.get(p["clip"]); mix = f"colorchannelmixer=rr={g[0]:.4f}:gg={g[1]:.4f}:bb={g[2]:.4f}," if g else ""
     z = float(p.get("zoom", 1.0)); zf = f"crop=iw/{z:.4f}:ih/{z:.4f}:(iw-iw/{z:.4f})/2:(ih-ih/{z:.4f})*0.35," if z > 1.001 else ""
-    fc.append(f"[{i}:v]trim={p['in']}:{p['out']},setpts=PTS-STARTPTS,{zf}{NORM},{mix}{GRADE_P}[pv{k}]"); pv.append(f"[pv{k}]")
+    push = float(p.get("push", 0.0))
+    if push > 0:
+        L = max(0.1, p["out"] - p["in"])
+        zf = (f"scale=w='trunc(1080*(1+{push:.4f}*t/{L:.3f})/2)*2':h='trunc(1920*(1+{push:.4f}*t/{L:.3f})/2)*2':eval=frame:flags=bicubic,"
+              f"crop=1080:1920:x='(iw-1080)/2':y='(ih-1920)*0.35',")
+    fc.append(f"[{i}:v]trim={p['in']}:{p['out']},setpts=PTS-STARTPTS,scale=1080:1920:flags=lanczos,{zf}{NORM},{mix}{GRADE_P}[pv{k}]"); pv.append(f"[pv{k}]")
 fc.append(f"color=c=black:s={W}x{H}:r={FPS}:d={ps:.3f},format=yuv420p[lead]")
 fc.append("".join(pv)+f"concat=n={len(pv)}:v=1:a=0[ptrack]")
 fc.append("[lead][ptrack]concat=n=2:v=1:a=0,settb=1/24,setpts=N/24/TB[base0]"); main = "[base0]"; main_dur = ps + ptrack_dur
