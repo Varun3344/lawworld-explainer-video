@@ -104,6 +104,6 @@ cues=[c for c in cues if c["type"]!="sweep"]+[c for c in cues if c["type"]=="swe
 json.dump({"duration":total,"scrim_from":9999,"zones":True,"lang":"kn","cues":cues},open(f"{OUT}/timeline.json","w"),indent=1,ensure_ascii=False)
 plan={"fps":24,"out":f"{OUT}/office_kn.mp4","presenter_start":HOOK,"presenter":[{"clip":s["clip"],"in":s["in"],"out":s["out"],"push":0.05} for s in segs],"cutaways":cuts,
  "endcard":{"clip":"brand/cream_tail.mp4","dur":round(END+0.3,3),"offset":0.0,"xfade":0.3},"music":{"file":"audio/bed_office_180s.mp3","target_lufs":-25,"fade_in":0.3,"fade_out":2.8,"duck":True},
- "voice_lufs":-15,"level_voice":True,"limit":0.78,"sfx":sfx,"grade_presenter":"eq=contrast=1.06:saturation=1.04,unsharp=5:5:0.4:5:5:0","overlays":{"dir":f"{OUT}/frames","fps":24},"delogo":None,"total":total,"tail_black":0}
+ "voice_lufs":-13.6,"level_voice":True,"limit":0.85,"sfx":sfx,"grade_presenter":"eq=contrast=1.06:saturation=1.04,unsharp=5:5:0.4:5:5:0","overlays":{"dir":f"{OUT}/frames","fps":24},"delogo":None,"total":total,"tail_black":0}
 json.dump(plan,open(f"{OUT}/plan.json","w"),indent=1)
 print(f"[plan] {len(segs)} clips, {len(cuts)} inserts, {len(sfx)} sfx, speech {HOOK}-{pend}s, total {total}s")

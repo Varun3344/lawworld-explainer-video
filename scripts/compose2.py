@@ -44,7 +44,7 @@ print(f"[compose2] voice gain {vg:+.1f} dB, music gain {mg:+.1f} dB")
 ag = (f"[0:a]volume={vg:.2f}dB,adelay={int(ps*1000)}|{int(ps*1000)},apad=whole_dur={total:.3f},asplit[vmain][vkey];"
       f"[1:a]atrim=0:{total:.3f},asetpts=PTS-STARTPTS,volume={mg:.2f}dB,afade=t=in:st=0:d={m['fade_in']},afade=t=out:st={total-m['fade_out']:.3f}:d={m['fade_out']}[mus];"
       "[mus][vkey]sidechaincompress=threshold=0.015:ratio=5:attack=60:release=700:makeup=1:level_sc=1[musd];"
-      "[vmain][musd]amix=inputs=2:normalize=0:duration=first:dropout_transition=0,alimiter=limit=" + str(plan.get('limit', 0.89)) + ":attack=5:release=80,aresample=48000[aout]")
+      "[vmain][musd]amix=inputs=2:normalize=0:duration=first:dropout_transition=0,alimiter=limit=" + str(plan.get('limit', 0.89)) + (":level=0" if "limit" in plan else "") + ":attack=5:release=80,aresample=48000[aout]")
 sfx = plan.get("sfx", [])
 if sfx:
     sin = []; sg = []

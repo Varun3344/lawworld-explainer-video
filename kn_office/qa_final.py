@@ -14,7 +14,8 @@ print("loudness:", re.findall(r"I:\s+(-?[\d.]+) LUFS", e)[-1], "LUFS | true peak
 base = plan["presenter_start"]; worst = 1.0
 for i, s in enumerate(plan["presenter"]):
     sid = os.path.basename(s["clip"]).split(".")[0]; L = s["out"] - s["in"]; tmp = tempfile.mkdtemp(); mp4 = os.path.join(tmp, sid + ".mp4")
-    subprocess.run(["ffmpeg","-v","error","-y","-ss",f"{base:.3f}","-t",f"{L:.3f}","-i",V,"-vn","-c:a","aac",mp4], check=True)
+    # 0.45 s of lead-in and tail: whisper drops the first word of a segment that starts exactly on speech
+    subprocess.run(["ffmpeg","-v","error","-y","-ss",f"{max(0, base-0.45):.3f}","-t",f"{L+0.9:.3f}","-i",V,"-vn","-c:a","aac",mp4], check=True)
     d = kw.transcribe(mp4); heard = d.get("text", ""); toks = kw.want_tokens(scenes[sid], bool(re.search(r"\d", heard)))
     r = kw.recall("".join(kw.skel(t) for t in toks), "".join(kw.skel(x) for x in heard.split())); worst = min(worst, r)
     print(f"  {sid} at {base:6.2f}s recall in final mix {r:.2f}{'   <-- LOW' if r < 0.55 else ''}")
