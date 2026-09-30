@@ -1,0 +1,79 @@
+{
+  "aspectRatio": "9:16",
+  "maxWordsPerClip": 33,
+  "speedMultiplier": 1,
+  "downloadFolder": "/Users/admin/Downloads/New short/product-explainer/downloads/office_kn",
+  "useLastFrameReference": true,
+  "referenceFrameFrom": "first",
+  "transition": {
+    "type": "cut"
+  },
+  "globalStyle": {
+    "avatar": "@me",
+    "useAccountAvatar": true,
+    "hostName": "the presenter",
+    "channelName": "LawWorld",
+    "voice": "@me verified avatar voice, speaking fluent natural Kannada with a clear Karnataka accent (identical pitch and tone in every clip)",
+    "outfit": "crisp white shirt and black blazer (identical in every scene)",
+    "background": "a premium modern law office: behind him a wall of large warm stone-beige textured panels separated by thin vertical lines, with a soft glowing warm cove light running along the top of the wall, dark walnut wood panels at both sides, a polished dark walnut desk in front of him with a leather desk pad, a gold globe and a stack of books on the left of the desk, a brass dome desk lamp and a small plant in a black pot on the right of the desk, a tall green plant in the far left corner, recessed ceiling spotlights; elegant, calm and luxurious; identical in every scene",
+    "gestures": "Seated upright in the brown leather executive chair behind the walnut desk, forearms resting on the desk, natural calm hand gestures above the desk, stays seated throughout",
+    "audio": "@me verified avatar voice ONLY, speaking the dialogue in the Kannada language exactly as written, continuous speech filling the clip at a steady brisk pace, NO background music, NO silence at start or end",
+    "negativePrompts": "Avatar stays centered in the foreground with face and body fully visible at all times; NO objects in front of him, NO icons or graphics; NO text on screen, NO captions, NO name tags, NO logos, NO outfit change, NO camera cut, NO tripod, NO camera or microphone or any studio equipment visible in frame, nothing in front of the avatar",
+    "camera": "Locked-off static shot, vertical 9:16. He is SEATED in a brown leather executive chair behind the walnut desk, framed from the desk top up, centred, so the textured beige wall panels with the glowing cove light are clearly visible above and around him, the brass lamp at the right and the gold globe at the left of the desk. Eye level, 35mm lens look, gentle background blur, no zoom, no pan, no camera movement; the camera itself is never visible",
+    "realism": "Photorealistic cinematic footage in this richly furnished premium law office, NOT a studio. A warm GOLDEN key light from the brass lamp side falls softly on his face, giving it a gentle golden glow, with soft fill from the other side so both sides of his face stay clear; warm cove light glows on the wall behind him. Natural skin texture, natural eye contact and accurate lip sync, identical exposure and white balance in every scene",
+    "delivery": "Warm, confident Kannada delivery, like a trusted legal educator and founder speaking to advocates in Karnataka: steady brisk pace, clear pronunciation of every Kannada word, natural emphasis; speak the dialogue exactly once, word for word in Kannada, never translate it, never repeat, stretch or slow down a word"
+  },
+  "projectTitle": "LawWorld_OfficeKN_8s",
+  "clipDurationSeconds": 8,
+  "scenes": [
+    {
+      "sceneId": "o01",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter seated in the brown leather chair behind the walnut desk in the premium beige-panelled law office, warm golden light on his face, speaking to camera, same pose and framing as every other clip, no text.",
+      "dialogue": "Hello. If you are an advocate, this video is for you. I am Ravishankar, founder of LawWorld. I want you to watch it carefully, as it could change the way you practice law."
+    },
+    {
+      "sceneId": "q03",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter seated in the brown leather chair behind the walnut desk in the premium beige-panelled law office, warm golden light on his face, speaking to camera in Kannada, same pose and framing as every other clip, no text.",
+      "dialogue": "ಲಾ ವರ್ಲ್ಡ್‌ನಲ್ಲಿ ಹದಿನೈದಕ್ಕೂ ಹೆಚ್ಚು ವೈಶಿಷ್ಟ್ಯಗಳಿವೆ. ಪ್ರತಿಯೊಂದೂ ನಿಮ್ಮ ದಿನನಿತ್ಯದ ವಕೀಲಿ ಕೆಲಸದ ಬೇರೆ ಬೇರೆ ಭಾಗಕ್ಕೆ ನೆರವಾಗುತ್ತದೆ."
+    },
+    {
+      "sceneId": "q06",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter seated in the brown leather chair behind the walnut desk in the premium beige-panelled law office, warm golden light on his face, speaking to camera in Kannada, same pose and framing as every other clip, no text.",
+      "dialogue": "ಸಾವಿರಾರು ಇ-ಪುಸ್ತಕಗಳು ಮತ್ತು ವಿಡಿಯೋಗಳ ಗ್ರಂಥಾಲಯ ನಿಮ್ಮ ಸಂಶೋಧನೆಗೆ ಬೆಂಬಲ ನೀಡುತ್ತದೆ. ಪ್ರತಿದಿನ ನಿಮ್ಮ ಜ್ಞಾನ ಬೆಳೆಸಲು ನೆರವಾಗುತ್ತದೆ."
+    },
+    {
+      "sceneId": "q08",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter seated in the brown leather chair behind the walnut desk in the premium beige-panelled law office, warm golden light on his face, speaking to camera in Kannada, same pose and framing as every other clip, no text.",
+      "dialogue": "ಲಾ ಸ್ಟೋರೀಸ್ ಕಾನೂನು ವಿಷಯಗಳ ಉತ್ತಮ ಗುಣಮಟ್ಟದ ಆಡಿಯೋ ಚರ್ಚೆಗಳನ್ನು ತರುತ್ತದೆ. ಪ್ರಯಾಣದಲ್ಲಿರಲಿ, ನ್ಯಾಯಾಲಯದಲ್ಲಿ ಕಾಯುತ್ತಿರಲಿ, ಕೇಳುತ್ತಾ ಕಲಿಯಿರಿ."
+    },
+    {
+      "sceneId": "q11",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter seated in the brown leather chair behind the walnut desk in the premium beige-panelled law office, warm golden light on his face, speaking to camera in Kannada, same pose and framing as every other clip, no text.",
+      "dialogue": "ಯುವರ್ ಕೇಸಸ್ ವೈಶಿಷ್ಟ್ಯ ಇ-ಕೋರ್ಟ್ಸ್‌ಗೆ ಸಂಪರ್ಕಗೊಳ್ಳುತ್ತದೆ. ಪ್ರತಿದಿನ ಹಲವು ವೆಬ್‌ಸೈಟ್‌ಗಳನ್ನು ನೋಡದೆ, ಪ್ರತಿ ಕೇಸ್, ವಿಚಾರಣೆ ಮತ್ತು ಆದೇಶವನ್ನು ಗಮನಿಸಬಹುದು."
+    },
+    {
+      "sceneId": "q12",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter seated in the brown leather chair behind the walnut desk in the premium beige-panelled law office, warm golden light on his face, speaking to camera in Kannada, same pose and framing as every other clip, no text.",
+      "dialogue": "ಆರ್ಗ್ಯುಮೆಂಟ್ ಪ್ರೆಸೆಂಟರ್ ನ್ಯಾಯಾಲಯದಲ್ಲಿ ನಿಮ್ಮ ವಾದ ಮಂಡಿಸಲು ನೆರವಾಗುತ್ತದೆ. ಇನ್ನು ಪ್ರತಿ ವಿಚಾರಣೆಗೆ ಭಾರವಾದ ಕಡತಗಳನ್ನು ಹೊತ್ತು ತರಬೇಕಿಲ್ಲ."
+    },
+    {
+      "sceneId": "q14",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter seated in the brown leather chair behind the walnut desk in the premium beige-panelled law office, warm golden light on his face, speaking to camera in Kannada, same pose and framing as every other clip, no text.",
+      "dialogue": "ಲಾ ವರ್ಲ್ಡ್ ವೆಬ್, ಆಂಡ್ರಾಯ್ಡ್ ಮತ್ತು ಐಒಎಸ್‌ನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತದೆ. ಕಚೇರಿಯಿಂದಲೂ, ಪ್ರಯಾಣದಲ್ಲೂ ನೀವು ಸುಲಭವಾಗಿ ಕೆಲಸ ಮಾಡಬಹುದು."
+    },
+    {
+      "sceneId": "q16",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter seated in the brown leather chair behind the walnut desk in the premium beige-panelled law office, warm golden light on his face, speaking to camera in Kannada, same pose and framing as every other clip, no text.",
+      "dialogue": "ಪಾವತಿಗೆ ಎರಡು ಸರಳ ಆಯ್ಕೆಗಳಿವೆ. ಪೇ ಆಸ್ ಯು ಗೋ ಆಯ್ಕೆಯಲ್ಲಿ ಮಾಸಿಕ ಶುಲ್ಕ ಇಲ್ಲ, ನೀವು ಬಳಸಿದ್ದಕ್ಕೆ ಮಾತ್ರ ಪಾವತಿಸುತ್ತೀರಿ."
+    }
+  ],
+  "flowProjectUrl": "https://flow.google.com/project/1e1f209e-acdb-4e83-98a9-a23372805955"
+}

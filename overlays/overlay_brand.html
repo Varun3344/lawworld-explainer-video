@@ -181,6 +181,43 @@
   .phone .row .t{font-size:20px;font-weight:700;color:var(--ink);}
   .phone .row .s{font-size:16px;color:var(--muted);}
   .sweep{width:1080px;height:1920px;background:linear-gradient(100deg,rgba(255,255,255,0) 40%,rgba(255,236,200,.28) 50%,rgba(255,255,255,0) 60%);background-size:300% 100%;mix-blend-mode:screen;}
+
+  /* ===== low zones: presenter's face fills the top half -> cards over the lower body, captions at the bottom ===== */
+  body.zlow .kcap{top:1640px !important;font-size:62px;}
+  body.zlow .kcap.up{top:1640px !important;}
+  body.zlow .stat{top:1100px;height:420px;}
+  body.zlow .chips.lowrow{top:1260px;}
+  body.zlow .lt{top:1230px;left:60px;}
+  body.zlow .title{top:1150px;}
+  body.zlow .slam{top:1120px;}
+  body.zlow .title .h{font-size:64px;}
+
+  /* Kannada in the zones layout: taller glyphs, keep captions on one or two tidy lines */
+  body.kn.zones .kcap{font-size:58px;line-height:1.4;letter-spacing:0;font-weight:700;}
+  body.kn .kcap span{margin:0 9px;}
+  body.kn .hook .l1{font-size:96px;letter-spacing:0;line-height:1.25;top:570px;}
+  body.kn .hook .l2{font-size:104px;letter-spacing:0;line-height:1.25;top:720px;}
+  body.kn .hook .l3{font-size:50px;letter-spacing:0;top:910px;}
+  body.kn .hook .bar{top:1010px;}
+  body.kn .slam .w{font-size:100px;letter-spacing:0;line-height:1.3;}
+  body.kn .stat .l{font-size:46px;letter-spacing:0;line-height:1.35;}
+  body.kn .stat .s{font-size:30px;line-height:1.4;}
+  body.kn .orbit .core .l{font-size:34px;line-height:1.3;}
+  body.kn .phone .hd{font-size:24px;} body.kn .phone .row .t{font-size:19px;line-height:1.3;} body.kn .phone .row .s{font-size:15px;line-height:1.3;}
+  body.kn .pricing .h{font-size:62px;line-height:1.3;}
+  body.kn .pcard .name{font-size:52px;line-height:1.25;} body.kn .pcard .line{font-size:32px;line-height:1.4;} body.kn .pcard .per{font-size:30px;}
+  body.kn .endc .what{font-size:52px;letter-spacing:0;line-height:1.3;} body.kn .endc .who{font-size:32px;line-height:1.4;}
+  body.kn .title .s{font-size:28px;}
+  body.kn .chip{height:auto;padding:14px 24px 14px 18px;}
+
+  /* slam words and the orbit badge must read on a light wall */
+  body.zones .slam .w{background:rgba(31,30,29,.9);padding:6px 36px 12px;border-radius:28px;box-shadow:0 18px 44px rgba(31,30,29,.35);text-shadow:none;}
+  body.kn .orbit .core{height:236px;top:112px;left:360px;width:360px;}
+  body.kn .orbit .core .l{font-size:32px;line-height:1.35;margin-top:2px;}
+
+  /* zones layout: captions sit on the dark desk -> white words with a soft dark shadow */
+  body.zones .kcap{color:#fff;text-shadow:0 3px 0 rgba(31,30,29,.55),0 0 10px rgba(31,30,29,.7),0 0 28px rgba(31,30,29,.85);}
+  body.zones .kcap span.done{color:#fff;}
 </style></head>
 <body><div id="stage"></div>
 <script>
@@ -195,7 +232,7 @@ let EL=[]; const stage=document.getElementById('stage');
 function div(cls,html){const d=document.createElement('div');d.className='abs '+(cls||'');if(html!==undefined)d.innerHTML=html;stage.appendChild(d);return d;}
 function chipHTML(i){return '<div class="chip card"><div class="tile">'+svg(i.icon)+'</div><div class="t serif">'+i.text+'</div></div>';}
 function init(tl){
-  stage.innerHTML='';EL=[];document.body.classList.toggle('kn',tl.lang==='kn');document.body.classList.toggle('zones',!!tl.zones);
+  stage.innerHTML='';EL=[];document.body.classList.toggle('kn',tl.lang==='kn');document.body.classList.toggle('zones',!!tl.zones);document.body.classList.toggle('zlow',!!tl.zlow);
   const sb=div(''); sb.id='scrim-bot'; EL.push({type:'_scrim',el:sb,t0:tl.scrim_from??0,t1:tl.duration});
   for(const c of tl.cues){
     switch(c.type){
@@ -205,7 +242,7 @@ function init(tl){
       case 'lockup':{const e=div('lockup','<div class="in"><div class="mk"></div><div class="wd"></div></div>');EL.push({c,el:e});break;}
       case 'bignum':{const e=div('bignum','<div class="n serif">'+c.num+'</div><div class="rule"></div><div class="l">'+c.label+'</div>');EL.push({c,el:e,q:{n:e.querySelector('.n'),r:e.querySelector('.rule'),l:e.querySelector('.l')}});break;}
       case 'chapter':{const e=div('chapter','<i></i><span>'+c.text+'</span><i></i>');EL.push({c,el:e});break;}
-      case 'chips':{const side=c.side||'right';const e=div('chips '+side,c.items.map(chipHTML).join(''));const items=[...e.querySelectorAll('.chip')];if(side!=='row'&&side!=='lowrow')items.forEach((p,k)=>p.style.top=((c.top??400)+k*116)+'px');EL.push({c,el:e,items});break;}
+      case 'chips':{const side=c.side||'right';const e=div('chips '+side,c.items.map(chipHTML).join(''));const items=[...e.querySelectorAll('.chip')];if(c.top!=null&&side==='lowrow')e.style.top=c.top+'px';if(side!=='row'&&side!=='lowrow')items.forEach((p,k)=>p.style.top=((c.top??400)+k*116)+'px');EL.push({c,el:e,items});break;}
       case 'swaprows':{const e=div('swap',c.rows.map(r=>'<div class="row card"><div class="old">'+r.old+'</div><div class="arr">'+svg('arrow-right')+'</div><div class="new serif">'+r.new+'</div>'+(r.tag?'<div class="tag">'+r.tag+'</div>':'')+'</div>').join(''));e.style.top=(c.top??1040)+'px';EL.push({c,el:e,items:[...e.querySelectorAll('.row')]});break;}
 
       case 'hook':{const e=div('hook','<div class="bg"></div><div class="l1">'+c.l1+'</div><div class="l2">'+c.l2+'</div><div class="l3">'+(c.l3||'')+'</div><div class="bar"></div>');EL.push({c,el:e,q:{l1:e.querySelector('.l1'),l2:e.querySelector('.l2'),l3:e.querySelector('.l3'),bar:e.querySelector('.bar'),bg:e.querySelector('.bg')}});break;}
@@ -221,9 +258,9 @@ function init(tl){
       case 'sweep':{const e=div('sweep','');EL.push({c,el:e});break;}
       case 'title':{const e=div('title','<div class="in card"><div class="h serif">'+c.title+'</div>'+(c.sub?'<div class="s">'+c.sub+'</div>':'')+'</div>');EL.push({c,el:e,q:{s:e.querySelector('.s')}});break;}
       case 'captions':{const e=div('caps','');EL.push({c,el:e,phrases:groupWords(c.words,c),cur:-1});break;}
-      case 'pricing':{const e=div('pricing','<div class="wash"></div><div class="h serif">Two simple ways to <i>pay</i></div>'
-        +'<div class="pcard card" id="payg" style="top:330px"><div class="head"><div class="tile">'+svg('badge-indian-rupee')+'</div><div class="name serif">Pay-as-you-go</div></div>'+c.payg_lines.map(l=>'<div class="line">'+svg('check')+'<span>'+l.text+'</span></div>').join('')+'</div>'
-        +'<div class="pcard card" id="pro" style="top:790px"><div class="head"><div class="tile">'+svg('star')+'</div><div class="name serif">Pro</div></div><div class="price"><div class="big serif" id="p1">₹1,500</div><div class="per">/ month</div></div><div class="price" style="margin-top:6px"><div class="big serif" id="p2" style="font-size:72px">₹12,000</div><div class="per">/ year</div><div class="per" id="p3" style="color:var(--accent-deep)">+ GST</div></div>'+c.pro_lines.slice(3).map(l=>'<div class="line">'+svg('check')+'<span>'+l.text+'</span></div>').join('')+'</div>');
+      case 'pricing':{const e=div('pricing','<div class="wash"></div><div class="h serif">'+(c.heading||'Two simple ways to <i>pay</i>')+'</div>'
+        +'<div class="pcard card" id="payg" style="top:330px"><div class="head"><div class="tile">'+svg('badge-indian-rupee')+'</div><div class="name serif">'+(c.payg_name||'Pay-as-you-go')+'</div></div>'+c.payg_lines.map(l=>'<div class="line">'+svg('check')+'<span>'+l.text+'</span></div>').join('')+'</div>'
+        +'<div class="pcard card" id="pro" style="top:790px"><div class="head"><div class="tile">'+svg('star')+'</div><div class="name serif">'+(c.pro_name||'Pro')+'</div></div><div class="price"><div class="big serif" id="p1">₹1,500</div><div class="per">'+(c.per_month||'/ month')+'</div></div><div class="price" style="margin-top:6px"><div class="big serif" id="p2" style="font-size:72px">₹12,000</div><div class="per">'+(c.per_year||'/ year')+'</div><div class="per" id="p3" style="color:var(--accent-deep)">+ GST</div></div>'+c.pro_lines.slice(3).map(l=>'<div class="line">'+svg('check')+'<span>'+l.text+'</span></div>').join('')+'</div>');
         EL.push({c,el:e,q:{h:e.querySelector('.h'),payg:e.querySelector('#payg'),pro:e.querySelector('#pro'),paygLines:[...e.querySelectorAll('#payg .line')],p1:e.querySelector('#p1'),p2:e.querySelector('#p2'),p3:e.querySelector('#p3'),proLines:[...e.querySelectorAll('#pro .line')]}});break;}
       case 'cta':{const e=div('cta','<div class="wash"></div><div class="card"><div class="tile" style="margin:0 auto 14px;width:76px;height:76px;border-radius:20px">'+svg('gift').replace('<svg','<svg style="width:40px;height:40px"')+'</div><div class="amt serif">₹200</div><div class="what serif">free AI credits</div><div class="who">for every new user</div></div><div class="link">Click the link below to start</div><div class="arrow">'+svg('arrow-down')+'</div><div class="lk"><div class="in"><div class="mk"></div><div class="wd"></div></div></div><div class="url">'+(c.url||'lawworld.ai')+'</div>');
         EL.push({c,el:e,q:{card:e.querySelector('.card'),link:e.querySelector('.link'),arrow:e.querySelector('.arrow'),lk:e.querySelector('.lk'),url:e.querySelector('.url')}});break;}
@@ -263,12 +300,12 @@ function seek(t){
       case 'chips':{el.style.opacity=String(outA);const row=['row','lowrow'].includes(c.side||'right');x.items.forEach((p,k)=>{const a=P(t,c.items[k].at??c.t0,0.5);p.style.opacity=String(clamp(a*2));p.style.transform=row?`translateY(${(1-outExpo(a))*40}px) scale(${0.94+0.06*outBack(a)})`:`translateX(${(1-outExpo(a))*70}px) scale(${0.94+0.06*outBack(a)})`;});break;}
       case 'swaprows':{el.style.opacity=String(outA);x.items.forEach((r,k)=>{const a=P(t,c.rows[k].at??c.t0,0.5);r.style.opacity=String(clamp(a*2));r.style.transform=`translateY(${(1-outExpo(a))*44}px) scale(${0.96+0.04*outBack(a)})`;});break;}
 
-      case 'hook':{const a=P(t,c.t0,0.35),b=P(t,c.t0+0.18,0.35),d=P(t,c.t0+0.45,0.4),k=P(t,c.t0+0.55,0.5);
+      case 'hook':{const I=c.instant?1:0;const a=I||P(t,c.t0,0.35),b=I||P(t,c.t0+0.18,0.35),d=I||P(t,c.t0+0.45,0.4),k=I||P(t,c.t0+0.55,0.5);
         x.q.bg.style.transform=`scale(${1+0.06*(t-c.t0)})`;
         x.q.l1.style.transform=`translateY(${(1-outExpo(a))*90}px) scale(${1.25-0.25*outExpo(a)})`;x.q.l1.style.opacity=String(clamp(a*3));
         x.q.l2.style.transform=`translateY(${(1-outExpo(b))*90}px) scale(${1.25-0.25*outExpo(b)})`;x.q.l2.style.opacity=String(clamp(b*3));
-        x.q.l3.style.opacity=String(outCubic(d));x.q.l3.style.transform=`translateY(${(1-outExpo(d))*30}px)`;x.q.bar.style.transform=`scaleX(${outExpo(k)})`;el.style.opacity=String(outA);break;}
-      case 'kcap':{if(EL.some(y=>y.c&&(y.c.type==='endc'||y.c.type==='hook'||y.c.type==='pricing')&&t>=y.c.t0&&t<=y.c.t1)){el.style.opacity='0';break;}const busyLow=EL.some(y=>y.c&&(y.c.type==='stat'||y.c.type==='chips'||y.c.type==='swaprows')&&t>=y.c.t0-0.1&&t<=y.c.t1);el.classList.toggle('up',busyLow&&!document.body.classList.contains('zones'));const ph=x.phrases.find(p=>t>=p.start-0.08&&t<=p.hold);if(!ph){el.style.opacity='0';break;}const idx=x.phrases.indexOf(ph);
+        x.q.l3.style.opacity=String(outCubic(d));x.q.l3.style.transform=`translateY(${(1-outExpo(d))*30}px)`;x.q.bar.style.transform=`scaleX(${outExpo(k)})`;if(I){const z=1.05-0.05*outExpo(P(t,c.t0,0.6));x.q.l1.style.transform=`scale(${z})`;x.q.l2.style.transform=`scale(${z})`;x.q.l1.style.transformOrigin='left center';x.q.l2.style.transformOrigin='left center';}el.style.opacity=String(outA);break;}
+      case 'kcap':{if(EL.some(y=>y.c&&(y.c.type==='endc'||y.c.type==='hook'||y.c.type==='pricing')&&t>=y.c.t0&&t<=y.c.t1)){el.style.opacity='0';break;}const busyLow=EL.some(y=>y.c&&(y.c.type==='stat'||y.c.type==='chips'||y.c.type==='swaprows')&&t>=y.c.t0-0.1&&t<=y.c.t1);el.classList.toggle('up',busyLow&&!document.body.classList.contains('zones')&&!document.body.classList.contains('zlow'));const ph=x.phrases.find(p=>t>=p.start-0.08&&t<=p.hold);if(!ph){el.style.opacity='0';break;}const idx=x.phrases.indexOf(ph);
         if(x.cur!==idx){el.innerHTML=ph.words.map(w=>'<span>'+w.t+'</span>').join('');x.cur=idx;x.spans=[...el.querySelectorAll('span')];}
         const a=P(t,ph.start-0.08,0.14);el.style.opacity='1';el.style.transform=`scale(${0.86+0.14*outBack(a)}) rotate(${(1-a)*-1.5}deg)`;
         x.spans.forEach((s,k)=>{const w=ph.words[k];const on=t>=w.s-0.02&&t<w.e+0.06;const done=t>=w.e+0.06;s.className=on?'on':(done?'done':'');s.style.transform=on?`scale(${1.06+0.04*Math.sin(Math.PI*clamp((t-w.s)/Math.max(0.18,w.e-w.s)))})`:'scale(1)';});break;}

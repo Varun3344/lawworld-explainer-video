@@ -25,14 +25,26 @@ GRADE_P = plan.get("grade_presenter") or "eq=contrast=1.04:saturation=0.97,unsha
 # ---- pass 1: audio ----
 voice = os.path.join(work, "voice.wav"); final_audio = os.path.join(work, "final_audio.wav")
 segs = []; vin = []
-for k, p in enumerate(pres): vin += ["-i", p["clip"]]; segs.append(f"[{k}:a]atrim={p['in']}:{p['out']},asetpts=PTS-STARTPTS[a{k}]")
+def mean_db(clip, a, b):
+    o = subprocess.run(["ffmpeg","-hide_banner","-nostats","-ss",f"{a:.3f}","-t",f"{b-a:.3f}","-i",clip,"-vn","-af","volumedetect","-f","null","-"],capture_output=True,text=True).stderr
+    m = re.search(r"mean_volume: (-?[\d.]+) dB", o); return float(m.group(1)) if m else None
+lv = {}
+if plan.get("level_voice"):
+    ms = [mean_db(p["clip"], p["in"], p["out"]) for p in pres]; okm = sorted(x for x in ms if x is not None)
+    if okm:
+        med = okm[len(okm)//2]; lv = {k: max(-6.0, min(6.0, med - x)) for k, x in enumerate(ms) if x is not None}
+        print("[compose2] per-clip voice levelling (dB): " + " ".join(f"{v:+.1f}" for v in lv.values()))
+for k, p in enumerate(pres):
+    L = p["out"] - p["in"]; vin += ["-i", p["clip"]]
+    # 20-30 ms fades at every cut: no clicks where two takes meet
+    segs.append(f"[{k}:a]atrim={p['in']}:{p['out']},asetpts=PTS-STARTPTS,volume={lv.get(k, 0.0):.2f}dB,afade=t=in:st=0:d=0.02,afade=t=out:st={max(0, L-0.03):.3f}:d=0.03[a{k}]")
 run(["ffmpeg","-hide_banner","-y"]+vin+["-filter_complex", ";".join(segs)+";"+"".join(f"[a{k}]" for k in range(len(segs)))+f"concat=n={len(segs)}:v=0:a=1[v]","-map","[v]","-ac","2","-ar","48000",voice], os.path.join(work,"p1a.log"))
 vg = plan["voice_lufs"] - lufs(voice); m = plan["music"]; mg = m["target_lufs"] - lufs(m["file"])
 print(f"[compose2] voice gain {vg:+.1f} dB, music gain {mg:+.1f} dB")
 ag = (f"[0:a]volume={vg:.2f}dB,adelay={int(ps*1000)}|{int(ps*1000)},apad=whole_dur={total:.3f},asplit[vmain][vkey];"
       f"[1:a]atrim=0:{total:.3f},asetpts=PTS-STARTPTS,volume={mg:.2f}dB,afade=t=in:st=0:d={m['fade_in']},afade=t=out:st={total-m['fade_out']:.3f}:d={m['fade_out']}[mus];"
       "[mus][vkey]sidechaincompress=threshold=0.015:ratio=5:attack=60:release=700:makeup=1:level_sc=1[musd];"
-      "[vmain][musd]amix=inputs=2:normalize=0:duration=first:dropout_transition=0,alimiter=limit=0.89:attack=5:release=80,aresample=48000[aout]")
+      "[vmain][musd]amix=inputs=2:normalize=0:duration=first:dropout_transition=0,alimiter=limit=" + str(plan.get('limit', 0.89)) + ":attack=5:release=80,aresample=48000[aout]")
 sfx = plan.get("sfx", [])
 if sfx:
     sin = []; sg = []

@@ -8,3 +8,6 @@ __pycache__/
 .DS_Store
 *.log
 storyboard_progress.json
+stock/
+lokadalat/*.mp3
+lokadalat/*.png
