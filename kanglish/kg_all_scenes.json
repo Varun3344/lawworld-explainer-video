@@ -1,0 +1,95 @@
+{
+ "projectTitle": "kanglish_all",
+ "scenes": [
+  {
+   "sceneId": "g01",
+   "seconds": 10,
+   "dialogue": "ನಮಸ್ಕಾರ. ನೀವು advocate ಆಗಿದ್ದರೆ, ಈ video ನಿಮಗಾಗಿ. ನಾನು ರವಿಶಂಕರ್, LawWorld founder. ಗಮನವಿಟ್ಟು ನೋಡಿ, ಇದು ನಿಮ್ಮ practice ಮಾಡುವ ರೀತಿಯನ್ನೇ change ಮಾಡಬಹುದು."
+  },
+  {
+   "sceneId": "g02",
+   "seconds": 10,
+   "dialogue": "ಇದರಿಂದ ನಿಮ್ಮ ಕೆಲಸ better, faster ಮತ್ತು cheaper ಆಗುತ್ತದೆ. LawWorld, advocates ಗಾಗಿ India ದ ಹೊಸ ಮತ್ತು most powerful AI platform."
+  },
+  {
+   "sceneId": "g03",
+   "seconds": 8,
+   "dialogue": "LawWorld ನಲ್ಲಿ ಹದಿನೈದಕ್ಕೂ ಹೆಚ್ಚು features ಇವೆ. ಪ್ರತಿಯೊಂದೂ ನಿಮ್ಮ daily practice ನ ಬೇರೆ ಬೇರೆ ಭಾಗಕ್ಕೆ help ಮಾಡುತ್ತದೆ."
+  },
+  {
+   "sceneId": "g04",
+   "seconds": 10,
+   "dialogue": "Case preparation ಗಾಗಿ ನಿಮಗೆ AI chatbot, drafting tools, legal research ಮತ್ತು translation ಸಿಗುತ್ತವೆ. ಬೇಕಾದ ಎಲ್ಲವೂ ಒಂದೇ ಕಡೆ ready ಆಗಿ ಇರುತ್ತದೆ."
+  },
+  {
+   "sceneId": "g05",
+   "seconds": 10,
+   "dialogue": "Judgments, acts, rules ಮತ್ತು regulations ನ complete database ಕೂಡ ಇದೆ. ನಿಮ್ಮ ಎಲ್ಲಾ legal data resources ಒಂದೇ platform ನಲ್ಲಿ ಒಟ್ಟಿಗೆ ಸಿಗುತ್ತವೆ."
+  },
+  {
+   "sceneId": "g06",
+   "seconds": 8,
+   "dialogue": "ಸಾವಿರಾರು e-books ಮತ್ತು videos ಇರುವ library ನಿಮ್ಮ research ಗೆ support ಮಾಡುತ್ತದೆ. ಪ್ರತಿದಿನ ನಿಮ್ಮ knowledge ಬೆಳೆಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ."
+  },
+  {
+   "sceneId": "g07",
+   "seconds": 10,
+   "dialogue": "Slides ನಿಮಗೆ law content ನ ready-made presentations ಕೊಡುತ್ತದೆ. ಪಾಠ ಮಾಡಲು, juniors ಗೆ training ಕೊಡಲು ಅಥವಾ ಒಂದು point of law explain ಮಾಡಲು ಬಳಸಿ."
+  },
+  {
+   "sceneId": "g08",
+   "seconds": 8,
+   "dialogue": "Law Stories ನಿಮಗೆ legal topics ಮೇಲೆ high-quality audio discussions ತರುತ್ತದೆ. Travel ಮಾಡುವಾಗ, court ನಲ್ಲಿ wait ಮಾಡುವಾಗ, ಕೇಳುತ್ತಾ ಕಲಿಯಿರಿ."
+  },
+  {
+   "sceneId": "g09",
+   "seconds": 10,
+   "dialogue": "Slides ಮತ್ತು Law Stories ಎರಡೂ ಹತ್ತಕ್ಕೂ ಹೆಚ್ಚು Indian regional languages ನಲ್ಲಿ available. ನೀವು ಯೋಚಿಸುವ ಭಾಷೆಯಲ್ಲೇ ಕಲಿಯಬಹುದು ಮತ್ತು ಕಲಿಸಬಹುದು."
+  },
+  {
+   "sceneId": "g10",
+   "seconds": 10,
+   "dialogue": "Client management ಗಾಗಿ team chat, client billing ಮತ್ತು client portal ಇವೆ. ನಿಮ್ಮ clients ಗೆ ಯಾವಾಗಲೂ update ಸಿಗುತ್ತದೆ, ನಿಮ್ಮ office organised ಆಗಿ ಇರುತ್ತದೆ."
+  },
+  {
+   "sceneId": "g11",
+   "seconds": 8,
+   "dialogue": "Your Cases feature e-Courts ಗೆ connect ಆಗುತ್ತದೆ. ಹಲವು websites ನೋಡದೆ, ಪ್ರತಿ case, hearing ಮತ್ತು order track ಮಾಡಬಹುದು."
+  },
+  {
+   "sceneId": "g12",
+   "seconds": 8,
+   "dialogue": "Argument Presenter court ನಲ್ಲಿ ನಿಮ್ಮ case present ಮಾಡಲು help ಮಾಡುತ್ತದೆ. ಇನ್ನು hearing ಗೆ ಭಾರವಾದ files ಹೊತ್ತು ತರಬೇಕಿಲ್ಲ."
+  },
+  {
+   "sceneId": "g13",
+   "seconds": 10,
+   "dialogue": "LawWorld ಒಂದು highly secured platform, DPDP Act ಗೆ fully compliant. ನಿಮ್ಮ client data private ಆಗಿ, protected ಆಗಿ ಮತ್ತು ನಿಮ್ಮ control ನಲ್ಲೇ ಇರುತ್ತದೆ."
+  },
+  {
+   "sceneId": "g14",
+   "seconds": 8,
+   "dialogue": "LawWorld web, Android ಮತ್ತು iOS ನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತದೆ. Office ನಿಂದಲೂ, travel ಮಾಡುವಾಗಲೂ ನೀವು ಸುಲಭವಾಗಿ ಕೆಲಸ ಮಾಡಬಹುದು."
+  },
+  {
+   "sceneId": "g15",
+   "seconds": 10,
+   "dialogue": "AI ನಿಮಗೆ ಹೊಸದಾಗಿದ್ದರೆ worry ಮಾಡಬೇಡಿ. ಪ್ರತಿ feature ಹೇಗೆ use ಮಾಡಬೇಕು ಅಂತ ನಮ್ಮ training videos ತೋರಿಸುತ್ತವೆ. Start ಮಾಡಲು basic computer skills ಸಾಕು."
+  },
+  {
+   "sceneId": "g16",
+   "seconds": 8,
+   "dialogue": "Pay ಮಾಡಲು ಎರಡು simple options ಇವೆ. Pay-as-you-go ನಲ್ಲಿ monthly fee ಇಲ್ಲ, ನೀವು use ಮಾಡಿದ್ದಕ್ಕೆ ಮಾತ್ರ pay ಮಾಡುತ್ತೀರಿ."
+  },
+  {
+   "sceneId": "g17",
+   "seconds": 10,
+   "dialogue": "Pro plan ಬೆಲೆ ತಿಂಗಳಿಗೆ ಕೇವಲ ಒಂದು ಸಾವಿರದ ಐನೂರು ರೂಪಾಯಿ, ಅಥವಾ ಇಡೀ ವರ್ಷಕ್ಕೆ ಹನ್ನೆರಡು ಸಾವಿರ ರೂಪಾಯಿ, plus GST."
+  },
+  {
+   "sceneId": "g18",
+   "seconds": 8,
+   "dialogue": "ಇದು ನಿಮ್ಮ ಬಹುತೇಕ needs cover ಮಾಡುತ್ತದೆ. Add-ons ಮತ್ತು AI usage ಗೆ ಮಾತ್ರ extra."
+  }
+ ]
+}
