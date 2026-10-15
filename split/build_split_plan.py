@@ -125,7 +125,8 @@ fx("whoosh", pend + 0.1, -16)
 
 json.dump({"duration": total, "width": 1920, "height": 1080, **({"layout": {"px": BOX_W}} if WIDE else {}), "cues": cues}, open(f"{OUT}/timeline.json", "w"), indent=1, ensure_ascii=False)
 plan = {"fps": 24, "out": f"{OUT}/split_sample.mp4", "size": [1920, 1080],
-        "presenter_box": {"x": 0, "y": 0, "w": BOX_W, "h": 1080, "fx": 0.5, "fy": 0.35, "pad": "0xf5f0e8"},
+        # wide: fy 0.78 crops the top ~50 source px, where the 9:16 ivory clips carry a dark cove line at y≈36 that would end at the seam
+        "presenter_box": {"x": 0, "y": 0, "w": BOX_W, "h": 1080, "fx": 0.5, "fy": 0.78 if WIDE else 0.35, "pad": "0xf5f0e8"},
         "presenter_start": HOOK,
         "presenter": [{k: v for k, v in {"clip": s["clip"], "in": s["in"], "out": s["out"], "zoom": s["zoom"], "push": 0.03, "fx": s["fx"]}.items() if v is not None} for s in segs],
         "match_bg": False, "cutaways": [], "endcard": {"clip": "brand/cream_tail.mp4", "dur": END + 0.3, "offset": 0, "xfade": 0.3},
