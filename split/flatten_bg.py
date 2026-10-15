@@ -27,10 +27,15 @@ Method (deterministic: numpy + ffmpeg only, frames streamed through numpy; v2 20
      keeps white and light-blue shirts out) form 8-connected components (run-length union-find); a component is backdrop
      when it holds unmistakable backdrop (chroma < 0.035, 0.82x..1.06x) and touches a frame edge, or is a pocket with a 7x7
      core (~14 px) that is >= 25 % unmistakable, or a pocket of >= 24 px whose 2 px ring is >= 70 % dark (suit / hair, not
-     skin or shirt) at the plate's brightness (mean within 0.12 log): a narrow gap between arm and body, whose chroma the
-     suit bleeds into. So soft shadows of the arm and body, backdrop revealed when he turns or sweeps his arm, the gap
-     between the legs and arm/body gaps are backdrop in that frame; teeth, eye whites, skin highlights and shirt buttons
-     (small, or enclosed by skin / shirt) stay presenter. There is no static "never correct" prior.
+     skin or shirt) at the plate's brightness (within 0.12 log as a whole, or within 0.06 on its core: its pixels 1 px clear
+     of its own rim, or its brighter half when it is too narrow for that: the rim mixed with the suit must not count): a
+     narrow gap between arm and body, whose chroma the suit bleeds into (the plain mean alone toggled long slots between
+     corrected and old cream from frame to frame), or a pocket of >= 24 px that matches the plate itself (>= 45 %
+     unmistakable, core within 0.06 log) whatever encloses it: the gap between two fingers of a hand held at the side, a
+     gap bounded by hand and sleeve. So soft shadows of the arm and body, backdrop revealed when he turns or sweeps his arm,
+     the gap between the legs, arm/body and finger gaps are backdrop in that frame; teeth, eye whites, skin highlights and
+     shirt buttons (small, more neutral than the backdrop, or not plate-coloured) stay presenter. There is no static
+     "never correct" prior.
   3. Weight w: 1 on the backdrop 1 px clear of the presenter; the mixed edge pixels keep their colour's partial weight
      (chroma 0.05..0.09, brightness 0.47x..0.58x, 1.13x..1.22x ramps); max3 + 2x box3: a 2-4 px soft edge band. Temporal
      median of three frames, clamped to the current frame's own +-1 px band: single-frame edge flicker is removed, a moving
@@ -84,9 +89,10 @@ flat backdrop unchanged); the backdrop lands as Y'CbCr (223.0, 123.0, 131.0) nex
 Limitations: needs a plain, roughly uniform warm backdrop (cream/beige; a colour more neutral than the backdrop is never
 treated as backdrop); a cream/beige garment touching the backdrop would be flattened; set structures other than full-width
 rows at the top (door frames, room corners, objects) are left alone unless their colour is backdrop-like; a shadow darker
-than 0.47x the wall or bluer than the border's backdrop stays as it is; a backdrop pocket smaller than ~24 chroma px or
-enclosed mostly by skin / shirt (between fingers) is left uncorrected, and a narrow arm/body gap keeps a little of the suit's
-blue that 4:2:0 chroma bleeds into it; stray hair strands keep their own colour
+than 0.47x the wall or bluer than the border's backdrop stays as it is; a backdrop pocket smaller than ~24 chroma px, or
+enclosed mostly by skin / shirt without matching the plate closely (< 45 % unmistakable: a motion-blurred or very narrow
+gap between fingers), is left uncorrected, and a narrow arm/body gap keeps a little of the suit's blue that 4:2:0 chroma
+bleeds into it; stray hair strands keep their own colour
 (their backdrop part is corrected, so they read as hair, not as a ghost); motion-blurred hands are corrected only where the
 blur is mostly backdrop; a camera push-in / zoom inside the clip breaks the static plate; very dark static structures amplify
 their compression noise (up to ~1.9x in blue for the full/ moulding)."""
@@ -239,9 +245,11 @@ def components(mask, strong, core, min_frac=0.25, dark=None, lum=None):
     """the 8-connected components of `mask` (2-D bool) that are backdrop: they hold `strong` pixels and touch a frame edge, or
     they hold `core` pixels (an inscribed square: a pocket wide enough not to be teeth, an eye or a highlight) and are >= min_frac
     strong, or (with `dark` / `lum`) they are a pocket of >= 24 px whose 2 px ring is >= 70 % dark (enclosed by the suit or
-    hair, not by skin or shirt: a narrow gap between arm and body, whose chroma the suit bleeds into) and whose mean log
-    brightness `lum` is within 0.12 of the plate. Run-length union-find (numpy, deterministic): runs per row, 8-connected runs
-    of consecutive rows hooked by min-label propagation with pointer jumping."""
+    hair, not by skin or shirt: a narrow gap between arm and body, whose chroma the suit bleeds into) and whose log brightness
+    `lum` is within 0.12 of the plate (all its pixels) or within 0.06 (its core: inner pixels, else its brighter half), or a
+    pocket of >= 24 px that matches the plate itself (>= 45 % strong, `lum` within 0.06) whatever encloses it (a gap
+    between fingers). Run-length union-find (numpy, deterministic): runs per row, 8-connected runs of consecutive rows
+    hooked by min-label propagation with pointer jumping."""
     h, w = mask.shape; m = np.zeros((h, w + 2), np.int8); m[:, 1:-1] = mask
     d = np.diff(m, axis=1); ys, xs = np.nonzero(d)
     if len(ys) == 0: return np.zeros((h, w), bool)
@@ -267,13 +275,26 @@ def components(mask, strong, core, min_frac=0.25, dark=None, lum=None):
     edge = np.bincount(comp, ((ry == 0) | (ry == h - 1) | (rs == 0) | (re == w)).astype(np.int64)) > 0
     keep = (ns > 0) & (edge | ((nc > 0) & (ns >= min_frac * area)))
     if dark is not None:
-        lm = np.bincount(comp, np.add.reduceat(lum[mask].astype(np.float64), off)) / area
-        cand = ~keep & ~edge & (area >= 24) & (np.abs(lm) < 0.12)
+        # the pocket's brightness: its plain mean within 0.12 of the plate, or its core within 0.06: the mean of its pixels 1 px
+        # clear of its own boundary (or, with fewer than 8 of those, of its brighter half). In a narrow arm/body slot the
+        # 1-2 px rim mixed with the suit is most of the area: the plain mean (-0.12..-0.14 against ~0 inside on c01 / c04 /
+        # c10-c12 / c15 / c23) toggled the slot between corrected and old cream from frame to frame. Teeth in a dark mouth
+        # (core -0.10 or darker) stay out
+        lv = lum[mask].astype(np.float64); cpx = np.repeat(comp, L); na = len(area)
+        lall = np.bincount(cpx, lv, minlength=na) / area
+        inner = erode(mask, 1)[mask]; ni = np.bincount(cpx, inner, minlength=na)
+        li = np.bincount(cpx, lv * inner, minlength=na) / np.maximum(ni, 1)
+        up = lv >= lall[cpx]; lu = np.bincount(cpx, lv * up, minlength=na) / np.maximum(np.bincount(cpx, up, minlength=na), 1)
+        lm = np.where(ni >= 8, li, lu)
+        cand = ~keep & ~edge & (area >= 24) & ((np.abs(lall) < 0.12) | (np.abs(lm) < 0.06))
         if cand.any():                                                # ring of each candidate pocket: its labels dilated 2 px
             lab = np.zeros(h * w, np.int32); lab[mask.ravel()] = np.repeat(comp + 1, L); lab = lab.reshape(h, w)
             ld = max3(max3(lab)); ring = (ld > 0) & ~mask; nl = len(area) + 1
             rn = np.bincount(ld[ring], minlength=nl)[1:]; rd = np.bincount(ld[ring], dark[ring], minlength=nl)[1:]
             keep |= cand & (rd >= 0.7 * np.maximum(rn, 1))
+        # a pocket that matches the plate itself (>= 45 % unmistakable backdrop, inner brightness within 0.06) is backdrop
+        # whatever encloses it: the gap between two fingers of a hand held at the side, a gap bounded by hand and sleeve
+        keep |= ~edge & (area >= 24) & (ns >= 0.45 * area) & (np.abs(lm) < 0.06)
     out = np.zeros(h * w, bool); out[mask.ravel()] = np.repeat(keep[comp], L)
     return out.reshape(h, w)
 
@@ -386,8 +407,9 @@ NEAR_SD, NEAR_MIN = 0.015, 0.92  # near the presenter S uses only smooth backdro
 def segment(rgbh, logref, g):
     """hard per-frame backdrop mask (chroma res) against a reference backdrop (log colour field): the 8-connected components of
     backdrop-coloured pixels (WEAK) that hold unmistakable backdrop (STRONG) and reach a frame edge, or are a pocket >= ~14 px
-    across, or a pocket >= ~10 px enclosed by the dark suit / hair at the plate's brightness; enclosed backdrop-like presenter
-    detail (teeth, eye whites, skin highlights, shirt buttons: small, or enclosed by skin / shirt) stays presenter.
+    across, or a pocket >= ~10 px enclosed by the dark suit / hair at the plate's brightness, or a pocket >= ~10 px that
+    matches the plate itself (a gap between fingers); enclosed backdrop-like presenter detail (teeth, eye whites, skin
+    highlights, shirt buttons: small, more neutral than the backdrop, or not plate-coloured) stays presenter.
     Returns (mask, chroma distance, log brightness ratio, neutral-colour gate)"""
     l = np.log(np.maximum(rgbh, 1.0)); lr = l - logref
     dc = chroma_dist(lr); dl = lr[..., 1]; gt = gate(l, g, True)
