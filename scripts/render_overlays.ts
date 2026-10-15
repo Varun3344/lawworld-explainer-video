@@ -24,7 +24,7 @@ fs.mkdirSync(out, { recursive: true });
     console.warn('[overlay] Chrome channel failed, falling back to cached Chromium:', String(e).split('\n')[0]);
     return chromium.launch({ headless: true, executablePath: cached });
   });
-  const page = await browser.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
+  const page = await browser.newPage({ viewport: { width: tl.width ?? 1080, height: tl.height ?? 1920 }, deviceScaleFactor: 1 });
   await page.goto('file://' + html);
   await page.evaluate(() => document.fonts.ready);
   const n = await page.evaluate((t) => (window as any).__init(t), tl);

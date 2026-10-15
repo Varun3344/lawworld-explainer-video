@@ -1,0 +1,18 @@
+{
+  "fps": 24,
+  "out": "out/split/test/test.mp4",
+  "size": [1920, 1080],
+  "presenter_box": {"x": 0, "y": 0, "w": 1056, "h": 1080, "fx": 0.498, "fy": 0.35, "pad": "0xf5f0e8"},
+  "presenter_start": 0.0,
+  "match_bg": false,
+  "presenter": [
+    {"clip": "/Users/admin/Downloads/New short/Google Flow AI Video/downloads/LawWorld_OfficeDark_Case1/s1_hook.mp4", "in": 0.0, "out": 9.625, "zoom": 1.0},
+    {"clip": "/Users/admin/Downloads/New short/Google Flow AI Video/downloads/LawWorld_OfficeDark_Case1/s2_divert.mp4", "in": 0.0, "out": 9.625, "zoom": 1.06, "fx": 0.496}
+  ],
+  "music": {"file": "audio/bed_office_180s.mp3", "target_lufs": -25, "fade_in": 0.3, "fade_out": 1.5, "duck": true},
+  "voice_lufs": -15,
+  "limit": 0.85,
+  "sfx": [{"file": "audio/sfx/pop.mp3", "at": 9.625, "gain_db": -8}],
+  "overlays": {"dir": "out/split/test/frames", "fps": 24},
+  "total": 19.25
+}

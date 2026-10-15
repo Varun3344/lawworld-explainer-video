@@ -1,0 +1,23 @@
+{
+  "duration": 74.0,
+  "width": 1920,
+  "height": 1080,
+  "cues": [
+    {"type": "sting", "t0": 0.0, "t1": 1.6, "kicker": "CIVIL PROCEDURE · EXPLAINED", "title": "Cause of Action", "sub": "The starting point of every civil suit"},
+    {"type": "panel", "t0": 1.2, "t1": 71.0, "scenes": [{"at": 1.6, "label": "1 · THE HOOK"}, {"at": 32.6, "label": "2 · WHAT IT IS"}]},
+    {"type": "lower_third", "t0": 2.0, "t1": 6.5, "name": "Ravishankar", "role": "LawWorld"},
+    {"type": "title", "t0": 1.8, "t1": 8.9, "title": "CAUSE OF ACTION", "title_at": 1.9, "sub": "The starting point of every civil suit", "sub_at": 3.0},
+    {"type": "question", "t0": 9.0, "t1": 19.0, "at": 10.2, "text": "Do you have a cause of action?", "hl": "cause of action"},
+    {"type": "stamp", "t0": 13.6, "t1": 19.0, "at": 14.0, "line1": "NO CAUSE OF ACTION", "line2": "= PLAINT REJECTED"},
+    {"type": "list", "t0": 19.2, "t1": 32.4, "head": "In the next 5 minutes", "head_at": 19.4, "items": [{"n": 1, "text": "What it is", "at": 21.6}, {"n": 2, "text": "How to spot it", "at": 24.4}, {"n": 3, "text": "Why it matters", "at": 26.3}]},
+    {"type": "strike", "t0": 32.8, "t1": 38.6, "text": "CPC, 1908: no definition", "at": 33.6, "strike_at": 35.4, "icon": "book-open"},
+    {"type": "point", "t0": 36.4, "t1": 38.6, "text": "Defined by the courts", "at": 36.6, "icon": "landmark", "accent": true},
+    {"type": "kicker", "t0": 38.8, "t1": 45.6, "at": 39.0, "text": "THE CLASSIC DEFINITION"},
+    {"type": "cite", "t0": 40.4, "t1": 52.0, "at": 40.6, "text": "Read v. Brown (1888) 22 QBD 128", "tag": "ENGLISH COURT OF APPEAL"},
+    {"type": "quote", "t0": 44.4, "t1": 51.8, "at": 44.5, "text": "Every fact which it would be necessary for the plaintiff to prove, if traversed, in order to support his right to the judgment of the court.", "hl": ["every fact", "to prove", "if traversed"], "reveal": 3.8, "note": {"text": "traversed = denied", "at": 48.6}},
+    {"type": "cite", "t0": 52.0, "t1": 64.4, "at": 52.0, "text": "A.B.C. Laminart Pvt. Ltd. v. A.P. Agencies, Salem (1989) 2 SCC 163", "tag": "SUPREME COURT OF INDIA"},
+    {"type": "equation", "t0": 55.8, "t1": 64.2, "terms": [{"text": "BUNDLE OF FACTS", "at": 57.0}, {"op": "+", "text": "APPLICABLE LAW", "at": 59.0}, {"op": "=", "text": "RIGHT TO RELIEF", "at": 61.2, "result": true}]},
+    {"type": "bundle", "t0": 64.4, "t1": 70.6, "one_at": 66.3, "many_at": 67.6, "gather_at": 69.0, "label": "Bundle of facts", "icons": ["file-text", "calendar", "indian-rupee", "handshake", "pen-line", "receipt", "file-signature"]},
+    {"type": "endcard", "t0": 70.6, "t1": 74.0, "title": "Cause of Action", "sub": "Next: Right + Breach", "url": "lawworld.ai"}
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "aspectRatio": "16:9",
+  "maxWordsPerClip": 32,
+  "downloadFolder": "/Users/admin/Downloads/New short/product-explainer/downloads/split",
+  "useLastFrameReference": true,
+  "referenceFrameFrom": "first",
+  "transition": {
+    "type": "cut"
+  },
+  "globalStyle": {
+    "avatar": "@me",
+    "useAccountAvatar": true,
+    "hostName": "the presenter",
+    "channelName": "LawWorld",
+    "voice": "@me verified avatar voice (identical pitch, tone, accent in every clip)",
+    "outfit": "a tailored navy-blue blazer over a crisp light-blue open-collar formal shirt, no tie (identical in every scene)",
+    "background": "a bright, premium legal-training studio: behind him a softly lit wall of tall dark walnut bookshelves filled with leather-bound law reports in warm brown and cream tones, a warm cream wall section between the shelves washed by soft copper-toned accent lights, a tall green plant at the left edge, a brass floor lamp glowing softly at the right edge; warm, modern and inviting; identical in every scene",
+    "gestures": "Standing upright in one spot, lively open-palm hand gestures at chest height, counting points on his fingers, small confident nods and a bright smile on emphasis, hands never in front of his face, stays standing in the same spot throughout",
+    "audio": "@me verified avatar voice ONLY, clear and energetic, continuous speech at a brisk trainer's pace, NO background music, NO sound effects, NO silence at the start or end",
+    "negativePrompts": "He stays in the same spot with his face and upper body fully visible at all times; NO objects in front of him, NO icons or graphics, NO whiteboard or screen with writing; NO text on screen, NO captions, NO name tags, NO logos, NO outfit change, NO camera cut, NO tripod, NO camera or microphone or any studio equipment visible in frame, NO other people",
+    "camera": "Locked-off static shot, landscape widescreen. He is STANDING, framed from the waist up, centred in the frame with clear space above his head, so the walnut bookshelves and the warm copper lights are visible on both sides of him. Eye level, natural lens look, gentle background blur, no zoom, no pan, no camera movement; the camera itself is never visible",
+    "realism": "Photorealistic cinematic footage in this richly furnished premium legal-training studio, NOT a plain backdrop. A warm soft key light falls evenly on his face with gentle fill from the other side so both sides of his face stay clear, natural skin texture, natural eye contact and accurate lip sync, identical exposure and white balance in every scene",
+    "delivery": "Highly energetic, enthusiastic legal trainer leading a masterclass, like a motivating coach talking straight to camera to law students: bright smile, lively eyes, confident emphasis on key words, brisk clear pace, a tiny pause after each full stop; speak the dialogue exactly once, word for word, never repeat, stretch or slow down a word, never add words"
+  },
+  "projectTitle": "LawWorld_Split_CauseOfAction_6s",
+  "clipDurationSeconds": 6,
+  "scenes": [
+    {
+      "sceneId": "c01",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the premium legal-training studio in front of the walnut law bookshelves, speaking energetically to camera, same pose, outfit and framing as every other clip, no text.",
+      "dialogue": "Every civil case in India begins with one question. Not 'Who is right?' Not 'How much can I claim?'"
+    },
+    {
+      "sceneId": "c05",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the premium legal-training studio in front of the walnut law bookshelves, speaking energetically to camera, same pose, outfit and framing as every other clip, no text.",
+      "dialogue": "The classic statement comes from an English case, Read versus Brown, decided in eighteen eighty-eight."
+    },
+    {
+      "sceneId": "c07",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the premium legal-training studio in front of the walnut law bookshelves, speaking energetically to camera, same pose, outfit and framing as every other clip, no text.",
+      "dialogue": "Our Supreme Court adopted this in A B C Laminart versus A P Agencies."
+    },
+    {
+      "sceneId": "c09",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the premium legal-training studio in front of the walnut law bookshelves, speaking energetically to camera, same pose, outfit and framing as every other clip, no text.",
+      "dialogue": "Notice the words 'bundle of facts'. Not one fact. Every fact you need, taken together."
+    }
+  ],
+  "flowProjectUrl": "https://flow.google.com/project/79bdfab0-1355-4ece-b4a5-617a2f902527"
+}
