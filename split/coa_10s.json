@@ -1,0 +1,89 @@
+{
+  "aspectRatio": "9:16",
+  "maxWordsPerClip": 32,
+  "downloadFolder": "/Users/admin/Downloads/New short/product-explainer/downloads/coa",
+  "useLastFrameReference": true,
+  "referenceFrameFrom": "first",
+  "transition": {
+    "type": "cut"
+  },
+  "globalStyle": {
+    "avatar": "@me",
+    "useAccountAvatar": true,
+    "hostName": "the presenter",
+    "channelName": "LawWorld",
+    "voice": "@me verified avatar voice (identical pitch, tone, accent in every clip)",
+    "outfit": "a tailored navy-blue blazer over a crisp light-blue open-collar formal shirt, no tie (identical in every scene)",
+    "background": "a seamless, plain, very light ivory off-white studio backdrop (almost white, with only a faint warm tint), brightly and evenly lit from edge to edge with no falloff, no vignette, no shadows, no texture and no objects - nothing else in the frame; identical in every scene",
+    "gestures": "Standing upright in one spot with lively, natural open-palm hand gestures at chest height, counting points on his fingers, small confident nods and a bright smile on emphasis; hands always stay inside the frame and never in front of his face; he stays standing in the same spot, at the same distance from the camera, throughout",
+    "audio": "@me verified avatar voice ONLY, clear and energetic, continuous speech at a brisk trainer's pace, NO background music, NO sound effects, NO silence at the start or end",
+    "negativePrompts": "He stays in the same spot with his face and upper body fully visible at all times; NO arms, elbows or shoulders cut off by the frame edges, NO furniture, NO bookshelves, NO plants, NO lamps, NO props, NO objects behind him, NO icons or graphics, NO text on screen, NO captions, NO name tags, NO logos, NO outfit change, NO camera cut, NO tripod, NO camera or microphone or any studio equipment visible in frame, NO other people",
+    "camera": "Locked-off static shot, vertical. A medium-wide shot: he is STANDING, framed from mid-thigh up and fairly small in the frame, so his body fills only about the middle half of the frame width with wide empty backdrop on BOTH sides of him; his shoulders, elbows and hands always stay well inside the frame and never touch its left or right edge; clear space above his head. Eye level, natural lens look, no zoom, no pan, no camera movement; the camera itself is never visible",
+    "realism": "Photorealistic live-action footage of a real human presenter recorded in one studio session against a plain ivory backdrop, NOT a furnished room. Soft, bright, even high-key light: a soft frontal key light on his face with soft fill, no harsh shadows, natural skin texture, natural eye contact and accurate lip sync, identical exposure and white balance in every scene",
+    "delivery": "Highly energetic, enthusiastic legal trainer leading a masterclass, like a motivating coach talking straight to camera to law students: bright smile, lively eyes, confident emphasis on key words, brisk clear pace, a tiny pause after each full stop; speak the dialogue exactly once, word for word, never repeat, stretch or slow down a word, never add words"
+  },
+  "projectTitle": "LawWorld_CoA_Full_coa_10s",
+  "clipDurationSeconds": 10,
+  "scenes": [
+    {
+      "sceneId": "c01",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, speaking energetically to camera, same position, size, outfit and framing as every other clip, no text.",
+      "dialogue": "Every civil case in India begins with one question. Not 'Who is right?' Not 'How much can I claim?'"
+    },
+    {
+      "sceneId": "c02",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, at the same position and size as every other clip. While he speaks he turns his upper body slightly toward the LEFT side of the frame (the viewer's left) and presents with his right hand, palm open, toward the empty space on the left of the frame, like a teacher showing the slide that stands beside him; his hand stays inside the frame; then he faces the camera again. Feet stay in place, no text.",
+      "dialogue": "The first question is: do you have a cause of action? Get this wrong, and your suit can be thrown out before the defendant even files a written statement."
+    },
+    {
+      "sceneId": "c03",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, at the same position and size as every other clip. While he speaks he turns his upper body slightly toward the LEFT side of the frame (the viewer's left) and presents with his right hand, palm open, toward the empty space on the left of the frame, like a teacher showing the slide that stands beside him; his hand stays inside the frame; then he faces the camera again. Feet stay in place, no text.",
+      "dialogue": "So in the next five minutes: what a cause of action is, how to spot one, and why it matters at every stage of a suit."
+    },
+    {
+      "sceneId": "c08",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, at the same position and size as every other clip. While he speaks he turns his upper body slightly toward the LEFT side of the frame (the viewer's left) and presents with his right hand, palm open, toward the empty space on the left of the frame, like a teacher showing the slide that stands beside him; his hand stays inside the frame; then he faces the camera again. Feet stay in place, no text.",
+      "dialogue": "And put it simply: a bundle of facts which, with the law that applies to them, gives the plaintiff a right to relief against the defendant."
+    },
+    {
+      "sceneId": "c12",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, at the same position and size as every other clip. While he speaks he turns his upper body slightly toward the LEFT side of the frame (the viewer's left) and presents with his right hand, palm open, toward the empty space on the left of the frame, like a teacher showing the slide that stands beside him; his hand stays inside the frame; then he faces the camera again. Feet stay in place, no text.",
+      "dialogue": "A right with no breach gives you nothing to sue on. A breach that touches no right of yours gives you nothing either."
+    },
+    {
+      "sceneId": "c23",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, at the same position and size as every other clip. While he speaks he turns his upper body slightly toward the LEFT side of the frame (the viewer's left) and presents with his right hand, palm open, toward the empty space on the left of the frame, like a teacher showing the slide that stands beside him; his hand stays inside the frame; then he faces the camera again. Feet stay in place, no text.",
+      "dialogue": "One: pleading. Order Seven, Rule One E, requires every plaint to state the facts constituting the cause of action, and when it arose."
+    },
+    {
+      "sceneId": "c26",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, speaking energetically to camera, same position, size, outfit and framing as every other clip, no text.",
+      "dialogue": "And as Justice Krishna Iyer put it, if clever drafting creates only an illusion of a cause of action, nip it in the bud."
+    },
+    {
+      "sceneId": "c27",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, at the same position and size as every other clip. While he speaks he turns his upper body slightly toward the LEFT side of the frame (the viewer's left) and presents with his right hand, palm open, toward the empty space on the left of the frame, like a teacher showing the slide that stands beside him; his hand stays inside the frame; then he faces the camera again. Feet stay in place, no text.",
+      "dialogue": "Three: jurisdiction. Besides where the defendant lives, Section Twenty C lets you sue where the cause of action arises, wholly or in part."
+    },
+    {
+      "sceneId": "c28",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, speaking energetically to camera, same position, size, outfit and framing as every other clip, no text.",
+      "dialogue": "In Ravi's case, that can include where the loan was given, or where repayment was due. Four: one suit for the whole claim."
+    },
+    {
+      "sceneId": "c32",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, at the same position and size as every other clip. While he speaks he turns his upper body slightly toward the LEFT side of the frame (the viewer's left) and presents with his right hand, palm open, toward the empty space on the left of the frame, like a teacher showing the slide that stands beside him; his hand stays inside the frame; then he faces the camera again. Feet stay in place, no text.",
+      "dialogue": "The Limitation Act fixes the exact starting point for each kind of suit. That's why we pinned first April, twenty twenty-five."
+    }
+  ]
+}

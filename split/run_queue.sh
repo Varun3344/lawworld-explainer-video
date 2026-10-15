@@ -5,11 +5,11 @@
 # is set aside and re-rendered (max 3 takes); 0.90-0.97 is kept for a manual listen (versus / 1888 / A B C spellings).
 # c01 is the pilot and the anchor of every later clip: the queue stops after it until split/GO exists.
 cd "/Users/admin/Downloads/New short/product-explainer"
-UD="/Users/admin/Downloads/New short/Google Flow AI Video/user_data"; D=${SPLIT_D:-downloads/split}; SB=${SPLIT_SB:-split/split}; ALLJ=${SPLIT_ALL:-split/split_all_scenes.json}; GOF=${SPLIT_GO:-split/GO}
+UD="${SPLIT_UD:-/Users/admin/Downloads/New short/Google Flow AI Video/user_data}"; D=${SPLIT_D:-downloads/split}; SB=${SPLIT_SB:-split/split}; ALLJ=${SPLIT_ALL:-split/split_all_scenes.json}; GOF=${SPLIT_GO:-split/GO}
 KEY=$(grep -E '^REEL_PIPELINE_API_KEY=' '/Users/admin/Desktop/lawworld project/lw-plateform-node-backend/.env' | cut -d= -f2- | tr -d '"')
 TSX="/Users/admin/Desktop/lawworld project/lw-plateform-node-backend/node_modules/.bin/tsx"; PIPE="/Users/admin/Desktop/lawworld project/lw-plateform-node-backend/services/reel-service/pipeline/index.ts"
 export FLOW_USER_DATA_DIR="$UD" FLOW_ASSETS_DIR="/Users/admin/Downloads/New short/Google Flow AI Video/assets" FLOW_LOGS_DIR="$PWD/logs/flow"
-VOCAB="LawWorld, cause of action, Code of Civil Procedure, Read versus Brown, A B C Laminart, A P Agencies, plaintiff, defendant, plaint, written statement, Supreme Court"
+VOCAB="${SPLIT_VOCAB:-LawWorld, cause of action, Code of Civil Procedure, Read versus Brown, A B C Laminart, A P Agencies, plaintiff, defendant, plaint, written statement, Supreme Court}"
 gate() {
   local idle=0 told=0
   while [ $idle -lt 30 ]; do

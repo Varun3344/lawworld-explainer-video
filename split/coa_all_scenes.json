@@ -1,0 +1,257 @@
+{
+  "projectTitle": "LawWorld_CauseOfAction_Full",
+  "scenes": [
+    {
+      "sceneId": "c01",
+      "seconds": 8,
+      "dialogue": "Every civil case in India begins with one question. Not 'Who is right?' Not 'How much can I claim?'",
+      "spoken": "Every civil case in India begins with one question. Not 'Who is right?' Not 'How much can I claim?'",
+      "presents": false
+    },
+    {
+      "sceneId": "c02",
+      "seconds": 10,
+      "dialogue": "The first question is: do you have a cause of action? Get this wrong, and your suit can be thrown out before the defendant even files a written statement.",
+      "spoken": "The first question is: do you have a cause of action? Get this wrong, and your suit can be thrown out before the defendant even files a written statement.",
+      "presents": true
+    },
+    {
+      "sceneId": "c03",
+      "seconds": 10,
+      "dialogue": "So in the next five minutes: what a cause of action is, how to spot one, and why it matters at every stage of a suit.",
+      "spoken": "So in the next five minutes: what a cause of action is, how to spot one, and why it matters at every stage of a suit.",
+      "presents": true
+    },
+    {
+      "sceneId": "c04",
+      "seconds": 8,
+      "dialogue": "Surprisingly, the Code of Civil Procedure never defines the term. The definition comes from the courts.",
+      "spoken": "Surprisingly, the Code of Civil Procedure never defines the term. The definition comes from the courts.",
+      "presents": false
+    },
+    {
+      "sceneId": "c05",
+      "seconds": 6,
+      "dialogue": "The classic statement comes from an English case, Read versus Brown, decided in 1888.",
+      "spoken": "The classic statement comes from an English case, Read versus Brown, decided in eighteen eighty-eight.",
+      "presents": true
+    },
+    {
+      "sceneId": "c06",
+      "seconds": 8,
+      "dialogue": "A cause of action is every fact the plaintiff would have to prove, if it were denied, to win judgment.",
+      "spoken": "A cause of action is every fact the plaintiff would have to prove, if it were denied, to win judgment.",
+      "presents": false
+    },
+    {
+      "sceneId": "c07",
+      "seconds": 6,
+      "dialogue": "Our Supreme Court adopted this in A B C Laminart versus A P Agencies.",
+      "spoken": "Our Supreme Court adopted this in A B C Laminart versus A P Agencies.",
+      "presents": false
+    },
+    {
+      "sceneId": "c08",
+      "seconds": 10,
+      "dialogue": "And put it simply: a bundle of facts which, with the law that applies to them, gives the plaintiff a right to relief against the defendant.",
+      "spoken": "And put it simply: a bundle of facts which, with the law that applies to them, gives the plaintiff a right to relief against the defendant.",
+      "presents": true
+    },
+    {
+      "sceneId": "c09",
+      "seconds": 6,
+      "dialogue": "Notice the words 'bundle of facts'. Not one fact. Every fact you need, taken together.",
+      "spoken": "Notice the words 'bundle of facts'. Not one fact. Every fact you need, taken together.",
+      "presents": false
+    },
+    {
+      "sceneId": "c10",
+      "seconds": 8,
+      "dialogue": "Open the bundle, and you will usually find two things. First, a right that belongs to the plaintiff.",
+      "spoken": "Open the bundle, and you will usually find two things. First, a right that belongs to the plaintiff.",
+      "presents": true
+    },
+    {
+      "sceneId": "c11",
+      "seconds": 6,
+      "dialogue": "Second, an act or omission of the defendant that infringes that right.",
+      "spoken": "Second, an act or omission of the defendant that infringes that right.",
+      "presents": false
+    },
+    {
+      "sceneId": "c12",
+      "seconds": 10,
+      "dialogue": "A right with no breach gives you nothing to sue on. A breach that touches no right of yours gives you nothing either.",
+      "spoken": "A right with no breach gives you nothing to sue on. A breach that touches no right of yours gives you nothing either.",
+      "presents": true
+    },
+    {
+      "sceneId": "c13",
+      "seconds": 8,
+      "dialogue": "You need both, and against this defendant. Let's make it concrete. Ravi lends five lakh rupees to Suresh.",
+      "spoken": "You need both, and against this defendant. Let's make it concrete. Ravi lends five lakh rupees to Suresh.",
+      "presents": false
+    },
+    {
+      "sceneId": "c14",
+      "seconds": 8,
+      "dialogue": "Suresh promises to repay by 31st March 2025. The date passes. Suresh pays nothing.",
+      "spoken": "Suresh promises to repay by thirty-first March, twenty twenty-five. The date passes. Suresh pays nothing.",
+      "presents": true
+    },
+    {
+      "sceneId": "c15",
+      "seconds": 8,
+      "dialogue": "What must Ravi prove? One, he gave the loan. Two, Suresh agreed to repay by that date.",
+      "spoken": "What must Ravi prove? One, he gave the loan. Two, Suresh agreed to repay by that date.",
+      "presents": true
+    },
+    {
+      "sceneId": "c16",
+      "seconds": 6,
+      "dialogue": "Three, the date has passed. Four, the money is still unpaid.",
+      "spoken": "Three, the date has passed. Four, the money is still unpaid.",
+      "presents": false
+    },
+    {
+      "sceneId": "c17",
+      "seconds": 6,
+      "dialogue": "Each of these is part of the bundle. Together, they are Ravi's cause of action.",
+      "spoken": "Each of these is part of the bundle. Together, they are Ravi's cause of action.",
+      "presents": false
+    },
+    {
+      "sceneId": "c18",
+      "seconds": 8,
+      "dialogue": "It arose on 1st April 2025, the first day of default. Remember that date. We'll need it.",
+      "spoken": "It arose on first April, twenty twenty-five, the first day of default. Remember that date. We'll need it.",
+      "presents": false
+    },
+    {
+      "sceneId": "c19",
+      "seconds": 6,
+      "dialogue": "Two common mistakes. First, the cause of action does not depend on the defence.",
+      "spoken": "Two common mistakes. First, the cause of action does not depend on the defence.",
+      "presents": false
+    },
+    {
+      "sceneId": "c20",
+      "seconds": 8,
+      "dialogue": "The Privy Council said in Chand Kour versus Partab Singh that it refers entirely to the grounds set out in the plaint.",
+      "spoken": "The Privy Council said in Chand Kour versus Partab Singh that it refers entirely to the grounds set out in the plaint.",
+      "presents": true
+    },
+    {
+      "sceneId": "c21",
+      "seconds": 6,
+      "dialogue": "Second, it is not the relief. The relief is what you want from the court.",
+      "spoken": "Second, it is not the relief. The relief is what you want from the court.",
+      "presents": true
+    },
+    {
+      "sceneId": "c22",
+      "seconds": 8,
+      "dialogue": "The cause of action is why you are entitled to it. So why does this matter so much? Five reasons.",
+      "spoken": "The cause of action is why you are entitled to it. So why does this matter so much? Five reasons.",
+      "presents": false
+    },
+    {
+      "sceneId": "c23",
+      "seconds": 10,
+      "dialogue": "One: pleading. Order 7 Rule 1(e) requires every plaint to state the facts constituting the cause of action, and when it arose.",
+      "spoken": "One: pleading. Order Seven, Rule One E, requires every plaint to state the facts constituting the cause of action, and when it arose.",
+      "presents": true
+    },
+    {
+      "sceneId": "c24",
+      "seconds": 8,
+      "dialogue": "Two: rejection. Under Order 7 Rule 11(a), a plaint that discloses no cause of action must be rejected.",
+      "spoken": "Two: rejection. Under Order Seven, Rule Eleven A, a plaint that discloses no cause of action must be rejected.",
+      "presents": true
+    },
+    {
+      "sceneId": "c25",
+      "seconds": 6,
+      "dialogue": "The court reads only the plaint and its documents, not the defence.",
+      "spoken": "The court reads only the plaint and its documents, not the defence.",
+      "presents": false
+    },
+    {
+      "sceneId": "c26",
+      "seconds": 10,
+      "dialogue": "And as Justice Krishna Iyer put it, if clever drafting creates only an illusion of a cause of action, nip it in the bud.",
+      "spoken": "And as Justice Krishna Iyer put it, if clever drafting creates only an illusion of a cause of action, nip it in the bud.",
+      "presents": false
+    },
+    {
+      "sceneId": "c27",
+      "seconds": 10,
+      "dialogue": "Three: jurisdiction. Besides where the defendant lives, Section 20(c) lets you sue where the cause of action arises, wholly or in part.",
+      "spoken": "Three: jurisdiction. Besides where the defendant lives, Section Twenty C lets you sue where the cause of action arises, wholly or in part.",
+      "presents": true
+    },
+    {
+      "sceneId": "c28",
+      "seconds": 10,
+      "dialogue": "In Ravi's case, that can include where the loan was given, or where repayment was due. Four: one suit for the whole claim.",
+      "spoken": "In Ravi's case, that can include where the loan was given, or where repayment was due. Four: one suit for the whole claim.",
+      "presents": false
+    },
+    {
+      "sceneId": "c29",
+      "seconds": 8,
+      "dialogue": "Under Order 2 Rule 2, if Ravi sues for only three lakh, he cannot later sue for the other two.",
+      "spoken": "Under Order Two, Rule Two, if Ravi sues for only three lakh, he cannot later sue for the other two.",
+      "presents": true
+    },
+    {
+      "sceneId": "c30",
+      "seconds": 6,
+      "dialogue": "And a relief he leaves out without the court's leave is lost for good.",
+      "spoken": "And a relief he leaves out without the court's leave is lost for good.",
+      "presents": false
+    },
+    {
+      "sceneId": "c31",
+      "seconds": 6,
+      "dialogue": "Five: limitation. For many suits, the limitation clock starts when the cause of action arises.",
+      "spoken": "Five: limitation. For many suits, the limitation clock starts when the cause of action arises.",
+      "presents": false
+    },
+    {
+      "sceneId": "c32",
+      "seconds": 10,
+      "dialogue": "The Limitation Act fixes the exact starting point for each kind of suit. That's why we pinned 1st April 2025.",
+      "spoken": "The Limitation Act fixes the exact starting point for each kind of suit. That's why we pinned first April, twenty twenty-five.",
+      "presents": true
+    },
+    {
+      "sceneId": "c33",
+      "seconds": 6,
+      "dialogue": "So before you draft any plaint, ask three questions. What right does my client have?",
+      "spoken": "So before you draft any plaint, ask three questions. What right does my client have?",
+      "presents": true
+    },
+    {
+      "sceneId": "c34",
+      "seconds": 8,
+      "dialogue": "What did the defendant do, or fail to do, that breached it? And when and where did that happen?",
+      "spoken": "What did the defendant do, or fail to do, that breached it? And when and where did that happen?",
+      "presents": false
+    },
+    {
+      "sceneId": "c35",
+      "seconds": 8,
+      "dialogue": "If you can answer all three with facts you can prove, you have a cause of action.",
+      "spoken": "If you can answer all three with facts you can prove, you have a cause of action.",
+      "presents": false
+    },
+    {
+      "sceneId": "c36",
+      "seconds": 8,
+      "dialogue": "If you can't, no amount of drafting will save the suit. See you in the next episode.",
+      "spoken": "If you can't, no amount of drafting will save the suit. See you in the next episode.",
+      "presents": false
+    }
+  ]
+}
