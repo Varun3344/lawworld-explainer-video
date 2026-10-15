@@ -1,2 +1,4 @@
 c06	presenter closer to camera (larger) and blazer brighter blue than c05/c07 (measured blazer B 82 vs ~65) -> retake
 c08	camera push-in from frame ~168 (presenter_geom review): one placement cannot follow a zoom; flat copy gets a bright band at the top -> retake
+c28	presenter +13.7% larger than c01 (presenter_geom SIZE OUTLIER) -> retake
+c31	presenter +17.4% larger than c01 (presenter_geom SIZE OUTLIER) -> retake

@@ -1,17 +1,25 @@
-"""QA for the 16:9 split explainer: python3 split/qa_split.py [out/split/split_sample.mp4 | out/split9/split_sample.mp4]
-(plan, timeline and qa folder are read from the video's folder; the script file from plan["scenes"])
+"""QA for the 16:9 split explainer: python3 split/qa_split.py [out/split/split_sample.mp4 | out/split9/split_sample.mp4 | out/coa/coa_full.mp4]
+                                     [--no-speech]
+(plan, timeline and qa folder are read from the video's folder; the script file from plan["scenes"]; the presenter box from
+plan["presenter_box"] {x, y, w, h}: left of the panel (v3, box x 0) or right of it (v4, box x 1280))
 - streams, size, fps, frame count = round(total*24), A/V durations
 - integrated loudness and true peak (ebur128)
-- black frames and frozen stretches (blackdetect / freezedetect)
+- black frames and frozen stretches (blackdetect / freezedetect on the presenter box, wherever it is)
+- one screen: at every seam between the presenter box and the panel (x = box x and/or box x + w, inside the frame), the
+  presenter-side strip (38 px next to the seam, under the feather) against the panel-side strip (58 px), rows 12..151 (above
+  the head), 8 times over the panel's span plus the middle of every presenter segment (each clip is checked)
 - every clip span re-transcribed OUT OF THE FINAL MIX (gpt-4o-transcribe) and compared with the script, token recall
+  (--no-speech skips this API step, e.g. for a layout-only check)
 - first / last frame and a frame at every panel build time → out/split/qa/*.png + contact sheet
 Never prints API keys."""
 import json, os, re, subprocess, sys, difflib
-F = sys.argv[1] if len(sys.argv) > 1 else "out/split/split_sample.mp4"
+ARGS = [a for a in sys.argv[1:] if not a.startswith("--")]; NO_SPEECH = "--no-speech" in sys.argv[1:]
+F = ARGS[0] if ARGS else "out/split/split_sample.mp4"
 OD = os.path.dirname(F) or "."; Q = f"{OD}/qa"; os.makedirs(Q, exist_ok=True)
 plan = json.load(open(f"{OD}/plan.json")); tl = json.load(open(f"{OD}/timeline.json"))
 SC = {s["sceneId"]: s["spoken"] for s in json.load(open(plan.get("scenes", "split/split_all_scenes.json")))["scenes"]}
-BW = int((plan.get("presenter_box") or {}).get("w", 1056))
+PB = plan.get("presenter_box") or {}
+BX, BY, BW, BH = int(PB.get("x", 0)), int(PB.get("y", 0)), int(PB.get("w", 1056)), int(PB.get("h", 1080))   # presenter box (v2 default: x 0, w 1056)
 def sh(a): return subprocess.run(a, capture_output=True, text=True)
 def sh_b(a): return subprocess.run(a, capture_output=True).stdout
 ok = True
@@ -36,26 +44,40 @@ print(f"[qa] loudness {I} LUFS, true peak {TP} dBFS"); flag(-15.5 <= I <= -12.5,
 # 3 black / freeze
 bd = sh(["ffmpeg", "-nostats", "-i", F, "-vf", "blackdetect=d=0.12:pix_th=0.08", "-an", "-f", "null", "-"]).stderr
 blacks = re.findall(r"black_start:([\d.]+) black_end:([\d.]+)", bd); print(f"[qa] black stretches: {blacks}"); flag(not blacks, "no black stretches")
-fz = sh(["ffmpeg", "-nostats", "-i", F, "-vf", f"crop={BW}:1080:0:0,freezedetect=n=0.002:d=1.2", "-an", "-f", "null", "-"]).stderr
+fz = sh(["ffmpeg", "-nostats", "-i", F, "-vf", f"crop={BW}:{BH}:{BX}:{BY},freezedetect=n=0.002:d=1.2", "-an", "-f", "null", "-"]).stderr
 freezes = re.findall(r"freeze_start: ([\d.]+)", fz); print(f"[qa] presenter-box freezes >1.2 s at: {freezes}")
 flag(all(float(x) >= plan["total"] - 4.0 for x in freezes), "no frozen presenter before the end card")
-# 3b one screen: the presenter backdrop must meet the panel cream without a step (only when the box is narrower than the frame)
-if BW < 1920:
-    pan = next((c for c in tl["cues"] if c["type"] == "panel"), None)
-    if pan:
-        worst = 0
-        for tt in [pan["t0"] + 0.8 + k * (pan["t1"] - pan["t0"] - 1.6) / 7 for k in range(8)]:
-            raw = sh_b(["ffmpeg", "-v", "error", "-ss", f"{tt:.3f}", "-i", F, "-frames:v", "1", "-vf", f"crop={BW + 80}:140:0:12", "-f", "rawvideo", "-pix_fmt", "rgb24", "-"])
-            import numpy as np
-            a8 = np.frombuffer(raw, np.uint8).reshape(140, BW + 80, 3).astype(float)
-            L = a8[:, BW - 40:BW - 2].reshape(-1, 3).mean(0); R = a8[:, BW + 2:BW + 60].reshape(-1, 3).mean(0); d = float(np.abs(L - R).max()); worst = max(worst, d)
-            print(f"[qa] seam {tt:6.2f}s  presenter side {tuple(int(round(v)) for v in L)}  panel side {tuple(int(round(v)) for v in R)}  max step {d:.1f}")
-        flag(worst <= 3.0, f"one screen: no colour step at the seam x={BW} (worst {worst:.1f} <= 3)")
+# 3b one screen: the presenter backdrop must meet the panel cream without a step at every seam inside the frame (box x 0: seam at
+#    x = w, presenter left of it; box at the right edge: seam at x = box x, presenter right of it)
+SEAMS = [(x, side) for x, side in ((BX, "right"), (BX + BW, "left")) if 0 < x < int(v["width"])]   # side = where the presenter is
+pan = next((c for c in tl["cues"] if c["type"] == "panel"), None)
+if SEAMS and pan:
+    import numpy as np
+    # 8 times evenly over the panel's span (as before) + the middle of EVERY presenter segment inside it: 8 samples over a
+    # 3.6-minute, 36-clip video checked at most 8 clips, so one unflattened clip usually slipped through
+    lo_t, hi_t = pan["t0"] + 0.8, pan["t1"] - 0.8; tt_ = {round(pan["t0"] + 0.8 + k * (pan["t1"] - pan["t0"] - 1.6) / 7, 3): "" for k in range(8)}
+    ts_ = plan["presenter_start"]
+    for seg in plan["presenter"]:
+        L_ = seg["out"] - seg["in"]; tm = ts_ + L_ / 2; ts_ += L_
+        if lo_t <= tm <= hi_t: tt_[round(tm, 3)] = os.path.basename(seg["clip"])[:-4]
+    for xs, side in SEAMS:
+        worst, wat = 0, ""; x0 = max(0, xs - 80) & ~1; cw = min(int(v["width"]), xs + 80) - x0
+        for tt, cid in sorted(tt_.items()):
+            raw = sh_b(["ffmpeg", "-v", "error", "-ss", f"{tt:.3f}", "-i", F, "-frames:v", "1", "-vf", f"crop={cw}:140:{x0}:12", "-f", "rawvideo", "-pix_fmt", "rgb24", "-"])
+            if len(raw) < 140 * cw * 3: flag(False, f"seam x={xs}: no frame at {tt:.2f}s"); continue
+            a8 = np.frombuffer(raw, np.uint8)[:140 * cw * 3].reshape(140, cw, 3).astype(float); s0 = xs - x0     # rows 12..151: above the head
+            pstrip = a8[:, s0 - 40:s0 - 2] if side == "left" else a8[:, s0 + 2:s0 + 40]            # presenter side, under the feather
+            qstrip = a8[:, s0 + 2:s0 + 60] if side == "left" else a8[:, s0 - 60:s0 - 2]            # panel side
+            L = pstrip.reshape(-1, 3).mean(0); R = qstrip.reshape(-1, 3).mean(0); d = float(np.abs(L - R).max())
+            if d > worst: worst, wat = d, f" at {tt:.2f}s" + (f" ({cid})" if cid else "")
+            print(f"[qa] seam x={xs} {tt:6.2f}s{(' ' + cid) if cid else ''}  presenter side {tuple(int(round(v_)) for v_ in L)}  panel side {tuple(int(round(v_)) for v_ in R)}  max step {d:.1f}")
+        flag(worst <= 3.0, f"one screen: no colour step at the seam x={xs} (presenter {side} of it; {len(tt_)} frames, every clip; worst {worst:.1f}{wat} <= 3)")
 # 4 speech out of the final mix, per clip span
-KEY = next(l.split("=", 1)[1].strip().strip('"') for l in open("/Users/admin/Desktop/lawworld project/lw-plateform-node-backend/.env") if l.startswith("OPENAI_API_KEY="))
+if NO_SPEECH: print("[qa] speech check skipped (--no-speech)")
+KEY = None if NO_SPEECH else next(l.split("=", 1)[1].strip().strip('"') for l in open("/Users/admin/Desktop/lawworld project/lw-plateform-node-backend/.env") if l.startswith("OPENAI_API_KEY="))
 def norm(s): return re.sub(r"[^a-z0-9 ]", " ", s.lower().replace("versus", "v").replace(" vs ", " v ")).split()
 t = plan["presenter_start"]
-for seg in plan["presenter"]:
+for seg in ([] if NO_SPEECH else plan["presenter"]):
     cid = os.path.basename(seg["clip"])[:-4]; L = seg["out"] - seg["in"]
     w = f"{Q}/{cid}.wav"; sh(["ffmpeg", "-v", "error", "-y", "-ss", f"{max(0, t - 0.25):.3f}", "-t", f"{L + 0.5:.3f}", "-i", F, "-vn", "-ac", "1", "-ar", "16000", w])
     r = sh(["curl", "-s", "https://api.openai.com/v1/audio/transcriptions", "-H", f"Authorization: Bearer {KEY}", "-F", "model=gpt-4o-transcribe", "-F", "language=en", "-F", f"file=@{w}"])

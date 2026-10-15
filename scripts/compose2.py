@@ -17,8 +17,24 @@ Layout keys (optional; a plan without them gives the original 1080x1920 commands
                 Defaults: x 0, y 0, w W, h H, fx 0.5, fy 0.35, pad "0xf5f0e8" (brand cream). x, y, w, h must be even.
   per presenter segment in box mode: "fx" / "fy" override the focal point, "box": {...} overrides box keys for that segment
                 (e.g. a full-frame hook), "zoom" z punches in about the focal point (crop w/z x h/z, scale back to w x h),
-                "push" p is a slow zoom from z to z*(1+p) over the segment (per-frame scale + crop, like the 9:16 push)."""
-import sys, os, json, subprocess, re, shlex
+                "push" p is a slow zoom from z to z*(1+p) over the segment (per-frame scale + crop, like the 9:16 push).
+  "place": {"s": scale >= 1, "dx": px, "dy": px}  per presenter segment in box mode (instead of zoom / push): applied after the
+                cover-scale/crop, the box picture is scaled by s about the box's bottom-centre (the legs stay cut by the frame
+                bottom), then shifted by dx, dy box px (+ = right / down). Done as ONE lanczos scale of the source to the cover
+                size x s (even) and an even crop window, so the box shows exactly what the two steps would (s 1, dx 0, dy 0
+                gives the unplaced pixels). Box area the source no longer covers is filled with presenter_box "fill",
+                default FILL_FLAT 0xf7f2e8: on BT.601 tv clips the pad filter writes it as Y'CbCr (224, 123, 131), the
+                flattened backdrop (split/flatten_bg.py TARGET_YUV 224.2, 123.0, 130.95), measured step in the final mp4
+                <= 0.12 RGB; the box "pad" 0xf5f0e8 lands as (223, 124, 131), a 2-unit darker R/G line. Guards: s < 1 is
+                clamped to 1; a window that would lift the source's bottom edge above the box bottom is clamped (dy); a side
+                edge of the source is uncovered only when the source's outermost 4 px there match the fill colour on every
+                frame of the segment (the presenter never touches that edge, the backdrop equals the fill: flattened clips),
+                else the window is clamped to that edge (warning); above the unplaced crop's top row (fy hides the cove line
+                of unflattened clips) the window shows source rows, or uncovers the top edge, only when ALL those rows are
+                clean backdrop on every frame, else it stops at that row (warning). The checks are repeated until they hold
+                for the final window. Plans without "place" give the same commands as before. split/presenter_geom.py
+                measures the clips and computes the params (place_params())."""
+import sys, os, json, subprocess, re, shlex, math
 plan = json.load(open(sys.argv[1])); draft = "--draft" in sys.argv; dry = "--print-cmds" in sys.argv
 FPS = plan["fps"]; W, H = (int(v) for v in plan.get("size", (1080, 1920)))
 out = plan["out"]; work = os.path.join(os.path.dirname(out), "work")
@@ -110,6 +126,7 @@ def box_chain(p):
         raise SystemExit(f"[compose2] bad presenter box {b} (fx {fx}, fy {fy}) for {p['clip']}: x, y, w, h even and inside {W}x{H}; fx, fy in 0..1")
     iw, ih = probe_wh(p["clip"])
     sw, sh = max(bw, int(bh * iw / ih + 0.5)), max(bh, int(bw * ih / iw + 0.5))   # size after scale=bw:bh:force_original_aspect_ratio=increase
+    if p.get("place") is not None: return place_chain(p, b, bx, by, bw, bh, fx, fy, z, push, iw, ih, sw, sh)
     x0 = min(max(fx * sw - bw / 2, 0), sw - bw); rx = (fx * sw - x0) / bw          # focal point inside the box: rx across, fy down
     f = (f"scale={bw}:{bh}:force_original_aspect_ratio=increase:flags=lanczos,"
          f"crop={bw}:{bh}:x='clip({fx:.4f}*iw-{bw // 2},0,iw-{bw})':y='(ih-{bh})*{fy:.4f}',")
@@ -124,6 +141,91 @@ def box_chain(p):
     pad = f",pad={W}:{H}:{bx}:{by}:color={b['pad']}" if (bx, by, bw, bh) != (0, 0, W, H) else ""
     say(f"[compose2] box {os.path.basename(p['clip'])}: {iw}x{ih} covers {sw}x{sh}, {bw}x{bh} at {bx},{by}; focal {fx:.3f},{fy:.3f} -> {rx:.3f},{fy:.3f} of the box; zoom {z:g} push {push:g}")
     return f, pad
+EDGE_K = 4   # source px at a frame edge that must equal the fill colour (on every frame of the segment) before that edge may show
+FILL_FLAT = "0xf7f2e8"   # place fill default: lands as the flattened backdrop Y'CbCr (224, 123, 131) on BT.601 tv clips (see the docstring)
+_fill_cache = {}
+def fill_yuv(clip, colour):
+    """the Y'CbCr the pad filter writes for `colour` on this clip's frames (their colour matrix and range)"""
+    if (clip, colour) not in _fill_cache:
+        raw = subprocess.run(["ffmpeg","-v","error","-i",clip,"-frames:v","1","-vf",f"crop=2:2:0:0,pad=4:2:2:0:color={colour}","-f","rawvideo","-pix_fmt","yuv420p","-"],capture_output=True).stdout
+        _fill_cache[(clip, colour)] = (raw[0], raw[8], raw[10]) if len(raw) >= 12 else None   # 4x2 yuv420p: the pad colour is at x 0..1
+    return _fill_cache[(clip, colour)]
+def edge_check(p, side, span, iw, ih, fill, rows=None):
+    """(clean, why): the source's outermost EDGE_K px at `side` (left/right: rows span[0]..span[1]; top: columns span[0]..span[1],
+    or with rows=(r0, r1) the source rows r0..r1 there), every frame of the segment, against the fill colour: no presenter pixel
+    (|Y| > 12 or |Cb|, |Cr| > 6 off it) and a median within 3 / 2 / 2 of it"""
+    import numpy as np
+    a, b = max(0, int(span[0]) & ~1), min(ih if side != "top" else iw, (int(math.ceil(span[1])) + 1) & ~1)
+    if b - a < 2: return True, "nothing visible"
+    r0, r1 = (0, EDGE_K) if rows is None else (max(0, int(rows[0]) & ~1), min(ih, (int(math.ceil(rows[1])) + 1) & ~1))
+    if side == "top" and r1 - r0 < 2: return True, "nothing visible"
+    k = EDGE_K; crop = {"left": f"crop={k}:{b - a}:0:{a}", "right": f"crop={k}:{b - a}:{iw - k}:{a}", "top": f"crop={b - a}:{r1 - r0}:{a}:{r0}"}[side]
+    w, h = (k, b - a) if side != "top" else (b - a, r1 - r0)
+    fy_, fu, fv = fill
+    raw = subprocess.run(["ffmpeg","-v","error","-ss",f"{p['in']:.3f}","-t",f"{p['out'] - p['in']:.3f}","-i",p["clip"],"-map","0:v:0","-vf",crop,
+                          "-f","rawvideo","-pix_fmt","yuv420p","-"],capture_output=True).stdout
+    n = w * h; fs = n + 2 * (n // 4); nf = len(raw) // fs
+    if nf == 0: return False, "could not decode the edge strip"
+    a8 = np.frombuffer(raw[:nf * fs], np.uint8).reshape(nf, fs).astype(np.int16); Y = a8[:, :n]; U = a8[:, n:n + n // 4]; V = a8[:, n + n // 4:]
+    hits = ((np.abs(Y - fy_) > 12).sum(1) >= 4) | (((np.abs(U - fu) > 6) | (np.abs(V - fv) > 6)).sum(1) >= 2)
+    med = (float(np.median(Y)), float(np.median(U)), float(np.median(V)))
+    if abs(med[0] - fy_) > 3 or abs(med[1] - fu) > 2 or abs(med[2] - fv) > 2:
+        return False, f"its backdrop Y'CbCr ({med[0]:.0f},{med[1]:.0f},{med[2]:.0f}) is not the fill colour's ({fy_},{fu},{fv}): not flattened?"
+    if hits.any(): return False, f"not plain backdrop (the presenter, a band) in {int(hits.sum())}/{nf} frames (first at {p['in'] + int(np.argmax(hits)) / FPS:.2f}s)"
+    return True, f"clean on {nf} frames, backdrop ({med[0]:.0f},{med[1]:.0f},{med[2]:.0f}) vs fill ({fy_},{fu},{fv})"
+def place_chain(p, b, bx, by, bw, bh, fx, fy, z, push, iw, ih, sw, sh):
+    """box mode + "place" {s, dx, dy}: the cover-scaled, cropped box picture scaled by s about the box's bottom-centre, shifted
+    by dx, dy; done as one scale of the source to the cover size x s and an even crop window (pad where the window leaves the
+    picture). Keep the window maths in step with split/presenter_geom.py place_window()."""
+    pl = p["place"]; name = os.path.basename(p["clip"])
+    try: s, dx, dy = float(pl.get("s", 1.0)), float(pl.get("dx", 0)), float(pl.get("dy", 0))
+    except (AttributeError, TypeError, ValueError): raise SystemExit(f"[compose2] bad place {pl!r} for {p['clip']}: {{\"s\": >= 1, \"dx\": px, \"dy\": px}}")
+    if not all(map(math.isfinite, (s, dx, dy))): raise SystemExit(f"[compose2] bad place {pl!r} for {p['clip']}")
+    if z > 1.001 or push > 0: raise SystemExit(f"[compose2] {p['clip']}: \"place\" replaces zoom / push; a segment cannot have both")
+    if s < 1: say(f"[compose2] warning: place s {s:g} < 1 for {name} would lift the frame's bottom edge into the box: clamped to 1"); s = 1.0
+    fill = b.get("fill", FILL_FLAT); fx4, fy4 = float(f"{fx:.4f}"), float(f"{fy:.4f}")
+    x0 = int(round(min(max(fx4 * sw - bw // 2, 0), sw - bw))) & ~1; y0 = int(round((sh - bh) * fy4)) & ~1   # the unplaced crop, as ffmpeg applies it
+    SW, SH = int(round(sw * s / 2)) * 2, int(round(sh * s / 2)) * 2
+    CX = int(math.floor(((x0 + bw / 2) * SW / sw - bw / 2 - dx) / 2 + 0.5)) * 2; CY = int(math.floor(((y0 + bh) * SH / sh - bh - dy) / 2 + 0.5)) * 2
+    notes = []
+    if CY + bh > SH:
+        say(f"[compose2] warning: place {pl} of {name} lifts the frame's bottom edge {CY + bh - SH} px above the box bottom: dy clamped"); CY = SH - bh
+    # Top: the rows above the unplaced crop's top row u0 (fy hides them: the cove line of unflattened clips, a flatten band)
+    # may show only when clean backdrop on every frame, the frame's top edge included; else the window stops at u0.
+    # Sides: the frame edge may show only when its outermost EDGE_K px are clean; else the window stops at that edge.
+    # Re-checked until nothing changes, so every check sees the FINAL window (a top clamp adds rows to the side spans).
+    u0 = int(y0 * SH / sh) & ~1; yuv = None; seen = {}
+    for _ in range(4):
+        changed = False
+        for side in ("left", "right", "top"):
+            if side == "top":
+                if CY >= u0 - 1: continue
+                span = (max(0, CX) * iw / SW, min(SW, CX + bw) * iw / SW); rows = (max(0, CY) * ih / SH, u0 * ih / SH)
+            else:
+                if (-CX if side == "left" else CX + bw - SW) <= 0: continue
+                span = (max(0, CY) * ih / SH, min(SH, CY + bh) * ih / SH); rows = None
+            if yuv is None: yuv = fill_yuv(p["clip"], fill)
+            key = (side, round(span[0], 2), round(span[1], 2), rows and (round(rows[0], 2), round(rows[1], 2)))
+            if key not in seen: seen[key] = edge_check(p, side, span, iw, ih, yuv, rows) if yuv else (False, "fill colour not measurable")
+            ok, why = seen[key]
+            if ok: continue
+            what = f"the frame's {side} edge" if side != "top" else (f"the frame's top edge and source rows 0..{rows[1]:.0f}" if CY < 0 else f"source rows {rows[0]:.0f}..{rows[1]:.0f} (hidden unplaced)")
+            say(f"[compose2] warning: place {pl} of {name} would show {what} ({why}): clamped")
+            if side == "left": CX = 0
+            elif side == "right": CX = SW - bw
+            else: CY = u0
+            changed = True
+        if not changed: break
+    for side, e in (("left", -CX), ("right", CX + bw - SW), ("top", -CY)):
+        if e > 0: notes.append(f"uncovers {side} {e} px (" + next((v[1] for k_, v in seen.items() if k_[0] == side and v[0]), "checked") + ")")
+    if 0 <= CY < u0 - 1: notes.append(f"shows source rows {CY * ih / SH:.0f}..{u0 * ih / SH:.0f} above the unplaced crop (clean backdrop)")
+    cx, cy = max(0, CX), max(0, CY); cw, ch = min(SW, CX + bw) - cx, min(SH, CY + bh) - cy
+    if cw < 2 or ch < 2: raise SystemExit(f"[compose2] place {pl} moves {name} out of its box")
+    f = f"scale={SW}:{SH}:flags=lanczos,crop={cw}:{ch}:{cx}:{cy}," + (f"pad={bw}:{bh}:{cx - CX}:{cy - CY}:color={fill}," if (cw, ch) != (bw, bh) else "")
+    pad = f",pad={W}:{H}:{bx}:{by}:color={b['pad']}" if (bx, by, bw, bh) != (0, 0, W, H) else ""
+    say(f"[compose2] place {name}: {iw}x{ih} covers {sw}x{sh} (crop {x0},{y0}); s {s:.4f} dx {dx:+g} dy {dy:+g} -> scaled {SW}x{SH}, box window at {CX},{CY}; "
+        f"{bw}x{bh} at {bx},{by}" + ("; " + "; ".join(notes) if notes else ""))
+    return f, pad
 pv = []
 for k, p in enumerate(pres):
     i = add(p["clip"]); g = gains.get(p["clip"]); mix = f"colorchannelmixer=rr={g[0]:.4f}:gg={g[1]:.4f}:bb={g[2]:.4f}," if g else ""
@@ -131,6 +233,7 @@ for k, p in enumerate(pres):
         geo, pad = box_chain(p)
         fc.append(f"[{i}:v]trim={p['in']}:{p['out']},setpts=PTS-STARTPTS,{geo}fps={FPS},format=yuv420p,setsar=1,{mix}{GRADE_P}{pad}[pv{k}]"); pv.append(f"[pv{k}]")
         continue
+    if p.get("place") is not None: raise SystemExit(f"[compose2] {p['clip']}: \"place\" needs box mode (plan \"size\" / \"presenter_box\")")
     z = float(p.get("zoom", 1.0)); zf = f"crop=iw/{z:.4f}:ih/{z:.4f}:(iw-iw/{z:.4f})/2:(ih-ih/{z:.4f})*0.35," if z > 1.001 else ""
     push = float(p.get("push", 0.0))
     if push > 0:
