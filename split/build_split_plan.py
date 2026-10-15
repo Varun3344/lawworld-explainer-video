@@ -25,6 +25,10 @@ SHOWN = {                                                            # how the w
 IDS = [s["sceneId"] for s in ALL]
 missing = [c for c in IDS if not (os.path.exists(f"{D}/{c}.mp4") and os.path.exists(f"{CLIPS}/{c}.mp4"))]
 if missing and "--allow-missing" not in sys.argv: sys.exit(f"[plan] missing clips: {missing}")
+# a retake replaces downloads/split9/cNN.mp4 but not its flattened copy: composing the old take with the new take's word times
+# would mistime every build, so a flat clip older than its source is FATAL (re-run split/flatten_bg.py on it)
+stale = [c for c in IDS if c not in missing and CLIPS != D and os.path.getmtime(f"{CLIPS}/{c}.mp4") < os.path.getmtime(f"{D}/{c}.mp4")]
+if stale: sys.exit(f"[plan] FATAL flattened clips older than their source (retake?): {stale} -> python3 split/flatten_bg.py " + " ".join(f"{D}/{c}.mp4" for c in stale))
 IDS = [c for c in IDS if c not in missing]
 FX = json.load(open(f"{OUT}/face_x.json")) if os.path.exists(f"{OUT}/face_x.json") else {}
 ZOOM = {c: (1.0 if i % 2 == 0 else 1.06) for i, c in enumerate(IDS)}   # alternate punch-in hides the cut between clips
