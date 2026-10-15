@@ -147,7 +147,8 @@ if have("c10", "c11", "c12", "c13"):
     fx("whoosh", op, -18); fx("pop", r1, -16); fx("pop", r2, -16); fx("ding", mg + 0.3, -16)
     v1 = at("c12", "right") - 0.1; v2 = at("c12", "breach", 2) - 0.1; v3 = at("c13", "need") - 0.1
     cue(type="verdicts", t0=S("c12") + 0.05, t1=at("c13", "let's") - 0.05,
-        rows=[{"text": "Right, no breach", "ok": False, "at": r3(v1)}, {"text": "Breach, but not of your right", "ok": False, "at": r3(v2)},
+        rows=[{"text": "Right, no breach", "ok": False, "at": r3(v1), "strike_at": r3(at("c12", "nothing") - 0.05)},
+              {"text": "Breach, but not of your right", "ok": False, "at": r3(v2), "strike_at": r3(at("c12", "nothing", 2) - 0.05)},
               {"text": "Your right + breach by this defendant", "ok": True, "at": r3(v3)}])
     fx("pop", v1, -18); fx("pop", v2, -18); fx("ding", v3, -14)
 
@@ -155,7 +156,7 @@ if have("c10", "c11", "c12", "c13"):
 if have("c13", "c14", "c15", "c16", "c17", "c18"):
     lt = at("c13", "let's") - 0.05
     n1 = at("c13", "lends") - 0.1; n2 = at("c14", "repay") - 0.1; n3 = at("c14", "pays") - 0.1
-    cue(type="timeline", t0=lt, t1=S("c15") + 0.3,
+    cue(type="timeline", t0=lt, t1=S("c15") + 0.1,
         nodes=[{"label": "LOAN", "value": "₹5,00,000", "sub": "Ravi → Suresh", "at": r3(n1)}, {"label": "DUE", "value": "31 Mar 2025", "at": r3(n2)},
                {"label": "REPAID", "value": "₹0", "tone": "red", "at": r3(n3)}])
     fx("whoosh", lt, -18); fx("pop", n1, -16); fx("pop", n2, -16); fx("slam", n3 + 0.05, -14)
@@ -176,13 +177,13 @@ if have("c13", "c14", "c15", "c16", "c17", "c18"):
 if have("c19", "c20", "c21", "c22"):
     cue(type="kicker", t0=S("c19"), t1=at("c22", "so") - 0.05, at=at("c19", "two") - 0.1, text="TWO COMMON MISTAKES")
     ne1 = at("c19", "depend") - 0.1; sub1 = at("c20", "grounds") - 0.1
-    cue(type="notequal", t0=S("c19") + 0.2, t1=E("c20") + 0.05, left="Cause of action", right="the defence", at=ne1,
+    cue(type="notequal", t0=S("c19") + 0.2, t1=E("c20") + 0.05, left="Cause of action", right="the defence", at=ne1, left_at=at("c19", "cause") - 0.1,
         sub="Read the plaint, not the written statement", sub_at=sub1)
     ck = at("c20", ["chand", "chandkour"]) - 0.1
     cue(type="cite", t0=ck - 0.05, t1=E("c20") + 0.05, at=ck, text="Chand Kour v. Partab Singh (1888) 15 IA 156", tag="PRIVY COUNCIL")
     fx("pop", ne1, -16); fx("pop", sub1, -18); fx("pop", ck, -16)
     ne2 = at("c21", "relief") - 0.1; rel = at("c21", "relief", 2) - 0.1; why = at("c22", "cause") - 0.1
-    cue(type="notequal", t0=S("c21"), t1=rel + 0.15, left="Cause of action", right="the relief", at=ne2)
+    cue(type="notequal", t0=S("c21"), t1=at("c22", "so") - 0.05, left="Cause of action", right="the relief", at=ne2, left_at=at("c21", "it") - 0.1)   # stays as the heading over the split card
     cue(type="splitcard", t0=rel - 0.05, t1=at("c22", "so") - 0.05,
         left={"title": "RELIEF", "text": "what you ask for", "at": r3(rel)}, right={"title": "CAUSE OF ACTION", "text": "why you are entitled to it", "at": r3(why)})
     fx("pop", ne2, -16); fx("whoosh", rel - 0.1, -18); fx("ding", why, -16)

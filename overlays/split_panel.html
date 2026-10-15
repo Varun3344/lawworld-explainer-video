@@ -4,15 +4,20 @@
   16:9 one-screen presentation panel for the LawWorld course explainers (1920x1080 @ 24 fps).
   Rendered by scripts/render_overlays.ts: window.__init(timeline) builds every cue, window.__seek(t) poses
   every element as a pure function of t (no CSS transitions / animations / rAF / clocks).
-  Layout: one third presenter, two thirds explanation, read as ONE screen. The presenter fills x 0..PX (640), shot against
-  the brand cream (split/flatten_bg.py flattens the backdrop to #f5f0e8, compose2.py pads the base with 0xf5f0e8); the panel
-  is x PX..1920 on the same opaque cream. At rest nothing marks the seam at x = PX: no divider, the panel's living blobs and
-  star watermark fade out within CLEAR px of it, and a FEATHER px strip (transparent -> cream) over the presenter's right edge
-  hides what is left of any backdrop mismatch. No cue may enter from or be clipped at the seam (the panel clips there).
+  Layout: one third presenter, two thirds explanation, read as ONE screen. timeline.layout = {px, presenter}:
+    presenter "left" (default; v3): presenter x 0..PX (640), panel x PX..1920, seam at x = PX (the panel's LEFT edge);
+    presenter "right" (v4, the full Cause of Action video): panel x 0..PW (1280), presenter x PW..1920, seam at x = PW (the
+    panel's RIGHT edge). Everything that depends on the side is mirrored (html.pr + the side-aware GEOMETRY globals).
+  The presenter is shot against the brand cream (split/flatten_bg.py flattens the backdrop to #f5f0e8, compose2.py pads the base
+  with 0xf5f0e8); the panel is the same opaque cream. At rest nothing marks the seam: no divider, the panel's living blobs and
+  star watermark fade out within CLEAR px of it, and a FEATHER px strip (transparent -> cream towards the seam) over the
+  presenter's seam-side edge hides what is left of any backdrop mismatch. No cue may enter from, cross or be clipped at the seam
+  (the panel clips there): entries come from the frame edges away from it (AWAY) or pop in place.
   Every layout number lives in the GEOMETRY block at the top of the script and is mirrored to CSS custom properties on :root.
-  Presenter x 0..PX stays transparent apart from the feather, the lower third and the full-frame sting / endcard.
+  The presenter third stays transparent apart from the feather, the lower third and the full-frame sting / endcard.
   Layers: panel chrome < panel content (cue order) < seam feather < presenter cues < sting/endcard.
-  RGBA guard: #stage never paints its bottom-right pixel and #guard fills it with 99 % cream (alpha 252), so every PNG is RGBA.
+  RGBA guard: #stage never paints the bottom pixel of the panel's outer corner (bottom-right; bottom-left with the presenter on
+  the right) and #guard fills it with 99 % cream (alpha 252), so every PNG is RGBA.
   Chrome saves a fully opaque frame (sting / endcard) as RGB, and ffmpeg re-initialises the overlay graph when a sequence
   switches between RGB and RGBA, which dropped the overlay for two frames in the first motion test. (A fully transparent
   pixel let compose2's black lead show as a black corner dot under the opening sting.)
@@ -27,8 +32,9 @@
         --accent:#cc785c;--accent-deep:#b3573f;--accent-soft:#e8bfa9;--wash:#f5dfd0;--brand:#d97757;--red:#c0392b;
         --serif:"Instrument Serif","Times New Roman",Georgia,serif;--sans:"Manrope",-apple-system,"Helvetica Neue",Arial,sans-serif;
         --copper:linear-gradient(135deg,#de8a6a 0%,var(--brand) 38%,var(--accent-deep) 100%);}
-  /* layout geometry (--px --pw --cl --cw --feather --over --clear --ramp --head-y --head-h --rule-y --kick-y --cite-b --lt-x --lt-y --lt-w --edge-w --eq-w)
-     is written onto :root by the GEOMETRY block in the script: change it there, never here */
+  /* layout geometry (--px --pw --cl --cw --feather --over --clear --ramp --head-y --head-h --rule-y --kick-y --cite-b --lt-x --lt-y --lt-w --edge-w --eq-w
+     --panel-x --pedge-x --fdir) is written onto :root by the GEOMETRY block in the script: change it there, never here.
+     html.pr = presenter on the RIGHT (seam on the panel's right edge): the html.pr rules mirror what depends on the side */
   html,body{margin:0;padding:0;width:1920px;height:1080px;overflow:hidden;background:transparent;}
   body{font-family:var(--sans);color:var(--ink);-webkit-font-smoothing:antialiased;}
   .serif{font-family:var(--serif);font-weight:400;}
@@ -39,12 +45,15 @@
   #stage{position:absolute;left:0;top:0;width:1920px;height:1080px;
     clip-path:polygon(0 0,1920px 0,1920px 1079px,1919px 1079px,1919px 1080px,0 1080px);}  /* 1 px RGBA guard, see header note */
   #guard{position:absolute;left:1919px;top:1079px;width:1px;height:1px;background:rgba(245,240,232,.99);}
-  #pwrap{position:absolute;left:var(--px);top:0;width:var(--pw);height:1080px;overflow:hidden;}
+  /* presenter on the right: the guard pixel moves to the panel's outer corner (bottom-left), never over the footage */
+  html.pr #stage{clip-path:polygon(0 0,1920px 0,1920px 1080px,1px 1080px,1px 1079px,0 1079px);}
+  html.pr #guard{left:0;}
+  #pwrap{position:absolute;left:var(--panel-x);top:0;width:var(--pw);height:1080px;overflow:hidden;}
   #pin{position:absolute;left:0;top:0;width:var(--pw);height:1080px;transform-origin:50% 45%;}
   #pbase,#pcontent{position:absolute;left:0;top:0;width:var(--pw);height:1080px;}
   #pcontent{isolation:isolate;}   /* the stamp's multiply resolves inside the content group, not against the composited blob layers:
                                      identical frames from run to run (otherwise up to 2-level differences on stamp frames) */
-  #pedge{position:absolute;left:calc(var(--px) - var(--feather));top:0;width:var(--feather);height:1080px;}
+  #pedge{position:absolute;left:var(--pedge-x);top:0;width:var(--feather);height:1080px;}   /* presenter side of the seam */
   #pres,#top{position:absolute;left:0;top:0;width:1920px;height:1080px;}
   .mk img{width:100%;height:100%;}
   .wd{position:relative;overflow:hidden;flex:none;}
@@ -60,6 +69,8 @@
   .pbg .pbl{position:absolute;left:0;top:0;width:100%;height:100%;}
   .pbg .pveil{position:absolute;left:0;top:0;width:calc(var(--over) + var(--clear));height:100%;background:var(--cream);}   /* solid: no dither at the seam */
   .pbg .pramp{position:absolute;left:calc(var(--over) + var(--clear));top:0;width:var(--ramp);height:100%;background:linear-gradient(90deg,var(--cream),rgba(245,240,232,0));}
+  html.pr .pbg .pveil{left:calc(var(--over) + var(--pw) - var(--clear));}   /* seam on the panel's right edge */
+  html.pr .pbg .pramp{left:calc(var(--over) + var(--pw) - var(--clear) - var(--ramp));background:linear-gradient(270deg,var(--cream),rgba(245,240,232,0));}
   /* the drifting blobs / star are their own compositor layers: rasterised once, only moved per frame (re-rasterising the moving
      gradients every frame left 1-6 level dither differences between otherwise identical renders) */
   .pbg .blob,.pbg .wst,.full .fw,.full .fst{will-change:transform;}
@@ -71,11 +82,13 @@
   .pbg .wst path{fill:none;stroke:var(--accent);stroke-width:1.6;opacity:.20;}
   .pbg .wst path.s2{opacity:.12;}
   .pbg .wst circle{fill:none;stroke:var(--accent);stroke-width:1.4;stroke-dasharray:2 10;opacity:.28;}
-  /* seam feather over the presenter's right edge: transparent -> the panel cream on a smoothstep curve (no hard start line), the last
-     pixel column fully cream so nothing of the footage touches the seam */
-  .feather{position:absolute;left:0;top:0;width:var(--feather);height:1080px;background:linear-gradient(90deg,rgba(245,240,232,0) 0%,rgba(245,240,232,.043) 12.5%,
+  /* seam feather over the presenter's seam-side edge: transparent -> the panel cream on a smoothstep curve (no hard start line), the
+     pixel column at the seam fully cream so nothing of the footage touches it (--fdir 90deg: presenter left, 270deg: presenter right) */
+  .feather{position:absolute;left:0;top:0;width:var(--feather);height:1080px;background:linear-gradient(var(--fdir),rgba(245,240,232,0) 0%,rgba(245,240,232,.043) 12.5%,
     rgba(245,240,232,.156) 25%,rgba(245,240,232,.316) 37.5%,rgba(245,240,232,.5) 50%,rgba(245,240,232,.684) 62.5%,rgba(245,240,232,.844) 75%,
     rgba(245,240,232,.957) 87.5%,var(--cream) calc(100% - 1px));}
+  /* the 270deg gradient's dither reaches its seam column (1-level speckle at x = PW): a solid cream column there keeps the step 0 */
+  html.pr .feather{box-shadow:inset 1px 0 0 var(--cream);}
   .phead{position:absolute;left:var(--cl);top:var(--head-y);width:var(--cw);height:var(--head-h);}
   .plk{position:absolute;left:0;top:3px;height:56px;display:flex;align-items:center;gap:16px;}
   .plk .mk{width:56px;height:56px;flex:none;filter:drop-shadow(0 5px 10px rgba(120,60,30,.22));}
@@ -87,6 +100,11 @@
   .chip .face.tight .lab{letter-spacing:1px;}
   .prule{position:absolute;left:var(--cl);top:var(--rule-y);width:var(--cw);height:2px;background:var(--rule);transform-origin:0 50%;}
   .prule .fill{position:absolute;left:0;top:0;height:2px;width:0;background:linear-gradient(90deg,var(--brand),var(--accent-deep));}
+  /* presenter on the right: the lockup sits at the seam end of the header row and the chip at the frame edge (growing away from
+     the seam), the rule builds out from the seam; the progress fill still reads left to right */
+  html.pr .plk{left:auto;right:0;}
+  html.pr .chip{right:auto;left:0;transform-origin:0 50%;}
+  html.pr .prule{transform-origin:100% 50%;}
 
   /* ---------- shared content (every column cue spans the content column --cl / --cw) ---------- */
   .cue{position:absolute;left:0;top:0;transform-origin:50% 50%;}
@@ -113,6 +131,7 @@
   .qa .badge{background:var(--copper);color:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 16px 34px rgba(179,87,63,.35);}
   .qa .badge svg{width:54px;height:54px;stroke-width:2.1;}
   .qa .ring{border:3.5px solid var(--accent);box-sizing:border-box;}
+  html.pr .qa .badge,html.pr .qa .ring{left:auto;right:56px;}   /* the badge docks on the card's corner nearest the presenter */
 
   /* stamp */
   .stamp{left:0;top:0;width:var(--pw);height:1px;mix-blend-mode:multiply;}
@@ -174,6 +193,16 @@
   .cite .tag{font-weight:800;font-size:24px;letter-spacing:4.5px;color:#eaa588;text-transform:uppercase;line-height:1.2;margin-bottom:9px;white-space:nowrap;}
   .cite .nm{font-family:var(--serif);font-style:italic;font-size:52px;line-height:1.1;color:#f7f1e8;text-wrap:balance;}
   .cite .cn{font-weight:600;font-size:31px;letter-spacing:.7px;color:rgba(247,241,232,.74);margin-top:9px;line-height:1.2;}
+  /* cases: two authorities in one bar, one line each (the name, then its citation; the citation wraps under it if it must) */
+  .cite.cases .cs{display:flex;align-items:baseline;gap:2px 22px;}
+  .cite.cases .cs + .cs{margin-top:8px;}
+  .cite.cases .nm,.cite.cases .cn{flex:none;white-space:nowrap;text-wrap:nowrap;}   /* .cite .nm balances (wraps): never inside a row */
+  .cite.cases .cs.wrap{flex-wrap:wrap;}
+  .cite.cases .cs.wrap .nm{flex:0 1 auto;white-space:normal;text-wrap:balance;}
+  .cite .bar.ghost{background:none;box-shadow:none;}   /* hand-over: the incoming bar lets the outgoing one (and its lifting text) show */
+  .cite .bar.ghost::before{opacity:0;}
+  .cite.cases .nm{font-size:46px;line-height:1.14;}
+  .cite.cases .cn{margin-top:0;font-size:29px;}
 
   /* equation */
   .eq{left:var(--cl);width:var(--cw);}
@@ -200,7 +229,8 @@
   .bdl .bow circle{fill:var(--accent-deep);}
   .bdl .lab{position:absolute;left:var(--cl);width:var(--cw);text-align:center;font-size:82px;line-height:1.1;color:var(--ink);}
 
-  /* lower third (presenter side: inside x 0..PX with --lt-x margins, below the face) */
+  /* lower third (presenter side: inside the presenter third with --lt-x margins, below the face; anchored at the frame edge and
+     opening towards the seam, mirrored - bar, mark, then the text - with the presenter on the right) */
   .lt{position:absolute;left:var(--lt-x);top:var(--lt-y);height:108px;}
   .lt .ltc{position:relative;height:108px;border-radius:22px;background:var(--paper);box-shadow:0 16px 38px rgba(10,8,6,.30),0 2px 6px rgba(10,8,6,.16);overflow:hidden;display:flex;align-items:center;padding:0 42px 0 30px;gap:20px;box-sizing:border-box;}
   .lt .bar{position:absolute;left:0;top:0;bottom:0;width:8px;background:linear-gradient(180deg,var(--brand),var(--accent-deep));}
@@ -213,6 +243,9 @@
   .lt.wrap .ltc > div:last-child{min-width:0;flex:1;}
   .lt.wrap .nm,.lt.wrap .rl{white-space:normal;}
   .lt.wrap .nm{line-height:1.04;}
+  html.pr .lt{left:auto;right:var(--lt-x);}
+  html.pr .lt .ltc{flex-direction:row-reverse;padding-left:42px;padding-right:30px;text-align:right;}   /* longhands: .wrap keeps its 16 px top / bottom */
+  html.pr .lt .bar{left:auto;right:0;}
 
   /* full-frame cards (sting / endcard) */
   .full{position:absolute;left:0;top:0;width:1920px;height:1080px;}
@@ -232,6 +265,7 @@
   /* the moving edge carries a light shadow (onto the presenter) only while it travels: no line, gone once the card lands */
   .full .edge{position:absolute;left:0;top:0;width:var(--edge-w);height:1080px;}
   .full .edge .esh{position:absolute;left:0;top:0;width:100%;height:1080px;background:linear-gradient(90deg,rgba(15,12,9,0) 0%,rgba(15,12,9,.05) 55%,rgba(15,12,9,.15) 100%);}
+  html.pr .full .edge .esh{background:linear-gradient(270deg,rgba(15,12,9,0) 0%,rgba(15,12,9,.05) 55%,rgba(15,12,9,.15) 100%);}   /* the card's right edge */
   .sting .kick{display:flex;align-items:center;gap:26px;font-weight:800;font-size:28px;letter-spacing:9px;color:var(--accent-deep);text-transform:uppercase;margin-top:66px;line-height:1.3;}
   .sting .kick span{margin-right:-9px;}
   .sting .kick i{display:block;width:72px;height:2px;background:var(--accent-soft);}
@@ -239,6 +273,8 @@
   .sting .sb{font-weight:500;font-size:44px;line-height:1.3;color:#5c5650;margin-top:34px;}
   .endc .lk .mk{width:96px;height:96px;}
   .endc .tt{font-size:176px;margin-top:46px;}
+  .endc .ln{font-family:var(--serif);font-size:64px;line-height:1.12;color:var(--ink-soft);margin-top:40px;white-space:nowrap;}   /* optional line */
+  .endc .ln b{font-weight:400;color:var(--accent-deep);}
   .endc .nx{display:flex;align-items:center;gap:24px;margin-top:44px;}
   .endc .nx .tag{font-weight:800;font-size:24px;letter-spacing:5px;color:var(--accent-deep);background:var(--wash);border-radius:26px;padding:12px 21px 12px 26px;text-transform:uppercase;line-height:1.1;box-shadow:inset 0 0 0 1.5px rgba(179,87,63,.16);}
   .endc .nx .v{font-family:var(--serif);font-size:66px;line-height:1.05;color:var(--ink);white-space:nowrap;}
@@ -288,11 +324,31 @@ const hexRGB = h => [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16));
 const mixC = (a, b, p) => { const A = hexRGB(a), B = hexRGB(b); return 'rgb(' + A.map((v, i) => Math.round(lerp(v, B[i], p))).join(',') + ')'; };
 const TAU = Math.PI * 2;
 
-/* ---------------- GEOMETRY: every layout number lives here (panel coordinates unless noted), mirrored to CSS custom properties ---------------- */
-const PX = 640, PW = 1280;              // frame x: presenter 0..PX (one third), panel PX..PX+PW (two thirds); the invisible seam is x = PX
-const CL = 112, CW = 1068;              // content column: CL from the seam (air for the presenter's hands), CW wide -> right margin PW-CL-CW = 100
-const CX = CL + CW / 2;                 // content column centre
-const FEATHER = 48;                     // frame x PX-FEATHER..PX: transparent -> cream strip over the presenter's right edge
+/* ---------------- GEOMETRY: every layout number lives here (panel coordinates unless noted), mirrored to CSS custom properties ----------------
+   Side-aware: timeline.layout = {px, presenter: "left" | "right"} (no layout / no presenter = "left", the v3 layout). setGeometry()
+   runs at load with the defaults and again in __init before anything is built, so the side-dependent values are `let`.
+   Cue files (split_cues_*.js) use these globals INSIDE their BUILD / LAYOUT / SEEK functions - never copy them into constants at
+   load time, they change at __init:
+     PW            panel width (1280); PX = presenter WIDTH (640), not a frame offset - use PANEL_X / SEAM_X for that
+     CL, CW, CX    content column left / width / centre in PANEL coordinates (COL_SEAM px clear of the seam, COL_EDGE px from the
+                   frame edge: CL 112 with the presenter left, CL 100 with the presenter right; CW 1068 either way)
+     SIDE          'left' | 'right': the presenter's side of the frame = the panel edge that carries the seam
+     SEAM          panel x of the seam (0 | PW);  SEAM_X / PANEL_X / PRES_X: frame x of the seam / panel's left edge / presenter's left edge
+     AWAY          +1 | -1: the panel-x direction pointing away from the seam (towards the panel's frame edge). An entry starts at an
+                   away(d) offset (or beyond the frame edge on the AWAY side, or the top / bottom) and travels back towards the seam
+     away(d) = AWAY * d;  seamDist(x) = distance of panel x from the seam;  mirX(x, w) = panel x of something designed for the
+     presenter-left layout (x measured from the seam side), mirrored for the presenter-right layout (w = its width, if x is a left edge)
+   Column content is placed from CL / CW and works on both sides as it is (text stays left to right - never mirror it with mirX);
+   use AWAY / away() for horizontal motion and mirX() only for placements authored in absolute presenter-left panel coordinates.
+   Other globals this block defines (cue files must not redeclare them): SIDE PX PW PRES_X PANEL_X SEAM_X SEAM AWAY COL_SEAM COL_EDGE
+   CL CW CX LT_W SLIDE away seamDist mirX setGeometry */
+let SIDE = 'left';                      // presenter side
+let PX = 640, PW = 1280;                // presenter width (one third, timeline.layout.px) / panel width (two thirds)
+let PRES_X = 0, PANEL_X = 640, SEAM_X = 640, SEAM = 0, AWAY = 1;   // frame x: presenter, panel, seam; panel x of the seam; away sign
+const COL_SEAM = 112, COL_EDGE = 100;   // content column: air at the seam (the presenter's hands) / margin at the frame edge
+let CL = COL_SEAM, CW = 1068;           // content column (panel coords): left, width = PW - COL_SEAM - COL_EDGE
+let CX = CL + CW / 2;                   // content column centre
+const FEATHER = 48;                     // presenter side of the seam: FEATHER px strip, transparent -> cream towards the seam
 const OVER = 40;                        // panel background overscan on every side (the stamp shake never shows an edge)
 const CLEAR = 220, RAMP = 300;          // panel blobs / watermark: none within CLEAR of the seam, full strength from CLEAR+RAMP on
 const HEAD_Y = 40, HEAD_H = 62, RULE_Y = 130;   // header row (logo lockup + scene chip): top, height; progress rule
@@ -302,14 +358,35 @@ const CITE_B = 40;                      // citation bar: gap to the frame foot (
 const AREA_TOP = RULE_Y + GAP, AREA_BOTTOM = 1080 - CITE_B;   // free band for content cues (164..1040)
 const QM_ROOM = 66;                     // quote card: room above it for the big quote mark
 const EQ_W = 840;                       // equation blocks (centred in the column)
-const LT_X = 40, LT_Y = 892, LT_W = PX - 2 * LT_X;    // lower third (frame coords, presenter side): left, top, widest card
+const LT_X = 40, LT_Y = 892;            // lower third (frame coords, presenter side): margin to the frame edge, top
+let LT_W = PX - 2 * LT_X;               // widest lower-third card
 const EDGE_W = 44;                      // sting / endcard: width of the light shadow on the moving edge
-const SLIDE = PW + 80;                  // panel slide distance when no sting / endcard covers its entry / exit
-const STAMP_FALL = 0.16, STAMP_FROM = [210, -120], STAMP_S0 = 2.3, STAMP_AIR = 40;   // stamp fall: time, start offset, start-scale cap, seam clearance
+let SLIDE = PW + 80;                    // panel slide distance when no sting / endcard covers its entry / exit
+const STAMP_FALL = 0.16, STAMP_FROM = [210, -120], STAMP_S0 = 2.3, STAMP_AIR = 40;   // stamp fall: time, start offset (x away from the seam, y), start-scale cap, seam clearance
 const BDL_R = [266, 368], BDL_RING = [144, 274], BDL_LOOSE = [326, 274], BDL_JIT = [30, 25], BDL_LAB = 96, BDL_BOW = 1.15;   // bundle: cord radius (<=7 / more tiles), home rings, loose ellipse + jitter, label drop, bow scale
-(() => { const s = document.documentElement.style;
+const away = (d) => AWAY * d;
+const seamDist = (x) => SIDE === 'right' ? PW - x : x;
+const mirX = (x, w = 0) => SIDE === 'right' ? PW - x - w : x;
+function setGeometry(L) {
+  L = L || {};
+  const side = String(L.presenter ?? 'left').toLowerCase();
+  if (side !== 'left' && side !== 'right') console.warn('[split_panel] layout.presenter must be "left" or "right", got', L.presenter, '- using "left"');
+  SIDE = side === 'right' ? 'right' : 'left';
+  const px = Number(L.px ?? 640);
+  if (!(px >= 320 && px <= 960)) console.warn('[split_panel] layout.px out of range (320..960):', L.px, '- using 640');
+  PX = px >= 320 && px <= 960 ? Math.round(px / 2) * 2 : 640; PW = 1920 - PX;
+  AWAY = SIDE === 'right' ? -1 : 1;
+  PRES_X = SIDE === 'right' ? PW : 0; PANEL_X = SIDE === 'right' ? 0 : PX; SEAM_X = SIDE === 'right' ? PW : PX; SEAM = SIDE === 'right' ? PW : 0;
+  CW = PW - COL_SEAM - COL_EDGE; CL = SIDE === 'right' ? COL_EDGE : COL_SEAM; CX = CL + CW / 2;
+  LT_W = PX - 2 * LT_X; SLIDE = PW + 80;
+  const s = document.documentElement.style;
   Object.entries({ px: PX, pw: PW, cl: CL, cw: CW, feather: FEATHER, over: OVER, clear: CLEAR, ramp: RAMP, 'head-y': HEAD_Y, 'head-h': HEAD_H, 'rule-y': RULE_Y,
-    'kick-y': KICK_Y, 'cite-b': CITE_B, 'lt-x': LT_X, 'lt-y': LT_Y, 'lt-w': LT_W, 'edge-w': EDGE_W, 'eq-w': EQ_W }).forEach(([k, v]) => s.setProperty('--' + k, v + 'px')); })();
+    'kick-y': KICK_Y, 'cite-b': CITE_B, 'lt-x': LT_X, 'lt-y': LT_Y, 'lt-w': LT_W, 'edge-w': EDGE_W, 'eq-w': EQ_W,
+    'panel-x': PANEL_X, 'pedge-x': SIDE === 'right' ? SEAM_X : SEAM_X - FEATHER }).forEach(([k, v]) => s.setProperty('--' + k, v + 'px'));
+  s.setProperty('--fdir', SIDE === 'right' ? '270deg' : '90deg');
+  document.documentElement.classList.toggle('pr', SIDE === 'right');
+}
+setGeometry();
 
 const pbase = document.getElementById('pbase'), pcontent = document.getElementById('pcontent'), pin = document.getElementById('pin'), pwrap = document.getElementById('pwrap');
 const pedge = document.getElementById('pedge'), pres = document.getElementById('pres'), topL = document.getElementById('top');
@@ -369,6 +446,10 @@ function areaFor(c) {
   for (const y of EL) { if (y.c === c) continue;
     if (y.c.type === 'cite' && overlaps(y.c, c)) bottom = Math.min(bottom, y.top - GAP);
     if (y.c.type === 'kicker' && overlaps(y.c, c)) top = Math.max(top, y.bottom + GAP); }
+  // a parked date pin (split_cues_coa6.js) keeps the column's top corner while c is on screen: start below it
+  const z = typeof coaPinZone === 'function' ? coaPinZone(c) : null; if (z) top = Math.max(top, z.bottom + GAP);
+  // ... and a slots cue on screen with it keeps its heading and slot row (c is its guest and takes the card area under the row)
+  const sr = typeof coaSlotsRow === 'function' ? coaSlotsRow(c) : null; if (sr != null) top = Math.max(top, sr + GAP);
   return { top, bottom };
 }
 function fitFont(el, ok, minPx, step = 2) { let fs = parseFloat(getComputedStyle(el).fontSize); let n = 0;
@@ -396,8 +477,9 @@ BUILD.panel = (c) => {
     num: $(el, '.num'), lab: $(el, '.lab'), rule: $(el, '.prule'), fill: $(el, '.fill'), fe } };
 };
 function setFace(x, s) { const q = x.q; q.num.textContent = s.num; q.num.style.display = s.num ? '' : 'none'; q.face.classList.toggle('nonum', !s.num); q.face.classList.toggle('tight', !!s.tight); q.lab.textContent = s.txt; }
-// frame x of the endcard's left edge: it opens on the seam and widens over the presenter (shared with the panel waiting under it)
-const endcardX = (c, t) => PX * (1 - inOutCubic(P(t, c.t0 + 0.06, 0.55)));
+// how much of the presenter the endcard still leaves uncovered (PX .. 0): it opens on the seam and widens over the presenter (shared
+// with the panel waiting under it). With the presenter on the left this is the frame x of the card's left edge.
+const endcardR = (c, t) => PX * (1 - inOutCubic(P(t, c.t0 + 0.06, 0.55)));
 LAYOUT.panel = (x) => {
   const c = x.c, q = x.q, wd = $(q.lk, '.wd');
   const fit = () => { const maxW = CW - q.lk.offsetWidth - 28;
@@ -413,7 +495,7 @@ LAYOUT.panel = (x) => {
   // keep the chrome and the seam feather under the endcard until the card is opaque (0.16 s) and its edge has passed the feather,
   // or the header pops out mid-fade / the feather strip blinks off at the edge
   let end = c.t1;
-  if (ec) { end = Math.max(c.t1, ec.c.t0 + 0.2); while (endcardX(ec.c, end) > PX - FEATHER - 8 && end < ec.c.t0 + 2) end += 1 / 96; }
+  if (ec) { end = Math.max(c.t1, ec.c.t0 + 0.2); while (endcardR(ec.c, end) > PX - FEATHER - 8 && end < ec.c.t0 + 2) end += 1 / 96; }
   x.end = end;
   x.hb = x.coverEnd != null ? x.coverEnd - 0.06 : c.t0 + 0.35;   // header build start
 };
@@ -424,12 +506,13 @@ SEEK.panel = (x, t) => {
   if (x.coverStart == null) slide += inCubic(P(t, c.t1 - 0.45, 0.45)) * SLIDE;
   x.slide = slide;
   q.fe.style.opacity = f4(1 - clamp(slide / SLIDE));   // the feather fades with a sliding panel instead of travelling with it
-  // living background: blob centres in panel coords, all towards the right (the mask keeps CLEAR px at the seam flat anyway)
-  const blob = (el, w, bx, by) => { el.style.transform = `translate(${f2(OVER + bx - w / 2)}px,${f2(OVER + by - w / 2)}px)`; };
+  // living background: blob centres in panel coords, all away from the seam (mirX; the veil keeps CLEAR px at the seam flat anyway)
+  const blob = (el, w, bx, by) => { el.style.transform = `translate(${f2(OVER + mirX(bx) - w / 2)}px,${f2(OVER + by - w / 2)}px)`; };
   blob(q.b1, 1000, PW - 150 + 70 * Math.sin(TAU * t / 26), 140 + 50 * Math.cos(TAU * t / 21));
   blob(q.b2, 1100, PW * 0.5 + 60 * Math.cos(TAU * t / 31), 930 + 60 * Math.sin(TAU * t / 27));
   blob(q.b3, 820, PW - 170 + 50 * Math.sin(TAU * t / 35 + 1), 990 + 40 * Math.cos(TAU * t / 29));
-  q.wst.style.transform = `translate(${f2(OVER + PW - 120 - 340 + 14 * Math.sin(TAU * t / 40))}px,${f2(OVER + 990 - 340 + 10 * Math.cos(TAU * t / 33))}px) rotate(${f4(t * 1.6)}deg)`;
+  const wx = SIDE === 'right' ? OVER + mirX(PW - 120 + 14 * Math.sin(TAU * t / 40)) - 340 : OVER + PW - 120 - 340 + 14 * Math.sin(TAU * t / 40);
+  q.wst.style.transform = `translate(${f2(wx)}px,${f2(OVER + 990 - 340 + 10 * Math.cos(TAU * t / 33))}px) rotate(${f4(t * 1.6)}deg)`;
   const a1 = P(t, x.hb, 0.55), a2 = P(t, x.hb + 0.1, 0.75);
   q.lk.style.opacity = f4(outCubic(a1)); q.lk.style.transform = `translateY(${f2((1 - outExpo(a1)) * -18)}px)`;
   q.rule.style.transform = `scaleX(${f4(outExpo(a2))})`;
@@ -458,19 +541,25 @@ BUILD.sting = (c) => {
     <div class="edge"><div class="esh"></div></div>`);
   return { el, q: { card: $(el, '.card2'), ct: $(el, '.ct'), fveil: $(el, '.fveil'), fw1: $(el, '.fw1'), fw2: $(el, '.fw2'), fst: $(el, '.fst'), edge: $(el, '.edge') } };
 };
+// full-frame living layer: the big blobs and the star sit on the panel's side of the frame (mirrored with the presenter on the right)
+const fmx = (x, w) => SIDE === 'right' ? 1920 - x - w : x;
 function fullLiving(q, t) {
-  q.fw1.style.transform = `translate(${f2(1180 + 60 * Math.sin(TAU * t / 17))}px,${f2(-640 + 40 * Math.cos(TAU * t / 13))}px)`;
-  q.fw2.style.transform = `translate(${f2(160 + 50 * Math.cos(TAU * t / 19))}px,${f2(-260 + 40 * Math.sin(TAU * t / 23))}px)`;
-  q.fst.style.transform = `translate(${f2(1300)}px,${f2(380)}px) rotate(${f4(t * 2.2)}deg)`;
+  q.fw1.style.transform = `translate(${f2(fmx(1180 + 60 * Math.sin(TAU * t / 17), 1500))}px,${f2(-640 + 40 * Math.cos(TAU * t / 13))}px)`;
+  q.fw2.style.transform = `translate(${f2(fmx(160 + 50 * Math.cos(TAU * t / 19), 1600))}px,${f2(-260 + 40 * Math.sin(TAU * t / 23))}px)`;
+  q.fst.style.transform = `translate(${f2(fmx(1300, 940))}px,${f2(380)}px) rotate(${f4(t * 2.2)}deg)`;
 }
-// the card's moving left edge at frame x X: a light shadow falls onto the presenter, at opacity o (callers fade it with the motion).
-// The card's own living blobs are veiled near that edge as the panel's are near the seam, in proportion to how close the edge is to
-// the seam (X / PX): the card lands on / leaves the seam cream-on-cream, and keeps its untouched full-frame look at X = 0.
+// the card's moving edge once R px of the presenter are uncovered (0 = full frame, PX = the card lies exactly on the panel): the
+// card is clipped there (its left edge at frame x R, or its right edge at 1920 - R with the presenter on the right) and a light
+// shadow falls from that edge onto the presenter, at opacity o (callers fade it with the motion). The card's own living blobs are
+// veiled near that edge as the panel's are near the seam, in proportion to how close the edge is to the seam (R / PX): the card
+// lands on / leaves the seam cream-on-cream, and keeps its untouched full-frame look at R = 0.
 const edgeSpeed = (p) => 4 * Math.pow(Math.min(clamp(p), 1 - clamp(p)), 2);   // speed of an inOutCubic move, 0..1 (0 at both ends)
-function edgeAt(q, X, o) {
-  q.edge.style.transform = `translateX(${f2(X - EDGE_W)}px)`; q.edge.style.opacity = f4(o);
-  const k = clamp(X / PX);
-  q.fveil.style.background = k < 0.001 ? 'none' : `linear-gradient(90deg,rgba(245,240,232,${f4(k)}) ${f2(X + CLEAR)}px,rgba(245,240,232,0) ${f2(X + CLEAR + RAMP)}px)`;
+function cardEdge(q, R, o) {
+  const right = SIDE === 'right';
+  q.card.style.clipPath = R > 0.5 ? (right ? `inset(0 ${f2(R)}px 0 0)` : `inset(0 0 0 ${f2(R)}px)`) : 'none';
+  q.edge.style.transform = `translateX(${f2(right ? 1920 - R : R - EDGE_W)}px)`; q.edge.style.opacity = f4(o);
+  const k = clamp(R / PX);
+  q.fveil.style.background = k < 0.001 ? 'none' : `linear-gradient(${right ? 270 : 90}deg,rgba(245,240,232,${f4(k)}) ${f2(R + CLEAR)}px,rgba(245,240,232,0) ${f2(R + CLEAR + RAMP)}px)`;
 }
 // compose2's base is its black lead until presenter_start, which build_split_plan.py sets STING_LEAD s before the sting ends:
 // the wipe must not open before then (opening at t1 - 0.45 showed a 2 px, then a 16 px black sliver at the left edge, frames 37-38)
@@ -483,10 +572,9 @@ SEEK.sting = (x, t) => {
   const life = 1 + 0.014 * P(t, c.t0, Math.max(0.5, ex - c.t0));
   fullLiving(q, t);
   q.ct.style.opacity = f4(1 - inCubic(pc));
-  q.ct.style.transform = `translateX(${f2(inCubic(pc) * 240)}px) scale(${f4(life * (1 - 0.07 * inCubic(pc)))})`;
-  const X = inOutCubic(pw) * PX;                        // the card retracts onto the panel, the presenter appears on the left
-  q.card.style.clipPath = X > 0.5 ? `inset(0 0 0 ${f2(X)}px)` : 'none';
-  edgeAt(q, X, edgeSpeed(pw));                          // shadow only while travelling: none when it lands on the seam
+  q.ct.style.transform = `translateX(${f2(away(inCubic(pc) * 240))}px) scale(${f4(life * (1 - 0.07 * inCubic(pc)))})`;   // drifts with the card, away from the presenter
+  // the card retracts onto the panel, the presenter appears on his side; shadow only while travelling: none when it lands on the seam
+  cardEdge(q, inOutCubic(pw) * PX, edgeSpeed(pw));
   x.el.style.opacity = f4(1 - P(t, c.t1 - 0.1, 0.1));
 };
 BUILD.endcard = (c) => {
@@ -494,32 +582,34 @@ BUILD.endcard = (c) => {
   if (c.sub) { const m = String(c.sub).match(/^\s*([^:]{1,24}):\s*(.+)$/);
     sub = m ? `<div class="nx"><span class="tag">${esc(m[1])}</span><span class="v">${opsHTML(m[2])}</span></div>` : `<div class="nx"><span class="v">${opsHTML(c.sub)}</span></div>`; }
   const el = mk(topL, 'full endc', `<div class="card2">${fullBG()}<div class="ct"><div class="lk">${markHTML()}${wordmarkHTML(52)}</div>
-      <div class="tt serif">${maskWords(c.title)}</div><div class="ul"></div>${sub}
+      <div class="tt serif">${maskWords(c.title)}</div><div class="ul"></div>${c.line ? `<div class="ln">${opsHTML(c.line)}</div>` : ''}${sub}
       ${c.url ? `<div class="url">${ico('globe')}<span>${esc(c.url)}</span></div>` : ''}</div></div>
     <div class="edge"><div class="esh"></div></div>`);
   return { el, q: { card: $(el, '.card2'), ct: $(el, '.ct'), fveil: $(el, '.fveil'), fw1: $(el, '.fw1'), fw2: $(el, '.fw2'), fst: $(el, '.fst'), edge: $(el, '.edge'),
-    lk: $(el, '.lk'), words: $$(el, '.wi'), ul: $(el, '.ul'), nx: $(el, '.nx'), url: $(el, '.url') } };
+    lk: $(el, '.lk'), words: $$(el, '.wi'), ul: $(el, '.ul'), ln: $(el, '.ln'), nx: $(el, '.nx'), url: $(el, '.url') } };
 };
+LAYOUT.endcard = (x) => { if (x.q.ln) fitFont(x.q.ln, () => x.q.ln.offsetWidth <= 1640, 40, 2); };   // the optional line between title and sub
 SEEK.endcard = (x, t) => {
   const c = x.c, q = x.q, t0 = c.t0;
   fullLiving(q, t);
   const a = P(t, t0, 0.16), pw = P(t, t0 + 0.06, 0.55);
-  const X = endcardX(c, t);                             // the card widens from the seam over the presenter
-  q.card.style.clipPath = X > 0.5 ? `inset(0 0 0 ${f2(X)}px)` : 'none';
   q.card.style.opacity = f4(a);
-  edgeAt(q, X, a * edgeSpeed(pw));                      // no shadow while the edge still sits on the seam, none once it lands
+  // the card widens from the seam over the presenter; no shadow while the edge still sits on the seam, none once it lands
+  cardEdge(q, endcardR(c, t), a * edgeSpeed(pw));
   rise(q.lk, P(t, t0 + 0.34, 0.6), 26);
   q.words.forEach((w, k) => { const p = P(t, t0 + 0.42 + k * 0.09, 0.6), e = outExpo(p);
     w.style.transform = `translateY(${f2((1 - e) * 108)}%) rotate(${f2((1 - e) * 5)}deg)`; w.style.opacity = f4(clamp(p * 4)); });
   q.ul.style.transform = `scaleX(${f4(outExpo(P(t, t0 + 0.72, 0.6)))})`;
-  if (q.nx) rise(q.nx, P(t, t0 + 0.82, 0.55), 22);
-  if (q.url) { const p = P(t, t0 + 1.0, 0.6); q.url.style.opacity = f4(clamp(p * 3)); q.url.style.transform = `scale(${f4(0.78 + 0.22 * spring(p))})`; }
+  const lb = q.ln ? 0.16 : 0;   // a line between title and sub lands first, the sub and url follow it
+  if (q.ln) rise(q.ln, P(t, t0 + 0.82, 0.55), 22);
+  if (q.nx) rise(q.nx, P(t, t0 + 0.82 + lb, 0.55), 22);
+  if (q.url) { const p = P(t, t0 + 1.0 + lb, 0.6); q.url.style.opacity = f4(clamp(p * 3)); q.url.style.transform = `scale(${f4(0.78 + 0.22 * spring(p))})`; }
   q.ct.style.transform = `scale(${f4(1 + 0.016 * P(t, t0 + 1.2, 3.2))})`;
   const hold = c.t1 >= (TL.duration ?? 0) - 0.05;
   x.el.style.opacity = hold ? '1' : f4(clamp((c.t1 - t) / (c.fade_out ?? 0.3)));
 };
 
-/* ---------------- 14 lower third (presenter side: inside x 0..PX, below the face) ---------------- */
+/* ---------------- 14 lower third (presenter side: inside the presenter third, below the face) ---------------- */
 BUILD.lower_third = (c) => {
   const el = mk(pres, 'lt', `<div class="ltc"><div class="bar"></div>${markHTML()}<div><div class="nm serif">${esc(c.name)}</div>${c.role ? `<div class="rl">${esc(c.role)}</div>` : ''}</div></div>`);
   return { el, q: { ltc: $(el, '.ltc'), mk: $(el, '.mk'), nm: $(el, '.nm'), rl: $(el, '.rl') } };
@@ -533,10 +623,12 @@ LAYOUT.lower_third = (x) => {   // the card stays inside the presenter third (LT
 SEEK.lower_third = (x, t) => {
   const c = x.c, q = x.q, a = P(t, c.t0, 0.65), k = clamp((c.t1 - t) / (c.fade_out ?? 0.35));
   const open = outExpo(a) * (k >= 1 ? 1 : outCubic(k));
-  q.ltc.style.clipPath = open >= 1 ? 'none' : `inset(0 ${f2((1 - open) * 100)}% 0 0 round 22px)`;
-  q.ltc.style.transform = `translateX(${f2((1 - outExpo(a)) * -LT_X)}px)`;
+  // opens from the frame edge towards the seam (never out of it): the card slides in from the frame edge, the mark rolls with it
+  const cut = f2((1 - open) * 100) + '%';
+  q.ltc.style.clipPath = open >= 1 ? 'none' : SIDE === 'right' ? `inset(0 0 0 ${cut} round 22px)` : `inset(0 ${cut} 0 0 round 22px)`;
+  q.ltc.style.transform = `translateX(${f2(away((1 - outExpo(a)) * -LT_X))}px)`;
   const m = P(t, c.t0 + 0.1, 0.7);
-  q.mk.style.transform = `rotate(${f2((1 - outBack(m)) * -120)}deg) scale(${f4(0.5 + 0.5 * outBack(m))})`;
+  q.mk.style.transform = `rotate(${f2(away((1 - outBack(m)) * -120))}deg) scale(${f4(0.5 + 0.5 * outBack(m))})`;
   rise(q.nm, P(t, c.t0 + 0.2, 0.55), 22); if (q.rl) rise(q.rl, P(t, c.t0 + 0.32, 0.55), 16);
   x.el.style.opacity = f4(k);
 };
@@ -561,9 +653,12 @@ SEEK.title = (x, t) => {
 };
 
 /* ---------------- 4 question ---------------- */
+// the badge's speech bubble keeps its tail towards the presenter: with the presenter on the right only the bubble outline is
+// mirrored (the "?" inside stays readable)
+const qBubble = () => SIDE === 'right' ? ico('message-circle-question').replace('<path ', '<path transform="matrix(-1 0 0 1 24 0)" ') : ico('message-circle-question');
 BUILD.question = (c) => {
   const rw = richWords(c.text, c.hl ? [c.hl] : [], 'hlq');
-  const el = mk(pcontent, 'cue qa', `<div class="qcard card"><div class="qt serif">${rw.html}</div></div><div class="ring"></div><div class="badge">${ico('message-circle-question')}</div>`);
+  const el = mk(pcontent, 'cue qa', `<div class="qcard card"><div class="qt serif">${rw.html}</div></div><div class="ring"></div><div class="badge">${qBubble()}</div>`);
   return { el, nW: rw.nWords, q: { card: $(el, '.qcard'), qt: $(el, '.qt'), words: $$(el, '.w'), hls: $$(el, '.hlq'), badge: $(el, '.badge'), ring: $(el, '.ring') } };
 };
 LAYOUT.question = (x) => {
@@ -571,7 +666,8 @@ LAYOUT.question = (x) => {
   fitFont(q.qt, () => q.qt.scrollWidth <= q.qt.clientWidth + 1 && x.el.offsetHeight <= (A.bottom - A.top) * 0.7, 60, 2);
   x.h = x.el.offsetHeight;
   x.top = x.c.y ?? centerTop(A, x.h, 6); x.el.style.top = x.top + 'px';
-  // the badge pops over the card centre and docks on the card's top-left corner: card centre relative to the docked badge centre
+  // the badge pops over the card centre and docks on the card's top corner at the seam side (top-left with the presenter on the
+  // left, top-right with him on the right): card centre relative to the docked badge centre
   x.bdx = CW / 2 - (q.badge.offsetLeft + q.badge.offsetWidth / 2); x.bdy = x.h / 2 - (q.badge.offsetTop + q.badge.offsetHeight / 2);
 };
 SEEK.question = (x, t) => {
@@ -579,7 +675,7 @@ SEEK.question = (x, t) => {
   const pb = P(t, c.t0 + 0.05, 0.6), dock = outExpo(P(t, at - 0.04, 0.6));
   const bx = x.bdx * (1 - dock), by = x.bdy * (1 - dock), bs = lerp(1.45, 1, dock);
   q.badge.style.opacity = f4(clamp(pb * 4));
-  q.badge.style.transform = `translate(${f2(bx)}px,${f2(by)}px) scale(${f4(bs * spring(pb))}) rotate(${f2((1 - outCubic(pb)) * -40)}deg)`;
+  q.badge.style.transform = `translate(${f2(bx)}px,${f2(by)}px) scale(${f4(bs * spring(pb))}) rotate(${f2(away((1 - outCubic(pb)) * -40))}deg)`;
   if (t < at + 0.25) { const ph = ((t - c.t0) % 1.0) / 1.0;
     q.ring.style.opacity = f4(0.55 * (1 - ph) * clamp((at + 0.1 - t) / 0.2) * clamp(pb * 2)); q.ring.style.transform = `translate(${f2(bx)}px,${f2(by)}px) scale(${f4(bs * (1 + 0.8 * outCubic(ph)))})`; }
   else q.ring.style.opacity = '0';
@@ -606,23 +702,24 @@ LAYOUT.stamp = (x) => {
   const cy = c.y ?? (qx ? qx.top + qx.h + 16 : Math.round((AREA_TOP + AREA_BOTTOM) / 2));
   const cx = CX + 12;                                   // a hair right of the column centre: the -9 deg tilt then reads centred
   si.style.left = f2(cx - w / 2) + 'px'; si.style.top = f2(cy - h / 2) + 'px';
-  // the fall starts bigger and up-right of the landing spot; its start scale is capped so the tilted stamp (ink filter margin
-  // included) stays STAMP_AIR clear of the seam - nothing may be cut by the invisible panel edge
+  // the fall starts bigger and above the landing spot, offset away from the seam (up-right with the presenter on the left, up-left
+  // with him on the right); its start scale is capped so the tilted stamp (ink filter margin included) stays STAMP_AIR clear of the
+  // seam - nothing may be cut by the invisible panel edge
   const r = 22 * Math.PI / 180, half = 1.08 * (w / 2) * Math.cos(r) + 1.2 * (h / 2) * Math.sin(r);
-  x.s0 = clamp((cx + STAMP_FROM[0] - STAMP_AIR) / half, 1, STAMP_S0);
+  x.s0 = clamp((seamDist(cx + away(STAMP_FROM[0])) - STAMP_AIR) / half, 1, STAMP_S0);
 };
 SEEK.stamp = (x, t) => {
   const c = x.c, q = x.q, at = c.at ?? c.t0;
   const p = P(t, at, STAMP_FALL), tau = t - at - STAMP_FALL; let s, r, dx = 0, dy = 0;
-  if (tau < 0) { const e = p * p; s = x.s0 - (x.s0 - 1) * e; r = -22 + 13 * e; dx = STAMP_FROM[0] * (1 - e); dy = STAMP_FROM[1] * (1 - e); }
+  if (tau < 0) { const e = p * p; s = x.s0 - (x.s0 - 1) * e; r = -22 + 13 * e; dx = away(STAMP_FROM[0]) * (1 - e); dy = STAMP_FROM[1] * (1 - e); }
   else { const d = Math.exp(-9 * tau); s = 1 - 0.05 * d * Math.sin(30 * tau); r = -9 + 1.3 * d * Math.sin(24 * tau); }
   q.si.style.opacity = f4(clamp(p * 3.5));
   q.si.style.transform = `translate(${f2(dx)}px,${f2(dy)}px) rotate(${f2(r)}deg) scale(${f4(s)})`;
   cueRoot(x, t, { noLife: true });
 };
-function shakeAt(t) {   // brief panel shake after each stamp lands (the panel cream overscans by OVER, so no edge ever shows)
-  let sx = 0, sy = 0, sr = 0;
-  for (const x of EL) { if (x.c.type !== 'stamp') continue; const tau = t - (x.c.at ?? x.c.t0) - STAMP_FALL;
+function shakeAt(t) {   // brief panel shake after each stamp lands (the panel cream overscans by OVER, so no edge ever shows); a cue file
+  let sx = 0, sy = 0, sr = 0;   // asks for the same hit by setting x.hitAt (the date pin's landing)
+  for (const x of EL) { const hit = x.c.type === 'stamp' ? (x.c.at ?? x.c.t0) : x.hitAt; if (hit == null) continue; const tau = t - hit - STAMP_FALL;
     if (tau < 0 || tau > 0.7 || t > x.c.t1) continue; const A = Math.exp(-7.5 * tau);
     sx += 13 * A * Math.sin(TAU * 8.5 * tau); sy += 9 * A * Math.sin(TAU * 7 * tau + 1.1); sr += 0.5 * A * Math.sin(TAU * 6 * tau + 0.4); }
   return { sx, sy, sr };
@@ -655,7 +752,7 @@ SEEK.list = (x, t) => {
   items.forEach((it, k) => { const at = ats[k]; if (t >= at) act = k;
     const pb = P(t, at, 0.62); q.nb[k].style.opacity = f4(clamp(pb * 4));
     q.nb[k].style.transform = `scale(${f4(spring(pb))}) rotate(${f2((1 - outCubic(pb)) * -110)}deg)`;
-    const pt = P(t, at + 0.07, 0.55); q.tx[k].style.opacity = f4(clamp(pt * 2.2)); q.tx[k].style.transform = `translateX(${f2((1 - outExpo(pt)) * 70)}px)`; });
+    const pt = P(t, at + 0.07, 0.55); q.tx[k].style.opacity = f4(clamp(pt * 2.2)); q.tx[k].style.transform = `translateX(${f2(away((1 - outExpo(pt)) * 70))}px)`; });   // slides in from the side away from the seam
   q.seg.forEach((s, k) => { s.style.transform = `scaleY(${f4(outCubic(P(t, ats[k + 1] - 0.15, 0.4)))})`; });
   if (act >= 0) { const p = outExpo(P(t, ats[act], 0.5)); const y = act > 0 ? lerp(x.rowY[act - 1], x.rowY[act], p) : x.rowY[0];
     q.bar.style.transform = `translateY(${f2(y)}px) scaleX(${f4(act > 0 ? 1 : 0.35 + 0.65 * p)})`; q.bar.style.opacity = f4(act > 0 ? 1 : clamp(p * 1.5)); }
@@ -726,7 +823,11 @@ BUILD.kicker = (c) => {
   const el = mk(pcontent, 'cue kck', `<div class="bar"></div><div class="tx">${esc(c.text)}</div>`);
   return { el, q: { bar: $(el, '.bar'), tx: $(el, '.tx') } };
 };
-LAYOUT.kicker = (x) => { if (x.c.y != null) x.el.style.top = x.c.y + 'px'; x.bottom = x.el.offsetTop + x.el.offsetHeight; };
+LAYOUT.kicker = (x) => { if (x.c.y != null) x.el.style.top = x.c.y + 'px';
+  // a parked date pin (split_cues_coa6.js) holds the column's top corner: the kicker sits beside it, centred on its row
+  const z = x.c.y == null && typeof coaPinZone === 'function' ? coaPinZone(x.c) : null;
+  if (z) { if (z.side === 'left') x.el.style.left = f2(z.right + z.gap) + 'px'; x.el.style.top = f2(z.cy - x.el.offsetHeight / 2) + 'px'; }
+  x.bottom = x.el.offsetTop + x.el.offsetHeight; };
 SEEK.kicker = (x, t) => {
   const c = x.c, q = x.q, at = c.at ?? c.t0;
   q.bar.style.transform = `scaleX(${f4(outExpo(P(t, at, 0.45)))})`;
@@ -773,13 +874,25 @@ SEEK.quote = (x, t) => {
 
 /* ---------------- 11 cite (caption bar at the foot of the content column) ---------------- */
 BUILD.cite = (c) => {
+  // optional cases:[{name, cite}, ...] (up to 2) instead of text: one bar naming two authorities, one line each
+  const cases = Array.isArray(c.cases) ? c.cases.filter(k => k && (k.name || k.cite)).slice(0, 2) : [];
+  if (cases.length) {
+    const el = mk(pcontent, 'cue cite cases', `<div class="bar"><div class="ci">${ico(c.icon || 'scale')}</div><div class="ctx">${c.tag ? `<div class="tag">${esc(c.tag)}</div>` : ''}${cases.map(k => `<div class="cs"><span class="nm">${esc(k.name)}</span>${k.cite ? `<span class="cn">${esc(k.cite)}</span>` : ''}</div>`).join('')}</div></div>`);
+    return { el, q: { bar: $(el, '.bar'), ci: $(el, '.ci'), tag: $(el, '.tag'), rows: $$(el, '.cs').map(r => ({ r, nm: $(r, '.nm'), cn: $(r, '.cn') })) } };
+  }
   const s = String(c.text ?? ''); const m = s.match(/^(.*?)[\s,]*([\[(]\d{4}[\])].*)$/);
   const name = m && m[1] ? m[1] : s, cit = m && m[1] ? m[2] : '';
   const el = mk(pcontent, 'cue cite', `<div class="bar"><div class="ci">${ico(c.icon || 'scale')}</div><div class="ctx">${c.tag ? `<div class="tag">${esc(c.tag)}</div>` : ''}<div class="nm">${esc(name)}</div>${cit ? `<div class="cn">${esc(cit)}</div>` : ''}</div></div>`);
   return { el, q: { bar: $(el, '.bar'), ci: $(el, '.ci'), tag: $(el, '.tag'), nm: $(el, '.nm'), cn: $(el, '.cn') } };
 };
 LAYOUT.cite = (x) => {
-  const q = x.q; fitLines(q.nm, 46, 2, 36);
+  const q = x.q;
+  if (q.rows) {   // cases: every row on one line at one shared size, shrunk together, the citations in one column; failing that they wrap
+    const fit = () => q.rows.every(r => r.r.scrollWidth <= r.r.clientWidth + 1);
+    for (let s = 0.98; !fit() && s > 0.73; s -= 0.02) q.rows.forEach(r => { r.nm.style.fontSize = f2(46 * s) + 'px'; if (r.cn) r.cn.style.fontSize = f2(29 * s) + 'px'; });
+    if (!fit()) q.rows.forEach(r => r.r.classList.add('wrap'));
+    else { const w = Math.max(...q.rows.map(r => r.nm.offsetWidth)); q.rows.forEach(r => { r.nm.style.minWidth = w + 'px'; }); if (!fit()) q.rows.forEach(r => { r.nm.style.minWidth = ''; }); }
+  } else fitLines(q.nm, 46, 2, 36);
   if (q.tag) fitFont(q.tag, () => q.tag.scrollWidth <= q.tag.clientWidth + 1, 18, 1);
   x.h = q.bar.offsetHeight; x.top = 1080 - CITE_B - x.h;
 };
@@ -795,12 +908,15 @@ SEEK.cite = (x, t) => {
   let co = 1, cy = 0;
   if (x.hout) { co = k; cy = -(1 - k) * 18; } else { by += (1 - k) * (1 - k) * 80; bo *= k; }
   q.bar.style.height = h != null ? f2(h) + 'px' : '';
+  if (x.hin) q.bar.classList.toggle('ghost', t < x.hin.c.t1);   // until the outgoing bar ends, its text lifts out under the incoming text
   q.bar.style.transform = `translateY(${f2(by)}px)`; q.bar.style.opacity = f4(bo);
   const d = x.hin ? -0.08 : 0.12;   // a hand-over brings the new text in slightly early, over the old text's lift-out (no empty bar)
   const pi = P(t, at + d, 0.55); q.ci.style.opacity = f4(clamp(pi * 3) * co); q.ci.style.transform = `translateY(${f2(cy)}px) scale(${f4(spring(pi))}) rotate(${f2((1 - outCubic(pi)) * -30)}deg)`;
   if (q.tag) { wipeIn(q.tag, outCubic(P(t, at + d + 0.06, 0.5))); q.tag.style.opacity = f4(co); q.tag.style.transform = `translateY(${f2(cy)}px)`; }
-  const pn = P(t, at + d + 0.12, 0.55); q.nm.style.opacity = f4(clamp(pn * 1.6) * co); q.nm.style.transform = `translateY(${f2((1 - outExpo(pn)) * 24 + cy)}px)`;
-  if (q.cn) { const pc = P(t, at + d + 0.24, 0.5); q.cn.style.opacity = f4(clamp(pc * 1.6) * co); q.cn.style.transform = `translateY(${f2((1 - outExpo(pc)) * 16 + cy)}px)`; }
+  for (const [j, nm, cn] of q.rows ? q.rows.map((r, j) => [j, r.nm, r.cn]) : [[0, q.nm, q.cn]]) {   // cases: the second row 0.16 s later
+    const pn = P(t, at + d + 0.12 + j * 0.16, 0.55); nm.style.opacity = f4(clamp(pn * 1.6) * co); nm.style.transform = `translateY(${f2((1 - outExpo(pn)) * 24 + cy)}px)`;
+    if (cn) { const pc = P(t, at + d + 0.24 + j * 0.16, 0.5); cn.style.opacity = f4(clamp(pc * 1.6) * co); cn.style.transform = `translateY(${f2((1 - outExpo(pc)) * 16 + cy)}px)`; }
+  }
 };
 
 /* ---------------- 12 equation ---------------- */
@@ -854,35 +970,38 @@ LAYOUT.bundle = (x) => {
   x.fs = Math.min(1, avail / (up + down));
   const cx = CX, cy = x.c.y ?? Math.round(A.top + (avail - (up + down) * x.fs) / 2 + up * x.fs);
   x.cx = cx; x.cy = cy; x.R = R;
-  // tight cluster: centre + ring of 6 (+ outer ring)
+  // tight cluster: centre + ring of 6 (+ outer ring); the whole composition is mirrored (AWAY) with the presenter on the right
   x.home = q.ics.map((_, k) => { if (k === 0) return [cx, cy]; const ring = k <= 6 ? 1 : 2, idx = ring === 1 ? k - 1 : k - 7, cnt = ring === 1 ? Math.min(6, n - 1) : n - 7;
-    const a = -Math.PI / 2 + (idx / cnt) * TAU + (ring === 2 ? Math.PI / cnt : 0), r = BDL_RING[ring - 1]; return [cx + Math.cos(a) * r, cy + Math.sin(a) * r]; });
+    const a = -Math.PI / 2 + (idx / cnt) * TAU + (ring === 2 ? Math.PI / cnt : 0), r = BDL_RING[ring - 1]; return [cx + AWAY * Math.cos(a) * r, cy + Math.sin(a) * r]; });
   // loose scatter while "many" facts arrive
   const ang = (k) => -Math.PI / 2 + ((k - 1) / Math.max(1, n - 1)) * TAU + 0.35;
   x.loose = q.ics.map((_, k) => { if (k === 0) return [cx, cy]; const a = ang(k), j = ((k * 37) % 5) / 5;
-    return [cx + Math.cos(a) * (BDL_LOOSE[0] + BDL_JIT[0] * j), cy + Math.sin(a) * (BDL_LOOSE[1] + BDL_JIT[1] * j)]; });
-  // entry paths start beyond the panel's top, right or bottom FRAME edge - never the seam side, where a tile would seem to come out
-  // of an invisible line beside the presenter - and never across the header row: upper tiles drop through the gap between the logo
-  // lockup and the widest scene chip; a tile with no clear path pops in place. Worked out in screen space (the root scale fs).
+    return [cx + AWAY * Math.cos(a) * (BDL_LOOSE[0] + BDL_JIT[0] * j), cy + Math.sin(a) * (BDL_LOOSE[1] + BDL_JIT[1] * j)]; });
+  // entry paths start beyond the panel's top, bottom or far (AWAY) FRAME edge - never the seam side, where a tile would seem to come
+  // out of an invisible line beside the presenter - and never across the header row: upper tiles drop through the gap between the
+  // logo lockup and the widest scene chip; a tile with no clear path pops in place. Worked out in screen space (the root scale fs).
   const pn = EL.find(y => y.c.type === 'panel'), half = (q.ics.length ? q.ics[0].offsetWidth / 2 : 64) * x.fs, hs = half * 1.3;   // 1.3: tilted tile
-  const lkR = (pn ? CL + pn.q.lk.offsetWidth : CL + 360) + 12, chL = CL + CW - (pn ? Math.max(0, ...pn.sc.map(s => s.w || 0)) : 360) - 12;
+  const lkW = pn ? pn.q.lk.offsetWidth : 360, chW = pn ? Math.max(0, ...pn.sc.map(s => s.w || 0)) : 360;
+  // the header row's free gap: lockup at the seam end, chip at the frame end (left .. right in panel x)
+  const gapL = (SIDE === 'right' ? CL + chW : CL + lkW) + 12, gapR = CL + CW - (SIDE === 'right' ? lkW : chW) - 12;
   const headB = HEAD_Y + HEAD_H + 12;                                            // a tile whose top stays below this misses the header row
   const scr = ([X, Y]) => [cx + (X - cx) * x.fs, cy + (Y - cy) * x.fs], uns = ([X, Y]) => [cx + (X - cx) / x.fs, cy + (Y - cy) / x.fs];
   const clearsHead = (f, l) => [HEAD_Y - hs, HEAD_Y + HEAD_H + hs].every(y => {  // x where the path crosses the header band's top / bottom
     if (y < Math.min(f[1], l[1]) || y > Math.max(f[1], l[1])) return true;
-    const xc = f[0] + (l[0] - f[0]) * (y - f[1]) / (l[1] - f[1]); return xc - hs >= lkR && xc + hs <= chL; });
+    const xc = f[0] + (l[0] - f[0]) * (y - f[1]) / (l[1] - f[1]); return xc - hs >= gapL && xc + hs <= gapR; });
   x.pop = q.ics.map(() => false);
   x.from = q.ics.map((_, k) => { if (k === 0) return [cx, cy];
-    const sl = scr(x.loose[k]), a = ang(k), ca = Math.cos(a), sa = Math.sin(a);
-    const right = [PW + half + 110, sl[1] + 110 * Math.max(0, sa)], rightOK = right[1] - hs > headB;
+    const sl = scr(x.loose[k]), a = ang(k), ca = Math.cos(a), sa = Math.sin(a);   // ca > 0: the tile sits on the far (AWAY) side
+    const far = [AWAY > 0 ? PW + half + 110 : -(half + 110), sl[1] + 110 * Math.max(0, sa)], farOK = far[1] - hs > headB;
     let f = null;
-    if (sa <= -0.55) f = [70, 0, 140, -70, 210].map(dx => [sl[0] + dx, -(half + 110)]).find(c => clearsHead(c, sl)) || (ca >= 0 && rightOK ? right : null);
-    else if (ca >= 0.3) f = rightOK ? right : null;
-    else f = [sl[0] + 60, 1080 + half + 110];                                    // from the bottom edge
+    if (sa <= -0.55) f = [70, 0, 140, -70, 210].map(dx => [sl[0] + away(dx), -(half + 110)]).find(c => clearsHead(c, sl)) || (ca >= 0 && farOK ? far : null);
+    else if (ca >= 0.3) f = farOK ? far : null;
+    else f = [sl[0] + away(60), 1080 + half + 110];                              // from the bottom edge
     if (!f) { x.pop[k] = true; return x.loose[k]; }
     return uns(f); });
   q.ring0.setAttribute('cx', cx); q.ring0.setAttribute('cy', cy); q.ring0.setAttribute('r', R);
-  const d = `M ${cx} ${cy + R} A ${R} ${R} 0 1 1 ${cx} ${cy - R} A ${R} ${R} 0 1 1 ${cx} ${cy + R}`;
+  const sw = AWAY > 0 ? 1 : 0;                                                   // the cord draws round from the seam side first
+  const d = `M ${cx} ${cy + R} A ${R} ${R} 0 1 ${sw} ${cx} ${cy - R} A ${R} ${R} 0 1 ${sw} ${cx} ${cy + R}`;
   for (const p of [q.rope, q.rope2]) { p.setAttribute('d', d); p.setAttribute('pathLength', '1'); p.style.strokeDasharray = '1 1'; }
   const B = q.bow;
   $(B, '.l1').setAttribute('d', 'M0 0 C -26 -40 -86 -40 -82 -2 C -78 30 -30 22 0 0 Z');
@@ -928,6 +1047,7 @@ SEEK.bundle = (x, t) => {
 /* ---------------- runtime ---------------- */
 async function init(tl) {
   TL = tl; EL = [];
+  setGeometry(tl.layout);   // presenter side + widths first: every BUILD / LAYOUT below reads the side-aware globals
   for (const e of [pbase, pcontent, pedge, pres, topL]) e.innerHTML = '';
   await Promise.all([document.fonts.load('400 100px "Instrument Serif"'), document.fonts.load('italic 400 100px "Instrument Serif"'),
     document.fonts.load('500 100px "Manrope"'), document.fonts.load('800 100px "Manrope"'), document.fonts.load('600 100px "Manrope"', '₹')]).catch(() => {});
@@ -952,7 +1072,7 @@ function seek(t) {
     if (c.type === 'panel') slide = Math.max(slide, x.slide);
   }
   const sh = shakeAt(t);
-  pwrap.style.transform = slide ? `translateX(${f2(slide)}px)` : '';
+  pwrap.style.transform = slide ? `translateX(${f2(away(slide))}px)` : '';   // a sliding panel travels via the frame edge away from the seam
   pin.style.transform = `translate(${f2(sh.sx)}px,${f2(sh.sy)}px) rotate(${f4(sh.sr)}deg)`;
   return active;
 }
