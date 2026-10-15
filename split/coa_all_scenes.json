@@ -165,7 +165,7 @@
     {
       "sceneId": "c24",
       "seconds": 8,
-      "dialogue": "Two: rejection. Under Order 7 Rule 11(a), a plaint that discloses no cause of action must be rejected.",
+      "dialogue": "Two: rejection. Under Order Seven, Rule Eleven A, a plaint that discloses no cause of action must be rejected.",
       "spoken": "Two: rejection. Under Order Seven, Rule Eleven A, a plaint that discloses no cause of action must be rejected.",
       "presents": true
     },
@@ -186,7 +186,7 @@
     {
       "sceneId": "c27",
       "seconds": 10,
-      "dialogue": "Three: jurisdiction. Besides where the defendant lives, Section 20(c) lets you sue where the cause of action arises, wholly or in part.",
+      "dialogue": "Three: jurisdiction. Besides where the defendant lives, Section Twenty C lets you sue where the cause of action arises, wholly or in part.",
       "spoken": "Three: jurisdiction. Besides where the defendant lives, Section Twenty C lets you sue where the cause of action arises, wholly or in part.",
       "presents": true
     },
@@ -200,7 +200,7 @@
     {
       "sceneId": "c29",
       "seconds": 8,
-      "dialogue": "Under Order 2 Rule 2, if Ravi sues for only three lakh, he cannot later sue for the other two.",
+      "dialogue": "Under Order Two, Rule Two, if Ravi sues for only three lakh, he cannot later sue for the other two.",
       "spoken": "Under Order Two, Rule Two, if Ravi sues for only three lakh, he cannot later sue for the other two.",
       "presents": true
     },
