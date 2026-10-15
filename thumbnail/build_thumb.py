@@ -15,6 +15,7 @@ Copy is limited to the brand tagline, the site's feature names and lines from th
 import math
 import os
 import sys
+from functools import cached_property
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
@@ -84,16 +85,22 @@ def paste_x(canvas, img, y, x=None):
 
 
 class Kit:
-    """Brand assets and the presenter, loaded once for every template."""
+    """Brand assets, and the presenter when a frame is given (logo-only cards pass none)."""
 
-    def __init__(self, frame, mask, brand):
+    def __init__(self, brand, frame=None, mask=None):
         self.brand = brand
         self.fonts = f"{brand}/fonts"
         self.mark_src = Image.open(f"{brand}/mark_copper_512.png").convert("RGBA")
         self.word_alpha = self._wordmark_alpha(f"{brand}/wordmark_ink.png")
-        self.frame = Image.open(frame).convert("RGB")
-        self.mask = Image.open(mask).convert("L")
-        self.cutout = self._presenter()
+        self.frame_path, self.mask_path = frame, mask
+
+    @cached_property
+    def frame(self):
+        return Image.open(self.frame_path).convert("RGB")
+
+    @cached_property
+    def cutout(self):
+        return self._presenter()
 
     # -- brand --
     @staticmethod
@@ -169,7 +176,7 @@ class Kit:
 
     # -- presenter --
     def _presenter(self):
-        im, m = self.frame, self.mask
+        im, m = self.frame, Image.open(self.mask_path).convert("L")
         # Vision leaves a wide soft band where the jacket meets the dark shelf; restretch it, then choke and feather
         m = m.point(lambda v: max(0, min(255, round((v - 125) * 255 / (225 - 125)))))
         m = m.filter(ImageFilter.MinFilter(3)).filter(ImageFilter.GaussianBlur(1.4))
@@ -449,7 +456,7 @@ def main():
     frame, mask, brand, out_dir = sys.argv[1:5]
     names = sys.argv[5:] or list(TEMPLATES)
     os.makedirs(out_dir, exist_ok=True)
-    kit = Kit(frame, mask, brand)
+    kit = Kit(brand, frame, mask)
     order = list(TEMPLATES)
     paths = []
     for name in names:
