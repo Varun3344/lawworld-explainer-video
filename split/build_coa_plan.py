@@ -168,7 +168,8 @@ if have("c13", "c14", "c15", "c16", "c17", "c18"):
     fx("whoosh", fold, -18); fx("ding", fold + 0.6, -16)
     land = at("c18", "arose") - 0.05
     fly = at("c32", "pinned") - 0.05 if have("c32") else None
-    cue(type="pin", t0=land - 0.1, t1=(E("c32") + 0.05) if have("c32") else pend + 0.25, text="Arose: 31 Mar 2025", land_at=land, fly_at=fly, slot=5)
+    cue(type="pin", t0=land - 0.1, t1=(E("c32") + 0.05) if have("c32") else pend + 0.25, text="Arose: 31 Mar 2025", land_at=land, fly_at=fly, slot=5,
+        park_at=at("c18", "remember") - 0.1)   # big through "the due date he missed", parks as he says "Remember that date"
     fx("slam", land + 0.12, -10)
 
 # ── Scene 5: what it is not ────────────────────────────────────────────────────────────────────────────────────────────
