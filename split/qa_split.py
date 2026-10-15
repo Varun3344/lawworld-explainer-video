@@ -52,9 +52,9 @@ for seg in plan["presenter"]:
     t += L
 # 5 frames: first, last, every build
 times = {"first": 0.0, "last": max(0, frames / 24 - 0.05)}
-for c in tl["cues"]:
+for ci, c in enumerate(tl["cues"]):
     for k in ("at", "title_at", "sub_at", "head_at", "strike_at", "one_at", "many_at", "gather_at"):
-        if isinstance(c.get(k), (int, float)): times[f"{c['type']}_{k}"] = c[k] + 0.6
+        if isinstance(c.get(k), (int, float)): times[f"{c['type']}{ci}_{k}"] = c[k] + 0.6
     for it in c.get("items", []) + c.get("terms", []): times[f"{c['type']}_{str(it.get('n', it.get('text', '')))[:10]}"] = it["at"] + 0.6
 for name, tt in sorted(times.items(), key=lambda x: x[1]):
     sh(["ffmpeg", "-v", "error", "-y", "-ss", f"{tt:.3f}", "-i", F, "-frames:v", "1", "-vf", "scale=640:-1", f"{Q}/{tt:07.3f}_{re.sub('[^A-Za-z0-9_]', '', name)}.png"])

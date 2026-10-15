@@ -38,7 +38,7 @@ for cid in IDS:
         if tm[i] is None:
             p = next((tm[k][1] for k in range(i - 1, -1, -1) if tm[k]), 0.0); q = next((tm[k][0] for k in range(i + 1, len(toks)) if tm[k]), d); tm[i] = (p, min(q, p + 0.3))
     s0 = tm[0][0]; s1 = tm[-1][1]
-    tin = max(0.0, s0 - 0.12); tout = min(d, s1 + 0.28)
+    tin = max(0.0, s0 - 0.12); tout = d if cid == IDS[-1] else min(d, s1 + 0.28)   # the last clip runs to its end: room for the payoff before the end card
     segs.append({"clip": c, "in": round(tin, 3), "out": round(tout, 3), "zoom": ZOOM[cid], "base": round(t, 3), "cid": cid, "fx": FX.get(cid)})
     for i, x in enumerate(toks): words.append({"word": x, "start": round(t + tm[i][0] - tin, 3), "end": round(t + tm[i][1] - tin, 3), "cid": cid})
     t += tout - tin
@@ -69,7 +69,7 @@ cue(type="lower_third", t0=S("c01") + 0.5, t1=S("c01") + 5.2, name="Ravishankar"
 
 # ── Scene 1: hook ──────────────────────────────────────────────────────────────────────────────────────────────────────
 q_at = at("c02", "do") - 0.1
-cue(type="title", t0=HOOK, t1=q_at + 0.15, title="CAUSE OF ACTION", title_at=S("c01") + 0.1, sub="The starting point of every civil suit", sub_at=at("c01", "begins"))
+cue(type="title", t0=HOOK, t1=q_at - 0.05, title="CAUSE OF ACTION", title_at=S("c01") + 0.1, sub="The starting point of every civil suit", sub_at=at("c01", "begins"))
 fx("pop", S("c01") + 0.1, -18); fx("pop", at("c01", "begins"), -20)
 st_at = at("c02", "thrown") - 0.12
 cue(type="question", t0=q_at - 0.05, t1=E("c02") + 0.05, at=q_at, text="Do you have a cause of action?", hl="cause of action")
@@ -107,13 +107,13 @@ b1 = at("c08", "bundle") - 0.1; b2 = at("c08", "law") - 0.1; b3 = at("c08", "rig
 cue(type="equation", t0=S("c08"), t1=E("c08") + 0.05,
     terms=[{"text": "BUNDLE OF FACTS", "at": r3(b1)}, {"op": "+", "text": "APPLICABLE LAW", "at": r3(b2)}, {"op": "=", "text": "RIGHT TO RELIEF", "at": r3(b3), "result": True}])
 fx("pop", b1, -16); fx("pop", b2, -16); fx("ding", b3, -14)
-one = at("c09", "one") - 0.05; many = at("c09", "every") - 0.05; gather = at("c09", "together") - 0.35
+one = at("c09", "one") - 0.05; many = at("c09", "every") - 0.25; gather = at("c09", "every") + 0.45   # tied by "...you need", label holds before the end card
 cue(type="bundle", t0=S("c09"), t1=pend + 0.25, one_at=one, many_at=many, gather_at=gather, label="Bundle of facts",
     icons=["file-text", "calendar", "indian-rupee", "handshake", "pen-line", "receipt", "file-signature"])
 fx("pop", one, -16); fx("whoosh", many, -20); fx("whoosh", gather, -18); fx("ding", gather + 0.55, -16)
 
 # ── close ──────────────────────────────────────────────────────────────────────────────────────────────────────────────
-cue(type="endcard", t0=pend + 0.2, t1=total, title="Cause of Action", sub="Up next: right + breach", url="lawworld.ai")
+cue(type="endcard", t0=pend + 0.2, t1=total, title="Cause of Action", sub="Up next: Right + breach", url="lawworld.ai")
 fx("whoosh", pend + 0.1, -16)
 
 json.dump({"duration": total, "width": 1920, "height": 1080, "cues": cues}, open(f"{OUT}/timeline.json", "w"), indent=1, ensure_ascii=False)
