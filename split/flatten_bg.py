@@ -5,33 +5,48 @@ one screen, no seam.
 
 Usage (from product-explainer/):
   python3 split/flatten_bg.py downloads/split9/c01.mp4 [more.mp4 ...] [--out-dir downloads/split9/flat] [--debug <dir>]
-          [--no-verify] [--target-yuv Y,U,V]
+          [--no-verify] [--target-yuv Y,U,V] [--seam right|left]
   -> <out-dir>/<same name>.mp4 (default out-dir <clip dir>/flat; overwritten on every run, the sources are never touched)
      and ONE stats line per clip. Same frame count, fps, size and duration; audio copied bit-exact (-c:a copy, md5 checked);
-     video libx264 crf 10 preset medium yuv420p with the source's colour tags. About 20-25 s per 8-10 s clip on this iMac,
-     plus ~10 s for the verification. --debug <dir> writes <dir>/<clip>/*.png (median, fit, plate, backdrop masks, prior,
-     weights, residual x4, frame before/after, mock composite before/after, 4x seam zoom, measured backdrop mask).
+     video libx264 crf 10 preset medium yuv420p with the source's colour tags. About 30 s per 10 s clip on this iMac when it
+     is quiet, 45-110 s with three clips in parallel while Flow/Chrome load the CPUs, plus 6-15 s for the verification; peak
+     memory ~0.3 GB. --debug <dir> writes <dir>/<clip>/*.png (median, fit, plate, clean-sample count, backdrop mask of the
+     median, weights, residual x4, frame before/after, mock composite before/after, 4x seam zoom, measured backdrop mask).
 
-Method (deterministic: numpy + ffmpeg only, frames streamed through numpy):
-  1. Plate. 24 frames spread through the clip -> per-pixel temporal median (hands and mouth move, the backdrop does not).
-     Backdrop = median pixels close to a robust log-domain cubic surface (Tukey IRLS at 1/8 res): within 5 % chroma, or
-     within 12 % when the change is warmer (shading only goes warmer) and > 24 px from anything clearly presenter; never more
-     neutral/cooler than the backdrop seen along the frame border (this gate keeps white and light-blue shirts out);
-     rows of one uniform surface running the full width from the top edge (cornice / moulding) count as backdrop too;
-     opened, and kept only when connected to the top or side edges (or a pocket > ~44 px). Plate = the median's own colour
-     there, a push-pull membrane under the presenter, the median itself at half res wherever it is clearly backdrop, and a
-     full-res luma ratio for static structures (the split9 cornice line and the dark moulding of the full/ set vanish).
-  2. Gain G = target / plate per channel (clamped 0.5..2.5).
-  3. Per frame: soft backdrop weight w (chroma res) from the colour distance to plate*k (asymmetric: cooler/more neutral
-     counts 1.6x) 1 below 0.04 -> 0 at 0.09; brightness 1 between 0.67x and 1.08x of the plate -> 0 at 0.52x / 1.17x;
-     times the neutral-colour gate and a protective prior (union of all samples' backdrop dilated 16 px: face, shirt and
-     torso interior are never touched); then max3 + 2x box3, so the 1-2 px mixed edge pixels are included (no rim, no hard
-     edge). The frame's own residual against plate*k (soft moving shadows, local light; +-6 %, ~52 px windows, confident
-     backdrop only) refines G. Exposure drift k: per-channel median ratio of confident backdrop to the plate, gaussian-
-     smoothed over 8 frames. Output = pixel * (w*G + 1 - w), computed as a Y'CbCr delta on the clip's own planes (no
-     YUV->RGB->YUV round trip of the picture): where w = 0 the presenter's bytes are untouched before x264; where the
-     correction is active the rounding is dithered (deterministic +-0.5) so integer rounding cannot bias the backdrop mean.
-     RGB maths use the tagged matrix (smpte170m / untagged -> BT.601, bt709 -> BT.709).
+Method (deterministic: numpy + ffmpeg only, frames streamed through numpy; v2 2026-10-15: per-frame matte, no static prior):
+  1. Plate (clean backdrop). 24 frames spread through the clip; their per-pixel median gives a robust log-domain cubic
+     surface (Tukey IRLS at 1/8 res; within ~2 % of the plain wall) and the set rows (full-width uniform rows from the top
+     edge: cornice / moulding). Each sample is segmented (step 2) against that fit (the median itself in set rows), eroded
+     2 px and, within 24 px of the presenter, samples darker than the fit by > 4 % are dropped (stray hair, mixed edge pixels,
+     contact shadows). Plate = per pixel the median of the samples that showed it clean, so backdrop the presenter covers in
+     the median frame but uncovers in any sample is real wall, not a ghost of his head or hands; never-seen pixels get a
+     push-pull membrane; full-res luma detail of static structures (D) only where every sample was clean. Exposure drift k:
+     per-channel median ratio of always-clean backdrop to the plate, gaussian-smoothed over 8 frames.
+  2. Per-frame segmentation (chroma res, against plate*k): backdrop-coloured pixels (chroma < 0.09 log, cooler/more neutral
+     counting 1.6x; brightness 0.47x..1.22x; never more neutral/cooler than the backdrop seen along the frame border, which
+     keeps white and light-blue shirts out) form 8-connected components (run-length union-find); a component is backdrop
+     when it holds unmistakable backdrop (chroma < 0.035, 0.82x..1.06x) and touches a frame edge, or is a pocket with a 7x7
+     core (~14 px) that is >= 25 % unmistakable, or a pocket of >= 24 px whose 2 px ring is >= 70 % dark (suit / hair, not
+     skin or shirt) at the plate's brightness (mean within 0.12 log): a narrow gap between arm and body, whose chroma the
+     suit bleeds into. So soft shadows of the arm and body, backdrop revealed when he turns or sweeps his arm, the gap
+     between the legs and arm/body gaps are backdrop in that frame; teeth, eye whites, skin highlights and shirt buttons
+     (small, or enclosed by skin / shirt) stay presenter. There is no static "never correct" prior.
+  3. Weight w: 1 on the backdrop 1 px clear of the presenter; the mixed edge pixels keep their colour's partial weight
+     (chroma 0.05..0.09, brightness 0.47x..0.58x, 1.13x..1.22x ramps); max3 + 2x box3: a 2-4 px soft edge band. Temporal
+     median of three frames, clamped to the current frame's own +-1 px band: single-frame edge flicker is removed, a moving
+     edge does not lag.
+  4. Gain G = target / (plate * S), clamped 0.5..2.5. S = the frame's own backdrop relative to the plate: normalised 3x3 box
+     of 1/4-res block means (~12 px) over the backdrop 1 px clear of the presenter. Within 16 px of him only smooth backdrop
+     (3x3 sd of the frame/plate ratio < 1.5 %) within 8 % of the exposure level counts, and blocks darker than the running
+     estimate by > 2 % are dropped and S re-estimated twice: hair strands and mixed edge pixels are textured or darker and
+     would pull S down (a bright halo, white specks in grey hair); a shadow next to him measured >= 0.95x and smooth.
+     S follows exposure, soft moving shadows of any depth inside the segmentation range and the membrane's error where the
+     backdrop is revealed, so all visible backdrop is flattened to the target, frame by frame (a temporal median of S was
+     tried and dropped: it leaves the source's frame-to-frame level changes in).
+  5. Output = pixel * (w*G + 1 - w), computed as a Y'CbCr delta on the clip's own planes (no YUV->RGB->YUV round trip of the
+     picture): where w = 0 the presenter's bytes are untouched before x264; where the correction is active the rounding is
+     dithered (deterministic +-0.5) so integer rounding cannot bias the backdrop mean. RGB maths use the tagged matrix
+     (smpte170m / untagged -> BT.601, bt709 -> BT.709).
 
 Calibration (measured 2026-10-15 on this Mac: ffmpeg 9.0.1, compose2.py box mode, grade "unsharp=5:5:0.5:5:5:0", match_bg false):
   - The panel's #f5f0e8 PNG lands in the final mp4 as Y'CbCr (223, 123, 131) [smpte170m, tv]; ffmpeg decodes that to
@@ -53,6 +68,10 @@ Reported: the seam strip x 600..639 (rows where it is backdrop: above the should
 x 641..700, the box's top corners, the worst (and 99th percentile) 16x16 patch of what the viewer sees as backdrop anywhere
 in the box (x < 592; everything except the presenter blob, i.e. weight < 0.5 connected to the bottom edge, plus 16 px, so
 a structure the matte missed would be counted), and the presenter's face and shirt patches (clip domain) before vs after.
+--seam left (presenter RIGHT of the panel: the full Cause of Action video, box x 1280..1920) mirrors the mock: box padded at x
+1280, panel opaque up to x 1280 with the feather cream->transparent over x 1280..1328; seam strip box x 0..39 vs panel x
+1219..1278, top corners box x 50..170 / 512..632, patches box x >= 48 (right of the feather). Default --seam right = the above.
+The output clip never depends on --seam (same bytes either way); only what the verification measures does.
 The stats line ends "QA ok" or "QA CHECK (n)", followed by one "[flatten] WARNING <clip>: ..." line per failed check: frame
 count / duration, video frame times (sorted packet pts must equal the source's, else the copied audio drifts), audio not
 bit-exact, seam strip vs panel > 2, a top corner > 4, worst 16 px backdrop patch > 4, a presenter patch changed by > 3.
@@ -63,11 +82,14 @@ flat backdrop unchanged); the backdrop lands as Y'CbCr (223.0, 123.0, 131.0) nex
 <= 0.3 (qa_split.py), no frame-to-frame jump at the cuts.
 
 Limitations: needs a plain, roughly uniform warm backdrop (cream/beige; a colour more neutral than the backdrop is never
-treated as backdrop); a cream/beige garment touching the backdrop would be partly flattened; set structures other than
-full-width rows at the top (door frames, room corners, objects) are left alone unless their colour is backdrop-like;
-backdrop revealed > 16 px inside where no sampled frame showed it, or in pockets < ~44 px enclosed by the presenter, stays
-uncorrected; moving shadows deeper than ~6 % are only partly flattened (static ones fully); very dark static structures
-amplify their compression noise (up to ~1.9x in blue for the full/ moulding); hair strands get partial, soft correction."""
+treated as backdrop); a cream/beige garment touching the backdrop would be flattened; set structures other than full-width
+rows at the top (door frames, room corners, objects) are left alone unless their colour is backdrop-like; a shadow darker
+than 0.47x the wall or bluer than the border's backdrop stays as it is; a backdrop pocket smaller than ~24 chroma px or
+enclosed mostly by skin / shirt (between fingers) is left uncorrected, and a narrow arm/body gap keeps a little of the suit's
+blue that 4:2:0 chroma bleeds into it; stray hair strands keep their own colour
+(their backdrop part is corrected, so they read as hair, not as a ghost); motion-blurred hands are corrected only where the
+blur is mostly backdrop; a camera push-in / zoom inside the clip breaks the static plate; very dark static structures amplify
+their compression noise (up to ~1.9x in blue for the full/ moulding)."""
 import argparse, json, os, shutil, subprocess, sys, tempfile, time
 import numpy as np
 
@@ -158,13 +180,22 @@ def box(a, r):
         a = ((hi - lo) / k).astype(np.float32)
     return a
 
+def box_s(a, r):
+    """box blur radius r by shifted sums (small r: faster than the cumsum box), edge-replicated, first two axes"""
+    a = np.asarray(a, np.float32); k = 2 * r + 1; ext = [(0, 0)] * (a.ndim - 2)
+    p = np.pad(a, [(r, r), (0, 0)] + ext, mode="edge"); n = a.shape[0]; acc = p[0:n].copy()
+    for d in range(1, k): acc += p[d:d + n]
+    p = np.pad(acc, [(0, 0), (r, r)] + ext, mode="edge"); n = a.shape[1]; acc = p[:, 0:n].copy()
+    for d in range(1, k): acc += p[:, d:d + n]
+    acc *= np.float32(1 / (k * k)); return acc
+
 def up2_lin(a):
     """bilinear 2x upsample of a 2-D or (h,w,c) array, pixel centres aligned, edge-replicated"""
     if a.ndim == 3: return np.stack([up2_lin(a[..., c]) for c in range(a.shape[2])], -1)
-    a = a.astype(np.float32, copy=False); h, w = a.shape; q = 0.25 * a; t = 0.75 * a; o = np.empty((2 * h, 2 * w), np.float32)
-    for r, dst in ((t + np.concatenate([q[:1], q[:-1]], 0), o[0::2]), (t + np.concatenate([q[1:], q[-1:]], 0), o[1::2])):
-        rq = 0.25 * r; r *= 0.75
-        np.add(r, np.concatenate([rq[:, :1], rq[:, :-1]], 1), out=dst[:, 0::2]); np.add(r, np.concatenate([rq[:, 1:], rq[:, -1:]], 1), out=dst[:, 1::2])
+    a = a.astype(np.float32, copy=False); h, w = a.shape
+    p = np.pad(a, 1, mode="edge"); c = 0.75 * p[1:-1]; o = np.empty((2 * h, 2 * w), np.float32)
+    for r, dst in ((c + 0.25 * p[:-2], o[0::2]), (c + 0.25 * p[2:], o[1::2])):
+        cc = 0.75 * r[:, 1:-1]; np.add(cc, 0.25 * r[:, :-2], out=dst[:, 0::2]); np.add(cc, 0.25 * r[:, 2:], out=dst[:, 1::2])
     return o
 
 def half(a):
@@ -198,6 +229,60 @@ def reconstruct(seed, mask):
         nxt = max3(cur) & mask
         if (nxt == cur).all(): return cur
         cur = nxt
+
+def min3(a):
+    """3x3 min filter, edge-replicated"""
+    p = _pad1(a, 0); a = np.minimum(np.minimum(p[:-2], p[1:-1]), p[2:])
+    p = _pad1(a, 1); return np.minimum(np.minimum(p[:, :-2], p[:, 1:-1]), p[:, 2:])
+
+def components(mask, strong, core, min_frac=0.25, dark=None, lum=None):
+    """the 8-connected components of `mask` (2-D bool) that are backdrop: they hold `strong` pixels and touch a frame edge, or
+    they hold `core` pixels (an inscribed square: a pocket wide enough not to be teeth, an eye or a highlight) and are >= min_frac
+    strong, or (with `dark` / `lum`) they are a pocket of >= 24 px whose 2 px ring is >= 70 % dark (enclosed by the suit or
+    hair, not by skin or shirt: a narrow gap between arm and body, whose chroma the suit bleeds into) and whose mean log
+    brightness `lum` is within 0.12 of the plate. Run-length union-find (numpy, deterministic): runs per row, 8-connected runs
+    of consecutive rows hooked by min-label propagation with pointer jumping."""
+    h, w = mask.shape; m = np.zeros((h, w + 2), np.int8); m[:, 1:-1] = mask
+    d = np.diff(m, axis=1); ys, xs = np.nonzero(d)
+    if len(ys) == 0: return np.zeros((h, w), bool)
+    st = d[ys, xs] > 0; ry = ys[st].astype(np.int64); rs = xs[st].astype(np.int64); re = xs[~st].astype(np.int64)
+    n = len(ry); W2 = w + 2; ks = ry * W2 + rs; ke = ry * W2 + re           # run i: row ry, pixels rs..re-1 (keys sorted)
+    lo = np.searchsorted(ke, ks + W2, "left"); hi = np.searchsorted(ks, ke + W2, "right")   # next-row runs touching run i
+    cnt = np.maximum(hi - lo, 0); tot = int(cnt.sum()); lab = np.arange(n)
+    if tot:
+        I = np.repeat(np.arange(n), cnt); J = np.repeat(lo - np.cumsum(cnt) + cnt, cnt) + np.arange(tot)
+        while True:
+            a = lab[I]; b = lab[J]
+            if (a == b).all(): break
+            mn = np.minimum(a, b); np.minimum.at(lab, a, mn); np.minimum.at(lab, b, mn)
+            while True:
+                nl = lab[lab]
+                if (nl == lab).all(): break
+                lab = nl
+    L = re - rs; off = np.cumsum(L) - L
+    _, comp = np.unique(lab, return_inverse=True)
+    area = np.bincount(comp, L)
+    ns = np.bincount(comp, np.add.reduceat(strong[mask].astype(np.int64), off))
+    nc = np.bincount(comp, np.add.reduceat(core[mask].astype(np.int64), off))
+    edge = np.bincount(comp, ((ry == 0) | (ry == h - 1) | (rs == 0) | (re == w)).astype(np.int64)) > 0
+    keep = (ns > 0) & (edge | ((nc > 0) & (ns >= min_frac * area)))
+    if dark is not None:
+        lm = np.bincount(comp, np.add.reduceat(lum[mask].astype(np.float64), off)) / area
+        cand = ~keep & ~edge & (area >= 24) & (np.abs(lm) < 0.12)
+        if cand.any():                                                # ring of each candidate pocket: its labels dilated 2 px
+            lab = np.zeros(h * w, np.int32); lab[mask.ravel()] = np.repeat(comp + 1, L); lab = lab.reshape(h, w)
+            ld = max3(max3(lab)); ring = (ld > 0) & ~mask; nl = len(area) + 1
+            rn = np.bincount(ld[ring], minlength=nl)[1:]; rd = np.bincount(ld[ring], dark[ring], minlength=nl)[1:]
+            keep |= cand & (rd >= 0.7 * np.maximum(rn, 1))
+    out = np.zeros(h * w, bool); out[mask.ravel()] = np.repeat(keep[comp], L)
+    return out.reshape(h, w)
+
+def masked_median(stack, count):
+    """per-pixel median over the first axis of (n,h,w,c) where finite (NaN = not observed); NaN where count == 0"""
+    s = np.sort(stack, 0); c = count[None, ..., None].astype(np.int64)
+    lo = np.broadcast_to(np.maximum((c - 1) // 2, 0), (1,) + stack.shape[1:]); hi = np.broadcast_to(c // 2, (1,) + stack.shape[1:])
+    hi = np.minimum(hi, stack.shape[0] - 1)
+    return 0.5 * (np.take_along_axis(s, lo, 0)[0] + np.take_along_axis(s, hi, 0)[0])
 
 def smoothstep(e0, e1, x):
     t = np.clip((x - e0) * np.float32(1 / (e1 - e0)), 0, 1); return t * t * (3 - 2 * t)
@@ -254,7 +339,7 @@ def save_png(path, img):
                    input=np.clip(img + 0.5, 0, 255).astype(np.uint8).tobytes(), check=True)
 
 # ----------------------------------------------------------------------------------------------------------------------
-# 1) analysis: plate (clean backdrop), protective prior, exposure drift
+# 1) analysis: clean plate, static detail, exposure drift
 def set_rows(rgb_q, top=0.12):
     """rows of one uniform set surface running the full width from the top edge down (cornice, moulding, ceiling line):
     pixels within 8 % chroma / 25 % brightness of their row's median, in rows where >= 80 % of the pixels are"""
@@ -291,8 +376,27 @@ def chroma_range(Ml):
     l = np.log(np.maximum(Ml[ok], 1.0)); cr = l[:, 0] - l[:, 1]; cb = l[:, 2] - l[:, 1]
     return (float(np.percentile(cr, 1)), float(np.percentile(cr, 99)), float(np.percentile(cb, 1)), float(np.percentile(cb, 99)))
 
+# per-frame segmentation (log ratios to the reference backdrop colour; chroma_dist counts a cooler / more neutral change 1.6x)
+STRONG = (0.035, -0.20, 0.06)    # chroma <, log brightness > , <: unmistakable backdrop (the seeds)
+WEAK = (0.09, -0.75, 0.20)       # backdrop-coloured: soft shadows down to 0.47x, up to 1.22x the reference
+CORE_R = 3                       # an enclosed pocket is backdrop only around a 7x7 core at chroma res (14 px in the clip)
+SHADE_R = 1                      # shading box radius at 1/4 res (3x3 blocks: ~12 px in the clip)
+NEAR_SD, NEAR_MIN = 0.015, 0.92  # near the presenter S uses only smooth backdrop (ratio sd < 1.5 %) within 8 % of exposure
+
+def segment(rgbh, logref, g):
+    """hard per-frame backdrop mask (chroma res) against a reference backdrop (log colour field): the 8-connected components of
+    backdrop-coloured pixels (WEAK) that hold unmistakable backdrop (STRONG) and reach a frame edge, or are a pocket >= ~14 px
+    across, or a pocket >= ~10 px enclosed by the dark suit / hair at the plate's brightness; enclosed backdrop-like presenter
+    detail (teeth, eye whites, skin highlights, shirt buttons: small, or enclosed by skin / shirt) stays presenter.
+    Returns (mask, chroma distance, log brightness ratio, neutral-colour gate)"""
+    l = np.log(np.maximum(rgbh, 1.0)); lr = l - logref
+    dc = chroma_dist(lr); dl = lr[..., 1]; gt = gate(l, g, True)
+    weak = (dc < WEAK[0]) & (dl > WEAK[1]) & (dl < WEAK[2]) & (gt > 0.5)
+    strong = weak & (dc < STRONG[0]) & (dl > STRONG[1]) & (dl < STRONG[2])
+    return components(weak, strong, erode(weak, CORE_R), dark=dl < np.log(0.55), lum=dl), dc, dl, gt
+
 def analyze(path, info, mx, nsamp=24):
-    w, h, n = info["w"], info["h"], info["n"]
+    w, h, n = info["w"], info["h"], info["n"]; h2, w2 = h // 2, w // 2
     idx = set(np.linspace(0, max(n - 1, 0), min(nsamp, max(n, 1))).round().astype(int).tolist())
     SY, SU, SV, low = [], [], [], []
     for i, (Y, U, V) in enumerate(decode(path, w, h)):
@@ -307,23 +411,32 @@ def analyze(path, info, mx, nsamp=24):
     ref = np.median(Ml[: max(2, Ml.shape[0] // 8)].reshape(-1, 3), 0)   # top rows: (almost) always backdrop
     dc0, dl0 = logratio(Ml, np.log(np.maximum(ref, 1.0)))
     F = np.exp(polyfit_robust(np.log(np.maximum(Ml, 1.0)), tukey(dc0, 0.15) * ((dl0 > -0.6) & (dl0 < 0.2)) * (gate(Ml, g) > 0.5)))
-    bd = classify_backdrop(Mq, np.log(resize(F, Mq.shape[0], Mq.shape[1])), g, sr)
+    bd = classify_backdrop(Mq, np.log(resize(F, Mq.shape[0], Mq.shape[1])), g, sr)   # the median's backdrop: sanity check, QA
     if bd.mean() < 0.05: raise SystemExit(f"[flatten] {path}: no plain backdrop found ({100 * bd.mean():.1f} % of the frame)")
-    Pq = box(push_pull(Mq, erode(bd, 1).astype(np.float32)), 1)
-    Ph = resize(Pq, h // 2, w // 2)
-    rf = np.log(np.maximum(Mh, 1.0)) - np.log(np.maximum(Ph, 1.0)); dlf = rf[..., 1]
-    cf = (1 - smoothstep(0.08, 0.15, chroma_dist(rf))) * smoothstep(-0.6, -0.4, dlf) * (1 - smoothstep(0.08, 0.15, dlf))
-    cf = box3(box3(np.maximum(cf * resize(erode(bd, 2).astype(np.float32), h // 2, w // 2), resize((sr & bd).astype(np.float32), h // 2, w // 2))))
-    Ph = Ph + cf[..., None] * (Mh - Ph)
-    # full-res luma detail of static backdrop structures (moulding lines, steep corners) the half-res plate cannot hold
+    # clean plate: each sample segmented against the smooth fit (the median itself in set rows at the top edge), 2 px clear of
+    # the presenter (no mixed edge pixels) and, within 24 px of it, not darker than the fit by > 4 % (stray hair strands, contact
+    # shadows); per pixel the median of the samples that showed it clean; never seen -> membrane
+    srh = resize(sr.astype(np.float32), h2, w2) > 0.5
+    logR = np.log(np.maximum(resize(F, h2, w2), 1.0)); logR[srh] = np.log(np.maximum(Mh[srh], 1.0))
+    stack = np.full((len(SY), h2, w2, 3), np.nan, np.float32); cnt = np.zeros((h2, w2), np.int32)
+    for j, (Y, U, V) in enumerate(zip(SY, SU, SV)):
+        rgb = mx.to_rgb(bmean(Y, 2), U, V); bm, _, dl, _ = segment(rgb, logR, g)
+        m = erode(bm, 2) & ~((dl < -0.04) & dilate(~bm, 12))           # stray hair, edge mixes, contact shadows: not the wall
+        stack[j][m] = rgb[m]; cnt += m
+    P = masked_median(stack, cnt); del stack
+    seen = cnt > 0
+    if seen.mean() < 0.05: raise SystemExit(f"[flatten] {path}: no plain backdrop found ({100 * seen.mean():.1f} % of the frame)")
+    P = push_pull(np.where(seen[..., None], P, 0).astype(np.float32), seen.astype(np.float32))
+    wc = np.clip(cnt / 6.0, 0, 1).astype(np.float32)[..., None]      # few clean samples: a little smoother (noise)
+    P = (wc * P + (1 - wc) * box3(box3(P))).astype(np.float32)
+    # full-res luma detail of static backdrop structures (moulding lines, steep corners) the half-res plate cannot hold:
+    # only where every sample showed clean backdrop (there the plain median is clean)
+    full = cnt >= len(SY)
+    cf = box3(box3(erode(full, 1).astype(np.float32)))
     Dl = (MY - mx.yo) / np.maximum(up2_lin(half(MY)) - mx.yo, 1.0)
     D = 1 + up2_lin(cf) * np.clip(Dl - 1, -0.3, 0.3)
-    lq = np.log(np.maximum(bmean(Ph, 2), 1.0)); un = bd.copy()
-    for Y, U, V in zip(SY, SU, SV):
-        un |= classify_backdrop(mx.to_rgb(bmean(Y, 4), bmean(U, 2), bmean(V, 2)), lq, g, sr)
-    prior_h = np.clip(resize(box(dilate(un.astype(np.float32), 4), 2), h // 2, w // 2), 0, 1)
-    k, kraw = drift(low, Ph, bd)
-    return {"Ph": Ph, "prior_h": prior_h, "k": k, "kraw": kraw, "bd": bd, "union": un, "M": Mh, "F": F, "cf": cf, "nlow": len(low), "gate": g,
+    k, kraw = drift(low, P, bmean(full.astype(np.float32), 2) > 0.99)
+    return {"P": P, "k": k, "kraw": kraw, "bd": bd, "cnt": cnt, "nsamp": len(SY), "M": Mh, "F": F, "cf": cf, "nlow": len(low), "gate": g,
             "D": D.astype(np.float32)}
 
 def drift(low, Ph, bd_q):
@@ -348,23 +461,40 @@ def drift(low, Ph, bd_q):
 
 # ----------------------------------------------------------------------------------------------------------------------
 # 2) render
-def weight_and_residual(rgbh, logPk, prior_h, prior_q, g):
-    """soft backdrop weight (chroma res) and the frame's own smooth log residual against plate*k (+-6 %, returned at chroma res)"""
-    l = np.log(np.maximum(rgbh, 1.0)); lr = l - logPk
-    dc = chroma_dist(lr); dl = lr[..., 1]
-    wr = (1 - smoothstep(0.04, 0.09, dc)) * smoothstep(-0.65, -0.40, dl) * (1 - smoothstep(0.08, 0.16, dl)) * prior_h * gate(l, g, True)
-    wt = box3(box3(max3(wr)))
-    # residual: soft shadows / local light changes on the backdrop (within +-6 %), measured on confident backdrop only (1/4 res)
-    lq = half(lr); dq = chroma_dist(lq)
-    cq = ((dq < 0.03) & (np.abs(lq).max(-1) < 0.06)).astype(np.float32) * prior_q
-    num = box(box(lq * cq[..., None], 6), 6); den = box(box(cq, 6), 6)
-    res = num / np.maximum(den, 1e-3)[..., None] * np.clip(den / 0.25, 0, 1)[..., None]
-    return wt, up2_lin(np.clip(res, -0.06, 0.06))
+def up_to(a, H, W):
+    """1/4 res -> chroma res (bilinear 2x, or a resample when a dimension was odd)"""
+    return up2_lin(a) if (2 * a.shape[0], 2 * a.shape[1]) == (H, W) else resize(a, H, W)
+
+def frame_terms(rgbh, logPk, P, g, kc):
+    """per frame: soft backdrop weight (chroma res; segmentation + a 2-4 px soft edge band) and S (1/4 res) = the frame's own
+    backdrop relative to the plate (exposure, soft shadows of arm and body, revealed backdrop), a normalised box over the
+    backdrop 1 px clear of the presenter; the gain is G = target / (plate * S)"""
+    bm, dc, dl, gt = segment(rgbh, logPk, g); bmf = bm.astype(np.float32)
+    soft = (1 - smoothstep(0.05, WEAK[0], dc)) * smoothstep(WEAK[1], -0.55, dl) * (1 - smoothstep(0.12, WEAK[2], dl)) * gt
+    ms = min3(bmf)                                                    # backdrop 1 px clear of the presenter
+    wt = box3(box3(max3(np.maximum(ms, soft * max3(bmf)))))           # mixed edge pixels: their colour's partial weight
+    # S: normalised box of frame / plate over the backdrop (1/4 res block means). Within 16 px of the presenter only smooth
+    # backdrop within 8 % of the exposure level counts, and blocks darker than the running estimate by > 2 % are dropped and
+    # S re-estimated twice: hair strands and mixed edge pixels are textured or darker and would pull S down (a bright halo,
+    # white specks in grey hair; a shadow next to him measured >= 0.95x and smooth: 3x3 sd of the ratio < 1.5 %). Further
+    # out every backdrop block counts (the shadow of an arm is smooth: all of it is flattened)
+    r = rgbh / P; rl = r[..., 1]; bs = np.maximum(box3(ms), 1e-3); m1 = box3(rl * ms) / bs; m2 = box3(rl * rl * ms) / bs
+    ms = ms * (~dilate(~bm, 8) | ((m2 - m1 * m1 < NEAR_SD * NEAR_SD) & (rl >= NEAR_MIN * kc[1])))
+    dq = half(ms); rq = half(r * ms[..., None]) / np.maximum(dq, 1e-3)[..., None]
+    nearq = dilate(dq < 0.99, 3); wq = dq
+    for it in range(3):
+        num = box_s(rq * wq[..., None], SHADE_R); den = box_s(wq, SHADE_R)
+        S = (num + 1e-3 * kc) / (den + 1e-3)[..., None]
+        if it == 2: break
+        wq = dq * ((rq[..., 1] >= S[..., 1] * 0.98) | ~nearq)
+    return wt.astype(np.float32), S.astype(np.float32)
+
+def med3(a, b, c):
+    """per-element median of three arrays"""
+    return np.maximum(np.minimum(a, b), np.minimum(np.maximum(a, b), c))
 
 def render(path, out, info, mx, A, target_rgb, keep=()):
-    w, h = info["w"], info["h"]; Ph = A["Ph"]; logPh = np.log(np.maximum(Ph, 1.0)); prior_h = A["prior_h"]; k = A["k"]
-    prior_q = (bmean(prior_h, 2) > 0.999).astype(np.float32)
-    lG0 = np.log(np.clip(target_rgb / np.maximum(Ph, 1.0), 0.5, 2.5)).astype(np.float32)   # dark mouldings need up to ~1.9x blue
+    w, h = info["w"], info["h"]; P = A["P"]; logP = np.log(np.maximum(P, 1.0)); k = A["k"]
     rng = np.random.default_rng(20261015)                        # deterministic dither fields, shifted per frame
     DY = (rng.random((h + 64, w + 64), np.float32) - 0.5); DU = (rng.random((h // 2 + 64, w // 2 + 64), np.float32) - 0.5)
     DV = (rng.random((h // 2 + 64, w // 2 + 64), np.float32) - 0.5)
@@ -378,52 +508,81 @@ def render(path, out, info, mx, A, target_rgb, keep=()):
     if sp: enc += ["-vf", "setparams=" + ":".join(sp)]
     tmp = out + ".part.mp4"; enc += ["-c:a", "copy", "-movflags", "+faststart", tmp]
     pe = subprocess.Popen(enc, stdin=subprocess.PIPE)
-    wsum = np.zeros((h // 2, w // 2), np.float32); nf = 0; snaps = {}; rmax = 0.0; iys = np.float32(1 / mx.ys)
+    st = {"wsum": np.zeros((h // 2, w // 2), np.float32), "nf": 0, "snaps": {}}; iys = np.float32(1 / mx.ys)
     invD = (1 / A["D"]).astype(np.float32); omD = (1 - A["D"]).astype(np.float32)
+    def emit(e, ep, en):
+        i, Y, U, V, rgbh, ch, wc, Sq = e
+        # temporal median of three frames for the weight, inside the current frame's 1 px edge band only: no single-frame edge
+        # flicker, no lag of a moving edge. S stays the frame's own (each frame flattened on its own measured level)
+        wt = np.clip(med3(ep[6], wc, en[6]), min3(wc), max3(wc))
+        G = np.clip(target_rgb / (P * up_to(Sq, *wc.shape)), 0.5, 2.5)   # dark mouldings need up to ~1.9x blue
+        a = G - 1; a *= wt[..., None]                               # w*(G-1)
+        dU, dV = mx.delta_uv(rgbh * a)
+        # luma delta on the full grid, with the static full-res detail D: dY = ((Y - yo)*(s1 + w(1 - D)) + s2/ys) / D
+        s1 = up2_lin(a @ mx.k); s2 = up2_lin((a * ch) @ mx.k); s1 += up2_lin(wt) * omD
+        dY = Y * s1; dY += s2 * iys - mx.yo * s1; dY *= invD
+        oy, ox = (i * 37) % 64, (i * 23) % 64; on = wt > 0       # dithered rounding where (and only where) it changes
+        np.add(dY, DY[oy:oy + h, ox:ox + w], out=dY, where=s1 != 0)
+        dU += DU[oy // 2:oy // 2 + h // 2, ox // 2:ox // 2 + w // 2] * on; dV += DV[oy // 2:oy // 2 + h // 2, ox // 2:ox // 2 + w // 2] * on
+        dY += Y; np.rint(dY, out=dY); np.clip(dY, 0, 255, out=dY); Yo = dY.astype(np.uint8)
+        Uo = np.clip(np.rint(U + dU), 0, 255).astype(np.uint8); Vo = np.clip(np.rint(V + dV), 0, 255).astype(np.uint8)
+        pe.stdin.write(Yo.tobytes()); pe.stdin.write(Uo.tobytes()); pe.stdin.write(Vo.tobytes())
+        st["wsum"] += wt; st["nf"] += 1
+        if i in keep: st["snaps"][i] = wt
     try:
+        buf = []
         for i, (Y, U, V) in enumerate(decode(path, w, h)):
-            lk = np.log(k[min(i, len(k) - 1)])
+            kc = k[min(i, len(k) - 1)]
             ch = mx.chroma(U, V); rgbh = ((half(Y) - mx.yo) * mx.ys)[..., None] + ch
-            wt, res = weight_and_residual(rgbh, logPh + lk, prior_h, prior_q, A["gate"])
-            a = np.exp(lG0 - lk - res); a -= 1; a *= wt[..., None]      # w*(G-1), G = target / (plate * k * residual)
-            dU, dV = mx.delta_uv(rgbh * a)
-            # luma delta on the full grid, with the static full-res detail D: dY = ((Y - yo)*(s1 + w(1 - D)) + s2/ys) / D
-            s1 = up2_lin(a @ mx.k); s2 = up2_lin((a * ch) @ mx.k); s1 += up2_lin(wt) * omD
-            dY = Y * s1; dY += s2 * iys - mx.yo * s1; dY *= invD
-            oy, ox = (i * 37) % 64, (i * 23) % 64; on = wt > 0       # dithered rounding where (and only where) it changes
-            np.add(dY, DY[oy:oy + h, ox:ox + w], out=dY, where=s1 != 0)
-            dU += DU[oy // 2:oy // 2 + h // 2, ox // 2:ox // 2 + w // 2] * on; dV += DV[oy // 2:oy // 2 + h // 2, ox // 2:ox // 2 + w // 2] * on
-            dY += Y; np.rint(dY, out=dY); np.clip(dY, 0, 255, out=dY); Yo = dY.astype(np.uint8)
-            Uo = np.clip(np.rint(U + dU), 0, 255).astype(np.uint8); Vo = np.clip(np.rint(V + dV), 0, 255).astype(np.uint8)
-            pe.stdin.write(Yo.tobytes()); pe.stdin.write(Uo.tobytes()); pe.stdin.write(Vo.tobytes())
-            wsum += wt; nf += 1; rmax = max(rmax, float(np.abs(res).max()))
-            if i in keep: snaps[i] = wt
+            wt, Sq = frame_terms(rgbh, logP + np.log(kc), P, A["gate"], kc)
+            buf.append((i, Y, U, V, rgbh, ch, wt, Sq))
+            if len(buf) >= 2:                                    # frame i-1 is written once frame i is known
+                emit(buf[-2], buf[-3] if len(buf) == 3 else buf[-2], buf[-1])
+                if len(buf) == 3: buf.pop(0)
+        if buf: emit(buf[-1], buf[-2] if len(buf) >= 2 else buf[-1], buf[-1])
     finally:
         pe.stdin.close(); rc = pe.wait()
     if rc != 0: raise SystemExit(f"[flatten] encoder failed for {path}")
     os.replace(tmp, out)
-    return {"frames": nf, "wmean": wsum / max(nf, 1), "snaps": snaps, "resmax": rmax}
+    return {"frames": st["nf"], "wmean": st["wsum"] / max(st["nf"], 1), "snaps": st["snaps"]}
 
 # ----------------------------------------------------------------------------------------------------------------------
-# 3) verification: mock of compose2 (box mode 640x1080 at x 0, panel from x 640 with a 48 px feather)
+# 3) verification: mock of compose2 (box mode 640x1080, a 48 px feather over the box's seam-side edge): seam "right" = box at x 0,
+#    panel from x 640 (v3, default); seam "left" = box at x 1280, panel x 0..1280 (presenter right, the full Cause of Action v4)
 BOX_W, BOX_H, FY, CANVAS = 640, 1080, 0.35, (1920, 1080)
+FEATHER = 48
+class Layout:
+    """where the mock puts the presenter box and what the verification measures, in box x (b*) or canvas x (c*)"""
+    def __init__(self, seam="right"):
+        self.seam = seam; W = CANVAS[0]
+        if seam == "right":
+            self.bx = 0; self.seam_b = (BOX_W - 40, BOX_W); self.panel_c = (BOX_W + 1, BOX_W + 61)
+            self.tl_b, self.tr_b = (8, 128), (470, 590); self.clear_b = (0, BOX_W - FEATHER); self.zoom_c = (540, 740)
+        elif seam == "left":
+            self.bx = W - BOX_W; self.seam_b = (0, 40); self.panel_c = (self.bx - 61, self.bx - 1)
+            self.tl_b, self.tr_b = (BOX_W - 590, BOX_W - 470), (BOX_W - 128, BOX_W - 8); self.clear_b = (FEATHER, BOX_W); self.zoom_c = (self.bx - 100, self.bx + 100)
+        else:
+            raise SystemExit(f"[flatten] --seam must be left or right, not {seam!r}")
 def box_geometry(w, h):
     """compose2 box_chain for fx 0.5, fy 0.35, zoom 1: cover scale size and crop offset (crop offsets are even for yuv420p)"""
     sw, sh = max(BOX_W, int(BOX_H * w / h + 0.5)), max(BOX_H, int(BOX_W * h / w + 0.5))
     x0 = int(min(max(0.5 * sw - BOX_W // 2, 0), sw - BOX_W)) // 2 * 2; y0 = int((sh - BOX_H) * FY) // 2 * 2
     return sw / w, x0, y0
 
-def test_overlay(path):
-    W, H = CANVAS; img = np.zeros((H, W, 4), np.uint8); img[:, 592:, :3] = (245, 240, 232)
-    img[:, 592:640, 3] = np.round((np.arange(48) + 0.5) / 48 * 255).astype(np.uint8)[None, :]; img[:, 640:, 3] = 255
+def test_overlay(path, lay):
+    W, H = CANVAS; img = np.zeros((H, W, 4), np.uint8); ramp = np.round((np.arange(FEATHER) + 0.5) / FEATHER * 255).astype(np.uint8)
+    if lay.seam == "right":   # panel right of the box, opaque from x 640, feather 592..640 transparent -> cream
+        img[:, 592:, :3] = (245, 240, 232); img[:, 592:640, 3] = ramp[None, :]; img[:, 640:, 3] = 255
+    else:                     # panel left of the box, opaque up to x 1280, feather 1280..1328 cream -> transparent
+        img[:, :lay.bx + FEATHER, :3] = (245, 240, 232); img[:, :lay.bx, 3] = 255; img[:, lay.bx:lay.bx + FEATHER, 3] = ramp[::-1][None, :]
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgba", "-s", f"{W}x{H}", "-i", "-", path], input=img.tobytes(), check=True)
 
-def mock_composite(clip, frames, tmpdir, tag, png):
+def mock_composite(clip, frames, tmpdir, tag, png, lay):
     W, H = CANVAS; sel = "+".join(f"eq(n\\,{i})" for i in frames)
     base = os.path.join(tmpdir, f"{tag}_base.mp4"); fin = os.path.join(tmpdir, f"{tag}_final.mp4")
     vf = (f"select='{sel}',setpts=N/24/TB,scale={BOX_W}:{BOX_H}:force_original_aspect_ratio=increase:flags=lanczos,"
           f"crop={BOX_W}:{BOX_H}:x='clip(0.5000*iw-{BOX_W // 2},0,iw-{BOX_W})':y='(ih-{BOX_H})*{FY:.4f}',fps=24,format=yuv420p,setsar=1,"
-          f"unsharp=5:5:0.5:5:5:0,pad={W}:{H}:0:0:color=0xf5f0e8")
+          f"unsharp=5:5:0.5:5:5:0,pad={W}:{H}:{lay.bx}:0:color=0xf5f0e8")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", clip, "-vf", vf, "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "12",
                     "-pix_fmt", "yuv420p", "-r", "24", base], check=True)
     g3 = "[0:v]fps=24[b];[1:v]fps=24,format=rgba[o];[b][o]overlay=0:0:eof_action=pass:shortest=1:format=auto,fps=24,format=yuv420p[v]"
@@ -433,8 +592,8 @@ def mock_composite(clip, frames, tmpdir, tag, png):
     n = W * H * 3   # frames stay uint8 (views of b): 20 float32 1080p frames were ~0.5 GB of the tool's 0.7 GB peak
     return [np.frombuffer(b, np.uint8, n, j * n).reshape(H, W, 3) for j in range(len(b) // n)]
 
-def verify(src, out, info, mx, A, R, frames, dbg=None):
-    w, h = info["w"], info["h"]; W, H = CANVAS
+def verify(src, out, info, mx, A, R, frames, dbg=None, lay=None):
+    lay = lay or Layout("right"); w, h = info["w"], info["h"]; W, H = CANVAS; BX = lay.bx
     sc, x0, y0 = box_geometry(w, h)
     # what the viewer sees as backdrop in each verified frame, in box coordinates: everything except the presenter (pixels
     # with weight < 0.5 connected to the bottom edge) and 16 px around it (stray hair). Anything the matte missed (a
@@ -447,13 +606,13 @@ def verify(src, out, info, mx, A, R, frames, dbg=None):
     masks = [seen(R["snaps"][f])[sy, sx] for f in frames]
     tmpdir = tempfile.mkdtemp(prefix=".verify_", dir=os.path.dirname(os.path.abspath(out)))   # removed below
     try:
-        png = os.path.join(tmpdir, "panel.png"); test_overlay(png)
-        before = mock_composite(src, frames, tmpdir, "before", png); after = mock_composite(out, frames, tmpdir, "after", png)
+        png = os.path.join(tmpdir, "panel.png"); test_overlay(png, lay)
+        before = mock_composite(src, frames, tmpdir, "before", png, lay); after = mock_composite(out, frames, tmpdir, "after", png, lay)
         if dbg and before and after:
             j = len(before) // 2; save_png(f"{dbg}/mock_before.png", before[j]); save_png(f"{dbg}/mock_after.png", after[j])
-            z = lambda im: np.repeat(np.repeat(im[0:200, 540:740], 4, 0), 4, 1)             # 4x zoom of the top of the seam
+            z = lambda im: np.repeat(np.repeat(im[0:200, lay.zoom_c[0]:lay.zoom_c[1]], 4, 0), 4, 1)   # 4x zoom of the top of the seam
             save_png(f"{dbg}/mock_seam_zoom4x.png", np.concatenate([z(before[j]), np.full((800, 8, 3), 255, np.float32), z(after[j])], 1))
-            m = masks[j]; ov = after[j][:, :BOX_W].copy(); ov[~m] = ov[~m] * 0.35; save_png(f"{dbg}/mock_backdrop_mask.png", ov)
+            m = masks[j]; ov = after[j][:, BX:BX + BOX_W].copy(); ov[~m] = ov[~m] * 0.35; save_png(f"{dbg}/mock_backdrop_mask.png", ov)
     finally:
         shutil.rmtree(tmpdir, ignore_errors=True)
     nb = min(len(before), len(after), len(masks))
@@ -463,23 +622,24 @@ def verify(src, out, info, mx, A, R, frames, dbg=None):
         for f, m in zip(frames_rgb[:nb], masks[:nb]):
             mm = m[y0_:y1_, x0_:min(x1_, BOX_W)]
             if need_full_rows: mm = np.repeat(mm.all(1, keepdims=True), x1_ - x0_, 1)
-            px = f[y0_:y1_, x0_:x1_][mm] if x1_ <= BOX_W else None
+            px = f[y0_:y1_, BX + x0_:BX + x1_][mm] if x1_ <= BOX_W else None
             if px is not None and len(px): acc += px.sum(0); cnt += len(px)
         return acc / cnt if cnt else None, cnt
     def rows_panel(frames_rgb):
         acc, cnt = np.zeros(3), 0
         for f, m in zip(frames_rgb[:nb], masks[:nb]):
-            rows = m[:, 600:640].all(1)
-            if rows.any(): px = f[rows][:, 641:701].reshape(-1, 3); acc += px.sum(0); cnt += len(px)
+            rows = m[:, lay.seam_b[0]:lay.seam_b[1]].all(1)
+            if rows.any(): px = f[rows][:, lay.panel_c[0]:lay.panel_c[1]].reshape(-1, 3); acc += px.sum(0); cnt += len(px)
         return acc / cnt if cnt else None
     st = {}
     for tag, fr in (("before", before), ("after", after)):
-        st[tag] = {"seam": region(fr, 600, 640, 0, BOX_H, True)[0], "TL": region(fr, 8, 128, 8, 168)[0], "TR": region(fr, 470, 590, 8, 168)[0],
+        st[tag] = {"seam": region(fr, *lay.seam_b, 0, BOX_H, True)[0], "TL": region(fr, *lay.tl_b, 8, 168)[0], "TR": region(fr, *lay.tr_b, 8, 168)[0],
                    "panel": rows_panel(fr)}
         devs = []; pan = np.array(PANEL_RGB_DECODED, float)
-        for f, m in zip(fr[:nb], masks[:nb]):                # 16x16 patch means vs the panel, box x < 592 (left of the feather)
-            pm = f[:BOX_H // 16 * 16, :592].reshape(BOX_H // 16, 16, 37, 16, 3).mean((1, 3))
-            ok = m[:BOX_H // 16 * 16, :592].reshape(BOX_H // 16, 16, 37, 16).all((1, 3))
+        c0, c1 = lay.clear_b; npx = (c1 - c0) // 16
+        for f, m in zip(fr[:nb], masks[:nb]):                # 16x16 patch means vs the panel, box x clear of the feather (< 592 / >= 48)
+            pm = f[:BOX_H // 16 * 16, BX + c0:BX + c0 + npx * 16].reshape(BOX_H // 16, 16, npx, 16, 3).mean((1, 3))
+            ok = m[:BOX_H // 16 * 16, c0:c0 + npx * 16].reshape(BOX_H // 16, 16, npx, 16).all((1, 3))
             devs += np.abs(pm - pan).max(-1)[ok].tolist()
         st[tag]["worst"] = max(devs) if devs else float("nan"); st[tag]["p99"] = float(np.percentile(devs, 99)) if devs else float("nan")
     # presenter patches in the clip domain: face (skin cluster of the median) and shirt (bright, neutral-to-blue, under the face)
@@ -521,7 +681,10 @@ def main():
     ap.add_argument("clips", nargs="+"); ap.add_argument("--out-dir", help="default: <clip dir>/flat"); ap.add_argument("--debug", help="debug image dir")
     ap.add_argument("--no-verify", action="store_true", help="skip the compose2 mock measurement")
     ap.add_argument("--target-yuv", help="override the clip-domain target Y,U,V (default %s)" % ",".join(map(str, TARGET_YUV)))
-    a = ap.parse_args()
+    ap.add_argument("--seam", choices=("left", "right"), default="right", help="verification layout: the seam at the clip's RIGHT edge "
+                    "(presenter box x 0, panel right: v3, default) or LEFT edge (presenter box x 1280, panel left: Cause of Action v4); "
+                    "the correction itself does not depend on it")
+    a = ap.parse_args(); lay = Layout(a.seam)
     tgt = tuple(float(v) for v in a.target_yuv.split(",")) if a.target_yuv else TARGET_YUV
     for c in a.clips:
         t0 = time.time(); info = probe(c)
@@ -545,21 +708,22 @@ def main():
         if info["audio"] and not same_a: warn.append("audio is not bit-exact")
         if dbg:
             h, w = info["h"], info["w"]
-            save_png(f"{dbg}/median.png", resize(A["M"], h, w)); save_png(f"{dbg}/plate.png", resize(A["Ph"], h, w)); save_png(f"{dbg}/fit.png", resize(A["F"], h, w))
+            save_png(f"{dbg}/median.png", resize(A["M"], h, w)); save_png(f"{dbg}/plate.png", resize(A["P"], h, w)); save_png(f"{dbg}/fit.png", resize(A["F"], h, w))
             save_png(f"{dbg}/backdrop_median.png", resize(A["bd"].astype(np.float32), h, w) * 255)
-            save_png(f"{dbg}/backdrop_union.png", resize(A["union"].astype(np.float32), h, w) * 255)
-            save_png(f"{dbg}/prior.png", resize(A["prior_h"], h, w) * 255); save_png(f"{dbg}/weight_mean.png", resize(R["wmean"], h, w) * 255)
+            save_png(f"{dbg}/clean_samples.png", resize(A["cnt"].astype(np.float32) / A["nsamp"], h, w) * 255)
+            save_png(f"{dbg}/weight_mean.png", resize(R["wmean"], h, w) * 255)
             mid = A["nlow"] // 2; save_png(f"{dbg}/weight_{mid:04d}.png", resize(R["snaps"][mid], h, w) * 255)
-            save_png(f"{dbg}/residual_x4.png", resize(np.clip(128 + 4 * (A["M"] - A["Ph"]), 0, 255), h, w))
+            save_png(f"{dbg}/residual_x4.png", resize(np.clip(128 + 4 * (A["M"] - A["P"]), 0, 255), h, w))
             for tag, p in (("before", c), ("after", out)):
                 subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", p, "-vf", f"select=eq(n\\,{mid})", "-frames:v", "1", f"{dbg}/frame_{tag}.png"], check=True)
         line = (f"[flatten] {name} -> {out} | {R['frames']}/{info['n']} frames {oi['dur']:.2f}s, audio {'bit-exact' if same_a else ('none' if same_a is None else 'CHANGED')}, "
-                f"{mx.name}, backdrop TL {fmt(A['Ph'][8:88, 8:68].reshape(-1, 3).mean(0))}, drift k {A['k'].min():.3f}..{A['k'].max():.3f}")
+                f"{mx.name}, backdrop TL {fmt(A['P'][8:88, 8:68].reshape(-1, 3).mean(0))}, drift k {A['k'].min():.3f}..{A['k'].max():.3f}")
         if not a.no_verify:
-            st = verify(c, out, info, mx, A, R, vf, dbg)
+            st = verify(c, out, info, mx, A, R, vf, dbg, lay)
             if st:
                 b_, a_ = st["before"], st["after"]
-                line += (f" | final mp4 RGB (panel #f5f0e8 lands as {fmt(a_['panel'])}): seam x600-639 {fmt(b_['seam'])}->{fmt(a_['seam'])} d{fmtd(a_['seam'], a_['panel'])},"
+                line += ((" | seam LEFT (presenter box x 1280)" if a.seam == "left" else "") +
+                         f" | final mp4 RGB (panel #f5f0e8 lands as {fmt(a_['panel'])}): seam x{lay.seam_b[0]}-{lay.seam_b[1] - 1} {fmt(b_['seam'])}->{fmt(a_['seam'])} d{fmtd(a_['seam'], a_['panel'])},"
                          f" top-left {fmt(b_['TL'])}->{fmt(a_['TL'])} d{fmtd(a_['TL'], a_['panel'])}, top-right {fmt(b_['TR'])}->{fmt(a_['TR'])} d{fmtd(a_['TR'], a_['panel'])},"
                          f" 16px backdrop patches |d| max {b_['worst']:.1f}->{a_['worst']:.1f} (p99 {b_['p99']:.1f}->{a_['p99']:.1f}) | presenter " +
                          ", ".join(f"{k_} {fmt(p0)}->{fmt(p1)} d{fmtd(p1, p0)}" for k_, (p0, p1) in st["presenter"].items()))
