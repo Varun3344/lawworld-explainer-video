@@ -14,17 +14,20 @@ D = "downloads/coa"; CLIPS = f"{D}/flat"; OUT = "out/coa"; os.makedirs(OUT, exis
 SCENES = "split/coa_all_scenes.json"
 ALL = json.load(open(SCENES))["scenes"]
 SCRIPT = {s["sceneId"]: s["spoken"] for s in ALL}                 # what the avatar was asked to say (alignment)
+# c18/c32: the owner's script said "arose on 1st April 2025, the first day of default"; the adversarial fact-check (15 Oct) showed
+# Indian loan cases put the cause of action on the due date itself ("the date when the loan ought to have been repaid but is not
+# repaid", Harcharan Singh v. Sunil Sarin, Del HC 2013; Jailebdeen, AIR 1992 Ker 31), so both lines and the pin say 31 March 2025.
 SHOWN = {                                                            # how the words are written in the captions
     "c05": "The classic statement comes from an English case, Read v. Brown, decided in 1888.",
     "c07": "Our Supreme Court adopted this in A.B.C. Laminart v. A.P. Agencies.",
     "c14": "Suresh promises to repay by 31 March 2025. The date passes. Suresh pays nothing.",
-    "c18": "It arose on 1 April 2025, the first day of default. Remember that date. We'll need it.",
+    "c18": "It arose on 31 March 2025, the due date he missed. Remember that date. We'll need it.",
     "c20": "The Privy Council said in Chand Kour v. Partab Singh that it refers entirely to the grounds set out in the plaint.",
     "c23": "One: pleading. Order VII Rule 1(e) requires every plaint to state the facts constituting the cause of action, and when it arose.",
     "c24": "Two: rejection. Under Order VII Rule 11(a), a plaint that discloses no cause of action must be rejected.",
     "c27": "Three: jurisdiction. Besides where the defendant lives, Section 20(c) lets you sue where the cause of action arises, wholly or in part.",
     "c29": "Under Order II Rule 2, if Ravi sues for only three lakh, he cannot later sue for the other two.",
-    "c32": "The Limitation Act fixes the exact starting point for each kind of suit. That's why we pinned 1 April 2025.",
+    "c32": "The Limitation Act fixes the exact starting point for each kind of suit. That's why we pinned 31 March 2025.",
 }
 IDS = [s["sceneId"] for s in ALL]
 missing = [c for c in IDS if not (os.path.exists(f"{D}/{c}.mp4") and os.path.exists(f"{D}/{c}.words.json") and os.path.exists(f"{CLIPS}/{c}.mp4"))]
@@ -165,7 +168,7 @@ if have("c13", "c14", "c15", "c16", "c17", "c18"):
     fx("whoosh", fold, -18); fx("ding", fold + 0.6, -16)
     land = at("c18", "arose") - 0.05
     fly = at("c32", "pinned") - 0.05 if have("c32") else None
-    cue(type="pin", t0=land - 0.1, t1=(E("c32") + 0.05) if have("c32") else pend + 0.25, text="Arose: 1 Apr 2025", land_at=land, fly_at=fly, slot=5)
+    cue(type="pin", t0=land - 0.1, t1=(E("c32") + 0.05) if have("c32") else pend + 0.25, text="Arose: 31 Mar 2025", land_at=land, fly_at=fly, slot=5)
     fx("slam", land + 0.12, -10)
 
 # ── Scene 5: what it is not ────────────────────────────────────────────────────────────────────────────────────────────

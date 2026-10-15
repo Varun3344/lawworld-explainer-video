@@ -123,8 +123,8 @@
     {
       "sceneId": "c18",
       "seconds": 8,
-      "dialogue": "It arose on 1st April 2025, the first day of default. Remember that date. We'll need it.",
-      "spoken": "It arose on first April, twenty twenty-five, the first day of default. Remember that date. We'll need it.",
+      "dialogue": "It arose on 31st March 2025, the due date he missed. Remember that date. We'll need it.",
+      "spoken": "It arose on thirty-first March, twenty twenty-five, the due date he missed. Remember that date. We'll need it.",
       "presents": false
     },
     {
@@ -221,8 +221,8 @@
     {
       "sceneId": "c32",
       "seconds": 10,
-      "dialogue": "The Limitation Act fixes the exact starting point for each kind of suit. That's why we pinned 1st April 2025.",
-      "spoken": "The Limitation Act fixes the exact starting point for each kind of suit. That's why we pinned first April, twenty twenty-five.",
+      "dialogue": "The Limitation Act fixes the exact starting point for each kind of suit. That's why we pinned 31st March 2025.",
+      "spoken": "The Limitation Act fixes the exact starting point for each kind of suit. That's why we pinned thirty-first March, twenty twenty-five.",
       "presents": true
     },
     {

@@ -54,7 +54,7 @@ New / extended types (scenes 3-7):
 - One card split in two halves; each half builds at its `at`; the right half in the accent colour.
 
 ### pin (scenes 4-6: the date the cause of action arose)
-`{type:"pin", t0, t1, text:"Arose: 1 Apr 2025", land_at, fly_at, slot:5}`
+`{type:"pin", t0, t1, text:"Arose: 31 Mar 2025", land_at, fly_at, slot:5}`
 - At land_at a date stamp lands (stamp-like hit) in the middle of the panel, then shrinks and parks in the panel's top corner (below
   the header, away from the seam), where it stays across scenes 5 and 6. At fly_at it flies into slot `slot` of the active `slots`
   cue (scene 6) and the slot's clock starts.
