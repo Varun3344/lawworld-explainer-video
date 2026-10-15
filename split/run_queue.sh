@@ -5,7 +5,7 @@
 # is set aside and re-rendered (max 3 takes); 0.90-0.97 is kept for a manual listen (versus / 1888 / A B C spellings).
 # c01 is the pilot and the anchor of every later clip: the queue stops after it until split/GO exists.
 cd "/Users/admin/Downloads/New short/product-explainer"
-UD="/Users/admin/Downloads/New short/Google Flow AI Video/user_data"; D=downloads/split
+UD="/Users/admin/Downloads/New short/Google Flow AI Video/user_data"; D=${SPLIT_D:-downloads/split}; SB=${SPLIT_SB:-split/split}; ALLJ=${SPLIT_ALL:-split/split_all_scenes.json}; GOF=${SPLIT_GO:-split/GO}
 KEY=$(grep -E '^REEL_PIPELINE_API_KEY=' '/Users/admin/Desktop/lawworld project/lw-plateform-node-backend/.env' | cut -d= -f2- | tr -d '"')
 TSX="/Users/admin/Desktop/lawworld project/lw-plateform-node-backend/node_modules/.bin/tsx"; PIPE="/Users/admin/Desktop/lawworld project/lw-plateform-node-backend/services/reel-service/pipeline/index.ts"
 export FLOW_USER_DATA_DIR="$UD" FLOW_ASSETS_DIR="/Users/admin/Downloads/New short/Google Flow AI Video/assets" FLOW_LOGS_DIR="$PWD/logs/flow"
@@ -35,7 +35,7 @@ print(n)" 2>/dev/null || echo 1)
 mkdir -p $D/rejected
 if [ $# -gt 0 ]; then IDS=($@); else IDS=(c01 c02 c03 c04 c05 c06 c07 c08 c09); fi
 for id in $IDS; do
-  secs=$(python3 -c "import json; print([s['seconds'] for s in json.load(open('split/split_all_scenes.json'))['scenes'] if s['sceneId']=='$id'][0])")
+  secs=$(python3 -c "import json; print([s['seconds'] for s in json.load(open('$ALLJ'))['scenes'] if s['sceneId']=='$id'][0])")
   for take in 1 2 3; do
     if [ -f $D/$id.mp4 ] && [ -f $D/$id.words.json ] && python3 -c "import json,sys; d=json.load(open('$D/$id.words.json')); sys.exit(0 if d.get('keep') else 1)"; then break; fi
     if [ -f $D/$id.mp4 ]; then
@@ -43,17 +43,17 @@ for id in $IDS; do
       rm -f $D/frames/${id}_last.jpg
     fi
     gate; echo "[queue] $id take $take start $(date +%H:%M:%S)"
-    "$TSX" "$PIPE" --config split/split_${secs}s.json --scene $id --no-merge --timeout 240000 > logs/split_$id.log 2>&1
-    grep -q -E "Policy Filter Triggered|prominent people" logs/split_$id.log && echo "[queue] $id POLICY REFUSED (no charge)"
-    grep -q "CLI Error" logs/split_$id.log && echo "[queue] $id launch error: $(grep 'CLI Error' logs/split_$id.log | head -1 | cut -c1-140)"
+    "$TSX" "$PIPE" --config ${SB}_${secs}s.json --scene $id --no-merge --timeout 240000 > logs/$(basename $SB)_$id.log 2>&1
+    grep -q -E "Policy Filter Triggered|prominent people" logs/$(basename $SB)_$id.log && echo "[queue] $id POLICY REFUSED (no charge)"
+    grep -q "CLI Error" logs/$(basename $SB)_$id.log && echo "[queue] $id launch error: $(grep 'CLI Error' logs/$(basename $SB)_$id.log | head -1 | cut -c1-140)"
     if [ -f $D/$id.mp4 ]; then
-      line=$(python3 scripts/words.py split/split_all_scenes.json $D/$id.mp4 --prompt "$VOCAB" 2>&1 | tail -1); echo "[queue] $line"
+      line=$(python3 scripts/words.py $ALLJ $D/$id.mp4 --prompt "$VOCAB" 2>&1 | tail -1); echo "[queue] $line"
       ratio=$(python3 -c "import json; print(json.load(open('$D/$id.words.json')).get('match_ratio',0))" 2>/dev/null || echo 0)
       keep=$(python3 -c "print('True' if float('$ratio')>=0.90 else 'False')")
       python3 -c "import json; p='$D/$id.words.json'; d=json.load(open(p)); d['keep']=$keep; json.dump(d,open(p,'w'),ensure_ascii=False,indent=1)"
       [ "$keep" = "False" ] && echo "[queue] $id take $take REJECTED (match $ratio) — re-rendering"
     else echo "[queue] $id take $take produced no clip"; sleep 20; fi
   done
-  [ "$id" = "c01" ] && [ ! -f split/GO ] && { echo "[queue] PILOT c01 done — waiting for split/GO $(date +%H:%M:%S)"; while [ ! -f split/GO ]; do sleep 5; done; }
+  [ "$id" = "c01" ] && [ ! -f $GOF ] && { echo "[queue] PILOT c01 done — waiting for $GOF $(date +%H:%M:%S)"; while [ ! -f $GOF ]; do sleep 5; done; }
 done
 echo "[queue] ALL DONE $(date +%H:%M:%S)"

@@ -1,5 +1,8 @@
-"""16:9 split-screen explainer (Cause of Action, first minute): presenter clips c01..c09 on the left 55 %, animated panel
-(overlays/split_panel.html) on the right 45 %. Builds land on the spoken words: script tokens are aligned to whisper word
+"""16:9 split-screen explainer (Cause of Action, first minute): presenter clips c01..c09 on the left, animated panel
+(overlays/split_panel.html) on the right. Default = v2 layout (16:9 walnut-studio clips in downloads/split, presenter 55 % / panel
+45 %, out/split). --wide = v3 "one screen" layout (owner 15-10-2026: avatar 33 %, explanation 66 %, avatar background = panel
+background): 9:16 ivory-backdrop clips in downloads/split9, composed from downloads/split9/flat (backdrop flattened to the panel
+cream by split/flatten_bg.py), presenter box 640 px, no eq grade (it would lift the flattened backdrop off the cream), out/split9. Builds land on the spoken words: script tokens are aligned to whisper word
 times (same alignment as office/build_office_plan.py), clip head/tail pauses are trimmed, clips are laid end to end after
 the opening sting. Any anchor word that cannot be found is FATAL (a silently mistimed build is worse than a stop).
 Writes out/split/timeline.json, out/split/plan.json, out/split/anchors.txt and out/split/captions.srt."""
@@ -7,8 +10,12 @@ import os, sys, json, subprocess, difflib, importlib.util
 spec = importlib.util.spec_from_file_location("words", "scripts/words.py"); W = importlib.util.module_from_spec(spec); spec.loader.exec_module(W); norm = W.norm
 def dur(f): return float(subprocess.run(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",f],capture_output=True,text=True).stdout.strip())
 
-D = "downloads/split"; OUT = "out/split"; os.makedirs(OUT, exist_ok=True)
-ALL = json.load(open("split/split_all_scenes.json"))["scenes"]
+WIDE = "--wide" in sys.argv
+D = "downloads/split9" if WIDE else "downloads/split"; OUT = "out/split9" if WIDE else "out/split"; os.makedirs(OUT, exist_ok=True)
+CLIPS = f"{D}/flat" if WIDE else D                                   # what compose2 reads (words/timing always come from D)
+SCENES = "split/split9_all_scenes.json" if WIDE else "split/split_all_scenes.json"
+BOX_W = 640 if WIDE else 1056
+ALL = json.load(open(SCENES))["scenes"]
 SCRIPT = {s["sceneId"]: s["spoken"] for s in ALL}                 # what the avatar was asked to say (alignment)
 SHOWN = {                                                            # how the words are written on screen / in captions
     "c05": "The classic statement comes from an English case, Read v. Brown, decided in 1888.",
@@ -16,7 +23,7 @@ SHOWN = {                                                            # how the w
     "c08": "and put it simply: a bundle of facts which, with the law that applies to them, gives the plaintiff a right to relief against the defendant.",
 }
 IDS = [s["sceneId"] for s in ALL]
-missing = [c for c in IDS if not os.path.exists(f"{D}/{c}.mp4")]
+missing = [c for c in IDS if not (os.path.exists(f"{D}/{c}.mp4") and os.path.exists(f"{CLIPS}/{c}.mp4"))]
 if missing and "--allow-missing" not in sys.argv: sys.exit(f"[plan] missing clips: {missing}")
 IDS = [c for c in IDS if c not in missing]
 FX = json.load(open(f"{OUT}/face_x.json")) if os.path.exists(f"{OUT}/face_x.json") else {}
@@ -39,7 +46,7 @@ for cid in IDS:
             p = next((tm[k][1] for k in range(i - 1, -1, -1) if tm[k]), 0.0); q = next((tm[k][0] for k in range(i + 1, len(toks)) if tm[k]), d); tm[i] = (p, min(q, p + 0.3))
     s0 = tm[0][0]; s1 = tm[-1][1]
     tin = max(0.0, s0 - 0.12); tout = d if cid == IDS[-1] else min(d, s1 + 0.28)   # the last clip runs to its end: room for the payoff before the end card
-    segs.append({"clip": c, "in": round(tin, 3), "out": round(tout, 3), "zoom": ZOOM[cid], "base": round(t, 3), "cid": cid, "fx": FX.get(cid)})
+    segs.append({"clip": f"{CLIPS}/{cid}.mp4", "in": round(tin, 3), "out": round(tout, 3), "zoom": ZOOM[cid], "base": round(t, 3), "cid": cid, "fx": FX.get(cid)})
     for i, x in enumerate(toks): words.append({"word": x, "start": round(t + tm[i][0] - tin, 3), "end": round(t + tm[i][1] - tin, 3), "cid": cid})
     t += tout - tin
 pend = round(t, 3); total = round(pend + END, 3)
@@ -116,15 +123,16 @@ fx("pop", one, -16); fx("whoosh", many, -20); fx("whoosh", gather, -18); fx("din
 cue(type="endcard", t0=pend + 0.2, t1=total, title="Cause of Action", sub="Up next: Right + breach", url="lawworld.ai")
 fx("whoosh", pend + 0.1, -16)
 
-json.dump({"duration": total, "width": 1920, "height": 1080, "cues": cues}, open(f"{OUT}/timeline.json", "w"), indent=1, ensure_ascii=False)
+json.dump({"duration": total, "width": 1920, "height": 1080, **({"layout": {"px": BOX_W}} if WIDE else {}), "cues": cues}, open(f"{OUT}/timeline.json", "w"), indent=1, ensure_ascii=False)
 plan = {"fps": 24, "out": f"{OUT}/split_sample.mp4", "size": [1920, 1080],
-        "presenter_box": {"x": 0, "y": 0, "w": 1056, "h": 1080, "fx": 0.5, "fy": 0.35, "pad": "0xf5f0e8"},
+        "presenter_box": {"x": 0, "y": 0, "w": BOX_W, "h": 1080, "fx": 0.5, "fy": 0.35, "pad": "0xf5f0e8"},
         "presenter_start": HOOK,
         "presenter": [{k: v for k, v in {"clip": s["clip"], "in": s["in"], "out": s["out"], "zoom": s["zoom"], "push": 0.03, "fx": s["fx"]}.items() if v is not None} for s in segs],
         "match_bg": False, "cutaways": [], "endcard": {"clip": "brand/cream_tail.mp4", "dur": END + 0.3, "offset": 0, "xfade": 0.3},
         "music": {"file": "audio/bed_split_90s.mp3", "target_lufs": -26, "fade_in": 0.2, "fade_out": 2.5, "duck": True},
         "voice_lufs": -14, "level_voice": True, "limit": 0.85, "sfx": sfx,
-        "grade_presenter": "eq=contrast=1.05:saturation=1.05,unsharp=5:5:0.5:5:5:0",
+        "grade_presenter": "unsharp=5:5:0.5:5:5:0" if WIDE else "eq=contrast=1.05:saturation=1.05,unsharp=5:5:0.5:5:5:0",
+        "scenes": SCENES,
         "overlays": {"dir": f"{OUT}/frames", "fps": 24}, "delogo": None, "total": total, "tail_black": 0}
 json.dump(plan, open(f"{OUT}/plan.json", "w"), indent=1)
 open(f"{OUT}/anchors.txt", "w").write("\n".join(ANCH) + "\n")

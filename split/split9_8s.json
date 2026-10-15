@@ -1,0 +1,48 @@
+{
+  "aspectRatio": "9:16",
+  "maxWordsPerClip": 32,
+  "downloadFolder": "/Users/admin/Downloads/New short/product-explainer/downloads/split9",
+  "useLastFrameReference": true,
+  "referenceFrameFrom": "first",
+  "transition": {
+    "type": "cut"
+  },
+  "globalStyle": {
+    "avatar": "@me",
+    "useAccountAvatar": true,
+    "hostName": "the presenter",
+    "channelName": "LawWorld",
+    "voice": "@me verified avatar voice (identical pitch, tone, accent in every clip)",
+    "outfit": "a tailored navy-blue blazer over a crisp light-blue open-collar formal shirt, no tie (identical in every scene)",
+    "background": "a seamless, plain, very light ivory off-white studio backdrop (almost white, with only a faint warm tint), brightly and evenly lit from edge to edge with no falloff, no vignette, no shadows, no texture and no objects - nothing else in the frame; identical in every scene",
+    "gestures": "Standing upright in one spot, lively open-palm hand gestures at chest height kept close to his body so his hands stay inside the frame, counting points on his fingers, small confident nods and a bright smile on emphasis, hands never in front of his face, stays standing in the same spot throughout",
+    "audio": "@me verified avatar voice ONLY, clear and energetic, continuous speech at a brisk trainer's pace, NO background music, NO sound effects, NO silence at the start or end",
+    "negativePrompts": "He stays in the same spot with his face and upper body fully visible at all times; NO arms, elbows or shoulders cut off by the frame edges, NO furniture, NO bookshelves, NO plants, NO lamps, NO props, NO objects behind him, NO icons or graphics, NO text on screen, NO captions, NO name tags, NO logos, NO outfit change, NO camera cut, NO tripod, NO camera or microphone or any studio equipment visible in frame, NO other people",
+    "camera": "Locked-off static shot, vertical. A medium-wide shot: he is STANDING, framed from mid-thigh up and fairly small in the frame, so his body fills only about the middle half of the frame width with wide empty backdrop on BOTH sides of him; his shoulders, elbows and hands always stay well inside the frame and never touch its left or right edge; clear space above his head. Eye level, natural lens look, no zoom, no pan, no camera movement; the camera itself is never visible",
+    "realism": "Photorealistic live-action footage of a real human presenter recorded in one studio session against a plain ivory backdrop, NOT a furnished room. Soft, bright, even high-key light: a soft frontal key light on his face with soft fill, no harsh shadows, natural skin texture, natural eye contact and accurate lip sync, identical exposure and white balance in every scene",
+    "delivery": "Highly energetic, enthusiastic legal trainer leading a masterclass, like a motivating coach talking straight to camera to law students: bright smile, lively eyes, confident emphasis on key words, brisk clear pace, a tiny pause after each full stop; speak the dialogue exactly once, word for word, never repeat, stretch or slow down a word, never add words"
+  },
+  "projectTitle": "LawWorld_Split9_CauseOfAction_8s",
+  "clipDurationSeconds": 8,
+  "scenes": [
+    {
+      "sceneId": "c01",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, speaking energetically to camera, same pose, outfit and framing as every other clip, no text.",
+      "dialogue": "Every civil case in India begins with one question. Not 'Who is right?' Not 'How much can I claim?'"
+    },
+    {
+      "sceneId": "c04",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, speaking energetically to camera, same pose, outfit and framing as every other clip, no text.",
+      "dialogue": "Surprisingly, the Code of Civil Procedure never defines the term. The definition comes from the courts."
+    },
+    {
+      "sceneId": "c06",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, speaking energetically to camera, same pose, outfit and framing as every other clip, no text.",
+      "dialogue": "A cause of action is every fact the plaintiff would have to prove, if it were denied, to win judgment."
+    }
+  ],
+  "flowProjectUrl": "https://flow.google.com/project/70c1d281-62ce-4fbe-8533-1dcdbcca175a"
+}

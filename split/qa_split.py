@@ -1,4 +1,5 @@
-"""QA for the 16:9 split explainer: python3 split/qa_split.py [out/split/split_sample.mp4]
+"""QA for the 16:9 split explainer: python3 split/qa_split.py [out/split/split_sample.mp4 | out/split9/split_sample.mp4]
+(plan, timeline and qa folder are read from the video's folder; the script file from plan["scenes"])
 - streams, size, fps, frame count = round(total*24), A/V durations
 - integrated loudness and true peak (ebur128)
 - black frames and frozen stretches (blackdetect / freezedetect)
@@ -7,10 +8,12 @@
 Never prints API keys."""
 import json, os, re, subprocess, sys, difflib
 F = sys.argv[1] if len(sys.argv) > 1 else "out/split/split_sample.mp4"
-Q = "out/split/qa"; os.makedirs(Q, exist_ok=True)
-plan = json.load(open("out/split/plan.json")); tl = json.load(open("out/split/timeline.json"))
-SC = {s["sceneId"]: s["spoken"] for s in json.load(open("split/split_all_scenes.json"))["scenes"]}
+OD = os.path.dirname(F) or "."; Q = f"{OD}/qa"; os.makedirs(Q, exist_ok=True)
+plan = json.load(open(f"{OD}/plan.json")); tl = json.load(open(f"{OD}/timeline.json"))
+SC = {s["sceneId"]: s["spoken"] for s in json.load(open(plan.get("scenes", "split/split_all_scenes.json")))["scenes"]}
+BW = int((plan.get("presenter_box") or {}).get("w", 1056))
 def sh(a): return subprocess.run(a, capture_output=True, text=True)
+def sh_b(a): return subprocess.run(a, capture_output=True).stdout
 ok = True
 def flag(cond, msg):
     global ok
@@ -33,9 +36,21 @@ print(f"[qa] loudness {I} LUFS, true peak {TP} dBFS"); flag(-15.5 <= I <= -12.5,
 # 3 black / freeze
 bd = sh(["ffmpeg", "-nostats", "-i", F, "-vf", "blackdetect=d=0.12:pix_th=0.08", "-an", "-f", "null", "-"]).stderr
 blacks = re.findall(r"black_start:([\d.]+) black_end:([\d.]+)", bd); print(f"[qa] black stretches: {blacks}"); flag(not blacks, "no black stretches")
-fz = sh(["ffmpeg", "-nostats", "-i", F, "-vf", "crop=1056:1080:0:0,freezedetect=n=0.002:d=1.2", "-an", "-f", "null", "-"]).stderr
+fz = sh(["ffmpeg", "-nostats", "-i", F, "-vf", f"crop={BW}:1080:0:0,freezedetect=n=0.002:d=1.2", "-an", "-f", "null", "-"]).stderr
 freezes = re.findall(r"freeze_start: ([\d.]+)", fz); print(f"[qa] presenter-box freezes >1.2 s at: {freezes}")
 flag(all(float(x) >= plan["total"] - 4.0 for x in freezes), "no frozen presenter before the end card")
+# 3b one screen: the presenter backdrop must meet the panel cream without a step (only when the box is narrower than the frame)
+if BW < 1920:
+    pan = next((c for c in tl["cues"] if c["type"] == "panel"), None)
+    if pan:
+        worst = 0
+        for tt in [pan["t0"] + 0.8 + k * (pan["t1"] - pan["t0"] - 1.6) / 7 for k in range(8)]:
+            raw = sh_b(["ffmpeg", "-v", "error", "-ss", f"{tt:.3f}", "-i", F, "-frames:v", "1", "-vf", f"crop={BW + 80}:140:0:12", "-f", "rawvideo", "-pix_fmt", "rgb24", "-"])
+            import numpy as np
+            a8 = np.frombuffer(raw, np.uint8).reshape(140, BW + 80, 3).astype(float)
+            L = a8[:, BW - 40:BW - 2].reshape(-1, 3).mean(0); R = a8[:, BW + 2:BW + 60].reshape(-1, 3).mean(0); d = float(np.abs(L - R).max()); worst = max(worst, d)
+            print(f"[qa] seam {tt:6.2f}s  presenter side {tuple(int(round(v)) for v in L)}  panel side {tuple(int(round(v)) for v in R)}  max step {d:.1f}")
+        flag(worst <= 3.0, f"one screen: no colour step at the seam x={BW} (worst {worst:.1f} <= 3)")
 # 4 speech out of the final mix, per clip span
 KEY = next(l.split("=", 1)[1].strip().strip('"') for l in open("/Users/admin/Desktop/lawworld project/lw-plateform-node-backend/.env") if l.startswith("OPENAI_API_KEY="))
 def norm(s): return re.sub(r"[^a-z0-9 ]", " ", s.lower().replace("versus", "v").replace(" vs ", " v ")).split()
