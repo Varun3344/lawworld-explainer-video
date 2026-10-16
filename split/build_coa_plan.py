@@ -234,7 +234,8 @@ cue(type="endcard", t0=pend + 0.2, t1=total, title="Cause of Action", line="Caus
     sub="Next episode: Jurisdiction", url="lawworld.ai")
 fx("whoosh", pend + 0.1, -16)
 
-json.dump({"duration": total, "width": 1920, "height": 1080, "layout": {"px": 640, "presenter": "right"}, "cues": cues},
+json.dump({"duration": total, "width": 1920, "height": 1080, "layout": {"px": 640, "presenter": "right", **({"feather": int(os.environ["COA_FEATHER"])} if os.environ.get("COA_FEATHER") else {}),
+                        **({"panelBg": "none", "colSeam": int(os.environ.get("COA_COLSEAM", "200"))} if os.environ.get("COA_WIDE") else {})}, "cues": cues},
           open(f"{OUT}/timeline.json", "w"), indent=1, ensure_ascii=False)
 def seg(s):
     d = {"clip": s["clip"], "in": s["in"], "out": s["out"]}
@@ -243,7 +244,8 @@ def seg(s):
     return d
 plan = {"fps": 24, "out": f"{OUT}/{SET}_full.mp4", "size": [1920, 1080],
         # fy 0.78 crops the top ~50 source px (dark cove line at y≈36 in the ivory clips)
-        "presenter_box": {"x": 1280, "y": 0, "w": 640, "h": 1080, "fx": 0.5, "fy": 0.78, "pad": "0xf5f0e8"},
+        "presenter_box": ({"x": 0, "y": 0, "w": 1920, "h": 1080, "fx": 0.5, "fy": 0.5, "pad": "0xf5f0e8"} if os.environ.get("COA_WIDE")   # wide shot: the whole frame
+                          else {"x": 1280, "y": 0, "w": 640, "h": 1080, "fx": 0.5, "fy": 0.78, "pad": "0xf5f0e8"}),
         "presenter_start": HOOK, "presenter": [seg(s) for s in segs],
         "match_bg": False, "cutaways": [], "endcard": {"clip": "brand/cream_tail.mp4", "dur": END + 0.3, "offset": 0, "xfade": 0.3},
         "music": {"file": "audio/bed_coa_300s.mp3", "target_lufs": -26, "fade_in": 0.2, "fade_out": 2.5, "duck": True},

@@ -1,0 +1,48 @@
+{
+  "aspectRatio": "16:9",
+  "maxWordsPerClip": 32,
+  "downloadFolder": "/Users/admin/Downloads/New short/product-explainer/downloads/body20w",
+  "useLastFrameReference": true,
+  "referenceFrameFrom": "first",
+  "transition": {
+    "type": "cut"
+  },
+  "globalStyle": {
+    "avatar": "@me",
+    "useAccountAvatar": true,
+    "hostName": "the presenter",
+    "channelName": "LawWorld",
+    "voice": "@me verified avatar voice (identical pitch, tone, accent in every clip)",
+    "outfit": "a tailored navy-blue blazer over a crisp light-blue open-collar formal shirt, no tie (identical in every scene)",
+    "background": "a seamless, plain, very light ivory off-white studio backdrop (almost white, with only a faint warm tint), brightly and evenly lit from edge to edge with no falloff, no vignette, no shadows, no texture and no objects - nothing else in the frame; identical in every scene",
+    "gestures": "Lively but controlled gestures at chest height with relaxed fingers close together; when he refers to the slide he turns his head AND shoulders toward the LEFT and opens his RIGHT hand, palm up, toward the empty LEFT side of the frame, forearm extended and elbow bent, like a teacher presenting the slide beside him; then he faces the camera again. He stays standing in the same spot in the right third of the frame, at the same distance from the camera, throughout",
+    "audio": "@me verified avatar voice ONLY, clear and energetic, continuous speech at a brisk trainer's pace, NO background music, NO sound effects, NO silence at the start or end",
+    "negativePrompts": "He stays in the same spot with his face and upper body fully visible at all times; NO arms, elbows or shoulders cut off by the frame edges, NO oversized hands, NO hands held toward the camera, NO thin or lanky body, NO wide-angle lens distortion, NO arm stretched out to the frame edge, NO part of his body cut by the frame edges, NO moving into the middle of the frame, NO big or spread-out fingers, NO furniture, NO bookshelves, NO plants, NO lamps, NO props, NO objects behind him, NO icons or graphics, NO text on screen, NO captions, NO name tags, NO logos, NO outfit change, NO camera cut, NO tripod, NO camera or microphone or any studio equipment visible in frame, NO other people",
+    "camera": "Locked-off static shot, landscape. A natural MEDIUM shot framed from mid-thigh up, at a normal distance with a natural portrait-lens look (no wide-angle distortion). He stands in the RIGHT THIRD of the frame - the middle of his body about four fifths of the way across the frame from the left - and the LEFT TWO THIRDS of the frame are empty plain backdrop, where on-screen graphics will appear. His whole body stays inside the frame with clear space above his head and a small gap to the right edge. Eye level, no zoom, no pan, no camera movement; the camera itself is never visible",
+    "realism": "Photorealistic live-action footage of a real human presenter recorded in one studio session against a plain ivory backdrop, NOT a furnished room. Soft, bright, even high-key light: a soft frontal key light on his face with soft fill, no harsh shadows, natural skin texture, natural eye contact and accurate lip sync, identical exposure and white balance in every scene. TRUE-TO-LIFE BODY: natural adult proportions that match his face - broad shoulders, a solid average build that fills the jacket (not slim, not lanky), and SLENDER, NATURAL-SIZE HANDS: each hand no longer than his face, relaxed fingers held close together, never spread wide, hands never closer to the camera than his chest",
+    "delivery": "Highly energetic, enthusiastic legal trainer leading a masterclass, like a motivating coach talking straight to camera to law students: bright smile, lively eyes, confident emphasis on key words, brisk clear pace, a tiny pause after each full stop; speak the dialogue exactly once, word for word, never repeat, stretch or slow down a word, never add words"
+  },
+  "projectTitle": "LawWorld_Body20W_10s",
+  "clipDurationSeconds": 10,
+  "scenes": [
+    {
+      "sceneId": "c00",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the RIGHT THIRD of a wide frame against the plain, evenly lit ivory backdrop, the left two thirds of the frame empty backdrop, medium shot from mid-thigh up, natural proportions, speaking energetically to camera with slender natural hands at chest height, no text.",
+      "dialogue": "Hello."
+    },
+    {
+      "sceneId": "c01",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the RIGHT THIRD of a wide frame against the plain, evenly lit ivory backdrop, the left two thirds of the frame empty backdrop, medium shot from mid-thigh up, natural proportions, speaking energetically to camera with slender natural hands at chest height, no text.",
+      "dialogue": "Every civil case in India begins with one question. Not 'Who is right?' Not 'How much can I claim?'"
+    },
+    {
+      "sceneId": "c02",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the RIGHT THIRD of a wide frame against the plain, evenly lit ivory backdrop, the left two thirds empty backdrop, same position, size and framing as every other clip. Early in the line, while he says 'do you have a cause of action', he turns his head AND shoulders toward the LEFT and opens his RIGHT hand, palm up, toward the empty left side of the frame like a teacher presenting the slide beside him, then faces the camera again with both hands at chest height. Feet stay in place, no text.",
+      "dialogue": "The first question is: do you have a cause of action? Get this wrong, and your suit can be thrown out before the defendant even files a written statement."
+    }
+  ],
+  "flowProjectUrl": "https://flow.google.com/project/83b74b1f-c266-4d5b-b2a7-3939cd0ed887"
+}

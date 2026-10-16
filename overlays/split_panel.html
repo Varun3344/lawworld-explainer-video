@@ -71,6 +71,11 @@
   .pbg .pramp{position:absolute;left:calc(var(--over) + var(--clear));top:0;width:var(--ramp);height:100%;background:linear-gradient(90deg,var(--cream),rgba(245,240,232,0));}
   html.pr .pbg .pveil{left:calc(var(--over) + var(--pw) - var(--clear));}   /* seam on the panel's right edge */
   html.pr .pbg .pramp{left:calc(var(--over) + var(--pw) - var(--clear) - var(--ramp));background:linear-gradient(270deg,var(--cream),rgba(245,240,232,0));}
+  /* panelBg none: no painted cream (the video carries it); blobs/watermark fade out towards the seam through a mask instead of the veil */
+  html.nobg .pbg{background:transparent;}
+  html.nobg .pbg .pveil,html.nobg .pbg .pramp,html.nobg #pedge{display:none;}
+  html.nobg .pbg .pbl{-webkit-mask-image:linear-gradient(90deg,#000 0,#000 calc(100% - var(--over) - var(--clear) - var(--ramp)),transparent calc(100% - var(--over) - var(--clear)));mask-image:linear-gradient(90deg,#000 0,#000 calc(100% - var(--over) - var(--clear) - var(--ramp)),transparent calc(100% - var(--over) - var(--clear)));}
+  html.nobg:not(.pr) .pbg .pbl{-webkit-mask-image:linear-gradient(270deg,#000 0,#000 calc(100% - var(--over) - var(--clear) - var(--ramp)),transparent calc(100% - var(--over) - var(--clear)));mask-image:linear-gradient(270deg,#000 0,#000 calc(100% - var(--over) - var(--clear) - var(--ramp)),transparent calc(100% - var(--over) - var(--clear)));}
   /* the drifting blobs / star are their own compositor layers: rasterised once, only moved per frame (re-rasterising the moving
      gradients every frame left 1-6 level dither differences between otherwise identical renders) */
   .pbg .blob,.pbg .wst,.full .fw,.full .fst{will-change:transform;}
@@ -341,14 +346,14 @@ const TAU = Math.PI * 2;
    Column content is placed from CL / CW and works on both sides as it is (text stays left to right - never mirror it with mirX);
    use AWAY / away() for horizontal motion and mirX() only for placements authored in absolute presenter-left panel coordinates.
    Other globals this block defines (cue files must not redeclare them): SIDE PX PW PRES_X PANEL_X SEAM_X SEAM AWAY COL_SEAM COL_EDGE
-   CL CW CX LT_W SLIDE away seamDist mirX setGeometry */
+   CL CW CX LT_W SLIDE FEATHER away seamDist mirX setGeometry */
 let SIDE = 'left';                      // presenter side
 let PX = 640, PW = 1280;                // presenter width (one third, timeline.layout.px) / panel width (two thirds)
 let PRES_X = 0, PANEL_X = 640, SEAM_X = 640, SEAM = 0, AWAY = 1;   // frame x: presenter, panel, seam; panel x of the seam; away sign
-const COL_SEAM = 112, COL_EDGE = 100;   // content column: air at the seam (the presenter's hands) / margin at the frame edge
+let COL_SEAM = 112; const COL_EDGE = 100;   // content column: air at the seam (the presenter's hands; timeline.layout.colSeam) / margin at the frame edge
 let CL = COL_SEAM, CW = 1068;           // content column (panel coords): left, width = PW - COL_SEAM - COL_EDGE
 let CX = CL + CW / 2;                   // content column centre
-const FEATHER = 48;                     // presenter side of the seam: FEATHER px strip, transparent -> cream towards the seam
+let FEATHER = 48;                       // presenter side of the seam: FEATHER px strip, transparent -> cream towards the seam (timeline.layout.feather, 8..96)
 const OVER = 40;                        // panel background overscan on every side (the stamp shake never shows an edge)
 const CLEAR = 220, RAMP = 300;          // panel blobs / watermark: none within CLEAR of the seam, full strength from CLEAR+RAMP on
 const HEAD_Y = 40, HEAD_H = 62, RULE_Y = 130;   // header row (logo lockup + scene chip): top, height; progress rule
@@ -377,8 +382,13 @@ function setGeometry(L) {
   PX = px >= 320 && px <= 960 ? Math.round(px / 2) * 2 : 640; PW = 1920 - PX;
   AWAY = SIDE === 'right' ? -1 : 1;
   PRES_X = SIDE === 'right' ? PW : 0; PANEL_X = SIDE === 'right' ? 0 : PX; SEAM_X = SIDE === 'right' ? PW : PX; SEAM = SIDE === 'right' ? PW : 0;
+  const cs = Number(L.colSeam ?? 112); COL_SEAM = cs >= 60 && cs <= 400 ? Math.round(cs) : 112;
   CW = PW - COL_SEAM - COL_EDGE; CL = SIDE === 'right' ? COL_EDGE : COL_SEAM; CX = CL + CW / 2;
   LT_W = PX - 2 * LT_X; SLIDE = PW + 80;
+  const fe = Number(L.feather ?? 48); FEATHER = fe >= 8 && fe <= 96 ? Math.round(fe) : 48;   // a narrow feather keeps a hand that reaches the seam visible
+  // panelBg "none": the base video already carries the flat cream under the panel (a wide shot with the presenter standing in his third),
+  // so the panel paints no background, veil or feather of its own and a hand that reaches into the panel stays visible
+  document.documentElement.classList.toggle('nobg', String(L.panelBg ?? 'cream') === 'none');
   const s = document.documentElement.style;
   Object.entries({ px: PX, pw: PW, cl: CL, cw: CW, feather: FEATHER, over: OVER, clear: CLEAR, ramp: RAMP, 'head-y': HEAD_Y, 'head-h': HEAD_H, 'rule-y': RULE_Y,
     'kick-y': KICK_Y, 'cite-b': CITE_B, 'lt-x': LT_X, 'lt-y': LT_Y, 'lt-w': LT_W, 'edge-w': EDGE_W, 'eq-w': EQ_W,

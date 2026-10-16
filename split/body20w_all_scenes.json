@@ -1,0 +1,19 @@
+{
+  "projectTitle": "LawWorld_Body20W_Test",
+  "scenes": [
+    {
+      "sceneId": "c01",
+      "seconds": 8,
+      "dialogue": "Every civil case in India begins with one question. Not 'Who is right?' Not 'How much can I claim?'",
+      "spoken": "Every civil case in India begins with one question. Not 'Who is right?' Not 'How much can I claim?'",
+      "presents": false
+    },
+    {
+      "sceneId": "c02",
+      "seconds": 10,
+      "dialogue": "The first question is: do you have a cause of action? Get this wrong, and your suit can be thrown out before the defendant even files a written statement.",
+      "spoken": "The first question is: do you have a cause of action? Get this wrong, and your suit can be thrown out before the defendant even files a written statement.",
+      "presents": true
+    }
+  ]
+}
