@@ -4,14 +4,16 @@ split_cues_coa*.js; contract in split/COA_CUES.md). Builds land on the spoken wo
 times (same alignment as build_split_plan.py), head/tail pauses are trimmed, clips are laid end to end after the opening sting.
 Any anchor word that cannot be found is FATAL. No punch-in zoom and no push (the owner saw the presenter "jump" between clips);
 per-clip size/position matching comes from out/coa/place.json when present (split/presenter_geom.py).
-Usage: python3 split/build_coa_plan.py [--allow-missing]
+Usage: python3 split/build_coa_plan.py [--allow-missing] [--set NAME]   (--set body20 -> downloads/body20, split/body20_all_scenes.json,
+out/body20: a short test set; a scene's cues are built only when its clips are in the set)
 Writes out/coa/timeline.json, plan.json, anchors.txt, captions.srt."""
 import os, sys, json, subprocess, difflib, importlib.util
 spec = importlib.util.spec_from_file_location("words", "scripts/words.py"); W = importlib.util.module_from_spec(spec); spec.loader.exec_module(W); norm = W.norm
 def dur(f): return float(subprocess.run(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",f],capture_output=True,text=True).stdout.strip())
 
-D = "downloads/coa"; CLIPS = f"{D}/flat"; OUT = "out/coa"; os.makedirs(OUT, exist_ok=True)
-SCENES = "split/coa_all_scenes.json"
+SET = sys.argv[sys.argv.index("--set") + 1] if "--set" in sys.argv else "coa"
+D = f"downloads/{SET}"; CLIPS = f"{D}/flat"; OUT = f"out/{SET}"; os.makedirs(OUT, exist_ok=True)
+SCENES = f"split/{SET}_all_scenes.json"
 ALL = json.load(open(SCENES))["scenes"]
 SCRIPT = {s["sceneId"]: s["spoken"] for s in ALL}                 # what the avatar was asked to say (alignment)
 # c18/c32: the owner's script said "arose on 1st April 2025, the first day of default"; the adversarial fact-check (15 Oct) showed
@@ -92,7 +94,7 @@ cue(type="panel", t0=HOOK - 0.3, t1=pend + 0.25, scenes=chips)
 cue(type="lower_third", t0=S("c01") + 0.5, t1=S("c01") + 5.2, name="Ravishankar", role="LawWorld")
 
 # ── Scene 1: hook ──────────────────────────────────────────────────────────────────────────────────────────────────────
-if have("c01", "c02", "c03"):
+if have("c01", "c02"):
     q_at = at("c02", "do") - 0.1
     cue(type="title", t0=HOOK, t1=q_at - 0.05, title="CAUSE OF ACTION", title_at=S("c01") + 0.1, sub="The starting point of every civil suit", sub_at=at("c01", "begins"))
     fx("pop", S("c01") + 0.1, -18); fx("pop", at("c01", "begins"), -20)
@@ -100,6 +102,7 @@ if have("c01", "c02", "c03"):
     cue(type="question", t0=q_at - 0.05, t1=E("c02") + 0.05, at=q_at, text="Do you have a cause of action?", hl="cause of action")
     cue(type="stamp", t0=st_at - 0.05, t1=E("c02") + 0.05, at=st_at, line1="NO CAUSE OF ACTION", line2="= PLAINT REJECTED")
     fx("whoosh", q_at - 0.12, -18); fx("slam", st_at + 0.06, -9)
+if have("c03"):
     items = [{"n": 1, "text": "What it is", "at": r3(at("c03", "what") - 0.08)},
              {"n": 2, "text": "How to spot it", "at": r3(at("c03", "how") - 0.08)},
              {"n": 3, "text": "Why it matters", "at": r3(at("c03", "why") - 0.08)}]
@@ -238,7 +241,7 @@ def seg(s):
     if s["fx"] is not None: d["fx"] = s["fx"]
     if s["place"]: d["place"] = s["place"]
     return d
-plan = {"fps": 24, "out": f"{OUT}/coa_full.mp4", "size": [1920, 1080],
+plan = {"fps": 24, "out": f"{OUT}/{SET}_full.mp4", "size": [1920, 1080],
         # fy 0.78 crops the top ~50 source px (dark cove line at y≈36 in the ivory clips)
         "presenter_box": {"x": 1280, "y": 0, "w": 640, "h": 1080, "fx": 0.5, "fy": 0.78, "pad": "0xf5f0e8"},
         "presenter_start": HOOK, "presenter": [seg(s) for s in segs],
