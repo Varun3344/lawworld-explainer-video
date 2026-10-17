@@ -275,35 +275,31 @@ EDIT = [
     (10.10, "G"),   # "do you have a cause of action?" -> question card
     (12.55, "A"),   # "Get this wrong, and your suit can be"
     (14.45, "G"),   # stamp: NO CAUSE OF ACTION = PLAINT REJECTED
-    (17.96, "S"),   # c03 the list fills in
-    (27.44, "G"),   # c04 CPC: no definition -> defined by the courts
-    (34.20, "S"),   # c05 Read v. Brown, the quote starts
+    (17.96, "S"),   # c03 the list fills in; c04 CPC: no definition (one line: split); c05 Read v. Brown
     (39.98, "G"),   # c06 the classic definition ... "have to prove,"
     (45.03, "S"),   # "if it were denied, to win judgment." / c07 A.B.C. Laminart / c08 the equation builds
-    (62.88, "G"),   # c09 the bundle
-    (65.10, "A"),   # "Not one fact. Every fact you need, taken together."
-    (68.62, "G"),   # c10 the bundle opens ... "find two things."
-    (73.20, "S"),   # RIGHT, c11 BREACH
-    (81.76, "G"),   # c12 verdicts
-    (89.54, "A"),   # "You need both, and against this defendant."
-    (92.90, "G"),   # "Let's make it concrete" -> the loan
-    (97.14, "S"),   # c14 due date, unpaid
+    (62.88, "A"),   # c09 "Notice the words 'bundle of facts'..." (the bundle is only a ring here)
+    (68.62, "S"),   # "Open the bundle, and you will usually find two things." (it opens on top)
+    (73.20, "G"),   # RIGHT, BREACH, they merge into CAUSE OF ACTION
+    (81.76, "S"),   # c12 verdicts; c13 "You need both..." while the right row lights (89.76)
+    (92.90, "A"),   # "Let's make it concrete."
+    (94.50, "G"),   # "Ravi lends ₹5 lakh to Suresh." -> the LOAN node
+    (97.14, "S"),   # c14 due date, ₹0 repaid
     (104.08, "A"),  # "What must Ravi prove?"
     (106.10, "S"),  # the checklist ticks 1-4, c17 it folds into Ravi's cause of action
     (122.56, "G"),  # c18 the date pin lands
-    (128.40, "A"),  # "Remember that date. We'll need it." + "Two common mistakes."
-    (131.95, "G"),  # cause of action != the defence
+    (128.40, "A"),  # "Remember that date. We'll need it." + "Two common mistakes. First,"
+    (132.99, "G"),  # cause of action != the defence (builds 133.08 / 134.52)
     (135.94, "S"),  # c20 Chand Kour v. Partab Singh
-    (143.48, "G"),  # c21 != the relief, relief vs cause of action
+    (144.35, "G"),  # != the relief (144.42), relief vs cause of action
     (148.76, "S"),  # "The cause of action is why you are entitled to it."
-    (152.60, "A"),  # "So why does this matter so much?"
-    (155.00, "G"),  # "Five reasons. One: pleading."
-    (157.50, "S"),  # Order 7 Rule 1(e) ...
+    (152.60, "A"),  # "So why does this matter so much? Five reasons."
+    (155.92, "S"),  # "One: pleading." Order 7 Rule 1(e)
     (165.58, "A"),  # "Two: rejection."
     (167.45, "S"),  # Order 7 Rule 11(a)
     (173.26, "G"),  # the court reads only the plaint
     (178.14, "S"),  # Krishna Iyer J.: nip it in the bud
-    (187.54, "G"),  # "Three: jurisdiction."
+    (187.54, "G"),  # "Three: jurisdiction." the map
     (189.50, "S"),  # Section 20(c)
     (197.30, "G"),  # the map: where the loan was given / repayment was due
     (204.30, "S"),  # "Four: one suit for the whole claim."
@@ -313,9 +309,7 @@ EDIT = [
     (225.92, "S"),  # the Limitation Act
     (231.85, "G"),  # the date pin flies into the clock
     (235.46, "A"),  # "So before you draft any plaint, ask three questions."
-    (239.40, "G"),  # "What right does my client have?"
-    (241.24, "S"),  # the other two questions
-    (248.36, "G"),  # "All three, with facts you can prove"
+    (239.40, "S"),  # the three questions fill in; c35 "All three, with facts you can prove"
     (253.96, "A"),  # the close, to camera
 ]
 G_Y, G_W = 250, 1080                      # full-screen animation: panel x 76..1204 scaled to 1080 wide, top at y 250
