@@ -120,18 +120,26 @@ def scene_lines():
 
 
 def align(display, words):
-    """[(display token, start, end)] — each display token gets the time of the whisper words it lines up with."""
+    """[(display token, start, end)] — each display token gets the time of the whisper words it lines up with.
+    '11(a)' is matched as '11' + 'a' so the spoken letter is not taken by the next article 'a' (c24)."""
     dt = display.split()
     wt = [w for w in words if w["word"].strip()]
-    a = [canon(t) for t in dt]; b = [canon(w["word"]) for w in wt]
-    times = [None] * len(dt)
+    a, own = [], []
+    for i, t in enumerate(dt):
+        m = re.fullmatch(r"(\d+)\(([a-z])\)[,.]?", t)
+        for c in ([m.group(1), m.group(2)] if m else [canon(t)]): a.append(c); own.append(i)
+    b = [canon(w["word"]) for w in wt]
+    sub = [None] * len(a)
     sm = SequenceMatcher(None, a, b, autojunk=False)
     for tag, i1, i2, j1, j2 in sm.get_opcodes():
         if tag == "equal":
-            for k in range(i2 - i1): times[i1 + k] = (wt[j1 + k]["start"], wt[j1 + k]["end"])
+            for k in range(i2 - i1): sub[i1 + k] = (wt[j1 + k]["start"], wt[j1 + k]["end"])
         elif tag == "replace" and j2 > j1:
             s, e = wt[j1]["start"], wt[j2 - 1]["end"]; n = i2 - i1
-            for k in range(n): times[i1 + k] = (s + (e - s) * k / n, s + (e - s) * (k + 1) / n)
+            for k in range(n): sub[i1 + k] = (s + (e - s) * k / n, s + (e - s) * (k + 1) / n)
+    times = [None] * len(dt)
+    for k, i in enumerate(own):
+        if sub[k]: times[i] = sub[k] if times[i] is None else (times[i][0], sub[k][1])
     # display tokens with no whisper counterpart: spread between their neighbours
     for i, t in enumerate(times):
         if t: continue
@@ -210,6 +218,123 @@ def split_even(s):
     return [s[i:j] for i, j in reversed(cuts)]
 
 
+# Explicit caption lines where the even split breaks a name/term or leaves a dangling word. Joined with spaces each
+# list must equal the clip's display line (checked below).
+BREAKS = {
+    "c02": ["The first question is:", "do you have", "a cause of action?", "Get this wrong,", "and your suit",
+            "can be thrown out", "before the defendant", "even files", "a written statement."],
+    "c03": ["So in the next", "five minutes:", "what a cause of action is,", "how to spot one,", "and why it matters",
+            "at every stage of a suit."],
+    "c06": ["A cause of action", "is every fact", "the plaintiff", "would have to prove,", "if it were denied,",
+            "to win judgment."],
+    "c08": ["And put it simply:", "a bundle of facts", "which, with the law", "that applies to them,",
+            "gives the plaintiff", "a right to relief", "against the defendant."],
+    "c11": ["Second,", "an act or omission", "of the defendant", "that infringes that right."],
+    "c13": ["You need both,", "and against", "this defendant.", "Let's make it concrete.", "Ravi lends",
+            "₹5 lakh to Suresh."],
+    "c15": ["What must Ravi prove?", "1. He gave the loan.", "2. Suresh agreed", "to repay by that date."],
+    "c16": ["3. The date has passed.", "4. The money", "is still unpaid."],
+    "c17": ["Each of these", "is part of the bundle.", "Together, they are", "Ravi's cause of action."],
+    "c18": ["It arose", "on 31st March 2025,", "the due date he missed.", "Remember that date.", "We'll need it."],
+    "c20": ["The Privy Council", "said in Chand Kour", "versus Partab Singh", "that it refers entirely",
+            "to the grounds", "set out in the plaint."],
+    "c23": ["One: pleading.", "Order 7 Rule 1(e)", "requires every plaint", "to state the facts", "constituting",
+            "the cause of action,", "and when it arose."],
+    "c24": ["Two: rejection.", "Under Order 7 Rule 11(a),", "a plaint that discloses", "no cause of action",
+            "must be rejected."],
+    "c26": ["And as", "Justice Krishna Iyer", "put it,", "if clever drafting", "creates only an illusion",
+            "of a cause of action,", "nip it in the bud."],
+    "c27": ["Three: jurisdiction.", "Besides where", "the defendant lives,", "Section 20(c)", "lets you sue where",
+            "the cause of action arises,", "wholly or in part."],
+    "c28": ["In Ravi's case,", "that can include", "where the loan", "was given,", "or where repayment", "was due.",
+            "Four: one suit", "for the whole claim."],
+    "c29": ["Under Order 2 Rule 2,", "if Ravi sues", "for only ₹3 lakh,", "he cannot later sue",
+            "for the other ₹2 lakh."],
+    "c30": ["And a relief", "he leaves out", "without the court's leave", "is lost for good."],
+    "c31": ["Five: limitation.", "For many suits,", "the limitation clock", "starts when",
+            "the cause of action arises."],
+    "c32": ["The Limitation Act", "fixes the exact", "starting point", "for each kind of suit.",
+            "That's why we pinned", "31st March 2025."],
+    "c33": ["So before you draft", "any plaint,", "ask three questions.", "What right", "does my client have?"],
+    "c35": ["If you can answer", "all three", "with facts you can prove,", "you have", "a cause of action."],
+    "c36": ["If you can't,", "no amount of drafting", "will save the suit.", "See you", "in the next episode."],
+}
+
+
+def chunks_from(toks, lines):
+    out, i = [], 0
+    for ln in lines:
+        n = len(ln.split()); out.append(merge_units(toks[i:i + n])); i += n
+    if i != len(toks) or " ".join(t[0] for t in toks) != " ".join(lines): raise SystemExit(f"BREAKS do not match: {lines}")
+    return out
+
+
+# Whisper-1 puts a word that follows a pause at the end of the previous word (captions up to 0.77 s early) and
+# sometimes starts the first word after a pause late or gives it zero length. Snap word starts to the real voice.
+VOICE = "out/coa/work/voice.wav"        # compose2's voice stem; timeline = voice time + presenter_start
+
+
+def voice_runs(lead, thr=-45.0):
+    import numpy as np
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", VOICE, "-ac", "1", "-ar", "16000", "-f", "f32le", "-"],
+                         capture_output=True, check=True).stdout
+    x = np.frombuffer(raw, np.float32); n = (len(x) - 320) // 160
+    fr = np.lib.stride_tricks.sliding_window_view(x, 320)[::160][:n].astype(np.float64)
+    m = 10 * np.log10((fr ** 2).mean(axis=1) + 1e-12) > thr
+    def runs(mask):
+        out, i = [], 0
+        while i < len(mask):
+            j = i
+            while j < len(mask) and mask[j] == mask[i]: j += 1
+            out.append((bool(mask[i]), i, j)); i = j
+        return out
+    for v, i, j in runs(m):
+        if not v and j - i < 8 and i > 0 and j < len(m): m[i:j] = True        # close gaps < 80 ms
+    for v, i, j in runs(m):
+        if v and j - i < 4: m[i:j] = False                                    # drop blips < 40 ms
+    return [(lead + 0.01 + i * 0.01, lead + 0.01 + j * 0.01) for v, i, j in runs(m) if v]
+
+
+# first word after a pause that whisper glued to the previous phrase (clip seconds, measured on voice.wav)
+WORD_START_FIX = {"c11": {8: 3.80}, "c23": {18: 8.40}, "c26": {14: 6.59}}
+
+
+def snap(toks, t0, VR):
+    def run_at(t): return next(((a, b) for a, b in VR if a <= t < b), None)
+    def next_onset(t): return next((a for a, b in VR if a >= t), None)
+    out = list(toks)
+    for k, (tok, s, e) in enumerate(out):
+        nxt_s = out[k + 1][1] if k + 1 < len(out) else None
+        r = run_at(s)
+        if r is not None and r[1] - s < 0.12 and e > r[1] + 0.1: r = None       # start sits on the previous word's tail
+        if r is None:                                                          # start in a pause -> the voice onset
+            o = next_onset(s)
+            if o is not None and o <= max(e, s) + 0.3: s = o if nxt_s is None else min(o, nxt_s - 0.05)
+        else:                                                                  # first word after a pause, start late
+            prev_e = out[k - 1][2] if k else t0
+            if s - r[0] >= 0.12 and prev_e <= r[0] + 0.05: s = r[0]
+        out[k] = (tok, s, max(e, s + 0.05))
+    return out, run_at
+
+
+def spread(units, c1, run_at):
+    """Every highlighted unit gets >= ~0.1 s: a zero-length whisper word shares its neighbour's time by length."""
+    u = [list(x) for x in units]
+    def hl(k): return (u[k + 1][1] if k + 1 < len(u) else c1) - u[k][1]
+    for _ in range(4):
+        for k in range(len(u)):
+            if hl(k) >= 0.095: continue
+            j = k - 1 if k > 0 else (k + 1 if k + 1 < len(u) else None)
+            if j is None: continue
+            i0, i1 = (j, k) if j < k else (k, j)
+            a = u[i0][1]; b = u[i1 + 1][1] if i1 + 1 < len(u) else c1
+            r = run_at(a + 0.001) or run_at(b - 0.001)
+            if r and i1 + 1 >= len(u): b = min(b, max(r[1], a + 0.2))
+            L0, L1 = len(u[i0][0]), len(u[i1][0]); cut = a + (b - a) * L0 / (L0 + L1)
+            u[i0][2] = min(u[i0][2], cut); u[i1][1] = cut; u[i1][2] = max(u[i1][2], cut + 0.05)
+    return [tuple(x) for x in u]
+
+
 def ass_time(t):
     t = max(0.0, t); h = int(t // 3600); m = int(t % 3600 // 60); s = t % 60
     return f"{h}:{m:02d}:{s:05.2f}"
@@ -222,6 +347,8 @@ def ass_escape(s):
 def captions():
     p = plan(); lines = scene_lines(); t = p["presenter_start"]
     events, review = [], []
+    VR = voice_runs(p["presenter_start"])
+    allc = []                                   # (sid, units) for the whole video, so a caption can hold to the next one
     for seg in p["presenter"]:
         sid = os.path.splitext(os.path.basename(seg["clip"]))[0]
         a, b = seg["in"], seg["out"]
@@ -229,23 +356,32 @@ def captions():
         words = [w for w in wj["words"] if a - 0.05 <= w["start"] < b]
         display = DISPLAY.get(sid, lines[sid])
         toks = [(tok, t + s - a, t + e - a) for tok, s, e in align(display, words)]
-        cs = chunks(toks)
-        for n, c in enumerate(cs):
-            c0 = c[0][1]; c1 = c[-1][2] + 0.35
-            nxt = cs[n + 1][0][1] if n + 1 < len(cs) else t + (b - a)
-            c1 = max(c0 + 0.3, min(c1, nxt))
-            review.append({"scene": sid, "start": round(c0, 2), "end": round(c1, 2), "text": " ".join(x[0] for x in c)})
-            for k, (tok, s, e) in enumerate(c):
-                es = c0 if k == 0 else s
-                ee = c1 if k == len(c) - 1 else c[k + 1][1]
-                if ee - es < 0.02: continue
-                parts = []
-                for j, (tj, _, _) in enumerate(c):
-                    tj = ass_escape(tj)
-                    parts.append("{\\c&H0000D4FF&}" + tj + "{\\c&H00FFFFFF&}" if j == k else tj)
-                pop = "\\fscx86\\fscy86\\t(0,90,\\fscx100\\fscy100)" if k == 0 else ""
-                events.append(f"Dialogue: 0,{ass_time(es)},{ass_time(ee)},Cap,,0,0,0,,{{\\an5\\pos({W // 2},{CAP_Y}){pop}}}" + " ".join(parts))
+        for i, cs_ in WORD_START_FIX.get(sid, {}).items():
+            tok, s_, e_ = toks[i]; ns = t + cs_ - a; toks[i] = (tok, ns, max(e_, ns + 0.05))
+        toks, run_at = snap(toks, t, VR)
+        cs = chunks_from(toks, BREAKS[sid]) if sid in BREAKS else chunks(toks)
+        allc += [(sid, c, t + (b - a)) for c in cs]
         t += b - a
+    for n, (sid, c, clip_end) in enumerate(allc):
+        c0 = c[0][1]; c1 = c[-1][2] + 0.35
+        nxt = allc[n + 1][1][0][1] if n + 1 < len(allc) else clip_end
+        if n + 1 < len(allc) and allc[n + 1][0] != sid: nxt = min(nxt, clip_end)   # never across a clip cut
+        txt = " ".join(x[0] for x in c)
+        if n + 1 < len(allc) and (nxt - c1 < 0.25 or (not re.search(r"[.?!:]['’\"]?$", txt) and nxt - c1 < 1.2)):
+            c1 = nxt                                # no 1-6 frame flicker, no blank screen inside a sentence
+        c1 = max(c0 + 0.3, min(c1, nxt))
+        c = spread(c, c1, run_at)
+        review.append({"scene": sid, "start": round(c0, 2), "end": round(c1, 2), "text": txt})
+        for k, (tok, s, e) in enumerate(c):
+            es = c0 if k == 0 else s
+            ee = c1 if k == len(c) - 1 else c[k + 1][1]
+            if ee - es < 0.02: continue
+            parts = []
+            for j, (tj, _, _) in enumerate(c):
+                tj = ass_escape(tj).replace("₹", "{\\fnHelvetica Neue\\b1}₹{\\fnAvenir Next Heavy\\b0}")   # Avenir Next has no ₹
+                parts.append("{\\c&H0000D4FF&}" + tj + "{\\c&H00FFFFFF&}" if j == k else tj)
+            pop = "\\fscx86\\fscy86\\t(0,90,\\fscx100\\fscy100)" if k == 0 else ""
+            events.append(f"Dialogue: 0,{ass_time(es)},{ass_time(ee)},Cap,,0,0,0,,{{\\an5\\pos({W // 2},{CAP_Y}){pop}}}" + " ".join(parts))
     head = f"""[Script Info]
 ScriptType: v4.00+
 PlayResX: {W}
