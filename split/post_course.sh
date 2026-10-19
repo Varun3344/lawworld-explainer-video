@@ -38,6 +38,9 @@ python3 split/build_vertical_course.py $SET ptrack split > $O/v_ptrack.log 2>&1 
 python3 split/build_vertical_course.py $SET ptrack full > $O/v_ptrack_full.log 2>&1 && \
 python3 split/build_vertical_course.py $SET edit && \
 python3 split/build_vertical_course.py $SET final > $O/v_final.log 2>&1 || { log "9:16 FAILED"; tail -5 $O/v_*.log; exit 1; }
+# a clip whose words did not survive into the final mix may be a wrong fact: hold the pair for review (every other QA flag is
+# cosmetic and is delivered with its warning, owner rule 23-09: hold only for a wrong fact)
+if grep -q "FAIL .*spoken text intact" $O/qa.log; then log "qa: speech FAIL - HELD for review, not copied to ~/Downloads ($(grep -c "FAIL .*spoken text intact" $O/qa.log) clip(s); 16:9 $O/${SET}_full.mp4, 9:16 $V/${SET}_9x16.mp4)"; exit 0; fi
 [ -n "${NO_DELIVER:-}" ] && { log "test run: not copied to ~/Downloads"; exit 0; }
 cp $O/${SET}_full.mp4 ~/Downloads/${STEM}_16x9.mp4
 cp $V/${SET}_9x16.mp4 ~/Downloads/${STEM}_9x16.mp4
