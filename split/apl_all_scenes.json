@@ -1,0 +1,319 @@
+{
+ "projectTitle": "LawWorld_apl",
+ "title": "Criminal Appeals and Revisions",
+ "source": "split/scripts/apl.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 8,
+   "dialogue": "A criminal court has convicted Ravi. He believes the court misunderstood the evidence.",
+   "chip": "1 · APPEAL OR REVISION?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "In another case, Meera believes a lower court acted beyond its legal powers. Can both simply ask for another trial?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "The law provides different remedies: appeal and revision. And choosing the correct remedy, court and deadline matters."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "Under the Bharatiya Nagarik Suraksha Sanhita, or B N S S, let us understand the difference through these two examples.",
+   "shown": "Under the Bharatiya Nagarik Suraksha Sanhita, or BNSS, let us understand the difference through these two examples."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 6,
+   "dialogue": "Section Four Thirteen says an appeal exists only where the law provides one.",
+   "shown": "Section 413 says an appeal exists only where the law provides one.",
+   "chip": "2 · APPEAL: A RIGHT BY STATUTE"
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 8,
+   "dialogue": "Under Section Four Fifteen, an ordinary conviction by a Magistrate generally goes to the Sessions Court.",
+   "shown": "Under Section 415, an ordinary conviction by a Magistrate generally goes to the Sessions Court."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 6,
+   "dialogue": "A conviction by a Sessions Judge or Additional Sessions Judge goes to the High Court."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 6,
+   "dialogue": "So Ravi's Magistrate conviction ordinarily takes him to Sessions."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 8,
+   "dialogue": "But guilty pleas and petty cases have restrictions under Sections Four Sixteen and Four Seventeen.",
+   "shown": "But guilty pleas and petty cases have restrictions under Sections 416 and 417."
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Always check whether the particular decision is appealable."
+  },
+  {
+   "sceneId": "c11",
+   "seconds": 6,
+   "dialogue": "An appeal can challenge findings on facts and law, within the permitted scope.",
+   "chip": "3 · WHAT AN APPEAL EXAMINES"
+  },
+  {
+   "sceneId": "c12",
+   "seconds": 10,
+   "dialogue": "Suppose Ravi says the eyewitness could not have identified him in darkness. The appellate court can examine the trial record and his grounds."
+  },
+  {
+   "sceneId": "c13",
+   "seconds": 10,
+   "dialogue": "Section Four Twenty Seven allows different outcomes: dismissing the appeal, reversing the conviction, or ordering a retrial.",
+   "shown": "Section 427 allows different outcomes: dismissing the appeal, reversing the conviction, or ordering a retrial."
+  },
+  {
+   "sceneId": "c14",
+   "seconds": 6,
+   "dialogue": "It may also alter the finding or the sentence, within statutory limits."
+  },
+  {
+   "sceneId": "c15",
+   "seconds": 8,
+   "dialogue": "An appeal is a real opportunity to challenge the decision, but success still depends on the case."
+  },
+  {
+   "sceneId": "c16",
+   "seconds": 6,
+   "dialogue": "Take ordinary conviction appeals, other than death sentences.",
+   "chip": "4 · DEADLINES: 30 · 60 · 90"
+  },
+  {
+   "sceneId": "c17",
+   "seconds": 8,
+   "dialogue": "The usual filing period is thirty days to Sessions and sixty days to the High Court, from the sentence or order.",
+   "shown": "The usual filing period is 30 days to Sessions and 60 days to the High Court, from the sentence or order."
+  },
+  {
+   "sceneId": "c18",
+   "seconds": 8,
+   "dialogue": "These periods come from Article One Fifteen of the Limitation Act, not from a general B N S S deadline.",
+   "shown": "These periods come from Article 115 of the Limitation Act, not from a general BNSS deadline."
+  },
+  {
+   "sceneId": "c19",
+   "seconds": 10,
+   "dialogue": "An application for criminal revision ordinarily has ninety days, under Article One Thirty One.",
+   "shown": "An application for criminal revision ordinarily has 90 days, under Article 131."
+  },
+  {
+   "sceneId": "c20",
+   "seconds": 10,
+   "dialogue": "Acquittal appeals, victim appeals, death sentences, Supreme Court proceedings and special statutes need their own limitation checks."
+  },
+  {
+   "sceneId": "c21",
+   "seconds": 8,
+   "dialogue": "Count the deadline carefully. Section Twelve of the Limitation Act excludes the relevant starting day.",
+   "shown": "Count the deadline carefully. Section 12 of the Limitation Act excludes the relevant starting day.",
+   "chip": "5 · COPIES AND DELAY"
+  },
+  {
+   "sceneId": "c22",
+   "seconds": 6,
+   "dialogue": "It also excludes the time legally required to obtain specified copies."
+  },
+  {
+   "sceneId": "c23",
+   "seconds": 6,
+   "dialogue": "So apply for the certified copy promptly, and preserve the dates."
+  },
+  {
+   "sceneId": "c24",
+   "seconds": 8,
+   "dialogue": "If Ravi files late, Section Five allows the court to condone the delay when sufficient cause is shown.",
+   "shown": "If Ravi files late, Section 5 allows the court to condone the delay when sufficient cause is shown."
+  },
+  {
+   "sceneId": "c25",
+   "seconds": 10,
+   "dialogue": "That requires the court's decision. Delay is not automatically excused simply because an appeal has been prepared or filed."
+  },
+  {
+   "sceneId": "c26",
+   "seconds": 6,
+   "dialogue": "Ravi files his appeal. Does his prison sentence automatically stop? No.",
+   "chip": "6 · DOES FILING STOP THE SENTENCE?"
+  },
+  {
+   "sceneId": "c27",
+   "seconds": 8,
+   "dialogue": "Under Section Four Thirty, the appellate court may suspend execution of the sentence, giving written reasons.",
+   "shown": "Under Section 430, the appellate court may suspend execution of the sentence, giving written reasons."
+  },
+  {
+   "sceneId": "c28",
+   "seconds": 6,
+   "dialogue": "It may release a confined appellant on bail or on his own bond."
+  },
+  {
+   "sceneId": "c29",
+   "seconds": 10,
+   "dialogue": "For offences punishable with death, life imprisonment, or ten years or more, the Public Prosecutor must first get a chance to object in writing.",
+   "shown": "For offences punishable with death, life imprisonment, or 10 years or more, the Public Prosecutor must first get a chance to object in writing."
+  },
+  {
+   "sceneId": "c30",
+   "seconds": 10,
+   "dialogue": "If Ravi was on bail and got three years or less, the trial court must grant him bail to file his appeal, unless there are special reasons."
+  },
+  {
+   "sceneId": "c31",
+   "seconds": 6,
+   "dialogue": "So Ravi should seek the necessary interim order. Keep two questions separate."
+  },
+  {
+   "sceneId": "c32",
+   "seconds": 10,
+   "dialogue": "Should the conviction be overturned? And should execution of the sentence be suspended while the appeal is pending?"
+  },
+  {
+   "sceneId": "c33",
+   "seconds": 10,
+   "dialogue": "Revision is different. Section Four Thirty Eight lets the Sessions Judge or High Court examine a lower criminal court's record.",
+   "shown": "Revision is different. Section 438 lets the Sessions Judge or High Court examine a lower criminal court's record.",
+   "chip": "7 · REVISION: A SUPERVISORY CHECK"
+  },
+  {
+   "sceneId": "c34",
+   "seconds": 6,
+   "dialogue": "It checks correctness, legality, propriety and procedural regularity."
+  },
+  {
+   "sceneId": "c35",
+   "seconds": 6,
+   "dialogue": "Sections Four Forty and Four Forty Two set out the revisional powers.",
+   "shown": "Sections 440 and 442 set out the revisional powers."
+  },
+  {
+   "sceneId": "c36",
+   "seconds": 8,
+   "dialogue": "Suppose Meera challenges an order because the court lacked the legal authority to make it."
+  },
+  {
+   "sceneId": "c37",
+   "seconds": 6,
+   "dialogue": "If the revision is maintainable, it may address that defect."
+  },
+  {
+   "sceneId": "c38",
+   "seconds": 10,
+   "dialogue": "It is a discretionary supervisory remedy, not a routine second appeal for arguing the entire evidence again."
+  },
+  {
+   "sceneId": "c39",
+   "seconds": 8,
+   "dialogue": "Three limits matter. Section Four Thirty Eight bars revision against interlocutory orders.",
+   "shown": "Three limits matter. Section 438 bars revision against interlocutory orders.",
+   "chip": "8 · LIMITS OF REVISION"
+  },
+  {
+   "sceneId": "c40",
+   "seconds": 8,
+   "dialogue": "The Supreme Court has explained that an order's legal character matters, not merely when it was made."
+  },
+  {
+   "sceneId": "c41",
+   "seconds": 8,
+   "dialogue": "A person who chooses Sessions revision cannot then bring another revision before the High Court."
+  },
+  {
+   "sceneId": "c42",
+   "seconds": 10,
+   "dialogue": "And Section Four Forty Two generally prevents a party from using revision after leaving an available appeal unfiled.",
+   "shown": "And Section 442 generally prevents a party from using revision after leaving an available appeal unfiled."
+  },
+  {
+   "sceneId": "c43",
+   "seconds": 8,
+   "dialogue": "The revisional court also cannot directly turn an acquittal into a conviction."
+  },
+  {
+   "sceneId": "c44",
+   "seconds": 6,
+   "dialogue": "Remember, revision is not a shortcut around appeal restrictions."
+  },
+  {
+   "sceneId": "c45",
+   "seconds": 10,
+   "dialogue": "Appeals are not only for convicted persons. The proviso to Section Four Thirteen gives a victim a right of appeal.",
+   "shown": "Appeals are not only for convicted persons. The proviso to Section 413 gives a victim a right of appeal.",
+   "chip": "9 · VICTIM AND STATE APPEALS"
+  },
+  {
+   "sceneId": "c46",
+   "seconds": 8,
+   "dialogue": "That covers an acquittal, conviction for a lesser offence, or inadequate compensation."
+  },
+  {
+   "sceneId": "c47",
+   "seconds": 8,
+   "dialogue": "For example, an injured victim may challenge an acquittal through the appropriate appellate court."
+  },
+  {
+   "sceneId": "c48",
+   "seconds": 8,
+   "dialogue": "Section Four Eighteen separately concerns government appeals against an inadequate sentence.",
+   "shown": "Section 418 separately concerns government appeals against an inadequate sentence."
+  },
+  {
+   "sceneId": "c49",
+   "seconds": 6,
+   "dialogue": "And Section Four Nineteen deals with specified appeals against acquittal.",
+   "shown": "And Section 419 deals with specified appeals against acquittal."
+  },
+  {
+   "sceneId": "c50",
+   "seconds": 8,
+   "dialogue": "Who is appealing, and what is being challenged, determines the route and any permission required."
+  },
+  {
+   "sceneId": "c51",
+   "seconds": 10,
+   "dialogue": "One final timeline. Section Four Fifteen, sub section Four, requires certain appeals to be disposed of within six months of filing.",
+   "shown": "One final timeline. Section 415(4) requires certain appeals to be disposed of within six months of filing.",
+   "chip": "10 · FILING TIME ≠ DISPOSAL TIME"
+  },
+  {
+   "sceneId": "c52",
+   "seconds": 8,
+   "dialogue": "These are appeals against sentences under specified sexual offence provisions of the B N S.",
+   "shown": "These are appeals against sentences under specified sexual offence provisions of the BNS."
+  },
+  {
+   "sceneId": "c53",
+   "seconds": 6,
+   "dialogue": "This is not a six month deadline for every appeal or revision.",
+   "shown": "This is not a six-month deadline for every appeal or revision."
+  },
+  {
+   "sceneId": "c54",
+   "seconds": 10,
+   "dialogue": "Remember: an appeal challenges a decision within the statutory right; revision provides a narrower supervisory check."
+  },
+  {
+   "sceneId": "c55",
+   "seconds": 6,
+   "dialogue": "Identify the remedy, the court and the limitation period early."
+  },
+  {
+   "sceneId": "c56",
+   "seconds": 8,
+   "dialogue": "Obtain the copies, prepare clear grounds, and seek a separate interim order whenever necessary."
+  }
+ ]
+}

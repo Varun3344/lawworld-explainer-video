@@ -1,0 +1,281 @@
+{
+ "projectTitle": "LawWorld_cpb",
+ "title": "Compounding and Plea Bargaining",
+ "source": "split/scripts/cpb.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Ravi and Mohan settle after a neighbourhood fight. In another case, Rohan wants to accept responsibility.",
+   "chip": "1 · TWO WAYS OUT"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 6,
+   "dialogue": "He wants a lawful reduction in punishment. Are these the same thing?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Under the Bharatiya Nagarik Suraksha Sanhita, or B N S S, these are two different procedures: compounding and plea bargaining.",
+   "shown": "Under the Bharatiya Nagarik Suraksha Sanhita, or BNSS, these are two different procedures: compounding and plea bargaining."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "One can have the effect of an acquittal. The other is supervised by the court, and may end in conviction with a reduced sentence."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "Section Three Fifty Nine lists the offences that can be compounded, and who may compound each one. The person named in the table must agree.",
+   "shown": "Section 359 lists the offences that can be compounded, and who may compound each one. The person named in the table must agree.",
+   "chip": "2 · THE STATUTORY LIST"
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 8,
+   "dialogue": "Suppose Ravi causes Mohan simple hurt, charged only under B N S Section One Fifteen, sub section Two.",
+   "shown": "Suppose Ravi causes Mohan simple hurt, charged only under BNS Section 115(2)."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The first table lets Mohan, the injured person, compound that offence without the court's permission needed for the second table."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 8,
+   "dialogue": "The compromise must still be placed before the court. It is a legal process, not merely a handshake."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Now change the example. Ravi is charged with voluntarily causing grievous hurt under B N S Section One Seventeen, sub section Two.",
+   "shown": "Now change the example. Ravi is charged with voluntarily causing grievous hurt under BNS Section 117(2).",
+   "chip": "3 · COURT PERMISSION"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 8,
+   "dialogue": "That offence appears in the second table, so Mohan's agreement also needs the court's permission."
+  },
+  {
+   "sceneId": "c11",
+   "seconds": 10,
+   "dialogue": "Section Three Fifty Nine, sub section Eight, says lawful compounding has the effect of an acquittal of the accused concerned.",
+   "shown": "Section 359(8) says lawful compounding has the effect of an acquittal of the accused concerned."
+  },
+  {
+   "sceneId": "c12",
+   "seconds": 8,
+   "dialogue": "Simple and grievous hurt have different compounding requirements. Always check the exact charge."
+  },
+  {
+   "sceneId": "c13",
+   "seconds": 10,
+   "dialogue": "Section Three Fifty Nine sets no general thirty day or sixty day deadline for compounding. But the stage of the case matters.",
+   "shown": "Section 359 sets no general 30-day or 60-day deadline for compounding. But the stage of the case matters.",
+   "chip": "4 · LIMITS AND STAGES"
+  },
+  {
+   "sceneId": "c14",
+   "seconds": 10,
+   "dialogue": "After commitment for trial, or during an appeal after conviction, the court's leave is required under sub section Five.",
+   "shown": "After commitment for trial, or during an appeal after conviction, the court's leave is required under sub-section (5)."
+  },
+  {
+   "sceneId": "c15",
+   "seconds": 10,
+   "dialogue": "A private settlement cannot make every offence compoundable. Murder, for example, cannot be compounded under this section."
+  },
+  {
+   "sceneId": "c16",
+   "seconds": 10,
+   "dialogue": "Special statutes can have their own rules. Before promising a compromise will end a case, check every charge and the necessary court process."
+  },
+  {
+   "sceneId": "c17",
+   "seconds": 8,
+   "dialogue": "Plea bargaining has a separate eligibility test under Section Two Eighty Nine.",
+   "shown": "Plea bargaining has a separate eligibility test under Section 289.",
+   "chip": "5 · WHO CAN PLEA BARGAIN"
+  },
+  {
+   "sceneId": "c18",
+   "seconds": 8,
+   "dialogue": "It excludes offences punishable with death, life imprisonment, or imprisonment exceeding seven years."
+  },
+  {
+   "sceneId": "c19",
+   "seconds": 10,
+   "dialogue": "It also excludes offences against women or children, and notified offences affecting the country's socio economic condition.",
+   "shown": "It also excludes offences against women or children, and notified offences affecting the country's socio-economic condition."
+  },
+  {
+   "sceneId": "c20",
+   "seconds": 6,
+   "dialogue": "Section Three Hundred excludes juvenile or child accused from this chapter.",
+   "shown": "Section 300 excludes juvenile or child accused from this chapter."
+  },
+  {
+   "sceneId": "c21",
+   "seconds": 8,
+   "dialogue": "An earlier conviction for the same offence is another obstacle, under Section Two Ninety.",
+   "shown": "An earlier conviction for the same offence is another obstacle, under Section 290."
+  },
+  {
+   "sceneId": "c22",
+   "seconds": 8,
+   "dialogue": "So Rohan must qualify before any talk of compensation or punishment can begin."
+  },
+  {
+   "sceneId": "c23",
+   "seconds": 6,
+   "dialogue": "Assume Rohan is an adult accused in an eligible property case.",
+   "chip": "6 · THE 30-DAY WINDOW"
+  },
+  {
+   "sceneId": "c24",
+   "seconds": 10,
+   "dialogue": "Under Section Two Ninety, sub section One, he can apply to the trial court within thirty days from framing of the charge.",
+   "shown": "Under Section 290(1), he can apply to the trial court within 30 days from framing of the charge."
+  },
+  {
+   "sceneId": "c25",
+   "seconds": 6,
+   "dialogue": "The application briefly describes the case, and includes his sworn affidavit."
+  },
+  {
+   "sceneId": "c26",
+   "seconds": 10,
+   "dialogue": "It confirms that he acts voluntarily, understands the punishment, and has no previous conviction for the same offence."
+  },
+  {
+   "sceneId": "c27",
+   "seconds": 10,
+   "dialogue": "The clock is tied to framing the charge. It does not begin simply because the F I R was registered or Rohan was arrested.",
+   "shown": "The clock is tied to framing the charge. It does not begin simply because the FIR was registered or Rohan was arrested."
+  },
+  {
+   "sceneId": "c28",
+   "seconds": 10,
+   "dialogue": "The judge examines Rohan privately, with the other party absent, to check that his application is voluntary.",
+   "chip": "7 · THE COURT'S CHECK"
+  },
+  {
+   "sceneId": "c29",
+   "seconds": 10,
+   "dialogue": "If satisfied, Section Two Ninety, sub section Four, requires the court to give the parties time, not exceeding sixty days.",
+   "shown": "If satisfied, Section 290(4) requires the court to give the parties time, not exceeding 60 days."
+  },
+  {
+   "sceneId": "c30",
+   "seconds": 10,
+   "dialogue": "That time is to work out a mutually satisfactory disposition, which may include compensation and expenses for the victim."
+  },
+  {
+   "sceneId": "c31",
+   "seconds": 8,
+   "dialogue": "This is a separate period, allowed by the court. It is not sixty days from arrest.",
+   "shown": "This is a separate period, allowed by the court. It is not 60 days from arrest."
+  },
+  {
+   "sceneId": "c32",
+   "seconds": 6,
+   "dialogue": "And it does not guarantee that the whole case finishes within ninety days.",
+   "shown": "And it does not guarantee that the whole case finishes within 90 days."
+  },
+  {
+   "sceneId": "c33",
+   "seconds": 6,
+   "dialogue": "Section Two Ninety One brings the participants into a voluntary process.",
+   "shown": "Section 291 brings the participants into a voluntary process.",
+   "chip": "8 · AGREEMENT OR BACK TO TRIAL"
+  },
+  {
+   "sceneId": "c34",
+   "seconds": 10,
+   "dialogue": "In a police report case, these include the prosecutor, the investigating officer, the accused and the victim."
+  },
+  {
+   "sceneId": "c35",
+   "seconds": 10,
+   "dialogue": "Section Two Ninety Two requires a signed report if agreement is reached. If not, proceedings resume from the application stage.",
+   "shown": "Section 292 requires a signed report if agreement is reached. If not, proceedings resume from the application stage."
+  },
+  {
+   "sceneId": "c36",
+   "seconds": 8,
+   "dialogue": "Section Two Ninety Nine protects statements or facts in the application from being used for other purposes.",
+   "shown": "Section 299 protects statements or facts in the application from being used for other purposes."
+  },
+  {
+   "sceneId": "c37",
+   "seconds": 6,
+   "dialogue": "Rohan cannot be forced to agree. And filing alone does not complete the process."
+  },
+  {
+   "sceneId": "c38",
+   "seconds": 8,
+   "dialogue": "Section Two Ninety Three provides for victim compensation, and for probation where applicable.",
+   "shown": "Section 293 provides for victim compensation, and for probation where applicable.",
+   "chip": "9 · THE COURT DECIDES"
+  },
+  {
+   "sceneId": "c39",
+   "seconds": 10,
+   "dialogue": "It also sets reduced sentences. Take an eligible offence with no minimum sentence, and an accused never previously convicted."
+  },
+  {
+   "sceneId": "c40",
+   "seconds": 10,
+   "dialogue": "The court may impose one sixth of the punishment provided or extendable. If the maximum is three years, that fraction is six months.",
+   "shown": "The court may impose one-sixth of the punishment provided or extendable. If the maximum is three years, that fraction is six months."
+  },
+  {
+   "sceneId": "c41",
+   "seconds": 8,
+   "dialogue": "Where a statutory minimum applies, the first time offender fraction is one fourth of that minimum.",
+   "shown": "Where a statutory minimum applies, the first-time offender fraction is one-fourth of that minimum."
+  },
+  {
+   "sceneId": "c42",
+   "seconds": 8,
+   "dialogue": "These are conditional court decisions, not a guaranteed discount negotiated privately."
+  },
+  {
+   "sceneId": "c43",
+   "seconds": 8,
+   "dialogue": "Under Section Two Ninety Four, the plea bargaining judgment is delivered in open court.",
+   "shown": "Under Section 294, the plea bargaining judgment is delivered in open court.",
+   "chip": "10 · KNOW THE RESULT"
+  },
+  {
+   "sceneId": "c44",
+   "seconds": 10,
+   "dialogue": "Section Two Ninety Five makes it final, with no ordinary appeal, while preserving the specified constitutional remedies.",
+   "shown": "Section 295 makes it final, with no ordinary appeal, while preserving the specified constitutional remedies."
+  },
+  {
+   "sceneId": "c45",
+   "seconds": 6,
+   "dialogue": "Remember the difference. Lawful compounding has the effect of acquittal."
+  },
+  {
+   "sceneId": "c46",
+   "seconds": 6,
+   "dialogue": "Plea bargaining can result in conviction, with a lawful sentencing benefit."
+  },
+  {
+   "sceneId": "c47",
+   "seconds": 8,
+   "dialogue": "Check eligibility, get independent legal advice, and understand the consequences before agreeing."
+  },
+  {
+   "sceneId": "c48",
+   "seconds": 8,
+   "dialogue": "Neither an informal compromise nor an application alone can replace the required legal process."
+  }
+ ]
+}

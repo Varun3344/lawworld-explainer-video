@@ -1,0 +1,68 @@
+// Criminal Appeals and Revisions under the BNSS - from ~/Downloads/Criminal_Appeals_and_Revisions_BNSS_Storyboard.pdf
+// Narration kept to the storyboard's facts; hooks tightened for advocates; whole sentences per clip.
+# 1 · APPEAL OR REVISION?
+8 | A criminal court has convicted Ravi. He believes the court misunderstood the evidence.
+10 | In another case, Meera believes a lower court acted beyond its legal powers. Can both simply ask for another trial?
+10 | The law provides different remedies: appeal and revision. And choosing the correct remedy, court and deadline matters.
+10 | Under the Bharatiya Nagarik Suraksha Sanhita, or B N S S, let us understand the difference through these two examples.
+# 2 · APPEAL: A RIGHT BY STATUTE
+6 | Section Four Thirteen says an appeal exists only where the law provides one.
+10 | Under Section Four Fifteen, an ordinary conviction by a Magistrate generally goes to the Sessions Court.
+6 | A conviction by a Sessions Judge or Additional Sessions Judge goes to the High Court.
+6 | So Ravi's Magistrate conviction ordinarily takes him to Sessions.
+8 | But guilty pleas and petty cases have restrictions under Sections Four Sixteen and Four Seventeen.
+6 | Always check whether the particular decision is appealable.
+# 3 · WHAT AN APPEAL EXAMINES
+6 | An appeal can challenge findings on facts and law, within the permitted scope.
+10 | Suppose Ravi says the eyewitness could not have identified him in darkness. The appellate court can examine the trial record and his grounds.
+10 | Section Four Twenty Seven allows different outcomes: dismissing the appeal, reversing the conviction, or ordering a retrial.
+6 | It may also alter the finding or the sentence, within statutory limits.
+8 | An appeal is a real opportunity to challenge the decision, but success still depends on the case.
+# 4 · DEADLINES: 30 · 60 · 90
+6 | Take ordinary conviction appeals, other than death sentences.
+8 | The usual filing period is thirty days to Sessions and sixty days to the High Court, from the sentence or order.
+10 | These periods come from Article One Fifteen of the Limitation Act, not from a general B N S S deadline.
+10 | An application for criminal revision ordinarily has ninety days, under Article One Thirty One.
+10 | Acquittal appeals, victim appeals, death sentences, Supreme Court proceedings and special statutes need their own limitation checks.
+# 5 · COPIES AND DELAY
+8 | Count the deadline carefully. Section Twelve of the Limitation Act excludes the relevant starting day.
+6 | It also excludes the time legally required to obtain specified copies.
+6 | So apply for the certified copy promptly, and preserve the dates.
+8 | If Ravi files late, Section Five allows the court to condone the delay when sufficient cause is shown.
+10 | That requires the court's decision. Delay is not automatically excused simply because an appeal has been prepared or filed.
+# 6 · DOES FILING STOP THE SENTENCE?
+6 | Ravi files his appeal. Does his prison sentence automatically stop? No.
+8 | Under Section Four Thirty, the appellate court may suspend execution of the sentence, giving written reasons.
+6 | It may release a confined appellant on bail or on his own bond.
+10 | For offences punishable with death, life imprisonment, or ten years or more, the Public Prosecutor must first get a chance to object in writing.
+10 | If Ravi was on bail and got three years or less, the trial court must grant him bail to file his appeal, unless there are special reasons.
+6 | So Ravi should seek the necessary interim order. Keep two questions separate.
+10 | Should the conviction be overturned? And should execution of the sentence be suspended while the appeal is pending?
+# 7 · REVISION: A SUPERVISORY CHECK
+10 | Revision is different. Section Four Thirty Eight lets the Sessions Judge or High Court examine a lower criminal court's record.
+6 | It checks correctness, legality, propriety and procedural regularity.
+6 | Sections Four Forty and Four Forty Two set out the revisional powers.
+8 | Suppose Meera challenges an order because the court lacked the legal authority to make it.
+6 | If the revision is maintainable, it may address that defect.
+10 | It is a discretionary supervisory remedy, not a routine second appeal for arguing the entire evidence again.
+# 8 · LIMITS OF REVISION
+8 | Three limits matter. Section Four Thirty Eight bars revision against interlocutory orders.
+8 | The Supreme Court has explained that an order's legal character matters, not merely when it was made.
+8 | A person who chooses Sessions revision cannot then bring another revision before the High Court.
+10 | And Section Four Forty Two generally prevents a party from using revision after leaving an available appeal unfiled.
+8 | The revisional court also cannot directly turn an acquittal into a conviction.
+6 | Remember, revision is not a shortcut around appeal restrictions.
+# 9 · VICTIM AND STATE APPEALS
+10 | Appeals are not only for convicted persons. The proviso to Section Four Thirteen gives a victim a right of appeal.
+8 | That covers an acquittal, conviction for a lesser offence, or inadequate compensation.
+8 | For example, an injured victim may challenge an acquittal through the appropriate appellate court.
+8 | Section Four Eighteen separately concerns government appeals against an inadequate sentence.
+6 | And Section Four Nineteen deals with specified appeals against acquittal.
+8 | Who is appealing, and what is being challenged, determines the route and any permission required.
+# 10 · FILING TIME ≠ DISPOSAL TIME
+10 | One final timeline. Section Four Fifteen, sub section Four, requires certain appeals to be disposed of within six months of filing.
+8 | These are appeals against sentences under specified sexual offence provisions of the B N S.
+6 | This is not a six month deadline for every appeal or revision. || This is not a six-month deadline for every appeal or revision.
+10 | Remember: an appeal challenges a decision within the statutory right; revision provides a narrower supervisory check.
+6 | Identify the remedy, the court and the limitation period early.
+8 | Obtain the copies, prepare clear grounds, and seek a separate interim order whenever necessary.

@@ -25,15 +25,36 @@ def transcribe(clip):
     if "words" not in d: raise SystemExit(f"[words] unexpected response: {r.stdout[:300]}")
     return d
 
-NUM = [("four thousand seven hundred","4700"),("two hundred","200"),("forty","40"),("one","1"),("three","3"),("fifteen hundred","1500"),("twelve thousand","12000"),("two hundred","200"),("fifteen","15"),("twelve","12"),("ten","10"),("five","5"),("two","2"),("rupees","rs"),("rs","rs")]
+UNITS = {w: i for i, w in enumerate("zero one two three four five six seven eight nine".split())}
+TEENS = {w: i + 10 for i, w in enumerate("ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split())}
+TENS = {w: (i + 2) * 10 for i, w in enumerate("twenty thirty forty fifty sixty seventy eighty ninety".split())}
+SCALES = {"thousand": 1000, "lakh": 100000, "lakhs": 100000, "crore": 10000000, "crores": 10000000}
 def numify(tokens):
-    """number words -> digits so 'fifteen hundred rupees' == '1,500 rupees' == '₹1,500'"""
-    text = " " + " ".join(tokens) + " "
-    for a, b in NUM: text = text.replace(" " + a + " ", " " + b + " ")
-    out = []
-    for t in text.split():
-        if t in ("rs",): continue          # currency word/symbol carries no meaning for the check
-        out.append(t)
+    """number words -> digit tokens on both sides of the check, so 'fifteen hundred rupees' == '1,500 rupees' == '₹1,500' and the
+    Indian way of reading section numbers matches whisper's digits: 'one seventy three' -> '1' '73' (joined '173' in the
+    character check) == '173', 'three hundred three' -> '303', 'twenty five thousand' -> '25000'. Ordinals stay words."""
+    out = []; total = cur = 0; last = None
+    def flush():
+        nonlocal total, cur, last
+        if last is not None: out.append(str(total + cur))
+        total = cur = 0; last = None
+    for t in tokens:
+        t = t.replace(",", "").replace("₹", "")
+        if t in ("", "rs", "rupees", "rupee"): continue          # currency word/symbol carries no meaning for the check
+        if t in UNITS or t in TEENS:
+            v = UNITS.get(t, TEENS.get(t))
+            if last in ("unit", "teen") or (last == "tens" and t in TEENS): flush()
+            cur += v; last = "unit" if t in UNITS else "teen"
+        elif t in TENS:
+            if last in ("unit", "teen", "tens"): flush()
+            cur += TENS[t]; last = "tens"
+        elif t == "hundred":
+            cur = (cur or 1) * 100; last = "hundred"
+        elif t in SCALES and last is not None:
+            total += (cur or 1) * SCALES[t]; cur = 0; last = "scale"
+        else:
+            flush(); out.append(t)
+    flush()
     return out
 def check(dialogue, words):
     exp = numify([norm(w) for w in dialogue.replace("-", " ").split() if norm(w)])

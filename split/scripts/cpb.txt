@@ -1,0 +1,60 @@
+// Compounding and Plea Bargaining under the BNSS - from ~/Downloads/Compounding_and_Plea_Bargaining_BNSS_Storyboard.pdf
+// Narration kept to the storyboard's facts; hooks tightened for advocates; whole sentences per clip.
+# 1 · TWO WAYS OUT
+10 | Ravi and Mohan settle after a neighbourhood fight. In another case, Rohan wants to accept responsibility.
+6 | He wants a lawful reduction in punishment. Are these the same thing?
+10 | Under the Bharatiya Nagarik Suraksha Sanhita, or B N S S, these are two different procedures: compounding and plea bargaining.
+10 | One can have the effect of an acquittal. The other is supervised by the court, and may end in conviction with a reduced sentence.
+# 2 · THE STATUTORY LIST
+10 | Section Three Fifty Nine lists the offences that can be compounded, and who may compound each one. The person named in the table must agree.
+8 | Suppose Ravi causes Mohan simple hurt, charged only under B N S Section One Fifteen, sub section Two.
+10 | The first table lets Mohan, the injured person, compound that offence without the court's permission needed for the second table.
+8 | The compromise must still be placed before the court. It is a legal process, not merely a handshake.
+# 3 · COURT PERMISSION
+10 | Now change the example. Ravi is charged with voluntarily causing grievous hurt under B N S Section One Seventeen, sub section Two.
+8 | That offence appears in the second table, so Mohan's agreement also needs the court's permission.
+10 | Section Three Fifty Nine, sub section Eight, says lawful compounding has the effect of an acquittal of the accused concerned.
+8 | Simple and grievous hurt have different compounding requirements. Always check the exact charge.
+# 4 · LIMITS AND STAGES
+10 | Section Three Fifty Nine sets no general thirty day or sixty day deadline for compounding. But the stage of the case matters.
+10 | After commitment for trial, or during an appeal after conviction, the court's leave is required under sub section Five.
+10 | A private settlement cannot make every offence compoundable. Murder, for example, cannot be compounded under this section.
+10 | Special statutes can have their own rules. Before promising a compromise will end a case, check every charge and the necessary court process.
+# 5 · WHO CAN PLEA BARGAIN
+8 | Plea bargaining has a separate eligibility test under Section Two Eighty Nine.
+8 | It excludes offences punishable with death, life imprisonment, or imprisonment exceeding seven years.
+10 | It also excludes offences against women or children, and notified offences affecting the country's socio economic condition. || It also excludes offences against women or children, and notified offences affecting the country's socio-economic condition.
+6 | Section Three Hundred excludes juvenile or child accused from this chapter.
+8 | An earlier conviction for the same offence is another obstacle, under Section Two Ninety.
+8 | So Rohan must qualify before any talk of compensation or punishment can begin.
+# 6 · THE 30-DAY WINDOW
+6 | Assume Rohan is an adult accused in an eligible property case.
+10 | Under Section Two Ninety, sub section One, he can apply to the trial court within thirty days from framing of the charge.
+6 | The application briefly describes the case, and includes his sworn affidavit.
+10 | It confirms that he acts voluntarily, understands the punishment, and has no previous conviction for the same offence.
+10 | The clock is tied to framing the charge. It does not begin simply because the F I R was registered or Rohan was arrested.
+# 7 · THE COURT'S CHECK
+10 | The judge examines Rohan privately, with the other party absent, to check that his application is voluntary.
+10 | If satisfied, Section Two Ninety, sub section Four, requires the court to give the parties time, not exceeding sixty days.
+10 | That time is to work out a mutually satisfactory disposition, which may include compensation and expenses for the victim.
+8 | This is a separate period, allowed by the court. It is not sixty days from arrest.
+6 | And it does not guarantee that the whole case finishes within ninety days.
+# 8 · AGREEMENT OR BACK TO TRIAL
+6 | Section Two Ninety One brings the participants into a voluntary process.
+10 | In a police report case, these include the prosecutor, the investigating officer, the accused and the victim.
+10 | Section Two Ninety Two requires a signed report if agreement is reached. If not, proceedings resume from the application stage.
+8 | Section Two Ninety Nine protects statements or facts in the application from being used for other purposes.
+6 | Rohan cannot be forced to agree. And filing alone does not complete the process.
+# 9 · THE COURT DECIDES
+8 | Section Two Ninety Three provides for victim compensation, and for probation where applicable.
+10 | It also sets reduced sentences. Take an eligible offence with no minimum sentence, and an accused never previously convicted.
+10 | The court may impose one sixth of the punishment provided or extendable. If the maximum is three years, that fraction is six months.
+8 | Where a statutory minimum applies, the first time offender fraction is one fourth of that minimum.
+8 | These are conditional court decisions, not a guaranteed discount negotiated privately.
+# 10 · KNOW THE RESULT
+8 | Under Section Two Ninety Four, the plea bargaining judgment is delivered in open court.
+10 | Section Two Ninety Five makes it final, with no ordinary appeal, while preserving the specified constitutional remedies.
+6 | Remember the difference. Lawful compounding has the effect of acquittal.
+6 | Plea bargaining can result in conviction, with a lawful sentencing benefit.
+8 | Check eligibility, get independent legal advice, and understand the consequences before agreeing.
+8 | Neither an informal compromise nor an application alone can replace the required legal process.

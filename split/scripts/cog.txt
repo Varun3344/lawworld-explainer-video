@@ -1,0 +1,57 @@
+// Cognizable and Non Cognizable Offences (BNSS) - from ~/Downloads/Cognizable_and_Non_Cognizable_Offences_BNSS_Storyboard.pdf
+// Narration kept to the storyboard's facts; hooks tightened for advocates; whole sentences per clip.
+# 1 · TWO REPORTS
+10 | Two people walk into the same police station. Ravi reports a stolen phone. Meena reports an ordinary incident of hurt.
+10 | Both describe offences, but what follows may be very different. The reason lies in two terms: cognizable and non cognizable.
+8 | Confuse them, and you misread what the police can and cannot do. Let us understand both through everyday examples.
+# 2 · WHAT THE TERMS MEAN
+10 | The Bharatiya Nagarik Suraksha Sanhita, or B N S S, defines cognizable offences in Section Two, sub section One, clause G.
+10 | In a cognizable offence, police may arrest without a warrant, subject to law. An arrest warrant is a court's written authority.
+10 | Clause O defines non cognizable offences. Here, police have no such authority merely because that offence is alleged.
+10 | Where does the classification come from? Check the First Schedule or the applicable special law. Never guess it from how serious an incident sounds.
+# 3 · RAVI'S STOLEN PHONE
+10 | Ravi puts his phone, worth twenty five thousand rupees, beside him on a park bench. While he looks away, a stranger dishonestly takes it.
+8 | That is cognizable theft under Section Three Hundred Three of the Bharatiya Nyaya Sanhita, or B N S.
+6 | Remember: B N S describes the offence. B N S S governs the procedure.
+6 | Ravi's information is recorded under B N S S Section One Seventy Three.
+10 | Section One Seventy Five, sub section One, permits police investigation without a prior Magistrate's order.
+6 | They can gather evidence, including C C T V footage and witness accounts.
+# 4 · MEENA'S HURT COMPLAINT
+6 | Now Meena. During a private argument, an adult neighbour slaps her and causes pain.
+10 | Assume this is only ordinary voluntarily causing hurt, without a weapon, grievous injury or any additional offence.
+10 | That is B N S Section One Fifteen, sub section Two, and the B N S S First Schedule classifies it as non cognizable.
+10 | The police should still record her information. Section One Seventy Four, sub section One, requires recording and referral to the Magistrate.
+10 | Under sub section Two, police need the competent Magistrate's order before investigating that non cognizable case.
+# 5 · INVESTIGATE ≠ ARREST
+8 | Suppose the Magistrate permits investigation into Meena's complaint. Police can now collect evidence.
+6 | But that order does not itself authorise arrest without a warrant.
+10 | Section One Seventy Four, sub section Three, preserves this difference. Permission to investigate and authority to arrest are separate.
+10 | Obtaining the first does not automatically provide the second. Investigation permission is not arrest permission.
+# 6 · NO AUTOMATIC ARREST
+8 | Now return to Ravi's case. Must police arrest someone immediately because this theft is cognizable? No.
+8 | Section Thirty Five regulates arrest without a warrant, and its legal conditions must be satisfied.
+6 | Registering an F I R is not an automatic arrest instruction.
+10 | In January twenty twenty six, the Supreme Court held that for offences punishable with up to seven years, arrest is the exception. || In January 2026, the Supreme Court held that for offences punishable with up to seven years, arrest is the exception.
+10 | Notice to appear under Section Thirty Five, sub section Three, is the rule. Officers must justify arrest under the legal safeguards.
+8 | Investigation and arrest are different decisions, and an allegation is not a finding of guilt.
+# 7 · BOTH IN ONE CASE
+8 | What if one incident includes a cognizable theft and a separate non cognizable hurt?
+10 | Section One Seventy Four, sub section Four: where at least one offence is cognizable, the case is treated as cognizable.
+10 | Police need not split that case into two investigation routes merely because one alleged offence is non cognizable.
+# 8 · NOT ABOUT BAIL
+10 | Another common confusion concerns bail. Cognizable and non cognizable concern police powers and procedure.
+10 | Bailable and non bailable concern bail. These are separate classifications, shown in separate columns of the First Schedule.
+8 | A cognizable offence can be bailable. And non bailable does not mean bail can never be granted.
+8 | Always check the exact offence and the applicable law, rather than treating these words as interchangeable.
+# 9 · REPORTING AN OFFENCE
+8 | So what should your client do when reporting an offence? Explain the facts clearly, and preserve the evidence.
+10 | For cognizable information, Section One Seventy Three allows reporting irrespective of where the offence occurred.
+8 | This supports what is commonly called Zero F I R. Ask for the free copy provided by sub section Two.
+8 | If recording is refused, sub section Four lets the informant write to the Superintendent of Police.
+6 | Where necessary, the next step is an application to the Magistrate.
+10 | A purely non cognizable case follows the Section One Seventy Four route: a different procedure, not the absence of a remedy.
+# 10 · REMEMBER
+10 | Remember two questions. Can police investigate without a prior Magistrate's order? And what authority is needed to arrest?
+10 | Cognizable cases generally permit police investigation without that prior order; non cognizable cases require it.
+10 | Arrest still has its own safeguards. Check Sections Two, Thirty Five, One Seventy Three, One Seventy Four and One Seventy Five.
+8 | Read them with the First Schedule. The right classification helps you understand the right procedure.

@@ -1,0 +1,271 @@
+{
+ "projectTitle": "LawWorld_cog",
+ "title": "Cognizable and Non-Cognizable Offences",
+ "source": "split/scripts/cog.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Two people walk into the same police station. Ravi reports a stolen phone. Meena reports an ordinary incident of hurt.",
+   "chip": "1 · TWO REPORTS"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "Both describe offences, but what follows may be very different. The reason lies in two terms: cognizable and non cognizable.",
+   "shown": "Both describe offences, but what follows may be very different. The reason lies in two terms: cognizable and non-cognizable."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 8,
+   "dialogue": "Confuse them, and you misread what the police can and cannot do. Let us understand both through everyday examples."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "The Bharatiya Nagarik Suraksha Sanhita, or B N S S, defines cognizable offences in Section Two, sub section One, clause G.",
+   "shown": "The Bharatiya Nagarik Suraksha Sanhita, or BNSS, defines cognizable offences in Section 2(1)(g).",
+   "chip": "2 · WHAT THE TERMS MEAN"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "In a cognizable offence, police may arrest without a warrant, subject to law. An arrest warrant is a court's written authority."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "Clause O defines non cognizable offences. Here, police have no such authority merely because that offence is alleged.",
+   "shown": "Clause (o) defines non-cognizable offences. Here, police have no such authority merely because that offence is alleged."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "Where does the classification come from? Check the First Schedule or the applicable special law. Never guess it from how serious an incident sounds."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Ravi puts his phone, worth twenty five thousand rupees, beside him on a park bench. While he looks away, a stranger dishonestly takes it.",
+   "shown": "Ravi puts his phone, worth ₹25,000, beside him on a park bench. While he looks away, a stranger dishonestly takes it.",
+   "chip": "3 · RAVI'S STOLEN PHONE"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 8,
+   "dialogue": "That is cognizable theft under Section Three Hundred Three of the Bharatiya Nyaya Sanhita, or B N S.",
+   "shown": "That is cognizable theft under Section 303 of the Bharatiya Nyaya Sanhita, or BNS."
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Remember: B N S describes the offence. B N S S governs the procedure.",
+   "shown": "Remember: BNS describes the offence. BNSS governs the procedure."
+  },
+  {
+   "sceneId": "c11",
+   "seconds": 6,
+   "dialogue": "Ravi's information is recorded under B N S S Section One Seventy Three.",
+   "shown": "Ravi's information is recorded under BNSS Section 173."
+  },
+  {
+   "sceneId": "c12",
+   "seconds": 10,
+   "dialogue": "Section One Seventy Five, sub section One, permits police investigation without a prior Magistrate's order.",
+   "shown": "Section 175(1) permits police investigation without a prior Magistrate's order."
+  },
+  {
+   "sceneId": "c13",
+   "seconds": 6,
+   "dialogue": "They can gather evidence, including C C T V footage and witness accounts.",
+   "shown": "They can gather evidence, including CCTV footage and witness accounts."
+  },
+  {
+   "sceneId": "c14",
+   "seconds": 6,
+   "dialogue": "Now Meena. During a private argument, an adult neighbour slaps her and causes pain.",
+   "chip": "4 · MEENA'S HURT COMPLAINT"
+  },
+  {
+   "sceneId": "c15",
+   "seconds": 10,
+   "dialogue": "Assume this is only ordinary voluntarily causing hurt, without a weapon, grievous injury or any additional offence."
+  },
+  {
+   "sceneId": "c16",
+   "seconds": 10,
+   "dialogue": "That is B N S Section One Fifteen, sub section Two, and the B N S S First Schedule classifies it as non cognizable.",
+   "shown": "That is BNS Section 115(2) and the BNSS First Schedule classifies it as non-cognizable."
+  },
+  {
+   "sceneId": "c17",
+   "seconds": 10,
+   "dialogue": "The police should still record her information. Section One Seventy Four, sub section One, requires recording and referral to the Magistrate.",
+   "shown": "The police should still record her information. Section 174(1) requires recording and referral to the Magistrate."
+  },
+  {
+   "sceneId": "c18",
+   "seconds": 10,
+   "dialogue": "Under sub section Two, police need the competent Magistrate's order before investigating that non cognizable case.",
+   "shown": "Under sub-section (2), police need the competent Magistrate's order before investigating that non-cognizable case."
+  },
+  {
+   "sceneId": "c19",
+   "seconds": 8,
+   "dialogue": "Suppose the Magistrate permits investigation into Meena's complaint. Police can now collect evidence.",
+   "chip": "5 · INVESTIGATE ≠ ARREST"
+  },
+  {
+   "sceneId": "c20",
+   "seconds": 6,
+   "dialogue": "But that order does not itself authorise arrest without a warrant."
+  },
+  {
+   "sceneId": "c21",
+   "seconds": 10,
+   "dialogue": "Section One Seventy Four, sub section Three, preserves this difference. Permission to investigate and authority to arrest are separate.",
+   "shown": "Section 174(3) preserves this difference. Permission to investigate and authority to arrest are separate."
+  },
+  {
+   "sceneId": "c22",
+   "seconds": 10,
+   "dialogue": "Obtaining the first does not automatically provide the second. Investigation permission is not arrest permission."
+  },
+  {
+   "sceneId": "c23",
+   "seconds": 8,
+   "dialogue": "Now return to Ravi's case. Must police arrest someone immediately because this theft is cognizable? No.",
+   "chip": "6 · NO AUTOMATIC ARREST"
+  },
+  {
+   "sceneId": "c24",
+   "seconds": 8,
+   "dialogue": "Section Thirty Five regulates arrest without a warrant, and its legal conditions must be satisfied.",
+   "shown": "Section 35 regulates arrest without a warrant, and its legal conditions must be satisfied."
+  },
+  {
+   "sceneId": "c25",
+   "seconds": 6,
+   "dialogue": "Registering an F I R is not an automatic arrest instruction.",
+   "shown": "Registering an FIR is not an automatic arrest instruction."
+  },
+  {
+   "sceneId": "c26",
+   "seconds": 10,
+   "dialogue": "In January twenty twenty six, the Supreme Court held that for offences punishable with up to seven years, arrest is the exception.",
+   "shown": "In January 2026, the Supreme Court held that for offences punishable with up to seven years, arrest is the exception."
+  },
+  {
+   "sceneId": "c27",
+   "seconds": 10,
+   "dialogue": "Notice to appear under Section Thirty Five, sub section Three, is the rule. Officers must justify arrest under the legal safeguards.",
+   "shown": "Notice to appear under Section 35(3), is the rule. Officers must justify arrest under the legal safeguards."
+  },
+  {
+   "sceneId": "c28",
+   "seconds": 8,
+   "dialogue": "Investigation and arrest are different decisions, and an allegation is not a finding of guilt."
+  },
+  {
+   "sceneId": "c29",
+   "seconds": 8,
+   "dialogue": "What if one incident includes a cognizable theft and a separate non cognizable hurt?",
+   "shown": "What if one incident includes a cognizable theft and a separate non-cognizable hurt?",
+   "chip": "7 · BOTH IN ONE CASE"
+  },
+  {
+   "sceneId": "c30",
+   "seconds": 10,
+   "dialogue": "Section One Seventy Four, sub section Four: where at least one offence is cognizable, the case is treated as cognizable.",
+   "shown": "Section 174(4): where at least one offence is cognizable, the case is treated as cognizable."
+  },
+  {
+   "sceneId": "c31",
+   "seconds": 10,
+   "dialogue": "Police need not split that case into two investigation routes merely because one alleged offence is non cognizable.",
+   "shown": "Police need not split that case into two investigation routes merely because one alleged offence is non-cognizable."
+  },
+  {
+   "sceneId": "c32",
+   "seconds": 10,
+   "dialogue": "Another common confusion concerns bail. Cognizable and non cognizable concern police powers and procedure.",
+   "shown": "Another common confusion concerns bail. Cognizable and non-cognizable concern police powers and procedure.",
+   "chip": "8 · NOT ABOUT BAIL"
+  },
+  {
+   "sceneId": "c33",
+   "seconds": 10,
+   "dialogue": "Bailable and non bailable concern bail. These are separate classifications, shown in separate columns of the First Schedule.",
+   "shown": "Bailable and non-bailable concern bail. These are separate classifications, shown in separate columns of the First Schedule."
+  },
+  {
+   "sceneId": "c34",
+   "seconds": 8,
+   "dialogue": "A cognizable offence can be bailable. And non bailable does not mean bail can never be granted.",
+   "shown": "A cognizable offence can be bailable. And non-bailable does not mean bail can never be granted."
+  },
+  {
+   "sceneId": "c35",
+   "seconds": 8,
+   "dialogue": "Always check the exact offence and the applicable law, rather than treating these words as interchangeable."
+  },
+  {
+   "sceneId": "c36",
+   "seconds": 8,
+   "dialogue": "So what should your client do when reporting an offence? Explain the facts clearly, and preserve the evidence.",
+   "chip": "9 · REPORTING AN OFFENCE"
+  },
+  {
+   "sceneId": "c37",
+   "seconds": 10,
+   "dialogue": "For cognizable information, Section One Seventy Three allows reporting irrespective of where the offence occurred.",
+   "shown": "For cognizable information, Section 173 allows reporting irrespective of where the offence occurred."
+  },
+  {
+   "sceneId": "c38",
+   "seconds": 8,
+   "dialogue": "This supports what is commonly called Zero F I R. Ask for the free copy provided by sub section Two.",
+   "shown": "This supports what is commonly called Zero FIR. Ask for the free copy provided by sub-section (2)."
+  },
+  {
+   "sceneId": "c39",
+   "seconds": 8,
+   "dialogue": "If recording is refused, sub section Four lets the informant write to the Superintendent of Police.",
+   "shown": "If recording is refused, sub-section (4) lets the informant write to the Superintendent of Police."
+  },
+  {
+   "sceneId": "c40",
+   "seconds": 6,
+   "dialogue": "Where necessary, the next step is an application to the Magistrate."
+  },
+  {
+   "sceneId": "c41",
+   "seconds": 10,
+   "dialogue": "A purely non cognizable case follows the Section One Seventy Four route: a different procedure, not the absence of a remedy.",
+   "shown": "A purely non-cognizable case follows the Section 174 route: a different procedure, not the absence of a remedy."
+  },
+  {
+   "sceneId": "c42",
+   "seconds": 10,
+   "dialogue": "Remember two questions. Can police investigate without a prior Magistrate's order? And what authority is needed to arrest?",
+   "chip": "10 · REMEMBER"
+  },
+  {
+   "sceneId": "c43",
+   "seconds": 10,
+   "dialogue": "Cognizable cases generally permit police investigation without that prior order; non cognizable cases require it.",
+   "shown": "Cognizable cases generally permit police investigation without that prior order; non-cognizable cases require it."
+  },
+  {
+   "sceneId": "c44",
+   "seconds": 10,
+   "dialogue": "Arrest still has its own safeguards. Check Sections Two, Thirty Five, One Seventy Three, One Seventy Four and One Seventy Five.",
+   "shown": "Arrest still has its own safeguards. Check Sections 2, 35, 173, 174 and 175."
+  },
+  {
+   "sceneId": "c45",
+   "seconds": 8,
+   "dialogue": "Read them with the First Schedule. The right classification helps you understand the right procedure."
+  }
+ ]
+}

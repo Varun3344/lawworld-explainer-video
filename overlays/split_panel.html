@@ -549,8 +549,10 @@ BUILD.sting = (c) => {
       ${c.kicker ? `<div class="kick"><i></i><span>${esc(c.kicker)}</span><i></i></div>` : ''}
       <div class="tt serif">${connHTML(c.title)}</div><div class="ul"></div>${c.sub ? `<div class="sb">${esc(c.sub)}</div>` : ''}</div></div>
     <div class="edge"><div class="esh"></div></div>`);
-  return { el, q: { card: $(el, '.card2'), ct: $(el, '.ct'), fveil: $(el, '.fveil'), fw1: $(el, '.fw1'), fw2: $(el, '.fw2'), fst: $(el, '.fst'), edge: $(el, '.edge') } };
+  return { el, q: { card: $(el, '.card2'), ct: $(el, '.ct'), fveil: $(el, '.fveil'), fw1: $(el, '.fw1'), fw2: $(el, '.fw2'), fst: $(el, '.fst'), edge: $(el, '.edge'), tt: $(el, '.tt'), sb: $(el, '.sb') } };
 };
+// a long course title shrinks to fit the frame (one line; the Cause of Action title kept its 224 px)
+LAYOUT.sting = (x) => { fitFont(x.q.tt, () => x.q.tt.offsetWidth <= 1700, 96, 4); if (x.q.sb) fitFont(x.q.sb, () => x.q.sb.offsetWidth <= 1640, 30, 2); };
 // full-frame living layer: the big blobs and the star sit on the panel's side of the frame (mirrored with the presenter on the right)
 const fmx = (x, w) => SIDE === 'right' ? 1920 - x - w : x;
 function fullLiving(q, t) {
@@ -598,7 +600,7 @@ BUILD.endcard = (c) => {
   return { el, q: { card: $(el, '.card2'), ct: $(el, '.ct'), fveil: $(el, '.fveil'), fw1: $(el, '.fw1'), fw2: $(el, '.fw2'), fst: $(el, '.fst'), edge: $(el, '.edge'),
     lk: $(el, '.lk'), words: $$(el, '.wi'), ul: $(el, '.ul'), ln: $(el, '.ln'), nx: $(el, '.nx'), url: $(el, '.url') } };
 };
-LAYOUT.endcard = (x) => { if (x.q.ln) fitFont(x.q.ln, () => x.q.ln.offsetWidth <= 1640, 40, 2); };   // the optional line between title and sub
+LAYOUT.endcard = (x) => { const tt = $(x.el, '.tt'); fitFont(tt, () => tt.offsetWidth <= 1700, 80, 4); if (x.q.ln) fitFont(x.q.ln, () => x.q.ln.offsetWidth <= 1640, 40, 2); };   // the optional line between title and sub
 SEEK.endcard = (x, t) => {
   const c = x.c, q = x.q, t0 = c.t0;
   fullLiving(q, t);
@@ -1091,4 +1093,6 @@ window.__init = init; window.__seek = seek;
 <!-- scene 3-7 cue types for the full Cause of Action video (split/COA_CUES.md): they register into BUILD / LAYOUT / SEEK -->
 <script src="split_cues_coa.js"></script>
 <script src="split_cues_coa6.js"></script>
+<!-- generic cue types for the course series (section, compare, flow, counters) -->
+<script src="split_cues_course.js"></script>
 </body></html>
