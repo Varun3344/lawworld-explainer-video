@@ -440,11 +440,14 @@ LAYOUT.timeline = (x) => {
 SEEK.timeline = (x, t) => {
   const c = x.c, q = x.q, n = q.n.length; if (!n) return;
   const ats = x.ats, x0 = CL, x1 = CL + CW - 14;
-  const pt = P(t, c.t0, 0.8); q.trk.style.transform = `scaleX(${f4(outExpo(pt))})`; q.trk.style.opacity = f4(clamp(pt * 3));
-  q.a0.style.opacity = f4(clamp(P(t, c.t0 + 0.45, 0.3) * 3));
+  // the track draws at track_at when the plan sets it (course videos: just before the first node, so a chapter title held until
+  // then is not crossed by a lone line), else at t0
+  const T0 = c.track_at ?? c.t0;
+  const pt = P(t, T0, 0.8); q.trk.style.transform = `scaleX(${f4(outExpo(pt))})`; q.trk.style.opacity = f4(clamp(pt * 3));
+  q.a0.style.opacity = f4(clamp(P(t, T0 + 0.45, 0.3) * 3));
   // the copper fill reaches each node as it builds, then runs on to the arrow
   let fx = x0;
-  for (let k = 0; k < n; k++) { const a = Math.max(c.t0 + 0.2, ats[k] - 0.5); if (t < a) break; fx = lerp(k ? x.nx[k - 1] : x0, x.nx[k], inOutCubic(P(t, a, ats[k] - a))); }
+  for (let k = 0; k < n; k++) { const a = Math.max(T0 + 0.2, ats[k] - 0.5); if (t < a) break; fx = lerp(k ? x.nx[k - 1] : x0, x.nx[k], inOutCubic(P(t, a, ats[k] - a))); }
   const ae = ats[n - 1] + 0.3; if (t >= ae) fx = lerp(x.nx[n - 1], x1, outCubic(P(t, ae, 0.8)));
   q.tf.style.width = f2(Math.max(0, fx - x0)) + 'px';
   const pa = P(t, ae + 0.5, 0.35); q.a1.style.opacity = f4(clamp(pa * 3)); tf(q.a1, pa >= 1, `translateX(${f2((1 - outBack(pa)) * -10)}px)`);

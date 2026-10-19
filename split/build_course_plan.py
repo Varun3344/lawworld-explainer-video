@@ -133,10 +133,14 @@ fx("whoosh", pend + 0.1, -16)
 for c in cues:
     if c["type"] in ("sting", "endcard", "panel", "lower_third"): continue
     if not (HOOK - 0.5 <= c["t0"] < c["t1"] <= pend + 0.4): sys.exit(f"[plan] FATAL cue outside the presenter span: {c}")
+# a timeline's track draws just before its first node (not at t0): a lone line under a held chapter title read as a fault (19-10)
+for c in cues:
+    if c["type"] == "timeline" and c.get("nodes") and all(isinstance(n.get("at"), (int, float)) for n in c["nodes"]):
+        c["track_at"] = r3(max(c["t0"], min(n["at"] for n in c["nodes"]) - 0.9))
 # an empty panel while he talks reads as a mistake (Cause of Action review: "near-empty panels"): report every gap > 1.2 s
 def first_seen(c):                                   # the first moment something of the cue is on screen (its first build)
     if c["type"] == "question": return c["t0"]       # its badge pops at t0, the card follows at its at
-    ts = [c.get("at"), c.get("head_at"), c.get("title_at"), c.get("open_at"), c.get("land_at")]
+    ts = [c.get("at"), c.get("head_at"), c.get("title_at"), c.get("open_at"), c.get("land_at"), c.get("track_at")]
     for key in ("items", "rows", "steps", "points", "nodes", "terms", "cols"):
         for it in c.get(key) or []: ts.append(it.get("at")); ts += list(it.get("cells_at") or [])
     for key in ("left", "right", "verdict", "note"):
@@ -158,7 +162,10 @@ def chapter_title(label):
     ws = txt.split()
     def numw(w):                                      # "60-DAY" -> "60-day"; "173(1)(g)" and "BNSS" untouched
         return re.sub(r"[A-Z]+", lambda m: m.group(0) if m.group(0) in ACR else m.group(0).lower(), w)
-    return " ".join(w if w.strip(":?,.").upper() in ACR else numw(w) if any(ch.isdigit() for ch in w) else (w.capitalize() if i == 0 else w.lower()) for i, w in enumerate(ws))
+    PROPER = {"STATE", "RAVI", "MEERA", "ARJUN", "MEENA"}   # "Victim and State appeals", "Meera's case"
+    def proper(w): return re.sub(r"'S\b", "'s", w.capitalize()) if re.sub(r"'S$", "", w.strip(":?,.")).upper() in PROPER else None
+    return " ".join(w if w.strip(":?,.").upper() in ACR else numw(w) if any(ch.isdigit() for ch in w) else
+                    proper(w) or (w.capitalize() if i == 0 else w.lower()) for i, w in enumerate(ws))
 chip_of = {s_["sceneId"]: s_["chip"] for s_ in ALL if s_.get("chip")}
 for g0, g1 in gaps:
     cid = next((s_["cid"] for s_ in segs if s_["base"] - 0.05 <= g0 < s_["base"] + s_["out"] - s_["in"]), None)
@@ -172,6 +179,38 @@ for g0, g1 in gaps:
         print(f"[plan] gap {g0:7.2f}-{g1:7.2f}s ({g1 - g0:.1f} s, {cid}): {pc['type']} held from {old:.2f} to {pc['t1']:.2f}")
     else:
         print(f"[plan] EMPTY PANEL {g0:7.2f}-{g1:7.2f}s ({g1 - g0:.1f} s, from {cid}): nothing to hold")
+# every build must finish before its cue fades (the last 0.3 s): a strike begun 0.2 s before its card left was cut off in the 19-10
+# previews. Such a build is pulled earlier (at most 0.8 s, never before the cue's t0 + 0.1 or 0.2 s after the build before it).
+def builds_of(c):
+    out = [(c, k, 0.6) for k in ("at", "head_at", "title_at", "strike_at") if isinstance(c.get(k), (int, float))]
+    for key in ("items", "rows", "steps", "points", "nodes", "terms", "cols"):
+        for it in c.get(key) or []:
+            if isinstance(it.get("at"), (int, float)): out.append((it, "at", 1.2 if c["type"] == "counters" else 0.6))
+            if isinstance(it.get("strike_at"), (int, float)): out.append((it, "strike_at", 0.5))
+            ca = it.get("cells_at") or []
+            out += [(ca, i, 0.6) for i in range(len(ca)) if isinstance(ca[i], (int, float))]
+    for key in ("left", "right", "verdict", "note"):
+        v = c.get(key)
+        if isinstance(v, dict) and isinstance(v.get("at"), (int, float)): out.append((v, "at", 0.6))
+    return out
+for c in cues:
+    if c["type"] in ("panel", "sting", "endcard", "lower_third", "title"): continue
+    bs = builds_of(c)
+    for cont, k, d in sorted(bs, key=lambda x: x[0][x[1]]):
+        b, lim = cont[k], c["t1"] - 0.25
+        if b + d <= lim: continue
+        before = [o[ok] for o, ok, _ in bs if not (o is cont and ok == k) and o[ok] < b]
+        nb = max(lim - d, c["t0"] + 0.1, max(before) + 0.2 if before else c["t0"] + 0.1, b - 0.8)
+        if nb < b - 0.005:
+            cont[k] = r3(nb); print(f"[plan] late build pulled earlier: {c['type']} {k} {b:.2f} -> {nb:.2f} (cue ends {c['t1']:.2f})")
+        if cont[k] + d > lim + 0.1: print(f"[plan] WARNING late build: {c['type']} {k} at {cont[k]:.2f} still ends after its cue fades ({c['t1']:.2f})")
+# "§ 187(4)" must not break after the sign: a no-break space after every § in the cue texts
+def nbsp(v):
+    if isinstance(v, str): return re.sub(r"(§+) (?=\d)", "\\1\u00a0", v)
+    if isinstance(v, list): return [nbsp(x) for x in v]
+    if isinstance(v, dict): return {k: nbsp(x) for k, x in v.items()}
+    return v
+cues[:] = [nbsp(c) for c in cues]
 cues.sort(key=lambda c: (0 if c["type"] in ("panel",) else 1, c["t0"]))
 json.dump({"duration": total, "width": 1920, "height": 1080, "layout": {"px": 640, "presenter": "right"}, "cues": cues},
           open(f"{OUT}/timeline.json", "w"), indent=1, ensure_ascii=False)

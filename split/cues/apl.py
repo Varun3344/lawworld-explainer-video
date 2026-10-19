@@ -13,10 +13,10 @@ cue(type="compare", t0=S("c01"), t1=E("c02") + 0.05, head="Two cases", head_at=S
     rows=[{"cells": ["Convicted", "A lower court's order"], "cells_at": [A("c01", "convicted"), A("c02", "lower")]},
           {"cells": ["Evidence misunderstood?", "Legal power exceeded?"], "cells_at": [A("c01", "misunderstood"), A("c02", "beyond")]}],
     verdict={"text": "Another trial for both?", "icon": "circle-help", "at": A("c02", "can")})
-cue(type="splitcard", t0=S("c03"), t1=A("c03", "and") - 0.05,
+cue(type="splitcard", t0=S("c03"), t1=A("c03", "and", 2) - 0.05,
     left={"title": "APPEAL", "text": "challenge the decision", "icon": "scale", "at": A("c03", "appeal")},
     right={"title": "REVISION", "text": "a supervisory check", "icon": "search", "at": A("c03", "revision")})
-cue(type="list", t0=A("c03", "and"), t1=E("c04") + 0.05, head="Get three things right", head_at=A("c03", "and"),
+cue(type="list", t0=A("c03", "and", 2), t1=E("c04") + 0.05, head="Get three things right", head_at=A("c03", "and", 2),
     items=[{"n": 1, "text": "The remedy", "at": A("c03", "remedy")}, {"n": 2, "text": "The court", "at": A("c03", "court")},
            {"n": 3, "text": "The deadline", "at": A("c03", "deadline")}])
 cue(type="cite", t0=A("c04", "under"), t1=E("c04") + 0.05, at=A("c04", "under"), tag="BNSS", text="Chapter XXXI: Appeals · Chapter XXXII: Reference and Revision", icon="book-open")
