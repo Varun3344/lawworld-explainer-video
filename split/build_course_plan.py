@@ -32,7 +32,7 @@ stale = [] if MOCK else [c for c in IDS if c not in missing and os.path.getmtime
 if stale: sys.exit(f"[plan] FATAL flattened clips older than their source (retake?): {stale} -> python3 split/flatten_bg.py --seam left " + " ".join(f"{D}/{c}.mp4" for c in stale))
 IDS = [c for c in IDS if c not in missing]
 PLACE = json.load(open(f"{OUT}/place.json")) if os.path.exists(f"{OUT}/place.json") else {}
-HOOK = 1.6; END = 4.2
+HOOK = 39 / 24; END = 4.2          # the opening lead is a whole number of frames (1.6 s = 38.4 frames put the picture 1 frame behind the voice)
 
 t = HOOK; segs = []; words = []
 for cid in IDS:
@@ -133,6 +133,42 @@ fx("whoosh", pend + 0.1, -16)
 for c in cues:
     if c["type"] in ("sting", "endcard", "panel", "lower_third"): continue
     if not (HOOK - 0.5 <= c["t0"] < c["t1"] <= pend + 0.4): sys.exit(f"[plan] FATAL cue outside the presenter span: {c}")
+# an empty panel while he talks reads as a mistake (Cause of Action review: "near-empty panels"): report every gap > 1.2 s
+def first_seen(c):                                   # the first moment something of the cue is on screen (its first build)
+    ts = [c.get("at"), c.get("head_at"), c.get("title_at"), c.get("open_at"), c.get("land_at")]
+    for key in ("items", "rows", "steps", "points", "nodes", "terms", "cols"):
+        for it in c.get(key) or []: ts.append(it.get("at")); ts += list(it.get("cells_at") or [])
+    for key in ("left", "right", "verdict", "note"):
+        v = c.get(key)
+        if isinstance(v, dict): ts.append(v.get("at"))
+    ts = [x for x in ts if isinstance(x, (int, float))]
+    return max(c["t0"], min(ts)) if ts else c["t0"]
+cover = sorted((first_seen(c), c["t1"]) for c in cues if c["type"] not in ("panel", "sting", "endcard", "lower_third", "kicker", "cite"))
+gaps, tcur = [], HOOK + 0.4
+for a0, a1 in cover:
+    if a0 - tcur > 1.2: gaps.append((round(tcur, 2), round(a0, 2)))
+    tcur = max(tcur, a1)
+if pend - tcur > 1.2: gaps.append((round(tcur, 2), round(pend, 2)))
+# fill every gap: a chapter that opens on an empty panel gets its title card; elsewhere the previous card holds until the next
+# card's first build (no blank panel while he talks)
+ACR = {"BNSS", "BNS", "FIR", "CPC", "SP", "SC", "HC", "VII", "XLIII"}
+def chapter_title(label):
+    txt = label.split("·", 1)[-1].strip() if "·" in label else label
+    ws = txt.split()
+    return " ".join(w if w.strip(":?,.").upper() in ACR or any(ch.isdigit() for ch in w) else (w.capitalize() if i == 0 else w.lower()) for i, w in enumerate(ws))
+chip_of = {s_["sceneId"]: s_["chip"] for s_ in ALL if s_.get("chip")}
+for g0, g1 in gaps:
+    cid = next((s_["cid"] for s_ in segs if s_["base"] - 0.05 <= g0 < s_["base"] + s_["out"] - s_["in"]), None)
+    if cid in chip_of and g0 <= S(cid) + 1.6:
+        cue(type="title", t0=r3(g0), t1=r3(g1 + 0.25), title=chapter_title(chip_of[cid]), title_at=r3(g0 + 0.05), fade_out=0.3)
+        print(f"[plan] gap {g0:7.2f}-{g1:7.2f}s ({g1 - g0:.1f} s, {cid}): chapter title \"{chapter_title(chip_of[cid])}\"")
+        continue
+    prev = [c for c in cues if c["type"] not in ("panel", "sting", "endcard", "lower_third", "kicker", "cite") and c["t1"] <= g0 + 0.02]
+    if prev:
+        pc = max(prev, key=lambda c: c["t1"]); old = pc["t1"]; pc["t1"] = r3(g1 + 0.2)
+        print(f"[plan] gap {g0:7.2f}-{g1:7.2f}s ({g1 - g0:.1f} s, {cid}): {pc['type']} held from {old:.2f} to {pc['t1']:.2f}")
+    else:
+        print(f"[plan] EMPTY PANEL {g0:7.2f}-{g1:7.2f}s ({g1 - g0:.1f} s, from {cid}): nothing to hold")
 cues.sort(key=lambda c: (0 if c["type"] in ("panel",) else 1, c["t0"]))
 json.dump({"duration": total, "width": 1920, "height": 1080, "layout": {"px": 640, "presenter": "right"}, "cues": cues},
           open(f"{OUT}/timeline.json", "w"), indent=1, ensure_ascii=False)

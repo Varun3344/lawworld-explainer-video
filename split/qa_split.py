@@ -12,7 +12,8 @@ plan["presenter_box"] {x, y, w, h}: left of the panel (v3, box x 0) or right of 
   (--no-speech skips this API step, e.g. for a layout-only check)
 - first / last frame and a frame at every panel build time → out/split/qa/*.png + contact sheet
 Never prints API keys."""
-import json, os, re, subprocess, sys, difflib
+import json, os, re, subprocess, sys, difflib, importlib.util
+_spec = importlib.util.spec_from_file_location("words", "scripts/words.py"); W = importlib.util.module_from_spec(_spec); _spec.loader.exec_module(W)
 ARGS = [a for a in sys.argv[1:] if not a.startswith("--")]; NO_SPEECH = "--no-speech" in sys.argv[1:]
 F = ARGS[0] if ARGS else "out/split/split_sample.mp4"
 OD = os.path.dirname(F) or "."; Q = f"{OD}/qa"; os.makedirs(Q, exist_ok=True)
@@ -80,9 +81,13 @@ t = plan["presenter_start"]
 for seg in ([] if NO_SPEECH else plan["presenter"]):
     cid = os.path.basename(seg["clip"])[:-4]; L = seg["out"] - seg["in"]
     w = f"{Q}/{cid}.wav"; sh(["ffmpeg", "-v", "error", "-y", "-ss", f"{max(0, t - 0.25):.3f}", "-t", f"{L + 0.5:.3f}", "-i", F, "-vn", "-ac", "1", "-ar", "16000", w])
-    r = sh(["curl", "-s", "https://api.openai.com/v1/audio/transcriptions", "-H", f"Authorization: Bearer {KEY}", "-F", "model=gpt-4o-transcribe", "-F", "language=en", "-F", f"file=@{w}"])
+    # whisper-1, no prompt: gpt-4o-transcribe dropped second sentences of correct clips and once answered in Devanagari (course
+    # series, 19-10-2026); spoken numbers are normalised on both sides (scripts/words.py numify: "one seventy three" == "173")
+    r = sh(["curl", "-s", "https://api.openai.com/v1/audio/transcriptions", "-H", f"Authorization: Bearer {KEY}", "-F", "model=whisper-1", "-F", "language=en", "-F", f"file=@{w}"])
     heard = json.loads(r.stdout).get("text", "")
-    want_t = norm(SC[cid].replace("eighteen eighty-eight", "1888").replace("A B C", "ABC").replace("A P", "AP")); got = norm(heard.replace("A.B.C.", "ABC").replace("A.P.", "AP").replace("A B C", "ABC").replace("A P ", "AP "))
+    want_t = W.numify(norm(SC[cid].replace("eighteen eighty-eight", "1888").replace("A B C", "ABC").replace("A P", "AP").replace("-", " ")))
+    got = W.numify(norm(heard.replace("A.B.C.", "ABC").replace("A.P.", "AP").replace("A B C", "ABC").replace("A P ", "AP ").replace("-", " ")))
+    want_t = list("".join(want_t)); got = list("".join(got))                          # compare characters: "B N S S" == "BNSS"
     sm = difflib.SequenceMatcher(a=want_t, b=got, autojunk=False); rec = sum(b.size for b in sm.get_matching_blocks()) / max(1, len(want_t))
     print(f"[qa] {cid} {t:6.2f}-{t + L:6.2f}  recall {rec:.2f}  heard: {heard}")
     flag(rec >= 0.9, f"{cid} spoken text intact in the final mix")

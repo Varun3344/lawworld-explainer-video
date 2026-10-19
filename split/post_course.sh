@@ -30,6 +30,7 @@ log "16:9 compose"
 python3 scripts/compose2.py $O/plan.json > $O/compose.log 2>&1 || { log "compose FAILED"; tail -5 $O/compose.log; exit 1; }
 tail -1 $O/compose.log
 python3 split/qa_split.py $O/${SET}_full.mp4 > $O/qa.log 2>&1; grep -iE "FAIL|WARN|recall|loud|frames" $O/qa.log | head -12 | sed "s/^/[post $SET] qa: /"
+python3 split/qa_sync.py $SET > $O/sync.log 2>&1; tail -1 $O/sync.log | sed "s/^/[post $SET] /"
 log "9:16"
 V=out/${SET}9x16
 python3 split/build_vertical_course.py $SET captions > $O/v_captions.log 2>&1 && \

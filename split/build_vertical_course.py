@@ -416,6 +416,7 @@ def auto_edit():
     return final_pts
 
 
+CARD_H = 608                              # sting / end card: the 1920x1080 card scaled to the full 1080 width
 G_Y, G_W = 250, 1080
 G_CROP = (76, 1128)
 G_H = int(round(1080 * G_W / G_CROP[1] / 2)) * 2
@@ -457,7 +458,7 @@ def final(t0=None, t1=None, out=None):
     f = [
         "[0:v]fps=24,format=rgba,split=5[o1][o2][o3][o4][o5]",
         f"[o1]crop=1280:1080:0:0,scale={W}:{PANEL_H}:flags=lanczos[panel]",
-        f"[o2]crop=1280:1080:320:0,scale={W}:{PANEL_H}:flags=lanczos[card]",
+        f"[o2]scale={W}:{CARD_H}:flags=lanczos[card]",                       # the whole 16:9 card, full width (long course titles)
         f"[o3]{lt}[lt]",
         f"[o5]{lt}[lt2]",
         f"[o4]crop={G_CROP[1]}:1080:{G_CROP[0]}:0,scale={G_W}:{G_H}:flags=lanczos[gpanel]",
@@ -471,7 +472,7 @@ def final(t0=None, t1=None, out=None):
         f"[3:v][lt2]overlay=24:420:format=auto,format=yuv420p[afull]",
         f"[split0][gfull]overlay=0:0:enable='{on('G')}'[m1]",
         f"[m1][afull]overlay=0:0:enable='{on('A')}',format=yuv420p[split]",
-        f"[c2][card]overlay=0:{(H - PANEL_H) // 2}:format=auto,format=yuv420p,split=2[ca][cb]",
+        f"[c2][card]overlay=0:{(H - CARD_H) // 2}:format=auto,format=yuv420p,split=2[ca][cb]",
         f"[ca]trim=0:{STING_END + 0.3:.3f},setpts=PTS-STARTPTS[cardA]",
         f"[split]trim={STING_END:.3f}:{CARD_START + 0.3:.3f},setpts=PTS-STARTPTS[splitT]",
         f"[cb]trim={CARD_START:.3f}:{total:.3f},setpts=PTS-STARTPTS[cardB]",
