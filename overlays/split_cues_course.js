@@ -150,6 +150,9 @@ BUILD.compare = (c) => {
 };
 LAYOUT.compare = (x) => {
   const q = x.q, A = areaFor(x.c), room = A.bottom - A.top; headLayout(q);
+  // column titles on one line where they fit down to 24 px ("TRANSFER · SS. 24, 25" broke after the comma), both at one size
+  const cts = $$(x.el, '.cr-cht'); cts.forEach(e => fitLines(e, 24, 2, 24));
+  if (cts.length) { const m = Math.min(...cts.map(fsOf)); cts.forEach(e => { e.style.fontSize = m + 'px'; }); }
   const all = q.cells.flat(); all.forEach(e => fitLines(e, 40, 3, 34));
   if (all.length) { const m = Math.min(...all.map(fsOf)); all.forEach(e => { e.style.fontSize = m + 'px'; }); }
   // the two cells of a row share one height, so row k lines up across the columns

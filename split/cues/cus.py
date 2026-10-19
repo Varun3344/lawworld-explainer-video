@@ -86,7 +86,7 @@ cue(type="point", t0=S("c31"), t1=E("c31") + 0.05, text="Special laws can change
 # ── 8 · after the limit ──────────────────────────────────────────────────────────────────────────────────────────────────────────
 cue(type="point", t0=S("c32"), t1=A("c32", "if") - 0.05, text="Expiry alone does not open the gates", icon="lock", accent=True, at=A("c32", "expiry"))
 cue(type="compare", t0=A("c32", "if"), t1=E("c33") + 0.05, head="When the period ends", head_at=A("c32", "if"),
-    cols=[{"title": "No charge sheet in time", "icon": "triangle-alert", "at": A("c32", "missing")}, {"title": "Charge sheet in time", "icon": "file-check", "at": A("c33", "timely")}],
+    cols=[{"title": "Charge sheet missing", "icon": "triangle-alert", "at": A("c32", "missing")}, {"title": "Charge sheet on time", "icon": "file-check", "at": A("c33", "timely")}],
     rows=[{"cells": ["Claim default bail, in time", "Judicial custody can continue"], "cells_at": [A("c32", "claim"), A("c33", "continue")]},
           {"cells": ["Be ready to furnish bail", "Through lawful orders"], "cells_at": [A("c33", "ready"), A("c33", "lawful")]}])
 cue(type="section", t0=S("c34"), t1=E("c35") + 0.05, at=A("c34", "section"), act="BNSS", num="346(2)", title="Remand after cognizance",
