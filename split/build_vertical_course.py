@@ -381,8 +381,11 @@ def auto_edit():
             # the card's reveal only (owner 17-10: "sometimes the animation", not most of the time): from its first build for at most
             # ~3.6 s, then back to the split view while he talks it through; and never two full-screen reveals within 5 s of each
             # other (cards that follow closely build in the split view)
-            if b[0] - 0.25 - last_g < 5.0: continue
-            g0, g1 = b[0] - 0.25, min(c["t1"], b[0] + 3.6, b[-1] + 1.2)
+            # start at the build that makes the card about half complete (Video 2 still showed near-empty cards when a card's first
+            # build was a small placeholder): the remaining builds land full screen
+            k = (len(b) - 1) // 2
+            if b[k] - 0.25 - last_g < 5.0: continue
+            g0, g1 = b[k] - 0.25, min(c["t1"], b[k] + 3.6, b[-1] + 1.2)
             paint(g0, g1, "G"); last_g = g1
     for c in content:
         if c["type"] in QUESTION: paint(c.get("at", c["t0"]) - 0.2, c["t1"], "A")
@@ -397,7 +400,9 @@ def auto_edit():
         if look[i] != look[i - 1]: pts.append((t_start + i * 0.05, look[i]))
     snapped = [(t_start, pts[0][1])]
     for t, L in pts[1:]:
-        g = near_gap(t, t - 0.9, t + 0.6)
+        # a cut into a full-screen card snaps only to a pause at or just after its build (snapping up to 0.9 s early showed an empty
+        # card for a second in Video 2)
+        g = near_gap(t, t - 0.15, t + 0.9) if L == "G" else near_gap(t, t - 0.9, t + 0.6)
         if g is None or g <= snapped[-1][0] + 0.2: continue
         if L == snapped[-1][1]: continue
         snapped.append((g, L))
