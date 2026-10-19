@@ -9,7 +9,7 @@ place from out/<set>/place.json. Everything set-specific lives in two files:
                                 the timeline, cue(**fields), fx(name, t, gain_db), have(*cids), r3(x), PEND (presenter end)
 Usage: python3 split/build_course_plan.py --set <set> [--allow-missing]
 Writes out/<set>/timeline.json, plan.json, anchors.txt, captions.srt."""
-import os, sys, json, math, subprocess, difflib, importlib.util
+import os, re, sys, json, math, subprocess, difflib, importlib.util
 spec = importlib.util.spec_from_file_location("words", "scripts/words.py"); W = importlib.util.module_from_spec(spec); spec.loader.exec_module(W); norm = W.norm
 def dur(f): return float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f], capture_output=True, text=True).stdout.strip())
 
@@ -156,7 +156,9 @@ ACR = {"BNSS", "BNS", "FIR", "CPC", "SP", "SC", "HC", "VII", "XLIII"}
 def chapter_title(label):
     txt = label.split("·", 1)[-1].strip() if "·" in label else label
     ws = txt.split()
-    return " ".join(w if w.strip(":?,.").upper() in ACR or any(ch.isdigit() for ch in w) else (w.capitalize() if i == 0 else w.lower()) for i, w in enumerate(ws))
+    def numw(w):                                      # "60-DAY" -> "60-day"; "173(1)(g)" and "BNSS" untouched
+        return re.sub(r"[A-Z]+", lambda m: m.group(0) if m.group(0) in ACR else m.group(0).lower(), w)
+    return " ".join(w if w.strip(":?,.").upper() in ACR else numw(w) if any(ch.isdigit() for ch in w) else (w.capitalize() if i == 0 else w.lower()) for i, w in enumerate(ws))
 chip_of = {s_["sceneId"]: s_["chip"] for s_ in ALL if s_.get("chip")}
 for g0, g1 in gaps:
     cid = next((s_["cid"] for s_ in segs if s_["base"] - 0.05 <= g0 < s_["base"] + s_["out"] - s_["in"]), None)
