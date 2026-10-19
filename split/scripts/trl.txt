@@ -1,0 +1,57 @@
+// Stages of a Criminal Trial (BNSS) - from ~/Downloads/Stages_of_a_Criminal_Trial_BNSS_Storyboard.pdf
+// Fact-check 19-10-2026 applied: storyboard ERROR fixed - police-report warrant trials are ss.261-266, complaint warrant trials
+// 267-270, both conclude under 271-273 (not "261 to 271"); s.210 = deciding whether to take cognizance (not "judicial notice");
+// 232/251 = offences exclusively triable by the Court of Session; Suresh Sahu (2025 INSC 1382) paras 18-19: every incriminating
+// circumstance must be put specifically (not "the court must consider his explanation"); no s.401 for a murder illustration.
+# 1 · FROM FIR TO JUDGMENT
+10 | A criminal case does not move straight from an F I R to punishment. Evidence must be presented, tested and considered.
+10 | Let us follow a contested Sessions trial under the Bharatiya Nagarik Suraksha Sanhita, or B N S S.
+6 | In our illustration, Arjun is accused of murder and denies the allegation.
+# 2 · BEFORE THE TRIAL
+10 | First, separate investigation from trial. Police submit their investigation report under Section One Ninety Three.
+6 | Under Section Two Ten, the Magistrate decides whether to take cognizance.
+10 | Section Two Thirty requires the papers to be supplied free, within fourteen days from the accused's production or appearance.
+10 | A case triable exclusively by the Court of Session is committed to that court under Section Two Thirty Two.
+10 | The Public Prosecutor then opens the case under Section Two Forty Nine, explaining the accusation and the evidence.
+# 3 · DISCHARGE, CHARGE, PLEA
+10 | Next, the Judge considers discharge under Section Two Fifty. The application may be made within sixty days from commitment.
+6 | If there is insufficient ground for proceeding, the Judge must discharge with reasons.
+8 | Otherwise, Section Two Fifty One requires a written charge within sixty days from the first hearing on charge.
+10 | The charge is explained and the plea recorded. A guilty plea may lead to conviction under Section Two Fifty Two.
+6 | Arjun contests the charge, so the prosecution's evidence must follow.
+# 4 · PROSECUTION EVIDENCE
+10 | Sections Two Fifty Three and Two Fifty Four govern prosecution evidence. Witnesses testify, and documents are presented.
+10 | In Arjun's case, an eyewitness describes the incident, a doctor explains the medical findings, and recordings may be produced.
+8 | The defence can cross examine: could the witness see clearly, and does the medical evidence support the account? || The defence can cross-examine: could the witness see clearly, and does the medical evidence support the account?
+6 | Remember, an allegation in a charge sheet is not itself proof of guilt.
+10 | Section Three Forty Six generally requires day to day hearings while attending witnesses remain to be examined. || Section 346 generally requires day-to-day hearings while attending witnesses remain to be examined.
+# 5 · THE ACCUSED EXPLAINS
+8 | After the prosecution witnesses, and before the defence stage, comes a crucial safeguard.
+10 | Section Three Fifty One requires the court to put the circumstances appearing against the accused to him, for his explanation.
+10 | If a witness places Arjun at the scene, he must get a fair opportunity to answer. This is not cross examination on oath. || If a witness places Arjun at the scene, he must get a fair opportunity to answer. This is not cross-examination on oath.
+10 | Every incriminating circumstance must be put to him specifically. The Supreme Court treats this safeguard as no formality.
+# 6 · ACQUITTAL OR DEFENCE
+10 | Section Two Fifty Five is a checkpoint. If there is no evidence that the accused committed the offence, the Judge must acquit.
+10 | Otherwise, Section Two Fifty Six allows defence evidence. Arjun might call a workplace witness, or produce attendance records.
+8 | He need not enter the witness box; Section Three Fifty Three lets him testify on his own written request.
+6 | And throughout, the prosecution still carries its burden of proving guilt.
+# 7 · FINAL ARGUMENTS
+10 | When the evidence is complete, Section Two Fifty Seven provides for final arguments. The prosecutor sums up, and the defence replies.
+10 | The prosecution connects the evidence to the offence. The defence points out weaknesses, inconsistencies or reasonable doubt.
+6 | But a lawyer's argument is not, by itself, proof of a disputed fact.
+# 8 · JUDGMENT AND ITS DEADLINE
+10 | Under Section Two Fifty Eight, the Sessions Judge must deliver judgment within thirty days of the arguments ending.
+6 | That period can be extended to forty five days, but only with written reasons. || That period can be extended to 45 days, but only with written reasons.
+10 | The court decides whether Arjun's guilt has been proved beyond reasonable doubt, and gives reasons for acquittal or conviction.
+10 | These thirty or forty five days start after the arguments. They are not a deadline for the whole case from the F I R. || These 30 or 45 days start after the arguments. They are not a deadline for the whole case from the FIR.
+# 9 · IF CONVICTED
+10 | If Arjun is convicted, Section Two Fifty Eight, sub section Two, requires a hearing on sentence before punishment.
+8 | The court considers the sentencing material and the parties' submissions, then passes the lawful sentence.
+8 | Conviction decides guilt; sentencing addresses its legal consequence. Any appeal is a separate process.
+# 10 · OTHER TRIALS
+10 | Magistrate trials use different provisions. Warrant cases on a police report follow Sections Two Sixty One to Two Sixty Six.
+8 | Complaint warrant cases follow Sections Two Sixty Seven to Two Seventy, with evidence before charge.
+6 | Both conclude under Sections Two Seventy One to Two Seventy Three.
+8 | Summons cases follow Sections Two Seventy Four to Two Seventy Eight, without a formal charge.
+10 | Remember the main route: charge and plea, prosecution evidence, the accused's explanation, any defence evidence, arguments and judgment.
+8 | Sentencing follows if there is a conviction. Always check the case type, and each deadline's starting point.

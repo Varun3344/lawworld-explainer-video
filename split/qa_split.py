@@ -17,7 +17,7 @@ ARGS = [a for a in sys.argv[1:] if not a.startswith("--")]; NO_SPEECH = "--no-sp
 F = ARGS[0] if ARGS else "out/split/split_sample.mp4"
 OD = os.path.dirname(F) or "."; Q = f"{OD}/qa"; os.makedirs(Q, exist_ok=True)
 plan = json.load(open(f"{OD}/plan.json")); tl = json.load(open(f"{OD}/timeline.json"))
-SC = {s["sceneId"]: s["spoken"] for s in json.load(open(plan.get("scenes", "split/split_all_scenes.json")))["scenes"]}
+SC = {s["sceneId"]: s.get("spoken", s.get("dialogue")) for s in json.load(open(plan.get("scenes", "split/split_all_scenes.json")))["scenes"]}
 PB = plan.get("presenter_box") or {}
 BX, BY, BW, BH = int(PB.get("x", 0)), int(PB.get("y", 0)), int(PB.get("w", 1056)), int(PB.get("h", 1080))   # presenter box (v2 default: x 0, w 1056)
 def sh(a): return subprocess.run(a, capture_output=True, text=True)

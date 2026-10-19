@@ -1,0 +1,265 @@
+{
+ "projectTitle": "LawWorld_plt",
+ "title": "Rejection and Return of Plaint",
+ "source": "split/scripts/plt.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 8,
+   "dialogue": "You file a civil suit. The judge says this plaint cannot proceed. But is it being rejected, or returned?",
+   "chip": "1 · REJECTED OR RETURNED?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 6,
+   "dialogue": "Those words lead to different procedures and different remedies."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 8,
+   "dialogue": "Let us understand Order Seven of the Code of Civil Procedure, through four leading Supreme Court judgments.",
+   "shown": "Let us understand Order VII of the Code of Civil Procedure, through four leading Supreme Court judgments."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 8,
+   "dialogue": "Order Seven, Rule Ten deals with return of the plaint for presentation to the proper court.",
+   "shown": "Order VII Rule 10 deals with return of the plaint for presentation to the proper court.",
+   "chip": "2 · THE TWO PROVISIONS"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 6,
+   "dialogue": "That commonly happens when territorial or pecuniary jurisdiction is missing."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 8,
+   "dialogue": "Rule Eleven deals with rejection on specified grounds. Return asks whether this is the proper court.",
+   "shown": "Rule 11 deals with rejection on specified grounds. Return asks whether this is the proper court."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "Rejection asks whether the plaint attracts a statutory ground that stops it from proceeding. A weak case alone is not enough."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 6,
+   "dialogue": "Rule Eleven lists six grounds. First, the plaint discloses no cause of action.",
+   "shown": "Rule 11 lists six grounds. First, the plaint discloses no cause of action.",
+   "chip": "3 · SIX GROUNDS FOR REJECTION"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 8,
+   "dialogue": "Second, the relief is undervalued, and the plaintiff fails to correct it within the time fixed."
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 8,
+   "dialogue": "Third, the plaint is insufficiently stamped, and the plaintiff fails to supply the stamp paper within time."
+  },
+  {
+   "sceneId": "c11",
+   "seconds": 8,
+   "dialogue": "Fourth, the suit appears from the statement in the plaint to be barred by law. Fifth, the plaint is not filed in duplicate."
+  },
+  {
+   "sceneId": "c12",
+   "seconds": 8,
+   "dialogue": "Sixth, the plaintiff fails to comply with Rule Nine. For valuation and stamp defects, remember the chance to correct them.",
+   "shown": "Sixth, the plaintiff fails to comply with Rule 9. For valuation and stamp defects, remember the chance to correct them."
+  },
+  {
+   "sceneId": "c13",
+   "seconds": 10,
+   "dialogue": "The first judgment is T Arivandandam versus T V Satyapal. The Supreme Court said the plaint must receive a meaningful reading.",
+   "shown": "The first judgment is T. Arivandandam v. T.V. Satyapal. The Supreme Court said the plaint must receive a meaningful reading.",
+   "chip": "4 · A MEANINGFUL READING"
+  },
+  {
+   "sceneId": "c14",
+   "seconds": 8,
+   "dialogue": "Clever drafting cannot manufacture a cause of action where none exists. The court must examine the substance."
+  },
+  {
+   "sceneId": "c15",
+   "seconds": 8,
+   "dialogue": "Picture a plaint full of impressive allegations, but missing the material facts that create a right to relief."
+  },
+  {
+   "sceneId": "c16",
+   "seconds": 10,
+   "dialogue": "But the court must identify a ground under Rule Eleven. It cannot reject a plaint merely because the case looks difficult.",
+   "shown": "But the court must identify a ground under Rule 11. It cannot reject a plaint merely because the case looks difficult."
+  },
+  {
+   "sceneId": "c17",
+   "seconds": 10,
+   "dialogue": "Next comes Dahiben versus Arvindbhai Kalyanji Bhanusali. Read the plaint as a whole, with the documents it relies on.",
+   "shown": "Next comes Dahiben v. Arvindbhai Kalyanji Bhanusali. Read the plaint as a whole, with the documents it relies on.",
+   "chip": "5 · THE PLAINT AND ITS DOCUMENTS"
+  },
+  {
+   "sceneId": "c18",
+   "seconds": 6,
+   "dialogue": "The defendant's competing version does not decide a Rule Eleven application.",
+   "shown": "The defendant's competing version does not decide a Rule 11 application."
+  },
+  {
+   "sceneId": "c19",
+   "seconds": 6,
+   "dialogue": "In Dahiben, the Court upheld the rejection of a suit challenging a sale deed."
+  },
+  {
+   "sceneId": "c20",
+   "seconds": 6,
+   "dialogue": "The suit was barred by limitation, and lacked a sustainable cause of action."
+  },
+  {
+   "sceneId": "c21",
+   "seconds": 10,
+   "dialogue": "So check the pleaded dates and documents carefully. Limitation supports rejection only when the bar is apparent from the plaint."
+  },
+  {
+   "sceneId": "c22",
+   "seconds": 6,
+   "dialogue": "Disputed facts cannot simply be resolved against the plaintiff at this stage."
+  },
+  {
+   "sceneId": "c23",
+   "seconds": 6,
+   "dialogue": "Now consider return. A properly pleaded claim may still have been filed in the wrong court.",
+   "chip": "6 · HOW RETURN WORKS"
+  },
+  {
+   "sceneId": "c24",
+   "seconds": 8,
+   "dialogue": "Under Rule Ten, the plaint is returned for presentation to the court where the suit should have been instituted.",
+   "shown": "Under Rule 10, the plaint is returned for presentation to the court where the suit should have been instituted."
+  },
+  {
+   "sceneId": "c25",
+   "seconds": 8,
+   "dialogue": "The judge endorses the dates of presentation and return, the presenter's name, and brief reasons."
+  },
+  {
+   "sceneId": "c26",
+   "seconds": 6,
+   "dialogue": "Where its conditions apply, Rule Ten A can fix an appearance date in the proper court.",
+   "shown": "Where its conditions apply, Rule 10A can fix an appearance date in the proper court."
+  },
+  {
+   "sceneId": "c27",
+   "seconds": 10,
+   "dialogue": "In O N G C versus Modern Construction, the Supreme Court explained what happens when a returned plaint is presented to the competent court.",
+   "shown": "In ONGC v. Modern Construction, the Supreme Court explained what happens when a returned plaint is presented to the competent court.",
+   "chip": "7 · IN THE PROPER COURT"
+  },
+  {
+   "sceneId": "c28",
+   "seconds": 10,
+   "dialogue": "It is treated as a fresh institution, and the trial proceeds afresh. It does not continue the earlier suit, so limitation matters."
+  },
+  {
+   "sceneId": "c29",
+   "seconds": 8,
+   "dialogue": "Section Fourteen of the Limitation Act may exclude the time spent pursuing the case in a court without jurisdiction.",
+   "shown": "Section 14 of the Limitation Act may exclude the time spent pursuing the case in a court without jurisdiction."
+  },
+  {
+   "sceneId": "c30",
+   "seconds": 8,
+   "dialogue": "That protection must be established; return does not preserve the original filing date."
+  },
+  {
+   "sceneId": "c31",
+   "seconds": 8,
+   "dialogue": "The three judge decision in E X L Careers versus Frankfinn Aviation Services confirmed this rule.",
+   "shown": "The three-judge decision in EXL Careers v. Frankfinn Aviation Services confirmed this rule.",
+   "chip": "8 · RETURN ≠ TRANSFER"
+  },
+  {
+   "sceneId": "c32",
+   "seconds": 6,
+   "dialogue": "After a return under Rules Ten and Ten A, the proceedings must begin afresh.",
+   "shown": "After a return under Rules 10 and 10A, the proceedings must begin afresh."
+  },
+  {
+   "sceneId": "c33",
+   "seconds": 10,
+   "dialogue": "Rule Ten A simplifies appearance and service; it does not turn a return into a transfer that keeps the earlier trial stage.",
+   "shown": "Rule 10A simplifies appearance and service; it does not turn a return into a transfer that keeps the earlier trial stage."
+  },
+  {
+   "sceneId": "c34",
+   "seconds": 10,
+   "dialogue": "One qualification: in E X L itself, the Supreme Court used its constitutional powers on exceptional facts.",
+   "shown": "One qualification: in EXL itself, the Supreme Court used its constitutional powers on exceptional facts."
+  },
+  {
+   "sceneId": "c35",
+   "seconds": 6,
+   "dialogue": "It left the High Court's order undisturbed. That does not change the general rule."
+  },
+  {
+   "sceneId": "c36",
+   "seconds": 8,
+   "dialogue": "The remedies differ too. Rejection of a plaint is deemed a decree under Section Two, sub section Two.",
+   "shown": "The remedies differ too. Rejection of a plaint is deemed a decree under Section 2(2).",
+   "chip": "9 · DIFFERENT REMEDIES"
+  },
+  {
+   "sceneId": "c37",
+   "seconds": 6,
+   "dialogue": "So it ordinarily attracts a first appeal under Section Ninety Six.",
+   "shown": "So it ordinarily attracts a first appeal under Section 96."
+  },
+  {
+   "sceneId": "c38",
+   "seconds": 10,
+   "dialogue": "An order returning a plaint is appealable under Order Forty Three, Rule One, clause A, subject to the Rule Ten A exception.",
+   "shown": "An order returning a plaint is appealable under Order XLIII Rule 1(a), subject to the Rule 10A exception."
+  },
+  {
+   "sceneId": "c39",
+   "seconds": 8,
+   "dialogue": "And rejection does not bar a fresh plaint: Rule Thirteen expressly preserves that possibility.",
+   "shown": "And rejection does not bar a fresh plaint: Rule 13 expressly preserves that possibility."
+  },
+  {
+   "sceneId": "c40",
+   "seconds": 10,
+   "dialogue": "But a fresh plaint must still overcome limitation and the legal defect. Refiling a barred claim does not remove the bar."
+  },
+  {
+   "sceneId": "c41",
+   "seconds": 10,
+   "dialogue": "Try two examples. A plaint pleads a recoverable debt, but the chosen court lacks territorial jurisdiction. Think return, under Rule Ten.",
+   "shown": "Try two examples. A plaint pleads a recoverable debt, but the chosen court lacks territorial jurisdiction. Think return, under Rule 10.",
+   "chip": "10 · APPLY THE DISTINCTION"
+  },
+  {
+   "sceneId": "c42",
+   "seconds": 8,
+   "dialogue": "Another plaint, read with its own documents, discloses no cause of action. Think rejection, under Rule Eleven.",
+   "shown": "Another plaint, read with its own documents, discloses no cause of action. Think rejection, under Rule 11."
+  },
+  {
+   "sceneId": "c43",
+   "seconds": 10,
+   "dialogue": "Before drafting or opposing either application, check the forum, the material facts, the documents relied on, and limitation."
+  },
+  {
+   "sceneId": "c44",
+   "seconds": 8,
+   "dialogue": "Remember: return sends the plaint to the proper court; rejection follows a specified statutory ground."
+  },
+  {
+   "sceneId": "c45",
+   "seconds": 6,
+   "dialogue": "Get it right, because that distinction decides the next step in the entire case."
+  }
+ ]
+}
