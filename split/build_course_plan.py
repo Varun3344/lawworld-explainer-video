@@ -234,6 +234,14 @@ open(f"{OUT}/anchors.txt", "w").write("\n".join(ANCH) + "\n")
 def ts(x): h = int(x // 3600); m = int(x % 3600 // 60); s = x % 60; return f"{h:02d}:{m:02d}:{int(s):02d},{int(round((s - int(s)) * 1000)):03d}"
 srt_cues = []
 def endch(w): return w.rstrip("'\"”’)")[-1:]
+# "v." in a case name, initials ("T.V.") and the usual abbreviations do not end a sentence (the Plaint video's captions broke after
+# "In Dahiben v." - fact-check 19-10-2026)
+ABBR = {"v.", "vs.", "ltd.", "co.", "no.", "nos.", "rs.", "dr.", "mr.", "mrs.", "ms.", "smt.", "pvt.", "inc.", "st.", "art.", "arts.",
+        "s.", "ss.", "o.", "r.", "para.", "paras.", "e.g.", "i.e.", "cl.", "sub-s."}
+def sent_end(w):
+    c = w.rstrip("'\"”’)")
+    if not c or c[-1] not in ".?!": return False
+    return not (c[-1] == "." and (c.lower() in ABBR or re.fullmatch(r"(?:[A-Z]\.)+", c)))
 for cid in IDS:
     toks = [x for x in SCRIPT[cid].split() if x.strip("—–-")]; shown = SHOWN.get(cid, SCRIPT[cid]).split()
     cw = [w for w in words if w["cid"] == cid]
@@ -244,7 +252,7 @@ for cid in IDS:
             out, cur = [], []
             for w in ws:
                 cur.append(w)
-                if endch(w) in ".?!": out.append(cur); cur = []
+                if sent_end(w): out.append(cur); cur = []
             if cur: out.append(cur)
             return out
         sp, sh = sents(toks), sents(shown)
@@ -257,7 +265,7 @@ for cid in IDS:
     chunks, cur = [], []
     for i, w in enumerate(shown):
         cur.append(i)
-        if endch(w) in ".?!:;": chunks.append(cur); cur = []
+        if sent_end(w) or endch(w) in ":;": chunks.append(cur); cur = []
     if cur: chunks.append(cur)
     out = []
     for ch in chunks:
