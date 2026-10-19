@@ -265,4 +265,7 @@ function digitsIn(root) {
   }
 }
 for (const k of Object.keys(BUILD)) { const f = BUILD[k]; BUILD[k] = (c) => { const x = f(c); if (x && x.el) digitsIn(x.el); return x; }; }
+/* a long kicker (the page's own type) shrinks to the content column instead of running off the panel */
+{ const L0 = LAYOUT.kicker; LAYOUT.kicker = (x) => { L0(x); const tx = x.q.tx; if (!tx) return;
+    fitFont(tx, () => x.el.offsetWidth <= CW, 18, 1); if (x.el.offsetWidth > CW) tx.style.letterSpacing = '3px'; }; }
 })();

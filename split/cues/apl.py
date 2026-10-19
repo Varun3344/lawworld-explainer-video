@@ -44,7 +44,7 @@ cue(type="section", t0=S("c13"), t1=E("c14") + 0.05, at=A("c13", "section"), act
 cue(type="point", t0=S("c15"), t1=E("c15") + 0.05, text="A real opportunity, never a guaranteed result", icon="scale", accent=True, at=A("c15", "appeal"))
 
 # ── 4 · deadlines ────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-cue(type="kicker", t0=S("c16"), t1=E("c19") + 0.05, at=S("c16") + 0.05, text="ORDINARY CONVICTION APPEALS · NOT DEATH SENTENCES")
+cue(type="kicker", t0=S("c16"), t1=E("c19") + 0.05, at=S("c16") + 0.05, text="ORDINARY CONVICTION APPEALS")
 cue(type="counters", t0=S("c17"), t1=E("c19") + 0.05, head="Ordinary filing periods", head_at=S("c17") + 0.05,
     items=[{"value": 30, "unit": "DAYS", "label": "Appeal to Sessions", "sub": "Limitation Act, Art. 115(b)", "at": A("c17", "thirty")},
            {"value": 60, "unit": "DAYS", "label": "Appeal to the High Court", "sub": "Art. 115(b)", "at": A("c17", "sixty")},

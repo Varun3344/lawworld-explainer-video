@@ -135,6 +135,7 @@ for c in cues:
     if not (HOOK - 0.5 <= c["t0"] < c["t1"] <= pend + 0.4): sys.exit(f"[plan] FATAL cue outside the presenter span: {c}")
 # an empty panel while he talks reads as a mistake (Cause of Action review: "near-empty panels"): report every gap > 1.2 s
 def first_seen(c):                                   # the first moment something of the cue is on screen (its first build)
+    if c["type"] == "question": return c["t0"]       # its badge pops at t0, the card follows at its at
     ts = [c.get("at"), c.get("head_at"), c.get("title_at"), c.get("open_at"), c.get("land_at")]
     for key in ("items", "rows", "steps", "points", "nodes", "terms", "cols"):
         for it in c.get(key) or []: ts.append(it.get("at")); ts += list(it.get("cells_at") or [])
