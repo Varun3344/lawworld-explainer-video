@@ -201,8 +201,8 @@
   {
    "sceneId": "c35",
    "seconds": 10,
-   "dialogue": "The first of March is day sixty. If no required police report has been filed, the second of March is day sixty one.",
-   "shown": "1 March is day 60. If no required police report has been filed, 2 March is day 61."
+   "dialogue": "The first of March is day sixty. If the police report is not filed by then, the right arises on the second of March, day sixty one.",
+   "shown": "1 March is day 60. If the police report is not filed by then, the right arises on 2 March, day 61."
   },
   {
    "sceneId": "c36",

@@ -46,7 +46,7 @@
 8 | Suppose Ravi's case is in the sixty day category, with no special law extension.
 6 | His first remand is on the first of January, twenty twenty six. || His first remand is on 1 January 2026.
 8 | January accounts for thirty one days. February adds twenty eight, taking the count to fifty nine. || January accounts for 31 days. February adds 28, taking the count to 59.
-10 | The first of March is day sixty. If no required police report has been filed, the second of March is day sixty one. || 1 March is day 60. If no required police report has been filed, 2 March is day 61.
+10 | The first of March is day sixty. If the police report is not filed by then, the right arises on the second of March, day sixty one. || 1 March is day 60. If the police report is not filed by then, the right arises on 2 March, day 61.
 10 | Ravi can then claim default bail, and offer to furnish bail. He does not simply walk out when the calendar changes.
 6 | A court order, and compliance with the release requirements, are needed.
 # 9 · WHY A TIMELY CLAIM MATTERS
