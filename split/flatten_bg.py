@@ -528,7 +528,7 @@ def render(path, out, info, mx, A, target_rgb, keep=()):
     sp = [f"{opt}={info['tags'][tag]}" for tag, opt in (("color_space", "colorspace"), ("color_range", "range"), ("color_primaries", "color_primaries"),
                                                          ("color_transfer", "color_trc")) if info["tags"].get(tag) not in (None, "", "unknown")]
     if sp: enc += ["-vf", "setparams=" + ":".join(sp)]
-    tmp = out + ".part.mp4"; enc += ["-c:a", "copy", "-movflags", "+faststart", tmp]
+    tmp = out + f".part{os.getpid()}.mp4"; enc += ["-c:a", "copy", "-movflags", "+faststart", tmp]
     pe = subprocess.Popen(enc, stdin=subprocess.PIPE)
     st = {"wsum": np.zeros((h // 2, w // 2), np.float32), "nf": 0, "snaps": {}}; iys = np.float32(1 / mx.ys)
     invD = (1 / A["D"]).astype(np.float32); omD = (1 - A["D"]).astype(np.float32)

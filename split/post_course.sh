@@ -16,6 +16,21 @@ for c in ids:
     src, flat, w = f"downloads/{s}/{c}.mp4", f"downloads/{s}/flat/{c}.mp4", f"downloads/{s}/{c}.words.json"
     if not (os.path.exists(src) and os.path.exists(w) and os.path.exists(flat) and os.path.getmtime(flat) >= os.path.getmtime(src)): bad.append(c); continue
     if not json.load(open(w)).get("keep"): bad.append(c)
+if not bad:
+    # every flat must be readable and as long as its source: a corrupt flat (two flattens of one clip, 19-10) is set aside so the
+    # flatten workers redo it, instead of failing the size match later
+    import subprocess, time
+    def dur(p):
+        r = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", p], capture_output=True, text=True).stdout.strip()
+        try: return float(r)
+        except ValueError: return None
+    for c in ids:
+        flat, src = f"downloads/{s}/flat/{c}.mp4", f"downloads/{s}/{c}.mp4"
+        fd, sd = dur(flat), dur(src)
+        if fd is None or sd is None or abs(fd - sd) > 0.1:
+            os.makedirs("downloads/_old_style_19oct/corrupt_flats", exist_ok=True)
+            os.replace(flat, f"downloads/_old_style_19oct/corrupt_flats/{s}_{c}_{int(time.time())}.mp4"); bad.append(c)
+            print(f"[post {s}] corrupt flat {c} set aside for re-flattening", file=sys.stderr)
 print(len(bad)); sys.exit(0 if not bad else 1)
 PY
 }

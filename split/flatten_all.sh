@@ -24,5 +24,10 @@ PY
 )
   if [ "$next" = "DONE" ]; then echo "$(date +%H:%M:%S) all sets flat"; break; fi
   if [ "$next" = "WAIT" ]; then sleep 20; continue; fi
+  # claim the clip atomically (mkdir): the ps check alone let both workers take the same new clip, and their outputs collided (19-10)
+  lock="${next:h}/flat/.lock_${next:t:r}"; mkdir -p "${next:h}/flat"
+  find "$lock" -maxdepth 0 -mmin +15 -exec rmdir {} \; 2>/dev/null      # a stale claim (killed worker) expires after 15 min
+  if ! mkdir "$lock" 2>/dev/null; then sleep 5; continue; fi
   FLATTEN_PRESET=veryfast nice -n 10 python3 split/flatten_bg.py --seam left $next 2>&1 | grep -E "^\[flatten\]" | sed "s/^/$(date +%H:%M:%S) /" | cut -c1-260
+  rmdir "$lock"
 done
