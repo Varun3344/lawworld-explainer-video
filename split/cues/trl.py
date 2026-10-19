@@ -20,12 +20,13 @@ cue(type="flow", t0=S("c02"), t1=E("c02") + 0.05, head="A contested Sessions tri
 cue(type="point", t0=S("c03"), t1=E("c03") + 0.05, text="Arjun: accused of murder, denies it (an illustration)", icon="user-round", at=A("c03", "arjun"))
 
 # ── 2 · before the trial ─────────────────────────────────────────────────────────────────────────────────────────────────────────
-cue(type="flow", t0=S("c04"), t1=E("c08") + 0.05, head="Before the trial", head_at=S("c04") + 0.05, dir="v",
-    steps=[{"label": "Police report", "sub": "§ 193", "icon": "file-text", "at": A("c04", "police")},
-           {"label": "Cognizance decided", "sub": "§ 210", "icon": "search", "at": A("c05", "decides")},
-           {"label": "Papers supplied free", "sub": "§ 230 · within 14 days", "icon": "copy", "at": A("c06", "papers")},
-           {"label": "Committed to Sessions", "sub": "§ 232", "icon": "landmark", "at": A("c07", "committed")},
-           {"label": "Prosecutor opens the case", "sub": "§ 249", "icon": "gavel", "tone": "ok", "at": A("c08", "opens")}])
+# five steps did not fit a vertical flow (the last step ran off the panel, labels shrank below their section numbers): a list
+cue(type="list", t0=S("c04"), t1=E("c08") + 0.05, head="Before the trial", head_at=S("c04") + 0.05,
+    items=[{"n": 1, "text": "Police report: § 193", "at": A("c04", "police")},
+           {"n": 2, "text": "Cognizance decided: § 210", "at": A("c05", "decides")},
+           {"n": 3, "text": "Papers free, within 14 days: § 230", "at": A("c06", "papers")},
+           {"n": 4, "text": "Committed to Sessions: § 232", "at": A("c07", "committed")},
+           {"n": 5, "text": "Prosecutor opens the case: § 249", "at": A("c08", "opens")}])
 
 # ── 3 · discharge, charge, plea ──────────────────────────────────────────────────────────────────────────────────────────────────
 cue(type="section", t0=S("c09"), t1=E("c10") + 0.05, at=A("c09", "section"), act="BNSS", num="250", title="Discharge",
