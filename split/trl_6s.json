@@ -15,12 +15,12 @@
   "voice": "@me verified avatar voice (identical pitch, tone, accent in every clip)",
   "outfit": "a tailored deep maroon two-piece business suit and a light-blue formal shirt with an open collar, no tie (identical in every scene)",
   "background": "a seamless, plain, very light ivory off-white studio backdrop (almost white, with only a faint warm tint), brightly and evenly lit from edge to edge with no falloff, no vignette, no shadows, no texture and no objects - nothing else in the frame; identical in every scene",
-  "gestures": "He faces the camera squarely for the whole clip: head, shoulders and body stay square to the lens, he never turns to the left or right and never points or presents to the side. Lively but controlled open-palm gestures in front of his chest, counting points on his fingers, small confident nods and a bright smile on emphasis; relaxed fingers close together; hands stay in front of his body, inside the frame and never in front of his face; he stays standing in the same spot, at the same distance from the camera, throughout",
-  "audio": "@me verified avatar voice ONLY, clear and energetic, continuous speech at a brisk trainer's pace, NO background music, NO sound effects, NO silence at the start or end",
+  "gestures": "He faces the camera squarely for the whole clip: head, shoulders and body stay square to the lens, he never turns to the left or right and never points or presents to the side. Animated, energetic open-palm gestures in front of his chest, counting points on his fingers, small confident nods and a bright smile on emphasis; relaxed fingers close together; hands stay in front of his body, inside the frame and never in front of his face; he stays standing in the same spot, at the same distance from the camera, throughout",
+  "audio": "@me verified avatar voice ONLY, crisp, clear and high-energy, fast continuous speech at a quick trainer's pace, NO background music, NO sound effects, NO silence at the start or end",
   "negativePrompts": "He stays in the same spot with his face and upper body fully visible at all times; NO turning the head or body to the side, NO looking away from the camera, NO pointing or presenting to the left or right, NO arm stretched out to the side, NO arms, elbows, hands or shoulders touching or cut by the frame edges, NO oversized hands, NO hands held toward the camera, NO big or spread-out fingers, NO thin or lanky body, NO wide-angle lens distortion, NO furniture, NO bookshelves, NO plants, NO lamps, NO props, NO objects behind him, NO icons or graphics, NO text on screen, NO captions, NO name tags, NO logos, NO outfit change, NO camera cut, NO tripod, NO camera or microphone or any studio equipment visible in frame, NO other people",
   "camera": "Locked-off static shot, vertical. A medium-wide shot: he is STANDING in the middle of the frame, framed from mid-thigh up and fairly small in the frame, so his body fills only about the middle half of the frame width with wide empty backdrop on BOTH sides of him; his shoulders, elbows and hands always stay well inside the frame; clear space above his head. Eye level, natural portrait-lens look, no zoom, no pan, no camera movement; the camera itself is never visible",
   "realism": "Photorealistic live-action footage of a real human presenter recorded in one studio session against a plain ivory backdrop, NOT a furnished room. Soft, bright, even high-key light: a soft frontal key light on his face with soft fill, no harsh shadows, natural skin texture, natural eye contact straight into the lens and PERFECT LIP SYNC: his lips, jaw and mouth shapes match every syllable of the dialogue exactly, in time with the voice, no mouth movement without sound and no sound without mouth movement, identical exposure and white balance in every scene. TRUE-TO-LIFE BODY: natural adult proportions that match his face - broad shoulders, a solid average build that fills the jacket (not slim, not lanky), and SLENDER, NATURAL-SIZE HANDS: each hand no longer than his face, relaxed fingers held close together, never spread wide, hands never closer to the camera than his chest",
-  "delivery": "Highly energetic, enthusiastic legal trainer leading a masterclass for advocates, like a motivating coach talking straight to camera: bright smile, lively eyes, confident emphasis on key words, brisk clear pace, a tiny pause after each full stop; speak the dialogue exactly once, word for word, never repeat, stretch or slow down a word, never add words"
+  "delivery": "FAST, HIGH-ENERGY delivery, like a top law educator on YouTube coaching advocates straight to camera: quick, punchy pace (about 160 words per minute) with no slow stretches, a strong confident voice, rising energy, crisp emphasis on key words, bright smile, lively eyes; CRISP, PRECISE DICTION: every word pronounced fully, clearly and correctly in neutral Indian English, every consonant clear, the letters of an acronym spoken one by one (B N S S); only a very brief breath at each full stop; speak the dialogue exactly once, word for word, never repeat, stretch or slow down a word, never add words"
  },
  "projectTitle": "LawWorld_trl_6s",
  "clipDurationSeconds": 6,
@@ -28,62 +28,27 @@
   {
    "sceneId": "c01",
    "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "A criminal case does not move straight from an F I R to punishment. Evidence must be presented, tested and considered."
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "Your client is accused of murder. He denies it. Does the F I R lead straight to punishment? No. Evidence must be presented, tested and considered."
   },
   {
-   "sceneId": "c03",
+   "sceneId": "c04",
    "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "In our illustration, Arjun is accused of murder and denies the allegation."
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "Under Section Two Ten, the Magistrate decides whether to take cognizance of the offence."
   },
   {
-   "sceneId": "c05",
+   "sceneId": "c09",
    "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "Under Section Two Ten, the Magistrate decides whether to take cognizance."
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "Insufficient ground for proceeding? Then the Judge must discharge the accused, and record reasons."
   },
   {
-   "sceneId": "c10",
+   "sceneId": "c15",
    "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "If there is insufficient ground for proceeding, the Judge must discharge with reasons."
-  },
-  {
-   "sceneId": "c13",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "Arjun contests the charge, so the prosecution's evidence must follow."
-  },
-  {
-   "sceneId": "c17",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "Remember, an allegation in a charge sheet is not itself proof of guilt."
-  },
-  {
-   "sceneId": "c26",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "And throughout, the prosecution still carries its burden of proving guilt."
-  },
-  {
-   "sceneId": "c29",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "But a lawyer's argument is not, by itself, proof of a disputed fact."
-  },
-  {
-   "sceneId": "c31",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "That period can be extended to forty five days, but only with written reasons."
-  },
-  {
-   "sceneId": "c39",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "Both conclude under Sections Two Seventy One to Two Seventy Three."
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "And never forget this: an allegation in a charge sheet is not itself proof of guilt."
   }
- ]
+ ],
+ "flowProjectUrl": "https://flow.google.com/project/ceeebc2b-7a34-4959-a7e7-5234bc413411"
 }

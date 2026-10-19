@@ -15,12 +15,12 @@
   "voice": "@me verified avatar voice (identical pitch, tone, accent in every clip)",
   "outfit": "a tailored deep maroon two-piece business suit and a light-blue formal shirt with an open collar, no tie (identical in every scene)",
   "background": "a seamless, plain, very light ivory off-white studio backdrop (almost white, with only a faint warm tint), brightly and evenly lit from edge to edge with no falloff, no vignette, no shadows, no texture and no objects - nothing else in the frame; identical in every scene",
-  "gestures": "He faces the camera squarely for the whole clip: head, shoulders and body stay square to the lens, he never turns to the left or right and never points or presents to the side. Lively but controlled open-palm gestures in front of his chest, counting points on his fingers, small confident nods and a bright smile on emphasis; relaxed fingers close together; hands stay in front of his body, inside the frame and never in front of his face; he stays standing in the same spot, at the same distance from the camera, throughout",
-  "audio": "@me verified avatar voice ONLY, clear and energetic, continuous speech at a brisk trainer's pace, NO background music, NO sound effects, NO silence at the start or end",
+  "gestures": "He faces the camera squarely for the whole clip: head, shoulders and body stay square to the lens, he never turns to the left or right and never points or presents to the side. Animated, energetic open-palm gestures in front of his chest, counting points on his fingers, small confident nods and a bright smile on emphasis; relaxed fingers close together; hands stay in front of his body, inside the frame and never in front of his face; he stays standing in the same spot, at the same distance from the camera, throughout",
+  "audio": "@me verified avatar voice ONLY, crisp, clear and high-energy, fast continuous speech at a quick trainer's pace, NO background music, NO sound effects, NO silence at the start or end",
   "negativePrompts": "He stays in the same spot with his face and upper body fully visible at all times; NO turning the head or body to the side, NO looking away from the camera, NO pointing or presenting to the left or right, NO arm stretched out to the side, NO arms, elbows, hands or shoulders touching or cut by the frame edges, NO oversized hands, NO hands held toward the camera, NO big or spread-out fingers, NO thin or lanky body, NO wide-angle lens distortion, NO furniture, NO bookshelves, NO plants, NO lamps, NO props, NO objects behind him, NO icons or graphics, NO text on screen, NO captions, NO name tags, NO logos, NO outfit change, NO camera cut, NO tripod, NO camera or microphone or any studio equipment visible in frame, NO other people",
   "camera": "Locked-off static shot, vertical. A medium-wide shot: he is STANDING in the middle of the frame, framed from mid-thigh up and fairly small in the frame, so his body fills only about the middle half of the frame width with wide empty backdrop on BOTH sides of him; his shoulders, elbows and hands always stay well inside the frame; clear space above his head. Eye level, natural portrait-lens look, no zoom, no pan, no camera movement; the camera itself is never visible",
   "realism": "Photorealistic live-action footage of a real human presenter recorded in one studio session against a plain ivory backdrop, NOT a furnished room. Soft, bright, even high-key light: a soft frontal key light on his face with soft fill, no harsh shadows, natural skin texture, natural eye contact straight into the lens and PERFECT LIP SYNC: his lips, jaw and mouth shapes match every syllable of the dialogue exactly, in time with the voice, no mouth movement without sound and no sound without mouth movement, identical exposure and white balance in every scene. TRUE-TO-LIFE BODY: natural adult proportions that match his face - broad shoulders, a solid average build that fills the jacket (not slim, not lanky), and SLENDER, NATURAL-SIZE HANDS: each hand no longer than his face, relaxed fingers held close together, never spread wide, hands never closer to the camera than his chest",
-  "delivery": "Highly energetic, enthusiastic legal trainer leading a masterclass for advocates, like a motivating coach talking straight to camera: bright smile, lively eyes, confident emphasis on key words, brisk clear pace, a tiny pause after each full stop; speak the dialogue exactly once, word for word, never repeat, stretch or slow down a word, never add words"
+  "delivery": "FAST, HIGH-ENERGY delivery, like a top law educator on YouTube coaching advocates straight to camera: quick, punchy pace (about 160 words per minute) with no slow stretches, a strong confident voice, rising energy, crisp emphasis on key words, bright smile, lively eyes; CRISP, PRECISE DICTION: every word pronounced fully, clearly and correctly in neutral Indian English, every consonant clear, the letters of an acronym spoken one by one (B N S S); only a very brief breath at each full stop; speak the dialogue exactly once, word for word, never repeat, stretch or slow down a word, never add words"
  },
  "projectTitle": "LawWorld_trl_8s",
  "clipDurationSeconds": 8,
@@ -28,80 +28,129 @@
   {
    "sceneId": "c01",
    "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "A criminal case does not move straight from an F I R to punishment. Evidence must be presented, tested and considered."
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "Your client is accused of murder. He denies it. Does the F I R lead straight to punishment? No. Evidence must be presented, tested and considered."
+  },
+  {
+   "sceneId": "c02",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "Call him Arjun. Follow his contested Sessions trial under the Bharatiya Nagarik Suraksha Sanhita, or B N S S."
+  },
+  {
+   "sceneId": "c03",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "Investigation or trial? Keep them separate. Police investigate, and submit their report under Section One Ninety Three."
+  },
+  {
+   "sceneId": "c06",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "Is the offence triable exclusively by the Court of Session? Then the case is committed there, under Section Two Thirty Two."
   },
   {
    "sceneId": "c07",
    "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "A case triable exclusively by the Court of Session is committed to that court under Section Two Thirty Two."
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "The Public Prosecutor then opens the case under Section Two Forty Nine, explaining the accusation and the evidence."
   },
   {
-   "sceneId": "c11",
+   "sceneId": "c08",
    "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "Otherwise, Section Two Fifty One requires a written charge within sixty days from the first hearing on charge."
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "Can your client be discharged? Under Section Two Fifty, the application may be made within sixty days from commitment."
   },
   {
-   "sceneId": "c12",
+   "sceneId": "c13",
    "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "The charge is explained and the plea recorded. A guilty plea may lead to conviction under Section Two Fifty Two."
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "Arjun's case: an eyewitness describes the incident, a doctor explains medical findings, and recordings may be produced."
   },
   {
-   "sceneId": "c16",
+   "sceneId": "c14",
    "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "The defence can cross examine: could the witness see clearly, and does the medical evidence support the account?"
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "Your turn: cross examine. Could the witness really see clearly? Does the medical evidence actually support the account?"
   },
   {
-   "sceneId": "c19",
+   "sceneId": "c17",
    "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "After the prosecution witnesses, and before the defence stage, comes a crucial safeguard."
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "Prosecution witnesses over? Before the defence stage comes a crucial safeguard, under Section Three Fifty One."
+  },
+  {
+   "sceneId": "c18",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "It requires the court to put the circumstances appearing against the accused to him, for his explanation."
+  },
+  {
+   "sceneId": "c22",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "Otherwise, Section Two Fifty Six allows defence evidence. Arjun might call a workplace witness, or produce attendance records."
+  },
+  {
+   "sceneId": "c24",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "Evidence done? Section Two Fifty Seven provides for final arguments. The prosecutor sums up, and the defence replies."
   },
   {
    "sceneId": "c25",
    "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "He need not enter the witness box; Section Three Fifty Three lets him testify on his own written request."
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "The prosecution links the evidence to the offence. The defence points out weaknesses, inconsistencies or reasonable doubt."
+  },
+  {
+   "sceneId": "c26",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "Tie every argument to the record, because a lawyer's argument is not, by itself, proof of a disputed fact."
+  },
+  {
+   "sceneId": "c28",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "That period can be extended to forty five days, but only with written reasons. Note the exact date the arguments end."
+  },
+  {
+   "sceneId": "c29",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "The court decides whether Arjun's guilt has been proved beyond reasonable doubt, and gives reasons for acquittal or conviction."
   },
   {
    "sceneId": "c30",
    "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "Under Section Two Fifty Eight, the Sessions Judge must deliver judgment within thirty days of the arguments ending."
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "Common mistake: these thirty or forty five days start after arguments. They set no deadline for the whole case from the F I R."
   },
   {
-   "sceneId": "c35",
+   "sceneId": "c31",
    "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "The court considers the sentencing material and the parties' submissions, then passes the lawful sentence."
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "If Arjun is convicted, Section Two Fifty Eight, sub section Two, requires a hearing on sentence before punishment."
   },
   {
-   "sceneId": "c36",
+   "sceneId": "c33",
    "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "Conviction decides guilt; sentencing addresses its legal consequence. Any appeal is a separate process."
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "Magistrate trial? The provisions change. Warrant cases on a police report follow Sections Two Sixty One to Two Sixty Six."
   },
   {
-   "sceneId": "c38",
+   "sceneId": "c34",
    "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "Complaint warrant cases follow Sections Two Sixty Seven to Two Seventy, with evidence before charge."
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "Complaint warrant cases follow Sections Two Sixty Seven to Two Seventy, with evidence taken before the charge."
   },
   {
-   "sceneId": "c40",
+   "sceneId": "c37",
    "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "Summons cases follow Sections Two Seventy Four to Two Seventy Eight, without a formal charge."
-  },
-  {
-   "sceneId": "c42",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "Sentencing follows if there is a conviction. Always check the case type, and each deadline's starting point."
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "And sentencing follows only if there is a conviction. Always check the case type, and each deadline's exact starting point."
   }
- ]
+ ],
+ "flowProjectUrl": "https://flow.google.com/project/a232d9c2-fc64-4859-b492-5df6b69e84ef"
 }

@@ -6,249 +6,223 @@
   {
    "sceneId": "c01",
    "seconds": 10,
-   "dialogue": "A criminal case does not move straight from an F I R to punishment. Evidence must be presented, tested and considered.",
-   "shown": "A criminal case does not move straight from an FIR to punishment. Evidence must be presented, tested and considered.",
+   "dialogue": "Your client is accused of murder. He denies it. Does the F I R lead straight to punishment? No. Evidence must be presented, tested and considered.",
+   "shown": "Your client is accused of murder. He denies it. Does the FIR lead straight to punishment? No. Evidence must be presented, tested and considered.",
    "chip": "1 · FROM FIR TO JUDGMENT"
   },
   {
    "sceneId": "c02",
-   "seconds": 10,
-   "dialogue": "Let us follow a contested Sessions trial under the Bharatiya Nagarik Suraksha Sanhita, or B N S S.",
-   "shown": "Let us follow a contested Sessions trial under the Bharatiya Nagarik Suraksha Sanhita, or BNSS."
+   "seconds": 8,
+   "dialogue": "Call him Arjun. Follow his contested Sessions trial under the Bharatiya Nagarik Suraksha Sanhita, or B N S S.",
+   "shown": "Call him Arjun. Follow his contested Sessions trial under the Bharatiya Nagarik Suraksha Sanhita, or BNSS."
   },
   {
    "sceneId": "c03",
-   "seconds": 6,
-   "dialogue": "In our illustration, Arjun is accused of murder and denies the allegation."
-  },
-  {
-   "sceneId": "c04",
-   "seconds": 10,
-   "dialogue": "First, separate investigation from trial. Police submit their investigation report under Section One Ninety Three.",
-   "shown": "First, separate investigation from trial. Police submit their investigation report under Section 193.",
+   "seconds": 8,
+   "dialogue": "Investigation or trial? Keep them separate. Police investigate, and submit their report under Section One Ninety Three.",
+   "shown": "Investigation or trial? Keep them separate. Police investigate, and submit their report under Section 193.",
    "chip": "2 · BEFORE THE TRIAL"
   },
   {
-   "sceneId": "c05",
+   "sceneId": "c04",
    "seconds": 6,
-   "dialogue": "Under Section Two Ten, the Magistrate decides whether to take cognizance.",
-   "shown": "Under Section 210, the Magistrate decides whether to take cognizance."
+   "dialogue": "Under Section Two Ten, the Magistrate decides whether to take cognizance of the offence.",
+   "shown": "Under Section 210, the Magistrate decides whether to take cognizance of the offence."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "Section Two Thirty requires the papers to be supplied free, within fourteen days from the accused's production or appearance. Check both dates carefully.",
+   "shown": "Section 230 requires the papers to be supplied free, within 14 days from the accused's production or appearance. Check both dates carefully."
   },
   {
    "sceneId": "c06",
-   "seconds": 10,
-   "dialogue": "Section Two Thirty requires the papers to be supplied free, within fourteen days from the accused's production or appearance.",
-   "shown": "Section 230 requires the papers to be supplied free, within 14 days from the accused's production or appearance."
+   "seconds": 8,
+   "dialogue": "Is the offence triable exclusively by the Court of Session? Then the case is committed there, under Section Two Thirty Two.",
+   "shown": "Is the offence triable exclusively by the Court of Session? Then the case is committed there, under Section 232."
   },
   {
    "sceneId": "c07",
    "seconds": 8,
-   "dialogue": "A case triable exclusively by the Court of Session is committed to that court under Section Two Thirty Two.",
-   "shown": "A case triable exclusively by the Court of Session is committed to that court under Section 232."
-  },
-  {
-   "sceneId": "c08",
-   "seconds": 10,
    "dialogue": "The Public Prosecutor then opens the case under Section Two Forty Nine, explaining the accusation and the evidence.",
    "shown": "The Public Prosecutor then opens the case under Section 249, explaining the accusation and the evidence."
   },
   {
-   "sceneId": "c09",
-   "seconds": 10,
-   "dialogue": "Next, the Judge considers discharge under Section Two Fifty. The application may be made within sixty days from commitment.",
-   "shown": "Next, the Judge considers discharge under Section 250. The application may be made within 60 days from commitment.",
+   "sceneId": "c08",
+   "seconds": 8,
+   "dialogue": "Can your client be discharged? Under Section Two Fifty, the application may be made within sixty days from commitment.",
+   "shown": "Can your client be discharged? Under Section 250, the application may be made within 60 days from commitment.",
    "chip": "3 · DISCHARGE, CHARGE, PLEA"
   },
   {
-   "sceneId": "c10",
+   "sceneId": "c09",
    "seconds": 6,
-   "dialogue": "If there is insufficient ground for proceeding, the Judge must discharge with reasons."
+   "dialogue": "Insufficient ground for proceeding? Then the Judge must discharge the accused, and record reasons."
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "Otherwise, Section Two Fifty One requires a written charge within sixty days from the first hearing on charge. That second clock has a different trigger.",
+   "shown": "Otherwise, Section 251 requires a written charge within 60 days from the first hearing on charge. That second clock has a different trigger."
   },
   {
    "sceneId": "c11",
-   "seconds": 8,
-   "dialogue": "Otherwise, Section Two Fifty One requires a written charge within sixty days from the first hearing on charge.",
-   "shown": "Otherwise, Section 251 requires a written charge within 60 days from the first hearing on charge."
+   "seconds": 10,
+   "dialogue": "The charge is read and explained, and the plea is recorded. A guilty plea may lead to conviction under Section Two Fifty Two. Arjun contests the charge.",
+   "shown": "The charge is read and explained, and the plea is recorded. A guilty plea may lead to conviction under Section 252. Arjun contests the charge."
   },
   {
    "sceneId": "c12",
-   "seconds": 8,
-   "dialogue": "The charge is explained and the plea recorded. A guilty plea may lead to conviction under Section Two Fifty Two.",
-   "shown": "The charge is explained and the plea recorded. A guilty plea may lead to conviction under Section 252."
-  },
-  {
-   "sceneId": "c13",
-   "seconds": 6,
-   "dialogue": "Arjun contests the charge, so the prosecution's evidence must follow."
-  },
-  {
-   "sceneId": "c14",
    "seconds": 10,
-   "dialogue": "Sections Two Fifty Three and Two Fifty Four govern prosecution evidence. Witnesses testify, and documents are presented.",
-   "shown": "Sections 253 and 254 govern prosecution evidence. Witnesses testify, and documents are presented.",
+   "dialogue": "The prosecution must prove its case. Sections Two Fifty Three and Two Fifty Four govern its evidence: witnesses testify, and documents are presented.",
+   "shown": "The prosecution must prove its case. Sections 253 and 254 govern its evidence: witnesses testify, and documents are presented.",
    "chip": "4 · PROSECUTION EVIDENCE"
   },
   {
+   "sceneId": "c13",
+   "seconds": 8,
+   "dialogue": "Arjun's case: an eyewitness describes the incident, a doctor explains medical findings, and recordings may be produced."
+  },
+  {
+   "sceneId": "c14",
+   "seconds": 8,
+   "dialogue": "Your turn: cross examine. Could the witness really see clearly? Does the medical evidence actually support the account?",
+   "shown": "Your turn: cross-examine. Could the witness really see clearly? Does the medical evidence actually support the account?"
+  },
+  {
    "sceneId": "c15",
-   "seconds": 10,
-   "dialogue": "In Arjun's case, an eyewitness describes the incident, a doctor explains the medical findings, and recordings may be produced."
+   "seconds": 6,
+   "dialogue": "And never forget this: an allegation in a charge sheet is not itself proof of guilt."
   },
   {
    "sceneId": "c16",
-   "seconds": 8,
-   "dialogue": "The defence can cross examine: could the witness see clearly, and does the medical evidence support the account?",
-   "shown": "The defence can cross-examine: could the witness see clearly, and does the medical evidence support the account?"
+   "seconds": 10,
+   "dialogue": "What about delay? Section Three Forty Six generally requires day to day hearings while attending witnesses remain to be examined.",
+   "shown": "What about delay? Section 346 generally requires day-to-day hearings while attending witnesses remain to be examined."
   },
   {
    "sceneId": "c17",
-   "seconds": 6,
-   "dialogue": "Remember, an allegation in a charge sheet is not itself proof of guilt."
+   "seconds": 8,
+   "dialogue": "Prosecution witnesses over? Before the defence stage comes a crucial safeguard, under Section Three Fifty One.",
+   "shown": "Prosecution witnesses over? Before the defence stage comes a crucial safeguard, under Section 351.",
+   "chip": "5 · THE ACCUSED EXPLAINS"
   },
   {
    "sceneId": "c18",
-   "seconds": 10,
-   "dialogue": "Section Three Forty Six generally requires day to day hearings while attending witnesses remain to be examined.",
-   "shown": "Section 346 generally requires day-to-day hearings while attending witnesses remain to be examined."
+   "seconds": 8,
+   "dialogue": "It requires the court to put the circumstances appearing against the accused to him, for his explanation."
   },
   {
    "sceneId": "c19",
-   "seconds": 8,
-   "dialogue": "After the prosecution witnesses, and before the defence stage, comes a crucial safeguard.",
-   "chip": "5 · THE ACCUSED EXPLAINS"
+   "seconds": 10,
+   "dialogue": "A witness places Arjun at the scene? He must get a fair opportunity to answer. This is not cross examination on oath. It is his chance to explain.",
+   "shown": "A witness places Arjun at the scene? He must get a fair opportunity to answer. This is not cross-examination on oath. It is his chance to explain."
   },
   {
    "sceneId": "c20",
    "seconds": 10,
-   "dialogue": "Section Three Fifty One requires the court to put the circumstances appearing against the accused to him, for his explanation.",
-   "shown": "Section 351 requires the court to put the circumstances appearing against the accused to him, for his explanation."
+   "dialogue": "Every incriminating circumstance must be put to him specifically. The Supreme Court treats this safeguard as no formality. So check the record."
   },
   {
    "sceneId": "c21",
    "seconds": 10,
-   "dialogue": "If a witness places Arjun at the scene, he must get a fair opportunity to answer. This is not cross examination on oath.",
-   "shown": "If a witness places Arjun at the scene, he must get a fair opportunity to answer. This is not cross-examination on oath."
-  },
-  {
-   "sceneId": "c22",
-   "seconds": 10,
-   "dialogue": "Every incriminating circumstance must be put to him specifically. The Supreme Court treats this safeguard as no formality."
-  },
-  {
-   "sceneId": "c23",
-   "seconds": 10,
-   "dialogue": "Section Two Fifty Five is a checkpoint. If there is no evidence that the accused committed the offence, the Judge must acquit.",
-   "shown": "Section 255 is a checkpoint. If there is no evidence that the accused committed the offence, the Judge must acquit.",
+   "dialogue": "Is there any evidence that he did it? Section Two Fifty Five is the checkpoint. No evidence that the accused committed the offence? The Judge must acquit.",
+   "shown": "Is there any evidence that he did it? Section 255 is the checkpoint. No evidence that the accused committed the offence? The Judge must acquit.",
    "chip": "6 · ACQUITTAL OR DEFENCE"
   },
   {
-   "sceneId": "c24",
-   "seconds": 10,
+   "sceneId": "c22",
+   "seconds": 8,
    "dialogue": "Otherwise, Section Two Fifty Six allows defence evidence. Arjun might call a workplace witness, or produce attendance records.",
    "shown": "Otherwise, Section 256 allows defence evidence. Arjun might call a workplace witness, or produce attendance records."
   },
   {
+   "sceneId": "c23",
+   "seconds": 10,
+   "dialogue": "Arjun need not enter the witness box; Section Three Fifty Three lets him testify only on his own written request. Proving guilt remains the prosecution's burden.",
+   "shown": "Arjun need not enter the witness box; Section 353 lets him testify only on his own written request. Proving guilt remains the prosecution's burden."
+  },
+  {
+   "sceneId": "c24",
+   "seconds": 8,
+   "dialogue": "Evidence done? Section Two Fifty Seven provides for final arguments. The prosecutor sums up, and the defence replies.",
+   "shown": "Evidence done? Section 257 provides for final arguments. The prosecutor sums up, and the defence replies.",
+   "chip": "7 · FINAL ARGUMENTS"
+  },
+  {
    "sceneId": "c25",
    "seconds": 8,
-   "dialogue": "He need not enter the witness box; Section Three Fifty Three lets him testify on his own written request.",
-   "shown": "He need not enter the witness box; Section 353 lets him testify on his own written request."
+   "dialogue": "The prosecution links the evidence to the offence. The defence points out weaknesses, inconsistencies or reasonable doubt."
   },
   {
    "sceneId": "c26",
-   "seconds": 6,
-   "dialogue": "And throughout, the prosecution still carries its burden of proving guilt."
+   "seconds": 8,
+   "dialogue": "Tie every argument to the record, because a lawyer's argument is not, by itself, proof of a disputed fact."
   },
   {
    "sceneId": "c27",
    "seconds": 10,
-   "dialogue": "When the evidence is complete, Section Two Fifty Seven provides for final arguments. The prosecutor sums up, and the defence replies.",
-   "shown": "When the evidence is complete, Section 257 provides for final arguments. The prosecutor sums up, and the defence replies.",
-   "chip": "7 · FINAL ARGUMENTS"
+   "dialogue": "Arguments are over. How long can the judgment take? Under Section Two Fifty Eight, the Sessions Judge must deliver it within thirty days of the arguments ending.",
+   "shown": "Arguments are over. How long can the judgment take? Under Section 258, the Sessions Judge must deliver it within 30 days of the arguments ending.",
+   "chip": "8 · JUDGMENT AND SENTENCE"
   },
   {
    "sceneId": "c28",
-   "seconds": 10,
-   "dialogue": "The prosecution connects the evidence to the offence. The defence points out weaknesses, inconsistencies or reasonable doubt."
+   "seconds": 8,
+   "dialogue": "That period can be extended to forty five days, but only with written reasons. Note the exact date the arguments end.",
+   "shown": "That period can be extended to 45 days, but only with written reasons. Note the exact date the arguments end."
   },
   {
    "sceneId": "c29",
-   "seconds": 6,
-   "dialogue": "But a lawyer's argument is not, by itself, proof of a disputed fact."
+   "seconds": 8,
+   "dialogue": "The court decides whether Arjun's guilt has been proved beyond reasonable doubt, and gives reasons for acquittal or conviction."
   },
   {
    "sceneId": "c30",
    "seconds": 8,
-   "dialogue": "Under Section Two Fifty Eight, the Sessions Judge must deliver judgment within thirty days of the arguments ending.",
-   "shown": "Under Section 258, the Sessions Judge must deliver judgment within 30 days of the arguments ending.",
-   "chip": "8 · JUDGMENT AND ITS DEADLINE"
+   "dialogue": "Common mistake: these thirty or forty five days start after arguments. They set no deadline for the whole case from the F I R.",
+   "shown": "Common mistake: these 30 or 45 days start after arguments. They set no deadline for the whole case from the FIR."
   },
   {
    "sceneId": "c31",
-   "seconds": 6,
-   "dialogue": "That period can be extended to forty five days, but only with written reasons.",
-   "shown": "That period can be extended to 45 days, but only with written reasons."
+   "seconds": 8,
+   "dialogue": "If Arjun is convicted, Section Two Fifty Eight, sub section Two, requires a hearing on sentence before punishment.",
+   "shown": "If Arjun is convicted, Section 258(2) requires a hearing on sentence before punishment."
   },
   {
    "sceneId": "c32",
    "seconds": 10,
-   "dialogue": "The court decides whether Arjun's guilt has been proved beyond reasonable doubt, and gives reasons for acquittal or conviction."
+   "dialogue": "Come prepared. The court considers the sentencing material and the parties' submissions, then passes the lawful sentence. Any appeal is a separate process."
   },
   {
    "sceneId": "c33",
-   "seconds": 10,
-   "dialogue": "These thirty or forty five days start after the arguments. They are not a deadline for the whole case from the F I R.",
-   "shown": "These 30 or 45 days start after the arguments. They are not a deadline for the whole case from the FIR."
+   "seconds": 8,
+   "dialogue": "Magistrate trial? The provisions change. Warrant cases on a police report follow Sections Two Sixty One to Two Sixty Six.",
+   "shown": "Magistrate trial? The provisions change. Warrant cases on a police report follow Sections 261 to 266.",
+   "chip": "9 · MAGISTRATE TRIALS"
   },
   {
    "sceneId": "c34",
-   "seconds": 10,
-   "dialogue": "If Arjun is convicted, Section Two Fifty Eight, sub section Two, requires a hearing on sentence before punishment.",
-   "shown": "If Arjun is convicted, Section 258(2) requires a hearing on sentence before punishment.",
-   "chip": "9 · IF CONVICTED"
+   "seconds": 8,
+   "dialogue": "Complaint warrant cases follow Sections Two Sixty Seven to Two Seventy, with evidence taken before the charge.",
+   "shown": "Complaint warrant cases follow Sections 267 to 270, with evidence taken before the charge."
   },
   {
    "sceneId": "c35",
-   "seconds": 8,
-   "dialogue": "The court considers the sentencing material and the parties' submissions, then passes the lawful sentence."
+   "seconds": 10,
+   "dialogue": "Both conclude under Sections Two Seventy One to Two Seventy Three. Summons cases follow Sections Two Seventy Four to Two Seventy Eight, with no formal charge.",
+   "shown": "Both conclude under Sections 271 to 273. Summons cases follow Sections 274 to 278, with no formal charge."
   },
   {
    "sceneId": "c36",
-   "seconds": 8,
-   "dialogue": "Conviction decides guilt; sentencing addresses its legal consequence. Any appeal is a separate process."
+   "seconds": 10,
+   "dialogue": "Remember the main Sessions route: charge and plea, prosecution evidence, the accused's explanation, any defence evidence, arguments and judgment.",
+   "chip": "10 · YOUR TRIAL CHECKLIST"
   },
   {
    "sceneId": "c37",
-   "seconds": 10,
-   "dialogue": "Magistrate trials use different provisions. Warrant cases on a police report follow Sections Two Sixty One to Two Sixty Six.",
-   "shown": "Magistrate trials use different provisions. Warrant cases on a police report follow Sections 261 to 266.",
-   "chip": "10 · OTHER TRIALS"
-  },
-  {
-   "sceneId": "c38",
    "seconds": 8,
-   "dialogue": "Complaint warrant cases follow Sections Two Sixty Seven to Two Seventy, with evidence before charge.",
-   "shown": "Complaint warrant cases follow Sections 267 to 270, with evidence before charge."
-  },
-  {
-   "sceneId": "c39",
-   "seconds": 6,
-   "dialogue": "Both conclude under Sections Two Seventy One to Two Seventy Three.",
-   "shown": "Both conclude under Sections 271 to 273."
-  },
-  {
-   "sceneId": "c40",
-   "seconds": 8,
-   "dialogue": "Summons cases follow Sections Two Seventy Four to Two Seventy Eight, without a formal charge.",
-   "shown": "Summons cases follow Sections 274 to 278, without a formal charge."
-  },
-  {
-   "sceneId": "c41",
-   "seconds": 10,
-   "dialogue": "Remember the main route: charge and plea, prosecution evidence, the accused's explanation, any defence evidence, arguments and judgment."
-  },
-  {
-   "sceneId": "c42",
-   "seconds": 8,
-   "dialogue": "Sentencing follows if there is a conviction. Always check the case type, and each deadline's starting point."
+   "dialogue": "And sentencing follows only if there is a conviction. Always check the case type, and each deadline's exact starting point."
   }
  ]
 }

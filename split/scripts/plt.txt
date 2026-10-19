@@ -1,58 +1,57 @@
 // Rejection and Return of Plaint (CPC Order VII Rules 10, 10A, 11) - from ~/Downloads/Rejection_and_Return_of_Plaint_Storyboard.pdf
 // Fact-check 19-10-2026 applied: after a return the proceedings MUST begin afresh (EXL Careers, three judges, no discretion);
 // paragraph pins only where they are SCC numbers (Arivandandam para 5); Dahiben upheld rejection under R.11(a) and (d).
+// v2 19-10-2026: fast energetic rewrite (owner); facts as in v1
+// v2 wording that reads a cited provision more closely (for the fact-checker): O.XLIII R.1(a) "except where the procedure in R.10A
+// has been followed" (v1: "subject to the Rule 10A exception"); R.13 "shall not of its own force preclude ... a fresh plaint in respect
+// of the same cause of action"; R.11(b)/(c) time to correct is fixed by the court. Dahiben dates (02.07.2009 deed, 15.12.2014 suit)
+// stay on screen; spoken only as "challenged years later".
+// v2 fact-check 19-10-2026: c15 back to v1 "apparent from the plaint" (not "from the plaint itself": Dahiben reads the plaint with the
+// documents it relies on, c12); c10 back to v1 "full of" ("plaint packed" blurs at speed).
 # 1 · REJECTED OR RETURNED?
-8 | You file a civil suit. The judge says this plaint cannot proceed. But is it being rejected, or returned?
-6 | Those words lead to different procedures and different remedies.
-8 | Let us understand Order Seven of the Code of Civil Procedure, through four leading Supreme Court judgments. || Let us understand Order VII of the Code of Civil Procedure, through four leading Supreme Court judgments.
-# 2 · THE TWO PROVISIONS
-8 | Order Seven, Rule Ten deals with return of the plaint for presentation to the proper court.
-8 | That commonly happens when territorial or pecuniary jurisdiction is missing.
-8 | Rule Eleven deals with rejection on specified grounds. Return asks whether this is the proper court.
-10 | Rejection asks whether the plaint attracts a statutory ground that stops it from proceeding. A weak case alone is not enough.
+10 | You file a civil suit. The judge says this plaint cannot proceed. Is it rejected, or returned? Each leads to a different procedure, and a different remedy.
+8 | The answer lies in Order Seven of the Code of Civil Procedure, or C P C, and four leading Supreme Court judgments.
+# 2 · TWO RULES, TWO QUESTIONS
+10 | Two rules, two questions. Rule Ten deals with return: is this the proper court? It commonly applies when territorial or pecuniary jurisdiction is missing.
+8 | Rule Eleven deals with rejection: does a statutory ground stop the plaint from proceeding? A weak case alone is not enough.
 # 3 · SIX GROUNDS FOR REJECTION
-6 | Rule Eleven lists six grounds. First, the plaint discloses no cause of action.
-8 | Second, the relief is undervalued, and the plaintiff fails to correct it within the time fixed.
-8 | Third, the plaint is insufficiently stamped, and the plaintiff fails to supply the stamp paper within time.
-8 | Fourth, the suit appears from the statement in the plaint to be barred by law. Fifth, the plaint is not filed in duplicate.
-8 | Sixth, the plaintiff fails to comply with Rule Nine. For valuation and stamp defects, remember the chance to correct them.
+10 | Which grounds count? Rule Eleven lists six. First, the plaint discloses no cause of action. Second, the relief is undervalued, and not corrected in the time fixed.
+10 | Third, the plaint is insufficiently stamped, and the stamp paper is not supplied in time. Fourth, the suit appears, from the statement in the plaint, to be barred by law.
+10 | Fifth, the plaint is not filed in duplicate. Sixth, the plaintiff fails to comply with Rule Nine. For valuation and stamp defects, the plaintiff first gets time to correct them.
 # 4 · A MEANINGFUL READING
-10 | The first judgment is T Arivandandam versus T V Satyapal. The Supreme Court said the plaint must receive a meaningful reading. || The first judgment is T. Arivandandam v. T.V. Satyapal. The Supreme Court said the plaint must receive a meaningful reading.
-8 | Clever drafting cannot manufacture a cause of action where none exists. The court must examine the substance.
-10 | Picture a plaint full of impressive allegations, but missing the material facts that create a right to relief.
-10 | But the court must identify a ground under Rule Eleven. It cannot reject a plaint merely because the case looks difficult.
+10 | How closely must a court read a plaint? In T Arivandandam versus T V Satyapal, the Supreme Court said the plaint must receive a meaningful reading. || How closely must a court read a plaint? In T. Arivandandam v. T.V. Satyapal, the Supreme Court said the plaint must receive a meaningful reading.
+8 | Clever drafting cannot manufacture a cause of action where none exists. So the court must look past the drafting to the substance.
+10 | Picture a plaint full of impressive allegations, but missing the material facts that create a right to relief. Drafting a plaint? Plead those material facts.
+10 | But the court must identify a ground under Rule Eleven. It cannot reject a plaint merely because the case looks difficult. Seeking rejection? Name the ground.
 # 5 · THE PLAINT AND ITS DOCUMENTS
-10 | Next comes Dahiben versus Arvindbhai Kalyanji Bhanusali. Read the plaint as a whole, with the documents it relies on. || Next comes Dahiben v. Arvindbhai Kalyanji Bhanusali. Read the plaint as a whole, with the documents it relies on.
-6 | The defendant's competing version does not decide a Rule Eleven application.
-6 | In Dahiben, the Court upheld the rejection of a suit challenging a sale deed.
-6 | The suit was barred by limitation, and lacked a sustainable cause of action.
-10 | So check the pleaded dates and documents carefully. Limitation supports rejection only when the bar is apparent from the plaint.
-6 | Disputed facts cannot simply be resolved against the plaintiff at this stage.
+10 | What may the court read? In Dahiben versus Arvindbhai Kalyanji Bhanusali, the answer is the plaint as a whole, with the documents it relies on. || What may the court read? In Dahiben v. Arvindbhai Kalyanji Bhanusali, the answer is the plaint as a whole, with the documents it relies on.
+8 | Acting for the defendant? Your competing version of the facts does not decide a Rule Eleven application.
+10 | In Dahiben, a sale deed was challenged years later. The Court upheld the rejection. The suit was time barred, and lacked a sustainable cause of action. || In Dahiben, a sale deed was challenged years later. The Court upheld the rejection. The suit was time-barred, and lacked a sustainable cause of action.
+10 | Practice point: check the pleaded dates and documents carefully. Limitation supports rejection only when the bar is apparent from the plaint.
+6 | Acting for the plaintiff? Disputed facts cannot simply be resolved against your client at this stage.
 # 6 · HOW RETURN WORKS
-6 | Now consider return. A properly pleaded claim may still have been filed in the wrong court.
-8 | Under Rule Ten, the plaint is returned for presentation to the court where the suit should have been instituted.
-8 | The judge endorses the dates of presentation and return, the presenter's name, and brief reasons.
+6 | The flip side is return. A properly pleaded claim may still be filed in the wrong court.
+10 | Under Rule Ten, the plaint is returned for presentation to the court where the suit should have been instituted. Return is about the forum, not the merits.
+8 | The judge endorses the plaint with the dates of presentation and return, the presenter's name, and brief reasons for returning it.
 6 | Where its conditions apply, Rule Ten A can fix an appearance date in the proper court. || Where its conditions apply, Rule 10A can fix an appearance date in the proper court.
 # 7 · IN THE PROPER COURT
-10 | In O N G C versus Modern Construction, the Supreme Court explained what happens when a returned plaint is presented to the competent court. || In ONGC v. Modern Construction, the Supreme Court explained what happens when a returned plaint is presented to the competent court.
-10 | It is treated as a fresh institution, and the trial proceeds afresh. It does not continue the earlier suit, so limitation matters.
-10 | Section Fourteen of the Limitation Act may exclude the time spent pursuing the case in a court without jurisdiction.
-6 | That protection must be established; return does not preserve the original filing date.
+10 | What happens in the proper court? In O N G C versus Modern Construction, the Supreme Court said the returned plaint is treated as a fresh institution. || What happens in the proper court? In ONGC v. Modern Construction, the Supreme Court said the returned plaint is treated as a fresh institution.
+6 | The trial proceeds afresh. It does not continue the earlier suit, so limitation matters.
+10 | Section Fourteen of the Limitation Act may exclude the time spent pursuing the case in a court without jurisdiction. But that protection must be established.
+6 | Return does not preserve the original filing date, so never assume it protects your client.
 # 8 · RETURN ≠ TRANSFER
-8 | The three judge decision in E X L Careers versus Frankfinn Aviation Services confirmed this rule. || The three-judge decision in EXL Careers v. Frankfinn Aviation Services confirmed this rule.
+8 | Is a return just a transfer? No. The three judge bench in E X L Careers versus Frankfinn Aviation Services confirmed it. || Is a return just a transfer? No. The three-judge bench in EXL Careers v. Frankfinn Aviation Services confirmed it.
 6 | After a return under Rules Ten and Ten A, the proceedings must begin afresh. || After a return under Rules 10 and 10A, the proceedings must begin afresh.
-10 | Rule Ten A simplifies appearance and service; it does not turn a return into a transfer that keeps the earlier trial stage. || Rule 10A simplifies appearance and service; it does not turn a return into a transfer that keeps the earlier trial stage.
-10 | One qualification: in E X L itself, the Supreme Court used its constitutional powers on exceptional facts. || One qualification: in EXL itself, the Supreme Court used its constitutional powers on exceptional facts.
-6 | It left the High Court's order undisturbed. That does not change the general rule.
+8 | Rule Ten A simplifies appearance and service. It does not turn a return into a transfer that keeps the earlier trial stage. || Rule 10A simplifies appearance and service. It does not turn a return into a transfer that keeps the earlier trial stage.
+10 | One qualification. In E X L itself, the Supreme Court used its constitutional powers on exceptional facts, and left the High Court's order undisturbed.
+6 | That relief does not change the general rule. Cite E X L for the rule, not for its result.
 # 9 · DIFFERENT REMEDIES
-8 | The remedies differ too. Rejection of a plaint is deemed a decree under Section Two, sub section Two.
-6 | So it ordinarily attracts a first appeal under Section Ninety Six.
-10 | An order returning a plaint is appealable under Order Forty Three, Rule One, clause A, subject to the Rule Ten A exception. || An order returning a plaint is appealable under Order XLIII Rule 1(a), subject to the Rule 10A exception.
-8 | And rejection does not bar a fresh plaint: Rule Thirteen expressly preserves that possibility.
-10 | But a fresh plaint must still overcome limitation and the legal defect. Refiling a barred claim does not remove the bar.
+10 | Rejected? That rejection is deemed a decree under Section Two, sub section Two. So it ordinarily attracts a first appeal under Section Ninety Six.
+10 | An order returning a plaint is appealable under Order Forty Three, Rule One, clause A, except where the Rule Ten A procedure was followed. || An order returning a plaint is appealable under Order XLIII Rule 1(a), except where the Rule 10A procedure was followed.
+6 | Rejection does not, by itself, bar a fresh plaint on the same cause of action. Rule Thirteen says so.
+8 | But a fresh plaint must still overcome limitation and the legal defect. Refiling a barred claim does not remove the bar.
 # 10 · APPLY THE DISTINCTION
-10 | Try two examples. A plaint pleads a recoverable debt, but the chosen court lacks territorial jurisdiction. Think return, under Rule Ten.
-10 | Another plaint, read with its own documents, discloses no cause of action. Think rejection, under Rule Eleven.
-10 | Before drafting or opposing either application, check the forum, the material facts, the documents relied on, and limitation.
-8 | Remember: return sends the plaint to the proper court; rejection follows a specified statutory ground.
-6 | Get it right, because that distinction decides the next step in the entire case.
+10 | Test yourself with two plaints. The first pleads a recoverable debt, but the chosen court lacks territorial jurisdiction. Think return, under Rule Ten.
+8 | The second plaint, read with its own documents, discloses no cause of action. Think rejection, under Rule Eleven.
+10 | Before drafting or opposing either application, check these four things: the forum, the material facts, the documents relied on, and limitation.
+10 | Return sends the plaint to the proper court. Rejection follows a specified statutory ground. Get it right: that distinction decides the next step in the entire case.
