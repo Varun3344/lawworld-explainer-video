@@ -1,7 +1,7 @@
 """Sanity check for split/<set>_all_scenes.json before any Flow render: whole sentences, <= 32 words, a fill rate the avatar can
 speak without rushing or padding (syllable estimate), no digits in what Flow is asked to say (Flow strips digits from prompts).
 Usage: python3 split/check_scenes.py <set>"""
-import json, re, sys
+import json, os, re, sys
 S = json.load(open(f"split/{sys.argv[1]}_all_scenes.json"))["scenes"]
 def syl(w):
     w = re.sub(r"[^a-z]", "", w.lower())
@@ -18,7 +18,9 @@ for s in S:
     if re.search(r"\d", d): flags.append("DIGITS")
     if not re.search(r"[.?!]['\"’”)]*$", d.strip()): flags.append("NOT-A-SENTENCE-END")
     rate = sy / sec
-    lo, hi = {6: (17, 23), 8: (23, 30), 10: (30, 38)}[sec]   # measured on Cause of Action: the avatar speaks 3.6 (median) to 4.5 syl/s
+    # v1 (Videos 1-3): measured on Cause of Action, 3.6 (median) to 4.5 syl/s -> the avatar spoke ~130 words a minute. Owner 19-10-2026
+    # after Video 1: "full energetic ... raise some speed": the fast budget (~4.6 syl/s over 92 % of the clip) is the default now
+    lo, hi = ({6: (17, 23), 8: (23, 30), 10: (30, 38)} if os.environ.get("PACE") == "v1" else {6: (22, 25), 8: (30, 34), 10: (38, 43)})[sec]   # pilot 19-10: 25/33/42 syl filled 5.70/7.72/9.70 s (tails ~0.3 s)
     if sy > hi: flags.append(f"TOO LONG for {sec}s ({sy} > {hi} syl)")
     if sy < lo: flags.append(f"SPARSE for {sec}s ({sy} < {lo} syl)")
     if flags: bad += 1
