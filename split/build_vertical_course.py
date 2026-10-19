@@ -317,6 +317,19 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 
 
 # ---------------------------------------------------------------- the automatic edit
+def body_builds(c):
+    """the builds that put content on the card - not its heading or column titles. The full-screen reveal starts at the first one:
+    keyed on the heading, Video 1 (19-10) showed ~4 s of a bare heading full screen before its points arrived."""
+    ts = [c.get("at")]
+    for key in ("items", "rows", "steps", "points", "nodes", "terms", "slots"):
+        for it in c.get(key) or []:
+            ts.append(it.get("at")); ts += list(it.get("cells_at") or [])
+    for key in ("left", "right", "merge", "fold", "verdict", "note"):
+        v = c.get(key)
+        if isinstance(v, dict): ts.append(v.get("at"))
+    return sorted(t for t in ts if isinstance(t, (int, float)))
+
+
 RICH = {"section", "compare", "flow", "counters", "timeline", "equation", "verdicts", "checklist", "slots", "blocks", "bundle", "splitcard", "notequal"}
 QUESTION = {"question", "stamp"}
 
@@ -363,7 +376,7 @@ def auto_edit():
     last_g = -1e9
     for c in sorted(content, key=lambda c: (builds(c) or [c["t0"]])[0]):
         if c["type"] in RICH:
-            b = builds(c)
+            b = body_builds(c) or builds(c)
             if not b: continue
             # the card's reveal only (owner 17-10: "sometimes the animation", not most of the time): from its first build for at most
             # ~3.6 s, then back to the split view while he talks it through; and never two full-screen reveals within 5 s of each
