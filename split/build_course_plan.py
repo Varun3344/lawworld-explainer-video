@@ -206,7 +206,8 @@ for c in cues:
         if cont[k] + d > lim + 0.1: print(f"[plan] WARNING late build: {c['type']} {k} at {cont[k]:.2f} still ends after its cue fades ({c['t1']:.2f})")
 # "§ 187(4)" must not break after the sign: a no-break space after every § in the cue texts
 def nbsp(v):
-    if isinstance(v, str): return re.sub(r"(§+) (?=\d)", "\\1\u00a0", v)
+    # ... and "(c)" / "(r)" with a zero-width non-joiner inside: Manrope's ligatures turned "(b) and (c)" into "(b) and ©"
+    if isinstance(v, str): return re.sub(r"\(([cCrR])\)", "(\u200c\\1)", re.sub(r"(§+) (?=\d)", "\\1\u00a0", v))
     if isinstance(v, list): return [nbsp(x) for x in v]
     if isinstance(v, dict): return {k: nbsp(x) for k, x in v.items()}
     return v
