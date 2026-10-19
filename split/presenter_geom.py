@@ -361,6 +361,17 @@ def place_params(geoms, anchor, box=None, size_tol=0.005, edge_safety=4, fx=None
     b = {"w": 640, "h": 1080, "fx": 0.5, "fy": 0.78, **(box or {})}; bw, bh = int(b["w"]), int(b["h"]); fy = float(b["fy"])
     fxc = lambda c: float((fx or {}).get(c, b["fx"]))
     if anchor not in geoms: raise SystemExit(f"[geom] anchor {anchor} not measured")
+    # Straight-to-camera clips (course series, 19-10-2026): the hands talk in front of the chest the whole clip, so no frame has a
+    # clean torso band and the shoulders / body centre come back NaN. Then size from the head width x the set's shoulders/head
+    # ratio (Cause of Action: 2.63, 36 clips, 2.61..2.65) and centre on the neck - both measured to +-1 px on every clip.
+    ok_r = [g["shoulder_w"] / g["head_w"] for g in geoms.values() if g.get("shoulder_w") is not None and np.isfinite(g["shoulder_w"]) and g.get("head_w")]
+    mr0 = float(np.median(ok_r)) if ok_r else 2.63
+    geoms = {c: dict(g) for c, g in geoms.items()}
+    for c, g in geoms.items():
+        fixed = []
+        if g.get("centre_x") is None or not np.isfinite(g["centre_x"]): g["centre_x"] = g["centre_neck"]; fixed.append("centre = neck")
+        if g.get("shoulder_w") is None or not np.isfinite(g["shoulder_w"]): g["shoulder_w"] = g["head_w"] * mr0; fixed.append(f"width = head x {mr0:.2f}")
+        if fixed: g["notes"] = list(g.get("notes", [])) + ["no clean torso band (hands in front): " + ", ".join(fixed)]
     bad = [c for c, g in geoms.items() if g.get("shoulder_w") is None or g.get("centre_x") is None]
     if anchor in bad: raise SystemExit(f"[geom] anchor {anchor} has no usable measurement: {geoms[anchor].get('notes')}")
     use = {c: dict(g) for c, g in geoms.items() if c not in bad}; notes = {c: [] for c in use}; lines = []

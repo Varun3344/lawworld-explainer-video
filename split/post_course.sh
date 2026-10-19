@@ -21,7 +21,7 @@ PY
 }
 until ready >/dev/null; do sleep 60; done
 log "all clips rendered and flattened"
-python3 split/presenter_geom.py downloads/$SET/flat/c*.mp4 --anchor c01 --seam left --out $O/geom.json --place-out $O/place.json > $O/geom.log 2>&1 || { log "geom FAILED"; tail -5 $O/geom.log; exit 1; }
+python3 split/presenter_geom.py downloads/$SET/flat/c*.mp4 --anchor c01 --seam left --max-up 0.10 --out $O/geom.json --place-out $O/place.json > $O/geom.log 2>&1 || { log "geom FAILED"; tail -5 $O/geom.log; exit 1; }
 grep -E "SIZE OUTLIER" $O/geom.log | sed "s/^/[post $SET] /"
 python3 split/build_course_plan.py --set $SET || { log "plan FAILED"; exit 1; }
 log "overlay frames"
@@ -37,6 +37,7 @@ python3 split/build_vertical_course.py $SET ptrack split > $O/v_ptrack.log 2>&1 
 python3 split/build_vertical_course.py $SET ptrack full > $O/v_ptrack_full.log 2>&1 && \
 python3 split/build_vertical_course.py $SET edit && \
 python3 split/build_vertical_course.py $SET final > $O/v_final.log 2>&1 || { log "9:16 FAILED"; tail -5 $O/v_*.log; exit 1; }
+[ -n "${NO_DELIVER:-}" ] && { log "test run: not copied to ~/Downloads"; exit 0; }
 cp $O/${SET}_full.mp4 ~/Downloads/${STEM}_16x9.mp4
 cp $V/${SET}_9x16.mp4 ~/Downloads/${STEM}_9x16.mp4
 cp $O/captions.srt ~/Downloads/${STEM}_16x9.srt
