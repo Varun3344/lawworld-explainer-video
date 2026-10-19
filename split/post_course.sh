@@ -24,7 +24,7 @@ log "all clips rendered and flattened"
 python3 split/presenter_geom.py downloads/$SET/flat/c*.mp4 --anchor c01 --seam left --max-up 0.10 --out $O/geom.json --place-out $O/place.json > $O/geom.log 2>&1 || { log "geom FAILED"; tail -5 $O/geom.log; exit 1; }
 grep -E "SIZE OUTLIER" $O/geom.log | sed "s/^/[post $SET] /"
 # a size outlier (a clip framed closer than the rest) sets the common size when every clip still fits that way: no clip beyond
-# its native resolution (s <= 1.18 in the 640x1080 box) and every presenter's reach 24 px inside the box; else it stays larger at
+# 5 % past its native resolution (s <= 1.25 in the 640x1080 box; Video 2 needed 1.244 for four close-framed clips) and every presenter's reach 24 px inside the box; else it stays larger at
 # its cuts, with the warning above (Video 1 c28, +12 %, 19-10-2026)
 if grep -q "SIZE OUTLIER" $O/geom.log; then
   python3 split/presenter_geom.py --place $O/geom.json --anchor c01 --out $O/place_none.json --seam left --max-up none > $O/place_none.log 2>&1 && \
@@ -32,7 +32,7 @@ if grep -q "SIZE OUTLIER" $O/geom.log; then
 import re, sys
 o = sys.argv[1]; L = open(f"{o}/place_none.log").read()
 s = [float(x) for x in re.findall(r"place s (-?[\d.]+)", L)]; r = [(int(a), int(b)) for a, b in re.findall(r"reach x (-?\d+)\.\.(-?\d+)", L)]
-ok = bool(s) and bool(r) and max(s) <= 1.18 and min(a for a, _ in r) >= 24 and max(b for _, b in r) <= 616
+ok = bool(s) and bool(r) and max(s) <= 1.25 and min(a for a, _ in r) >= 24 and max(b for _, b in r) <= 616
 print(f"[post] size outlier check: max s {max(s or [0]):.3f}, reach {min([a for a, _ in r] or [0])}..{max([b for _, b in r] or [0])} -> {'outlier sets the size' if ok else 'kept: outlier stays larger'}")
 sys.exit(0 if ok else 1)
 PY2
