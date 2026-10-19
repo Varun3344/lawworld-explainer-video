@@ -42,14 +42,26 @@ grep -E "SIZE OUTLIER" $O/geom.log | sed "s/^/[post $SET] /"
 # 5 % past its native resolution (s <= 1.25 in the 640x1080 box; Video 2 needed 1.244 for four close-framed clips) and every presenter's reach 24 px inside the box; else it stays larger at
 # its cuts, with the warning above (Video 1 c28, +12 %, 19-10-2026)
 if grep -q "SIZE OUTLIER" $O/geom.log; then
-  python3 split/presenter_geom.py --place $O/geom.json --anchor c01 --out $O/place_none.json --seam left --max-up none > $O/place_none.log 2>&1 && \
-  python3 - $O <<'PY2' && cp $O/place_none.json $O/place.json && log "size: the outlier sets the common size (every clip fits)"
-import re, sys
-o = sys.argv[1]; L = open(f"{o}/place_none.log").read()
-s = [float(x) for x in re.findall(r"place s (-?[\d.]+)", L)]; r = [(int(a), int(b)) for a, b in re.findall(r"reach x (-?\d+)\.\.(-?\d+)", L)]
-ok = bool(s) and bool(r) and max(s) <= 1.25 and min(a for a, _ in r) >= 24 and max(b for _, b in r) <= 616
-print(f"[post] size outlier check: max s {max(s or [0]):.3f}, reach {min([a for a, _ in r] or [0])}..{max([b for _, b in r] or [0])} -> {'outlier sets the size' if ok else 'kept: outlier stays larger'}")
-sys.exit(0 if ok else 1)
+  # try thresholds from 0.10 up (none = no outliers): keep the one with the smallest size jump left at the outliers' cuts, as long as
+  # no clip goes past s 1.30 (~10 % past native in the 640x1080 box) and every presenter's reach stays 24 px inside the box
+  # (Video 4, 19-10: 0.12 left jumps of <= 2.5 % at s 1.29; 0.10 left 7 %; none needed s 1.32)
+  for m in 0.12 0.14 0.16 0.20 none; do
+    python3 split/presenter_geom.py --place $O/geom.json --anchor c01 --out $O/place_$m.json --seam left --max-up $m > $O/place_$m.log 2>&1
+  done
+  python3 - $O <<'PY2'
+import re, shutil, sys
+o = sys.argv[1]; best = None
+for m in ("0.12", "0.14", "0.16", "0.20", "none"):
+    try: L = open(f"{o}/place_{m}.log").read()
+    except OSError: continue
+    s = [float(x) for x in re.findall(r"place s (-?[\d.]+)", L)]; r = [(int(a), int(b)) for a, b in re.findall(r"reach x (-?\d+)\.\.(-?\d+)", L)]
+    left = max([float(x) for x in re.findall(r"stays \+([\d.]+) % larger", L)] or [0.0])
+    ok = bool(s) and bool(r) and max(s) <= 1.30 and min(a for a, _ in r) >= 24 and max(b for _, b in r) <= 616
+    print(f"[post] size: max_up {m}: max s {max(s or [0]):.3f}, outliers stay up to +{left:.1f} %{'' if ok else ' (rejected)'}")
+    if ok and (best is None or left < best[1] - 0.05): best = (m, left)
+if best:
+    shutil.copy(f"{o}/place_{best[0]}.json", f"{o}/place.json"); print(f"[post] size: using max_up {best[0]} (outliers stay up to +{best[1]:.1f} %)")
+else: print("[post] size: kept max_up 0.10 (outliers stay larger)")
 PY2
 fi
 python3 split/build_course_plan.py --set $SET || { log "plan FAILED"; exit 1; }
