@@ -9,7 +9,7 @@ place from out/<set>/place.json. Everything set-specific lives in two files:
                                 the timeline, cue(**fields), fx(name, t, gain_db), have(*cids), r3(x), PEND (presenter end)
 Usage: python3 split/build_course_plan.py --set <set> [--allow-missing]
 Writes out/<set>/timeline.json, plan.json, anchors.txt, captions.srt."""
-import os, sys, json, subprocess, difflib, importlib.util
+import os, sys, json, math, subprocess, difflib, importlib.util
 spec = importlib.util.spec_from_file_location("words", "scripts/words.py"); W = importlib.util.module_from_spec(spec); spec.loader.exec_module(W); norm = W.norm
 def dur(f): return float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f], capture_output=True, text=True).stdout.strip())
 
@@ -19,9 +19,16 @@ SCENES = f"split/{SET}_all_scenes.json"; META = json.load(open(SCENES)); ALL = M
 SCRIPT = {s["sceneId"]: s.get("spoken", s["dialogue"]) for s in ALL}          # what the avatar was asked to say (alignment)
 SHOWN = {s["sceneId"]: s["shown"] for s in ALL if s.get("shown")}            # how the words are written in the captions
 IDS = [s["sceneId"] for s in ALL]
+MOCK = "--mock" in sys.argv          # test the cues before the clips exist: missing clips get evenly spaced script words
+if MOCK: OUT = f"out/{SET}_mock"; os.makedirs(OUT, exist_ok=True)
 missing = [c for c in IDS if not (os.path.exists(f"{D}/{c}.mp4") and os.path.exists(f"{D}/{c}.words.json") and os.path.exists(f"{CLIPS}/{c}.mp4"))]
-if missing and "--allow-missing" not in sys.argv: sys.exit(f"[plan] missing clips (source, words or flat): {missing}")
-stale = [c for c in IDS if c not in missing and os.path.getmtime(f"{CLIPS}/{c}.mp4") < os.path.getmtime(f"{D}/{c}.mp4")]
+if missing and not MOCK and "--allow-missing" not in sys.argv: sys.exit(f"[plan] missing clips (source, words or flat): {missing}")
+SECS = {s["sceneId"]: s["seconds"] for s in ALL}
+def mock_words(cid):
+    toks = [x for x in SCRIPT[cid].split() if x.strip("—–-")]; d = SECS[cid] - 0.8; step = d / max(1, len(toks))
+    return [{"word": x, "start": round(0.1 + k * step, 3), "end": round(0.1 + (k + 0.8) * step, 3)} for k, x in enumerate(toks)]
+if MOCK: missing = []
+stale = [] if MOCK else [c for c in IDS if c not in missing and os.path.getmtime(f"{CLIPS}/{c}.mp4") < os.path.getmtime(f"{D}/{c}.mp4")]
 if stale: sys.exit(f"[plan] FATAL flattened clips older than their source (retake?): {stale} -> python3 split/flatten_bg.py --seam left " + " ".join(f"{D}/{c}.mp4" for c in stale))
 IDS = [c for c in IDS if c not in missing]
 PLACE = json.load(open(f"{OUT}/place.json")) if os.path.exists(f"{OUT}/place.json") else {}
@@ -29,7 +36,9 @@ HOOK = 1.6; END = 4.2
 
 t = HOOK; segs = []; words = []
 for cid in IDS:
-    c = f"{D}/{cid}.mp4"; d = dur(c); ws = json.load(open(f"{D}/{cid}.words.json"))["words"]
+    c = f"{D}/{cid}.mp4"
+    if os.path.exists(c) and os.path.exists(f"{D}/{cid}.words.json"): d = dur(c); ws = json.load(open(f"{D}/{cid}.words.json"))["words"]
+    else: d = float(SECS[cid]); ws = mock_words(cid)
     toks = [x for x in SCRIPT[cid].split() if x.strip("—–-")]
     # whisper writes spoken numbers as digits: compare number-normalised forms (one seventy three == 173) token by token
     sm = difflib.SequenceMatcher(a=[norm(x) or "x" for x in toks], b=[norm(w["word"]) or "x" for w in ws], autojunk=False); tm = [None] * len(toks)
@@ -44,7 +53,12 @@ for cid in IDS:
             p = next((tm[k][1] for k in range(i - 1, -1, -1) if tm[k]), 0.0); q = next((tm[k][0] for k in range(i + 1, len(toks)) if tm[k]), d); tm[i] = (p, min(q, p + 0.3))
     s0 = tm[0][0]; s1 = tm[-1][1]
     tin = max(0.0, s0 - 0.12); tout = d if cid == IDS[-1] else min(d, s1 + 0.28)   # the last clip runs to its end: room for the payoff
-    segs.append({"clip": f"{CLIPS}/{cid}.mp4", "in": round(tin, 3), "out": round(tout, 3), "base": round(t, 3), "cid": cid, "place": PLACE.get(cid)})
+    # LIP SYNC (owner 19-10-2026): cut on frame boundaries. ffmpeg's trim keeps every frame whose time is < out, so an unaligned cut
+    # gives the picture up to one frame more than the sound, clip after clip (Cause of Action: the lips ended 0.64 s behind the voice).
+    # in / out sit 0.1 ms before a frame time: the video keeps exactly k_out - k_in frames and the audio the same length.
+    k_in, k_out = int(round(tin * 24)), int(min(round(tout * 24), math.floor(d * 24 + 1e-6)))
+    tin = max(0.0, k_in / 24 - 1e-4); tout = k_out / 24 - 1e-4
+    segs.append({"clip": f"{CLIPS}/{cid}.mp4", "in": round(tin, 6), "out": round(tout, 6), "base": round(t, 6), "cid": cid, "place": PLACE.get(cid)})
     for i, x in enumerate(toks): words.append({"word": x, "start": round(t + tm[i][0] - tin, 3), "end": round(t + tm[i][1] - tin, 3), "cid": cid})
     t += tout - tin
 PEND = pend = round(t, 3); total = round(pend + END, 3)
@@ -62,6 +76,10 @@ def at(cid, target, nth=1):
 have = lambda *cs: all(c in IDS for c in cs)
 S = lambda cid: next(s["base"] for s in segs if s["cid"] == cid)
 E = lambda cid: next(round(s["base"] + s["out"] - s["in"], 3) for s in segs if s["cid"] == cid)
+# picture and sound of every presenter segment must be the same length to the frame (see LIP SYNC above)
+for s_ in segs:
+    nf = math.ceil(s_["out"] * 24 - 1e-9) - math.ceil(s_["in"] * 24 - 1e-9)
+    if abs(nf / 24 - (s_["out"] - s_["in"])) > 0.0012: sys.exit(f"[plan] FATAL {s_['cid']}: picture {nf} frames vs sound {s_['out'] - s_['in']:.4f} s")
 r3 = lambda x: round(x, 3)
 cues = []; sfx = []
 def fx(n, tt, g=-16): sfx.append({"file": f"audio/sfx/{n}.mp3", "at": r3(max(0, tt)), "gain_db": g})
@@ -78,6 +96,33 @@ fx("slam", 0.02, -8); fx("riser", HOOK - 0.9, -18)
 chips = [{"at": r3(HOOK if s["sceneId"] == IDS[0] else S(s["sceneId"]) - 0.1), "label": s["chip"]} for s in ALL if s.get("chip") and s["sceneId"] in IDS]
 cue(type="panel", t0=HOOK - 0.3, t1=pend + 0.25, scenes=chips)
 cue(type="lower_third", t0=S(IDS[0]) + 0.5, t1=S(IDS[0]) + 5.2, name="Ravishankar", role="LawWorld")
+
+# ── sound: a soft pop on every build, a whoosh as a big card arrives, a ding on a result, a slam on a stamp (the set's cue file may
+#    add its own with fx(); two sounds never sit closer than 0.22 s) ──────────────────────────────────────────────────────────────
+if not NS.get("NO_AUTO_SFX"):
+    BIG = {"section", "compare", "flow", "counters", "timeline", "equation", "verdicts", "checklist", "splitcard", "notequal", "list", "question"}
+    want = []
+    for c in cues:
+        t = c["type"]
+        if t in ("panel", "sting", "endcard", "lower_third", "kicker"): continue
+        if t == "stamp": want.append((c.get("at", c["t0"]) + 0.16, "slam", -10)); continue
+        if t == "cite": want.append((c.get("at", c["t0"]), "pop", -20)); continue
+        if t in BIG: want.append((c["t0"] - 0.08, "whoosh", -20))
+        if c.get("at") is not None: want.append((c["at"], "pop", -17))
+        for key in ("items", "rows", "steps", "points", "nodes", "cols"):
+            for it in c.get(key) or []:
+                for tt in ([it.get("at")] + list(it.get("cells_at") or [])):
+                    if tt is not None: want.append((tt, "ding" if it.get("ok") or it.get("tone") == "ok" else "pop", -18))
+        for it in c.get("terms") or []:
+            want.append((it["at"], "ding" if it.get("result") else "pop", -15 if it.get("result") else -18))
+        for key in ("left", "right", "verdict", "note"):
+            v = c.get(key)
+            if isinstance(v, dict) and v.get("at") is not None: want.append((v["at"], "pop", -18))
+    taken = sorted(x["at"] for x in sfx)
+    for tt, name, g in sorted(want):
+        if tt < HOOK or tt > pend: continue
+        if any(abs(tt - u) < 0.22 for u in taken): continue
+        fx(name, tt, g); taken.append(tt)
 
 # ── close ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 ec = NS.get("ENDCARD") or META.get("endcard", {})

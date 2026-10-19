@@ -1,0 +1,58 @@
+// Police Custody and Judicial Custody (BNSS) - from ~/Downloads/Police_and_Judicial_Custody_BNSS_Storyboard.pdf
+// Fact-check 19-10-2026 applied: the 15-day police-custody cap is the Supreme Court's reading of 187(2) (State of AP v. Suda Suresh
+// Veera Venkata Naga Raju, 2026 INSC 744, decided 27.07.2026, para 22); Ravi's second spell: all five days within the first forty;
+// s.47: grounds of arrest communicated forthwith.
+# 1 · TWO KINDS OF CUSTODY
+10 | A news report says police custody. Another says judicial custody. Do both mean the same thing? Who controls the person, and for how long?
+10 | Under the Bharatiya Nagarik Suraksha Sanhita, or B N S S, these are different forms of detention, with important safeguards.
+# 2 · THE FIRST 24 HOURS
+10 | Start with an arrest without warrant. Section Fifty Eight prohibits detention beyond twenty four hours without a Magistrate's authorisation.
+8 | Necessary travel time to court is excluded, and police must avoid unnecessary delay.
+10 | Suppose Ravi is arrested on Monday morning. Officers cannot keep him at the station for days because questioning is unfinished.
+8 | If further detention is needed, Section One Eighty Seven requires production before a Magistrate.
+6 | The Magistrate must then consider whether remand is justified.
+# 3 · WHAT EACH FORM MEANS
+10 | In police custody, the accused is entrusted to investigating police for lawful investigation under the remand order.
+6 | That can include lawful questioning, or recovering evidence.
+10 | In judicial custody, the accused is ordinarily kept in prison under jail authorities, pursuant to the court's order.
+6 | The investigating officer does not have the same direct custody.
+10 | Both forms require legal justification. Neither is a finding of guilt, and judicial custody does not mean a conviction.
+# 4 · 15 DAYS IN A WINDOW
+6 | Here is the key limit under the ordinary B N S S scheme.
+10 | Section One Eighty Seven, sub section Two, as the Supreme Court reads it, allows fifteen days of police custody in all. || Section 187(2), as the Supreme Court reads it, allows 15 days of police custody in all.
+10 | Together or in parts, those days must fall within the first forty days of remand in a sixty day case, or the first sixty in a ninety day case. || Together or in parts, those days must fall within the first 40 days of remand in a 60-day case, or the first 60 in a 90-day case.
+6 | Forty and sixty describe the window, not the number of days police may keep someone.
+8 | The Supreme Court confirmed this in July twenty twenty six. Every grant still needs the Magistrate's decision. || The Supreme Court confirmed this in July 2026. Every grant still needs the Magistrate's decision.
+# 5 · RAVI MOVES BETWEEN THE TWO
+10 | Assume Ravi's case is in the sixty day category, and he stays in custody throughout. The Magistrate grants five days of police custody.
+8 | Then judicial custody follows, and new evidence emerges in the investigation.
+6 | On day twenty, police ask for another five days of police custody. || On day 20, police ask for another five days of police custody.
+10 | The Magistrate may grant them if justified, because all five days fall within the first forty days, and only ten of the fifteen would be used.
+10 | Returning to police custody does not create a fresh fifteen day allowance, or restart the overall remand clock.
+# 6 · PRODUCTION AND REASONS
+10 | Section One Eighty Seven, sub section Four, requires physical production before the Magistrate for every police remand.
+8 | Judicial custody may be extended through physical or audio video production. || Judicial custody may be extended through physical or audio-video production.
+10 | Under sub section Seven, the Magistrate must record reasons for police custody. A police request is not a remand order.
+10 | To move Ravi from prison into police custody, investigators need a fresh court order within the limits.
+# 7 · HOW 60 AND 90 FIT
+10 | Section One Eighty Seven, sub section Three, sets the investigation detention periods linked to default bail.
+10 | It specifies ninety days for offences punishable with death, life imprisonment, or imprisonment for ten years or more.
+10 | And sixty days for other offences. The exact charge, and the applicable judicial interpretation, matter.
+10 | Police and judicial custody both count towards the applicable total. It is not fifteen days plus another sixty or ninety. || Police and judicial custody both count towards the applicable total. It is not 15 days plus another 60 or 90.
+8 | Special laws can modify these rules, so the ordinary figures cannot be applied blindly.
+# 8 · AFTER THE LIMIT
+10 | Expiry alone does not open the prison gates. If the required charge sheet is missing, the accused must claim default bail in time.
+10 | He must also be ready to furnish bail. A timely charge sheet can let judicial custody continue through lawful orders.
+10 | After cognizance or the start of trial, Section Three Forty Six permits remand when proceedings are postponed or adjourned.
+10 | That is a maximum of fifteen days at a time under that section, which is different from the fifteen day police custody limit.
+# 9 · RIGHTS IN CUSTODY
+10 | Custody does not remove basic rights. Section Forty Seven requires the grounds of arrest to be communicated forthwith.
+6 | Section Forty Eight requires informing a nominated relative or friend.
+8 | Section Thirty Eight gives the right to meet an advocate during interrogation, though not throughout it.
+10 | Sections Fifty Three and Fifty Six provide for medical examination, and for the health and safety of the arrested person.
+10 | And bail can be sought before the maximum custody periods expire; the court need not use every available day.
+# 10 · REMEMBER
+8 | Police custody places the accused with investigators, for authorised investigation.
+8 | Judicial custody ordinarily places the accused in prison, under court orders.
+10 | Remember the ordinary limits: twenty four hours before a Magistrate must authorise detention, and fifteen police custody days in all. || Remember the ordinary limits: 24 hours before a Magistrate must authorise detention, and 15 police-custody days in all.
+6 | All of it sits inside the forty, sixty and ninety day framework. || All of it sits inside the 40, 60 and 90-day framework.
