@@ -34,6 +34,17 @@ fs.mkdirSync(out, { recursive: true });
   await page.goto('file://' + html);
   await page.evaluate(() => document.fonts.ready);
   const n = await page.evaluate((t) => (window as any).__init(t), tl);
+  // Fast capture (course series, 19-10-2026): the frames straight from Chrome's compositor through CDP with optimizeForSpeed
+  // (fast zlib) instead of Playwright's page.screenshot - the same pixels (checked), bigger PNGs, much less CPU per frame.
+  // FAST_SHOT=0 restores page.screenshot.
+  const fast = process.env.FAST_SHOT !== '0';
+  const cdp = fast ? await page.context().newCDPSession(page) : null;
+  if (cdp) await cdp.send('Emulation.setDefaultBackgroundColorOverride', { color: { r: 0, g: 0, b: 0, a: 0 } });
+  const shot = async (file?: string): Promise<Buffer> => {
+    if (!cdp) { const b = await page.screenshot({ path: file, omitBackground: true, type: 'png' }); return b; }
+    const r: any = await cdp.send('Page.captureScreenshot', { format: 'png', optimizeForSpeed: true, fromSurface: true, captureBeyondViewport: false } as any);
+    const buf = Buffer.from(r.data, 'base64'); if (file) fs.writeFileSync(file, buf); return buf;
+  };
   console.log(`[overlay] ${n} elements, duration ${tl.duration}s @ ${fps}fps`);
   if (preview) {
     for (const ts of preview.split(',')) {
@@ -66,7 +77,7 @@ fs.mkdirSync(out, { recursive: true });
     const warm = [...new Set([...firsts.flatMap((s: number) => Array.from({ length: Math.max(0, Math.min(48, fromF - s)) }, (_, k) => s + k)),
       ...Array.from({ length: Math.min(24, fromF) }, (_, k) => fromF - Math.min(24, fromF) + k)])].sort((a, b) => a - b);
     if (!warm.length) warm.push(fromF);
-    for (const f of warm) { await page.evaluate((t) => (window as any).__seek(t), f / fps); await page.screenshot({ omitBackground: true, type: 'png' }); }
+    for (const f of warm) { await page.evaluate((t) => (window as any).__seek(t), f / fps); await shot(); }
     console.log(`[overlay] warm-up: ${warm.length} frames before frame ${fromF} (builds of the cues on screen + the last second)`);
   }
   let blank: Buffer | null = null; let drawn = 0;
@@ -75,9 +86,9 @@ fs.mkdirSync(out, { recursive: true });
     const t = i / fps;
     const f = path.join(out, `f${String(i).padStart(5, '0')}.png`);
     const active = await page.evaluate((t) => (window as any).__seek(t), t);
-    if (active) { await page.screenshot({ path: f, omitBackground: true, type: 'png' }); drawn++; }
+    if (active) { await shot(f); drawn++; }
     else {
-      if (!blank) { await page.evaluate(() => (window as any).__seek(-1)); blank = await page.screenshot({ omitBackground: true, type: 'png' }); }
+      if (!blank) { await page.evaluate(() => (window as any).__seek(-1)); blank = await shot(); }
       fs.writeFileSync(f, blank);
     }
     if (i % 120 === 0) console.log(`[overlay] ${i}/${total} (${((Date.now() - t0) / 1000).toFixed(0)}s)`);
