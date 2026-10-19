@@ -2,59 +2,59 @@
 // Fact-check 19-10-2026 applied: laptop worth over Rs 20,000 (smaller thefts go to summary trial, no charge); s.274 proviso is
 // mandatory ("requires"); the 60-day discharge window: some High Courts treat it as directory; no "automatic 60-day stay" claim -
 // close on "ask for time and record the objection"; Vijay Kumar paired with reported Supreme Court authority on screen.
+// v2 19-10-2026: fast energetic rewrite (owner); facts as in v1
+// c01-c03 = the new-style pilot (split/scripts/dfc_pilot.txt), already rendered: keep them word for word. Chapter 5's label is
+// shortened to fit the 28-character chip ("WHICH EVENT STARTS WHICH CLOCK" -> "WHICH EVENT STARTS THE CLOCK").
+// v2 fact-check 19-10-2026: c04-c40 checked against v1, the storyboard and BNSS 230/232/234/235/250/251/262/263/267-269/274: no change.
+// Open: c03 (rendered pilot) "two tools screen every case" overstates (summons cases: no formal charge, s.274); retake line, if
+// wanted: "Under the B N S S, two tools do this screening: discharge and framing of charge. Know the court, ..." (unchanged rest).
 # 1 · THE COURT SCREENS THE CASE
-8 | Police have filed a charge sheet. Must the accused now face a full trial? Not automatically.
-6 | The court must first examine whether the legal threshold for proceeding is met.
-10 | Under the Bharatiya Nagarik Suraksha Sanhita, or B N S S, discharge and framing of charges serve this screening function.
+8 | Charge sheet filed? That does not mean a full trial. The court must first screen the case, and that screening is where a sharp advocate can win early.
+6 | The real question is simple: is there enough material to proceed against your client? If not, discharge.
+10 | Under the B N S S, two tools do this screening: discharge and framing of charge. Know the court, section and deadline, and you can spare your client an unnecessary trial.
 # 2 · WHAT DISCHARGE MEANS
-8 | Discharge means the court finds that proceeding against the accused is not justified at this stage.
-10 | It differs from bail, which concerns liberty while the case continues. And it differs from an acquittal after trial.
-10 | Discharge requires judicial consideration and reasons. It does not happen merely because the accused denies the allegation.
-8 | Filing an application does not achieve it either. So first identify the court and the type of case.
+6 | What is discharge? The court finds that proceeding against the accused is not justified at this stage.
+8 | It is not bail, which concerns liberty while the case continues. And it is not an acquittal after trial either.
+10 | Discharge needs judicial consideration and recorded reasons. A denial alone will not get it, and neither will simply filing an application.
 # 3 · SESSIONS CASES
-6 | Take an ordinary Sessions case committed under Section Two Thirty Two.
-8 | Section Two Fifty lets the accused apply for discharge within sixty days from commitment.
-8 | The Judge considers the record and documents, and hears the accused and the prosecution.
-8 | If there is not sufficient ground for proceeding, the Judge must discharge the accused and record reasons.
-10 | If there is ground for presuming an offence exclusively triable by the Sessions Court, Section Two Fifty One requires a written charge.
-8 | It must be framed within sixty days from the first hearing on charge. These are different starting points.
-8 | Some High Courts treat the sixty day application window as directory. Even so, apply within it. || Some High Courts treat the 60-day application window as directory. Even so, apply within it.
+6 | Sessions case first. Take an ordinary case committed under Section Two Thirty Two.
+6 | Section Two Fifty lets the accused apply for discharge within sixty days from commitment.
+10 | The Judge considers the record and documents, and hears both sides. No sufficient ground for proceeding? The Judge must discharge the accused, and record reasons.
+8 | But if there is ground to presume an offence only a Sessions Court can try, Section Two Fifty One requires a written charge.
+6 | That charge must be framed within sixty days from the first hearing on charge. A different starting point!
+8 | Some High Courts treat the sixty day application window as directory. Even so, never gamble on it. File within time.
 # 4 · MAGISTRATE WARRANT CASES
-8 | For a warrant case before a Magistrate instituted on a police report, Section Two Sixty Two applies.
-10 | Here, the accused may seek discharge within sixty days from supply of document copies under Section Two Thirty.
-10 | The Magistrate considers the police report and papers, and hears both sides. If the charge is groundless, discharge with reasons follows.
-10 | If the test for proceeding is met, Section Two Sixty Three requires a written charge within sixty days from the first hearing on charge.
-6 | So here, the discharge clock starts from document supply, not commitment.
-# 5 · WHICH EVENT STARTS WHICH CLOCK
-8 | Take three dates. A Sessions case is committed on the first of June: that starts its discharge application period. || Take three dates. A Sessions case is committed on 1 June: that starts its discharge application period.
-10 | In a different Magistrate's police report warrant case, copies are supplied on the tenth of June: that starts its application period. || In a different Magistrate's police-report warrant case, copies are supplied on 10 June: that starts its application period.
-8 | If the first hearing on charge is on the first of July, the charge framing period runs from that hearing. || If the first hearing on charge is on 1 July, the charge-framing period runs from that hearing.
-6 | Record the correct event, instead of using one date for every deadline.
+8 | Different court, different clock. In a Magistrate's warrant case on a police report, Section Two Sixty Two applies.
+8 | Here the accused may apply for discharge within sixty days from the supply of document copies under Section Two Thirty.
+8 | The Magistrate considers the police report and papers, and hears both sides. Charge groundless? The Magistrate must discharge, with reasons.
+8 | If the test for proceeding is met, Section Two Sixty Three requires a written charge within sixty days from the first hearing on charge.
+# 5 · WHICH EVENT STARTS THE CLOCK
+8 | This is where advocates slip, so take three dates. A Sessions case is committed on the first of June. That starts its discharge window. || This is where advocates slip, so take three dates. A Sessions case is committed on 1 June. That starts its discharge window.
+10 | In a different case, a Magistrate's warrant case on a police report, copies are supplied on the tenth of June. That starts its own application window. || In a different case, a Magistrate's warrant case on a police report, copies are supplied on 10 June. That starts its own application window.
+6 | If the first hearing on charge is on the first of July, the charge framing period runs from that hearing. || If the first hearing on charge is on 1 July, the charge-framing period runs from that hearing.
+8 | Record the correct trigger for each clock: not the arrest, not the F I R, and never one date for every deadline.
 # 6 · WHAT A CHARGE DOES
-6 | A charge is the court's formal statement of the offence the accused must answer.
-10 | Sections Two Thirty Four and Two Thirty Five cover its contents: the offence, the law, the time, the place and the person involved.
-10 | Under Sections Two Fifty One and Two Sixty Three, the charge is read and explained, and the accused is asked about the plea.
-10 | If contested, the case moves into evidence. Framing charges does not establish guilt; the prosecution must prove its case.
+6 | What does a charge really do? It is the court's formal statement of the offence your client must answer.
+10 | Sections Two Thirty Four and Two Thirty Five cover its contents: the offence, the law, the time, the place, and the person involved. Check every particular.
+10 | Under Sections Two Fifty One and Two Sixty Three, the charge is read and explained, and the accused is asked whether he pleads guilty or claims trial.
+8 | If he claims trial, the case moves into evidence. A charge does not establish guilt. The prosecution must still prove its case.
 # 7 · NO MINI TRIAL
-8 | At this stage, the court examines whether the material supplies a legally sufficient basis to proceed.
-10 | Strong suspicion founded on the material can justify framing charges. Proof beyond reasonable doubt belongs to the decision on guilt.
-8 | The court must apply its mind, but it should not conduct a mini trial by deciding which witness is truthful.
-8 | Equally, a bare accusation without the required legal ingredients is not enough.
-6 | The Supreme Court has repeatedly distinguished this screening from deciding guilt.
+8 | What test applies at this stage? Does the material supply a legally sufficient basis to proceed against your client?
+10 | Here is the line: strong suspicion founded on the material can justify framing a charge. Proof beyond reasonable doubt belongs to the decision on guilt.
+6 | The court must apply its mind, but it should not run a mini trial to decide which witness is truthful.
+10 | Equally, a bare accusation without the required legal ingredients is not enough. So test the material against every ingredient.
+6 | And the Supreme Court has repeatedly distinguished this screening from deciding guilt.
 # 8 · ARJUN'S CASE
-6 | Suppose Arjun is accused of stealing Ravi's laptop, worth sixty thousand rupees.
-10 | Imagine the prosecution papers, even accepted at face value, contain nothing connecting Arjun to the theft.
-6 | His lawyer can then argue that the charge is groundless, and seek discharge.
-6 | But suppose a witness account and supporting material link him to taking it.
-8 | Then a dispute about the witness's reliability may require evidence at trial.
-6 | The actual record controls the result; neither example guarantees an outcome.
+8 | Picture this: Arjun is accused of stealing Ravi's laptop, worth sixty thousand rupees. Look at two possible files.
+10 | First file: the prosecution papers, even accepted at face value, contain nothing connecting Arjun to the theft. Argue that the charge is groundless, and seek discharge.
+10 | Second file: a witness account and supporting material link him to it. Then a dispute about the witness's reliability may need evidence at trial.
+6 | The actual record controls the result, and neither example guarantees an outcome.
 # 9 · OTHER CASE TYPES
-6 | Now, do not apply these sixty day timelines to every kind of case. || Now, do not apply these 60-day timelines to every kind of case.
-10 | Warrant cases instituted otherwise than on a police report follow Sections Two Sixty Seven to Two Sixty Nine.
-10 | In summons cases, Section Two Seventy Four generally requires the accusation to be stated without a formal charge.
-8 | Its proviso requires a reasoned release, with the effect of discharge, if the accusation is groundless.
-6 | Special courts and special statutes may have additional rules of their own.
+10 | One more trap: these sixty day clocks do not fit every case. Warrant cases not started on a police report follow Sections Two Sixty Seven to Two Sixty Nine.
+10 | In summons cases, Section Two Seventy Four generally needs no formal charge. The particulars of the accusation are simply stated to the accused.
+10 | But if the accusation is groundless, the Magistrate must record reasons and release the accused. That release then has the effect of a discharge.
+6 | Special courts and special statutes may have additional rules of their own. Check them first.
 # 10 · ACT PROMPTLY
-10 | Remember: discharge asks whether the case should proceed. Framing charges identifies what must be answered. Neither is a finding of guilt.
-6 | Check the case type, record the correct deadline trigger, and raise your discharge grounds promptly.
-8 | If the court moves to frame the charge too early, ask for time, and put your objection on record.
+8 | Remember: discharge asks whether the case should proceed. The charge identifies what must be answered. Neither is a finding of guilt.
+6 | Your checklist: check the case type, record the correct deadline trigger, and raise your discharge grounds promptly.
+6 | Court moving to frame the charge too early? Ask for time, and put your objection on record.
