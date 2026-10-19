@@ -11,7 +11,7 @@ while true; do
     if [ -f $f ] && [ -f $s ] && [ $f -nt $s ]; then continue; fi
     left=$((left+1))
     [ -f $s ] && [ -f $w ] && python3 -c "import json,sys; sys.exit(0 if json.load(open('$w')).get('keep') else 1)" 2>/dev/null || continue
-    nice -n 5 python3 split/flatten_bg.py --seam left $s 2>&1 | grep -E "^\[flatten\]" | sed "s/^/$(date +%H:%M:%S) /"
+    FLATTEN_PRESET=veryfast nice -n 10 python3 split/flatten_bg.py --seam left $s 2>&1 | grep -E "^\[flatten\]" | sed "s/^/$(date +%H:%M:%S) /"
   done
   [ $left -eq 0 ] && { echo "$(date +%H:%M:%S) all flat"; break; }
   sleep 30

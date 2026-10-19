@@ -523,7 +523,7 @@ def render(path, out, info, mx, A, target_rgb, keep=()):
     # a video stream that starts after 0 (edit list) keeps its start, so the copied audio stays in sync
     off = ["-itsoffset", f"{info['vstart']:.6f}"] if info.get("vstart", 0.0) > 1e-4 else []   # (other cases: the pts check warns)
     enc = ["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "yuv420p", "-s", f"{w}x{h}", "-framerate", info["fps"]] + off + ["-i", "-",
-           "-i", path, "-map", "0:v:0", "-map", "1:a?", "-c:v", "libx264", "-preset", "medium", "-crf", "10", "-pix_fmt", "yuv420p"]
+           "-i", path, "-map", "0:v:0", "-map", "1:a?", "-c:v", "libx264", "-preset", os.environ.get("FLATTEN_PRESET", "medium"), "-crf", "10", "-pix_fmt", "yuv420p"]
     # the source's colour tags, set on the frames (ffmpeg 9 lets untagged frames override -color_primaries / -color_trc)
     sp = [f"{opt}={info['tags'][tag]}" for tag, opt in (("color_space", "colorspace"), ("color_range", "range"), ("color_primaries", "color_primaries"),
                                                          ("color_transfer", "color_trc")) if info["tags"].get(tag) not in (None, "", "unknown")]

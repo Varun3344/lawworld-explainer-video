@@ -343,9 +343,12 @@ def auto_edit():
         if g >= 0.16 or (a["word"][-1:] in ".?!:;," and g >= 0.06):
             strong = a["word"][-1:] in ".?!:" or g >= 0.35
             gaps.append((round(b["start"] - min(0.1, g / 2), 3), strong))
+    starts = [w["start"] - 0.04 for w in words]                           # fallback cut points: just before a word (never mid-word)
     def near_gap(t, lo, hi, strong_first=True):
         c = [g for g in gaps if lo <= g[0] <= hi]
-        if not c: return None
+        if not c:
+            ws = [s for s in starts if lo <= s <= hi]
+            return min(ws, key=lambda s: abs(s - t)) if ws else None
         if strong_first and any(s for _, s in c): c = [g for g in c if g[1]]
         return min(c, key=lambda g: abs(g[0] - t))[0]
     # wanted look per 0.05 s slot: A by default, S while content is on screen, G around the builds of rich cues, A on questions,
@@ -357,12 +360,18 @@ def auto_edit():
             if over is None or look[i] in over: look[i] = L
     content = [c for c in tl["cues"] if c["type"] not in ("panel", "sting", "endcard", "lower_third", "kicker", "cite")]
     for c in content: paint(c["t0"], c["t1"], "S")
-    for c in content:
+    last_g = -1e9
+    for c in sorted(content, key=lambda c: (builds(c) or [c["t0"]])[0]):
         if c["type"] in RICH:
             b = builds(c)
             if not b: continue
-            g0, g1 = b[0] - 0.25, min(c["t1"], b[-1] + 1.6)
-            paint(g0, g1, "G")
+            # the card's reveal only (owner 17-10: "sometimes the animation", not most of the time): from its first build for at most
+            # ~3.6 s, then back to the split view while he talks it through; and never two full-screen reveals within 5 s of each
+            # other (cards that follow closely build in the split view)
+            if b[0] - 0.25 - last_g < 5.0: continue
+            g0, g1 = b[0] - 0.25, min(c["t1"], b[0] + 3.6, b[-1] + 1.2)
+            paint(g0, g1, "G"); last_g = g1
+    for c in content:
         if c["type"] in QUESTION: paint(c.get("at", c["t0"]) - 0.2, c["t1"], "A")
     chips = next(c for c in tl["cues"] if c["type"] == "panel").get("scenes") or []
     for ch in chips[1:]:                                  # a new chapter opens on the presenter (first phrase)
@@ -389,13 +398,15 @@ def auto_edit():
     for k, (t, L) in enumerate(out):
         final_pts.append((t, L))
         nxt = out[k + 1][0] if k + 1 < len(out) else t_end
-        if L in ("S", "A") and nxt - t > 14:                                # a long stretch: alternate on a strong pause
-            u = t + 7
-            while nxt - u > 5:
-                g = near_gap(u, u - 1.5, u + 2.5)
-                if g is None or g - final_pts[-1][0] < 4: break
+        # a long split or presenter stretch: bring him in full screen (or back to the split) on a pause every ~6-8 s, so no look
+        # runs much longer than that (full presenter about a quarter of the video)
+        if L in ("S", "A") and nxt - t > 10:
+            u = t + (5.5 if L == "S" else 4.5)
+            while nxt - u > 3.5:
+                g = near_gap(u, u - 1.2, u + 2.0)
+                if g is None or g - final_pts[-1][0] < 3.0: break
                 L2 = "A" if final_pts[-1][1] == "S" else "S"
-                final_pts.append((g, L2)); u = g + 7
+                final_pts.append((g, L2)); u = g + (4.5 if L2 == "A" else 6.5)
             if final_pts[-1][1] != L and nxt - final_pts[-1][0] < 2.0: final_pts.pop()
     json.dump([[round(t, 3), L] for t, L in final_pts], open(f"{OUT}/edit.json", "w"))
     tot = {L: 0.0 for L in "AGS"}

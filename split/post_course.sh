@@ -25,7 +25,7 @@ python3 split/presenter_geom.py downloads/$SET/flat/c*.mp4 --anchor c01 --seam l
 grep -E "SIZE OUTLIER" $O/geom.log | sed "s/^/[post $SET] /"
 python3 split/build_course_plan.py --set $SET || { log "plan FAILED"; exit 1; }
 log "overlay frames"
-rm -rf $O/frames; zsh split/render_parallel.sh overlays/split_panel.html $O/timeline.json $O/frames 3 > $O/frames.log 2>&1 || { log "overlays FAILED"; tail -5 $O/frames.log; exit 1; }
+rm -rf $O/frames; zsh split/render_parallel.sh overlays/split_panel.html $O/timeline.json $O/frames ${OVERLAY_WORKERS:-2} > $O/frames.log 2>&1 || { log "overlays FAILED"; tail -5 $O/frames.log; exit 1; }
 log "16:9 compose"
 python3 scripts/compose2.py $O/plan.json > $O/compose.log 2>&1 || { log "compose FAILED"; tail -5 $O/compose.log; exit 1; }
 tail -1 $O/compose.log
