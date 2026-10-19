@@ -83,12 +83,34 @@ for seg in ([] if NO_SPEECH else plan["presenter"]):
     w = f"{Q}/{cid}.wav"; sh(["ffmpeg", "-v", "error", "-y", "-ss", f"{max(0, t - 0.25):.3f}", "-t", f"{L + 0.5:.3f}", "-i", F, "-vn", "-ac", "1", "-ar", "16000", w])
     # whisper-1, no prompt: gpt-4o-transcribe dropped second sentences of correct clips and once answered in Devanagari (course
     # series, 19-10-2026); spoken numbers are normalised on both sides (scripts/words.py numify: "one seventy three" == "173")
-    r = sh(["curl", "-s", "https://api.openai.com/v1/audio/transcriptions", "-H", f"Authorization: Bearer {KEY}", "-F", "model=whisper-1", "-F", "language=en", "-F", f"file=@{w}"])
-    heard = json.loads(r.stdout).get("text", "")
-    want_t = W.numify(norm(SC[cid].replace("eighteen eighty-eight", "1888").replace("A B C", "ABC").replace("A P", "AP").replace("-", " ")))
-    got = W.numify(norm(heard.replace("A.B.C.", "ABC").replace("A.P.", "AP").replace("A B C", "ABC").replace("A P ", "AP ").replace("-", " ")))
-    want_t = list("".join(want_t)); got = list("".join(got))                          # compare characters: "B N S S" == "BNSS"
-    sm = difflib.SequenceMatcher(a=want_t, b=got, autojunk=False); rec = sum(b.size for b in sm.get_matching_blocks()) / max(1, len(want_t))
+    def stt(path):
+        r = sh(["curl", "-s", "https://api.openai.com/v1/audio/transcriptions", "-H", f"Authorization: Bearer {KEY}", "-F", "model=whisper-1", "-F", "language=en", "-F", f"file=@{path}"])
+        try: return json.loads(r.stdout).get("text", "")
+        except ValueError: return ""
+    def recall(heard):
+        want_t = W.numify(norm(SC[cid].replace("eighteen eighty-eight", "1888").replace("A B C", "ABC").replace("A P", "AP").replace("-", " ")))
+        got = W.numify(norm(heard.replace("A.B.C.", "ABC").replace("A.P.", "AP").replace("A B C", "ABC").replace("A P ", "AP ").replace("-", " ")))
+        want_t = list("".join(want_t)); got = list("".join(got))                      # compare characters: "B N S S" == "BNSS"
+        sm = difflib.SequenceMatcher(a=want_t, b=got, autojunk=False); return sum(b.size for b in sm.get_matching_blocks()) / max(1, len(want_t))
+    heard = stt(w); rec = recall(heard)
+    if rec < 0.9:
+        # both transcribers sometimes stop after the first sentence of a clip with a pause in it (Video 8 c22, 19-10: the final mix
+        # had the whole line, the second half alone transcribed perfectly): transcribe the two halves split at the longest pause
+        import wave, numpy as np
+        wv = wave.open(w); sr = wv.getframerate(); a = np.frombuffer(wv.readframes(wv.getnframes()), np.int16).astype(float); wv.close()
+        hop = sr // 20; e = np.array([np.sqrt((a[k:k + hop] ** 2).mean() + 1) for k in range(0, len(a) - hop, hop)])
+        es = np.convolve(e, np.ones(5) / 5, mode="same")
+        for frac in (0.35, 0.5, 0.65):                 # a split near a third, the middle or two thirds, at the quietest moment (+-0.6 s)
+            c_ = int(len(e) * frac); lo, hi = max(1, c_ - 12), min(len(e) - 1, c_ + 12)
+            cut = (lo + int(np.argmin(es[lo:hi]))) * hop
+            halves = []
+            for k, (s0, s1) in enumerate(((0, cut), (cut, len(a)))):
+                hp = f"{Q}/{cid}_h{k}.wav"; hw = wave.open(hp, "wb"); hw.setnchannels(1); hw.setsampwidth(2); hw.setframerate(sr)
+                hw.writeframes(a[s0:s1].astype(np.int16).tobytes()); hw.close(); halves.append(stt(hp))
+            h2 = " ".join(halves); r2 = recall(h2)
+            print(f"[qa] {cid} whole-clip recall {rec:.2f} -> split at {cut / sr:.2f}s {r2:.2f}  ({heard!r} -> {h2!r})")
+            if r2 > rec: rec, heard = r2, h2
+            if rec >= 0.9: break
     print(f"[qa] {cid} {t:6.2f}-{t + L:6.2f}  recall {rec:.2f}  heard: {heard}")
     flag(rec >= 0.9, f"{cid} spoken text intact in the final mix")
     t += L
