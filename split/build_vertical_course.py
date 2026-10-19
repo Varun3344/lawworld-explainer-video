@@ -488,12 +488,14 @@ def final(t0=None, t1=None, out=None):
         f"[m1][afull]overlay=0:0:enable='{on('A')}',format=yuv420p[split]",
         f"[c2][card]overlay=0:{(H - CARD_H) // 2}:format=auto[cd1]",
         f"[cd1][ft2]overlay=0:{(H - CARD_H) // 2}:format=auto[cd2]",
-        f"[cd2][fb2]overlay=0:{(H + CARD_H) // 2 - FEATHER_H}:format=auto,format=yuv420p,split=2[ca][cb]",   # card edges melted into the cream
-        f"[ca]trim=0:{STING_END + 0.3:.3f},setpts=PTS-STARTPTS[cardA]",
-        f"[split]trim={STING_END:.3f}:{CARD_START + 0.3:.3f},setpts=PTS-STARTPTS[splitT]",
-        f"[cb]trim={CARD_START:.3f}:{total:.3f},setpts=PTS-STARTPTS[cardB]",
-        f"[cardA][splitT]xfade=transition=fade:duration=0.3:offset={STING_END:.3f}[x1]",
-        f"[x1][cardB]xfade=transition=fade:duration=0.3:offset={CARD_START:.3f}[x2]",
+        f"[cd2][fb2]overlay=0:{(H + CARD_H) // 2 - FEATHER_H}:format=auto,format=rgba,split=2[ca][cb]",   # card edges melted into the cream
+        # the opening card fades out over the split view and the end card fades in over it (alpha fades on overlays that read every
+        # frame): the old trim + xfade pair left the end-card branch unread until the end, so ffmpeg queued the whole video
+        # (~4 GB, swapping, 0.11x on 19-10)
+        f"[ca]fade=t=out:st={STING_END:.3f}:d=0.3:alpha=1[cardA]",
+        f"[cb]fade=t=in:st={CARD_START:.3f}:d=0.3:alpha=1[cardB]",
+        f"[split][cardA]overlay=0:0:enable='lte(t,{STING_END + 0.3:.3f})':format=auto[x1]",
+        f"[x1][cardB]overlay=0:0:enable='gte(t,{CARD_START:.3f})':format=auto,format=yuv420p[x2]",
         f"[x2]subtitles=filename='{fsub}',format=yuv420p[v]",
     ]
     cmd = ["ffmpeg", "-hide_banner", "-y",
@@ -505,7 +507,7 @@ def final(t0=None, t1=None, out=None):
            "-loop", "1", "-framerate", str(FPS), "-i", f"{OUT}/feather_bot.png",
            "-filter_complex", ";".join(f),
            "-map", "[v]", "-map", "2:a", *ss, "-t", f"{dur:.3f}",
-           "-c:v", "libx264", "-preset", "medium", "-crf", "17", "-pix_fmt", "yuv420p", "-r", str(FPS),
+           "-c:v", "libx264", "-preset", os.environ.get("V_PRESET", "faster"), "-crf", "17", "-pix_fmt", "yuv420p", "-r", str(FPS),
            "-c:a", "copy", "-movflags", "+faststart", out, "-stats_period", "10"]
     print("[vertical] final ->", out, f"({t0 or 0:.1f}-{(t1 or total):.1f} s)", {k: len(v) for k, v in sp.items()})
     subprocess.run(cmd, check=True)
