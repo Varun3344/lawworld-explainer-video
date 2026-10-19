@@ -1,137 +1,138 @@
 {
- "aspectRatio": "9:16",
- "maxWordsPerClip": 32,
- "downloadFolder": "/Users/admin/Downloads/New short/product-explainer/downloads/apl",
- "useLastFrameReference": true,
- "referenceFrameFrom": "first",
- "transition": {
-  "type": "cut"
- },
- "globalStyle": {
-  "avatar": "@me",
-  "useAccountAvatar": true,
-  "hostName": "the presenter",
-  "channelName": "LawWorld",
-  "voice": "@me verified avatar voice (identical pitch, tone, accent in every clip)",
-  "outfit": "a tailored mid-grey two-piece business suit, a lavender formal shirt and a navy-blue silk tie (identical in every scene)",
-  "background": "a seamless, plain, very light ivory off-white studio backdrop (almost white, with only a faint warm tint), brightly and evenly lit from edge to edge with no falloff, no vignette, no shadows, no texture and no objects - nothing else in the frame; identical in every scene",
-  "gestures": "He faces the camera squarely for the whole clip: head, shoulders and body stay square to the lens, he never turns to the left or right and never points or presents to the side. Lively but controlled open-palm gestures in front of his chest, counting points on his fingers, small confident nods and a bright smile on emphasis; relaxed fingers close together; hands stay in front of his body, inside the frame and never in front of his face; he stays standing in the same spot, at the same distance from the camera, throughout",
-  "audio": "@me verified avatar voice ONLY, clear and energetic, continuous speech at a brisk trainer's pace, NO background music, NO sound effects, NO silence at the start or end",
-  "negativePrompts": "He stays in the same spot with his face and upper body fully visible at all times; NO turning the head or body to the side, NO looking away from the camera, NO pointing or presenting to the left or right, NO arm stretched out to the side, NO arms, elbows, hands or shoulders touching or cut by the frame edges, NO oversized hands, NO hands held toward the camera, NO big or spread-out fingers, NO thin or lanky body, NO wide-angle lens distortion, NO furniture, NO bookshelves, NO plants, NO lamps, NO props, NO objects behind him, NO icons or graphics, NO text on screen, NO captions, NO name tags, NO logos, NO outfit change, NO camera cut, NO tripod, NO camera or microphone or any studio equipment visible in frame, NO other people",
-  "camera": "Locked-off static shot, vertical. A medium-wide shot: he is STANDING in the middle of the frame, framed from mid-thigh up and fairly small in the frame, so his body fills only about the middle half of the frame width with wide empty backdrop on BOTH sides of him; his shoulders, elbows and hands always stay well inside the frame; clear space above his head. Eye level, natural portrait-lens look, no zoom, no pan, no camera movement; the camera itself is never visible",
-  "realism": "Photorealistic live-action footage of a real human presenter recorded in one studio session against a plain ivory backdrop, NOT a furnished room. Soft, bright, even high-key light: a soft frontal key light on his face with soft fill, no harsh shadows, natural skin texture, natural eye contact straight into the lens and PERFECT LIP SYNC: his lips, jaw and mouth shapes match every syllable of the dialogue exactly, in time with the voice, no mouth movement without sound and no sound without mouth movement, identical exposure and white balance in every scene. TRUE-TO-LIFE BODY: natural adult proportions that match his face - broad shoulders, a solid average build that fills the jacket (not slim, not lanky), and SLENDER, NATURAL-SIZE HANDS: each hand no longer than his face, relaxed fingers held close together, never spread wide, hands never closer to the camera than his chest",
-  "delivery": "Highly energetic, enthusiastic legal trainer leading a masterclass for advocates, like a motivating coach talking straight to camera: bright smile, lively eyes, confident emphasis on key words, brisk clear pace, a tiny pause after each full stop; speak the dialogue exactly once, word for word, never repeat, stretch or slow down a word, never add words"
- },
- "projectTitle": "LawWorld_apl_10s",
- "clipDurationSeconds": 10,
- "scenes": [
-  {
-   "sceneId": "c01",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "A criminal court has convicted Ravi. He believes the court misunderstood the evidence."
+  "aspectRatio": "9:16",
+  "maxWordsPerClip": 32,
+  "downloadFolder": "/Users/admin/Downloads/New short/product-explainer/downloads/apl",
+  "useLastFrameReference": true,
+  "referenceFrameFrom": "first",
+  "transition": {
+    "type": "cut"
   },
-  {
-   "sceneId": "c02",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "In another case, Meera believes a lower court acted beyond its legal powers. Can both simply ask for another trial?"
+  "globalStyle": {
+    "avatar": "@me",
+    "useAccountAvatar": true,
+    "hostName": "the presenter",
+    "channelName": "LawWorld",
+    "voice": "@me verified avatar voice (identical pitch, tone, accent in every clip)",
+    "outfit": "a tailored mid-grey two-piece business suit, a lavender formal shirt and a navy-blue silk tie (identical in every scene)",
+    "background": "a seamless, plain, very light ivory off-white studio backdrop (almost white, with only a faint warm tint), brightly and evenly lit from edge to edge with no falloff, no vignette, no shadows, no texture and no objects - nothing else in the frame; identical in every scene",
+    "gestures": "He faces the camera squarely for the whole clip: head, shoulders and body stay square to the lens, he never turns to the left or right and never points or presents to the side. Lively but controlled open-palm gestures in front of his chest, counting points on his fingers, small confident nods and a bright smile on emphasis; relaxed fingers close together; hands stay in front of his body, inside the frame and never in front of his face; he stays standing in the same spot, at the same distance from the camera, throughout",
+    "audio": "@me verified avatar voice ONLY, clear and energetic, continuous speech at a brisk trainer's pace, NO background music, NO sound effects, NO silence at the start or end",
+    "negativePrompts": "He stays in the same spot with his face and upper body fully visible at all times; NO turning the head or body to the side, NO looking away from the camera, NO pointing or presenting to the left or right, NO arm stretched out to the side, NO arms, elbows, hands or shoulders touching or cut by the frame edges, NO oversized hands, NO hands held toward the camera, NO big or spread-out fingers, NO thin or lanky body, NO wide-angle lens distortion, NO furniture, NO bookshelves, NO plants, NO lamps, NO props, NO objects behind him, NO icons or graphics, NO text on screen, NO captions, NO name tags, NO logos, NO outfit change, NO camera cut, NO tripod, NO camera or microphone or any studio equipment visible in frame, NO other people",
+    "camera": "Locked-off static shot, vertical. A medium-wide shot: he is STANDING in the middle of the frame, framed from mid-thigh up and fairly small in the frame, so his body fills only about the middle half of the frame width with wide empty backdrop on BOTH sides of him; his shoulders, elbows and hands always stay well inside the frame; clear space above his head. Eye level, natural portrait-lens look, no zoom, no pan, no camera movement; the camera itself is never visible",
+    "realism": "Photorealistic live-action footage of a real human presenter recorded in one studio session against a plain ivory backdrop, NOT a furnished room. Soft, bright, even high-key light: a soft frontal key light on his face with soft fill, no harsh shadows, natural skin texture, natural eye contact straight into the lens and PERFECT LIP SYNC: his lips, jaw and mouth shapes match every syllable of the dialogue exactly, in time with the voice, no mouth movement without sound and no sound without mouth movement, identical exposure and white balance in every scene. TRUE-TO-LIFE BODY: natural adult proportions that match his face - broad shoulders, a solid average build that fills the jacket (not slim, not lanky), and SLENDER, NATURAL-SIZE HANDS: each hand no longer than his face, relaxed fingers held close together, never spread wide, hands never closer to the camera than his chest",
+    "delivery": "Highly energetic, enthusiastic legal trainer leading a masterclass for advocates, like a motivating coach talking straight to camera: bright smile, lively eyes, confident emphasis on key words, brisk clear pace, a tiny pause after each full stop; speak the dialogue exactly once, word for word, never repeat, stretch or slow down a word, never add words"
   },
-  {
-   "sceneId": "c03",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "The law provides different remedies: appeal and revision. And choosing the correct remedy, court and deadline matters."
-  },
-  {
-   "sceneId": "c04",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "Under the Bharatiya Nagarik Suraksha Sanhita, or B N S S, let us understand the difference through these two examples."
-  },
-  {
-   "sceneId": "c12",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "Suppose Ravi says the eyewitness could not have identified him in darkness. The appellate court can examine the trial record and his grounds."
-  },
-  {
-   "sceneId": "c13",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "Section Four Twenty Seven allows different outcomes: dismissing the appeal, reversing the conviction, or ordering a retrial."
-  },
-  {
-   "sceneId": "c19",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "An application for criminal revision ordinarily has ninety days, under Article One Thirty One."
-  },
-  {
-   "sceneId": "c20",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "Acquittal appeals, victim appeals, death sentences, Supreme Court proceedings and special statutes need their own limitation checks."
-  },
-  {
-   "sceneId": "c25",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "That requires the court's decision. Delay is not automatically excused simply because an appeal has been prepared or filed."
-  },
-  {
-   "sceneId": "c29",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "For offences punishable with death, life imprisonment, or ten years or more, the Public Prosecutor must first get a chance to object in writing."
-  },
-  {
-   "sceneId": "c30",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "If Ravi was on bail and got three years or less, the trial court must grant him bail to file his appeal, unless there are special reasons."
-  },
-  {
-   "sceneId": "c32",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "Should the conviction be overturned? And should execution of the sentence be suspended while the appeal is pending?"
-  },
-  {
-   "sceneId": "c33",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "Revision is different. Section Four Thirty Eight lets the Sessions Judge or High Court examine a lower criminal court's record."
-  },
-  {
-   "sceneId": "c38",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "It is a discretionary supervisory remedy, not a routine second appeal for arguing the entire evidence again."
-  },
-  {
-   "sceneId": "c42",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "And Section Four Forty Two generally prevents a party from using revision after leaving an available appeal unfiled."
-  },
-  {
-   "sceneId": "c45",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "Appeals are not only for convicted persons. The proviso to Section Four Thirteen gives a victim a right of appeal."
-  },
-  {
-   "sceneId": "c51",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "One final timeline. Section Four Fifteen, sub section Four, requires certain appeals to be disposed of within six months of filing."
-  },
-  {
-   "sceneId": "c54",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "Remember: an appeal challenges a decision within the statutory right; revision provides a narrower supervisory check."
-  }
- ]
+  "projectTitle": "LawWorld_apl_10s",
+  "clipDurationSeconds": 10,
+  "scenes": [
+    {
+      "sceneId": "c01",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "A criminal court has convicted Ravi. He believes the court misunderstood the evidence."
+    },
+    {
+      "sceneId": "c02",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "In another case, Meera believes a lower court acted beyond its legal powers. Can both simply ask for another trial?"
+    },
+    {
+      "sceneId": "c03",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "The law provides different remedies: appeal and revision. And choosing the correct remedy, court and deadline matters."
+    },
+    {
+      "sceneId": "c04",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "Under the Bharatiya Nagarik Suraksha Sanhita, or B N S S, let us understand the difference through these two examples."
+    },
+    {
+      "sceneId": "c12",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "Suppose Ravi says the eyewitness could not have identified him in darkness. The appellate court can examine the trial record and his grounds."
+    },
+    {
+      "sceneId": "c13",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "Section Four Twenty Seven allows different outcomes: dismissing the appeal, reversing the conviction, or ordering a retrial."
+    },
+    {
+      "sceneId": "c19",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "An application for criminal revision ordinarily has ninety days, under Article One Thirty One."
+    },
+    {
+      "sceneId": "c20",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "Acquittal appeals, victim appeals, death sentences, Supreme Court proceedings and special statutes need their own limitation checks."
+    },
+    {
+      "sceneId": "c25",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "That requires the court's decision. Delay is not automatically excused simply because an appeal has been prepared or filed."
+    },
+    {
+      "sceneId": "c29",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "For offences punishable with death, life imprisonment, or ten years or more, the Public Prosecutor must first get a chance to object in writing."
+    },
+    {
+      "sceneId": "c30",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "If Ravi was on bail and got three years or less, the trial court must grant him bail to file his appeal, unless there are special reasons."
+    },
+    {
+      "sceneId": "c32",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "Should the conviction be overturned? And should execution of the sentence be suspended while the appeal is pending?"
+    },
+    {
+      "sceneId": "c33",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "Revision is different. Section Four Thirty Eight lets the Sessions Judge or High Court examine a lower criminal court's record."
+    },
+    {
+      "sceneId": "c38",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "It is a discretionary supervisory remedy, not a routine second appeal for arguing the entire evidence again."
+    },
+    {
+      "sceneId": "c42",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "And Section Four Forty Two generally prevents a party from using revision after leaving an available appeal unfiled."
+    },
+    {
+      "sceneId": "c45",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "Appeals are not only for convicted persons. The proviso to Section Four Thirteen gives a victim a right of appeal."
+    },
+    {
+      "sceneId": "c51",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "One final timeline. Section Four Fifteen, sub section Four, requires certain appeals to be disposed of within six months of filing."
+    },
+    {
+      "sceneId": "c54",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "Remember: an appeal challenges a decision within the statutory right; revision provides a narrower supervisory check."
+    }
+  ],
+  "flowProjectUrl": "https://flow.google.com/project/88dc6d5a-f93e-4e83-b21b-a5ecc4a9e7d2"
 }

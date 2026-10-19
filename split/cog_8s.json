@@ -1,113 +1,114 @@
 {
- "aspectRatio": "9:16",
- "maxWordsPerClip": 32,
- "downloadFolder": "/Users/admin/Downloads/New short/product-explainer/downloads/cog",
- "useLastFrameReference": true,
- "referenceFrameFrom": "first",
- "transition": {
-  "type": "cut"
- },
- "globalStyle": {
-  "avatar": "@me",
-  "useAccountAvatar": true,
-  "hostName": "the presenter",
-  "channelName": "LawWorld",
-  "voice": "@me verified avatar voice (identical pitch, tone, accent in every clip)",
-  "outfit": "a tailored charcoal-grey two-piece business suit, a crisp light-blue formal shirt and a deep burgundy silk tie (identical in every scene)",
-  "background": "a seamless, plain, very light ivory off-white studio backdrop (almost white, with only a faint warm tint), brightly and evenly lit from edge to edge with no falloff, no vignette, no shadows, no texture and no objects - nothing else in the frame; identical in every scene",
-  "gestures": "He faces the camera squarely for the whole clip: head, shoulders and body stay square to the lens, he never turns to the left or right and never points or presents to the side. Lively but controlled open-palm gestures in front of his chest, counting points on his fingers, small confident nods and a bright smile on emphasis; relaxed fingers close together; hands stay in front of his body, inside the frame and never in front of his face; he stays standing in the same spot, at the same distance from the camera, throughout",
-  "audio": "@me verified avatar voice ONLY, clear and energetic, continuous speech at a brisk trainer's pace, NO background music, NO sound effects, NO silence at the start or end",
-  "negativePrompts": "He stays in the same spot with his face and upper body fully visible at all times; NO turning the head or body to the side, NO looking away from the camera, NO pointing or presenting to the left or right, NO arm stretched out to the side, NO arms, elbows, hands or shoulders touching or cut by the frame edges, NO oversized hands, NO hands held toward the camera, NO big or spread-out fingers, NO thin or lanky body, NO wide-angle lens distortion, NO furniture, NO bookshelves, NO plants, NO lamps, NO props, NO objects behind him, NO icons or graphics, NO text on screen, NO captions, NO name tags, NO logos, NO outfit change, NO camera cut, NO tripod, NO camera or microphone or any studio equipment visible in frame, NO other people",
-  "camera": "Locked-off static shot, vertical. A medium-wide shot: he is STANDING in the middle of the frame, framed from mid-thigh up and fairly small in the frame, so his body fills only about the middle half of the frame width with wide empty backdrop on BOTH sides of him; his shoulders, elbows and hands always stay well inside the frame; clear space above his head. Eye level, natural portrait-lens look, no zoom, no pan, no camera movement; the camera itself is never visible",
-  "realism": "Photorealistic live-action footage of a real human presenter recorded in one studio session against a plain ivory backdrop, NOT a furnished room. Soft, bright, even high-key light: a soft frontal key light on his face with soft fill, no harsh shadows, natural skin texture, natural eye contact straight into the lens and PERFECT LIP SYNC: his lips, jaw and mouth shapes match every syllable of the dialogue exactly, in time with the voice, no mouth movement without sound and no sound without mouth movement, identical exposure and white balance in every scene. TRUE-TO-LIFE BODY: natural adult proportions that match his face - broad shoulders, a solid average build that fills the jacket (not slim, not lanky), and SLENDER, NATURAL-SIZE HANDS: each hand no longer than his face, relaxed fingers held close together, never spread wide, hands never closer to the camera than his chest",
-  "delivery": "Highly energetic, enthusiastic legal trainer leading a masterclass for advocates, like a motivating coach talking straight to camera: bright smile, lively eyes, confident emphasis on key words, brisk clear pace, a tiny pause after each full stop; speak the dialogue exactly once, word for word, never repeat, stretch or slow down a word, never add words"
- },
- "projectTitle": "LawWorld_cog_8s",
- "clipDurationSeconds": 8,
- "scenes": [
-  {
-   "sceneId": "c01",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "Two people walk into the same police station. Ravi reports a stolen phone. Meena reports an ordinary incident of hurt."
+  "aspectRatio": "9:16",
+  "maxWordsPerClip": 32,
+  "downloadFolder": "/Users/admin/Downloads/New short/product-explainer/downloads/cog",
+  "useLastFrameReference": true,
+  "referenceFrameFrom": "first",
+  "transition": {
+    "type": "cut"
   },
-  {
-   "sceneId": "c03",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "Confuse them, and you misread what the police can and cannot do. Let us understand both through everyday examples."
+  "globalStyle": {
+    "avatar": "@me",
+    "useAccountAvatar": true,
+    "hostName": "the presenter",
+    "channelName": "LawWorld",
+    "voice": "@me verified avatar voice (identical pitch, tone, accent in every clip)",
+    "outfit": "a tailored charcoal-grey two-piece business suit, a crisp light-blue formal shirt and a deep burgundy silk tie (identical in every scene)",
+    "background": "a seamless, plain, very light ivory off-white studio backdrop (almost white, with only a faint warm tint), brightly and evenly lit from edge to edge with no falloff, no vignette, no shadows, no texture and no objects - nothing else in the frame; identical in every scene",
+    "gestures": "He faces the camera squarely for the whole clip: head, shoulders and body stay square to the lens, he never turns to the left or right and never points or presents to the side. Lively but controlled open-palm gestures in front of his chest, counting points on his fingers, small confident nods and a bright smile on emphasis; relaxed fingers close together; hands stay in front of his body, inside the frame and never in front of his face; he stays standing in the same spot, at the same distance from the camera, throughout",
+    "audio": "@me verified avatar voice ONLY, clear and energetic, continuous speech at a brisk trainer's pace, NO background music, NO sound effects, NO silence at the start or end",
+    "negativePrompts": "He stays in the same spot with his face and upper body fully visible at all times; NO turning the head or body to the side, NO looking away from the camera, NO pointing or presenting to the left or right, NO arm stretched out to the side, NO arms, elbows, hands or shoulders touching or cut by the frame edges, NO oversized hands, NO hands held toward the camera, NO big or spread-out fingers, NO thin or lanky body, NO wide-angle lens distortion, NO furniture, NO bookshelves, NO plants, NO lamps, NO props, NO objects behind him, NO icons or graphics, NO text on screen, NO captions, NO name tags, NO logos, NO outfit change, NO camera cut, NO tripod, NO camera or microphone or any studio equipment visible in frame, NO other people",
+    "camera": "Locked-off static shot, vertical. A medium-wide shot: he is STANDING in the middle of the frame, framed from mid-thigh up and fairly small in the frame, so his body fills only about the middle half of the frame width with wide empty backdrop on BOTH sides of him; his shoulders, elbows and hands always stay well inside the frame; clear space above his head. Eye level, natural portrait-lens look, no zoom, no pan, no camera movement; the camera itself is never visible",
+    "realism": "Photorealistic live-action footage of a real human presenter recorded in one studio session against a plain ivory backdrop, NOT a furnished room. Soft, bright, even high-key light: a soft frontal key light on his face with soft fill, no harsh shadows, natural skin texture, natural eye contact straight into the lens and PERFECT LIP SYNC: his lips, jaw and mouth shapes match every syllable of the dialogue exactly, in time with the voice, no mouth movement without sound and no sound without mouth movement, identical exposure and white balance in every scene. TRUE-TO-LIFE BODY: natural adult proportions that match his face - broad shoulders, a solid average build that fills the jacket (not slim, not lanky), and SLENDER, NATURAL-SIZE HANDS: each hand no longer than his face, relaxed fingers held close together, never spread wide, hands never closer to the camera than his chest",
+    "delivery": "Highly energetic, enthusiastic legal trainer leading a masterclass for advocates, like a motivating coach talking straight to camera: bright smile, lively eyes, confident emphasis on key words, brisk clear pace, a tiny pause after each full stop; speak the dialogue exactly once, word for word, never repeat, stretch or slow down a word, never add words"
   },
-  {
-   "sceneId": "c09",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "That is cognizable theft under Section Three Hundred Three of the Bharatiya Nyaya Sanhita, or B N S."
-  },
-  {
-   "sceneId": "c19",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "Suppose the Magistrate permits investigation into Meena's complaint. Police can now collect evidence."
-  },
-  {
-   "sceneId": "c23",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "Now return to Ravi's case. Must police arrest someone immediately because this theft is cognizable? No."
-  },
-  {
-   "sceneId": "c24",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "Section Thirty Five regulates arrest without a warrant, and its legal conditions must be satisfied."
-  },
-  {
-   "sceneId": "c28",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "Investigation and arrest are different decisions, and an allegation is not a finding of guilt."
-  },
-  {
-   "sceneId": "c29",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "What if one incident includes a cognizable theft and a separate non cognizable hurt?"
-  },
-  {
-   "sceneId": "c34",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "A cognizable offence can be bailable. And non bailable does not mean bail can never be granted."
-  },
-  {
-   "sceneId": "c35",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "Always check the exact offence and the applicable law, rather than treating these words as interchangeable."
-  },
-  {
-   "sceneId": "c36",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "So what should your client do when reporting an offence? Explain the facts clearly, and preserve the evidence."
-  },
-  {
-   "sceneId": "c38",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "This supports what is commonly called Zero F I R. Ask for the free copy provided by sub section Two."
-  },
-  {
-   "sceneId": "c39",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "If recording is refused, sub section Four lets the informant write to the Superintendent of Police."
-  },
-  {
-   "sceneId": "c45",
-   "sanitizeDialogue": false,
-   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
-   "dialogue": "Read them with the First Schedule. The right classification helps you understand the right procedure."
-  }
- ]
+  "projectTitle": "LawWorld_cog_8s",
+  "clipDurationSeconds": 8,
+  "scenes": [
+    {
+      "sceneId": "c01",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "Two people walk into the same police station. Ravi reports a stolen phone. Meena reports an ordinary incident of hurt."
+    },
+    {
+      "sceneId": "c03",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "Confuse them, and you misread what the police can and cannot do. Let us understand both through everyday examples."
+    },
+    {
+      "sceneId": "c09",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "That is cognizable theft under Section Three Hundred Three of the Bharatiya Nyaya Sanhita, or B N S."
+    },
+    {
+      "sceneId": "c19",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "Suppose the Magistrate permits investigation into Meena's complaint. Police can now collect evidence."
+    },
+    {
+      "sceneId": "c23",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "Now return to Ravi's case. Must police arrest someone immediately because this theft is cognizable? No."
+    },
+    {
+      "sceneId": "c24",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "Section Thirty Five regulates arrest without a warrant, and its legal conditions must be satisfied."
+    },
+    {
+      "sceneId": "c28",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "Investigation and arrest are different decisions, and an allegation is not a finding of guilt."
+    },
+    {
+      "sceneId": "c29",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "What if one incident includes a cognizable theft and a separate non cognizable hurt?"
+    },
+    {
+      "sceneId": "c34",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "A cognizable offence can be bailable. And non bailable does not mean bail can never be granted."
+    },
+    {
+      "sceneId": "c35",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "Always check the exact offence and the applicable law, rather than treating these words as interchangeable."
+    },
+    {
+      "sceneId": "c36",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "So what should your client do when reporting an offence? Explain the facts clearly, and preserve the evidence."
+    },
+    {
+      "sceneId": "c38",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "This supports what is commonly called Zero F I R. Ask for the free copy provided by sub section Two."
+    },
+    {
+      "sceneId": "c39",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "If recording is refused, sub section Four lets the informant write to the Superintendent of Police."
+    },
+    {
+      "sceneId": "c45",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "Read them with the First Schedule. The right classification helps you understand the right procedure."
+    }
+  ],
+  "flowProjectUrl": "https://flow.google.com/project/0b8adcea-ee33-4cc5-8842-f3562df9e4ae"
 }
