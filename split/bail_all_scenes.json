@@ -6,255 +6,214 @@
   {
    "sceneId": "c01",
    "seconds": 10,
-   "dialogue": "Someone is already in custody. Someone else fears arrest. A third person stays detained while investigators miss their deadline.",
+   "dialogue": "Three clients call you today. One is already in custody. One fears arrest. And one stays detained while investigators miss their deadline. Which bail do you seek for each?",
    "chip": "1 · THREE SITUATIONS"
   },
   {
    "sceneId": "c02",
    "seconds": 10,
-   "dialogue": "These situations involve regular bail, anticipatory bail and default bail. And the route depends on the situation."
+   "dialogue": "Under the Bharatiya Nagarik Suraksha Sanhita, or B N S S, the situation decides the route: regular, anticipatory or default bail.",
+   "shown": "Under the Bharatiya Nagarik Suraksha Sanhita, or BNSS, the situation decides the route: regular, anticipatory or default bail."
   },
   {
    "sceneId": "c03",
-   "seconds": 10,
-   "dialogue": "Under the Bharatiya Nagarik Suraksha Sanhita, or B N S S, let us understand each route through simple examples.",
-   "shown": "Under the Bharatiya Nagarik Suraksha Sanhita, or BNSS, let us understand each route through simple examples."
+   "seconds": 8,
+   "dialogue": "Client in custody? Regular bail usually means seeking release after arrest, or after surrender into the court's custody.",
+   "chip": "2 · REGULAR BAIL"
   },
   {
    "sceneId": "c04",
    "seconds": 8,
-   "dialogue": "Regular bail usually means seeking release after arrest, or after surrender into the court's custody.",
-   "chip": "2 · REGULAR BAIL"
+   "dialogue": "Bailable offence? Section Four Seventy Eight generally makes release a right, once its requirements are met.",
+   "shown": "Bailable offence? Section 478 generally makes release a right, once its requirements are met."
   },
   {
    "sceneId": "c05",
-   "seconds": 10,
-   "dialogue": "For a bailable offence, Section Four Seventy Eight generally makes release a right when its requirements are met.",
-   "shown": "For a bailable offence, Section 478 generally makes release a right when its requirements are met."
+   "seconds": 8,
+   "dialogue": "Non bailable offence? Section Four Eighty governs bail before the Magistrate, subject to restrictions and exceptions.",
+   "shown": "Non-bailable offence? Section 480 governs bail before the Magistrate, subject to restrictions and exceptions."
   },
   {
    "sceneId": "c06",
    "seconds": 10,
-   "dialogue": "For non bailable offences, Section Four Eighty governs bail before the Magistrate, subject to restrictions and exceptions.",
-   "shown": "For non-bailable offences, Section 480 governs bail before the Magistrate, subject to restrictions and exceptions."
+   "dialogue": "Section Four Eighty Three gives bail powers to the Sessions Court and the High Court. And remember this: non bailable does not mean bail is impossible.",
+   "shown": "Section 483 gives bail powers to the Sessions Court and the High Court. And remember this: non-bailable does not mean bail is impossible."
   },
   {
    "sceneId": "c07",
-   "seconds": 10,
-   "dialogue": "Section Four Eighty Three gives bail powers to the Sessions Court and the High Court. And remember: non bailable does not mean bail is impossible.",
-   "shown": "Section 483 gives bail powers to the Sessions Court and the High Court. And remember: non-bailable does not mean bail is impossible."
+   "seconds": 8,
+   "dialogue": "What does the court weigh? The accusation, the available material, and risks such as absconding or influencing witnesses."
   },
   {
    "sceneId": "c08",
-   "seconds": 8,
-   "dialogue": "The court weighs the accusation, the available material, and risks such as absconding or influencing witnesses."
-  },
-  {
-   "sceneId": "c09",
-   "seconds": 6,
-   "dialogue": "Arjun is arrested in a non bailable case. His lawyer seeks regular bail.",
-   "shown": "Arjun is arrested in a non-bailable case. His lawyer seeks regular bail.",
+   "seconds": 10,
+   "dialogue": "Take Arjun, arrested in a non bailable case. You seek regular bail. He has a fixed address, he will attend court, and he will not contact witnesses.",
+   "shown": "Take Arjun, arrested in a non-bailable case. You seek regular bail. He has a fixed address, he will attend court, and he will not contact witnesses.",
    "chip": "3 · ARJUN IS ARRESTED"
   },
   {
+   "sceneId": "c09",
+   "seconds": 8,
+   "dialogue": "The prosecution explains its custody concerns. The court then weighs all the circumstances and the legal restrictions."
+  },
+  {
    "sceneId": "c10",
-   "seconds": 6,
-   "dialogue": "Arjun has a fixed address, will attend court, and will not contact witnesses."
+   "seconds": 8,
+   "dialogue": "Bail granted? Then Arjun must meet the release requirements and obey every condition. Remember, bail does not decide guilt."
   },
   {
    "sceneId": "c11",
-   "seconds": 8,
-   "dialogue": "The prosecution explains its custody concerns. The court weighs the circumstances and the legal restrictions."
+   "seconds": 6,
+   "dialogue": "No arrest yet, but your client fears one? Anticipatory bail is protection before arrest.",
+   "chip": "4 · ANTICIPATORY BAIL"
   },
   {
    "sceneId": "c12",
-   "seconds": 8,
-   "dialogue": "If granted bail, Arjun must meet the release requirements and obey the conditions. Bail does not decide guilt."
+   "seconds": 10,
+   "dialogue": "Under Section Four Eighty Two, someone who reasonably apprehends arrest for a non bailable offence may approach the Sessions Court or the High Court.",
+   "shown": "Under Section 482, someone who reasonably apprehends arrest for a non-bailable offence may approach the Sessions Court or the High Court."
   },
   {
    "sceneId": "c13",
    "seconds": 6,
-   "dialogue": "Anticipatory bail is different: it is protection arranged before arrest.",
-   "chip": "4 · ANTICIPATORY BAIL"
+   "dialogue": "The court can direct that, if arrested on that accusation, your client be released on bail."
   },
   {
    "sceneId": "c14",
-   "seconds": 10,
-   "dialogue": "Under Section Four Eighty Two, someone who reasonably apprehends arrest for a non bailable offence may approach the Sessions Court or High Court.",
-   "shown": "Under Section 482, someone who reasonably apprehends arrest for a non-bailable offence may approach the Sessions Court or High Court."
+   "seconds": 8,
+   "dialogue": "Common mistake alert! Merely filing the application gives your client no automatic protection. The court's order does."
   },
   {
    "sceneId": "c15",
-   "seconds": 8,
-   "dialogue": "The court can direct that, if arrested on that accusation, the person be released on bail."
+   "seconds": 10,
+   "dialogue": "Watch the exclusions. Section Four Eighty Two, sub section Four, excludes accusations under B N S Section Sixty Five and Section Seventy, sub section Two.",
+   "shown": "Watch the exclusions. Section 482(4) excludes accusations under BNS Section 65 and Section 70(2)."
   },
   {
    "sceneId": "c16",
    "seconds": 8,
-   "dialogue": "Merely filing the application gives no automatic protection. The court's order does."
+   "dialogue": "These are specified sexual offences against minor girls. And some special laws also bar anticipatory bail, so check them first."
   },
   {
    "sceneId": "c17",
    "seconds": 10,
-   "dialogue": "Section Four Eighty Two, sub section Four, excludes accusations under B N S Section Sixty Five and Section Seventy, sub section Two.",
-   "shown": "Section 482(4) excludes accusations under BNS Section 65 and Section 70(2)."
+   "dialogue": "How do you protect Meera? She faces a non bailable accusation and has concrete reasons to fear arrest. She applies under Section Four Eighty Two.",
+   "shown": "How do you protect Meera? She faces a non-bailable accusation and has concrete reasons to fear arrest. She applies under Section 482.",
+   "chip": "5 · MEERA'S CASE"
   },
   {
    "sceneId": "c18",
-   "seconds": 8,
-   "dialogue": "These are specified sexual offences against minor girls. Some special laws also bar anticipatory bail."
+   "seconds": 10,
+   "dialogue": "Protection granted? The court may require her to attend police questioning, avoid threatening witnesses, and take the court's permission before leaving India."
   },
   {
    "sceneId": "c19",
    "seconds": 10,
-   "dialogue": "Meera faces a non bailable accusation and has concrete reasons to fear arrest. She applies under Section Four Eighty Two.",
-   "shown": "Meera faces a non-bailable accusation and has concrete reasons to fear arrest. She applies under Section 482.",
-   "chip": "5 · MEERA'S CASE"
+   "dialogue": "Anticipatory bail protects liberty while the case proceeds. It does not cancel the F I R, or excuse cooperation with a lawful investigation.",
+   "shown": "Anticipatory bail protects liberty while the case proceeds. It does not cancel the FIR, or excuse cooperation with a lawful investigation."
   },
   {
    "sceneId": "c20",
    "seconds": 8,
-   "dialogue": "If protection is granted, the court may require her to attend police questioning and avoid threatening witnesses."
-  },
-  {
-   "sceneId": "c21",
-   "seconds": 10,
-   "dialogue": "She may also need the court's permission before leaving India. Anticipatory bail protects liberty while the case proceeds."
-  },
-  {
-   "sceneId": "c22",
-   "seconds": 8,
-   "dialogue": "It does not cancel the F I R, or excuse cooperation with a lawful investigation.",
-   "shown": "It does not cancel the FIR, or excuse cooperation with a lawful investigation."
-  },
-  {
-   "sceneId": "c23",
-   "seconds": 8,
-   "dialogue": "Default bail, also called statutory bail, arises under Section One Eighty Seven, sub section Three.",
-   "shown": "Default bail, also called statutory bail, arises under Section 187(3).",
+   "dialogue": "Route three runs on a clock. Default bail, also called statutory bail, arises under Section One Eighty Seven, sub section Three.",
+   "shown": "Route three runs on a clock. Default bail, also called statutory bail, arises under Section 187(3).",
    "chip": "6 · DEFAULT BAIL"
   },
   {
-   "sceneId": "c24",
-   "seconds": 10,
+   "sceneId": "c21",
+   "seconds": 8,
    "dialogue": "It applies when the charge sheet is not filed within the applicable period of detention during investigation."
   },
   {
-   "sceneId": "c25",
+   "sceneId": "c22",
    "seconds": 10,
    "dialogue": "The section specifies ninety days for offences punishable with death, life imprisonment, or imprisonment for a term of ten years or more.",
    "shown": "The section specifies 90 days for offences punishable with death, life imprisonment, or imprisonment for a term of 10 years or more."
   },
   {
-   "sceneId": "c26",
+   "sceneId": "c23",
    "seconds": 8,
-   "dialogue": "And sixty days for other offences. The accused must claim the right, and be prepared to furnish bail.",
-   "shown": "And 60 days for other offences. The accused must claim the right, and be prepared to furnish bail."
+   "dialogue": "For other offences, the section specifies sixty days. Your client must claim the right, and be prepared to furnish bail.",
+   "shown": "For other offences, the section specifies 60 days. Your client must claim the right, and be prepared to furnish bail."
   },
   {
-   "sceneId": "c27",
+   "sceneId": "c24",
    "seconds": 8,
-   "dialogue": "Check the exact offence, the judicial interpretation and any special law before choosing the deadline."
+   "dialogue": "Before you pick the deadline, check three things: the exact offence, the judicial interpretation and any special law."
   },
   {
-   "sceneId": "c28",
+   "sceneId": "c25",
    "seconds": 8,
-   "dialogue": "Count from the first remand order, including that day as day one, following the Supreme Court's counting rule.",
+   "dialogue": "Where does the clock start? It does not start at the F I R date. It starts at the first remand order, and that day counts as day one.",
+   "shown": "Where does the clock start? It does not start at the FIR date. It starts at the first remand order, and that day counts as day one.",
    "chip": "7 · WHERE COUNTING BEGINS"
   },
   {
-   "sceneId": "c29",
+   "sceneId": "c26",
+   "seconds": 8,
+   "dialogue": "That is the Supreme Court's counting rule. And moving from police custody to judicial custody does not restart the clock."
+  },
+  {
+   "sceneId": "c27",
    "seconds": 10,
-   "dialogue": "Do not start from the F I R date. And moving from police custody to judicial custody does not restart the clock.",
-   "shown": "Do not start from the FIR date. And moving from police custody to judicial custody does not restart the clock."
+   "dialogue": "These sixty or ninety days concern detention during investigation. The trial need not end within them. Prolonged undertrial detention has separate rules.",
+   "shown": "These 60 or 90 days concern detention during investigation. The trial need not end within them. Prolonged undertrial detention has separate rules."
   },
   {
-   "sceneId": "c30",
+   "sceneId": "c28",
    "seconds": 10,
-   "dialogue": "These sixty or ninety days concern detention during investigation. Separate rules govern prolonged undertrial detention.",
-   "shown": "These sixty or 90 days concern detention during investigation. Separate rules govern prolonged undertrial detention."
-  },
-  {
-   "sceneId": "c31",
-   "seconds": 6,
-   "dialogue": "And the trial need not finish within the investigation detention period."
-  },
-  {
-   "sceneId": "c32",
-   "seconds": 6,
-   "dialogue": "Suppose Ravi's case is in the sixty day category, with no special law extension.",
-   "shown": "Suppose Ravi's case is in the 60-day category, with no special law extension.",
+   "dialogue": "Count with me. Ravi's case is in the sixty day category, with no special law extension. His first remand is on the first of January, twenty twenty six.",
+   "shown": "Count with me. Ravi's case is in the 60-day category, with no special law extension. His first remand is on 1 January 2026.",
    "chip": "8 · A 60-DAY EXAMPLE"
   },
   {
-   "sceneId": "c33",
-   "seconds": 6,
-   "dialogue": "His first remand is on the first of January, twenty twenty six.",
-   "shown": "His first remand is on 1 January 2026."
-  },
-  {
-   "sceneId": "c34",
+   "sceneId": "c29",
    "seconds": 8,
-   "dialogue": "January accounts for thirty one days. February adds twenty eight, taking the count to fifty nine.",
-   "shown": "January accounts for 31 days. February adds 28, taking the count to 59."
+   "dialogue": "Mark that as day one. January accounts for thirty one days. February adds twenty eight, taking the count to fifty nine.",
+   "shown": "Mark that as day one. January accounts for 31 days. February adds 28, taking the count to 59."
   },
   {
-   "sceneId": "c35",
+   "sceneId": "c30",
+   "seconds": 8,
+   "dialogue": "The first of March is day sixty. No police report filed by then? The right arises on the second of March, day sixty one.",
+   "shown": "1 March is day 60. No police report filed by then? The right arises on 2 March, day 61."
+  },
+  {
+   "sceneId": "c31",
    "seconds": 10,
-   "dialogue": "The first of March is day sixty. If the police report is not filed by then, the right arises on the second of March, day sixty one.",
-   "shown": "1 March is day 60. If the police report is not filed by then, the right arises on 2 March, day 61."
+   "dialogue": "Ravi can then claim default bail and offer to furnish bail. But he does not simply walk out: he needs a court order and compliance with the release requirements."
   },
   {
-   "sceneId": "c36",
+   "sceneId": "c32",
    "seconds": 8,
-   "dialogue": "Ravi can then claim default bail, and offer to furnish bail. He does not simply walk out when the calendar changes."
-  },
-  {
-   "sceneId": "c37",
-   "seconds": 6,
-   "dialogue": "A court order, and compliance with the release requirements, are needed."
-  },
-  {
-   "sceneId": "c38",
-   "seconds": 6,
-   "dialogue": "Timing matters. Suppose Ravi claims default bail as soon as the period expires.",
+   "dialogue": "Timing matters. Who moves first, your claim or the charge sheet? Suppose Ravi claims default bail as soon as the period expires.",
    "chip": "9 · WHY A TIMELY CLAIM MATTERS"
   },
   {
-   "sceneId": "c39",
-   "seconds": 6,
-   "dialogue": "At that moment no charge sheet has been filed, and he offers to furnish bail."
+   "sceneId": "c33",
+   "seconds": 10,
+   "dialogue": "Right then, no charge sheet has been filed, and he offers to furnish bail. A later charge sheet cannot defeat his claim, just because the court has not decided it yet."
   },
   {
-   "sceneId": "c40",
-   "seconds": 8,
-   "dialogue": "A charge sheet filed later cannot defeat his claim, just because the court has not decided it yet."
-  },
-  {
-   "sceneId": "c41",
+   "sceneId": "c34",
    "seconds": 10,
    "dialogue": "But if a valid charge sheet is filed before he claims the right, default bail is ordinarily unavailable. He may still seek regular bail."
   },
   {
-   "sceneId": "c42",
+   "sceneId": "c35",
    "seconds": 10,
-   "dialogue": "Default bail rests on the missed statutory deadline. It is not an acquittal, and the investigation may continue after release."
+   "dialogue": "Be very clear: default bail rests on the missed statutory deadline. It is not an acquittal, and the investigation may continue after release."
   },
   {
-   "sceneId": "c43",
+   "sceneId": "c36",
    "seconds": 10,
-   "dialogue": "Remember three questions. Already in custody? Consider regular bail. Reasonably fearing arrest? Consider anticipatory bail.",
+   "dialogue": "Three questions to remember. Already in custody? Consider regular bail. Reasonably fearing arrest? Consider anticipatory bail.",
    "chip": "10 · REMEMBER"
   },
   {
-   "sceneId": "c44",
-   "seconds": 8,
-   "dialogue": "Investigation deadline expired without the required report? Examine default bail immediately."
-  },
-  {
-   "sceneId": "c45",
-   "seconds": 6,
-   "dialogue": "In every route, the applicable law, the court order and the bail conditions matter."
+   "sceneId": "c37",
+   "seconds": 10,
+   "dialogue": "Investigation deadline expired without the required report? Examine default bail immediately. Know the stage, check the section, act in time!"
   }
  ]
 }
