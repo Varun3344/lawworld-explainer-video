@@ -22,7 +22,7 @@ cue(type="cite", t0=A("c03", "appellant"), t1=E("c04") + 0.05, at=A("c03", "appe
 cue(type="flow", t0=S("c03"), t1=E("c03") + 0.05, head="The accusation", head_at=S("c03") + 0.05,
     steps=[{"label": "Tejaram", "sub": "police constable, Sirohi", "icon": "user", "at": A("c03", "appellant")},
            {"label": "A fellow constable complains", "sub": "to the Anti-Corruption Bureau", "icon": "file-text", "at": A("c03", "complaint")},
-           {"label": "Alleged demand: ₹1.5 lakh", "sub": "in the name of the Superintendent of Police", "icon": "x", "tone": "stop", "at": A("c03", "lakh")}])
+           {"label": "Alleged demand: ₹1.5 lakh", "sub": "in the name of the Superintendent of Police", "icon": "x", "tone": "stop", "at": A("c03", "case")}])
 cue(type="timeline", t0=S("c04"), t1=E("c04") + 0.05,
     nodes=[{"label": "FIR", "value": "4 Jun 2021", "sub": "s.7A PC Act, s.120B IPC", "at": A("c04", "came")},
            {"label": "SANCTION", "value": "8 Dec 2023", "sub": "Section 19", "at": A("c04", "sanction")},
