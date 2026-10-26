@@ -39,20 +39,20 @@ page = f"""<!doctype html><html><head><meta charset="utf-8"><style>
       --copper:linear-gradient(135deg,#de8a6a 0%,#d97757 38%,#b3573f 100%);}}
 *{{margin:0;padding:0;box-sizing:border-box;}}
 html,body{{width:1080px;height:1920px;overflow:hidden;background:var(--cream);font-family:Manrope,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased;}}
-body{{display:flex;flex-direction:column;align-items:center;padding:74px 70px 0;}}
+body{{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0 70px 150px;}}   /* owner 26-10: everything in the middle (player bar / app UI cover the foot) */
 .top{{display:flex;justify-content:center;align-items:center;gap:22px;}}
-.top img.mk{{width:86px;height:86px;filter:drop-shadow(0 8px 16px rgba(120,60,30,.25));}}
-.top img.wm{{height:74px;}}
-.kick{{margin-top:44px;}}
-.kick span{{display:inline-block;background:var(--wash);color:var(--deep);font-weight:800;font-size:30px;letter-spacing:4px;padding:16px 34px;border-radius:40px;box-shadow:inset 0 0 0 2px rgba(179,87,63,.18);}}
-h1{{margin-top:34px;width:940px;text-align:center;font-family:"Instrument Serif",serif;font-weight:400;letter-spacing:-1px;}}
+.top img.mk{{width:76px;height:76px;filter:drop-shadow(0 8px 16px rgba(120,60,30,.25));}}
+.top img.wm{{height:64px;}}
+.kick{{margin-top:30px;}}
+.kick span{{display:inline-block;background:var(--wash);color:var(--deep);font-weight:800;font-size:28px;letter-spacing:4px;padding:14px 30px;border-radius:40px;box-shadow:inset 0 0 0 2px rgba(179,87,63,.18);}}
+h1{{margin-top:24px;width:940px;text-align:center;font-family:"Instrument Serif",serif;font-weight:400;letter-spacing:-1px;}}
 h1 .l{{display:block;white-space:nowrap;line-height:1.02;}}
-h1 .l1{{font-size:156px;}} h1 .l2{{font-size:124px;}}
+h1 .l1{{font-size:140px;}} h1 .l2{{font-size:112px;}}
 h1 em{{font-style:italic;color:var(--deep);}}
-.rule{{margin-top:30px;width:300px;height:6px;border-radius:3px;background:var(--copper);flex:none;}}
-.strips{{margin-top:40px;width:912px;display:flex;flex-direction:column;gap:26px;}}
-.st{{display:flex;align-items:center;gap:28px;padding:26px 34px;border-radius:30px;font-weight:700;font-size:46px;line-height:1.1;}}
-.st .ic{{width:72px;height:72px;border-radius:22px;flex:none;display:flex;align-items:center;justify-content:center;}}
+.rule{{margin-top:24px;width:300px;height:6px;border-radius:3px;background:var(--copper);flex:none;}}
+.strips{{margin-top:32px;width:900px;display:flex;flex-direction:column;gap:20px;}}
+.st{{display:flex;align-items:center;gap:26px;padding:22px 32px;border-radius:28px;font-weight:700;font-size:42px;line-height:1.1;}}
+.st .ic{{width:64px;height:64px;border-radius:22px;flex:none;display:flex;align-items:center;justify-content:center;}}
 .st svg{{width:40px;height:40px;fill:none;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;}}
 .st.copper{{background:var(--copper);color:#fff;box-shadow:0 22px 50px rgba(179,87,63,.30);}}
 .st.copper .ic{{background:rgba(255,255,255,.18);}} .st.copper svg{{stroke:#fff;}}
@@ -60,15 +60,15 @@ h1 em{{font-style:italic;color:var(--deep);}}
 .st.paper .ic{{background:var(--wash);}} .st.paper svg{{stroke:var(--deep);}}
 .st.ink{{background:#1f1e1d;color:#f7f1e8;box-shadow:0 22px 50px rgba(30,20,15,.28);}}
 .st.ink .ic{{background:rgba(255,255,255,.08);box-shadow:inset 0 0 0 2px rgba(255,255,255,.10);}} .st.ink svg{{stroke:#e9a283;}}
-.bench{{margin-top:60px;display:flex;justify-content:center;gap:70px;position:relative;z-index:2;}}
+.bench{{margin-top:50px;display:flex;justify-content:center;gap:70px;position:relative;z-index:2;}}
 .court{{position:absolute;left:0;width:1080px;z-index:1;background-size:cover;background-position:center 32%;opacity:.92;filter:sepia(.62) saturate(.78) brightness(1.06) contrast(.94);-webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 26%,#000 70%,transparent 100%);mask-image:linear-gradient(to bottom,transparent 0,#000 26%,#000 70%,transparent 100%);}}
 .strips{{position:relative;z-index:3;}}
 .nm{{background:rgba(245,240,232,.94);padding:8px 24px 10px;border-radius:30px;box-shadow:0 8px 20px rgba(60,40,25,.12);}}
 .jd{{display:flex;flex-direction:column;align-items:center;gap:22px;}}
-.fr{{width:340px;height:428px;padding:15px;background:#fff;border-radius:6px;box-shadow:0 30px 64px rgba(60,40,25,.22),0 3px 8px rgba(60,40,25,.10);}}
+.fr{{width:290px;height:366px;padding:13px;background:#fff;border-radius:6px;box-shadow:0 30px 64px rgba(60,40,25,.22),0 3px 8px rgba(60,40,25,.10);}}
 .fr img{{width:100%;height:100%;object-fit:cover;object-position:50% 18%;display:block;border-radius:2px;}}
-.nm{{font-family:"Instrument Serif",serif;font-size:48px;line-height:1;color:var(--ink);}}
-.badge{{position:absolute;left:0;right:0;bottom:64px;text-align:center;}}
+.nm{{font-family:"Instrument Serif",serif;font-size:44px;line-height:1;color:var(--ink);}}
+.badge{{margin-top:40px;text-align:center;position:relative;z-index:3;}}
 .badge span{{display:inline-block;background:#1f1e1d;color:#e9a283;font-weight:800;font-size:34px;letter-spacing:4px;padding:20px 42px;border-radius:44px;box-shadow:0 18px 40px rgba(30,20,15,.25);}}
 </style></head><body>
 <div class="top"><img class="mk" src="{BRAND}/site_logo_mark.png"><img class="wm" src="{BRAND}/wordmark_ink.png"></div>
