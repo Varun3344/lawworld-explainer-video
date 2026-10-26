@@ -17,11 +17,11 @@ cue(type="bench", t0=S("c02"), t1=E("c02") + 0.05, tag="Supreme Court of India �
             {"name": "Justice N.V. Anjaria", "photo": "../brand/judges/nv_anjaria.jpg", "at": A("c02", "honourable", 2)}])
 
 # ── 2 · the case ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-cue(type="cite", t0=A("c03", "tejaram"), t1=E("c04") + 0.05, at=A("c03", "tejaram"), tag="SUPREME COURT OF INDIA · 16.10.2026",
+cue(type="cite", t0=A("c03", "appellant"), t1=E("c04") + 0.05, at=A("c03", "appellant"), tag="SUPREME COURT OF INDIA · 16.10.2026",
     cases=[{"name": "Tejaram v. State of Rajasthan", "cite": "2026 INSC 1147 · Criminal Appeal @ SLP (Crl.) No. 11709 of 2025"}])
 cue(type="flow", t0=S("c03"), t1=E("c03") + 0.05, head="The accusation", head_at=S("c03") + 0.05,
-    steps=[{"label": "Tejaram", "sub": "police constable, Sirohi", "icon": "user", "at": A("c03", "tejaram")},
-           {"label": "A fellow constable complains", "sub": "to the Anti-Corruption Bureau", "icon": "file-text", "at": A("c03", "colleague")},
+    steps=[{"label": "Tejaram", "sub": "police constable, Sirohi", "icon": "user", "at": A("c03", "appellant")},
+           {"label": "A fellow constable complains", "sub": "to the Anti-Corruption Bureau", "icon": "file-text", "at": A("c03", "complaint")},
            {"label": "Alleged demand: ₹1.5 lakh", "sub": "in the name of the Superintendent of Police", "icon": "x", "tone": "stop", "at": A("c03", "lakh")}])
 cue(type="timeline", t0=S("c04"), t1=E("c04") + 0.05,
     nodes=[{"label": "FIR", "value": "4 Jun 2021", "sub": "s.7A PC Act, s.120B IPC", "at": A("c04", "came")},

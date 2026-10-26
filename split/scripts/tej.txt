@@ -13,7 +13,8 @@
 10 | Hi, I am Ravishankar from LawWorld. Accused of demanding a bribe, can a public servant stop the case for want of approval under Section Seventeen A? || Hi, I am Ravishankar from LawWorld. Accused of demanding a bribe, can a public servant stop the case for want of approval under Section 17A?
 10 | On sixteenth October, twenty twenty six, the Supreme Court bench of Honourable Justice S V N Bhatti and Honourable Justice N V Anjaria ruled. || On 16 October 2026, the Supreme Court bench of Honourable Justice S.V.N. Bhatti and Honourable Justice N.V. Anjaria ruled.
 # 2 · THE CASE
-10 | Tejaram, a police constable, was accused by a colleague of demanding one and a half lakh rupees, in the name of the Superintendent of Police. || Tejaram, a police constable, was accused by a colleague of demanding ₹1.5 lakh, in the name of the Superintendent of Police.
+// c03 v1 (named Tejaram) was refused by Flow's policy filter 26-10 (a named person + a bribe accusation): the name stays on the cards only
+10 | The appellant, a police constable, faced a colleague's complaint alleging a demand of one and a half lakh rupees, made in the Superintendent of Police's name. || The appellant, a police constable, faced a colleague's complaint alleging a demand of ₹1.5 lakh, made in the Superintendent of Police's name.
 10 | An F I R came in twenty twenty one. After sanction, a charge under Section Seven was framed in twenty twenty four, and the High Court upheld it. || An FIR came in 2021. After sanction, a charge under Section 7 was framed in 2024, and the High Court upheld it.
 # 3 · HIS ARGUMENT
 10 | His plea: Section Seventeen A of the Prevention of Corruption Act needs prior approval to investigate a public servant's official acts. None was taken. || His plea: Section 17A of the Prevention of Corruption Act needs prior approval to investigate a public servant's official acts. None was taken.
