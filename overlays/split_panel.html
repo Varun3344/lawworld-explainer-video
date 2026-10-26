@@ -72,6 +72,8 @@
   html.pr .pbg .pveil{left:calc(var(--over) + var(--pw) - var(--clear));}   /* seam on the panel's right edge */
   html.pr .pbg .pramp{left:calc(var(--over) + var(--pw) - var(--clear) - var(--ramp));background:linear-gradient(270deg,var(--cream),rgba(245,240,232,0));}
   /* panelBg none: no painted cream (the video carries it); blobs/watermark fade out towards the seam through a mask instead of the veil */
+  /* plainBg (judgment reels, owner 26-10-2026: "both screen should look like same screen"): flat cream only, no blobs / star */
+  html.plain .pbg .pbl{display:none;}
   html.nobg .pbg{background:transparent;}
   html.nobg .pbg .pveil,html.nobg .pbg .pramp,html.nobg #pedge{display:none;}
   html.nobg .pbg .pbl{-webkit-mask-image:linear-gradient(90deg,#000 0,#000 calc(100% - var(--over) - var(--clear) - var(--ramp)),transparent calc(100% - var(--over) - var(--clear)));mask-image:linear-gradient(90deg,#000 0,#000 calc(100% - var(--over) - var(--clear) - var(--ramp)),transparent calc(100% - var(--over) - var(--clear)));}
@@ -389,6 +391,7 @@ function setGeometry(L) {
   // panelBg "none": the base video already carries the flat cream under the panel (a wide shot with the presenter standing in his third),
   // so the panel paints no background, veil or feather of its own and a hand that reaches into the panel stays visible
   document.documentElement.classList.toggle('nobg', String(L.panelBg ?? 'cream') === 'none');
+  document.documentElement.classList.toggle('plain', !!L.plainBg);
   const s = document.documentElement.style;
   Object.entries({ px: PX, pw: PW, cl: CL, cw: CW, feather: FEATHER, over: OVER, clear: CLEAR, ramp: RAMP, 'head-y': HEAD_Y, 'head-h': HEAD_H, 'rule-y': RULE_Y,
     'kick-y': KICK_Y, 'cite-b': CITE_B, 'lt-x': LT_X, 'lt-y': LT_Y, 'lt-w': LT_W, 'edge-w': EDGE_W, 'eq-w': EQ_W,

@@ -214,7 +214,7 @@ def nbsp(v):
     return v
 cues[:] = [nbsp(c) for c in cues]
 cues.sort(key=lambda c: (0 if c["type"] in ("panel",) else 1, c["t0"]))
-json.dump({"duration": total, "width": 1920, "height": 1080, "layout": {"px": 640, "presenter": "right"}, "cues": cues},
+json.dump({"duration": total, "width": 1920, "height": 1080, "layout": {"px": 640, "presenter": "right", **({"plainBg": True} if NS.get("PLAIN_BG") else {})}, "cues": cues},
           open(f"{OUT}/timeline.json", "w"), indent=1, ensure_ascii=False)
 def seg(s):
     d = {"clip": s["clip"], "in": s["in"], "out": s["out"]}

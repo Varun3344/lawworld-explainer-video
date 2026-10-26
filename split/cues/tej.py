@@ -7,6 +7,7 @@
 # s.19 sanction before cognizance, at most an irregularity (8); appeal dismissed (11). The bench card uses the official portraits.
 def A(c, w, n=1, d=-0.08): return r3(at(c, w, n) + d)
 
+PLAIN_BG = True   # owner 26-10-2026: the cards and the presenter on one plain cream screen (no blobs / star behind the cards)
 STING = {"kicker": "SUPREME COURT · JUDGMENT EXPLAINED", "title": "Section 17A and a bribe demand", "sub": "Tejaram v. State of Rajasthan · 2026 INSC 1147"}
 ENDCARD = {"title": "Section 17A and a bribe demand", "line": "No official decision or recommendation · no Section 17A", "sub": "LawWorld: legal research for advocates"}
 

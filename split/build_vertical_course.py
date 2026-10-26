@@ -24,7 +24,10 @@ WORDS = f"out/{SET}/words.json"
 CLIPDIR = f"downloads/{SET}/flat"
 VOICE = f"out/{SET}/work/voice.wav"
 W, H, FPS = 1080, 1920, 24
-PANEL_H = 912
+# V_LAYOUT=judgment (owner 26-10-2026, judgment reels): cards on the top 60 %, presenter on the bottom 40 %, one plain cream screen,
+# the Sisinty cuts only in the intro and one continuous split from the first story chapter on
+JUDGMENT = os.environ.get("V_LAYOUT") == "judgment"
+PANEL_H = 1152 if JUDGMENT else 912
 K = 1.6875
 BOX_W, BOX_H = 640, 1080
 REG_H = H - PANEL_H
@@ -32,7 +35,7 @@ HEAD_TOP_BOX = 177
 HEAD_MARGIN = 60
 Y0 = int(round(HEAD_TOP_BOX * K - HEAD_MARGIN)) & ~1
 CREAM, FILL = "0xf5f0e8", "0xf7f2e8"
-CAP_Y = 1470
+CAP_Y = 1660 if JUDGMENT else 1470          # judgment: the face sits lower in the 40 % band, the captions go to his chest
 os.makedirs(OUT, exist_ok=True)
 
 
@@ -393,7 +396,7 @@ def auto_edit():
     for ch in chips[1:]:                                  # a new chapter opens on the presenter (first phrase)
         g = near_gap(ch["at"] + 2.2, ch["at"] + 1.2, ch["at"] + 3.4)
         if g: paint(ch["at"] - 0.1, g, "A")
-    paint(t_end - 6.5, t_end, "A", over={"S"})            # the close, to camera
+    if not JUDGMENT: paint(t_end - 6.5, t_end, "A", over={"S"})            # the close, to camera
     # change points -> snapped to pauses; drop shots < 2 s; no look longer than 14 s without a change (A <-> S alternate)
     pts = [(t_start, look[0])]
     for i in range(1, n):
@@ -426,6 +429,12 @@ def auto_edit():
                 L2 = "A" if final_pts[-1][1] == "S" else "S"
                 final_pts.append((g, L2)); u = g + (4.5 if L2 == "A" else 6.5)
             if final_pts[-1][1] != L and nxt - final_pts[-1][0] < 2.0: final_pts.pop()
+    if JUDGMENT and len(chips) > 1:
+        # the intro keeps the cuts; from the first story chapter (its chip) on: one continuous split to the end card
+        ts = near_gap(chips[1]["at"], chips[1]["at"] - 0.8, chips[1]["at"] + 0.3) or chips[1]["at"]
+        final_pts = [p for p in final_pts if p[0] < ts - 0.05]
+        if len(final_pts) > 1 and ts - final_pts[-1][0] < 2.0: final_pts.pop()
+        if final_pts[-1][1] != "S": final_pts.append((ts, "S"))
     json.dump([[round(t, 3), L] for t, L in final_pts], open(f"{OUT}/edit.json", "w"))
     tot = {L: 0.0 for L in "AGS"}
     for k, (t, L) in enumerate(final_pts):
@@ -475,15 +484,17 @@ def final(t0=None, t1=None, out=None):
     on = lambda look: "+".join(f"between(t,{a:.3f},{b - 0.001:.3f})" for a, b in sp[look]) or "0"
     f = [
         "[0:v]fps=24,format=rgba,split=5[o1][o2][o3][o4][o5]",
-        f"[o1]crop=1280:1080:0:0,scale={W}:{PANEL_H}:flags=lanczos[panel]",
+        # judgment: the content column at the full-screen-card scale (x 76..1204 of the panel -> 1080 wide), centred in the 60 % band
+        (f"[o1]crop={G_CROP[1]}:1080:{G_CROP[0]}:0,scale={W}:{G_H}:flags=lanczos[panel]" if JUDGMENT else
+         f"[o1]crop=1280:1080:0:0,scale={W}:{PANEL_H}:flags=lanczos[panel]"),
         f"[o2]scale={W}:{CARD_H}:flags=lanczos[card]",                       # the whole 16:9 card, full width (long course titles)
         f"[o3]{lt}[lt]",
         f"[o5]{lt}[lt2]",
         f"[o4]crop={G_CROP[1]}:1080:{G_CROP[0]}:0,scale={G_W}:{G_H}:flags=lanczos[gpanel]",
         f"color=c={CREAM}:s={W}x{H}:r={FPS}:d={total:.3f},format=yuv420p,split=3[c1][c2][c3]",
-        "[c1][panel]overlay=0:0:format=auto[s1]",
+        f"[c1][panel]overlay=0:{(PANEL_H - G_H) // 2 if JUDGMENT else 0}:format=auto[s1]",
         f"[s1][1:v]overlay=0:{PANEL_H}[s2]",
-        "[s2][lt]overlay=24:960:format=auto,format=yuv420p[split0]",
+        f"[s2][lt]overlay=24:{PANEL_H + 48}:format=auto,format=yuv420p[split0]",
         f"[c3][gpanel]overlay=0:{G_Y}:format=auto[g1]",
         "[4:v]split=2[ft1][ft2]", "[5:v]split=2[fb1][fb2]",
         f"[g1][ft1]overlay=0:{G_Y}:format=auto[g2]",
