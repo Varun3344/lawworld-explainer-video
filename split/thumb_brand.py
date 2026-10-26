@@ -4,7 +4,7 @@ the presenter), drawn as an HTML page with the concept videos' own fonts and col
 Serif + Manrope) and screenshotted by headless Chrome at 1080x1920.
 Usage: python3 split/thumb_brand.py <config.json>
 config: {"head1", "head2", "accent" (words of head2 set in italic copper), "strips": [[text, "copper"|"paper"|"ink"], x3],
-         "judges": [[photo, name], ...], "badge", "kicker", "out"}"""
+         "judges": [[photo, name], ...], "court" (building photo, optional), "badge", "kicker", "out"}"""
 import html, json, os, subprocess, sys
 
 cfg = json.load(open(sys.argv[1]))
@@ -30,6 +30,7 @@ judges = "".join(
     f'<div class="jd" style="transform:rotate({a}deg)"><div class="fr"><img src="file://{e(p)}"></div><div class="nm">{e(n)}</div></div>'
     for (p, n), a in zip(cfg["judges"], (3, -3)))
 
+court = (f'<div class="court" style="background-image:url(file://{e(cfg["court"])})"></div>' if cfg.get("court") else "")
 page = f"""<!doctype html><html><head><meta charset="utf-8"><style>
 @font-face{{font-family:"Instrument Serif";font-style:normal;src:url({BRAND}/fonts/Instrument_Serif_jizBRFtNs2ka5fXjeivQ4LroWlx-6zUTjnTLgNs.woff2) format("woff2");}}
 @font-face{{font-family:"Instrument Serif";font-style:italic;src:url({BRAND}/fonts/Instrument_Serif_jizHRFtNs2ka5fXjeivQ4LroWlx-6zAjjH7Motmp5g.woff2) format("woff2");}}
@@ -59,7 +60,10 @@ h1 em{{font-style:italic;color:var(--deep);}}
 .st.paper .ic{{background:var(--wash);}} .st.paper svg{{stroke:var(--deep);}}
 .st.ink{{background:#1f1e1d;color:#f7f1e8;box-shadow:0 22px 50px rgba(30,20,15,.28);}}
 .st.ink .ic{{background:rgba(255,255,255,.08);box-shadow:inset 0 0 0 2px rgba(255,255,255,.10);}} .st.ink svg{{stroke:#e9a283;}}
-.bench{{margin-top:60px;display:flex;justify-content:center;gap:70px;}}
+.bench{{margin-top:60px;display:flex;justify-content:center;gap:70px;position:relative;z-index:2;}}
+.court{{position:absolute;left:0;width:1080px;z-index:1;background-size:cover;background-position:center 32%;opacity:.92;filter:sepia(.62) saturate(.78) brightness(1.06) contrast(.94);-webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 26%,#000 70%,transparent 100%);mask-image:linear-gradient(to bottom,transparent 0,#000 26%,#000 70%,transparent 100%);}}
+.strips{{position:relative;z-index:3;}}
+.nm{{background:rgba(245,240,232,.94);padding:8px 24px 10px;border-radius:30px;box-shadow:0 8px 20px rgba(60,40,25,.12);}}
 .jd{{display:flex;flex-direction:column;align-items:center;gap:22px;}}
 .fr{{width:340px;height:428px;padding:15px;background:#fff;border-radius:6px;box-shadow:0 30px 64px rgba(60,40,25,.22),0 3px 8px rgba(60,40,25,.10);}}
 .fr img{{width:100%;height:100%;object-fit:cover;object-position:50% 18%;display:block;border-radius:2px;}}
@@ -72,7 +76,9 @@ h1 em{{font-style:italic;color:var(--deep);}}
 <h1><span class="l l1">{e(cfg["head1"])}</span><span class="l l2">{head2()}</span></h1>
 <div class="rule"></div>
 <div class="strips">{strips}</div>
-<div class="bench">{judges}</div>
+{court}<div class="bench">{judges}</div>
+<script>window.__layout = () => {{ const c = document.querySelector(".court"), b = document.querySelector(".bench"); if (!c) return;
+  const r = b.getBoundingClientRect(); c.style.top = (r.top - 150) + "px"; c.style.height = (r.height + 230) + "px"; }};</script>
 <div class="badge"><span>{e(cfg["badge"])}</span></div>
 </body></html>"""
 
@@ -86,7 +92,7 @@ const { chromium } = require('playwright');
   const b = await chromium.launch({ headless: true, channel: 'chrome' });
   const p = await b.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
   await p.goto('file://' + process.argv[1]);
-  await p.evaluate(async () => { await document.fonts.ready;
+  await p.evaluate(async () => { await document.fonts.ready; if (window.__layout) window.__layout();
     for (const l of document.querySelectorAll('h1 .l')) { let fs = parseFloat(getComputedStyle(l).fontSize);
       while (l.scrollWidth > 940 && fs > 60) { fs -= 2; l.style.fontSize = fs + 'px'; } }
     await Promise.all([...document.images].map(i => i.decode().catch(() => {}))); });
