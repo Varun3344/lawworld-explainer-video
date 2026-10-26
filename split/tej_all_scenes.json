@@ -1,0 +1,70 @@
+{
+ "projectTitle": "LawWorld_tej",
+ "title": "Section 17A and a bribe demand",
+ "source": "split/scripts/tej.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. Accused of demanding a bribe, can a public servant stop the case for want of approval under Section Seventeen A?",
+   "shown": "Hi, I am Ravishankar from LawWorld. Accused of demanding a bribe, can a public servant stop the case for want of approval under Section 17A?",
+   "chip": "1 · PRIOR APPROVAL?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "On sixteenth October, twenty twenty six, the Supreme Court bench of Honourable Justice S V N Bhatti and Honourable Justice N V Anjaria ruled.",
+   "shown": "On 16 October 2026, the Supreme Court bench of Honourable Justice S.V.N. Bhatti and Honourable Justice N.V. Anjaria ruled."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Tejaram, a police constable, was accused by a colleague of demanding one and a half lakh rupees, in the name of the Superintendent of Police.",
+   "shown": "Tejaram, a police constable, was accused by a colleague of demanding ₹1.5 lakh, in the name of the Superintendent of Police.",
+   "chip": "2 · THE CASE"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "An F I R came in twenty twenty one. After sanction, a charge under Section Seven was framed in twenty twenty four, and the High Court upheld it.",
+   "shown": "An FIR came in 2021. After sanction, a charge under Section 7 was framed in 2024, and the High Court upheld it."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "His plea: Section Seventeen A of the Prevention of Corruption Act needs prior approval to investigate a public servant's official acts. None was taken.",
+   "shown": "His plea: Section 17A of the Prevention of Corruption Act needs prior approval to investigate a public servant's official acts. None was taken.",
+   "chip": "3 · HIS ARGUMENT"
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The Court read it closely: approval is needed only where the offence relates to a recommendation made, or a decision taken, in official duty.",
+   "chip": "4 · WHAT SECTION 17A COVERS"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "A bribe demand is neither: a pure criminal act, unconnected to official functions. Earlier rulings, Santosh Karnani and Anil Daima, agree."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "The pending larger bench reference on Section Seventeen A had no bearing. And the Section Nineteen sanction, taken before cognizance, was no fatal defect.",
+   "shown": "The pending larger-bench reference on Section 17A had no bearing. And the Section 19 sanction, taken before cognizance, was no fatal defect.",
+   "chip": "5 · THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "The appeal was dismissed; the trial goes on. Section Seventeen A needs a link to an official decision or recommendation, and a bribe demand has none.",
+   "shown": "The appeal was dismissed; the trial goes on. Section 17A needs a link to an official decision or recommendation, and a bribe demand has none."
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "For more judgments made simple, follow LawWorld on all our channels, and visit lawworld dot A I.",
+   "shown": "For more judgments made simple, follow LawWorld on all our channels, and visit lawworld.ai."
+  }
+ ]
+}

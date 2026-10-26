@@ -1,0 +1,26 @@
+// Tejaram v. State of Rajasthan, 2026 INSC 1147 (S.V.N. Bhatti J., N.V. Anjaria J. - Anjaria J. wrote it), decided 16.10.2026, REPORTABLE.
+// First judgment reel in the concept-video format (owner 26-10-2026: ~90-100 s, no B-roll story half, panels like the course videos,
+// thumbnail as on the reels). Source: verdictum.in copy of the SC judgment (scratchpad finder/SC_tejaram.txt).
+// Facts used: constable at the Dy. SP's office, Sirohi; complainant (also a constable) alleged a demand of Rs 1.5 lakh in the SP's name;
+// FIR 174/2021 (04.06.2021, s.7A PC Act + 120B IPC); s.19 sanction 08.12.2023; charge under s.7 framed 12.09.2024 (Special Judge ACB,
+// Pali); High Court (Jodhpur) dismissed the revision 26.03.2025. Held: s.17A needs a recommendation made or decision taken in discharge of
+// official functions; a bribe demand is "a pure criminal act unconnected to discharge of the official functions" (para 6.1); Santosh
+// Karnani (2023) and Anil Daima (2026) followed; the CPIL larger-bench reference (13.01.2026) is irrelevant (para 7); s.19 sanction taken
+// before cognizance - at most an irregularity, does not vitiate the proceedings (para 8); appeal dismissed, trial on merits.
+// Fact-check agent 26-10: no wrong fact; applied: c06 names the Court, c08 names the Section 19 sanction (not the 17A approval),
+// c09 takeaway 'needs a link to an official decision or recommendation' (17A does not 'cover decisions').
+# 1 · PRIOR APPROVAL?
+10 | Hi, I am Ravishankar from LawWorld. Accused of demanding a bribe, can a public servant stop the case for want of approval under Section Seventeen A? || Hi, I am Ravishankar from LawWorld. Accused of demanding a bribe, can a public servant stop the case for want of approval under Section 17A?
+10 | On sixteenth October, twenty twenty six, the Supreme Court bench of Honourable Justice S V N Bhatti and Honourable Justice N V Anjaria ruled. || On 16 October 2026, the Supreme Court bench of Honourable Justice S.V.N. Bhatti and Honourable Justice N.V. Anjaria ruled.
+# 2 · THE CASE
+10 | Tejaram, a police constable, was accused by a colleague of demanding one and a half lakh rupees, in the name of the Superintendent of Police. || Tejaram, a police constable, was accused by a colleague of demanding ₹1.5 lakh, in the name of the Superintendent of Police.
+10 | An F I R came in twenty twenty one. After sanction, a charge under Section Seven was framed in twenty twenty four, and the High Court upheld it. || An FIR came in 2021. After sanction, a charge under Section 7 was framed in 2024, and the High Court upheld it.
+# 3 · HIS ARGUMENT
+10 | His plea: Section Seventeen A of the Prevention of Corruption Act needs prior approval to investigate a public servant's official acts. None was taken. || His plea: Section 17A of the Prevention of Corruption Act needs prior approval to investigate a public servant's official acts. None was taken.
+# 4 · WHAT SECTION 17A COVERS
+10 | The Court read it closely: approval is needed only where the offence relates to a recommendation made, or a decision taken, in official duty.
+10 | A bribe demand is neither: a pure criminal act, unconnected to official functions. Earlier rulings, Santosh Karnani and Anil Daima, agree.
+# 5 · THE VERDICT
+10 | The pending larger bench reference on Section Seventeen A had no bearing. And the Section Nineteen sanction, taken before cognizance, was no fatal defect. || The pending larger-bench reference on Section 17A had no bearing. And the Section 19 sanction, taken before cognizance, was no fatal defect.
+10 | The appeal was dismissed; the trial goes on. Section Seventeen A needs a link to an official decision or recommendation, and a bribe demand has none. || The appeal was dismissed; the trial goes on. Section 17A needs a link to an official decision or recommendation, and a bribe demand has none.
+6 | For more judgments made simple, follow LawWorld on all our channels, and visit lawworld dot A I. || For more judgments made simple, follow LawWorld on all our channels, and visit lawworld.ai.

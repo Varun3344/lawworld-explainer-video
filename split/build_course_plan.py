@@ -160,8 +160,9 @@ ACR = {"BNSS", "BNS", "FIR", "CPC", "SP", "SC", "HC", "VII", "XLIII"}
 def chapter_title(label):
     txt = label.split("·", 1)[-1].strip() if "·" in label else label
     ws = txt.split()
-    def numw(w):                                      # "60-DAY" -> "60-day"; "173(1)(g)" and "BNSS" untouched
-        return re.sub(r"[A-Z]+", lambda m: m.group(0) if m.group(0) in ACR else m.group(0).lower(), w)
+    def numw(w):                                      # "60-DAY" -> "60-day"; "173(1)(g)", "BNSS" and section letters "17A" untouched
+        keep = lambda m: m.group(0) in ACR or (m.start() > 0 and w[m.start() - 1].isdigit() and len(m.group(0)) <= 2)
+        return re.sub(r"[A-Z]+", lambda m: m.group(0) if keep(m) else m.group(0).lower(), w)
     PROPER = {"STATE", "RAVI", "MEERA", "ARJUN", "MEENA"}   # "Victim and State appeals", "Meera's case"
     def proper(w): return re.sub(r"'S\b", "'s", w.capitalize()) if re.sub(r"'S$", "", w.strip(":?,.")).upper() in PROPER else None
     return " ".join(w if w.strip(":?,.").upper() in ACR else numw(w) if any(ch.isdigit() for ch in w) else

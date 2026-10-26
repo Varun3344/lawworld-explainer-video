@@ -25,6 +25,7 @@ OUTFITS = {
     "bail": "a tailored royal-blue two-piece business suit and a light-grey formal shirt with an open collar, no tie",
     "plt": "a tailored steel-blue two-piece business suit, a pale-pink formal shirt and a dark-grey silk tie",
     "trl": "a tailored deep maroon two-piece business suit and a light-blue formal shirt with an open collar, no tie",
+    "tej": "a tailored midnight-blue two-piece business suit, a crisp white formal shirt and a deep red silk tie",  # judgment reel 26-10
 }
 OUTFIT = OUTFITS.get(SET) or sys.exit(f"[sb] no outfit for {SET}: add one to OUTFITS (every video its own suit)")
 
