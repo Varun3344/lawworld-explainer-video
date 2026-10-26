@@ -19,8 +19,8 @@
   {
    "sceneId": "c03",
    "seconds": 10,
-   "dialogue": "The appellant, a police constable, faced a colleague's complaint alleging a demand of one and a half lakh rupees, made in the Superintendent of Police's name.",
-   "shown": "The appellant, a police constable, faced a colleague's complaint alleging a demand of ₹1.5 lakh, made in the Superintendent of Police's name.",
+   "dialogue": "The appellant, a constable, faced a colleague's complaint. It alleged that he sought one and a half lakh rupees, said to be for a senior officer.",
+   "shown": "The appellant, a constable, faced a colleague's complaint. It alleged that he sought ₹1.5 lakh, said to be for a senior officer.",
    "chip": "2 · THE CASE"
   },
   {
