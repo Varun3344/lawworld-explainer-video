@@ -361,8 +361,8 @@ const CLEAR = 220, RAMP = 300;          // panel blobs / watermark: none within 
 const HEAD_Y = 40, HEAD_H = 62, RULE_Y = 130;   // header row (logo lockup + scene chip): top, height; progress rule
 const KICK_Y = 172;                     // kicker top
 const GAP = 34;                         // gap kept between a content cue and the rule / a kicker / a citation bar
-const CITE_B = 40;                      // citation bar: gap to the frame foot (the same 40 px as the header's top margin)
-const AREA_TOP = RULE_Y + GAP, AREA_BOTTOM = 1080 - CITE_B;   // free band for content cues (164..1040)
+let CITE_B = 40;                        // citation bar: gap to the frame foot (the same 40 px as the header's top margin); layout.citeB overrides
+const AREA_TOP = RULE_Y + GAP; let AREA_BOTTOM = 1080 - CITE_B;   // free band for content cues (164..1040)
 const QM_ROOM = 66;                     // quote card: room above it for the big quote mark
 const EQ_W = 840;                       // equation blocks (centred in the column)
 const LT_X = 40, LT_Y = 892;            // lower third (frame coords, presenter side): margin to the frame edge, top
@@ -392,6 +392,9 @@ function setGeometry(L) {
   // so the panel paints no background, veil or feather of its own and a hand that reaches into the panel stays visible
   document.documentElement.classList.toggle('nobg', String(L.panelBg ?? 'cream') === 'none');
   document.documentElement.classList.toggle('plain', !!L.plainBg);
+  // judgment reels (owner 26-10-2026): the 9:16 band ends at the panel's foot, so the citation bar sits higher and its shadow fades
+  // out inside the panel (at 40 px the band's edge cut the shadow into a visible line)
+  const cb = Number(L.citeB ?? 40); CITE_B = cb >= 20 && cb <= 220 ? Math.round(cb) : 40; AREA_BOTTOM = 1080 - CITE_B;
   const s = document.documentElement.style;
   Object.entries({ px: PX, pw: PW, cl: CL, cw: CW, feather: FEATHER, over: OVER, clear: CLEAR, ramp: RAMP, 'head-y': HEAD_Y, 'head-h': HEAD_H, 'rule-y': RULE_Y,
     'kick-y': KICK_Y, 'cite-b': CITE_B, 'lt-x': LT_X, 'lt-y': LT_Y, 'lt-w': LT_W, 'edge-w': EDGE_W, 'eq-w': EQ_W,

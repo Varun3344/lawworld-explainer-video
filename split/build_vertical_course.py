@@ -35,6 +35,10 @@ HEAD_TOP_BOX = 177
 HEAD_MARGIN = 60
 Y0 = int(round(HEAD_TOP_BOX * K - HEAD_MARGIN)) & ~1
 CREAM, FILL = "0xf5f0e8", "0xf7f2e8"
+# judgment: the panel PNGs and the cream canvas come out of the RGB -> yuv overlay ~2 levels darker than the presenter footage
+# (243,237,230 vs 245,239,230, 26-10): lift both so the two bands are one colour
+LIFT = ",lutrgb=r=val+2:g=val+2" if JUDGMENT else ""
+CANVAS = "0xf9f4ea" if JUDGMENT else CREAM   # measured in the final chain: 0xf9f4ea -> 245,239,230 (= his backdrop)
 CAP_Y = 1660 if JUDGMENT else 1470          # judgment: the face sits lower in the 40 % band, the captions go to his chest
 os.makedirs(OUT, exist_ok=True)
 
@@ -461,7 +465,7 @@ def edit_spans():
 
 def feather_pngs():
     from PIL import Image
-    c = (0xf5, 0xf0, 0xe8)
+    c = (0xf7, 0xf2, 0xe8) if JUDGMENT else (0xf5, 0xf0, 0xe8)   # judgment: the lifted cream (LIFT)
     for name in ("top", "bot"):
         im = Image.new("RGBA", (W, FEATHER_H)); px = im.load()
         for y in range(FEATHER_H):
@@ -485,13 +489,13 @@ def final(t0=None, t1=None, out=None):
     f = [
         "[0:v]fps=24,format=rgba,split=5[o1][o2][o3][o4][o5]",
         # judgment: the content column at the full-screen-card scale (x 76..1204 of the panel -> 1080 wide), centred in the 60 % band
-        (f"[o1]crop={G_CROP[1]}:1080:{G_CROP[0]}:0,scale={W}:{G_H}:flags=lanczos[panel]" if JUDGMENT else
+        (f"[o1]crop={G_CROP[1]}:1080:{G_CROP[0]}:0,scale={W}:{G_H}:flags=lanczos{LIFT}[panel]" if JUDGMENT else
          f"[o1]crop=1280:1080:0:0,scale={W}:{PANEL_H}:flags=lanczos[panel]"),
-        f"[o2]scale={W}:{CARD_H}:flags=lanczos[card]",                       # the whole 16:9 card, full width (long course titles)
+        f"[o2]scale={W}:{CARD_H}:flags=lanczos{LIFT}[card]",                       # the whole 16:9 card, full width (long course titles)
         f"[o3]{lt}[lt]",
         f"[o5]{lt}[lt2]",
-        f"[o4]crop={G_CROP[1]}:1080:{G_CROP[0]}:0,scale={G_W}:{G_H}:flags=lanczos[gpanel]",
-        f"color=c={CREAM}:s={W}x{H}:r={FPS}:d={total:.3f},format=yuv420p,split=3[c1][c2][c3]",
+        f"[o4]crop={G_CROP[1]}:1080:{G_CROP[0]}:0,scale={G_W}:{G_H}:flags=lanczos{LIFT}[gpanel]",
+        f"color=c={CANVAS}:s={W}x{H}:r={FPS}:d={total:.3f},format=yuv420p,split=3[c1][c2][c3]",
         f"[c1][panel]overlay=0:{(PANEL_H - G_H) // 2 if JUDGMENT else 0}:format=auto[s1]",
         f"[s1][1:v]overlay=0:{PANEL_H}[s2]",
         f"[s2][lt]overlay=24:{PANEL_H + 48}:format=auto,format=yuv420p[split0]",
