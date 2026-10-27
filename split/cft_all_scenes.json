@@ -1,0 +1,70 @@
+{
+ "projectTitle": "LawWorld_cft",
+ "title": "Court fee and the date the lis began",
+ "source": "split/scripts/cft.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. Kerala doubled its additional court fee in twenty sixteen. Does it hit a tax appeal whose dispute began before that?",
+   "shown": "Hi, I am Ravishankar from LawWorld. Kerala doubled its additional court fee in 2016. Does it hit a tax appeal whose dispute began before that?",
+   "chip": "1 · WHICH COURT FEE?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "On twenty sixth October, twenty twenty six, a single bench of Honourable Justice Bechu Kurian Thomas of the Kerala High Court ruled.",
+   "shown": "On 26 October 2026, a single bench of Honourable Justice Bechu Kurian Thomas of the Kerala High Court ruled."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "This court fee, under Section Seventy Six, feeds the Legal Benefit Fund. A notification raised it to one percent, in force from first April, twenty sixteen.",
+   "shown": "This court fee, under Section 76, feeds the Legal Benefit Fund. A notification raised it to 1%, in force from 1 April 2016.",
+   "chip": "2 · THE CASE"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "Twelve tax assessees, among them Sobha and Manappuram Jewellers, filed appeals and revisions after the notification, and were told to pay the new rate."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "Their plea: the hike impairs a vested right of appeal, and cannot reach older assessment years. The State said every appeal filed after the notification pays.",
+   "chip": "3 · THE CLASH"
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The Court held: the right of appeal, with its court fee, vests when the lis begins. That is Hoosein Kasam Dada, approved by a Constitution Bench, which still binds.",
+   "chip": "4 · WHEN THE RIGHT VESTS"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "Nothing in the notification makes it retrospective. So the one percent fee applies only where the lis began after first April, twenty sixteen.",
+   "shown": "Nothing in the notification makes it retrospective. So the 1% fee applies only where the lis began after 1 April 2016."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "A tax lis begins when the officer, not satisfied with the return, calls for evidence. Sobha's notice came in twenty fifteen, so it need not pay the enhanced fee.",
+   "shown": "A tax lis begins when the officer, not satisfied with the return, calls for evidence. Sobha's notice came in 2015, so it need not pay the enhanced fee.",
+   "chip": "5 · WHEN A TAX LIS BEGINS"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Manappuram's books were called for only in twenty eighteen, so it pays the new rate. In five petitions with no dates pleaded, the appellate forum must find them.",
+   "shown": "Manappuram's books were called for only in 2018, so it pays the new rate. In five petitions with no dates pleaded, the appellate forum must find them.",
+   "chip": "6 · THE RESULT"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "For more judgments made simple, follow LawWorld on all our channels, and visit lawworld dot A I.",
+   "shown": "For more judgments made simple, follow LawWorld on all our channels, and visit lawworld.ai."
+  }
+ ]
+}

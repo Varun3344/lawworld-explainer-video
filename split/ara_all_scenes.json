@@ -1,0 +1,69 @@
+{
+ "projectTitle": "LawWorld_ara",
+ "title": "Section 3(f)(vi) and a housing society",
+ "source": "split/scripts/ara.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. Can land be acquired for a housing society when the Government approved only its request, not a real housing scheme?",
+   "chip": "1 · APPROVAL OF WHAT?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "Twenty sixth October, twenty twenty six: the Supreme Court bench of Honourable Justice J B Pardiwala and Honourable Justice K Vinod Chandran ruled.",
+   "shown": "26 October 2026: the Supreme Court bench of Honourable Justice J.B. Pardiwala and Honourable Justice K. Vinod Chandran ruled."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "A Bengaluru housing society signed an agreement in September nineteen eighty four: a third party would get land acquired for it through the Government.",
+   "shown": "A Bengaluru housing society signed an agreement in September 1984: a third party would get land acquired for it through the Government.",
+   "chip": "2 · THE ACQUISITION"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "Three days later, Section Three f six made a society's housing scheme a public purpose, with prior Government approval. An approval letter came in eighty seven.",
+   "shown": "Three days later, Section 3(f)(vi) made a society's housing scheme a public purpose, with prior Government approval. An approval letter came in 1987."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "These landowners challenged it only in two thousand seven. A Single Judge quashed it for fraud; the Division Bench reversed, on delay and res judicata.",
+   "shown": "These landowners challenged it only in 2007. A Single Judge quashed it for fraud; the Division Bench reversed, on delay and res judicata.",
+   "chip": "3 · IN THE HIGH COURT"
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The Supreme Court disagreed. Under Section Three f six, the Government must approve the scheme itself, with its layout and blueprint, not the society's mere requisition.",
+   "shown": "The Supreme Court disagreed. Under Section 3(f)(vi), the Government must approve the scheme itself, with its layout and blueprint, not the society's mere requisition.",
+   "chip": "4 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "Here, no layout was placed before the Government, only a sketch of the land. And the agreement, signed before such schemes were a public purpose, exposed the fraud."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Fraud vitiates all solemn acts, the Court said, and res judicata and delay pale into insignificance. The Single Judge's order is restored.",
+   "shown": "\"Fraud vitiates all solemn acts,\" the Court said, and res judicata and delay pale into insignificance. The Single Judge's order is restored."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "All owners get their land back on refunding the compensation, without interest. Plots not taken back will be auctioned, and the proceeds go to victim compensation.",
+   "chip": "5 · THE ORDERS"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "For more judgments made simple, follow LawWorld on all our channels, and visit lawworld dot A I.",
+   "shown": "For more judgments made simple, follow LawWorld on all our channels, and visit lawworld.ai."
+  }
+ ]
+}

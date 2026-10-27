@@ -1,0 +1,70 @@
+{
+ "projectTitle": "LawWorld_krm",
+ "title": "Section 34(3) and the unsigned award",
+ "source": "split/scripts/krm.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. The other side sends your client an unsigned copy of an arbitral award. Does the time to challenge it start running?",
+   "chip": "1 · UNSIGNED COPY?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "On twenty sixth October, twenty twenty six, the Kerala High Court, through a single bench of Honourable Justice Mohammed Nias C P, answered that question.",
+   "shown": "On 26 October 2026, the Kerala High Court, through a single bench of Honourable Justice Mohammed Nias C.P., answered that question."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "An arbitrator passed an award on twenty sixth March, twenty twenty four. The losing party challenged it before the Kottayam court under Section Thirty Four.",
+   "shown": "An arbitrator passed an award on 26 March 2024. The losing party challenged it before the Kottayam court under Section 34.",
+   "chip": "2 · THE CASE"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "On eighth April, he received an unsigned copy, posted by the award holder's lawyer. The signed copy came from the arbitrator only on twenty third June.",
+   "shown": "On 8 April, he received an unsigned copy, posted by the award holder's lawyer. The signed copy came from the arbitrator only on 23 June."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "The award holder said the challenge was late: time ran from April, as the other side knew the award's contents. The Kottayam court disagreed, so he came to the High Court.",
+   "chip": "3 · THE QUESTION"
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The question: under Section Thirty Four, sub section Three, does the three month limit run from that unsigned copy, or only from receipt of the signed award?",
+   "shown": "The question: under Section 34(3), does the three-month limit run from that unsigned copy, or only from receipt of the signed award?"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The High Court held: Section Thirty One needs a signed award, and a signed copy delivered to each party. Mere knowledge of its contents does not start limitation.",
+   "shown": "The High Court held: Section 31 needs a signed award, and a signed copy delivered to each party. Mere knowledge of its contents does not start limitation.",
+   "chip": "4 · WHAT STARTS THE CLOCK"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Following Supreme Court rulings like Tecco Trichy and Ark Builders, it held: a copy from the opposite party starts no clock, under Section Thirty Four or Thirty Three.",
+   "shown": "Following Supreme Court rulings like Tecco Trichy and Ark Builders, it held: a copy from the opposite party starts no clock, under Section 34 or 33."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "So time ran from twenty third June, and the challenge was in time. The award holder's petition was dismissed. Advocates, count from receipt of the signed award.",
+   "shown": "So time ran from 23 June, and the challenge was in time. The award holder's petition was dismissed. Advocates, count from receipt of the signed award.",
+   "chip": "5 · THE VERDICT"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "For more judgments made simple, follow LawWorld on all our channels, and visit lawworld dot A I.",
+   "shown": "For more judgments made simple, follow LawWorld on all our channels, and visit lawworld.ai."
+  }
+ ]
+}

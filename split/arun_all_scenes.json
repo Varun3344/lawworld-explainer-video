@@ -1,0 +1,68 @@
+{
+ "projectTitle": "LawWorld_arun",
+ "title": "Six years an undertrial: the State pays",
+ "source": "split/scripts/arun.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. An undertrial spends six years in jail, and is acquitted after a slipshod investigation. Can the Court make the State pay?",
+   "chip": "1 · WHO PAYS?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "On twenty sixth October, twenty twenty six, Honourable Justice J B Pardiwala and Honourable Justice K Vinod Chandran of the Supreme Court ruled.",
+   "shown": "On 26 October 2026, Honourable Justice J.B. Pardiwala and Honourable Justice K. Vinod Chandran of the Supreme Court ruled."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "The petitioner came to this Court for bail after six years in custody as an undertrial, in a case resting entirely on circumstantial evidence.",
+   "chip": "2 · THE CASE"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "He was never named in the F I R or the Section One Sixty One statement. C C T V footage and a co-accused's confession made him an accused.",
+   "shown": "He was never named in the FIR or the Section 161 statement. CCTV footage and a co-accused's confession made him an accused."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "In March twenty twenty six, this Court gave the trial court three months to finish the trial. That court then acquitted the petitioner, the only accused who faced trial.",
+   "shown": "In March 2026, this Court gave the trial court three months to finish the trial. That court then acquitted the petitioner, the only accused who faced trial.",
+   "chip": "3 · THE ACQUITTAL"
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "None of four circumstances was proved: ransom claim, confessions, last seen, electronic evidence. Reading that judgment, the Court was appalled at the investigation.",
+   "chip": "4 · WHAT WENT WRONG"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The remains were not identified by D N A. The motorcycle was not produced. C C T V and call records had no Section Sixty Five B certificate.",
+   "shown": "The remains were not identified by DNA. The motorcycle was not produced. CCTV and call records had no Section 65B certificate."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Six years were erased from the life of a man, the Court said, on mere surmises and conjectures. The State Police would do well to educate their officers.",
+   "chip": "5 · SIX YEARS, SIX LAKH"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "He was a victim of the system. The State must pay him six lakh rupees within one month, with eighteen per cent a year interest if late. The petition was disposed of.",
+   "shown": "He was a victim of the system. The State must pay him ₹6 lakh within one month, with 18% a year interest if late. The petition was disposed of."
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "For more judgments made simple, follow LawWorld on all our channels, and visit lawworld dot A I.",
+   "shown": "For more judgments made simple, follow LawWorld on all our channels, and visit lawworld.ai."
+  }
+ ]
+}

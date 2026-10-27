@@ -1,0 +1,30 @@
+// P.K. Krishnamurthy v. C.V. James, OP(C) No. 1828 of 2026, 2026:KER:81403, High Court of Kerala (Mohammed Nias C.P. J., single
+// bench), heard 14.10.2026, delivered 26.10.2026, marked C.R. (reportable). Concept-format judgment reel (as set tej).
+// Source: scratchpad finder/KER_krishnamurthy.txt (13 pages, read in full).
+// Facts used: award in Arbitration Claim No. 1 of 2023 for the petitioner (claimant) on 26.03.2024 (para 2); the respondent challenged it
+// under s.34 in OP(Arb) No. 4 of 2024, Additional Sub Court, Kottayam (paras 1-2); an unsigned copy, sent by speed post by the
+// petitioner's counsel, was received on 08.04.2024 (paras 2, 5, 14); the duly signed copy obtained from the Arbitrator on 23.06.2024
+// (paras 2, 6, 16); petitioner's plea: limitation ran from 08.04.2024, the respondent "was aware of its contents" (para 4); the court
+// below rejected the limitation plea by Ext.P6 order of 04.06.2026 in I.A. No. 3 of 2025 (paras 1, 3); the question (para 6).
+// Held: s.31(1) signing is essential, s.31(5) a signed copy delivered to each party; receipt of the signed award, "not mere knowledge
+// of its contents", starts s.34(3) limitation (para 8); Tecco Trichy (2005) 4 SCC 239, Ark Builders (2011) 4 SCC 616 (receipt of a copy
+// from the opposing party does not start limitation), Dakshin Haryana Bijli Vitran Nigam v. Navigant (2021) 7 SCC 657 (paras 9-11);
+// Calcutta HC same view (para 12); a copy forwarded by the opposite party cannot substitute (para 13); s.33 likewise not triggered
+// (para 15); limitation from 23.06.2024, the s.34 petition within time (para 16); OP(C) dismissed, the Additional District Court-IV,
+// Kottayam (O.P.(Arb) No. 198 of 2024) to dispose of it within two months (final para).
+// Flow policy: civil case, no accusation; the parties are not named in the spoken lines (names on the cards only).
+# 1 · UNSIGNED COPY?
+10 | Hi, I am Ravishankar from LawWorld. The other side sends your client an unsigned copy of an arbitral award. Does the time to challenge it start running?
+10 | On twenty sixth October, twenty twenty six, the Kerala High Court, through a single bench of Honourable Justice Mohammed Nias C P, answered that question. || On 26 October 2026, the Kerala High Court, through a single bench of Honourable Justice Mohammed Nias C.P., answered that question.
+# 2 · THE CASE
+10 | An arbitrator passed an award on twenty sixth March, twenty twenty four. The losing party challenged it before the Kottayam court under Section Thirty Four. || An arbitrator passed an award on 26 March 2024. The losing party challenged it before the Kottayam court under Section 34.
+10 | On eighth April, he received an unsigned copy, posted by the award holder's lawyer. The signed copy came from the arbitrator only on twenty third June. || On 8 April, he received an unsigned copy, posted by the award holder's lawyer. The signed copy came from the arbitrator only on 23 June.
+# 3 · THE QUESTION
+10 | The award holder said the challenge was late: time ran from April, as the other side knew the award's contents. The Kottayam court disagreed, so he came to the High Court.
+10 | The question: under Section Thirty Four, sub section Three, does the three month limit run from that unsigned copy, or only from receipt of the signed award? || The question: under Section 34(3), does the three-month limit run from that unsigned copy, or only from receipt of the signed award?
+# 4 · WHAT STARTS THE CLOCK
+10 | The High Court held: Section Thirty One needs a signed award, and a signed copy delivered to each party. Mere knowledge of its contents does not start limitation. || The High Court held: Section 31 needs a signed award, and a signed copy delivered to each party. Mere knowledge of its contents does not start limitation.
+10 | Following Supreme Court rulings like Tecco Trichy and Ark Builders, it held: a copy from the opposite party starts no clock, under Section Thirty Four or Thirty Three. || Following Supreme Court rulings like Tecco Trichy and Ark Builders, it held: a copy from the opposite party starts no clock, under Section 34 or 33.
+# 5 · THE VERDICT
+10 | So time ran from twenty third June, and the challenge was in time. The award holder's petition was dismissed. Advocates, count from receipt of the signed award. || So time ran from 23 June, and the challenge was in time. The award holder's petition was dismissed. Advocates, count from receipt of the signed award.
+6 | For more judgments made simple, follow LawWorld on all our channels, and visit lawworld dot A I. || For more judgments made simple, follow LawWorld on all our channels, and visit lawworld.ai.

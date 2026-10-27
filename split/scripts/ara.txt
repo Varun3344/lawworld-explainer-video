@@ -1,0 +1,33 @@
+// N. Arasappa v. State of Karnataka & Ors., 2026 INSC 1151, C.A. Nos. 13744-13747 of 2015 with connected appeals (J.B. Pardiwala J.,
+// K. Vinod Chandran J. - Vinod Chandran J. wrote it), decided 26.10.2026, REPORTABLE. Concept-format judgment reel (9:16, ~96 s).
+// Source: verdictum.in copy of the SC judgment (scratchpad finder/SC_arasappa.txt), read in full.
+// Facts used: the 4th respondent, a housing cooperative society (Peenya, Bangalore), signed the Annexure P1 agreement with a third
+// party (Bhagya Enterprises) on 21.09.1984 - the third party would ensure acquisition "as government land" for the society (37-38);
+// s.3(f) with sub-clause (vi) substituted by Act 68 of 1984 w.e.f. 24.09.1984 (3, 37, 39); Government approval letter 13.11.1987, 97
+// acres (13, 45); s.4(1) notification 22.11.1988 (79 acres 25 guntas), s.6 declaration 04.12.1989 (59 acres 6 guntas) (12-13); landowners
+// went to the High Court in 2007 when interference with their possession was attempted, WP 9412 of 2007 (12); the Single Judge quashed the acquisition for
+// fraud and colourable exercise of power, found possession never taken (no mahazar), costs Rs 10,000 each (15-16); the Division Bench
+// reversed on delay and res judicata (Karithimmaiah, 2002 (1) Kar.L.J. 469 (DB)) (17-20).
+// Held: s.3(f)(vi) approval "is not of the mere requisition made, by a Cooperative Society. It should be for the scheme ... forma et
+// descriptio (the layout and the blueprint)" (40, 43); no scheme or layout was placed before the Government (40, 43, 71(v)); the 1984
+// agreement, before such schemes were a public purpose, "clearly exposes the fraud" (71(i)); "Fraud vitiates all solemn acts" (56);
+// res judicata and delay "pale into insignificance" (72); SLP dismissal in Karithimmaiah is no precedent under Art. 141 (25, 66);
+// DB set aside, Single Judge restored, contempt direction deleted, costs enhanced to Rs 50,000 each (73); possession restored to all
+// landowners (challengers or not) on refund of the Government compensation without interest; the society has no claim; plots not
+// resumed are auctioned, proceeds to victim compensation (74); appeals allowed (75).
+// Flow policy: no private person's name in a spoken line; the society is never named; fraud is said only as the Court's finding.
+# 1 · APPROVAL OF WHAT?
+10 | Hi, I am Ravishankar from LawWorld. Can land be acquired for a housing society when the Government approved only its request, not a real housing scheme?
+10 | Twenty sixth October, twenty twenty six: the Supreme Court bench of Honourable Justice J B Pardiwala and Honourable Justice K Vinod Chandran ruled. || 26 October 2026: the Supreme Court bench of Honourable Justice J.B. Pardiwala and Honourable Justice K. Vinod Chandran ruled.
+# 2 · THE ACQUISITION
+10 | A Bengaluru housing society signed an agreement in September nineteen eighty four: a third party would get land acquired for it through the Government. || A Bengaluru housing society signed an agreement in September 1984: a third party would get land acquired for it through the Government.
+10 | Three days later, Section Three f six made a society's housing scheme a public purpose, with prior Government approval. An approval letter came in eighty seven. || Three days later, Section 3(f)(vi) made a society's housing scheme a public purpose, with prior Government approval. An approval letter came in 1987.
+# 3 · IN THE HIGH COURT
+10 | These landowners challenged it only in two thousand seven. A Single Judge quashed it for fraud; the Division Bench reversed, on delay and res judicata. || These landowners challenged it only in 2007. A Single Judge quashed it for fraud; the Division Bench reversed, on delay and res judicata.
+# 4 · WHAT THE COURT HELD
+10 | The Supreme Court disagreed. Under Section Three f six, the Government must approve the scheme itself, with its layout and blueprint, not the society's mere requisition. || The Supreme Court disagreed. Under Section 3(f)(vi), the Government must approve the scheme itself, with its layout and blueprint, not the society's mere requisition.
+10 | Here, no layout was placed before the Government, only a sketch of the land. And the agreement, signed before such schemes were a public purpose, exposed the fraud.
+10 | Fraud vitiates all solemn acts, the Court said, and res judicata and delay pale into insignificance. The Single Judge's order is restored. || "Fraud vitiates all solemn acts," the Court said, and res judicata and delay pale into insignificance. The Single Judge's order is restored.
+# 5 · THE ORDERS
+10 | All owners get their land back on refunding the compensation, without interest. Plots not taken back will be auctioned, and the proceeds go to victim compensation.
+6 | For more judgments made simple, follow LawWorld on all our channels, and visit lawworld dot A I. || For more judgments made simple, follow LawWorld on all our channels, and visit lawworld.ai.
