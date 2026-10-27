@@ -65,4 +65,4 @@ cue(type="verdicts", t0=S("c09"), t1=A("c09", "advocates") - 0.05,
           {"text": "23 Jun 2024 · signed copy: challenge in time", "ok": True, "at": A("c09", "challenge")},
           {"text": "OP(C) dismissed · trial court: 2 months", "ok": True, "at": A("c09", "petition")}])
 cue(type="point", t0=A("c09", "advocates"), t1=E("c09") + 0.05, text="Count from receipt of the signed award", icon="calendar", accent=True, at=A("c09", "count"))
-cue(type="point", t0=S("c10"), t1=E("c10") + 0.05, text="Judgments made simple · lawworld.ai", icon="check", accent=True, at=A("c10", "judgments"))
+cue(type="point", t0=S("c10"), t1=E("c10") + 0.05, text="Like · Share · Subscribe · lawworld.ai", icon="check", accent=True, at=A("c10", "like"))

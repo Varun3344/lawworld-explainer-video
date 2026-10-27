@@ -63,4 +63,4 @@ cue(type="flow", t0=S("c09"), t1=E("c09") + 0.05, head="The land", head_at=S("c0
            {"label": "Refund the compensation", "sub": "the Government's payment, no interest", "icon": "arrow-right", "at": A("c09", "refunding")},
            {"label": "Plots not taken back: auctioned", "sub": "proceeds to victim compensation", "icon": "landmark", "at": A("c09", "auctioned")}],
     note={"text": "The society has no claim over the land", "icon": "x", "at": A("c09", "proceeds")})
-cue(type="point", t0=S("c10"), t1=E("c10") + 0.05, text="Judgments made simple · lawworld.ai", icon="check", accent=True, at=A("c10", "judgments"))
+cue(type="point", t0=S("c10"), t1=E("c10") + 0.05, text="Like · Share · Subscribe · lawworld.ai", icon="check", accent=True, at=A("c10", "like"))

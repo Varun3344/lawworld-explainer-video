@@ -63,4 +63,4 @@ cue(type="counters", t0=S("c09"), t1=E("c09") + 0.05, head="“A victim of the s
            {"value": 1, "unit": "MONTH", "label": "Time to pay", "sub": "the State of Uttar Pradesh", "at": A("c09", "month")},
            {"value": 18, "unit": "% A YEAR", "label": "If paid late", "sub": "interest", "tone": "red", "at": A("c09", "eighteen")}],
     note={"text": "SLP disposed of · pending applications rejected", "icon": "check", "at": A("c09", "petition")})
-cue(type="point", t0=S("c10"), t1=E("c10") + 0.05, text="Judgments made simple · lawworld.ai", icon="check", accent=True, at=A("c10", "judgments"))
+cue(type="point", t0=S("c10"), t1=E("c10") + 0.05, text="Like · Share · Subscribe · lawworld.ai", icon="check", accent=True, at=A("c10", "like"))

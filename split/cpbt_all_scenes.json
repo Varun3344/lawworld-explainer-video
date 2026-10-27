@@ -1,0 +1,24 @@
+{
+ "projectTitle": "LawWorld_cpb",
+ "title": "Compounding and Plea Bargaining",
+ "source": "split/scripts/cpb.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Ravi and Mohan settle after a neighbourhood fight. In another case, Rohan wants to accept responsibility.",
+   "chip": "1 · TWO WAYS OUT"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 6,
+   "dialogue": "He wants a lawful reduction in punishment. Are these the same thing?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Under the Bharatiya Nagarik Suraksha Sanhita, or B N S S, these are two different procedures: compounding and plea bargaining.",
+   "shown": "Under the Bharatiya Nagarik Suraksha Sanhita, or BNSS, these are two different procedures: compounding and plea bargaining."
+  }
+ ]
+}

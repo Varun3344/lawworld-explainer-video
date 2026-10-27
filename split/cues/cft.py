@@ -77,4 +77,4 @@ cue(type="timeline", t0=S("c09"), t1=A("c09", "five") - 0.05,
            {"label": "BOOKS CALLED FOR", "value": "20 Aug 2018", "sub": "the lis begins", "at": A("c09", "called")},
            {"label": "ITS APPEAL", "value": "1%", "sub": "the new rate", "tone": "red", "at": A("c09", "pays")}])
 cue(type="point", t0=A("c09", "five") - 0.05, t1=E("c09") + 0.05, text="5 petitions, no dates pleaded: the appellate forum decides", icon="search", accent=True, at=A("c09", "five"))
-cue(type="point", t0=S("c10"), t1=E("c10") + 0.05, text="Judgments made simple · lawworld.ai", icon="check", accent=True, at=A("c10", "judgments"))
+cue(type="point", t0=S("c10"), t1=E("c10") + 0.05, text="Like · Share · Subscribe · lawworld.ai", icon="check", accent=True, at=A("c10", "like"))
