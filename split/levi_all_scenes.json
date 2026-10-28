@@ -1,0 +1,66 @@
+{
+ "projectTitle": "LawWorld_levi",
+ "title": "Section 82 proclamation and extradition",
+ "source": "split/scripts/levi.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. If a proclaimed offender declaration is set aside, do the warrants, the Red Notice and the extradition fall too?",
+   "chip": "1 · PROCLAIMED OFFENDER?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "On twenty seventh October, twenty twenty six, the Delhi High Court, through a single bench of Honourable Justice Sanjeev Narula, answered that question.",
+   "shown": "On 27 October 2026, the Delhi High Court, through a single bench of Honourable Justice Sanjeev Narula, answered that question."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "The petitioner faces a criminal case investigated by the Central Bureau of Investigation. He joined the probe, then left India in two thousand eight.",
+   "shown": "The petitioner faces a criminal case investigated by the Central Bureau of Investigation. He joined the probe, then left India in 2008.",
+   "chip": "2 · THE CASE"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "The charge sheet recorded an address in Australia, but no attempt to serve him there was shown. In November twenty fourteen, he was declared a proclaimed offender.",
+   "shown": "The charge-sheet recorded an address in Australia, but no attempt to serve him there was shown. In November 2014, he was declared a proclaimed offender."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "Now in Philippine custody and facing extradition to India, he challenged that declaration, and asked for a stay of the extradition proceedings."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The High Court held: Section Eighty Two needs proof of deliberate evasion. Unexecuted warrants are not enough, when his known overseas address was never pursued.",
+   "shown": "The High Court held: Section 82 needs proof of deliberate evasion. Unexecuted warrants are not enough, when his known overseas address was never pursued.",
+   "chip": "3 · WHAT SECTION 82 NEEDS"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The offences alleged are outside Section Eighty Two, sub section Four, so he could not be declared a proclaimed offender. The proclamation was set aside.",
+   "shown": "The offences alleged are outside Section 82(4), so he could not be declared a proclaimed offender. The proclamation was set aside."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "But this does not absolve him of his obligation to face the pending prosecution. And the warrants of arrest, a distinct process, remain unaffected.",
+   "chip": "4 · WARRANTS AND EXTRADITION"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "The extradition treaty needs no proclaimed offender declaration. So no stay, and this ruling alone does not require withdrawing the Red Notice or the request."
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple."
+  }
+ ]
+}

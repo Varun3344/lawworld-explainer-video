@@ -1,0 +1,67 @@
+{
+ "projectTitle": "LawWorld_rti",
+ "title": "Section 2(f) RTI and a co-operative bank",
+ "source": "split/scripts/rti.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. If a co-operative bank is not a public authority, can its member still get the bank's records under the R T I Act?",
+   "shown": "Hi, I am Ravishankar from LawWorld. If a co-operative bank is not a public authority, can its member still get the bank's records under the RTI Act?",
+   "chip": "1 · RTI AND A CO-OP BANK"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "Twenty sixth October, twenty twenty six: the Supreme Court bench of Honourable Justice J B Pardiwala and Honourable Justice K Vinod Chandran ruled.",
+   "shown": "26 October 2026: the Supreme Court bench of Honourable Justice J.B. Pardiwala and Honourable Justice K. Vinod Chandran ruled."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "A member of a co-operative bank applied under the R T I Act to the Joint Registrar of Co-operative Societies, for two of his bank's documents.",
+   "shown": "A member of a co-operative bank applied under the RTI Act to the Joint Registrar of Co-operative Societies, for two of his bank's documents.",
+   "chip": "2 · THE REQUEST"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "He wanted its building contract with a labour co-operative, and its last general body minutes. In round two, the Commissioner and the High Court upheld his right."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "The bank argued it is not a public authority, and that the Registrar can access its documents only once he is satisfied an inquiry is needed.",
+   "chip": "3 · THE BANK'S CASE"
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "Under Section Two f of the R T I Act, the Court held, information includes a private body's records that a public authority can access by law.",
+   "shown": "Under Section 2(f) of the RTI Act, the Court held, information includes a private body's records that a public authority can access by law.",
+   "chip": "4 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "That power cannot be fettered. Prior satisfaction is needed only to start an inquiry; without the documents, the Registrar cannot decide either way."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Section Eight did not help. There was no trade secret, the bid was over, and for a member, this is not personal information. An outsider stands differently.",
+   "shown": "Section 8 did not help. There was no trade secret, the bid was over, and for a member, this is not personal information. An outsider stands differently."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "The appeals were dismissed. The Joint Registrar must call for both documents immediately, within two weeks at the latest, and supply them to the member.",
+   "chip": "5 · THE ORDERS"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple."
+  }
+ ]
+}

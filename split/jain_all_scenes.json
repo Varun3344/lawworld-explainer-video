@@ -1,0 +1,70 @@
+{
+ "projectTitle": "LawWorld_jain",
+ "title": "Section 151 and the Section 25-B procedure",
+ "source": "split/scripts/jain.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. Once leave to defend is filed in an eviction case, can the tenant add fresh documents under Section One Fifty One?",
+   "shown": "Hi, I am Ravishankar from LawWorld. Once leave to defend is filed in an eviction case, can the tenant add fresh documents under Section 151?",
+   "chip": "1 · LATE DOCUMENTS?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "On twenty seventh October, twenty twenty six, the Delhi High Court, through a single bench of Honourable Justice Ajay Digpaul, answered that question.",
+   "shown": "On 27 October 2026, the Delhi High Court, through a single bench of Honourable Justice Ajay Digpaul, answered that question."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "The landlords sought to evict the tenants from a Chandni Chowk shop, for their bona fide need, under the summary procedure of Section Twenty Five B.",
+   "shown": "The landlords sought to evict the tenants from a Chandni Chowk shop, for their bona fide need, under the summary procedure of Section 25-B.",
+   "chip": "2 · THE CASE"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "Nearly a year after seeking leave to defend, with arguments due, the tenants applied under Section One Fifty One of the C P C to add documents.",
+   "shown": "Nearly a year after seeking leave to defend, with arguments due, the tenants applied under Section 151 of the CPC to add documents."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "Their material: the landlords' other eviction cases in the same premises, several withdrawn or disposed of, and photos of shop for rent banners.",
+   "shown": "Their material: the landlords' other eviction cases in the same premises, several withdrawn or disposed of, and photos of shop-for-rent banners."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The Additional Rent Controller dismissed it. Under Article Two Twenty Seven, the tenants said this material undercut the landlords' bona fide need.",
+   "shown": "The Additional Rent Controller dismissed it. Under Article 227, the tenants said this material undercut the landlords' bona fide need.",
+   "chip": "3 · THE CHALLENGE"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The High Court found the other cases were disclosed in the eviction petition. And not one shred of proof showed the landlords meant to let out the other shops.",
+   "chip": "4 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Even if they did, Section Nineteen of the Act protects evicted tenants. And under Gaya Prasad, later events must completely eclipse the need. These did not.",
+   "shown": "Even if they did, Section 19 of the Act protects evicted tenants. And under Gaya Prasad, later events must completely eclipse the need. These did not."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "The Court called it a dilatory tactic. Section One Fifty One cannot bypass Section Twenty Five B to give successive chances. The petition was dismissed.",
+   "shown": "The Court called it a dilatory tactic. Section 151 cannot bypass Section 25-B to give successive chances. The petition was dismissed.",
+   "chip": "5 · THE VERDICT"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple."
+  }
+ ]
+}

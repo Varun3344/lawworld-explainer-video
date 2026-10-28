@@ -1,0 +1,70 @@
+{
+ "projectTitle": "LawWorld_khan",
+ "title": "Section 87 and the bank's alteration remark",
+ "source": "split/scripts/khan.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. A bank returns a cheque marked alteration in amount. Does that remark alone make it void under Section Eighty Seven?",
+   "shown": "Hi, I am Ravishankar from LawWorld. A bank returns a cheque marked \"alteration in amount\". Does that remark alone make it void under Section 87?",
+   "chip": "1 · ALTERED CHEQUE?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "On twenty seventh October, twenty twenty six, the Delhi High Court, through a single bench of Honourable Justice Sanjeev Narula, answered that question.",
+   "shown": "On 27 October 2026, the Delhi High Court, through a single bench of Honourable Justice Sanjeev Narula, answered that question."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Under a twenty thirteen collaboration agreement, the complainant was to develop the petitioner's Ghaziabad property, and get its first and second floors.",
+   "shown": "Under a 2013 collaboration agreement, the complainant was to develop the petitioner's Ghaziabad property, and get its first and second floors.",
+   "chip": "2 · THE DEAL"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "After disputes, they settled in February twenty sixteen, says the complainant. He gave up his claim to the second floor and its roof rights, for thirty lakh rupees.",
+   "shown": "After disputes, they settled in February 2016, says the complainant. He gave up his claim to the second floor and its roof rights, for ₹30 lakh."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "The petitioner issued three cheques of ten lakh rupees each. Two were returned for insufficient funds; the bank returned the third, citing alteration in amount.",
+   "shown": "The petitioner issued three cheques of ₹10 lakh each. Two were returned for insufficient funds; the bank returned the third, citing \"alteration in amount\"."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The trial court convicted him under Section One Thirty Eight, and his appeal failed. In revision, he argued the cheques were only security, and the third was void.",
+   "shown": "The trial court convicted him under Section 138, and his appeal failed. In revision, he argued the cheques were only security, and the third was void.",
+   "chip": "3 · THE DEFENCE"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "With signatures and delivery admitted, the High Court held the Section One Thirty Nine presumption applied, and the security defence did not rebut it.",
+   "shown": "With signatures and delivery admitted, the High Court held the Section 139 presumption applied, and the security defence did not rebut it.",
+   "chip": "4 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "On the third cheque, the amount in words and figures matched, and no change to an existing entry was proved. The bank's remark alone did not prove it void."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "The conviction was upheld. So was the compensation of forty two lakh rupees. But given the property deal and deposits, the sentence was cut from ten months to six.",
+   "shown": "The conviction was upheld. So was the compensation of ₹42 lakh. But given the property deal and deposits, the sentence was cut from ten months to six.",
+   "chip": "5 · THE VERDICT"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple."
+  }
+ ]
+}

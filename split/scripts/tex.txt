@@ -1,0 +1,35 @@
+// The Assessing Officer, Textiles Committee v. M/s. Premium Suiting Pvt. Ltd. & Anr., 2026 INSC 1158, Civil Appeal No. 785 of 2016
+// (S.V.N. Bhatti J., N.V. Anjaria J. - Anjaria J. wrote it), decided 26.10.2026, REPORTABLE. Concept-format judgment reel (9:16, ~96 s),
+// as set ara. Source: verdictum.in copy of the SC judgment (scratchpad finder/SC_2026INSC1158_Textiles_Committee_v_Premium_Suiting.txt,
+// 17 pages, read in full).
+// Facts used: the Textiles Committee, a statutory body under s.3 of the Textiles Committee Act, 1963 (3); s.5A (inserted by Act 51 of
+// 1973 w.e.f. 01.01.1975): a cess, as a duty of excise, on all textiles and textile machinery manufactured in India, not exceeding 1% ad
+// valorem; proviso: no cess on textiles manufactured from out of handloom or powerloom industry (5, 6.4); 'manufacture' not defined (5.1);
+// powerloom industry: not more than 50 powerlooms (s.2(db), 5.3); the company bleaches, dyes and processes 100% man-made fabrics supplied
+// by powerloom and handloom units, on job work (3, 3.2, 6.3); show cause notice 20.08.2001 and assessment order 21.11.2001: textile cess
+// Rs 2,68,293 (3.2, 3.3); the Appellate Tribunal (T.C.A. No. 223 of 2002), relying on Chandok Textile Exporters: processing amounted to
+// manufacture, appeal dismissed (2, 3.4 - its date is given two ways, so no date is used); High Court at Allahabad, 06.03.2013, Writ Tax
+// No. 354 of 2006: bleaching and dyeing by job workers does not obliterate the status of the textile as a powerloom product, exempt under
+// s.5A; job workers "an extended hand" of the manufacturers (1, 3.5-3.5.2); the Committee: adopt 'manufacture' from s.2(f) of the Central
+// Excise Act, 1944 (any process incidental or ancillary to the completion of a manufactured product) (5.4, 6).
+// Held: unless brought in by reference or incorporation, a word's definition in another statute cannot be applied (5.5, 5.6; R.C. Jain,
+// (1981) 2 SCC 308); every statute has its own context, scheme and purpose (5.6); Jagatram Ahuja (2000) 8 SCC 249, Maheshwari Fish Seed Farm
+// (2004) 4 SCC 705, G.P. Singh (5.7-5.8.2); 'manufactured' in s.5A "has to be understood in its common parlance and not in any special
+// sense by borrowing" (6.1); the company receives, dyes, bleaches and returns the textile: no manufacturing; "an extended arm" of the
+// powerloom manufacturers (6.3, 6.5, 6.6); "At the best, it is the textile upgraded"; not liable to textile cess (6.7); appeal dismissed (7).
+// Flow policy: a tax case, no accusation; the company's name stays in a neutral sentence.
+# 1 · A BORROWED DEFINITION?
+10 | Hi, I am Ravishankar from LawWorld. If a cess law does not define manufacture, can the revenue borrow the definition from the Central Excise Act?
+10 | Twenty sixth October, twenty twenty six: the Supreme Court bench of Honourable Justice S V N Bhatti and Honourable Justice N V Anjaria ruled. || 26 October 2026: the Supreme Court bench of Honourable Justice S.V.N. Bhatti and Honourable Justice N.V. Anjaria ruled.
+# 2 · THE CESS
+10 | Section Five A of the Textiles Committee Act levies a cess on textiles manufactured in India, except those from the powerloom or handloom industry. || Section 5A of the Textiles Committee Act levies a cess on textiles manufactured in India, except those from the powerloom or handloom industry.
+10 | Premium Suiting dyes and bleaches man-made fabric for powerloom and handloom units, on job work. In two thousand one, the Committee's officer demanded cess from it. || Premium Suiting dyes and bleaches man-made fabric for powerloom and handloom units, on job work. In 2001, the Committee's officer demanded cess from it.
+# 3 · TRIBUNAL AND HIGH COURT
+10 | The Tribunal held the processing was manufacture. But in twenty thirteen, the Allahabad High Court quashed it: dyeing did not erase the fabric's powerloom status. || The Tribunal held the processing was manufacture. But in 2013, the Allahabad High Court quashed it: dyeing did not erase the fabric's powerloom status.
+10 | The Committee argued: its Act does not define manufacture, so use Section Two f of the Central Excise Act, which covers incidental processes. || The Committee argued: its Act does not define manufacture, so use Section 2(f) of the Central Excise Act, which covers incidental processes.
+# 4 · WHAT THE COURT HELD
+10 | The Supreme Court disagreed. A word undefined in one Act cannot take another Act's definition, unless brought in by reference or incorporation.
+10 | Every statute has its own context. So manufactured in Section Five A takes its common parlance meaning, not a sense borrowed from another statute. || Every statute has its own context. So "manufactured" in Section 5A takes its common parlance meaning, not a sense borrowed from another statute.
+# 5 · THE VERDICT
+10 | The company's dyeing and bleaching on job work was not manufacture: at best, the textile was upgraded. So no cess was due, and the appeal was dismissed.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple.

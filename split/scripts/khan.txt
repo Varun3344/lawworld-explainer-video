@@ -1,0 +1,33 @@
+// Dr. I. A. Khan v. State & Anr., CRL.REV.P. 122/2020, CNR DLHC010115742020, High Court of Delhi (Sanjeev Narula J., single bench),
+// reserved 30.09.2026, pronounced 27.10.2026. Concept-format judgment reel (9:16, ~96 s), as sets ara / krm.
+// Source: scratchpad finder/Delhi_CRLREVP_122_2020_IA_Khan_v_State.txt (16 pages, read in full).
+// Facts used: collaboration agreement of 13.09.2013 for the petitioner's property, No. 162 Vikram Enclave Extension, Village Pasonda,
+// Ghaziabad; the complainant to build ground, upper ground, first and second floors and get the first and second floors with roof rights
+// over the second (para 2); per the complainant, settlement of 01.02.2016 (Ex. CW-1/Q): he gave up his claim to the second floor and its
+// roof rights for Rs 30 lakh, three cheques (3); three SBI cheques of Rs 10 lakh each (Nos. 315386-315388, 01.03.2016 / 03.03.2016); two
+// returned for insufficiency of funds, No. 315387 with an objection concerning alteration in the amount (4); trial court conviction
+// 10.07.2019, sentence 19.07.2019: ten months' SI, Rs 42 lakh compensation, two months' SI in default; ASJ Shahdara dismissed the
+// appeal 30.01.2020 (1); revision pleas: cheques were security, to be returned on completion of construction (5); No. 315387 void
+// under s.87 NI Act (6).
+// Held: signatures and delivery admitted (10); ss.118(a) and 139 presumptions apply (9); attesting witness CW-2 supported the settlement
+// and delivery (12); the evidence gives an independent basis, the presumptions are not rebutted (15, 25); No. 315387: words "Ten Lakh
+// only" and figures correspond; no proof an existing entry was altered without consent; the bank's 'alteration in amount' endorsement
+// "does not, by itself, establish an unauthorised material alteration rendering the cheque void under Section 87" (20, 22); conviction
+// and Rs 42 lakh compensation affirmed (28, 30); sentence cut from ten to six months' SI: property-development arrangement culminating in
+// a settlement, family circumstances, Rs 21 lakh deposited in appeal and revision; default sentence unchanged (29, 30).
+// Flow policy: the conviction is said plainly, but the parties are "the petitioner" / "the complainant" in speech (names on the cards).
+# 1 · ALTERED CHEQUE?
+10 | Hi, I am Ravishankar from LawWorld. A bank returns a cheque marked alteration in amount. Does that remark alone make it void under Section Eighty Seven? || Hi, I am Ravishankar from LawWorld. A bank returns a cheque marked "alteration in amount". Does that remark alone make it void under Section 87?
+10 | On twenty seventh October, twenty twenty six, the Delhi High Court, through a single bench of Honourable Justice Sanjeev Narula, answered that question. || On 27 October 2026, the Delhi High Court, through a single bench of Honourable Justice Sanjeev Narula, answered that question.
+# 2 · THE DEAL
+10 | Under a twenty thirteen collaboration agreement, the complainant was to develop the petitioner's Ghaziabad property, and get its first and second floors. || Under a 2013 collaboration agreement, the complainant was to develop the petitioner's Ghaziabad property, and get its first and second floors.
+10 | After disputes, they settled in February twenty sixteen, says the complainant. He gave up his claim to the second floor and its roof rights, for thirty lakh rupees. || After disputes, they settled in February 2016, says the complainant. He gave up his claim to the second floor and its roof rights, for ₹30 lakh.
+10 | The petitioner issued three cheques of ten lakh rupees each. Two were returned for insufficient funds; the bank returned the third, citing alteration in amount. || The petitioner issued three cheques of ₹10 lakh each. Two were returned for insufficient funds; the bank returned the third, citing "alteration in amount".
+# 3 · THE DEFENCE
+10 | The trial court convicted him under Section One Thirty Eight, and his appeal failed. In revision, he argued the cheques were only security, and the third was void. || The trial court convicted him under Section 138, and his appeal failed. In revision, he argued the cheques were only security, and the third was void.
+# 4 · WHAT THE COURT HELD
+10 | With signatures and delivery admitted, the High Court held the Section One Thirty Nine presumption applied, and the security defence did not rebut it. || With signatures and delivery admitted, the High Court held the Section 139 presumption applied, and the security defence did not rebut it.
+10 | On the third cheque, the amount in words and figures matched, and no change to an existing entry was proved. The bank's remark alone did not prove it void.
+# 5 · THE VERDICT
+10 | The conviction was upheld. So was the compensation of forty two lakh rupees. But given the property deal and deposits, the sentence was cut from ten months to six. || The conviction was upheld. So was the compensation of ₹42 lakh. But given the property deal and deposits, the sentence was cut from ten months to six.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple.

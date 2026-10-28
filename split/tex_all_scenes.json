@@ -1,0 +1,68 @@
+{
+ "projectTitle": "LawWorld_tex",
+ "title": "Textile cess and a borrowed definition",
+ "source": "split/scripts/tex.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. If a cess law does not define manufacture, can the revenue borrow the definition from the Central Excise Act?",
+   "chip": "1 · A BORROWED DEFINITION?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "Twenty sixth October, twenty twenty six: the Supreme Court bench of Honourable Justice S V N Bhatti and Honourable Justice N V Anjaria ruled.",
+   "shown": "26 October 2026: the Supreme Court bench of Honourable Justice S.V.N. Bhatti and Honourable Justice N.V. Anjaria ruled."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Section Five A of the Textiles Committee Act levies a cess on textiles manufactured in India, except those from the powerloom or handloom industry.",
+   "shown": "Section 5A of the Textiles Committee Act levies a cess on textiles manufactured in India, except those from the powerloom or handloom industry.",
+   "chip": "2 · THE CESS"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "Premium Suiting dyes and bleaches man-made fabric for powerloom and handloom units, on job work. In two thousand one, the Committee's officer demanded cess from it.",
+   "shown": "Premium Suiting dyes and bleaches man-made fabric for powerloom and handloom units, on job work. In 2001, the Committee's officer demanded cess from it."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "The Tribunal held the processing was manufacture. But in twenty thirteen, the Allahabad High Court quashed it: dyeing did not erase the fabric's powerloom status.",
+   "shown": "The Tribunal held the processing was manufacture. But in 2013, the Allahabad High Court quashed it: dyeing did not erase the fabric's powerloom status.",
+   "chip": "3 · TRIBUNAL AND HIGH COURT"
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The Committee argued: its Act does not define manufacture, so use Section Two f of the Central Excise Act, which covers incidental processes.",
+   "shown": "The Committee argued: its Act does not define manufacture, so use Section 2(f) of the Central Excise Act, which covers incidental processes."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The Supreme Court disagreed. A word undefined in one Act cannot take another Act's definition, unless brought in by reference or incorporation.",
+   "chip": "4 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Every statute has its own context. So manufactured in Section Five A takes its common parlance meaning, not a sense borrowed from another statute.",
+   "shown": "Every statute has its own context. So \"manufactured\" in Section 5A takes its common parlance meaning, not a sense borrowed from another statute."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "The company's dyeing and bleaching on job work was not manufacture: at best, the textile was upgraded. So no cess was due, and the appeal was dismissed.",
+   "chip": "5 · THE VERDICT"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple."
+  }
+ ]
+}

@@ -54,7 +54,7 @@ const { putFile, urlForKey } = require('./src/utils/r2');
 })().catch(e => { console.error(e); process.exit(1); });" "$F" "$SLUG" 2>&1 | grep '^URL' | cut -d' ' -f2)
   echo "url: $U"
   [ "$(curl -s "$U" | md5 -q)" = "$(md5 -q "$F")" ] && echo "md5 OK" || { echo "md5 MISMATCH"; exit 1; }
-  D=~/Downloads/LawWorld_reels_27oct; mkdir -p $D
+  D=~/Downloads/LawWorld_reels_$(date +%d%b | tr "[:upper:]" "[:lower:]"); mkdir -p $D
   cp "$F" "$D/${STEM}_9x16.mp4"; cp "/Users/admin/Downloads/New short/product-explainer/out/$SET/thumb_brand.png" "$D/${STEM}_thumbnail.png"
   echo "copied to $D/${STEM}_9x16.mp4"
 fi

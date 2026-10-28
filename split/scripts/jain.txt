@@ -1,0 +1,31 @@
+// Ram Roop Jain & Anr. v. Kalpana Jain & Anr., CM(M) 2311/2026, CNR DLHC010507572026, High Court of Delhi (Ajay Digpaul J., single
+// bench), reserved 16.10.2026, decided 27.10.2026. Concept-format judgment reel (9:16, ~96 s), as sets ara / krm.
+// Source: scratchpad finder/Delhi_CMM_2311_2026_Ram_Roop_Jain_v_Kalpana_Jain.txt (11 pages, read in full).
+// Facts used: the landlords' eviction petition under s.14(1)(e) read with s.25-B DRC Act, 1958 for Shop No. 1219/07, Ground Floor,
+// Katra Sat Narayan, Chandni Chowk (para 2), on bona fide requirement (19); summons served 23.09.2025, leave to defend filed 06.10.2025
+// (3); on 05.10.2026, with leave to defend listed for arguments, the tenants moved a s.151 CPC application to place subsequent events and
+// documents on record (4); the material: the landlords' eviction petitions against occupants of other shops in the same premises,
+// withdrawals / disposals, and photographs of "SHOP AVAILABLE FOR RENT" banners (8-10, 18); ARC-02 (Central), Tis Hazari dismissed it
+// on 06.10.2026 (1, 5); petition under Art. 227 (6); tenants: the material negates / questions the bona fide requirement (8, 10).
+// Held: the other petitions were disclosed in para 31 of the eviction petition and para 15 of the reply, and are readily accessible on
+// the e-courts portal; the explanations are "vague and not maintainable" (18-19); "not one shred of proof" that the landlords intend to
+// or have let out the other shops (20); even if re-let, s.19 DRC Act protects evicted tenants (21, 31); Gaya Prasad v. Pradeep
+// Srivastava (2001) 2 SCC 604: the need must be "completely eclipsed" by subsequent events; these fail that threshold (23, 25); the
+// application is "a dilatory tactic" (26); s.151 cannot be invoked to give successive opportunities after leave to defend is filed, nor
+// to bypass the s.25-B summary procedure (27-28, 31); plausible view, no perversity under Art. 227 (30); petition dismissed (33).
+// Flow policy: civil case; the parties are "the tenants" / "the landlords" in speech (names on the cards only).
+# 1 · LATE DOCUMENTS?
+10 | Hi, I am Ravishankar from LawWorld. Once leave to defend is filed in an eviction case, can the tenant add fresh documents under Section One Fifty One? || Hi, I am Ravishankar from LawWorld. Once leave to defend is filed in an eviction case, can the tenant add fresh documents under Section 151?
+10 | On twenty seventh October, twenty twenty six, the Delhi High Court, through a single bench of Honourable Justice Ajay Digpaul, answered that question. || On 27 October 2026, the Delhi High Court, through a single bench of Honourable Justice Ajay Digpaul, answered that question.
+# 2 · THE CASE
+10 | The landlords sought to evict the tenants from a Chandni Chowk shop, for their bona fide need, under the summary procedure of Section Twenty Five B. || The landlords sought to evict the tenants from a Chandni Chowk shop, for their bona fide need, under the summary procedure of Section 25-B.
+10 | Nearly a year after seeking leave to defend, with arguments due, the tenants applied under Section One Fifty One of the C P C to add documents. || Nearly a year after seeking leave to defend, with arguments due, the tenants applied under Section 151 of the CPC to add documents.
+10 | Their material: the landlords' other eviction cases in the same premises, several withdrawn or disposed of, and photos of shop for rent banners. || Their material: the landlords' other eviction cases in the same premises, several withdrawn or disposed of, and photos of shop-for-rent banners.
+# 3 · THE CHALLENGE
+10 | The Additional Rent Controller dismissed it. Under Article Two Twenty Seven, the tenants said this material undercut the landlords' bona fide need. || The Additional Rent Controller dismissed it. Under Article 227, the tenants said this material undercut the landlords' bona fide need.
+# 4 · WHAT THE COURT HELD
+10 | The High Court found the other cases were disclosed in the eviction petition. And not one shred of proof showed the landlords meant to let out the other shops.
+10 | Even if they did, Section Nineteen of the Act protects evicted tenants. And under Gaya Prasad, later events must completely eclipse the need. These did not. || Even if they did, Section 19 of the Act protects evicted tenants. And under Gaya Prasad, later events must completely eclipse the need. These did not.
+# 5 · THE VERDICT
+10 | The Court called it a dilatory tactic. Section One Fifty One cannot bypass Section Twenty Five B to give successive chances. The petition was dismissed. || The Court called it a dilatory tactic. Section 151 cannot bypass Section 25-B to give successive chances. The petition was dismissed.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple.

@@ -1,0 +1,37 @@
+// Dakshin Gujarat Vij Company Ltd. & Anr. v. Vaibhav Metal Crusher, with Paschim Gujarat Vij Company Ltd. & Anr. v. Jamanbhai Nanajibhai
+// Bhuva, 2026 INSC 1157, Civil Appeals @ SLP (C) Nos. 17868 of 2024 and 8778 of 2025 (Manoj Misra J., K.V. Viswanathan J. - Misra J.
+// wrote it), decided 26.10.2026, REPORTABLE. Concept-format judgment reel (9:16, ~96 s), as set ara.
+// Source: verdictum.in copy of the SC judgment (scratchpad finder/SC_2026INSC1157_Dakshin_Gujarat_VIJ_v_Vaibhav_Metal.txt, read in full).
+// Facts used: the consumer was accused of an offence under s.135 of the Electricity Act, 2003; on 03.01.2024 the distribution licensee
+// served a notice titled a supplementary bill: Rs 92,99,077.55 towards theft and Rs 23,45,845 compounding charges, prosecution under
+// s.135 if unpaid (4(i)); a Single Judge of the High Court of Gujarat (at Ahmedabad) on 12.02.2024 permitted deposit of 50% of the bill
+// incl. reconnection charges and directed reconnection on deposit (4(ii), fn 3); licensee's LPA No. 592 of 2024 (4(iii)); the Division
+// Bench (25.06.2024) let the consumer file a reply / all objections before the Executive Engineer within two weeks, bill, deposits and
+// reconnection subject to his decision, and an appeal under s.127 if it went against him (4(iv)); the connected appeal: bill of
+// 01.06.2023, Single Judge 50% (23.01.2024), Division Bench remitted (25.04.2024) (5); licensee: theft assessment differs from s.126, no
+// objection, no s.127 appeal, the Special Court fixes civil liability under s.154(5) (7, 8); 50% "too lenient" (38).
+// Held: no provision for assessment other than s.126, no separate Assessing Officer for theft; the "assessed amount" in the third proviso
+// to s.135(1A) is assessed by the s.126 procedure (provisional assessment, objection, hearing - natural justice) until the Supply Code
+// prescribes one (31, 34, 37(i)); subject to a s.127 appeal; the appellate order final only for restoration; where a criminal complaint
+// is filed it does not bind the Special Court on civil liability (s.154(5)); excess refunded (s.154(6)) (35-37); theft cases: "a
+// circumspect approach is required", the High Court may even decline restoration till the entire provisionally assessed amount is paid
+// (39); where the provisional assessment is prima facie arbitrary, restoration on not less than 50%, matching s.127(2) (40); the High
+// Court was "well within its jurisdiction"; clarified: subject to a s.127 appeal and to civil liability fixed by the Special Court;
+// appeal dismissed; the connected appeal (a remand) dismissed too (41, 41).
+// Caution: theft is only alleged / assessed - never said that anyone stole. The consumer is never named in a spoken line (Flow policy);
+// "Vij" is written as a word so the voice does not spell V-I-J. The money and the theft words sit in different sentences.
+# 1 · HALF TO RECONNECT?
+10 | Hi, I am Ravishankar from LawWorld. Power cut over alleged theft: does the consumer get a hearing on the bill, and can a court restore supply on half the bill?
+10 | Twenty sixth October, twenty twenty six: the Supreme Court bench of Honourable Justice Manoj Misra and Honourable Justice K V Viswanathan ruled. || 26 October 2026: the Supreme Court bench of Honourable Justice Manoj Misra and Honourable Justice K.V. Viswanathan ruled.
+# 2 · THE BILL
+10 | In January twenty twenty four, Dakshin Gujarat Vij Company issued a supplementary bill to a consumer accused of electricity theft. || In January 2024, Dakshin Gujarat Vij Company issued a supplementary bill to a consumer accused of electricity theft.
+10 | The bill was nearly ninety three lakh rupees, plus compounding charges. A Single Judge of the Gujarat High Court ordered reconnection once half was deposited. || The bill was nearly ₹93 lakh, plus compounding charges. A Single Judge of the Gujarat High Court ordered reconnection once half was deposited.
+# 3 · THE DISPUTE
+10 | The Division Bench let the consumer object to the bill before the Executive Engineer, and, if it lost, appeal under Section One Twenty Seven of the Act. || The Division Bench let the consumer object to the bill before the Executive Engineer, and, if it lost, appeal under Section 127 of the Act.
+10 | The distribution company argued: in theft cases there is no right to object or appeal, since the Special Court fixes civil liability. And half is too lenient.
+# 4 · WHAT THE COURT HELD
+10 | The Supreme Court held: the Act has no assessment provision except Section One Twenty Six. So the amount to deposit for reconnection follows that same procedure. || The Supreme Court held: the Act has no assessment provision except Section 126. So the amount to deposit for reconnection follows that same procedure.
+10 | That means a provisional assessment, a hearing on objections, and an appeal. Where a complaint is filed, the Special Court decides civil liability.
+# 5 · THE VERDICT
+10 | Theft cases demand caution. But if the provisional assessment is prima facie arbitrary, the High Court may restore supply on at least half. Both appeals failed.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple.

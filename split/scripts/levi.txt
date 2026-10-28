@@ -1,0 +1,36 @@
+// Rishi Levi v. CBI, W.P.(CRL) 3123/2026, CNR DLHC010477512026, High Court of Delhi (Sanjeev Narula J., single bench), reserved
+// 16.10.2026, pronounced 27.10.2026. Concept-format judgment reel (9:16, ~96 s), as sets ara / krm.
+// Source: scratchpad finder/Delhi_WPCRL_3123_2026_Rishi_Levi_v_CBI.txt (21 pages, read in full).
+// Facts used: the petitioner, in the custody of the Philippine authorities, faces extradition to India in connection with a criminal case
+// investigated by the CBI; he challenges the ACMM's November 2014 order (East District, Karkardooma) declaring him a Proclaimed Offender
+// under s.82 CrPC and seeks a stay of the CJM's (Rouse Avenue) order of 01.07.2026 on the extradition request (para 1); undisputed: he
+// joined the investigation once in 2008 and thereafter left India (5); the charge-sheet (23.12.2009) records a Gurgaon and an Australian
+// address (6); 30.03.2010 order: not served, nothing shows later service (7, 25); NBWs 29.05.2013 unexecuted (8-9); s.82 process
+// 12.08.2014, returned not duly served 27.09.2014, declared PO November 2014 (9-10); the CBI's reply discloses no attempt to verify the
+// Australian address or serve him there (26); the record does not show summons were sent there (32).
+// Held: s.82 satisfaction "must be founded on material indicating deliberate evasion"; the mere return of a warrant unexecuted is not
+// enough (24); the agency "was already aware of his overseas address" (27); due publication cannot supply the s.82(1) requirement (28);
+// the offences alleged are not enumerated in s.82(4), so he could not be declared a Proclaimed Offender; proclamation set aside (31-32,
+// 37, 50(i)); setting it aside "does not absolve the Petitioner of his obligation to face the pending prosecution" (36); warrants and
+// proclamation are "distinct judicial processes", the warrants "remain unaffected" (37, 42, 50(iii): May 2013, Nov 2024, June 2026);
+// Treaty Arts. 8 and 9 do not require a Proclaimed Offender declaration (39); stay of the 01.07.2026 order and the extradition
+// proceedings declined; the judgment does not by itself require suspension or withdrawal of the Red Notice or the extradition request
+// (42, 50(iv)); liberty of voluntary surrender under Art. 15 of the Treaty and Rule 5 of the Philippine Rules (48, 50(vi)); petition
+// partly allowed (50); no opinion on the merits (51).
+// Flow policy (owner 28-10-2026): a private person with a pending case and an extradition request. In speech "the petitioner" only; the
+// case is "a criminal case investigated by the Central Bureau of Investigation" and nothing more; never "fugitive", no guilt implied.
+// The name appears only on the cite card.
+# 1 · PROCLAIMED OFFENDER?
+10 | Hi, I am Ravishankar from LawWorld. If a proclaimed offender declaration is set aside, do the warrants, the Red Notice and the extradition fall too?
+10 | On twenty seventh October, twenty twenty six, the Delhi High Court, through a single bench of Honourable Justice Sanjeev Narula, answered that question. || On 27 October 2026, the Delhi High Court, through a single bench of Honourable Justice Sanjeev Narula, answered that question.
+# 2 · THE CASE
+10 | The petitioner faces a criminal case investigated by the Central Bureau of Investigation. He joined the probe, then left India in two thousand eight. || The petitioner faces a criminal case investigated by the Central Bureau of Investigation. He joined the probe, then left India in 2008.
+10 | The charge sheet recorded an address in Australia, but no attempt to serve him there was shown. In November twenty fourteen, he was declared a proclaimed offender. || The charge-sheet recorded an address in Australia, but no attempt to serve him there was shown. In November 2014, he was declared a proclaimed offender.
+10 | Now in Philippine custody and facing extradition to India, he challenged that declaration, and asked for a stay of the extradition proceedings.
+# 3 · WHAT SECTION 82 NEEDS
+10 | The High Court held: Section Eighty Two needs proof of deliberate evasion. Unexecuted warrants are not enough, when his known overseas address was never pursued. || The High Court held: Section 82 needs proof of deliberate evasion. Unexecuted warrants are not enough, when his known overseas address was never pursued.
+10 | The offences alleged are outside Section Eighty Two, sub section Four, so he could not be declared a proclaimed offender. The proclamation was set aside. || The offences alleged are outside Section 82(4), so he could not be declared a proclaimed offender. The proclamation was set aside.
+# 4 · WARRANTS AND EXTRADITION
+10 | But this does not absolve him of his obligation to face the pending prosecution. And the warrants of arrest, a distinct process, remain unaffected.
+10 | The extradition treaty needs no proclaimed offender declaration. So no stay, and this ruling alone does not require withdrawing the Red Notice or the request.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple.

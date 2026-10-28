@@ -1,0 +1,37 @@
+// The Muppathadam Service Co-operative Bank Ltd. v. The State Chief Information Commissioner & Ors., 2026 INSC 1153, Civil Appeal
+// No. 13906 of 2026 (@ SLP (C) No. 12283 of 2025) with C.A. No. 13907 of 2026 (J.B. Pardiwala J., K. Vinod Chandran J. - Vinod
+// Chandran J. wrote it), decided 26.10.2026, REPORTABLE. Concept-format judgment reel (9:16, ~96 s), as set ara.
+// Source: verdictum.in copy of the SC judgment (scratchpad finder/SC_2026INSC1153_Muppathadam_Bank_v_SCIC_RTI.txt, 14 pages, read in full).
+// Facts used: the 4th respondent, a Member of the appellant Bank, sought under the RTI Act, 2005 from the 2nd respondent, the Joint
+// Registrar (General) of Co-operative Societies, two documents: the construction agreement between the Bank and a Labour Co-operative
+// Society entrusted with constructing a building, and the minutes of the Bank's last General Body Meeting (2); first round rejected up to
+// the State Information Commissioner, Single Judge dismissed, Division Bench directed reconsideration; second round the State Information
+// Commissioner, the Single Judge and the Division Bench all affirmed his right (2); the Bank: not a 'public authority' (Thalappalam,
+// (2013) 16 SCC 82), and under ss.65 and 66 of the Kerala Co-operative Societies Act, 1969 the Registrar has access only after a
+// subjective satisfaction to conduct an inquiry (3).
+// Held: s.2(f) RTI Act, 'information' includes information relating to any private body which can be accessed by a public authority under
+// any other law (11); not only material physically available with the authority, but a private body's material accessible on the
+// strength of statutory powers; "The power cannot be fettered at all" (12); the prior satisfaction is required only to initiate an
+// inquiry (13); s.65(2) free access at all reasonable times; "Access simpliciter, thus cannot be conditioned with a prior satisfaction,
+// since without such access, the Registrar cannot enter upon a satisfaction" (14); s.66 supervision incl. inspection of the books (15);
+// s.8(1)(d): no trade secret / commercial confidence, the bid is over and a Labour Contract Society has the contract (8); s.8(1)(j): not
+// personal information when sought by a Member (8); different for a third party not connected with the Society (9); Division Bench
+// "perfectly in order"; the 2nd respondent shall call for the two documents immediately and in any event within two weeks and supply
+// them to the 4th respondent (15); appeals dismissed (16).
+// Not stated in the judgment: the High Court's name (the lines say "the High Court"); the bank's town.
+// Flow policy: no accusation in this case; the member is never named (the judgment does not name him either).
+# 1 · RTI AND A CO-OP BANK
+10 | Hi, I am Ravishankar from LawWorld. If a co-operative bank is not a public authority, can its member still get the bank's records under the R T I Act? || Hi, I am Ravishankar from LawWorld. If a co-operative bank is not a public authority, can its member still get the bank's records under the RTI Act?
+10 | Twenty sixth October, twenty twenty six: the Supreme Court bench of Honourable Justice J B Pardiwala and Honourable Justice K Vinod Chandran ruled. || 26 October 2026: the Supreme Court bench of Honourable Justice J.B. Pardiwala and Honourable Justice K. Vinod Chandran ruled.
+# 2 · THE REQUEST
+10 | A member of a co-operative bank applied under the R T I Act to the Joint Registrar of Co-operative Societies, for two of his bank's documents. || A member of a co-operative bank applied under the RTI Act to the Joint Registrar of Co-operative Societies, for two of his bank's documents.
+10 | He wanted its building contract with a labour co-operative, and its last general body minutes. In round two, the Commissioner and the High Court upheld his right.
+# 3 · THE BANK'S CASE
+10 | The bank argued it is not a public authority, and that the Registrar can access its documents only once he is satisfied an inquiry is needed.
+# 4 · WHAT THE COURT HELD
+10 | Under Section Two f of the R T I Act, the Court held, information includes a private body's records that a public authority can access by law. || Under Section 2(f) of the RTI Act, the Court held, information includes a private body's records that a public authority can access by law.
+10 | That power cannot be fettered. Prior satisfaction is needed only to start an inquiry; without the documents, the Registrar cannot decide either way.
+10 | Section Eight did not help. There was no trade secret, the bid was over, and for a member, this is not personal information. An outsider stands differently. || Section 8 did not help. There was no trade secret, the bid was over, and for a member, this is not personal information. An outsider stands differently.
+# 5 · THE ORDERS
+10 | The appeals were dismissed. The Joint Registrar must call for both documents immediately, within two weeks at the latest, and supply them to the member.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple.

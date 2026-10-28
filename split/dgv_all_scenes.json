@@ -1,0 +1,67 @@
+{
+ "projectTitle": "LawWorld_dgv",
+ "title": "Alleged electricity theft and the assessed amount",
+ "source": "split/scripts/dgv.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. Power cut over alleged theft: does the consumer get a hearing on the bill, and can a court restore supply on half the bill?",
+   "chip": "1 · HALF TO RECONNECT?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "Twenty sixth October, twenty twenty six: the Supreme Court bench of Honourable Justice Manoj Misra and Honourable Justice K V Viswanathan ruled.",
+   "shown": "26 October 2026: the Supreme Court bench of Honourable Justice Manoj Misra and Honourable Justice K.V. Viswanathan ruled."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "In January twenty twenty four, Dakshin Gujarat Vij Company issued a supplementary bill to a consumer accused of electricity theft.",
+   "shown": "In January 2024, Dakshin Gujarat Vij Company issued a supplementary bill to a consumer accused of electricity theft.",
+   "chip": "2 · THE BILL"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "The bill was nearly ninety three lakh rupees, plus compounding charges. A Single Judge of the Gujarat High Court ordered reconnection once half was deposited.",
+   "shown": "The bill was nearly ₹93 lakh, plus compounding charges. A Single Judge of the Gujarat High Court ordered reconnection once half was deposited."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "The Division Bench let the consumer object to the bill before the Executive Engineer, and, if it lost, appeal under Section One Twenty Seven of the Act.",
+   "shown": "The Division Bench let the consumer object to the bill before the Executive Engineer, and, if it lost, appeal under Section 127 of the Act.",
+   "chip": "3 · THE DISPUTE"
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The distribution company argued: in theft cases there is no right to object or appeal, since the Special Court fixes civil liability. And half is too lenient."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The Supreme Court held: the Act has no assessment provision except Section One Twenty Six. So the amount to deposit for reconnection follows that same procedure.",
+   "shown": "The Supreme Court held: the Act has no assessment provision except Section 126. So the amount to deposit for reconnection follows that same procedure.",
+   "chip": "4 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "That means a provisional assessment, a hearing on objections, and an appeal. Where a complaint is filed, the Special Court decides civil liability."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Theft cases demand caution. But if the provisional assessment is prima facie arbitrary, the High Court may restore supply on at least half. Both appeals failed.",
+   "chip": "5 · THE VERDICT"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple."
+  }
+ ]
+}
