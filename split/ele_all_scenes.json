@@ -1,0 +1,67 @@
+{
+ "projectTitle": "LawWorld_ele",
+ "title": "A gifted elephant and Section 406",
+ "source": "split/scripts/ele.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. Can a gifted elephant become a breach of trust case? And can cheating and breach of trust be alleged together, on the same facts?",
+   "chip": "1 · GIFT OR TRUST?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "On fifteenth October, twenty twenty six, the Kerala High Court, through a single bench of Honourable Justice A Badharudeen, answered both questions.",
+   "shown": "On 15 October 2026, the Kerala High Court, through a single bench of Honourable Justice A. Badharudeen, answered both questions."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "The petitioner's case: an elephant gifted to a Mutt kept coming into musth, so in twenty seventeen it was gifted back. The donor then gifted it to him.",
+   "shown": "The petitioner's case: an elephant gifted to a Math kept coming into musth, so in 2017 it was gifted back. The donor then gifted it to him.",
+   "chip": "2 · THE ELEPHANT"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "The complainant alleged it was only entrusted to him during musth, and not returned when asked. An F I R was registered for breach of trust and cheating.",
+   "shown": "The complainant alleged it was only entrusted to him during musth, and not returned when asked. An FIR was registered for breach of trust and cheating."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "The complainant objected that an earlier petition to quash it was withdrawn without liberty. The Court said mere technicalities would not stand in the way of relief.",
+   "chip": "3 · A SECOND PETITION"
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The Court held that cheating and criminal breach of trust are fundamentally contradictory, and cannot co-exist on the exact same set of allegations.",
+   "chip": "4 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The complainant's counsel then pressed only breach of trust. But Section Four Oh Six needs entrustment by a person having dominion over the property.",
+   "shown": "The complainant's counsel then pressed only breach of trust. But Section 406 needs entrustment by a person having dominion over the property."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "One who has parted with title and possession ceases to have dominion. The complainant disputes the gift deeds, but that is for a civil court to decide."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finding not even primary material for either offence, the Court allowed the petition. The F I R and all further proceedings stand quashed.",
+   "shown": "Finding not even primary material for either offence, the Court allowed the petition. The FIR and all further proceedings stand quashed.",
+   "chip": "5 · THE RESULT"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple."
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+// Krishnankutty U.P. v. State of Kerala & Anr., Crl.M.C. No. 6502 of 2025, 2026:KER:79734, High Court of Kerala (A. Badharudeen J.,
+// single bench), came up for admission and decided 15.10.2026, marked "C.R." (reportable). Concept-format judgment reel (as san / bis).
+// Source: scratchpad finder2/Kerala_CrlMC_6502_2025_Krishnankutty.txt (25 pages, read in full).
+// Facts used: Crl.M.C. by the sole accused to quash the FIS and FIR in Crime No. 1000/2023 of Karunagappally Police Station, offences
+// under ss.406 and 420 IPC (para 1); the petitioner's case: title and custody of the elephant under Annexure A3 (para 3, 8); A3 recites that
+// the elephant "Madhu", owned by its donor, was gifted to a Math, which renamed it "Raman"; as it was in musth periodically, with a
+// direct impact on the safety of the devotees, the Math gifted it back to the donor by Annexure A4 dated 18.02.2017; the donor then
+// gifted it to the petitioner (para 16; A3 dated 28.02.2017 per the appendix); the complaint: the elephant was entrusted to the accused,
+// as he had other elephants, during musth, and was not returned when asked (para 14); the complainant disputes A3 and A4 (para 17).
+// Objection: an earlier Crl.M.C. No. 4989 of 2024 for the same relief was withdrawn without liberty, so this one is not maintainable
+// (para 9); held: "mere technicalities would not stand in the way" of relief if the petitioner is really entitled; his case was never
+// decided in any proceedings; objection rejected (paras 11, 13). Merits: ss.420 and 406 "are fundamentally contradictory and cannot
+// co-exist or go together based on the exact same set of allegations"; Delhi Race Club (1940) Ltd. v. State of U.P., (2024) 10 SCC 690
+// (para 14); the complainant's counsel: s.420 not attracted prima facie, s.406 is (para 15); s.406 needs "entrustment of property by a
+// person having dominion over it"; one who has parted with title and possession ceases to have any dominion; disputed title under the
+// gift deeds is for a competent civil court (para 17); FIR quashed "for want of even primary materials" for s.406 or s.420; Crl.M.C.
+// allowed, FIR and all further proceedings quashed (para 17, order). The judgment's slips ("domain", "seized", "O.P.") are not repeated.
+// Flow policy: no private person's name in a spoken line ("the petitioner", "the complainant", "the donor"); the Math is not named.
+# 1 · GIFT OR TRUST?
+10 | Hi, I am Ravishankar from LawWorld. Can a gifted elephant become a breach of trust case? And can cheating and breach of trust be alleged together, on the same facts?
+10 | On fifteenth October, twenty twenty six, the Kerala High Court, through a single bench of Honourable Justice A Badharudeen, answered both questions. || On 15 October 2026, the Kerala High Court, through a single bench of Honourable Justice A. Badharudeen, answered both questions.
+# 2 · THE ELEPHANT
+10 | The petitioner's case: an elephant gifted to a Mutt kept coming into musth, so in twenty seventeen it was gifted back. The donor then gifted it to him. || The petitioner's case: an elephant gifted to a Math kept coming into musth, so in 2017 it was gifted back. The donor then gifted it to him.
+10 | The complainant alleged it was only entrusted to him during musth, and not returned when asked. An F I R was registered for breach of trust and cheating. || The complainant alleged it was only entrusted to him during musth, and not returned when asked. An FIR was registered for breach of trust and cheating.
+# 3 · A SECOND PETITION
+10 | The complainant objected that an earlier petition to quash it was withdrawn without liberty. The Court said mere technicalities would not stand in the way of relief.
+# 4 · WHAT THE COURT HELD
+10 | The Court held that cheating and criminal breach of trust are fundamentally contradictory, and cannot co-exist on the exact same set of allegations.
+10 | The complainant's counsel then pressed only breach of trust. But Section Four Oh Six needs entrustment by a person having dominion over the property. || The complainant's counsel then pressed only breach of trust. But Section 406 needs entrustment by a person having dominion over the property.
+10 | One who has parted with title and possession ceases to have dominion. The complainant disputes the gift deeds, but that is for a civil court to decide.
+# 5 · THE RESULT
+10 | Finding not even primary material for either offence, the Court allowed the petition. The F I R and all further proceedings stand quashed. || Finding not even primary material for either offence, the Court allowed the petition. The FIR and all further proceedings stand quashed.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple.

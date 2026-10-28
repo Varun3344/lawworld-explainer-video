@@ -1,0 +1,40 @@
+// Union of India & Ors. v. Narender Kumar, 2026 INSC 1166, C.A. @ SLP (C) Diary No. 27220 of 2026 (Pamidighantam Sri Narasimha J.,
+// Alok Aradhe J. - no named author: "the Bench" / "the Court"), decided 28.10.2026, REPORTABLE. Concept-format judgment reel (9:16,
+// ~96 s), as set tex. Source: sci.gov.in PDF, pdfplumber text (scratchpad finder2/SC_2026INSC1166_UoI_v_NarenderKumar.txt, 13 pages,
+// paras 1-23, read in full).
+// Facts used: the Union through the MoD challenges the concurrent findings of the AFT (OA No. 221 of 2019, 08.04.2024) and the High
+// Court (CWP No. 23117 of 2025, 11.08.2025) granting War Injury Pension in place of the Disability Pension already granted for
+// rheumatoid arthritis, which developed owing to his posting at Kargil as part of Operation Rakshak (2); enrolled 30.12.1996; posted at
+// Kargil 13.07.2003 to 06.07.2005, diagnosed with Rheumatoid Arthritis (Seropositive); discharged 31.01.2013 (he applied); the Release
+// Medical Board: all three disabilities aggravated by military service @70% for life, rounded off to 75%; 16+ years of service;
+// Disability Pension (Service + Disability Element) (3); about 6 years later he approached the AFT for War Injury Pension under Part
+// II, Category E(i), Para 4.1 of the MoD Policy Letter of 31.01.2001, instead of Disability Pension (4); the AFT allowed it (entire J&K
+// area an operational area) (6); the High Court dismissed the MoD's challenge (7); Category E(i): "Operations specially notified by the
+// Govt. from time to time" (11); the MoD/ASG: E(i) covers only operations specially notified such as Operation Sindoor or Operation Snow
+// Leopard, not ongoing operations like Operation Rakshak (entire J&K) or Operation Rhino (entire Assam) (13).
+// Held: once a notification is issued for a specific operation, E(i) is invoked, unless something in the Policy or the notification
+// indicates otherwise; except the ASG's oral statement, no interpretative aid to exclude Operation Rakshak (16); the primary burden lies
+// on the policymaker; courts disregard its interpretation against the plain language (17); "What a policy says, it is and not what is
+// in the imagination of the policymaker" (18); unrestrictive pension policy: not the Court's burden to limit it, "A liberal
+// interpretation is compelling" (19); Army Order 1 of 2003 "causes more confusion than it clarifies" (20); the Government must declare in
+// clear terms, when notifying operations, whether E(i) benefits apply (21); "high time" the MoD issues comprehensive subordinate
+// legislation (9); appeal dismissed (22).
+// Not in the judgment, so never said: which High Court (only "CWP No. 23117 of 2025"); any finding on WHEN Operation Rakshak was notified.
+// Flow policy: no accusation, no "admitted"; the soldier is never named in speech (the title is on the cite card only). Operation Sindoor
+// is spoken only as the Union's argument (para 13). If Flow refuses c06, fallback (same budget): "The Union argued the clause covers
+// only operations like Snow Leopard, not ongoing ones like Operation Rakshak, in Jammu and Kashmir. The Court disagreed." (42 syl)
+# 1 · WHO READS THE POLICY?
+10 | Hi, I am Ravishankar from LawWorld. A soldier claims war injury pension. Who decides what the policy means: its plain words, or the Ministry?
+10 | On twenty eighth October, a Supreme Court bench of Honourable Justice Pamidighantam Sri Narasimha and Honourable Justice Alok Aradhe ruled. || On 28 October, a Supreme Court bench of Honourable Justice Pamidighantam Sri Narasimha and Honourable Justice Alok Aradhe ruled.
+# 2 · KARGIL
+10 | A soldier served at Kargil from two thousand three to two thousand five, under Operation Rakshak. There, he was diagnosed with rheumatoid arthritis. || A soldier served at Kargil from 2003 to 2005, under Operation Rakshak. There, he was diagnosed with rheumatoid arthritis.
+10 | Discharged in twenty thirteen with a disability pension, he sought war injury pension from the Armed Forces Tribunal about six years later. || Discharged in 2013 with a disability pension, he sought war injury pension from the Armed Forces Tribunal about six years later.
+# 3 · THE CLAIM
+10 | His claim relied on a Defence policy clause: operations specially notified by the Government. The Tribunal allowed it, and the High Court upheld that.
+10 | The Union argued the clause covers only operations like Snow Leopard, not ongoing ones like Operation Rakshak, in Jammu and Kashmir. The Court disagreed.
+# 4 · WHAT THE COURT HELD
+10 | Once an operation is notified, the clause applies, unless the policy or the notification says otherwise. Here, only the Union's oral statement did.
+10 | The burden is on the policymaker, and the Court said: what a policy says, it is, and not what is in the imagination of the policymaker. || The burden is on the policymaker, and the Court said: "What a policy says, it is and not what is in the imagination of the policymaker."
+# 5 · THE VERDICT
+10 | Unrestrictive pension policies get a liberal reading. The appeal was dismissed, and future notifications must say clearly whether this pension applies.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple.

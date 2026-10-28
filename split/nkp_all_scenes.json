@@ -1,0 +1,66 @@
+{
+ "projectTitle": "LawWorld_nkp",
+ "title": "War injury pension, read plainly",
+ "source": "split/scripts/nkp.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. A soldier claims war injury pension. Who decides what the policy means: its plain words, or the Ministry?",
+   "chip": "1 · WHO READS THE POLICY?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "On twenty eighth October, a Supreme Court bench of Honourable Justice Pamidighantam Sri Narasimha and Honourable Justice Alok Aradhe ruled.",
+   "shown": "On 28 October, a Supreme Court bench of Honourable Justice Pamidighantam Sri Narasimha and Honourable Justice Alok Aradhe ruled."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "A soldier served at Kargil from two thousand three to two thousand five, under Operation Rakshak. There, he was diagnosed with rheumatoid arthritis.",
+   "shown": "A soldier served at Kargil from 2003 to 2005, under Operation Rakshak. There, he was diagnosed with rheumatoid arthritis.",
+   "chip": "2 · KARGIL"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "Discharged in twenty thirteen with a disability pension, he sought war injury pension from the Armed Forces Tribunal about six years later.",
+   "shown": "Discharged in 2013 with a disability pension, he sought war injury pension from the Armed Forces Tribunal about six years later."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "His claim relied on a Defence policy clause: operations specially notified by the Government. The Tribunal allowed it, and the High Court upheld that.",
+   "chip": "3 · THE CLAIM"
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The Union argued the clause covers only operations like Snow Leopard, not ongoing ones like Operation Rakshak, in Jammu and Kashmir. The Court disagreed."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "Once an operation is notified, the clause applies, unless the policy or the notification says otherwise. Here, only the Union's oral statement did.",
+   "chip": "4 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "The burden is on the policymaker, and the Court said: what a policy says, it is, and not what is in the imagination of the policymaker.",
+   "shown": "The burden is on the policymaker, and the Court said: \"What a policy says, it is and not what is in the imagination of the policymaker.\""
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Unrestrictive pension policies get a liberal reading. The appeal was dismissed, and future notifications must say clearly whether this pension applies.",
+   "chip": "5 · THE VERDICT"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple."
+  }
+ ]
+}

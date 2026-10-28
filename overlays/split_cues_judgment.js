@@ -11,6 +11,8 @@ document.head.insertAdjacentHTML('beforeend', `<style>
   .bnc .bf{width:330px;height:420px;padding:14px;background:#fff;border-radius:6px;box-shadow:0 26px 60px rgba(60,40,25,.20),0 3px 8px rgba(60,40,25,.10);}
   .bnc .bf img{width:100%;height:100%;object-fit:cover;object-position:50% 18%;display:block;border-radius:2px;}
   .bnc .bn{font-size:44px;line-height:1.08;color:var(--ink);text-align:center;max-width:380px;text-wrap:balance;}
+  /* three-judge benches (rcc, 28-10-2026): 3 x 358 px + gaps overflowed the 1068 px column in the 9:16 crop */
+  .bnc .brow:has(> .bj:nth-child(3)){gap:28px;} .bnc .brow:has(> .bj:nth-child(3)) .bf{width:272px;height:346px;} .bnc .brow:has(> .bj:nth-child(3)) .bn{font-size:38px;max-width:328px;}
 </style>`);
 
 BUILD.bench = (c) => {

@@ -1,0 +1,37 @@
+// M/s Royal Construction Company Pvt. Ltd. v. M/s National Projects Construction Corporation, 2026 INSC 1167, Civil Appeal @ SLP (C)
+// No. 14005 of 2026, with M.A. @ Diary No. 48152 of 2026 in Civil Appeal No. 1991 of 2019 (Vikram Nath J. wrote it, Sandeep Mehta J.,
+// Aparesh Kumar Singh J.), decided 28.10.2026, REPORTABLE. Concept-format judgment reel (9:16, ~96 s), as sets tex / san.
+// Source: scratchpad finder2/SC_2026INSC1167_RoyalConstruction_v_NPCC.txt (pdfplumber text of the SCI PDF, 10 pages, read in full).
+// Facts used: Royal Construction is the award-holder, NPCC the award-debtor; internationally seated arbitration, award dated 10.08.2002
+// in the appellant's favour (4.1); SC judgment 24.02.2015 restored the award's directions (minimal intervention, ss. 34/37) (4.2);
+// execution in the Delhi High Court: Single Judge 26.07.2017 let the debt be paid in rupees at the 1982 agreement-date rate (4.3);
+// Division Bench 17.12.2019 set that aside and certified a question under Arts. 134-A / 133(1)(a): the relevant date for conversion
+// into rupees (4.4); SC 10.10.2023: answered in the negative, no occasion to fix a conversion date, payment in foreign currency (4.5, 8);
+// in execution the respondent contended the principal was already paid in Indian rupees in 2009 under High Court orders; interim order
+// 16.02.2026 (EFA(OS) No. 17 of 2018): liberty to seek clarification from the SC (3, 4.6); held: the Division Bench "has fallen into
+// error" on the scope of the 2023 ruling; that jurisdiction was confined to the certified question (7-9); the Court cannot be called
+// upon, "in the guise of seeking clarification", to assume a supervisory role over execution; the executing court and its appellate
+// court decide (9); once answered, the scope "stood exhausted" (10); more than 24 years after the award the parties still litigate over
+// its enforcement (11); Law Commission asked to study enforcement and execution of arbitral awards (13, 14); appeal disposed of (15);
+// copy to the Chairman of the Law Commission (16); NPCC's M.A. to modify the 2023 judgment dismissed, liberty to raise adjustment or
+// set-off before the executing court (19-22).
+// Not in the judgment, so not said: that NPCC is a public sector undertaking, that the work was in Iraq, that the award is "unpaid"
+// (the award-debtor says the principal was paid in 2009; the Court makes no finding on it), any word on the merits of the 2009 payment.
+// The award's currency: 4.1 says Iraqi Dinars, the certified question (4.4, 4.5) says US Dollars, so the reel says "foreign currency".
+// Three judges: c02 cannot hold the date as well (51 syl), so the date is spoken in c06 ("On twenty eighth October, the Court held").
+// Flow policy: a civil execution case, no accusation; company names only in neutral sentences.
+# 1 · A CLARIFICATION?
+10 | Hi, I am Ravishankar from LawWorld. Twenty four years after an arbitral award, execution is still pending. Can the Supreme Court be asked to clarify? || Hi, I am Ravishankar from LawWorld. 24 years after an arbitral award, execution is still pending. Can the Supreme Court be asked to clarify?
+10 | The Supreme Court's three-judge bench of Honourable Justice Vikram Nath, Honourable Justice Sandeep Mehta and Honourable Justice Aparesh Kumar Singh ruled.
+# 2 · THE AWARD
+10 | Royal Construction won an award in two thousand two against National Projects Construction Corporation. The Supreme Court restored it in twenty fifteen. || Royal Construction won an award in 2002 against National Projects Construction Corporation. The Supreme Court restored it in 2015.
+10 | In execution, a question was certified. In twenty twenty three, the Supreme Court answered: no conversion date arises; payment is in foreign currency. || In execution, a question was certified. In 2023, the Supreme Court answered: no conversion date arises; payment is in foreign currency.
+# 3 · BACK IN EXECUTION
+10 | The award-debtor then contended the principal was paid in rupees in two thousand nine. The High Court let the parties seek clarification from the Supreme Court. || The award-debtor then contended the principal was paid in rupees in 2009. The High Court let the parties seek clarification from the Supreme Court.
+# 4 · WHAT THE COURT HELD
+10 | On twenty eighth October, the Court held the High Court erred. The twenty twenty three ruling only answered the certified question, and its scope stood exhausted. || On 28 October, the Court held the High Court erred. The 2023 ruling only answered the certified question, and its scope stood exhausted.
+10 | The Court cannot be called upon, in the guise of seeking clarification, to supervise execution. The executing court must decide those questions.
+# 5 · THE ORDERS
+10 | The award-debtor's application to modify the twenty twenty three judgment was dismissed. It may raise adjustment or set-off before the executing court. || The award-debtor's application to modify the 2023 judgment was dismissed. It may raise adjustment or set-off before the executing court.
+10 | More than twenty four years after the award, the Court asked the Law Commission to study how arbitral awards are enforced. The appeal was disposed of. || More than 24 years after the award, the Court asked the Law Commission to study how arbitral awards are enforced. The appeal was disposed of.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple.

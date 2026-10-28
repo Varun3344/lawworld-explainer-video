@@ -1,0 +1,37 @@
+// Lalit v. Union of India, Ministry of Finance through its Secretary & Ors., W.P.(C) 9365/2025, CNR DLHC010414432025, High Court of
+// Delhi (Division Bench: Dinesh Mehta J., author, oral; Dr. Aditi Choudhary J.), decided 06.10.2026, marked REPORTABLE.
+// Concept-format judgment reel (9:16, ~96 s), as sets ara / krm / khan / levi.
+// Source: scratchpad finder2/Delhi_WPC_9365_2025_Lalit_v_UoI.txt (9 pages, read in full).
+// Facts used: "an apparent case of misuse of Permanent Account Number" (para 1); his PAN taken as an identity proof, income never
+// taxable, per the petitioner; a small contractual employee, security guard or cook, 01.04.2015-31.03.2019, Hotel Ashoka through
+// Suraksha Security Agency, then Vigyan Bhawan through Mass Management Services as a cook (2, 9); s.148A(b) notice of 26.02.2024: per
+// CBDT's Risk Management Strategy, a cash payment of Rs 24,86,63,500 to a packaging-material firm, and a cash sale of Rs 24,62,01,485
+// under his PAN (3, 7); police complaint 07.03.2024 (PS Greater Kailash-I), Cyber Cell Saket 30.05.2024, "bore no fruit" (4); reply:
+// no taxable income, no such transaction, PAN details misused; asked for the information and copies, "never supplied" (5); assessment
+// order 17.03.2025: Rs 49,48,64,985 taken as turnover, 8% as income, AY 2017-18 (5); demand about Rs 3,91,06,511 and penalty
+// proceedings (6); Revenue: statutory remedy bypassed, disputed facts (10).
+// Held: appeal "illusory and inefficacious" (12); CBDT OM 31.07.2017: standard stay condition 20% deposit, interest under s.220(2), "a
+// sum approaching ₹78 lakh" (13); material not supplied, reply not considered: natural justice, Arts. 14 and 21 (Maneka Gandhi) (14);
+// Art. 21: dignity (Francis Coralie Mullin (1981) 1 SCC 608), mental health (Sukdeb Saha, 2025 INSC 893); "avoidable mental anguish to a
+// person of no means ... impinges upon Article 21" (15-18); order "founded solely" on RMS / Form 26AS, no independent inquiry (19); his
+// stand plausible, no nexus with the transactions; the least: a s.133(6) notice to the vendor (20); "once the petitioner had denied the
+// transactions and rebutted the presumption, the burden was upon the AO" (22); the gross payment and the net-of-1%-TCS figure added as
+// turnover, demand "twofold": "either he did not understand the basics of accounting or he did not want to" (23); order of 17.03.2025
+// quashed (25); fresh proceedings open only on other cogent and incriminating evidence, subject to limitation (26); writ allowed (27).
+// Flow policy: no name in speech ("a contract worker", "he"); the firm is never named; the PAN misuse is his case, the Court's own
+// findings are stated as held. The name appears only on the cite card.
+# 1 · FORM 26AS ALONE?
+10 | Hi, I am Ravishankar from LawWorld. A contract worker says his PAN was misused. Can the tax officer assess him on Form Twenty Six A S data alone? || Hi, I am Ravishankar from LawWorld. A contract worker says his PAN was misused. Can the tax officer assess him on Form 26AS data alone?
+10 | On sixth October, a Delhi High Court Division Bench of Honourable Justice Dinesh Mehta and Honourable Doctor Justice Aditi Choudhary ruled. || On 6 October, a Delhi High Court Division Bench of Honourable Justice Dinesh Mehta and Honourable Dr. Justice Aditi Choudhary ruled.
+# 2 · THE NOTICE
+10 | In twenty twenty four, a contract security guard and cook got a tax notice. It alleged he paid a packaging firm nearly twenty five crore rupees in cash. || In 2024, a contract security guard and cook got a tax notice. It alleged he paid a packaging firm nearly ₹25 crore in cash.
+10 | He went to the police, denied the transactions, and asked for the material. It was not supplied. Then a demand of nearly four crore rupees was raised. || He went to the police, denied the transactions, and asked for the material. It was not supplied. Then a demand of nearly ₹4 crore was raised.
+# 3 · APPEAL FIRST?
+10 | The Department said he should appeal first. But a stay normally needs a twenty percent deposit, about seventy eight lakh rupees, while interest keeps running. || The Department said he should appeal first. But a stay normally needs a 20% deposit, about ₹78 lakh, while interest keeps running.
+10 | The Court called that remedy illusory. And a demand causing avoidable mental anguish to a person of no means impinges on Article Twenty One. || The Court called that remedy "illusory". And a demand causing avoidable mental anguish to a person of no means impinges on Article 21.
+# 4 · WHAT THE COURT HELD
+10 | Denying him the material breached natural justice. The order rested on Form Twenty Six A S data alone, with no independent inquiry. || Denying him the material breached natural justice. The order rested on Form 26AS data alone, with no independent inquiry.
+10 | Once he denied the transactions and rebutted the presumption, the burden was on the Assessing Officer. And the officer even counted the same money twice.
+# 5 · THE VERDICT
+10 | Either he did not understand the basics of accounting or he did not want to, said the Court. The order was quashed. Any fresh proceedings need cogent evidence. || "Either he did not understand the basics of accounting or he did not want to," said the Court. The order was quashed. Any fresh proceedings need cogent evidence.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple.

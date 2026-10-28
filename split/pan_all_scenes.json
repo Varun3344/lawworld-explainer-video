@@ -1,0 +1,70 @@
+{
+ "projectTitle": "LawWorld_pan",
+ "title": "PAN misuse and Form 26AS data",
+ "source": "split/scripts/pan.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. A contract worker says his PAN was misused. Can the tax officer assess him on Form Twenty Six A S data alone?",
+   "shown": "Hi, I am Ravishankar from LawWorld. A contract worker says his PAN was misused. Can the tax officer assess him on Form 26AS data alone?",
+   "chip": "1 · FORM 26AS ALONE?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "On sixth October, a Delhi High Court Division Bench of Honourable Justice Dinesh Mehta and Honourable Doctor Justice Aditi Choudhary ruled.",
+   "shown": "On 6 October, a Delhi High Court Division Bench of Honourable Justice Dinesh Mehta and Honourable Dr. Justice Aditi Choudhary ruled."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "In twenty twenty four, a contract security guard and cook got a tax notice. It alleged he paid a packaging firm nearly twenty five crore rupees in cash.",
+   "shown": "In 2024, a contract security guard and cook got a tax notice. It alleged he paid a packaging firm nearly ₹25 crore in cash.",
+   "chip": "2 · THE NOTICE"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "He went to the police, denied the transactions, and asked for the material. It was not supplied. Then a demand of nearly four crore rupees was raised.",
+   "shown": "He went to the police, denied the transactions, and asked for the material. It was not supplied. Then a demand of nearly ₹4 crore was raised."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "The Department said he should appeal first. But a stay normally needs a twenty percent deposit, about seventy eight lakh rupees, while interest keeps running.",
+   "shown": "The Department said he should appeal first. But a stay normally needs a 20% deposit, about ₹78 lakh, while interest keeps running.",
+   "chip": "3 · APPEAL FIRST?"
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The Court called that remedy illusory. And a demand causing avoidable mental anguish to a person of no means impinges on Article Twenty One.",
+   "shown": "The Court called that remedy \"illusory\". And a demand causing avoidable mental anguish to a person of no means impinges on Article 21."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "Denying him the material breached natural justice. The order rested on Form Twenty Six A S data alone, with no independent inquiry.",
+   "shown": "Denying him the material breached natural justice. The order rested on Form 26AS data alone, with no independent inquiry.",
+   "chip": "4 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Once he denied the transactions and rebutted the presumption, the burden was on the Assessing Officer. And the officer even counted the same money twice."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Either he did not understand the basics of accounting or he did not want to, said the Court. The order was quashed. Any fresh proceedings need cogent evidence.",
+   "shown": "\"Either he did not understand the basics of accounting or he did not want to,\" said the Court. The order was quashed. Any fresh proceedings need cogent evidence.",
+   "chip": "5 · THE VERDICT"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple."
+  }
+ ]
+}

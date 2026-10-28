@@ -34,7 +34,7 @@ strips = "".join(
     for s in cfg["strips"])
 judges = "".join(
     f'<div class="jd" style="transform:rotate({a}deg)"><div class="fr"><img src="file://{e(p)}"></div><div class="nm">{e(n)}</div></div>'
-    for (p, n), a in zip(cfg["judges"], (3, -3)))
+    for (p, n), a in zip(cfg["judges"], (3, -3, 3)))   # three-judge benches (rcc 28-10-2026) draw all three
 
 court = (f'<div class="court" style="background-image:url(file://{e(cfg["court"])})"></div>' if cfg.get("court") else "")
 page = f"""<!doctype html><html><head><meta charset="utf-8"><style>
@@ -78,6 +78,7 @@ h1 em{{font-style:italic;color:var(--deep);}}
 .jd{{display:flex;flex-direction:column;align-items:center;gap:22px;}}
 .fr{{width:290px;height:366px;padding:13px;background:#fff;border-radius:6px;box-shadow:0 30px 64px rgba(60,40,25,.22),0 3px 8px rgba(60,40,25,.10);}}
 .fr img{{width:100%;height:100%;object-fit:cover;object-position:50% 18%;display:block;border-radius:2px;}}
+.bench.j3{{gap:34px;}} .bench.j3 .fr{{width:262px;height:330px;}} .bench.j3 .nm{{font-size:36px;}}
 .nm{{font-family:"Instrument Serif","Noto Serif Kannada",serif;font-size:44px;line-height:1;color:var(--ink);}}
 .badge{{margin-top:40px;text-align:center;position:relative;z-index:3;}}
 .badge span{{display:inline-block;background:#1f1e1d;color:#e9a283;font-weight:800;font-size:34px;letter-spacing:4px;padding:20px 42px;border-radius:44px;box-shadow:0 18px 40px rgba(30,20,15,.25);}}
@@ -87,7 +88,7 @@ h1 em{{font-style:italic;color:var(--deep);}}
 <h1 class="{KN}"><span class="l l1">{e(cfg["head1"])}</span><span class="l l2">{head2()}</span></h1>
 <div class="rule"></div>
 <div class="strips">{strips}</div>
-{court}<div class="bench">{judges}</div>
+{court}<div class="bench{" j3" if len(cfg["judges"]) >= 3 else ""}">{judges}</div>
 <script>window.__layout = () => {{ const c = document.querySelector(".court"), b = document.querySelector(".bench"); if (!c) return;
   const r = b.getBoundingClientRect(); c.style.top = (r.top - 150) + "px"; c.style.height = (r.height + 230) + "px"; }};</script>
 <div class="badge"><span>{e(cfg["badge"])}</span></div>

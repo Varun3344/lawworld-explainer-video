@@ -1,0 +1,69 @@
+{
+ "projectTitle": "LawWorld_rcc",
+ "title": "Execution and a clarification",
+ "source": "split/scripts/rcc.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. Twenty four years after an arbitral award, execution is still pending. Can the Supreme Court be asked to clarify?",
+   "shown": "Hi, I am Ravishankar from LawWorld. 24 years after an arbitral award, execution is still pending. Can the Supreme Court be asked to clarify?",
+   "chip": "1 · A CLARIFICATION?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "The Supreme Court's three-judge bench of Honourable Justice Vikram Nath, Honourable Justice Sandeep Mehta and Honourable Justice Aparesh Kumar Singh ruled."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Royal Construction won an award in two thousand two against National Projects Construction Corporation. The Supreme Court restored it in twenty fifteen.",
+   "shown": "Royal Construction won an award in 2002 against National Projects Construction Corporation. The Supreme Court restored it in 2015.",
+   "chip": "2 · THE AWARD"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "In execution, a question was certified. In twenty twenty three, the Supreme Court answered: no conversion date arises; payment is in foreign currency.",
+   "shown": "In execution, a question was certified. In 2023, the Supreme Court answered: no conversion date arises; payment is in foreign currency."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "The award-debtor then contended the principal was paid in rupees in two thousand nine. The High Court let the parties seek clarification from the Supreme Court.",
+   "shown": "The award-debtor then contended the principal was paid in rupees in 2009. The High Court let the parties seek clarification from the Supreme Court.",
+   "chip": "3 · BACK IN EXECUTION"
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "On twenty eighth October, the Court held the High Court erred. The twenty twenty three ruling only answered the certified question, and its scope stood exhausted.",
+   "shown": "On 28 October, the Court held the High Court erred. The 2023 ruling only answered the certified question, and its scope stood exhausted.",
+   "chip": "4 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The Court cannot be called upon, in the guise of seeking clarification, to supervise execution. The executing court must decide those questions."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "The award-debtor's application to modify the twenty twenty three judgment was dismissed. It may raise adjustment or set-off before the executing court.",
+   "shown": "The award-debtor's application to modify the 2023 judgment was dismissed. It may raise adjustment or set-off before the executing court.",
+   "chip": "5 · THE ORDERS"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "More than twenty four years after the award, the Court asked the Law Commission to study how arbitral awards are enforced. The appeal was disposed of.",
+   "shown": "More than 24 years after the award, the Court asked the Law Commission to study how arbitral awards are enforced. The appeal was disposed of."
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple."
+  }
+ ]
+}

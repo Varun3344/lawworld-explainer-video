@@ -1,0 +1,33 @@
+// Smt. Monika v. The Registrar General, High Court of Karnataka & Anr., W.P. No. 674 of 2026 (S-RES), High Court of Karnataka at
+// Bengaluru (M. Nagaprasanna J., single bench), reserved 25.09.2026, CAV order pronounced 16.10.2026, REPORTABLE ("R" on page 1; on the
+// court's Reportable list). No neutral citation printed. KANNADA concept-format judgment reel (9:16, ~96 s).
+// Source: scratchpad finder2/KHC_WP_674_2026_Monika.txt (read in full). Every Kannada line hand-written from the judgment.
+// Facts used: Software Technician appointed 06.06.2019 "in the High Court" and placed on probation (3, 7); working under the Principal
+// District & Sessions Judge, Bengaluru Rural District from 16.02.2023 (notice, 7); maternity leave 180 days, 27.06.2023-24.12.2023,
+// granted (7); then, "on the grounds of taking care of baby", earned leave 35 days (25.12.2023-28.01.2024) and extraordinary leave
+// 70 + 99 days, and of the further request to 12.01.2025 only 30 days to 14.08.2024 granted (7, notice); did not report on 15.08.2024
+// (notice); notice of 25.09.2024 to report immediately and show cause (notice); reply: no one to take care of the baby (3, 7);
+// 15.04.2025 discharged under Rule 6(1), Karnataka Civil Services (Probation) Rules, 1977, as unsuitable (order quoted in 7);
+// petitioner: discharged while on maternity leave, so contrary to law; sympathetic consideration; reinstatement (4); question (8).
+// Held: a probationer whose probation was never declared satisfactorily completed (others' declared in 2025, retrospectively); after
+// exhausting maternity leave and every other leave, she remained absent without authorisation (9); maternity leave is a manifestation
+// of the constitutional commitment to dignity, motherhood and substantive equality, a right the law zealously protects, but it cannot
+// be stretched into "an inexhaustible charter for unauthorised absence" (10); maternity leave was never denied; it cannot be made a
+// convenient shield against the consequences of an independent and prolonged unauthorised absence (11, 13); petition dismissed (14).
+// NOT used: the departmental-inquiry argument (4) - the Court did not rule on it separately; the husband's employment (5); para 12.
+// Flow policy / respect: the petitioner is never named in speech (case title on the cite card only); maternity leave stated as a right.
+# 1 · ಹೆರಿಗೆ ರಜೆ ಗುರಾಣಿಯೇ?
+10 | ನಮಸ್ಕಾರ, ನಾನು LawWorld ನಿಂದ ರವಿಶಂಕರ್. ಎಲ್ಲ ರಜೆ ಮುಗಿದರೂ ಕರ್ತವ್ಯಕ್ಕೆ ಮರಳದ ಪ್ರೊಬೇಷನರಿ ನೌಕರೆ, ಸೇವೆಯಿಂದ ಬಿಡುಗಡೆಯ ವಿರುದ್ಧ ಹೆರಿಗೆ ರಜೆಯನ್ನು ಗುರಾಣಿಯಾಗಿ ಬಳಸಬಹುದೇ?
+10 | ಎರಡು ಸಾವಿರದ ಇಪ್ಪತ್ತಾರರ ಅಕ್ಟೋಬರ್ ಹದಿನಾರರಂದು, ಕರ್ನಾಟಕ ಹೈಕೋರ್ಟ್‌ನ ಗೌರವಾನ್ವಿತ ನ್ಯಾಯಮೂರ್ತಿ ಎಂ ನಾಗಪ್ರಸನ್ನ ಅವರ ಏಕಸದಸ್ಯ ಪೀಠ ಈ ಪ್ರಕರಣದಲ್ಲಿ ತೀರ್ಪು ನೀಡಿತು. || 2026ರ ಅಕ್ಟೋಬರ್ 16ರಂದು, ಕರ್ನಾಟಕ ಹೈಕೋರ್ಟ್‌ನ ಗೌರವಾನ್ವಿತ ನ್ಯಾಯಮೂರ್ತಿ ಎಂ ನಾಗಪ್ರಸನ್ನ ಅವರ ಏಕಸದಸ್ಯ ಪೀಠ ಈ ಪ್ರಕರಣದಲ್ಲಿ ತೀರ್ಪು ನೀಡಿತು.
+# 2 · ನೇಮಕ ಮತ್ತು ರಜೆ
+10 | ಅರ್ಜಿದಾರೆ ಎರಡು ಸಾವಿರದ ಹತ್ತೊಂಬತ್ತರಲ್ಲಿ ಸಾಫ್ಟ್‌ವೇರ್ ಟೆಕ್ನಿಷಿಯನ್ ಆಗಿ ನೇಮಕಗೊಂಡು ಪ್ರೊಬೇಷನ್‌ನಲ್ಲಿದ್ದರು. ಎರಡು ಸಾವಿರದ ಇಪ್ಪತ್ತಮೂರರ ಜೂನ್‌ನಿಂದ ನೂರೆಂಬತ್ತು ದಿನಗಳ ಹೆರಿಗೆ ರಜೆ ಪಡೆದರು. || ಅರ್ಜಿದಾರೆ 2019ರಲ್ಲಿ ಸಾಫ್ಟ್‌ವೇರ್ ಟೆಕ್ನಿಷಿಯನ್ ಆಗಿ ನೇಮಕಗೊಂಡು ಪ್ರೊಬೇಷನ್‌ನಲ್ಲಿದ್ದರು. 2023ರ ಜೂನ್‌ನಿಂದ 180 ದಿನಗಳ ಹೆರಿಗೆ ರಜೆ ಪಡೆದರು.
+10 | ನಂತರ, ಮಗುವಿನ ಆರೈಕೆಗಾಗಿ ಗಳಿಕೆ ರಜೆ ಮತ್ತು ಅಸಾಧಾರಣ ರಜೆಯೂ ಎರಡು ಸಾವಿರದ ಇಪ್ಪತ್ನಾಲ್ಕರ ಆಗಸ್ಟ್ ಹದಿನಾಲ್ಕರವರೆಗೆ ಮಂಜೂರಾಯಿತು. ಬಳಿಕ ಅವರು ಕರ್ತವ್ಯಕ್ಕೆ ಹಾಜರಾಗಲಿಲ್ಲ. || ನಂತರ, ಮಗುವಿನ ಆರೈಕೆಗಾಗಿ ಗಳಿಕೆ ರಜೆ ಮತ್ತು ಅಸಾಧಾರಣ ರಜೆಯೂ 2024ರ ಆಗಸ್ಟ್ 14ರವರೆಗೆ ಮಂಜೂರಾಯಿತು. ಬಳಿಕ ಅವರು ಕರ್ತವ್ಯಕ್ಕೆ ಹಾಜರಾಗಲಿಲ್ಲ.
+# 3 · ಸೇವೆಯಿಂದ ಬಿಡುಗಡೆ, ವಾದ
+10 | ಹಾಜರಾಗಲು ನೋಟಿಸ್ ಬಂದಾಗ, ಮಗುವನ್ನು ನೋಡಿಕೊಳ್ಳಲು ಯಾರೂ ಇಲ್ಲ ಎಂದು ಉತ್ತರಿಸಿದರು. ಎರಡು ಸಾವಿರದ ಇಪ್ಪತ್ತೈದರ ಏಪ್ರಿಲ್‌ನಲ್ಲಿ, ಹುದ್ದೆಗೆ ಸೂಕ್ತರಲ್ಲ ಎಂದು ಸೇವೆಯಿಂದ ಬಿಡುಗಡೆ ಮಾಡಲಾಯಿತು. || ಹಾಜರಾಗಲು ನೋಟಿಸ್ ಬಂದಾಗ, ಮಗುವನ್ನು ನೋಡಿಕೊಳ್ಳಲು ಯಾರೂ ಇಲ್ಲ ಎಂದು ಉತ್ತರಿಸಿದರು. 2025ರ ಏಪ್ರಿಲ್‌ನಲ್ಲಿ, ಹುದ್ದೆಗೆ ಸೂಕ್ತರಲ್ಲ ಎಂದು ಸೇವೆಯಿಂದ ಬಿಡುಗಡೆ ಮಾಡಲಾಯಿತು.
+10 | ಹೆರಿಗೆ ರಜೆಯಲ್ಲಿದ್ದಾಗಲೇ ಬಿಡುಗಡೆ ಮಾಡಿದ್ದು ಕಾನೂನುಬಾಹಿರ, ಸಹಾನುಭೂತಿಯಿಂದ ಮತ್ತೆ ಸೇವೆಗೆ ಸೇರಿಸಿಕೊಳ್ಳಬೇಕು ಎಂದು ಅರ್ಜಿದಾರೆ ರಿಟ್ ಅರ್ಜಿಯಲ್ಲಿ ವಾದಿಸಿದರು. ಈ ಬಿಡುಗಡೆ ನಿಯಮಬಾಹಿರವೇ?
+# 4 · ಹೈಕೋರ್ಟ್ ತೀರ್ಮಾನ
+10 | ಹೈಕೋರ್ಟ್ ಗಮನಿಸಿದಂತೆ, ಅರ್ಜಿದಾರೆಯ ಪ್ರೊಬೇಷನ್ ತೃಪ್ತಿಕರವೆಂದು ಎಂದೂ ಘೋಷಣೆಯಾಗಿರಲಿಲ್ಲ. ಹೆರಿಗೆ ರಜೆ ಮತ್ತು ಉಳಿದೆಲ್ಲ ರಜೆ ಮುಗಿದ ಮೇಲೂ ಅನಧಿಕೃತ ಗೈರುಹಾಜರಿ ಮುಂದುವರಿದಿತ್ತು.
+10 | ಕೋರ್ಟ್ ಪ್ರಕಾರ, ಹೆರಿಗೆ ರಜೆ ಘನತೆ, ಮಾತೃತ್ವ, ಸಮಾನತೆಯ ಸಾಂವಿಧಾನಿಕ ಬದ್ಧತೆಯ ರೂಪ; ಕಾನೂನಿನಿಂದ ರಕ್ಷಿತ ಹಕ್ಕು. ಆದರೆ ಅನಧಿಕೃತ ಗೈರಿಗೆ ಮುಗಿಯದ ಪರವಾನಗಿಯಾಗಿ ವಿಸ್ತರಿಸಲಾಗದು.
+# 5 · ಫಲಿತಾಂಶ
+10 | ಅರ್ಜಿದಾರೆಗೆ ಹೆರಿಗೆ ರಜೆ ನಿರಾಕರಿಸಿರಲೇ ಇಲ್ಲ. ನಂತರದ ಪ್ರತ್ಯೇಕ, ದೀರ್ಘ ಅನಧಿಕೃತ ಗೈರುಹಾಜರಿಯ ಪರಿಣಾಮಗಳ ವಿರುದ್ಧ ಅದು ಗುರಾಣಿ ಅಲ್ಲ ಎಂದು ಹೈಕೋರ್ಟ್ ರಿಟ್ ಅರ್ಜಿ ವಜಾಗೊಳಿಸಿತು.
+6 | ನೋಡಿದ್ದಕ್ಕೆ ಧನ್ಯವಾದಗಳು! ಲೈಕ್, ಶೇರ್ ಮತ್ತು ಸಬ್‌ಸ್ಕ್ರೈಬ್ ಮಾಡಿ, ತೀರ್ಪುಗಳನ್ನು ಸರಳವಾಗಿ ತಿಳಿಯಲು LawWorld ಫಾಲೋ ಮಾಡಿ.
