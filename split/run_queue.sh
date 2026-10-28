@@ -47,9 +47,15 @@ for id in $IDS; do
     grep -q -E "Policy Filter Triggered|prominent people" logs/$(basename $SB)_$id.log && echo "[queue] $id POLICY REFUSED (no charge)"
     grep -q "CLI Error" logs/$(basename $SB)_$id.log && echo "[queue] $id launch error: $(grep 'CLI Error' logs/$(basename $SB)_$id.log | head -1 | cut -c1-140)"
     if [ -f $D/$id.mp4 ]; then
+      if [ "$SPLIT_LANG" = "kn" ]; then   # Kannada judgment reels (28-10-2026): consonant-skeleton recall from the office-video checker
+        line=$(python3 kn_office/kn_words.py $ALLJ $D/$id.mp4 2>&1 | tail -1); echo "[queue] [words] $line"
+        ratio=$(python3 -c "import json; print(json.load(open('$D/$id.words.json')).get('recall',0))" 2>/dev/null || echo 0)
+        keep=$(echo "$line" | grep -q ": OK " && echo True || echo False)
+      else
       line=$(python3 scripts/words.py $ALLJ $D/$id.mp4 --prompt "$VOCAB" 2>&1 | tail -1); echo "[queue] $line"
       ratio=$(python3 -c "import json; print(json.load(open('$D/$id.words.json')).get('match_ratio',0))" 2>/dev/null || echo 0)
       keep=$(python3 -c "print('True' if float('$ratio')>=0.90 else 'False')")
+      fi
       python3 -c "import json; p='$D/$id.words.json'; d=json.load(open(p)); d['keep']=$keep; json.dump(d,open(p,'w'),ensure_ascii=False,indent=1)"
       [ "$keep" = "False" ] && echo "[queue] $id take $take REJECTED (match $ratio) — re-rendering"
     else echo "[queue] $id take $take produced no clip"; sleep 20; fi

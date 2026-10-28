@@ -1,0 +1,33 @@
+// G. Sanil Kumar v. Sujith & Anr., Crl.A. No. 2002 of 2024, 2026:KER:78185, High Court of Kerala (A. Badharudeen J., single bench),
+// heard and delivered 08.10.2026, marked CR (reportable). Concept-format judgment reel (as sets tej / ara / krm).
+// Source: scratchpad finder/Kerala_CrlA_2002_2024_Sanil_Kumar_v_Sujith.txt (13 pages, read in full); facts as drafts/kerala2_A.json, re-checked.
+// Facts used: appeal by the complainant against the acquittal by the JFCM, Varkala in ST No. 2754 of 2015 (judgment 24.09.2024) (para 1);
+// the accused borrowed Rs 9,30,230 through various transactions / bank transfers; Ext.P1 cheque for Rs 9,30,230 dated 06.07.2015 (handed
+// over 02.07.2015) towards repayment; returned "funds insufficient"; legal notice, no payment; s.138 NI Act (paras 4, 10, 11); the
+// Magistrate found the transaction, the cheque and the failure to pay for the complainant (6, 12), but on DW2 and Ext.D5 (the accused's
+// statement of accounts) the money went out in instalments in 2011-2012, so the cheque was for a time-barred debt, "not a legally
+// enforceable debt" for s.138, and acquitted on that sole reason (6, 12); the complainant does not dispute 2011-2012 (7, 12) and relies
+// on Ramakrishnan v. Parthasaradhy, 2003 (2) KLT 613 (DB) para 25: "When a person issues a cheque, he acknowledges his liability to pay"
+// (7); the State Brief for the accused: a time-barred debt is not legally enforceable on first principle, the position needs
+// reconsideration (2, 8). Held: a cheque for a time-barred debt "is akin to revival of the debt ... by acknowledging the debt and
+// liability", the debt ceases to be time-barred; issuing a cheque for a time-barred debt "is not legally prohibited"; that alone "does
+// not make a prosecution under Section 138 ... impermissible"; the Magistrate went wrong (13); appeal allowed, acquittal set aside,
+// convicted under s.138 (14); simple imprisonment till rising of the Court, fine Rs 14,00,000, default six months, Rs 13,50,000
+// compensation u/s 357(1)(b) CrPC, Rs 50,000 cost to the State (15); appear before the JFCM, Varkala, 11 am on 31.10.2026 (16).
+// Flow policy: no names in the spoken lines ("the complainant", "the accused"); the amounts and the conviction in separate sentences.
+# 1 · A TIME-BARRED DEBT?
+10 | Hi, I am Ravishankar from LawWorld. A cheque given for a time-barred debt bounces. Can the drawer still be convicted under Section One Thirty Eight? || Hi, I am Ravishankar from LawWorld. A cheque given for a time-barred debt bounces. Can the drawer still be convicted under Section 138?
+10 | On eighth October, twenty twenty six, the Kerala High Court, through a single bench of Honourable Justice A Badharudeen, answered that question. || On 8 October 2026, the Kerala High Court, through a single bench of Honourable Justice A. Badharudeen, answered that question.
+# 2 · THE CHEQUE
+10 | The complainant had given the accused over nine lakh rupees by bank transfers. A cheque for that sum, issued in July twenty fifteen, bounced for insufficient funds. || The complainant had given the accused over ₹9 lakh by bank transfers. A cheque for that sum, issued in July 2015, bounced for insufficient funds.
+# 3 · IN THE TRIAL COURT
+10 | The Magistrate accepted the loan and the cheque. But the money was lent in twenty eleven and twenty twelve, so it found the debt time-barred, and acquitted. || The Magistrate accepted the loan and the cheque. But the money was lent in 2011 and 2012, so it found the debt time-barred, and acquitted.
+# 4 · THE ARGUMENTS
+10 | On appeal, the complainant accepted those years, but relied on a Division Bench ruling: when a person issues a cheque, he acknowledges his liability to pay.
+10 | Counsel appointed for the accused replied that a time-barred debt is not legally enforceable, and that the position needed reconsideration.
+# 5 · WHAT THE COURT HELD
+10 | The High Court held: a cheque issued for a time-barred debt acknowledges that debt, and is akin to reviving it. So the debt ceases to be time-barred.
+10 | Issuing a cheque for a time-barred debt is not legally prohibited. That alone does not make a Section One Thirty Eight prosecution impermissible. || Issuing a cheque for a time-barred debt is not legally prohibited. That alone does not make a Section 138 prosecution impermissible.
+# 6 · THE VERDICT
+10 | The acquittal was set aside, and the accused was convicted. The sentence: simple imprisonment till the Court rises, and a fine of fourteen lakh rupees. || The acquittal was set aside, and the accused was convicted. The sentence: simple imprisonment till the Court rises, and a fine of ₹14 lakh.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple.

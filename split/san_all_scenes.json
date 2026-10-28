@@ -1,0 +1,69 @@
+{
+ "projectTitle": "LawWorld_san",
+ "title": "Section 138 and a time-barred debt",
+ "source": "split/scripts/san.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. A cheque given for a time-barred debt bounces. Can the drawer still be convicted under Section One Thirty Eight?",
+   "shown": "Hi, I am Ravishankar from LawWorld. A cheque given for a time-barred debt bounces. Can the drawer still be convicted under Section 138?",
+   "chip": "1 · A TIME-BARRED DEBT?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "On eighth October, twenty twenty six, the Kerala High Court, through a single bench of Honourable Justice A Badharudeen, answered that question.",
+   "shown": "On 8 October 2026, the Kerala High Court, through a single bench of Honourable Justice A. Badharudeen, answered that question."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "The complainant had given the accused over nine lakh rupees by bank transfers. A cheque for that sum, issued in July twenty fifteen, bounced for insufficient funds.",
+   "shown": "The complainant had given the accused over ₹9 lakh by bank transfers. A cheque for that sum, issued in July 2015, bounced for insufficient funds.",
+   "chip": "2 · THE CHEQUE"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "The Magistrate accepted the loan and the cheque. But the money was lent in twenty eleven and twenty twelve, so it found the debt time-barred, and acquitted.",
+   "shown": "The Magistrate accepted the loan and the cheque. But the money was lent in 2011 and 2012, so it found the debt time-barred, and acquitted.",
+   "chip": "3 · IN THE TRIAL COURT"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "On appeal, the complainant accepted those years, but relied on a Division Bench ruling: when a person issues a cheque, he acknowledges his liability to pay.",
+   "chip": "4 · THE ARGUMENTS"
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "Counsel appointed for the accused replied that a time-barred debt is not legally enforceable, and that the position needed reconsideration."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The High Court held: a cheque issued for a time-barred debt acknowledges that debt, and is akin to reviving it. So the debt ceases to be time-barred.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Issuing a cheque for a time-barred debt is not legally prohibited. That alone does not make a Section One Thirty Eight prosecution impermissible.",
+   "shown": "Issuing a cheque for a time-barred debt is not legally prohibited. That alone does not make a Section 138 prosecution impermissible."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "The acquittal was set aside, and the accused was convicted. The sentence: simple imprisonment till the Court rises, and a fine of fourteen lakh rupees.",
+   "shown": "The acquittal was set aside, and the accused was convicted. The sentence: simple imprisonment till the Court rises, and a fine of ₹14 lakh.",
+   "chip": "6 · THE VERDICT"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple."
+  }
+ ]
+}

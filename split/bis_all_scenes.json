@@ -1,0 +1,69 @@
+{
+ "projectTitle": "LawWorld_bis",
+ "title": "A fake ISI mark: possession is not use",
+ "source": "split/scripts/bis.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. A factory holds a roller bearing a fake I S I mark. Is possessing it an offence, without proof that the mark was used?",
+   "shown": "Hi, I am Ravishankar from LawWorld. A factory holds a roller bearing a fake ISI mark. Is possessing it an offence, without proof that the mark was used?",
+   "chip": "1 · POSSESSION OR USE?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "On fourteenth October, twenty twenty six, the Kerala High Court, through a single bench of Honourable Justice A Badharudeen, answered that question.",
+   "shown": "On 14 October 2026, the Kerala High Court, through a single bench of Honourable Justice A. Badharudeen, answered that question."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "The Bureau of Indian Standards alleged that its officials, inspecting a firm's factory, found a roller with a spurious I S I mark, and no valid licence.",
+   "shown": "The Bureau of Indian Standards alleged that its officials, inspecting a firm's factory, found a roller with a spurious ISI mark, and no valid licence.",
+   "chip": "2 · THE CASE"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "It said a spurious mark was also on the factory wall, and filed a complaint against the firm and its four partners under the B I S Act, nineteen eighty six.",
+   "shown": "It said a spurious mark was also on the factory wall, and filed a complaint against the firm and its four partners under the BIS Act, 1986."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "The Taliparamba Magistrate found no cogent proof that the firm used the mark on any article. No finished product bearing the fake mark was produced.",
+   "chip": "3 · IN THE TRIAL COURT"
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "Nor was the roller's seizure properly proved, to show it worked and could apply the mark. In January twenty ten, all the accused were acquitted.",
+   "shown": "Nor was the roller's seizure properly proved, to show it worked and could apply the mark. In January 2010, all the accused were acquitted."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "On appeal, the Bureau argued mere possession of a fake I S I mark was enough, without proof of use. The firm and its partners said possession alone is no offence.",
+   "shown": "On appeal, the Bureau argued mere possession of a fake ISI mark was enough, without proof of use. The firm and its partners said possession alone is no offence.",
+   "chip": "4 · THE APPEAL"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "The High Court held: Sections Eleven and Twelve prohibit the use of the mark. The legislature chose the word use, and never meant mere possession to be punished there.",
+   "shown": "The High Court held: Sections 11 and 12 prohibit the use of the mark. The legislature chose the word \"use\", and never meant mere possession to be punished there.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Possessing an object that can affix such a mark, without evidence of its use in making goods, does not attract those sections. The Bureau's appeal was dismissed."
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple."
+  }
+ ]
+}

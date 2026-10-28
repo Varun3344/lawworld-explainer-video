@@ -1,0 +1,32 @@
+// Sri Ramanjalu v. State of Karnataka & Anr., Criminal Petition No. 3658 of 2022, High Court of Karnataka at Bengaluru
+// (M. Nagaprasanna J., single bench), reserved 11.08.2026, CAV order pronounced 16.10.2026, on the court's REPORTABLE list.
+// KANNADA concept-format judgment reel (9:16, ~96 s). Source: scratchpad finder/KHC_CrlP_3658_2022_Ramanjalu.txt (read in full).
+// Facts used: s.482 CrPC petition to quash C.C. No. 50442 of 2022 (XXIX Addl. CMM, Mayo Hall) from Crime No. 245 of 2021, HAL P.S.,
+// for IPC 279, 307, 353, 427, 506 (prayer, 1); the complainant, a Head Constable of the HAL Airport Traffic P.S., on special duty to
+// detect drunken driving on the night of 23.10.2021; complaint on 24.10.2021; the petitioner, driving a car, allegedly tried to evade the
+// checking by speeding away and, when the complainant tried to intercept, drove so that it ran over him; the drunken-driving detection
+// machine damaged (3.1, 7); spot mahazar 25.10.2021, road opposite Vimanapura Post Office (3.2); charge sheet, cognizance 01.02.2022
+// (3.2); petitioner: no intention or knowledge for s.307, no grievous injury (4.1-4.2); wound certificate records a fracture of the head
+// of the fibula, medically grievous (8, 12.3).
+// Held: s.307's gravamen is intention or knowledge, not the magnitude of the injury; neither a fatal injury nor grievous hurt is an
+// indispensable prerequisite (12; Surender Kumar v. State of Haryana, 2026 SCC OnLine SC 1912; Abhishek v. State of Rajasthan, 2026 SCC
+// OnLine SC 2079); a vehicle so driven towards a person is capable of becoming an instrument of death; survival cannot by itself dilute
+// the gravity of the act alleged (12.4); intention or knowledge may prima facie be inferred from the circumstances (12.5); prima facie
+// case for all five offences (11.2, 12.6, 13.3, 14.1, 15.2, 20); truth to emerge at trial (19); petition rejected (21); the observations
+// are confined to s.482 and are not findings on guilt (after 21).
+// Flow policy: no one is named in the spoken lines (the accused / the complainant); every act is an allegation; nothing graphic.
+# 1 · ಬದುಕುಳಿದರೆ?
+10 | ನಮಸ್ಕಾರ, ನಾನು LawWorld ನಿಂದ ರವಿಶಂಕರ್. ವ್ಯಕ್ತಿಯ ಮೇಲೆ ಕಾರು ಹತ್ತಿಸಿದ ಆರೋಪದಲ್ಲಿ, ಆ ವ್ಯಕ್ತಿ ಬದುಕುಳಿದರು ಎಂಬ ಕಾರಣಕ್ಕೇ ಕೊಲೆ ಯತ್ನದ ಸೆಕ್ಷನ್ ಮುನ್ನೂರ ಏಳು ರದ್ದಾಗುತ್ತದೆಯೇ? || ನಮಸ್ಕಾರ, ನಾನು LawWorld ನಿಂದ ರವಿಶಂಕರ್. ವ್ಯಕ್ತಿಯ ಮೇಲೆ ಕಾರು ಹತ್ತಿಸಿದ ಆರೋಪದಲ್ಲಿ, ಆ ವ್ಯಕ್ತಿ ಬದುಕುಳಿದರು ಎಂಬ ಕಾರಣಕ್ಕೇ ಕೊಲೆ ಯತ್ನದ ಸೆಕ್ಷನ್ 307 ರದ್ದಾಗುತ್ತದೆಯೇ?
+10 | ಎರಡು ಸಾವಿರದ ಇಪ್ಪತ್ತಾರರ ಅಕ್ಟೋಬರ್ ಹದಿನಾರರಂದು, ಕರ್ನಾಟಕ ಹೈಕೋರ್ಟ್‌ನ ಗೌರವಾನ್ವಿತ ನ್ಯಾಯಮೂರ್ತಿ ಎಂ ನಾಗಪ್ರಸನ್ನ ಅವರ ಏಕಸದಸ್ಯ ಪೀಠ ಈ ಪ್ರಕರಣದಲ್ಲಿ ತೀರ್ಪು ನೀಡಿತು. || 2026ರ ಅಕ್ಟೋಬರ್ 16ರಂದು, ಕರ್ನಾಟಕ ಹೈಕೋರ್ಟ್‌ನ ಗೌರವಾನ್ವಿತ ನ್ಯಾಯಮೂರ್ತಿ ಎಂ ನಾಗಪ್ರಸನ್ನ ಅವರ ಏಕಸದಸ್ಯ ಪೀಠ ಈ ಪ್ರಕರಣದಲ್ಲಿ ತೀರ್ಪು ನೀಡಿತು.
+# 2 · ಆರೋಪಿತ ಘಟನೆ
+10 | ಎರಡು ಸಾವಿರದ ಇಪ್ಪತ್ತೊಂದರ ಅಕ್ಟೋಬರ್ ಇಪ್ಪತ್ತಮೂರರ ರಾತ್ರಿ, ಬೆಂಗಳೂರಿನ ವಿಮಾನಪುರ ಬಳಿ, ಸಂಚಾರ ಪೊಲೀಸ್ ಹೆಡ್ ಕಾನ್ಸ್‌ಟೇಬಲ್ ಒಬ್ಬರು ಮದ್ಯಪಾನ ಚಾಲನೆ ತಪಾಸಣೆಯ ವಿಶೇಷ ಕರ್ತವ್ಯದಲ್ಲಿದ್ದರು. || 2021ರ ಅಕ್ಟೋಬರ್ 23ರ ರಾತ್ರಿ, ಬೆಂಗಳೂರಿನ ವಿಮಾನಪುರ ಬಳಿ, ಸಂಚಾರ ಪೊಲೀಸ್ ಹೆಡ್ ಕಾನ್ಸ್‌ಟೇಬಲ್ ಒಬ್ಬರು ಮದ್ಯಪಾನ ಚಾಲನೆ ತಪಾಸಣೆಯ ವಿಶೇಷ ಕರ್ತವ್ಯದಲ್ಲಿದ್ದರು.
+10 | ಆರೋಪದ ಪ್ರಕಾರ, ಆರೋಪಿ ವೇಗವಾಗಿ ಸಾಗಿ ತಪಾಸಣೆ ತಪ್ಪಿಸಲು ಯತ್ನಿಸಿ, ತಡೆಯಲು ಬಂದ ದೂರುದಾರರ ಮೇಲೆ ಕಾರು ಹತ್ತಿಸಿದರು. ಮದ್ಯ ತಪಾಸಣಾ ಯಂತ್ರವೂ ಹಾಳಾಯಿತು ಎನ್ನಲಾಗಿದೆ.
+# 3 · ಪ್ರಕರಣ ಹೈಕೋರ್ಟ್‌ಗೆ
+10 | ಮರುದಿನ ದೂರು ದಾಖಲಾಯಿತು. ತನಿಖೆಯ ನಂತರ ಪೊಲೀಸರು ಚಾರ್ಜ್‌ಶೀಟ್ ಸಲ್ಲಿಸಿದರು, ಮ್ಯಾಜಿಸ್ಟ್ರೇಟ್ ಕೋರ್ಟ್ ಕೊಲೆ ಯತ್ನದ ಸೆಕ್ಷನ್ ಮುನ್ನೂರ ಏಳು ಸೇರಿ ಐದು ಐಪಿಸಿ ಅಪರಾಧಗಳ ಸಂಜ್ಞಾನ ತೆಗೆದುಕೊಂಡಿತು. || ಮರುದಿನ ದೂರು ದಾಖಲಾಯಿತು. ತನಿಖೆಯ ನಂತರ ಪೊಲೀಸರು ಚಾರ್ಜ್‌ಶೀಟ್ ಸಲ್ಲಿಸಿದರು, ಮ್ಯಾಜಿಸ್ಟ್ರೇಟ್ ಕೋರ್ಟ್ ಕೊಲೆ ಯತ್ನದ ಸೆಕ್ಷನ್ 307 ಸೇರಿ ಐದು ಐಪಿಸಿ ಅಪರಾಧಗಳ ಸಂಜ್ಞಾನ ತೆಗೆದುಕೊಂಡಿತು.
+10 | ಆರೋಪಿ ಸಿಆರ್‌ಪಿಸಿ ಸೆಕ್ಷನ್ ನಾನೂರ ಎಂಬತ್ತೆರಡರಡಿ ರದ್ದತಿ ಕೋರಿ ಹೈಕೋರ್ಟ್‌ಗೆ ಬಂದರು. ಕೊಲೆ ಯತ್ನಕ್ಕೆ ಬೇಕಾದ ಉದ್ದೇಶ ಅಥವಾ ಅರಿವು ಇಲ್ಲ, ಗಂಭೀರ ಗಾಯವೂ ಆಗಿಲ್ಲ ಎಂದು ವಾದಿಸಿದರು. || ಆರೋಪಿ ಸಿಆರ್‌ಪಿಸಿ ಸೆಕ್ಷನ್ 482ರಡಿ ರದ್ದತಿ ಕೋರಿ ಹೈಕೋರ್ಟ್‌ಗೆ ಬಂದರು. ಕೊಲೆ ಯತ್ನಕ್ಕೆ ಬೇಕಾದ ಉದ್ದೇಶ ಅಥವಾ ಅರಿವು ಇಲ್ಲ, ಗಂಭೀರ ಗಾಯವೂ ಆಗಿಲ್ಲ ಎಂದು ವಾದಿಸಿದರು.
+# 4 · ಹೈಕೋರ್ಟ್ ತೀರ್ಮಾನ
+10 | ಹೈಕೋರ್ಟ್ ಪ್ರಕಾರ, ಸೆಕ್ಷನ್ ಮುನ್ನೂರ ಏಳರಲ್ಲಿ ಮುಖ್ಯವಾದುದು ಉದ್ದೇಶ ಅಥವಾ ಅರಿವು, ಗಾಯದ ಪ್ರಮಾಣವಲ್ಲ. ಮಾರಣಾಂತಿಕ ಅಥವಾ ಗಂಭೀರ ಗಾಯ ಅನಿವಾರ್ಯವಲ್ಲ. ಇಲ್ಲಿ ಮೂಳೆ ಮುರಿತವೂ ದಾಖಲಾಗಿದೆ. || ಹೈಕೋರ್ಟ್ ಪ್ರಕಾರ, ಸೆಕ್ಷನ್ 307ರಲ್ಲಿ ಮುಖ್ಯವಾದುದು ಉದ್ದೇಶ ಅಥವಾ ಅರಿವು, ಗಾಯದ ಪ್ರಮಾಣವಲ್ಲ. ಮಾರಣಾಂತಿಕ ಅಥವಾ ಗಂಭೀರ ಗಾಯ ಅನಿವಾರ್ಯವಲ್ಲ. ಇಲ್ಲಿ ಮೂಳೆ ಮುರಿತವೂ ದಾಖಲಾಗಿದೆ.
+10 | ವ್ಯಕ್ತಿಯತ್ತ ನುಗ್ಗಿಸಿದ ವಾಹನ ಸಾವಿನ ಸಾಧನವಾಗಬಹುದು. ದೂರುದಾರ ಬದುಕುಳಿದದ್ದೇ ಆರೋಪದ ಗಂಭೀರತೆ ತಗ್ಗಿಸದು. ಉದ್ದೇಶ ಅಥವಾ ಅರಿವನ್ನು ಸಂದರ್ಭಗಳಿಂದ ಮೇಲ್ನೋಟಕ್ಕೆ ಊಹಿಸಬಹುದು.
+# 5 · ಫಲಿತಾಂಶ
+10 | ಐದೂ ಆರೋಪಗಳಿಗೆ ಮೇಲ್ನೋಟದ ಆಧಾರವಿದೆ, ಸತ್ಯ ವಿಚಾರಣೆಯಲ್ಲೇ ಹೊರಬರಬೇಕು ಎಂದು ಹೈಕೋರ್ಟ್ ಅರ್ಜಿ ತಿರಸ್ಕರಿಸಿತು. ಈ ಅಭಿಪ್ರಾಯಗಳು ಆರೋಪಿಯ ದೋಷದ ತೀರ್ಮಾನವಲ್ಲ ಎಂದೂ ಸ್ಪಷ್ಟಪಡಿಸಿತು.
+6 | ನೋಡಿದ್ದಕ್ಕೆ ಧನ್ಯವಾದಗಳು! ಲೈಕ್, ಶೇರ್ ಮತ್ತು ಸಬ್‌ಸ್ಕ್ರೈಬ್ ಮಾಡಿ, ತೀರ್ಪುಗಳನ್ನು ಸರಳವಾಗಿ ತಿಳಿಯಲು LawWorld ಫಾಲೋ ಮಾಡಿ.

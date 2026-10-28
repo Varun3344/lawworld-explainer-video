@@ -1,0 +1,33 @@
+// Smt. Drakshayini @ Girija & Anr. v. Assistant Commissioner and Sub-Divisional Magistrate, Shimoga Sub-Division & Anr.,
+// W.P. No. 34895 of 2025 (GM-RES), 2026:KHC:58865, High Court of Karnataka at Bengaluru (Suraj Govindaraj J., single bench), reserved
+// 03.09.2026, CAV order pronounced 14.10.2026, on the court's REPORTABLE list. KANNADA concept-format judgment reel (9:16, ~96 s).
+// Source: scratchpad finder/KHC_WP_34895_2025_Drakshayini.txt (read in full). Every Kannada line hand-written from the judgment.
+// Facts used: Petitioner 1 is the daughter of Respondent 2, Petitioner 2 her husband (2); registered release deed of 09.01.2025 by the
+// father in her favour, relinquishing all his rights in Sy. No. 42, 1 acre 30 guntas, Hunasekatte, Bhadravathi Taluk (3.1-3.2); the
+// father (of Kambadal, Hosur, Bhadravathi Taluk) about 74 when he executed it (8.3); his s.23 application (Senior Citizens Act, 2007)
+// to the AC, Shimoga Sub-Division, allowed 08.09.2025, corrigendum 06.10.2025 (2, 4.9); petitioners: Agreement of Sale 31.07.2023 for
+// Rs 17,25,000, receipt 01.08.2023, transaction for consideration, the deed has no maintenance condition so s.23 is not attracted
+// (3.1-3.6); the father: transfer on the understanding the daughter would care for him in old age (8.5, 8.7), no consideration paid
+// (4.6); question (6, point 1).
+// Held: following Sri Venkataiah v. State of Karnataka (W.P. 13313/2025), an express condition is not by itself a prerequisite for s.23;
+// where the application specifically alleges a transfer on an understanding of care, the AC must examine it (8.1, 8.6, 8.8); the receipt
+// of 01.08.2023 refers to a later Will of 09.08.2023, a doubtful document (9.6); even per the receipt the money went to the brothers,
+// not the father (9.7); no material on the means to pay Rs 17,25,000 (9.5); no infirmity, petition dismissed (9.11, 9.24, 10.1(i));
+// per RBANMS Educational Institution v. B. Gunashekar (2025 INSC 490) the Registrar (Judicial) to forward a copy of the entire file to
+// the Chief Commissioner, Income Tax, Karnataka (10.1(ii)-(iii)).
+// Flow policy: no party is named in the spoken lines (the father / the daughter and son-in-law); case title on the cards only.
+# 1 · ಷರತ್ತು ಬೇಕೇ?
+10 | ನಮಸ್ಕಾರ, ನಾನು LawWorld ನಿಂದ ರವಿಶಂಕರ್. ಮಗಳಿಗೆ ಮಾಡಿಕೊಟ್ಟ ರಿಲೀಸ್ ಡೀಡ್‌ನಲ್ಲಿ ಪೋಷಣೆಯ ಷರತ್ತೇ ಇಲ್ಲದಿದ್ದರೆ, ಹಿರಿಯ ತಂದೆ ಸೆಕ್ಷನ್ ಇಪ್ಪತ್ತಮೂರರಡಿ ಅದನ್ನು ರದ್ದು ಮಾಡಿಸಬಹುದೇ? || ನಮಸ್ಕಾರ, ನಾನು LawWorld ನಿಂದ ರವಿಶಂಕರ್. ಮಗಳಿಗೆ ಮಾಡಿಕೊಟ್ಟ ರಿಲೀಸ್ ಡೀಡ್‌ನಲ್ಲಿ ಪೋಷಣೆಯ ಷರತ್ತೇ ಇಲ್ಲದಿದ್ದರೆ, ಹಿರಿಯ ತಂದೆ ಸೆಕ್ಷನ್ 23ರಡಿ ಅದನ್ನು ರದ್ದು ಮಾಡಿಸಬಹುದೇ?
+10 | ಎರಡು ಸಾವಿರದ ಇಪ್ಪತ್ತಾರರ ಅಕ್ಟೋಬರ್ ಹದಿನಾಲ್ಕರಂದು, ಕರ್ನಾಟಕ ಹೈಕೋರ್ಟ್‌ನ ಗೌರವಾನ್ವಿತ ನ್ಯಾಯಮೂರ್ತಿ ಸೂರಜ್ ಗೋವಿಂದರಾಜ್ ಅವರ ಏಕಸದಸ್ಯ ಪೀಠ ಈ ಪ್ರಕರಣದಲ್ಲಿ ತೀರ್ಪು ನೀಡಿತು. || 2026ರ ಅಕ್ಟೋಬರ್ 14ರಂದು, ಕರ್ನಾಟಕ ಹೈಕೋರ್ಟ್‌ನ ಗೌರವಾನ್ವಿತ ನ್ಯಾಯಮೂರ್ತಿ ಸೂರಜ್ ಗೋವಿಂದರಾಜ್ ಅವರ ಏಕಸದಸ್ಯ ಪೀಠ ಈ ಪ್ರಕರಣದಲ್ಲಿ ತೀರ್ಪು ನೀಡಿತು.
+# 2 · ರಿಲೀಸ್ ಡೀಡ್
+10 | ಭದ್ರಾವತಿ ತಾಲ್ಲೂಕಿನ ಸುಮಾರು ಎಪ್ಪತ್ನಾಲ್ಕು ವರ್ಷದ ತಂದೆ, ಎರಡು ಸಾವಿರದ ಇಪ್ಪತ್ತೈದರ ಜನವರಿಯಲ್ಲಿ, ತಮ್ಮ ಜಮೀನಿನ ಎಲ್ಲ ಹಕ್ಕನ್ನು ಮಗಳಿಗೆ ಬಿಟ್ಟುಕೊಡುವ ನೋಂದಾಯಿತ ರಿಲೀಸ್ ಡೀಡ್ ಮಾಡಿಕೊಟ್ಟರು. || ಭದ್ರಾವತಿ ತಾಲ್ಲೂಕಿನ ಸುಮಾರು 74 ವರ್ಷದ ತಂದೆ, 2025ರ ಜನವರಿಯಲ್ಲಿ, ತಮ್ಮ ಜಮೀನಿನ ಎಲ್ಲ ಹಕ್ಕನ್ನು ಮಗಳಿಗೆ ಬಿಟ್ಟುಕೊಡುವ ನೋಂದಾಯಿತ ರಿಲೀಸ್ ಡೀಡ್ ಮಾಡಿಕೊಟ್ಟರು.
+10 | ನಂತರ ತಂದೆ ಹಿರಿಯ ನಾಗರಿಕರ ಕಾಯ್ದೆಯ ಸೆಕ್ಷನ್ ಇಪ್ಪತ್ತಮೂರರಡಿ ಅರ್ಜಿ ಹಾಕಿದರು. ಎರಡು ಸಾವಿರದ ಇಪ್ಪತ್ತೈದರ ಸೆಪ್ಟೆಂಬರ್‌ನಲ್ಲಿ ಶಿವಮೊಗ್ಗದ ಸಹಾಯಕ ಆಯುಕ್ತರು ಡೀಡ್ ರದ್ದುಪಡಿಸಿದರು. || ನಂತರ ತಂದೆ ಹಿರಿಯ ನಾಗರಿಕರ ಕಾಯ್ದೆಯ ಸೆಕ್ಷನ್ 23ರಡಿ ಅರ್ಜಿ ಹಾಕಿದರು. 2025ರ ಸೆಪ್ಟೆಂಬರ್‌ನಲ್ಲಿ ಶಿವಮೊಗ್ಗದ ಸಹಾಯಕ ಆಯುಕ್ತರು ಡೀಡ್ ರದ್ದುಪಡಿಸಿದರು.
+# 3 · ಹೈಕೋರ್ಟ್‌ನಲ್ಲಿ
+10 | ಮಗಳು ಮತ್ತು ಅಳಿಯ ರಿಟ್ ಅರ್ಜಿಯೊಂದಿಗೆ ಹೈಕೋರ್ಟ್‌ಗೆ ಬಂದರು. ಹದಿನೇಳು ಲಕ್ಷ ಇಪ್ಪತ್ತೈದು ಸಾವಿರ ರೂಪಾಯಿಯ ಮಾರಾಟ ಒಪ್ಪಂದ ಮತ್ತು ರಸೀದಿ ಇದೆ, ಡೀಡ್‌ನಲ್ಲಿ ಪೋಷಣೆಯ ಷರತ್ತೇ ಇಲ್ಲ ಎಂದು ವಾದಿಸಿದರು. || ಮಗಳು ಮತ್ತು ಅಳಿಯ ರಿಟ್ ಅರ್ಜಿಯೊಂದಿಗೆ ಹೈಕೋರ್ಟ್‌ಗೆ ಬಂದರು. ₹17.25 ಲಕ್ಷದ ಮಾರಾಟ ಒಪ್ಪಂದ ಮತ್ತು ರಸೀದಿ ಇದೆ, ಡೀಡ್‌ನಲ್ಲಿ ಪೋಷಣೆಯ ಷರತ್ತೇ ಇಲ್ಲ ಎಂದು ವಾದಿಸಿದರು.
+10 | ತಂದೆಯ ವಾದ: ಮಗಳು ವೃದ್ಧಾಪ್ಯದಲ್ಲಿ ತಮ್ಮನ್ನು ನೋಡಿಕೊಳ್ಳುತ್ತಾಳೆ ಎಂಬ ತಿಳಿವಳಿಕೆಯಿಂದಲೇ ಆಸ್ತಿ ಕೊಟ್ಟದ್ದು, ತಮಗೆ ಹಣ ಸಿಕ್ಕಿಲ್ಲ. ಹಾಗಾದರೆ, ಪೋಷಣೆಯ ಷರತ್ತು ಡೀಡ್‌ನಲ್ಲಿ ಇರಲೇಬೇಕೇ?
+# 4 · ಹೈಕೋರ್ಟ್ ತೀರ್ಮಾನ
+10 | ಹೈಕೋರ್ಟ್ ಪ್ರಕಾರ, ಷರತ್ತು ಡೀಡ್‌ನಲ್ಲಿ ಇರಲೇಬೇಕಿಲ್ಲ. ನೋಡಿಕೊಳ್ಳುವ ತಿಳಿವಳಿಕೆಯ ಮೇಲೆ ಆಸ್ತಿ ಕೊಡಲಾಯಿತು ಎಂದು ಅರ್ಜಿಯಲ್ಲಿ ನಿರ್ದಿಷ್ಟವಾಗಿ ಹೇಳಿದ್ದರೆ, ಸಹಾಯಕ ಆಯುಕ್ತರು ಅದನ್ನು ಪರಿಶೀಲಿಸಬೇಕು.
+10 | ಕೋರ್ಟ್ ಗಮನಿಸಿದಂತೆ, ಆಗಸ್ಟ್ ಒಂದರ ರಸೀದಿ ನಂತರದ ಆಗಸ್ಟ್ ಒಂಬತ್ತರ ವಿಲ್ ಅನ್ನು ಉಲ್ಲೇಖಿಸುತ್ತದೆ, ಹಾಗಾಗಿ ಅದು ಸಂಶಯಾಸ್ಪದ. ಅದರ ಪ್ರಕಾರವೂ ಹಣ ಪಡೆದದ್ದು ಮಗಳ ಸಹೋದರರು, ತಂದೆಯಲ್ಲ. || ಕೋರ್ಟ್ ಗಮನಿಸಿದಂತೆ, ಆಗಸ್ಟ್ 1ರ ರಸೀದಿ ನಂತರದ ಆಗಸ್ಟ್ 9ರ ವಿಲ್ ಅನ್ನು ಉಲ್ಲೇಖಿಸುತ್ತದೆ, ಹಾಗಾಗಿ ಅದು ಸಂಶಯಾಸ್ಪದ. ಅದರ ಪ್ರಕಾರವೂ ಹಣ ಪಡೆದದ್ದು ಮಗಳ ಸಹೋದರರು, ತಂದೆಯಲ್ಲ.
+# 5 · ಆದೇಶ
+10 | ಹೈಕೋರ್ಟ್ ರಿಟ್ ಅರ್ಜಿ ವಜಾಗೊಳಿಸಿತು. ದೊಡ್ಡ ಮೊತ್ತದ ನಗದು ಪಾವತಿಯ ವಾದ ಇರುವುದರಿಂದ, ಸುಪ್ರೀಂ ಕೋರ್ಟ್ ತೀರ್ಪಿನಂತೆ ಕಡತದ ಪ್ರತಿಯನ್ನು ಆದಾಯ ತೆರಿಗೆ ಮುಖ್ಯ ಆಯುಕ್ತರಿಗೆ ಕಳುಹಿಸಲು ಆದೇಶಿಸಿತು.
+6 | ನೋಡಿದ್ದಕ್ಕೆ ಧನ್ಯವಾದಗಳು! ಲೈಕ್, ಶೇರ್ ಮತ್ತು ಸಬ್‌ಸ್ಕ್ರೈಬ್ ಮಾಡಿ, ತೀರ್ಪುಗಳನ್ನು ಸರಳವಾಗಿ ತಿಳಿಯಲು LawWorld ಫಾಲೋ ಮಾಡಿ.

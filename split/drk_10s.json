@@ -1,0 +1,84 @@
+{
+  "aspectRatio": "9:16",
+  "maxWordsPerClip": 32,
+  "downloadFolder": "/Users/admin/Downloads/New short/product-explainer/downloads/drk",
+  "useLastFrameReference": true,
+  "referenceFrameFrom": "first",
+  "transition": {
+    "type": "cut"
+  },
+  "globalStyle": {
+    "avatar": "@me",
+    "useAccountAvatar": true,
+    "hostName": "the presenter",
+    "channelName": "LawWorld",
+    "voice": "@me verified avatar voice, speaking fluent natural Kannada with a clear Karnataka accent (identical pitch and tone in every clip)",
+    "outfit": "a tailored dark-brown two-piece business suit, a cream formal shirt and a dark-red silk tie (identical in every scene)",
+    "background": "a seamless, plain, very light ivory off-white studio backdrop (almost white, with only a faint warm tint), brightly and evenly lit from edge to edge with no falloff, no vignette, no shadows, no texture and no objects - nothing else in the frame; identical in every scene",
+    "gestures": "He faces the camera squarely for the whole clip: head, shoulders and body stay square to the lens, he never turns to the left or right and never points or presents to the side. Animated, energetic open-palm gestures in front of his chest, counting points on his fingers, small confident nods and a bright smile on emphasis; relaxed fingers close together; hands stay in front of his body, inside the frame and never in front of his face; he stays standing in the same spot, at the same distance from the camera, throughout",
+    "audio": "@me verified avatar voice ONLY, speaking the dialogue in the Kannada language exactly as written, crisp, clear and high-energy, continuous speech filling the clip at a quick pace, NO background music, NO sound effects, NO silence at the start or end",
+    "negativePrompts": "He stays in the same spot with his face and upper body fully visible at all times; NO turning the head or body to the side, NO looking away from the camera, NO pointing or presenting to the left or right, NO arm stretched out to the side, NO arms, elbows, hands or shoulders touching or cut by the frame edges, NO oversized hands, NO hands held toward the camera, NO big or spread-out fingers, NO thin or lanky body, NO wide-angle lens distortion, NO furniture, NO bookshelves, NO plants, NO lamps, NO props, NO objects behind him, NO icons or graphics, NO text on screen, NO captions, NO name tags, NO logos, NO outfit change, NO camera cut, NO tripod, NO camera or microphone or any studio equipment visible in frame, NO other people",
+    "camera": "Locked-off static shot, vertical. A medium-wide shot: he is STANDING in the middle of the frame, framed from mid-thigh up and fairly small in the frame, so his body fills only about the middle half of the frame width with wide empty backdrop on BOTH sides of him; his shoulders, elbows and hands always stay well inside the frame; clear space above his head. Eye level, natural portrait-lens look, no zoom, no pan, no camera movement; the camera itself is never visible",
+    "realism": "Photorealistic live-action footage of a real human presenter recorded in one studio session against a plain ivory backdrop, NOT a furnished room. Soft, bright, even high-key light: a soft frontal key light on his face with soft fill, no harsh shadows, natural skin texture, natural eye contact straight into the lens and PERFECT LIP SYNC: his lips, jaw and mouth shapes match every syllable of the dialogue exactly, in time with the voice, no mouth movement without sound and no sound without mouth movement, identical exposure and white balance in every scene. TRUE-TO-LIFE BODY: natural adult proportions that match his face - broad shoulders, a solid average build that fills the jacket (not slim, not lanky), and SLENDER, NATURAL-SIZE HANDS: each hand no longer than his face, relaxed fingers held close together, never spread wide, hands never closer to the camera than his chest",
+    "delivery": "FAST, HIGH-ENERGY Kannada delivery, like a top legal educator coaching advocates in Karnataka straight to camera: quick, punchy pace, strong confident voice, crisp emphasis on key words, bright smile; clear pronunciation of every Kannada word, English legal terms (LawWorld, release deed, writ) said naturally as Karnataka advocates say them; speak the dialogue exactly once, word for word in Kannada, never translate it, never repeat, stretch or slow down a word, never add words"
+  },
+  "projectTitle": "LawWorld_drk_10s",
+  "clipDurationSeconds": 10,
+  "scenes": [
+    {
+      "sceneId": "c01",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "ನಮಸ್ಕಾರ, ನಾನು LawWorld ನಿಂದ ರವಿಶಂಕರ್. ಮಗಳಿಗೆ ಮಾಡಿಕೊಟ್ಟ ರಿಲೀಸ್ ಡೀಡ್‌ನಲ್ಲಿ ಪೋಷಣೆಯ ಷರತ್ತೇ ಇಲ್ಲದಿದ್ದರೆ, ಹಿರಿಯ ತಂದೆ ಸೆಕ್ಷನ್ ಇಪ್ಪತ್ತಮೂರರಡಿ ಅದನ್ನು ರದ್ದು ಮಾಡಿಸಬಹುದೇ?"
+    },
+    {
+      "sceneId": "c02",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "ಎರಡು ಸಾವಿರದ ಇಪ್ಪತ್ತಾರರ ಅಕ್ಟೋಬರ್ ಹದಿನಾಲ್ಕರಂದು, ಕರ್ನಾಟಕ ಹೈಕೋರ್ಟ್‌ನ ಗೌರವಾನ್ವಿತ ನ್ಯಾಯಮೂರ್ತಿ ಸೂರಜ್ ಗೋವಿಂದರಾಜ್ ಅವರ ಏಕಸದಸ್ಯ ಪೀಠ ಈ ಪ್ರಕರಣದಲ್ಲಿ ತೀರ್ಪು ನೀಡಿತು."
+    },
+    {
+      "sceneId": "c03",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "ಭದ್ರಾವತಿ ತಾಲ್ಲೂಕಿನ ಸುಮಾರು ಎಪ್ಪತ್ನಾಲ್ಕು ವರ್ಷದ ತಂದೆ, ಎರಡು ಸಾವಿರದ ಇಪ್ಪತ್ತೈದರ ಜನವರಿಯಲ್ಲಿ, ತಮ್ಮ ಜಮೀನಿನ ಎಲ್ಲ ಹಕ್ಕನ್ನು ಮಗಳಿಗೆ ಬಿಟ್ಟುಕೊಡುವ ನೋಂದಾಯಿತ ರಿಲೀಸ್ ಡೀಡ್ ಮಾಡಿಕೊಟ್ಟರು."
+    },
+    {
+      "sceneId": "c04",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "ನಂತರ ತಂದೆ ಹಿರಿಯ ನಾಗರಿಕರ ಕಾಯ್ದೆಯ ಸೆಕ್ಷನ್ ಇಪ್ಪತ್ತಮೂರರಡಿ ಅರ್ಜಿ ಹಾಕಿದರು. ಎರಡು ಸಾವಿರದ ಇಪ್ಪತ್ತೈದರ ಸೆಪ್ಟೆಂಬರ್‌ನಲ್ಲಿ ಶಿವಮೊಗ್ಗದ ಸಹಾಯಕ ಆಯುಕ್ತರು ಡೀಡ್ ರದ್ದುಪಡಿಸಿದರು."
+    },
+    {
+      "sceneId": "c05",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "ಮಗಳು ಮತ್ತು ಅಳಿಯ ರಿಟ್ ಅರ್ಜಿಯೊಂದಿಗೆ ಹೈಕೋರ್ಟ್‌ಗೆ ಬಂದರು. ಹದಿನೇಳು ಲಕ್ಷ ಇಪ್ಪತ್ತೈದು ಸಾವಿರ ರೂಪಾಯಿಯ ಮಾರಾಟ ಒಪ್ಪಂದ ಮತ್ತು ರಸೀದಿ ಇದೆ, ಡೀಡ್‌ನಲ್ಲಿ ಪೋಷಣೆಯ ಷರತ್ತೇ ಇಲ್ಲ ಎಂದು ವಾದಿಸಿದರು."
+    },
+    {
+      "sceneId": "c06",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "ತಂದೆಯ ವಾದ: ಮಗಳು ವೃದ್ಧಾಪ್ಯದಲ್ಲಿ ತಮ್ಮನ್ನು ನೋಡಿಕೊಳ್ಳುತ್ತಾಳೆ ಎಂಬ ತಿಳಿವಳಿಕೆಯಿಂದಲೇ ಆಸ್ತಿ ಕೊಟ್ಟದ್ದು, ತಮಗೆ ಹಣ ಸಿಕ್ಕಿಲ್ಲ. ಹಾಗಾದರೆ, ಪೋಷಣೆಯ ಷರತ್ತು ಡೀಡ್‌ನಲ್ಲಿ ಇರಲೇಬೇಕೇ?"
+    },
+    {
+      "sceneId": "c07",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "ಹೈಕೋರ್ಟ್ ಪ್ರಕಾರ, ಷರತ್ತು ಡೀಡ್‌ನಲ್ಲಿ ಇರಲೇಬೇಕಿಲ್ಲ. ನೋಡಿಕೊಳ್ಳುವ ತಿಳಿವಳಿಕೆಯ ಮೇಲೆ ಆಸ್ತಿ ಕೊಡಲಾಯಿತು ಎಂದು ಅರ್ಜಿಯಲ್ಲಿ ನಿರ್ದಿಷ್ಟವಾಗಿ ಹೇಳಿದ್ದರೆ, ಸಹಾಯಕ ಆಯುಕ್ತರು ಅದನ್ನು ಪರಿಶೀಲಿಸಬೇಕು."
+    },
+    {
+      "sceneId": "c08",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "ಕೋರ್ಟ್ ಗಮನಿಸಿದಂತೆ, ಆಗಸ್ಟ್ ಒಂದರ ರಸೀದಿ ನಂತರದ ಆಗಸ್ಟ್ ಒಂಬತ್ತರ ವಿಲ್ ಅನ್ನು ಉಲ್ಲೇಖಿಸುತ್ತದೆ, ಹಾಗಾಗಿ ಅದು ಸಂಶಯಾಸ್ಪದ. ಅದರ ಪ್ರಕಾರವೂ ಹಣ ಪಡೆದದ್ದು ಮಗಳ ಸಹೋದರರು, ತಂದೆಯಲ್ಲ."
+    },
+    {
+      "sceneId": "c09",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "ಹೈಕೋರ್ಟ್ ರಿಟ್ ಅರ್ಜಿ ವಜಾಗೊಳಿಸಿತು. ದೊಡ್ಡ ಮೊತ್ತದ ನಗದು ಪಾವತಿಯ ವಾದ ಇರುವುದರಿಂದ, ಸುಪ್ರೀಂ ಕೋರ್ಟ್ ತೀರ್ಪಿನಂತೆ ಕಡತದ ಪ್ರತಿಯನ್ನು ಆದಾಯ ತೆರಿಗೆ ಮುಖ್ಯ ಆಯುಕ್ತರಿಗೆ ಕಳುಹಿಸಲು ಆದೇಶಿಸಿತು."
+    }
+  ],
+  "flowProjectUrl": "https://flow.google.com/project/cf74513b-a6dc-4d40-85f9-9661d13ca3d3"
+}

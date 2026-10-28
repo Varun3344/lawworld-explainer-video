@@ -30,9 +30,10 @@ for r in range(0, len(outs), 10):
 subprocess.run(["ffmpeg", "-v", "error", "-y"] + sum([["-i", x] for x in rows], []) + ["-filter_complex", "".join(f"[{k}]" for k in range(len(rows))) + f"vstack={len(rows)}", f"{qa}/sheet.jpg"], check=True)
 print("sheet:", f"{qa}/sheet.jpg")
 PY
+  QAP=(); [ -n "$QA_LANG" ] && QAP=(-F "prompt=ಇದು ಕನ್ನಡ ಭಾಷೆಯ ವಿಡಿಯೋ. LawWorld.")   # Kannada: keeps whisper in Kannada script
   KEY=$(grep '^OPENAI_API_KEY=' "/Users/admin/Desktop/lawworld project/lw-plateform-node-backend/.env" | cut -d= -f2- | tr -d '"')
   ffmpeg -v error -y -i $SRC -vn -ac 1 -ar 16000 -b:a 48k $QA/a.mp3
-  echo "transcript: $(curl -s https://api.openai.com/v1/audio/transcriptions -H "Authorization: Bearer $KEY" -F file=@$QA/a.mp3 -F model=whisper-1 -F language=en | python3 -I -c 'import json,sys;print(json.load(sys.stdin).get("text"))')"
+  echo "transcript: $(curl -s https://api.openai.com/v1/audio/transcriptions -H "Authorization: Bearer $KEY" -F file=@$QA/a.mp3 -F model=whisper-1 -F language=${QA_LANG:-en} "${QAP[@]}" | python3 -I -c 'import json,sys;print(json.load(sys.stdin).get("text"))')"
 elif [ "$WHAT" = "ship" ]; then
   SLUG=$3; STEM=$4; O=$V/cover; mkdir -p $O; TH=out/$SET/thumb_brand.png
   ENC=(-c:v libx264 -preset veryfast -crf 17 -r 24 -pix_fmt yuv420p -c:a aac -b:a 192k -ar 48000 -ac 2)

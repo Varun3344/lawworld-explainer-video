@@ -1,0 +1,32 @@
+// Bureau of Indian Standards v. M/s Mars Veneers and Boards & Ors., Crl.A. No. 1211 of 2013, 2026:KER:79827, High Court of Kerala
+// (A. Badharudeen J., single bench), heard 24.09.2026, delivered 14.10.2026, marked "CR" (reportable). Concept-format judgment reel.
+// Source: scratchpad finder/Kerala_BIS_v_Mars_Veneers.txt (11 pages, read in full); facts as drafts/kerala2_B.json, re-checked.
+// Facts used: appeal by the BIS (complainant), arising from Crl.L.P. No. 45 of 2013, against the judgment of 01.01.2010 of the JFCM,
+// Taliparamba in C.C. No. 923 of 2006 (cause title, para 1); complaint under ss.11(1), 12(b) r/w s.33 BIS Act, 1986: the BIS Joint
+// Director, Thiruvananthapuram, with three other officials inspected the factory and found the first accused (the partnership firm)
+// possessing a roller with a spurious ISI mark, without a valid BIS licence; a spurious ISI mark also on the factory wall; the firm (A1)
+// and its partners (A2-A5) arrayed (para 4); PW1-3, Exts.P1-P6, MO1 roller; the Magistrate: no cogent and believable evidence that the
+// firm used a trade mark or ISI mark on any article, no finished product with the fake mark produced, the MO1 seizure not properly proved
+// to show it in working condition and capable of applying the mark; all acquitted (para 5); the BIS argued mere possession of a spurious
+// ISI mark suffices, the Magistrate wrongly required proof of use (para 6); the accused: mere possession for affixing on goods does not
+// attract ss.11/12 r/w 33 (para 7). Held: in ss.11 and 12 "the legislature vigilantly incorporated the word 'used'" and "never intended
+// the word 'possess' to fasten criminal culpability on mere possession of a spurious ISI mark"; no goods bearing the fake mark were
+// detected, seized or produced; "use" is punishable, and "mere possession of an object capable of affixing such a mark, without any
+// evidence to establish its use in the manufacture of goods", does not attract ss.11 and 12 r/w 33; the Magistrate was right (para 10);
+// appeal dismissed, acquittal confirmed (11-12).
+// Flow policy: no names in the spoken lines ("the firm", "its partners"); the Bureau's case is said as its allegation / argument.
+# 1 · POSSESSION OR USE?
+10 | Hi, I am Ravishankar from LawWorld. A factory holds a roller bearing a fake I S I mark. Is possessing it an offence, without proof that the mark was used? || Hi, I am Ravishankar from LawWorld. A factory holds a roller bearing a fake ISI mark. Is possessing it an offence, without proof that the mark was used?
+10 | On fourteenth October, twenty twenty six, the Kerala High Court, through a single bench of Honourable Justice A Badharudeen, answered that question. || On 14 October 2026, the Kerala High Court, through a single bench of Honourable Justice A. Badharudeen, answered that question.
+# 2 · THE CASE
+10 | The Bureau of Indian Standards alleged that its officials, inspecting a firm's factory, found a roller with a spurious I S I mark, and no valid licence. || The Bureau of Indian Standards alleged that its officials, inspecting a firm's factory, found a roller with a spurious ISI mark, and no valid licence.
+10 | It said a spurious mark was also on the factory wall, and filed a complaint against the firm and its four partners under the B I S Act, nineteen eighty six. || It said a spurious mark was also on the factory wall, and filed a complaint against the firm and its four partners under the BIS Act, 1986.
+# 3 · IN THE TRIAL COURT
+10 | The Taliparamba Magistrate found no cogent proof that the firm used the mark on any article. No finished product bearing the fake mark was produced.
+10 | Nor was the roller's seizure properly proved, to show it worked and could apply the mark. In January twenty ten, all the accused were acquitted. || Nor was the roller's seizure properly proved, to show it worked and could apply the mark. In January 2010, all the accused were acquitted.
+# 4 · THE APPEAL
+10 | On appeal, the Bureau argued mere possession of a fake I S I mark was enough, without proof of use. The firm and its partners said possession alone is no offence. || On appeal, the Bureau argued mere possession of a fake ISI mark was enough, without proof of use. The firm and its partners said possession alone is no offence.
+# 5 · WHAT THE COURT HELD
+10 | The High Court held: Sections Eleven and Twelve prohibit the use of the mark. The legislature chose the word use, and never meant mere possession to be punished there. || The High Court held: Sections 11 and 12 prohibit the use of the mark. The legislature chose the word "use", and never meant mere possession to be punished there.
+10 | Possessing an object that can affix such a mark, without evidence of its use in making goods, does not attract those sections. The Bureau's appeal was dismissed.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple.

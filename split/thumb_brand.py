@@ -13,6 +13,9 @@ BRAND = "../brand"   # relative, as overlays/split_panel.html does: Chrome loads
 e = html.escape
 
 
+KN = "kn" if any("\u0C80" <= ch <= "\u0CFF" for ch in cfg["head1"] + cfg["head2"]) else ""
+
+
 def head2():
     h, a = cfg["head2"], cfg.get("accent", "")
     if a and a in h:
@@ -23,9 +26,12 @@ def head2():
 
 ICON = {"copper": '<path d="M18 6 6 18M6 6l12 12"/>', "paper": '<path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/>',
         "ink": '<path d="m16 16 3-8 3 8c-2 1-4 1-6 0"/><path d="m2 16 3-8 3 8c-2 1-4 1-6 0"/><path d="M7 21h10M12 3v18M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/>'}
+# optional 3rd item: an icon override, e.g. ["Cheque acknowledges the debt", "copper", "arrow"] (28-10-2026: the copper strip's x
+# read as "not" on a strip that states the holding)
+ICON_ALT = {"x": ICON["copper"], "check": ICON["paper"], "arrow": '<path d="M5 12h14M13 6l6 6-6 6"/>', "scale": ICON["ink"]}
 strips = "".join(
-    f'<div class="st {k}"><div class="ic"><svg viewBox="0 0 24 24">{ICON[k]}</svg></div><div class="tx">{e(t)}</div></div>'
-    for t, k in cfg["strips"])
+    f'<div class="st {s[1]}"><div class="ic"><svg viewBox="0 0 24 24">{ICON_ALT[s[2]] if len(s) > 2 else ICON[s[1]]}</svg></div><div class="tx">{e(s[0])}</div></div>'
+    for s in cfg["strips"])
 judges = "".join(
     f'<div class="jd" style="transform:rotate({a}deg)"><div class="fr"><img src="file://{e(p)}"></div><div class="nm">{e(n)}</div></div>'
     for (p, n), a in zip(cfg["judges"], (3, -3)))
@@ -35,18 +41,23 @@ page = f"""<!doctype html><html><head><meta charset="utf-8"><style>
 @font-face{{font-family:"Instrument Serif";font-style:normal;src:url({BRAND}/fonts/Instrument_Serif_jizBRFtNs2ka5fXjeivQ4LroWlx-6zUTjnTLgNs.woff2) format("woff2");}}
 @font-face{{font-family:"Instrument Serif";font-style:italic;src:url({BRAND}/fonts/Instrument_Serif_jizHRFtNs2ka5fXjeivQ4LroWlx-6zAjjH7Motmp5g.woff2) format("woff2");}}
 @font-face{{font-family:"Manrope";font-weight:200 800;src:url({BRAND}/fonts/Manrope_xn7gYHE41ni1AdIRggexSvfedN4.woff2) format("woff2");}}
+@font-face{{font-family:"Noto Serif Kannada";font-weight:400;src:url({BRAND}/fonts/Noto_Serif_Kannada_400.woff2) format("woff2");}}
+@font-face{{font-family:"Noto Serif Kannada";font-weight:700;src:url({BRAND}/fonts/Noto_Serif_Kannada_700.woff2) format("woff2");}}
+@font-face{{font-family:"Noto Sans Kannada";font-weight:400;src:url({BRAND}/fonts/Noto_Sans_Kannada_400.woff2) format("woff2");}}
+@font-face{{font-family:"Noto Sans Kannada";font-weight:700;src:url({BRAND}/fonts/Noto_Sans_Kannada_700.woff2) format("woff2");}}
 :root{{--cream:#f5f0e8;--paper:#fffcf6;--ink:#1f1e1d;--muted:#6b6660;--rule:#e0d7c6;--accent:#cc785c;--deep:#b3573f;--wash:#f5dfd0;
       --copper:linear-gradient(135deg,#de8a6a 0%,#d97757 38%,#b3573f 100%);}}
 *{{margin:0;padding:0;box-sizing:border-box;}}
-html,body{{width:1080px;height:1920px;overflow:hidden;background:var(--cream);font-family:Manrope,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased;}}
+html,body{{width:1080px;height:1920px;overflow:hidden;background:var(--cream);font-family:Manrope,"Noto Sans Kannada",sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased;}}
 body{{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0 70px 150px;}}   /* owner 26-10: everything in the middle (player bar / app UI cover the foot) */
 .top{{display:flex;justify-content:center;align-items:center;gap:22px;}}
 .top img.mk{{width:76px;height:76px;filter:drop-shadow(0 8px 16px rgba(120,60,30,.25));}}
 .top img.wm{{height:64px;}}
 .kick{{margin-top:30px;}}
 .kick span{{display:inline-block;background:var(--wash);color:var(--deep);font-weight:800;font-size:28px;letter-spacing:4px;padding:14px 30px;border-radius:40px;box-shadow:inset 0 0 0 2px rgba(179,87,63,.18);}}
-h1{{margin-top:24px;width:940px;text-align:center;font-family:"Instrument Serif",serif;font-weight:400;letter-spacing:-1px;}}
+h1{{margin-top:24px;width:940px;text-align:center;font-family:"Instrument Serif","Noto Serif Kannada",serif;font-weight:400;letter-spacing:-1px;}}
 h1 .l{{display:block;white-space:nowrap;line-height:1.02;}}
+h1.kn .l{{line-height:1.32;}} h1.kn .l2{{margin-top:6px;}}
 h1 .l1{{font-size:140px;}} h1 .l2{{font-size:112px;}}
 h1 em{{font-style:italic;color:var(--deep);}}
 .rule{{margin-top:24px;width:300px;height:6px;border-radius:3px;background:var(--copper);flex:none;}}
@@ -67,13 +78,13 @@ h1 em{{font-style:italic;color:var(--deep);}}
 .jd{{display:flex;flex-direction:column;align-items:center;gap:22px;}}
 .fr{{width:290px;height:366px;padding:13px;background:#fff;border-radius:6px;box-shadow:0 30px 64px rgba(60,40,25,.22),0 3px 8px rgba(60,40,25,.10);}}
 .fr img{{width:100%;height:100%;object-fit:cover;object-position:50% 18%;display:block;border-radius:2px;}}
-.nm{{font-family:"Instrument Serif",serif;font-size:44px;line-height:1;color:var(--ink);}}
+.nm{{font-family:"Instrument Serif","Noto Serif Kannada",serif;font-size:44px;line-height:1;color:var(--ink);}}
 .badge{{margin-top:40px;text-align:center;position:relative;z-index:3;}}
 .badge span{{display:inline-block;background:#1f1e1d;color:#e9a283;font-weight:800;font-size:34px;letter-spacing:4px;padding:20px 42px;border-radius:44px;box-shadow:0 18px 40px rgba(30,20,15,.25);}}
 </style></head><body>
 <div class="top"><img class="mk" src="{BRAND}/site_logo_mark.png"><img class="wm" src="{BRAND}/wordmark_ink.png"></div>
 <div class="kick"><span>{e(cfg.get("kicker", "JUDGMENT EXPLAINED"))}</span></div>
-<h1><span class="l l1">{e(cfg["head1"])}</span><span class="l l2">{head2()}</span></h1>
+<h1 class="{KN}"><span class="l l1">{e(cfg["head1"])}</span><span class="l l2">{head2()}</span></h1>
 <div class="rule"></div>
 <div class="strips">{strips}</div>
 {court}<div class="bench">{judges}</div>

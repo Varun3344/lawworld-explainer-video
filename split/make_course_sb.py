@@ -36,6 +36,11 @@ OUTFITS = {
     "levi": "a tailored warm chocolate-brown two-piece business suit, a cream formal shirt and a dark-green silk tie",  # judgment reel 28-10
     "khan": "a tailored mid-grey two-piece business suit, a crisp white formal shirt and a deep maroon silk tie",  # judgment reel 28-10
     "jain": "a tailored dark camel-tan two-piece business suit, a crisp white formal shirt and a navy-blue silk tie",  # judgment reel 28-10
+    "san": "a tailored deep navy pinstripe two-piece business suit, a crisp white formal shirt and a burgundy silk tie",  # judgment reel 28-10
+    "bis": "a tailored light-grey two-piece business suit, a pale-blue formal shirt and a navy-blue silk tie",  # judgment reel 28-10
+    "drk": "a tailored dark-brown two-piece business suit, a cream formal shirt and a dark-red silk tie",  # Kannada judgment reel 28-10
+    "ram": "a tailored steel-blue two-piece business suit, a crisp white formal shirt and a black silk tie",  # Kannada judgment reel 28-10
+    "arr": "a tailored dark navy herringbone two-piece business suit, a pale-blue formal shirt and a deep teal silk tie",  # BNSS arrest safeguards 28-10
 }
 OUTFIT = OUTFITS.get(SET) or sys.exit(f"[sb] no outfit for {SET}: add one to OUTFITS (every video its own suit)")
 
@@ -54,6 +59,11 @@ STYLE = {
     "realism": "Photorealistic live-action footage of a real human presenter recorded in one studio session against a plain ivory backdrop, NOT a furnished room. Soft, bright, even high-key light: a soft frontal key light on his face with soft fill, no harsh shadows, natural skin texture, natural eye contact straight into the lens and PERFECT LIP SYNC: his lips, jaw and mouth shapes match every syllable of the dialogue exactly, in time with the voice, no mouth movement without sound and no sound without mouth movement, identical exposure and white balance in every scene. TRUE-TO-LIFE BODY: natural adult proportions that match his face - broad shoulders, a solid average build that fills the jacket (not slim, not lanky), and SLENDER, NATURAL-SIZE HANDS: each hand no longer than his face, relaxed fingers held close together, never spread wide, hands never closer to the camera than his chest",
     "delivery": "FAST, HIGH-ENERGY delivery, like a top law educator on YouTube coaching advocates straight to camera: quick, punchy pace (about 160 words per minute) with no slow stretches, a strong confident voice, rising energy, crisp emphasis on key words, bright smile, lively eyes; CRISP, PRECISE DICTION: every word pronounced fully, clearly and correctly in neutral Indian English, every consonant clear, the letters of an acronym spoken one by one (B N S S); only a very brief breath at each full stop; speak the dialogue exactly once, word for word, never repeat, stretch or slow down a word, never add words",
 }
+if any("ಀ" <= ch <= "೿" for s in ALL["scenes"] for ch in s["dialogue"]):   # Kannada judgment reels (28-10-2026): voice lines
+    STYLE.update({                                                                       # from the approved Kannada office video (kn_office)
+        "voice": "@me verified avatar voice, speaking fluent natural Kannada with a clear Karnataka accent (identical pitch and tone in every clip)",
+        "audio": "@me verified avatar voice ONLY, speaking the dialogue in the Kannada language exactly as written, crisp, clear and high-energy, continuous speech filling the clip at a quick pace, NO background music, NO sound effects, NO silence at the start or end",
+        "delivery": "FAST, HIGH-ENERGY Kannada delivery, like a top legal educator coaching advocates in Karnataka straight to camera: quick, punchy pace, strong confident voice, crisp emphasis on key words, bright smile; clear pronunciation of every Kannada word, English legal terms (LawWorld, release deed, writ) said naturally as Karnataka advocates say them; speak the dialogue exactly once, word for word in Kannada, never translate it, never repeat, stretch or slow down a word, never add words"})
 VISUAL = ("The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides "
           "of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front "
           "of his chest, same position, size, outfit and framing in every clip, no text.")

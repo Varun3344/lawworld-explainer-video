@@ -4,6 +4,9 @@ Usage: python3 split/check_scenes.py <set>"""
 import json, os, re, sys
 S = json.load(open(f"split/{sys.argv[1]}_all_scenes.json"))["scenes"]
 def syl(w):
+    if re.search(r"[\u0C80-\u0CFF]", w):                       # Kannada: aksharas x 0.6 (approved KN reels: median 68 aksharas per 10 s line)
+        cons = len(re.findall(r"[\u0C95-\u0CB9\u0CDE]", w)); vir = len(re.findall(r"[\u0C95-\u0CB9]\u0CCD", w)); vow = len(re.findall(r"[\u0C85-\u0C94]", w))
+        return (cons - vir + vow) * 0.6
     w = re.sub(r"[^a-z]", "", w.lower())
     if not w: return 0
     if len(w) == 1: return 1                                     # spelled letters: B N S S
@@ -11,7 +14,7 @@ def syl(w):
     return max(1, n)
 bad = 0; tot_s = tot_w = 0
 for s in S:
-    d = s["dialogue"]; n = len(d.split()); sy = sum(syl(w) for w in d.split()); sec = s["seconds"]
+    d = s["dialogue"]; n = len(d.split()); sy = round(sum(syl(w) for w in d.split())); sec = s["seconds"]
     tot_s += sec; tot_w += n
     flags = []
     if n > 32: flags.append("WORDS>32")

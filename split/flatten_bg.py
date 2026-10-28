@@ -400,6 +400,8 @@ def chroma_range(Ml):
 # per-frame segmentation (log ratios to the reference backdrop colour; chroma_dist counts a cooler / more neutral change 1.6x)
 STRONG = (0.035, -0.20, 0.06)    # chroma <, log brightness > , <: unmistakable backdrop (the seeds)
 WEAK = (0.09, -0.75, 0.20)       # backdrop-coloured: soft shadows down to 0.47x, up to 1.22x the reference
+WEAK_DEFAULT = WEAK               # <clip dir>/flatten_opts.json {"weak_min": -0.35, "weak_chroma": 0.06} tightens the backdrop range for one set: a light-grey
+                                 # suit at 0.55-0.6x the wall (bis, 28-10-2026) fell inside 0.47x and was patched cream
 CORE_R = 3                       # an enclosed pocket is backdrop only around a 7x7 core at chroma res (14 px in the clip)
 SHADE_R = 1                      # shading box radius at 1/4 res (3x3 blocks: ~12 px in the clip)
 NEAR_SD, NEAR_MIN = 0.015, 0.92  # near the presenter S uses only smooth backdrop (ratio sd < 1.5 %) within 8 % of exposure
@@ -432,7 +434,9 @@ def analyze(path, info, mx, nsamp=24):
     sr = set_rows(Mq)                                                 # cornice / moulding rows at the top edge
     ref = np.median(Ml[: max(2, Ml.shape[0] // 8)].reshape(-1, 3), 0)   # top rows: (almost) always backdrop
     dc0, dl0 = logratio(Ml, np.log(np.maximum(ref, 1.0)))
-    F = np.exp(polyfit_robust(np.log(np.maximum(Ml, 1.0)), tukey(dc0, 0.15) * ((dl0 > -0.6) & (dl0 < 0.2)) * (gate(Ml, g) > 0.5)))
+    # the wall fit uses the same shadow floor as the segmentation (flatten_opts weak_min): with -0.6 a still presenter's light-grey
+    # suit (0.55-0.65x the wall) entered the fit and the plate, and was flattened as wall (bis c05/c09/c10, 28-10-2026)
+    F = np.exp(polyfit_robust(np.log(np.maximum(Ml, 1.0)), tukey(dc0, 0.15) * ((dl0 > max(-0.6, WEAK[1])) & (dl0 < 0.2)) * (gate(Ml, g) > 0.5)))
     bd = classify_backdrop(Mq, np.log(resize(F, Mq.shape[0], Mq.shape[1])), g, sr)   # the median's backdrop: sanity check, QA
     if bd.mean() < 0.05: raise SystemExit(f"[flatten] {path}: no plain backdrop found ({100 * bd.mean():.1f} % of the frame)")
     # clean plate: each sample segmented against the smooth fit (the median itself in set rows at the top edge), 2 px clear of
@@ -492,7 +496,7 @@ def frame_terms(rgbh, logPk, P, g, kc):
     backdrop relative to the plate (exposure, soft shadows of arm and body, revealed backdrop), a normalised box over the
     backdrop 1 px clear of the presenter; the gain is G = target / (plate * S)"""
     bm, dc, dl, gt = segment(rgbh, logPk, g); bmf = bm.astype(np.float32)
-    soft = (1 - smoothstep(0.05, WEAK[0], dc)) * smoothstep(WEAK[1], -0.55, dl) * (1 - smoothstep(0.12, WEAK[2], dl)) * gt
+    soft = (1 - smoothstep(0.05, WEAK[0], dc)) * smoothstep(WEAK[1], WEAK[1] + 0.20, dl) * (1 - smoothstep(0.12, WEAK[2], dl)) * gt
     ms = min3(bmf)                                                    # backdrop 1 px clear of the presenter
     wt = box3(box3(max3(np.maximum(ms, soft * max3(bmf)))))           # mixed edge pixels: their colour's partial weight
     # S: normalised box of frame / plate over the backdrop (1/4 res block means). Within 16 px of the presenter only smooth
@@ -708,8 +712,13 @@ def main():
                     "the correction itself does not depend on it")
     a = ap.parse_args(); lay = Layout(a.seam)
     tgt = tuple(float(v) for v in a.target_yuv.split(",")) if a.target_yuv else TARGET_YUV
+    global WEAK
     for c in a.clips:
         t0 = time.time(); info = probe(c)
+        op = os.path.join(os.path.dirname(os.path.abspath(c)), "flatten_opts.json")
+        o = json.load(open(op)) if os.path.exists(op) else {}
+        WEAK = (float(o.get("weak_chroma", WEAK_DEFAULT[0])), float(o.get("weak_min", WEAK_DEFAULT[1])), WEAK_DEFAULT[2])
+        if WEAK != WEAK_DEFAULT: print(f"[flatten] {os.path.basename(c)}: shadow floor {float(np.exp(WEAK[1])):.2f}x the wall ({op})")
         if info["w"] % 2 or info["h"] % 2: raise SystemExit(f"[flatten] {c}: odd frame size {info['w']}x{info['h']}")
         mx = Matrix(info["tags"].get("color_space"), info["tags"].get("color_range"))
         T = Matrix(info["tags"].get("color_space"), "tv").to_rgb(np.float32(tgt[0]), np.float32(tgt[1]), np.float32(tgt[2]))   # target is limited-range
