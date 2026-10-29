@@ -1,0 +1,36 @@
+// V. Gopalakrishanan v. The State of Kerala, 2026 INSC 1172, Criminal Appeal No. 5399 of 2025 (Sanjay Kumar J., Sanjeev Sachdeva J. -
+// Sachdeva J. wrote it), decided 28.10.2026, REPORTABLE. Concept-format judgment reel (9:16, ~96 s), as sets nkp / rcc.
+// Source: sci.gov.in PDF, pdfplumber text (scratchpad finder2/SC_2026INSC1172_Gopalakrishnan_v_Kerala.txt, 19 pages, paras 1-30,
+// read in full).
+// Facts used: Trial Court (Special Judge) 27.08.2009, C.C. No. 40 of 2005: guilty under s.13(2) r/w s.13(1)(e) PC Act 1988, 2 years
+// RI + Rs 5,50,000 fine; High Court 29.01.2025 in Crl.A. No. 1937 of 2009: conviction confirmed, sentence reduced to 1 year RI + Rs
+// 2,00,000 fine (delay, age, trauma) (1); LDC 13.05.1971, Sub Registrar 22.09.1993; check period 01.01.1993 to 16.01.2001 (2); FIR
+// 15.01.2001; VACB Special Cell, Thiruvananthapuram; 45 PWs, 130 exhibits (3); assets acquired Rs 10,43,822, likely savings Rs 5,18,693,
+// DA Rs 5,25,129 = 51.88% of the income of the appellant and his family, "much beyond the 10% threshold" of Krishnanand Agnihotri,
+// which is no "hard and fast rule" (6); household expense index of PW33 (8); his pleas: all estimation, "agricultural family" criteria,
+// non-verifiable expenses (9); building: PWD 1996 rates Rs 8,59,153 vs his Rs 6,69,000, i.e. Rs 1,90,153 in excess (10); household Rs
+// 1,968.96 vs Rs 1,200 a month, Rs 67,200 (11); Ex. P58 only a notebook with sporadic entries, not kept in the ordinary course of
+// business, entries not substantiated (13); even on a demurrer: Rs 3,34,976 (> 33%) (14); with the household plea too Rs 2,67,776
+// (> 26%) (15, 29); chit fund, rent, wife's returns, salary/GPF pleas: no material (17, 18).
+// Held: the prosecution first proves the known sources of income and the disproportion; then the burden shifts to the accused (19,
+// 22, 23); undisclosed sources lie in the public servant's special knowledge, s.109 BSA (s.106 Evidence Act) (24, 25); no "open-
+// ended, limitless, or roving enquiry"; no inquiry needed into sources "never disclosed" (26-28); failure to explain: adverse
+// inference (28); "Looked at from any angle" no satisfactory explanation (29); appeal dismissed, interim bail of 28.03.2025 vacated,
+// two weeks to surrender before the Trial Court to undergo the remaining sentence (30).
+// Not in the judgment, so never said: the name of the High Court (the judgment says only "the High Court"); any bribe or specific act.
+// Flow policy: the appellant is never named in speech (the title is on the cite card only); "the appellant" / "a Sub Registrar".
+# 1 · WHO MUST EXPLAIN?
+10 | Hi, I am Ravishankar from LawWorld. In a disproportionate assets case, who must explain the excess: the prosecution, or the public servant?
+10 | On twenty eighth October, a two-judge Supreme Court bench of Honourable Justice Sanjay Kumar and Honourable Justice Sanjeev Sachdeva ruled. || On 28 October, a two-judge Supreme Court bench of Honourable Justice Sanjay Kumar and Honourable Justice Sanjeev Sachdeva ruled.
+# 2 · THE CHECK PERIOD
+10 | The appellant became a Sub Registrar in nineteen ninety three. The check period ran from January that year to January two thousand one. || The appellant became a Sub Registrar in 1993. The check period ran from January that year to January 2001.
+10 | The prosecution proved assets beyond likely savings of over five lakh twenty five thousand rupees: over fifty one percent of the family's income. || The prosecution proved assets beyond likely savings of over ₹5.25 lakh: over 51% of the family's income.
+10 | The trial court convicted the appellant in two thousand nine. In twenty twenty five, the High Court upheld the conviction, but cut the sentence to one year. || The trial court convicted the appellant in 2009. In 2025, the High Court upheld the conviction, but cut the sentence to one year.
+# 3 · HIS PLEAS
+10 | The appellant argued the case rested on estimates: household costs taken for an agricultural family, and his building valued too high.
+10 | His cost notebook was no account kept in the ordinary course of business. And even on his own figures, the excess stays above twenty six percent. || His cost notebook was no account kept in the ordinary course of business. And even on his own figures, the excess stays above 26%.
+# 4 · WHAT THE COURT HELD
+10 | The Court held: once the prosecution proves known income and the disproportion, the burden shifts to the accused. Undisclosed sources lie in his special knowledge.
+# 5 · THE VERDICT
+10 | Investigators need not chase every source an accused may claim later. The appeal was dismissed, and the appellant must surrender within two weeks.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple.

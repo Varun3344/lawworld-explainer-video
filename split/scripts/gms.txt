@@ -1,0 +1,31 @@
+// Greenmount Spices Pvt. Ltd. v. Wipro Enterprises Pvt. Ltd., F.A.O. No. 95 of 2026, 2026:KER:82024, High Court of Kerala (C.S. Dias J.,
+// single bench), heard for admission 23.10.2026, judgment 27.10.2026, marked "C.R"; appeal against the order of 10.04.2026 in I.A. 4/2024
+// in O.S. No. 22 of 2024 of the II Additional District Court, Ernakulam. Concept-format judgment reel (as ele).
+// Source: scratchpad finder2/Kerala_FAO_95_2026_Greenmount_v_Wipro.txt (indiankanoon text of the judgment, 27 pages, read in full).
+// Facts used: suit to restrain the appellant from using the respondent's mark or any deceptively similar mark; temporary injunction
+// granted as prayed for; appeal (para 1). Appellant: its trade mark is 'Greenmount', the rest of its product name is used only
+// descriptively; Section 30(2)(a); use since 2011; co-existence without confusion (paras 3, 10). Respondent: acquired the group business
+// with trade mark and goodwill in 2023; 29 registrations; thirteen classes (paras 4, 6, 10). Held: Section 30(2)(a) "does not confer an
+// unrestricted licence to use a registered expression merely because the user characterises it as descriptive"; context: prominence,
+// placement, relative size, other distinctive features; "can only be decided after a full-fledged trial" (para 11). Prima facie: launch
+// in 1987 (Ext. A1); appellant's own case: its use began only in 2011; the mark 'Greenmount' "does not, by itself, answer the question
+// of infringement"; average consumer, product as a whole; peaceful co-existence does not, by itself, settle it (para 12). Interim test,
+// no mini-trial (Shruti Manav Sharma, para 14); Midas Hygiene; prima facie case and balance of convenience for the respondent; findings
+// "tentative"; no arbitrariness or perversity; appeal dismissed; trial court to decide "untrammelled" by any observation (para 15).
+// Sensitivity: the brand word is spoken once, only as the name of the business/mark (c03); no word on any community or cuisine.
+// Interim only: nothing here states infringement as a final finding ("prima facie", "tentative", "for trial").
+# 1 · JUST DESCRIPTIVE?
+10 | Hi, I am Ravishankar from LawWorld. Can a rival use a registered trademark on its label just by calling it descriptive? And does its own house mark save it?
+10 | On twenty seventh October, twenty twenty six, the Kerala High Court, through a single bench of Honourable Justice C S Dias, answered both questions. || On 27 October 2026, the Kerala High Court, through a single bench of Honourable Justice C.S. Dias, answered both questions.
+# 2 · THE DISPUTE
+10 | Wipro's case: in twenty twenty three, it acquired the Brahmins group business with its trademark and goodwill and holds twenty nine trademark registrations. || Wipro's case: in 2023, it acquired the Brahmins group business with its trademark and goodwill and holds 29 trademark registrations.
+10 | It sued Greenmount, whose sambar powder carries that word in its name. The district court at Ernakulam granted a temporary injunction, and Greenmount appealed.
+# 3 · THE DEFENCE
+10 | Greenmount's defence: its trademark is Greenmount, and the other words merely describe the product, a use protected by Section Thirty, sub section Two, clause A. || Greenmount's defence: its trademark is Greenmount, and the other words merely describe the product, a use protected by Section 30(2)(a).
+# 4 · WHAT THE COURT HELD
+10 | The Court held this clause is not an unrestricted licence to use a registered mark just by calling it descriptive. Context decides: prominence, placement, size.
+10 | Greenmount's house mark does not, by itself, answer infringement, nor does peaceful co-existence. What counts is how the average consumer sees the mark and the whole product.
+10 | Those are questions for trial. Prima facie, though, the brand dates from nineteen eighty seven, and on Greenmount's own case, its use began only in twenty eleven. || Those are questions for trial. Prima facie, though, the brand dates from 1987, and on Greenmount's own case, its use began only in 2011.
+# 5 · THE RESULT
+10 | Seeing no perversity, the Court dismissed the appeal, and the injunction stands. The findings are tentative: the trial court must decide the suit uninfluenced by them.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple.

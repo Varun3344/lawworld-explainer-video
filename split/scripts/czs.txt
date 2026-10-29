@@ -1,0 +1,33 @@
+// Carl Zeiss India Pvt. Ltd. v. State of Karnataka (rep. by the Labour Inspector, Anekal Circle), Criminal Petition No. 847 of 2025,
+// 2026:KHC:54744, High Court of Karnataka at Bengaluru (Suraj Govindaraj J., single bench), ORAL ORDER of 01.10.2026, REPORTABLE ("®"
+// on page 1; on the court's Reportable list). KANNADA concept-format judgment reel (9:16, ~96 s).
+// Source: scratchpad finder2/KHC_CRLP_847_2025_CarlZeiss.txt (read in full). Every Kannada line hand-written from the judgment.
+// Facts used: inspection by the respondent Labour Inspector at the petitioner's premises (Bommasandra Industrial Area) on 14.11.2022,
+// violations "found" of Rules 72, 73, 74, 81(3), 25(v), Contract Labour (Regulation and Abolition) Act, 1970 r/w the Karnataka Rules,
+// 1974 (cover page, 2); observation note the same day, show-cause notice 23.11.2022, complaint 28.02.2023 = C.C. No. 767/2023, on the
+// footing that no reply was received (3, 5); cognisance order 28.02.2023, IV Addl. Civil Judge & JMFC, Anekal, Section 24 CLRA (1(b));
+// petitioner: three months under Section 27 run from the inspection; a show-cause notice is not an order, so the proviso does not apply;
+// reply of 06.12.2022 with complied registers and forms (4.1-4.4); HCGP: the proviso; time given to reply (natural justice); complaint
+// within three months of that time (5); question (7); Section 27 (8).
+// Held: three months from the date the alleged offence came to the Inspector's knowledge (9) = the inspection, 14.11.2022 (10); the
+// six-month proviso only where the offence consists of disobeying a written order of the Inspector (11-12); a show-cause notice merely
+// calls for an explanation, it is not such an order (13-14); neither the notice nor the reply postpones or restarts limitation (16, 18);
+// complaint of 28.02.2023 beyond three months, the Magistrate could not have taken cognisance (17-18); petition allowed; complaint,
+// cognisance order and the entire proceedings in C.C. 767/2023, insofar as the petitioner is concerned, quashed (19).
+// NOT used: Ben Salmon (para 4.2, 15) - its printed date and statute are doubtful; J.U. Prabhu (quoted inside Ben Salmon).
+// Flow policy: the company is named once, in a neutral sentence (c03); "offence" words stay out of that sentence; the State never "admitted".
+# 1 · ಕಾಲಮಿತಿ ಎಂದಿನಿಂದ?
+10 | ನಮಸ್ಕಾರ, ನಾನು LawWorld ನಿಂದ ರವಿಶಂಕರ್. ಗುತ್ತಿಗೆ ಕಾರ್ಮಿಕ ಕಾಯ್ದೆಯಡಿ ದೂರು ಸಲ್ಲಿಸಲು ಇರುವ ಮೂರು ತಿಂಗಳ ಕಾಲಮಿತಿ ಎಣಿಸುವುದು ತಪಾಸಣೆಯ ದಿನದಿಂದಲೋ, ಶೋಕಾಸ್ ನೋಟಿಸ್‌ನ ದಿನದಿಂದಲೋ?
+10 | ಎರಡು ಸಾವಿರದ ಇಪ್ಪತ್ತಾರರ ಅಕ್ಟೋಬರ್ ಒಂದರಂದು, ಕರ್ನಾಟಕ ಹೈಕೋರ್ಟ್‌ನ ಗೌರವಾನ್ವಿತ ನ್ಯಾಯಮೂರ್ತಿ ಸೂರಜ್ ಗೋವಿಂದರಾಜ್ ಅವರ ಏಕಸದಸ್ಯ ಪೀಠ ಈ ಪ್ರಕರಣದಲ್ಲಿ ತೀರ್ಪು ನೀಡಿತು. || 2026ರ ಅಕ್ಟೋಬರ್ 1ರಂದು, ಕರ್ನಾಟಕ ಹೈಕೋರ್ಟ್‌ನ ಗೌರವಾನ್ವಿತ ನ್ಯಾಯಮೂರ್ತಿ ಸೂರಜ್ ಗೋವಿಂದರಾಜ್ ಅವರ ಏಕಸದಸ್ಯ ಪೀಠ ಈ ಪ್ರಕರಣದಲ್ಲಿ ತೀರ್ಪು ನೀಡಿತು.
+# 2 · ತಪಾಸಣೆ ಮತ್ತು ದೂರು
+10 | ಎರಡು ಸಾವಿರದ ಇಪ್ಪತ್ತೆರಡರ ನವೆಂಬರ್ ಹದಿನಾಲ್ಕರಂದು, ಆನೇಕಲ್‌ನ ಕಾರ್ಮಿಕ ನಿರೀಕ್ಷಕರು ಗುತ್ತಿಗೆ ಕಾರ್ಮಿಕ ಕಾಯ್ದೆಯಡಿ, ಕಾರ್ಲ್ ಜೈಸ್ ಇಂಡಿಯಾ ಕಂಪನಿಯ ಆವರಣದಲ್ಲಿ ತಪಾಸಣೆ ನಡೆಸಿದರು. || 2022ರ ನವೆಂಬರ್ 14ರಂದು, ಆನೇಕಲ್‌ನ ಕಾರ್ಮಿಕ ನಿರೀಕ್ಷಕರು ಗುತ್ತಿಗೆ ಕಾರ್ಮಿಕ ಕಾಯ್ದೆಯಡಿ, ಕಾರ್ಲ್ ಜೈಸ್ ಇಂಡಿಯಾ ಕಂಪನಿಯ ಆವರಣದಲ್ಲಿ ತಪಾಸಣೆ ನಡೆಸಿದರು.
+10 | ಅದೇ ದಿನ ಉಲ್ಲಂಘನೆಗಳ ಟಿಪ್ಪಣಿ ನೀಡಿ, ನವೆಂಬರ್ ಇಪ್ಪತ್ತಮೂರರಂದು ಶೋಕಾಸ್ ನೋಟಿಸ್ ನೀಡಿದರು. ಉತ್ತರ ಬಂದಿಲ್ಲ ಎಂದು ಫೆಬ್ರವರಿ ಇಪ್ಪತ್ತೆಂಟರಂದು ದೂರು ದಾಖಲಾಗಿ, ಮ್ಯಾಜಿಸ್ಟ್ರೇಟ್ ಕಾಗ್ನಿಜೆನ್ಸ್ ತೆಗೆದುಕೊಂಡರು. || ಅದೇ ದಿನ ಉಲ್ಲಂಘನೆಗಳ ಟಿಪ್ಪಣಿ ನೀಡಿ, ನವೆಂಬರ್ 23ರಂದು ಶೋಕಾಸ್ ನೋಟಿಸ್ ನೀಡಿದರು. ಉತ್ತರ ಬಂದಿಲ್ಲ ಎಂದು ಫೆಬ್ರವರಿ 28ರಂದು ದೂರು ದಾಖಲಾಗಿ, ಮ್ಯಾಜಿಸ್ಟ್ರೇಟ್ ಕಾಗ್ನಿಜೆನ್ಸ್ ತೆಗೆದುಕೊಂಡರು.
+# 3 · ಎರಡೂ ಕಡೆಯ ವಾದ
+10 | ಕಂಪನಿಯ ವಾದ: ಕಾಲಮಿತಿ ತಪಾಸಣೆಯ ದಿನದಿಂದಲೇ, ಶೋಕಾಸ್ ನೋಟಿಸ್ ಆದೇಶ ಅಲ್ಲ. ಸರ್ಕಾರದ ವಾದ: ಪ್ರೊವಿಸೊ ಅನ್ವಯಿಸುತ್ತದೆ; ಉತ್ತರಕ್ಕೆ ಕೊಟ್ಟ ಸಮಯದಿಂದ ಮೂರು ತಿಂಗಳೊಳಗೆ ದೂರು ಸಲ್ಲಿಸಲಾಗಿದೆ.
+# 4 · ಹೈಕೋರ್ಟ್ ತೀರ್ಮಾನ
+10 | ಹೈಕೋರ್ಟ್ ಪ್ರಕಾರ, ಸೆಕ್ಷನ್ ಇಪ್ಪತ್ತೇಳರಡಿ ಮೂರು ತಿಂಗಳನ್ನು, ಆಪಾದಿತ ಉಲ್ಲಂಘನೆ ನಿರೀಕ್ಷಕರ ಗಮನಕ್ಕೆ ಬಂದ ದಿನದಿಂದ ಎಣಿಸಬೇಕು. ಇಲ್ಲಿ ಅದು ತಪಾಸಣೆಯ ದಿನ, ನವೆಂಬರ್ ಹದಿನಾಲ್ಕು. || ಹೈಕೋರ್ಟ್ ಪ್ರಕಾರ, ಸೆಕ್ಷನ್ 27ರಡಿ ಮೂರು ತಿಂಗಳನ್ನು, ಆಪಾದಿತ ಉಲ್ಲಂಘನೆ ನಿರೀಕ್ಷಕರ ಗಮನಕ್ಕೆ ಬಂದ ದಿನದಿಂದ ಎಣಿಸಬೇಕು. ಇಲ್ಲಿ ಅದು ತಪಾಸಣೆಯ ದಿನ, ನವೆಂಬರ್ 14.
+10 | ಪ್ರೊವಿಸೊದ ಆರು ತಿಂಗಳು ಸಿಗುವುದು, ನಿರೀಕ್ಷಕರ ಲಿಖಿತ ಆದೇಶ ಪಾಲಿಸದಿದ್ದಾಗ ಮಾತ್ರ. ಶೋಕಾಸ್ ನೋಟಿಸ್, ಏಕೆ ಕ್ರಮ ಕೈಗೊಳ್ಳಬಾರದು ಎಂದು ವಿವರಣೆ ಕೇಳುತ್ತದೆ ಅಷ್ಟೇ; ಅದು ಲಿಖಿತ ಆದೇಶ ಅಲ್ಲ.
+10 | ನೋಟಿಸ್‌ನಿಂದ ಕಾಲಮಿತಿಯ ಆರಂಭ ಮುಂದೂಡಿಕೆ ಆಗುವುದಿಲ್ಲ, ಉತ್ತರದಿಂದ ಹೊಸ ಕಾಲಮಿತಿ ಶುರುವಾಗುವುದಿಲ್ಲ. ತಪಾಸಣೆಯಿಂದ ಎಣಿಸಿದರೆ, ಫೆಬ್ರವರಿ ಇಪ್ಪತ್ತೆಂಟರ ದೂರು ಮೂರು ತಿಂಗಳು ಮೀರಿದೆ. || ನೋಟಿಸ್‌ನಿಂದ ಕಾಲಮಿತಿಯ ಆರಂಭ ಮುಂದೂಡಿಕೆ ಆಗುವುದಿಲ್ಲ, ಉತ್ತರದಿಂದ ಹೊಸ ಕಾಲಮಿತಿ ಶುರುವಾಗುವುದಿಲ್ಲ. ತಪಾಸಣೆಯಿಂದ ಎಣಿಸಿದರೆ, ಫೆಬ್ರವರಿ 28ರ ದೂರು ಮೂರು ತಿಂಗಳು ಮೀರಿದೆ.
+# 5 · ಆದೇಶ
+10 | ಹಾಗಾಗಿ ಮ್ಯಾಜಿಸ್ಟ್ರೇಟ್ ಕಾಗ್ನಿಜೆನ್ಸ್ ತೆಗೆದುಕೊಳ್ಳುವಂತಿರಲಿಲ್ಲ. ಹೈಕೋರ್ಟ್ ಕ್ರಿಮಿನಲ್ ಅರ್ಜಿ ಪುರಸ್ಕರಿಸಿ, ದೂರು, ಕಾಗ್ನಿಜೆನ್ಸ್ ಆದೇಶ ಮತ್ತು ಕಂಪನಿಯ ವಿರುದ್ಧದ ಸಂಪೂರ್ಣ ಪ್ರಕರಣವನ್ನು ರದ್ದುಗೊಳಿಸಿತು.
+6 | ನೋಡಿದ್ದಕ್ಕೆ ಧನ್ಯವಾದಗಳು! ಲೈಕ್, ಶೇರ್ ಮತ್ತು ಸಬ್‌ಸ್ಕ್ರೈಬ್ ಮಾಡಿ, ತೀರ್ಪುಗಳನ್ನು ಸರಳವಾಗಿ ತಿಳಿಯಲು LawWorld ಫಾಲೋ ಮಾಡಿ.

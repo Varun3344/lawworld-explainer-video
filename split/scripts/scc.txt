@@ -1,0 +1,31 @@
+// M/s Siddhivinayak Coal Carriers Pvt. Ltd. v. Coal India Ltd. & Ors., with M/s Maa Pitambara Coal Carriers Pvt. Ltd. v. Coal India Ltd.
+// & Ors., FAO(OS) (COMM) 248/2026 and 249/2026, High Court of Delhi (Division Bench: Dinesh Mehta J.; Dr. Aditi Choudhary J., author),
+// decided 06.10.2026, marked REPORTABLE. Concept-format judgment reel (9:16, ~96 s), as sets pan / ara / krm.
+// Source: scratchpad finder2/Delhi_FAOOSCOMM_248_2026_Siddhivinayak_v_Coal_India.txt (8 pages, read in full).
+// Facts used: appellants in the business of transportation of coal "in coordination with the Directorate General of Resettlement since
+// 2018"; in 2023 disputes with the respondents "qua certain amounts deducted by the respondents"; summary suits CS(COMM) 711/2026 and
+// 709/2026 under Order XXXVII CPC (2); Single Judge, 08.07.2026: "the parameters of Order XXXVII of the CPC were not met", suits
+// converted into regular suits (3); appeals under s.13 Commercial Courts Act, 2015 (4); 16.09.2026 time granted on request of the
+// appellants' counsel to satisfy the Court on maintainability; 28.09.2026 none appeared, adjourned; 06.10.2026 none appeared (5).
+// Issue: proviso to s.13(1A): appeal lies from orders "specifically enumerated under Order XLIII" CPC and s.37 Arbitration Act (6, 7).
+// Law: HPL (India) Ltd. v. QRG Enterprises, 2017 SCC OnLine Del 6955 (Coordinate Bench): "this restricts the appealable orders to only
+// those orders which are specifically enumerated in Order XLIII" (8); affirmed in Kandla Export Corporation v. OCI Corporation, (2018)
+// 14 SCC 715: "orders that are not specifically enumerated under Order 43 CPC would, therefore, not be appealable" (9, 10).
+// Held: "On perusal of Order XLIII of the CPC, we find that no appeal has been provided against such orders" (11); appeals not
+// maintainable (12); dismissed as not maintainable, pending applications disposed of as infructuous (13). The judgment does not say
+// what the right remedy is; nothing is said about it here. No contested hearing: nobody appeared for the appellants on the last two dates.
+# 1 · CAN YOU APPEAL?
+10 | Hi, I am Ravishankar from LawWorld. A judge converts your summary suit into a regular suit. Can you appeal that order under the Commercial Courts Act?
+10 | On sixth October, a Delhi High Court Division Bench of Honourable Justice Dinesh Mehta and Honourable Doctor Justice Aditi Choudhary ruled. || On 6 October, a Delhi High Court Division Bench of Honourable Justice Dinesh Mehta and Honourable Dr. Justice Aditi Choudhary ruled.
+# 2 · THE SUITS
+10 | Two coal transport firms, working with the Directorate General of Resettlement since twenty eighteen, disputed amounts deducted by Coal India and others. || Two coal transport firms, working with the Directorate General of Resettlement since 2018, disputed amounts deducted by Coal India and others.
+10 | They filed summary suits under Order Thirty Seven. In July, the Single Judge held its parameters were not met, and converted them into regular suits. || They filed summary suits under Order XXXVII. In July, the Single Judge held its parameters were not met, and converted them into regular suits.
+# 3 · IS AN APPEAL MAINTAINABLE?
+10 | They appealed under Section Thirteen of the Commercial Courts Act. Their counsel sought time on maintainability, but on the next two dates, no one appeared for them. || They appealed under Section 13 of the Commercial Courts Act. Their counsel sought time on maintainability, but on the next two dates, no one appeared for them.
+10 | The proviso to Section Thirteen One A says an appeal lies from orders listed in Order Forty Three, and Section Thirty Seven of the Arbitration Act. || The proviso to Section 13(1A) says an appeal lies from orders listed in Order XLIII, and Section 37 of the Arbitration Act.
+# 4 · THE BINDING LAW
+10 | In twenty seventeen, a coordinate bench held this restricts the appealable orders to only those specifically enumerated in Order Forty Three. || In 2017, a coordinate bench held this restricts the appealable orders to only those specifically enumerated in Order XLIII.
+10 | The Supreme Court affirmed this view in Kandla Export: orders not specifically enumerated under Order Forty Three are not appealable. || The Supreme Court affirmed this view in Kandla Export: orders not specifically enumerated under Order XLIII are not appealable.
+# 5 · THE VERDICT
+10 | Order Forty Three provides no appeal against converting a summary suit into a regular suit. So both appeals were dismissed as not maintainable. || Order XLIII provides no appeal against converting a summary suit into a regular suit. So both appeals were dismissed as not maintainable.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple.

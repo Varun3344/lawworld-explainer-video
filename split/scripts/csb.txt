@@ -1,0 +1,35 @@
+// Chetan Sabharwal v. Assistant Commissioner of Income Tax, Circle 28(1), New Delhi, 2026 INSC 1163, Civil Appeal No. 13953 of 2026
+// (@ SLP(C) No. 20045 of 2019) with C.A. Nos. 13954-13956 of 2026 (J.B. Pardiwala J., author; K. Vinod Chandran J.), decided
+// 28.10.2026, REPORTABLE. Concept-format judgment reel (9:16, ~96 s), as sets pan / nkp.
+// Source: scratchpad finder2/SC_2026INSC1163_ChetanSabharwal_v_ACIT.txt (54 pages; facts, issue, paras 25-58 read in full).
+// Facts used: the appellant, his brother (connected matters) and two other shareholders, SPAs of 19.10.2007 with the buyer company
+// for shares of company no. 1 (Rs 195 crore) and company no. 2 (Rs 60 crore), 1/4th each (3); ITR AY 2008-09, 25.09.2008, loss
+// Rs 90.37 lakh, Rs 37.64 crore as sundry credit (4); Rs 28 crore + Rs 3.915 crore in a Capital Gain Savings Account, 25.09.2009,
+// s.54F(4) (6); 21.04.2010: the two jointly bought an undivided 1/2 share in a Delhi residential property out of the gains, s.54F (7);
+// s.142(1) notice 06.08.2010, s.133(6) notices 13.12.2010 (8, 9); s.143(3) assessment 22.12.2010 accepted the returned income (10);
+// after it, the Investigation Unit, Noida (DGIT (Inv.), Lucknow) report: shares prima facie overvalued against the cost of land and
+// building, and the sale proceeds the major source of the Sikandara Road purchase (11); s.148 notice 31.03.2015 "after a gap of 4
+// years" (12); objections rejected 24.09.2015; W.P.(C) 10898/2015 dismissed by the Delhi High Court on 06.08.2019 (2, 13).
+// Assessees: overvaluation cannot mean escapement in the seller's hands; fully disclosed and examined; mere change of opinion (16-19).
+// Held: ss.147/148 "as it stood on 31.03.2015" (26, 27); "reason to believe" means cause or justification, tangible material with a
+// live link to the belief; sufficiency "not a justiciable issue" (41, 57(i)); change of opinion presupposes an opinion formed in the
+// original assessment (46, 57(i)); the report was fresh material after 22.12.2010 (51, 57(ii)); the reasons go beyond valuation to the
+// gains and the s.54F claim (52); AY 2008-09 order "a bare acceptance of the returned income as it is" (55); the brother's returns:
+// only a s.143(1) intimation, no assessment, no opinion (53); notice valid, no change of opinion (56, 57); appeals dismissed (58).
+// Flow policy: no name in speech ("two brothers", "one brother"); no fraud / evasion word; the overvaluation stays the report's prima
+// facie view. Names appear only on the cite card.
+# 1 · CHANGE OF OPINION?
+10 | Hi, I am Ravishankar from LawWorld. Your client's return was accepted. Years later, can the tax officer reopen it, or is that a mere change of opinion?
+10 | On twenty eighth October, a Supreme Court bench of Honourable Justice J B Pardiwala and Honourable Justice K Vinod Chandran ruled. || On 28 October, a Supreme Court bench of Honourable Justice J.B. Pardiwala and Honourable Justice K. Vinod Chandran ruled.
+# 2 · THE SHARE SALE
+10 | In two thousand seven, two brothers and two other shareholders agreed to sell shares of two companies, for one hundred ninety five crore and sixty crore rupees. || In 2007, two brothers and two other shareholders agreed to sell shares of two companies, for ₹195 crore and ₹60 crore.
+10 | The brothers used the gains to buy a half share in a Delhi property, claiming Section Fifty Four F. In December twenty ten, one brother's return was accepted. || The brothers used the gains to buy a half share in a Delhi property, claiming Section 54F. In December 2010, one brother's return was accepted.
+# 3 · REOPENED
+10 | Later, a tax investigation report found the shares prima facie overvalued. Then, in March twenty fifteen, reopening notices were issued. || Later, a tax investigation report found the shares prima facie overvalued. Then, in March 2015, reopening notices were issued.
+10 | The brothers argued: overvalued shares cannot mean escaped income for a seller, and reopening on the same disclosed sale is a mere change of opinion.
+# 4 · WHAT THE COURT HELD
+10 | The Court held: reason to believe means cause or justification, tangible material with a live link to the belief. Sufficiency is not for the courts. || The Court held: "reason to believe" means cause or justification, tangible material with a live link to the belief. Sufficiency is not for the courts.
+10 | A change of opinion needs an opinion first formed. Here, one brother's assessment was a bare acceptance of his return; the other got only an intimation.
+# 5 · THE VERDICT
+10 | Coming after the assessment, the report was fresh material. Under the law as it stood in twenty fifteen, the notices were valid. The appeals were dismissed. || Coming after the assessment, the report was fresh material. Under the law as it stood in 2015, the notices were valid. The appeals were dismissed.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple.

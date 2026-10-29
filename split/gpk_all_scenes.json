@@ -1,0 +1,67 @@
+{
+ "projectTitle": "LawWorld_gpk",
+ "title": "Who must explain the assets?",
+ "source": "split/scripts/gpk.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. In a disproportionate assets case, who must explain the excess: the prosecution, or the public servant?",
+   "chip": "1 · WHO MUST EXPLAIN?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "On twenty eighth October, a two-judge Supreme Court bench of Honourable Justice Sanjay Kumar and Honourable Justice Sanjeev Sachdeva ruled.",
+   "shown": "On 28 October, a two-judge Supreme Court bench of Honourable Justice Sanjay Kumar and Honourable Justice Sanjeev Sachdeva ruled."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "The appellant became a Sub Registrar in nineteen ninety three. The check period ran from January that year to January two thousand one.",
+   "shown": "The appellant became a Sub Registrar in 1993. The check period ran from January that year to January 2001.",
+   "chip": "2 · THE CHECK PERIOD"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "The prosecution proved assets beyond likely savings of over five lakh twenty five thousand rupees: over fifty one percent of the family's income.",
+   "shown": "The prosecution proved assets beyond likely savings of over ₹5.25 lakh: over 51% of the family's income."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "The trial court convicted the appellant in two thousand nine. In twenty twenty five, the High Court upheld the conviction, but cut the sentence to one year.",
+   "shown": "The trial court convicted the appellant in 2009. In 2025, the High Court upheld the conviction, but cut the sentence to one year."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The appellant argued the case rested on estimates: household costs taken for an agricultural family, and his building valued too high.",
+   "chip": "3 · HIS PLEAS"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "His cost notebook was no account kept in the ordinary course of business. And even on his own figures, the excess stays above twenty six percent.",
+   "shown": "His cost notebook was no account kept in the ordinary course of business. And even on his own figures, the excess stays above 26%."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "The Court held: once the prosecution proves known income and the disproportion, the burden shifts to the accused. Undisclosed sources lie in his special knowledge.",
+   "chip": "4 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Investigators need not chase every source an accused may claim later. The appeal was dismissed, and the appellant must surrender within two weeks.",
+   "chip": "5 · THE VERDICT"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple."
+  }
+ ]
+}

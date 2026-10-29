@@ -1,0 +1,70 @@
+{
+ "projectTitle": "LawWorld_scc",
+ "title": "Summary suit converted: no appeal",
+ "source": "split/scripts/scc.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. A judge converts your summary suit into a regular suit. Can you appeal that order under the Commercial Courts Act?",
+   "chip": "1 · CAN YOU APPEAL?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "On sixth October, a Delhi High Court Division Bench of Honourable Justice Dinesh Mehta and Honourable Doctor Justice Aditi Choudhary ruled.",
+   "shown": "On 6 October, a Delhi High Court Division Bench of Honourable Justice Dinesh Mehta and Honourable Dr. Justice Aditi Choudhary ruled."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Two coal transport firms, working with the Directorate General of Resettlement since twenty eighteen, disputed amounts deducted by Coal India and others.",
+   "shown": "Two coal transport firms, working with the Directorate General of Resettlement since 2018, disputed amounts deducted by Coal India and others.",
+   "chip": "2 · THE SUITS"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "They filed summary suits under Order Thirty Seven. In July, the Single Judge held its parameters were not met, and converted them into regular suits.",
+   "shown": "They filed summary suits under Order XXXVII. In July, the Single Judge held its parameters were not met, and converted them into regular suits."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "They appealed under Section Thirteen of the Commercial Courts Act. Their counsel sought time on maintainability, but on the next two dates, no one appeared for them.",
+   "shown": "They appealed under Section 13 of the Commercial Courts Act. Their counsel sought time on maintainability, but on the next two dates, no one appeared for them.",
+   "chip": "3 · IS AN APPEAL MAINTAINABLE?"
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The proviso to Section Thirteen One A says an appeal lies from orders listed in Order Forty Three, and Section Thirty Seven of the Arbitration Act.",
+   "shown": "The proviso to Section 13(1A) says an appeal lies from orders listed in Order XLIII, and Section 37 of the Arbitration Act."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "In twenty seventeen, a coordinate bench held this restricts the appealable orders to only those specifically enumerated in Order Forty Three.",
+   "shown": "In 2017, a coordinate bench held this restricts the appealable orders to only those specifically enumerated in Order XLIII.",
+   "chip": "4 · THE BINDING LAW"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "The Supreme Court affirmed this view in Kandla Export: orders not specifically enumerated under Order Forty Three are not appealable.",
+   "shown": "The Supreme Court affirmed this view in Kandla Export: orders not specifically enumerated under Order XLIII are not appealable."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Order Forty Three provides no appeal against converting a summary suit into a regular suit. So both appeals were dismissed as not maintainable.",
+   "shown": "Order XLIII provides no appeal against converting a summary suit into a regular suit. So both appeals were dismissed as not maintainable.",
+   "chip": "5 · THE VERDICT"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple."
+  }
+ ]
+}

@@ -41,14 +41,17 @@ def numify(tokens):
     for t in tokens:
         t = t.replace(",", "").replace("₹", "")
         if t in ("", "rs", "rupees", "rupee"): continue          # currency word/symbol carries no meaning for the check
+        if t.isdigit():                                          # a digit token from whisper ("195") may be scaled by a
+            flush(); cur = int(t); last = "digit"; continue      # following "crore"/"lakh": "195 crore" == "one hundred ninety five crore" (29-10-2026)
         if t in UNITS or t in TEENS:
             v = UNITS.get(t, TEENS.get(t))
-            if last in ("unit", "teen") or (last == "tens" and t in TEENS): flush()
+            if last in ("unit", "teen", "digit") or (last == "tens" and t in TEENS): flush()
             cur += v; last = "unit" if t in UNITS else "teen"
         elif t in TENS:
-            if last in ("unit", "teen", "tens"): flush()
+            if last in ("unit", "teen", "tens", "digit"): flush()
             cur += TENS[t]; last = "tens"
         elif t == "hundred":
+            if last == "digit": flush()
             cur = (cur or 1) * 100; last = "hundred"
         elif t in SCALES and last is not None:
             total += (cur or 1) * SCALES[t]; cur = 0; last = "scale"

@@ -1,0 +1,68 @@
+{
+ "projectTitle": "LawWorld_csb",
+ "title": "Reopening vs change of opinion",
+ "source": "split/scripts/csb.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. Your client's return was accepted. Years later, can the tax officer reopen it, or is that a mere change of opinion?",
+   "chip": "1 · CHANGE OF OPINION?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "On twenty eighth October, a Supreme Court bench of Honourable Justice J B Pardiwala and Honourable Justice K Vinod Chandran ruled.",
+   "shown": "On 28 October, a Supreme Court bench of Honourable Justice J.B. Pardiwala and Honourable Justice K. Vinod Chandran ruled."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "In two thousand seven, two brothers and two other shareholders agreed to sell shares of two companies, for one hundred ninety five crore and sixty crore rupees.",
+   "shown": "In 2007, two brothers and two other shareholders agreed to sell shares of two companies, for ₹195 crore and ₹60 crore.",
+   "chip": "2 · THE SHARE SALE"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "The brothers used the gains to buy a half share in a Delhi property, claiming Section Fifty Four F. In December twenty ten, one brother's return was accepted.",
+   "shown": "The brothers used the gains to buy a half share in a Delhi property, claiming Section 54F. In December 2010, one brother's return was accepted."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "Later, a tax investigation report found the shares prima facie overvalued. Then, in March twenty fifteen, reopening notices were issued.",
+   "shown": "Later, a tax investigation report found the shares prima facie overvalued. Then, in March 2015, reopening notices were issued.",
+   "chip": "3 · REOPENED"
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The brothers argued: overvalued shares cannot mean escaped income for a seller, and reopening on the same disclosed sale is a mere change of opinion."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The Court held: reason to believe means cause or justification, tangible material with a live link to the belief. Sufficiency is not for the courts.",
+   "shown": "The Court held: \"reason to believe\" means cause or justification, tangible material with a live link to the belief. Sufficiency is not for the courts.",
+   "chip": "4 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "A change of opinion needs an opinion first formed. Here, one brother's assessment was a bare acceptance of his return; the other got only an intimation."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Coming after the assessment, the report was fresh material. Under the law as it stood in twenty fifteen, the notices were valid. The appeals were dismissed.",
+   "shown": "Coming after the assessment, the report was fresh material. Under the law as it stood in 2015, the notices were valid. The appeals were dismissed.",
+   "chip": "5 · THE VERDICT"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple."
+  }
+ ]
+}

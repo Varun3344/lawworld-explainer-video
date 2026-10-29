@@ -8,7 +8,9 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."
 from envkeys import OPENAI_API_KEY
 KN = dict(zip("ಕಖಗಘಙಚಛಜಝಞಟಠಡಢಣತಥದಧನಪಫಬಭಮಯರಲವಶಷಸಹಳ", "kkggnccjjnttddnttddnppbbmyrlvssshl")); KN["ಂ"] = "n"
 DV = dict(zip("कखगघङचछजझञटठडढणतथदधनपफबभमयरलळवशषसह", "kkggnccjjnttddnttddnppbbmyrllvsssh")); DV["ं"] = "n"
-NUM_STEMS = ["ಒಂದು", "ಎರಡು", "ಹತ್ತ", "ಹದಿನೈದ", "ಹನ್ನೆರಡು", "ಸಾವಿರ", "ಐನೂರು", "ನೂರು"]
+NUM_STEMS = ["ಒಂದ", "ಎರಡ", "ಮೂರ", "ನಾಲ್ಕ", "ಐದ", "ಆರು", "ಆರರ", "ಏಳ", "ಎಂಟ", "ಒಂಬತ್ತ", "ಹತ್ತ", "ಹನ್ನ", "ಹದಿನ", "ಇಪ್ಪತ್ತ", "ಮೂವತ್ತ",
+             "ನಲವತ್ತ", "ಐವತ್ತ", "ಅರವತ್ತ", "ಎಪ್ಪತ್ತ", "ಎಂಬತ್ತ", "ತೊಂಬತ್ತ", "ನೂರ", "ಮುನ್ನೂರ", "ನಾನೂರ", "ಐನೂರ", "ಸಾವಿರ", "ಲಕ್ಷ", "ಕೋಟಿ"]
+# 29-10-2026: whisper writes Kannada dates/numbers as digits ("2022ರ ನವೆಂಬರ್ 14ರಂದು"); the old 8-stem list let correct takes fail (czs c03, c04)
 def roman(t):
     t = re.sub(r"[^a-z]", "", t.lower())
     for a, b in ((r"(k|g|c|j|t|d|p|b)h", r"\1"), ("sh", "s"), ("ch", "c"), ("w", "v"), ("f", "p"), ("q", "k"), ("z", "j"), ("x", "ks")): t = re.sub(a, b, t)

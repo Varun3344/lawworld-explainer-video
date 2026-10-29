@@ -1,0 +1,66 @@
+{
+ "projectTitle": "LawWorld_gms",
+ "title": "Descriptive is no free licence",
+ "source": "split/scripts/gms.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. Can a rival use a registered trademark on its label just by calling it descriptive? And does its own house mark save it?",
+   "chip": "1 · JUST DESCRIPTIVE?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "On twenty seventh October, twenty twenty six, the Kerala High Court, through a single bench of Honourable Justice C S Dias, answered both questions.",
+   "shown": "On 27 October 2026, the Kerala High Court, through a single bench of Honourable Justice C.S. Dias, answered both questions."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Wipro's case: in twenty twenty three, it acquired the Brahmins group business with its trademark and goodwill and holds twenty nine trademark registrations.",
+   "shown": "Wipro's case: in 2023, it acquired the Brahmins group business with its trademark and goodwill and holds 29 trademark registrations.",
+   "chip": "2 · THE DISPUTE"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "It sued Greenmount, whose sambar powder carries that word in its name. The district court at Ernakulam granted a temporary injunction, and Greenmount appealed."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "Greenmount's defence: its trademark is Greenmount, and the other words merely describe the product, a use protected by Section Thirty, sub section Two, clause A.",
+   "shown": "Greenmount's defence: its trademark is Greenmount, and the other words merely describe the product, a use protected by Section 30(2)(a).",
+   "chip": "3 · THE DEFENCE"
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The Court held this clause is not an unrestricted licence to use a registered mark just by calling it descriptive. Context decides: prominence, placement, size.",
+   "chip": "4 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "Greenmount's house mark does not, by itself, answer infringement, nor does peaceful co-existence. What counts is how the average consumer sees the mark and the whole product."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Those are questions for trial. Prima facie, though, the brand dates from nineteen eighty seven, and on Greenmount's own case, its use began only in twenty eleven.",
+   "shown": "Those are questions for trial. Prima facie, though, the brand dates from 1987, and on Greenmount's own case, its use began only in 2011."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Seeing no perversity, the Court dismissed the appeal, and the injunction stands. The findings are tentative: the trial court must decide the suit uninfluenced by them.",
+   "chip": "5 · THE RESULT"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple."
+  }
+ ]
+}
