@@ -1,0 +1,260 @@
+{
+ "projectTitle": "LawWorld_dfc",
+ "title": "Discharge and Framing of Charges",
+ "source": "split/scripts/dfc.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 8,
+   "dialogue": "Police have filed a charge sheet. Must the accused now face a full trial? Not automatically.",
+   "chip": "1 · THE COURT SCREENS THE CASE"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 6,
+   "dialogue": "The court must first examine whether the legal threshold for proceeding is met."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Under the Bharatiya Nagarik Suraksha Sanhita, or B N S S, discharge and framing of charges serve this screening function.",
+   "shown": "Under the Bharatiya Nagarik Suraksha Sanhita, or BNSS, discharge and framing of charges serve this screening function."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 8,
+   "dialogue": "Discharge means the court finds that proceeding against the accused is not justified at this stage.",
+   "chip": "2 · WHAT DISCHARGE MEANS"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 8,
+   "dialogue": "It differs from bail, which concerns liberty while the case continues. And it differs from an acquittal after trial."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "Discharge requires judicial consideration and reasons. It does not happen merely because the accused denies the allegation."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 8,
+   "dialogue": "Filing an application does not achieve it either. So first identify the court and the type of case."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 6,
+   "dialogue": "Take an ordinary Sessions case committed under Section Two Thirty Two.",
+   "shown": "Take an ordinary Sessions case committed under Section 232.",
+   "chip": "3 · SESSIONS CASES"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 8,
+   "dialogue": "Section Two Fifty lets the accused apply for discharge within sixty days from commitment.",
+   "shown": "Section 250 lets the accused apply for discharge within 60 days from commitment."
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 8,
+   "dialogue": "The Judge considers the record and documents, and hears the accused and the prosecution."
+  },
+  {
+   "sceneId": "c11",
+   "seconds": 8,
+   "dialogue": "If there is not sufficient ground for proceeding, the Judge must discharge the accused and record reasons."
+  },
+  {
+   "sceneId": "c12",
+   "seconds": 10,
+   "dialogue": "If there is ground for presuming an offence exclusively triable by the Sessions Court, Section Two Fifty One requires a written charge.",
+   "shown": "If there is ground for presuming an offence exclusively triable by the Sessions Court, Section 251 requires a written charge."
+  },
+  {
+   "sceneId": "c13",
+   "seconds": 8,
+   "dialogue": "It must be framed within sixty days from the first hearing on charge. These are different starting points.",
+   "shown": "It must be framed within 60 days from the first hearing on charge. These are different starting points."
+  },
+  {
+   "sceneId": "c14",
+   "seconds": 8,
+   "dialogue": "Some High Courts treat the sixty day application window as directory. Even so, apply within it.",
+   "shown": "Some High Courts treat the 60-day application window as directory. Even so, apply within it."
+  },
+  {
+   "sceneId": "c15",
+   "seconds": 8,
+   "dialogue": "For a warrant case before a Magistrate instituted on a police report, Section Two Sixty Two applies.",
+   "shown": "For a warrant case before a Magistrate instituted on a police report, Section 262 applies.",
+   "chip": "4 · MAGISTRATE WARRANT CASES"
+  },
+  {
+   "sceneId": "c16",
+   "seconds": 8,
+   "dialogue": "Here, the accused may seek discharge within sixty days from supply of document copies under Section Two Thirty.",
+   "shown": "Here, the accused may seek discharge within 60 days from supply of document copies under Section 230."
+  },
+  {
+   "sceneId": "c17",
+   "seconds": 10,
+   "dialogue": "The Magistrate considers the police report and papers, and hears both sides. If the charge is groundless, discharge with reasons follows."
+  },
+  {
+   "sceneId": "c18",
+   "seconds": 10,
+   "dialogue": "If the test for proceeding is met, Section Two Sixty Three requires a written charge within sixty days from the first hearing on charge.",
+   "shown": "If the test for proceeding is met, Section 263 requires a written charge within 60 days from the first hearing on charge."
+  },
+  {
+   "sceneId": "c19",
+   "seconds": 6,
+   "dialogue": "So here, the discharge clock starts from document supply, not commitment."
+  },
+  {
+   "sceneId": "c20",
+   "seconds": 8,
+   "dialogue": "Take three dates. A Sessions case is committed on the first of June: that starts its discharge application period.",
+   "shown": "Take three dates. A Sessions case is committed on 1 June: that starts its discharge application period.",
+   "chip": "5 · WHICH EVENT STARTS WHICH CLOCK"
+  },
+  {
+   "sceneId": "c21",
+   "seconds": 10,
+   "dialogue": "In a different Magistrate's police report warrant case, copies are supplied on the tenth of June: that starts its application period.",
+   "shown": "In a different Magistrate's police-report warrant case, copies are supplied on 10 June: that starts its application period."
+  },
+  {
+   "sceneId": "c22",
+   "seconds": 8,
+   "dialogue": "If the first hearing on charge is on the first of July, the charge framing period runs from that hearing.",
+   "shown": "If the first hearing on charge is on 1 July, the charge-framing period runs from that hearing."
+  },
+  {
+   "sceneId": "c23",
+   "seconds": 6,
+   "dialogue": "Record the correct event, instead of using one date for every deadline."
+  },
+  {
+   "sceneId": "c24",
+   "seconds": 6,
+   "dialogue": "A charge is the court's formal statement of the offence the accused must answer.",
+   "chip": "6 · WHAT A CHARGE DOES"
+  },
+  {
+   "sceneId": "c25",
+   "seconds": 10,
+   "dialogue": "Sections Two Thirty Four and Two Thirty Five cover its contents: the offence, the law, the time, the place and the person involved.",
+   "shown": "Sections 234 and 235 cover its contents: the offence, the law, the time, the place and the person involved."
+  },
+  {
+   "sceneId": "c26",
+   "seconds": 10,
+   "dialogue": "Under Sections Two Fifty One and Two Sixty Three, the charge is read and explained, and the accused is asked about the plea.",
+   "shown": "Under Sections 251 and 263, the charge is read and explained, and the accused is asked about the plea."
+  },
+  {
+   "sceneId": "c27",
+   "seconds": 10,
+   "dialogue": "If contested, the case moves into evidence. Framing charges does not establish guilt; the prosecution must prove its case."
+  },
+  {
+   "sceneId": "c28",
+   "seconds": 8,
+   "dialogue": "At this stage, the court examines whether the material supplies a legally sufficient basis to proceed.",
+   "chip": "7 · NO MINI TRIAL"
+  },
+  {
+   "sceneId": "c29",
+   "seconds": 10,
+   "dialogue": "Strong suspicion founded on the material can justify framing charges. Proof beyond reasonable doubt belongs to the decision on guilt."
+  },
+  {
+   "sceneId": "c30",
+   "seconds": 8,
+   "dialogue": "The court must apply its mind, but it should not conduct a mini trial by deciding which witness is truthful."
+  },
+  {
+   "sceneId": "c31",
+   "seconds": 8,
+   "dialogue": "Equally, a bare accusation without the required legal ingredients is not enough."
+  },
+  {
+   "sceneId": "c32",
+   "seconds": 6,
+   "dialogue": "The Supreme Court has repeatedly distinguished this screening from deciding guilt."
+  },
+  {
+   "sceneId": "c33",
+   "seconds": 6,
+   "dialogue": "Suppose Arjun is accused of stealing Ravi's laptop, worth sixty thousand rupees.",
+   "shown": "Suppose Arjun is accused of stealing Ravi's laptop, worth ₹60,000.",
+   "chip": "8 · ARJUN'S CASE"
+  },
+  {
+   "sceneId": "c34",
+   "seconds": 8,
+   "dialogue": "Imagine the prosecution papers, even accepted at face value, contain nothing connecting Arjun to the theft."
+  },
+  {
+   "sceneId": "c35",
+   "seconds": 10,
+   "dialogue": "His lawyer can then argue that the charge is groundless, and seek discharge. But suppose a witness account and supporting material link him to taking it."
+  },
+  {
+   "sceneId": "c36",
+   "seconds": 6,
+   "dialogue": "Then a dispute about the witness's reliability may require evidence at trial."
+  },
+  {
+   "sceneId": "c37",
+   "seconds": 6,
+   "dialogue": "The actual record controls the result; neither example guarantees an outcome."
+  },
+  {
+   "sceneId": "c38",
+   "seconds": 6,
+   "dialogue": "Now, do not apply these sixty day timelines to every kind of case.",
+   "shown": "Now, do not apply these 60-day timelines to every kind of case.",
+   "chip": "9 · OTHER CASE TYPES"
+  },
+  {
+   "sceneId": "c39",
+   "seconds": 10,
+   "dialogue": "Warrant cases instituted otherwise than on a police report follow Sections Two Sixty Seven to Two Sixty Nine.",
+   "shown": "Warrant cases instituted otherwise than on a police report follow Sections 267 to 269."
+  },
+  {
+   "sceneId": "c40",
+   "seconds": 10,
+   "dialogue": "In summons cases, Section Two Seventy Four generally requires the accusation to be stated without a formal charge.",
+   "shown": "In summons cases, Section 274 generally requires the accusation to be stated without a formal charge."
+  },
+  {
+   "sceneId": "c41",
+   "seconds": 8,
+   "dialogue": "Its proviso requires a reasoned release, with the effect of discharge, if the accusation is groundless."
+  },
+  {
+   "sceneId": "c42",
+   "seconds": 6,
+   "dialogue": "Special courts and special statutes may have additional rules of their own."
+  },
+  {
+   "sceneId": "c43",
+   "seconds": 10,
+   "dialogue": "Remember: discharge asks whether the case should proceed. Framing charges identifies what must be answered. Neither is a finding of guilt.",
+   "chip": "10 · ACT PROMPTLY"
+  },
+  {
+   "sceneId": "c44",
+   "seconds": 6,
+   "dialogue": "Check the case type, record the correct deadline trigger, and raise your discharge grounds promptly."
+  },
+  {
+   "sceneId": "c45",
+   "seconds": 8,
+   "dialogue": "If the court moves to frame the charge too early, ask for time, and put your objection on record."
+  }
+ ]
+}

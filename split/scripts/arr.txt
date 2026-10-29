@@ -1,0 +1,28 @@
+// Arrest Safeguards under the BNSS - concept-format topic reel (9:16, ~96 s), set arr.
+// Source: the owner's storyboard 01_Arrest_Safeguards_LawWorld_v2.pdf (~/Downloads, 28-10-2026), a 5-minute 693-word
+// course script condensed to ten concept clips. The PDF states its statutory sources and judgments were checked against
+// the LawWorld judgment store on 28 October 2026. Ravi is a hypothetical person (so stated in the source).
+// NO BENCH CARD: brand/judges/ has no portrait for Gavai CJI or Masih J., and a topic explainer has no single bench.
+// Mihir Rajesh Shah is carried on a text cite card instead. See [[reel-qa-before-delivery]] - never an invented judge.
+// Provisions used (all from the PDF): BNSS 35(1)(b), 35(3)-(6), 35(7), 36, 38, 43(5), 47, 47(2), 48, 56, 57, 58, 187;
+// Article 22(1) and 22(2); Mihir Rajesh Shah v. State of Maharashtra, LAWWORLD 2025 SC 1125 (SC, 6 November 2025).
+// Care taken from the PDF's "Points to preserve": the writing requirement and the two-hour rule are the Supreme Court's,
+// not the bare statute's; the two hours sit INSIDE the twenty-four hour ceiling and never extend it; the oral-first route
+// is exceptional only; the necessity test is tied to the up-to-seven-year cognizable category; arrest is not guilt.
+# 1 · AN ACCUSATION AND AN ARREST
+10 | Hi, I am Ravishankar from LawWorld. An F I R names Ravi. Must the police arrest him? Under the B N S S, arrest must be justified. || Hi, I am Ravishankar from LawWorld. An FIR names Ravi. Must the police arrest him? Under the BNSS, arrest must be justified.
+# 2 · WHEN ARREST IS NECESSARY
+10 | Section Thirty Five covers arrest without a warrant. Up to seven years, the officer needs a reason to believe, and must record that necessity. || Section 35 covers arrest without a warrant. Up to seven years, the officer needs a reason to believe, and must record that necessity.
+# 3 · THE NOTICE TO APPEAR
+10 | If arrest is not needed, he gets a written notice to appear. While Ravi complies, he cannot be arrested, unless fresh reasons are recorded. || If arrest is not needed, he gets a written notice to appear. While Ravi complies, he cannot be arrested, unless fresh reasons are recorded.
+# 4 · KNOWING THE GROUNDS
+10 | Article Twenty Two and Section Forty Seven require the grounds of arrest. In Mihir Rajesh Shah, the Court held they must be written, in his own language. || Article 22(1) and Section 47 require the grounds of arrest. In Mihir Rajesh Shah, the Court held they must be written, in his own language.
+10 | Spoken grounds are for exceptional cases only. The written copy must reach him at least two hours before remand. Without it, arrest and remand are illegal. || Spoken grounds are for exceptional cases only. The written copy must reach him at least two hours before remand. Without it, arrest and remand are illegal.
+# 5 · RECORDING THE ARREST
+10 | Section Thirty Six requires an arrest memo, attested and countersigned. Section Forty Eight requires the police to inform someone he names. || Section 36 requires an arrest memo, attested and countersigned. Section 48 requires the police to inform someone he names.
+# 6 · COUNSEL, HEALTH AND SPECIAL CARE
+10 | Section Thirty Eight lets him meet an advocate of his choice during interrogation, though not throughout it. If the offence is bailable, he must be told. || Section 38 lets him meet an advocate of his choice during interrogation, though not throughout it. If the offence is bailable, he must be told.
+10 | Section Fifty Six protects his health. A woman is not arrested at night save exceptionally, and the infirm or over sixty need senior permission. || Section 56 protects his health. A woman is not arrested at night save exceptionally, and the infirm or over 60 need senior permission.
+# 7 · TWENTY FOUR HOURS, AND THE MAGISTRATE
+10 | Section Fifty Eight caps police detention at twenty four hours, excluding necessary journey time. The Magistrate then reads the grounds and the delay. Arrest is not guilt. || Section 58 caps police detention at 24 hours, excluding necessary journey time. The Magistrate then reads the grounds and the delay. Arrest is not guilt.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple.

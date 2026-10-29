@@ -1,0 +1,63 @@
+// Arrest Safeguards under the BNSS - CONCEPT VIDEO (a legal-concept explainer, Cause of Action build): ~5 min, 16:9 + 9:16.
+// Owner 29-10-2026: "this is concept video not judgement video" / "i need that 5 minutes only no 90 sec".
+// Source: the owner's storyboard 01_Arrest_Safeguards_LawWorld_v2.pdf (~/Downloads, 28-10-2026), 693 spoken words, ten scenes.
+// The narration follows that document's own sentences; its statutory sources and judgments were checked against the LawWorld
+// judgment store on 28 October 2026 (so stated in the PDF). Ravi is a hypothetical person, as the PDF states.
+// Points preserved from the PDF's own editing notes: the writing requirement and the two-hour rule are the Supreme Court's
+// ruling under Article 22(1) read with s.47, not the bare statute; the two hours sit INSIDE the 24-hour ceiling and never
+// extend it; the oral-first route is exceptional only; the s.35(1)(b) necessity test is tied to the up-to-seven-year
+// cognizable category; arrest does not establish guilt. Whole sentences per clip, no digits in the spoken half.
+# 1 · AN ACCUSATION AND AN ARREST
+10 | Hi, I am Ravishankar from LawWorld. Imagine Ravi gets a call. A customer has accused him of cheating, and an F I R has been registered. || Hi, I am Ravishankar from LawWorld. Imagine Ravi gets a call. A customer has accused him of cheating, and an FIR has been registered.
+10 | Must the police now arrest him? No. Under the Bharatiya Nagarik Suraksha Sanhita, arrest is a decision that must be justified, not a reflex.
+8 | Today we follow Ravi through a police notice, a possible arrest, and his first appearance before a Magistrate.
+6 | At each step the law gives him safeguards. Let us take them in order.
+# 2 · WHEN ARREST IS NECESSARY
+10 | Section Thirty Five governs arrest without a warrant. For cognizable offences punishable up to seven years, clause b of sub section one applies. || Section 35 governs arrest without a warrant. For cognizable offences punishable up to seven years, clause (b) of sub-section (1) applies.
+6 | It demands a reason to believe that Ravi committed the offence, and a recorded satisfaction that arrest is necessary.
+8 | Necessity can mean protecting evidence, or securing his presence in court. Reasons must be recorded either way.
+6 | The Supreme Court enforced this in Arnesh Kumar, and again in Satender Kumar Antil.
+# 3 · THE NOTICE TO APPEAR
+6 | If arrest is not required, sub section three requires a written notice directing Ravi to appear. || If arrest is not required, sub-section (3) requires a written notice directing Ravi to appear.
+6 | He should comply with it, and keep a record of each attendance.
+10 | While he complies, he cannot be arrested for that offence, unless the officer records reasons why arrest is nevertheless necessary.
+10 | The protection is conditional. Ignore the notice, and the police may arrest. A notice is neither a finding of guilt nor permanent immunity.
+# 4 · KNOWING THE GROUNDS
+8 | If Ravi is arrested, Article Twenty Two and Section Forty Seven require that he be told the grounds of arrest. || If Ravi is arrested, Article 22(1) and Section 47 require that he be told the grounds of arrest.
+6 | In Mihir Rajesh Shah, the Supreme Court held that the grounds must be given in writing, in a language he understands, for every offence.
+6 | Only where writing is impractical, such as an offence caught in the act, may they be conveyed orally first.
+6 | The written copy must then follow, at least two hours before production for remand.
+# 5 · RECORDING THE ARREST
+6 | Section Thirty Six requires the arresting officer to carry identification, and to prepare an arrest memorandum. || Section 36 requires the arresting officer to carry identification, and to prepare an arrest memorandum.
+8 | It is attested by a family member or a respectable local person, and countersigned by Ravi.
+10 | Section Forty Eight requires the police to inform a relative, friend, or person Ravi nominates about the arrest and the place of detention. || Section 48 requires the police to inform a relative, friend, or person Ravi nominates about the arrest and the place of detention.
+8 | This is recorded at the station, and Ravi can nominate his sister. The Supreme Court directed these steps in D K Basu. || This is recorded at the station, and Ravi can nominate his sister. The Supreme Court directed these steps in D.K. Basu.
+# 6 · ACCESS TO A LAWYER
+8 | Under Section Thirty Eight, Ravi may meet an advocate of his choice during interrogation, though not throughout it. || Under Section 38, Ravi may meet an advocate of his choice during interrogation, though not throughout it.
+8 | Section Forty Seven, sub section two, adds that if the offence is bailable, the police must tell him he is entitled to bail. || Section 47(2) adds that if the offence is bailable, the police must tell him he is entitled to bail.
+6 | Neither right ends the investigation. Both ensure that it proceeds lawfully.
+6 | Mihir Rajesh Shah explains that written grounds matter because they give the lawyer time to prepare and oppose remand.
+# 7 · HEALTH AND SPECIAL SAFEGUARDS
+6 | Section Fifty Six requires reasonable care of Ravi's health and safety in custody. || Section 56 requires reasonable care of Ravi's health and safety in custody.
+10 | Under Section Forty Three, sub section five, a woman cannot be arrested after sunset and before sunrise, except in exceptional circumstances. || Under Section 43(5), a woman cannot be arrested after sunset and before sunrise, except in exceptional circumstances.
+8 | That needs a woman officer's written report, and the prior permission of a Judicial Magistrate of the first class.
+6 | Under Section Thirty Five, sub section seven, an infirm person, or one above sixty, needs a Deputy Superintendent's permission. || Under Section 35(7), an infirm person, or one above sixty, needs a Deputy Superintendent's permission.
+6 | That applies where the offence is punishable below three years.
+# 8 · THE TWENTY FOUR HOUR LIMIT
+6 | Section Fifty Seven requires production before a Magistrate without unnecessary delay. || Section 57 requires production before a Magistrate without unnecessary delay.
+10 | Section Fifty Eight sets the ceiling. Without a Magistrate's special order under Section One Eighty Seven, detention cannot exceed twenty four hours. || Section 58 sets the ceiling. Without a Magistrate's special order under Section 187, detention cannot exceed 24 hours.
+10 | That period excludes necessary journey time. If Ravi is arrested on Monday morning, the police cannot keep him until Wednesday on their own authority.
+6 | Twenty four hours is an outer limit, not a target, and the two hour rule operates inside it.
+# 9 · WHAT THE MAGISTRATE EXAMINES
+6 | At production, further custody needs a lawful basis under Section One Eighty Seven. || At production, further custody needs a lawful basis under Section 187.
+6 | The remand papers must contain the grounds of arrest, and explain any delay.
+10 | Ravi or his lawyer can point to failures concerning the grounds, the arrest memorandum, intimation to family, access to counsel, or his health.
+6 | If written grounds were not supplied in time, the arrest and the remand are illegal, and he must be released.
+6 | Guilt, however, remains a question for the trial.
+# 10 · REMEMBER THE SEQUENCE
+6 | For Ravi, the sequence is clear. Comply with a lawful notice, and keep proof of it.
+6 | Ask for the written grounds of arrest, and note down when you receive them.
+6 | Name the person the police must inform. Ask for your advocate. Raise any health concern at once.
+6 | Keep copies of every document. And remember, arrest does not establish guilt.
+8 | These safeguards keep the process fair, while the investigation continues and a court decides on the evidence.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more legal concepts made simple.

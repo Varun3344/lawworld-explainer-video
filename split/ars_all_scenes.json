@@ -1,0 +1,248 @@
+{
+ "projectTitle": "LawWorld_ars",
+ "title": "Arrest Safeguards under the BNSS",
+ "source": "split/scripts/ars.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. Imagine Ravi gets a call. A customer has accused him of cheating, and an F I R has been registered.",
+   "shown": "Hi, I am Ravishankar from LawWorld. Imagine Ravi gets a call. A customer has accused him of cheating, and an FIR has been registered.",
+   "chip": "1 · AN ACCUSATION AND AN ARREST"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "Must the police now arrest him? No. Under the Bharatiya Nagarik Suraksha Sanhita, arrest is a decision that must be justified, not a reflex."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Today we follow Ravi through a police notice, a possible arrest, and his first appearance before a Magistrate."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 6,
+   "dialogue": "At each step the law gives him safeguards. Let us take them in order."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "Section Thirty Five governs arrest without a warrant. For cognizable offences punishable up to seven years, clause b of sub section one applies.",
+   "shown": "Section 35 governs arrest without a warrant. For cognizable offences punishable up to seven years, clause (b) of sub-section (1) applies.",
+   "chip": "2 · WHEN ARREST IS NECESSARY"
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "It demands a reason to believe that Ravi committed the offence, and a recorded satisfaction that arrest is necessary."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "Necessity can mean protecting evidence, or securing his presence in court. Reasons must be recorded either way."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 8,
+   "dialogue": "The Supreme Court enforced this in Arnesh Kumar, and again in Satender Kumar Antil."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 8,
+   "dialogue": "If arrest is not required, sub section three requires a written notice directing Ravi to appear.",
+   "shown": "If arrest is not required, sub-section (3) requires a written notice directing Ravi to appear.",
+   "chip": "3 · THE NOTICE TO APPEAR"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "He should comply with it, and keep a record of each attendance."
+  },
+  {
+   "sceneId": "c11",
+   "seconds": 10,
+   "dialogue": "While he complies, he cannot be arrested for that offence, unless the officer records reasons why arrest is nevertheless necessary."
+  },
+  {
+   "sceneId": "c12",
+   "seconds": 10,
+   "dialogue": "The protection is conditional. Ignore the notice, and the police may arrest. A notice is neither a finding of guilt nor permanent immunity."
+  },
+  {
+   "sceneId": "c13",
+   "seconds": 10,
+   "dialogue": "If Ravi is arrested, Article Twenty Two and Section Forty Seven require that he be told the grounds of arrest.",
+   "shown": "If Ravi is arrested, Article 22(1) and Section 47 require that he be told the grounds of arrest.",
+   "chip": "4 · KNOWING THE GROUNDS"
+  },
+  {
+   "sceneId": "c14",
+   "seconds": 10,
+   "dialogue": "In Mihir Rajesh Shah, the Supreme Court held that the grounds must be given in writing, in a language he understands, for every offence."
+  },
+  {
+   "sceneId": "c15",
+   "seconds": 8,
+   "dialogue": "Only where writing is impractical, such as an offence caught in the act, may they be conveyed orally first."
+  },
+  {
+   "sceneId": "c16",
+   "seconds": 6,
+   "dialogue": "The written copy must then follow, at least two hours before production for remand."
+  },
+  {
+   "sceneId": "c17",
+   "seconds": 10,
+   "dialogue": "Section Thirty Six requires the arresting officer to carry identification, and to prepare an arrest memorandum.",
+   "shown": "Section 36 requires the arresting officer to carry identification, and to prepare an arrest memorandum.",
+   "chip": "5 · RECORDING THE ARREST"
+  },
+  {
+   "sceneId": "c18",
+   "seconds": 8,
+   "dialogue": "It is attested by a family member or a respectable local person, and countersigned by Ravi."
+  },
+  {
+   "sceneId": "c19",
+   "seconds": 10,
+   "dialogue": "Section Forty Eight requires the police to inform a relative, friend, or person Ravi nominates about the arrest and the place of detention.",
+   "shown": "Section 48 requires the police to inform a relative, friend, or person Ravi nominates about the arrest and the place of detention."
+  },
+  {
+   "sceneId": "c20",
+   "seconds": 10,
+   "dialogue": "This is recorded at the station, and Ravi can nominate his sister. The Supreme Court directed these steps in D K Basu.",
+   "shown": "This is recorded at the station, and Ravi can nominate his sister. The Supreme Court directed these steps in D.K. Basu."
+  },
+  {
+   "sceneId": "c21",
+   "seconds": 8,
+   "dialogue": "Under Section Thirty Eight, Ravi may meet an advocate of his choice during interrogation, though not throughout it.",
+   "shown": "Under Section 38, Ravi may meet an advocate of his choice during interrogation, though not throughout it.",
+   "chip": "6 · ACCESS TO A LAWYER"
+  },
+  {
+   "sceneId": "c22",
+   "seconds": 10,
+   "dialogue": "Section Forty Seven, sub section two, adds that if the offence is bailable, the police must tell him he is entitled to bail.",
+   "shown": "Section 47(2) adds that if the offence is bailable, the police must tell him he is entitled to bail."
+  },
+  {
+   "sceneId": "c23",
+   "seconds": 6,
+   "dialogue": "Neither right ends the investigation. Both ensure that it proceeds lawfully."
+  },
+  {
+   "sceneId": "c24",
+   "seconds": 8,
+   "dialogue": "Mihir Rajesh Shah explains that written grounds matter because they give the lawyer time to prepare and oppose remand."
+  },
+  {
+   "sceneId": "c25",
+   "seconds": 8,
+   "dialogue": "Section Fifty Six requires reasonable care of Ravi's health and safety in custody.",
+   "shown": "Section 56 requires reasonable care of Ravi's health and safety in custody.",
+   "chip": "7 · HEALTH AND SPECIAL SAFEGUARDS"
+  },
+  {
+   "sceneId": "c26",
+   "seconds": 10,
+   "dialogue": "Under Section Forty Three, sub section five, a woman cannot be arrested after sunset and before sunrise, except in exceptional circumstances.",
+   "shown": "Under Section 43(5), a woman cannot be arrested after sunset and before sunrise, except in exceptional circumstances."
+  },
+  {
+   "sceneId": "c27",
+   "seconds": 8,
+   "dialogue": "That needs a woman officer's written report, and the prior permission of a Judicial Magistrate of the first class."
+  },
+  {
+   "sceneId": "c28",
+   "seconds": 10,
+   "dialogue": "Under Section Thirty Five, sub section seven, an infirm person, or one above sixty, needs a Deputy Superintendent's permission.",
+   "shown": "Under Section 35(7), an infirm person, or one above sixty, needs a Deputy Superintendent's permission."
+  },
+  {
+   "sceneId": "c29",
+   "seconds": 6,
+   "dialogue": "That applies where the offence is punishable below three years."
+  },
+  {
+   "sceneId": "c30",
+   "seconds": 8,
+   "dialogue": "Section Fifty Seven requires production before a Magistrate without unnecessary delay.",
+   "shown": "Section 57 requires production before a Magistrate without unnecessary delay.",
+   "chip": "8 · THE TWENTY FOUR HOUR LIMIT"
+  },
+  {
+   "sceneId": "c31",
+   "seconds": 10,
+   "dialogue": "Section Fifty Eight sets the ceiling. Without a Magistrate's special order under Section One Eighty Seven, detention cannot exceed twenty four hours.",
+   "shown": "Section 58 sets the ceiling. Without a Magistrate's special order under Section 187, detention cannot exceed 24 hours."
+  },
+  {
+   "sceneId": "c32",
+   "seconds": 10,
+   "dialogue": "That period excludes necessary journey time. If Ravi is arrested on Monday morning, the police cannot keep him until Wednesday on their own authority."
+  },
+  {
+   "sceneId": "c33",
+   "seconds": 8,
+   "dialogue": "Twenty four hours is an outer limit, not a target, and the two hour rule operates inside it.",
+   "shown": "24 hours is an outer limit, not a target, and the two hour rule operates inside it."
+  },
+  {
+   "sceneId": "c34",
+   "seconds": 8,
+   "dialogue": "At production, further custody needs a lawful basis under Section One Eighty Seven.",
+   "shown": "At production, further custody needs a lawful basis under Section 187.",
+   "chip": "9 · WHAT THE MAGISTRATE EXAMINES"
+  },
+  {
+   "sceneId": "c35",
+   "seconds": 6,
+   "dialogue": "The remand papers must contain the grounds of arrest, and explain any delay."
+  },
+  {
+   "sceneId": "c36",
+   "seconds": 10,
+   "dialogue": "Ravi or his lawyer can point to failures concerning the grounds, the arrest memorandum, intimation to family, access to counsel, or his health."
+  },
+  {
+   "sceneId": "c37",
+   "seconds": 8,
+   "dialogue": "If written grounds were not supplied in time, the arrest and the remand are illegal, and he must be released."
+  },
+  {
+   "sceneId": "c38",
+   "seconds": 6,
+   "dialogue": "Guilt, however, remains a question for the trial."
+  },
+  {
+   "sceneId": "c39",
+   "seconds": 10,
+   "dialogue": "For Ravi, the sequence is clear. Comply with a lawful notice, and keep proof of it. Ask for the written grounds of arrest, and note down when you receive them.",
+   "chip": "10 · REMEMBER THE SEQUENCE"
+  },
+  {
+   "sceneId": "c40",
+   "seconds": 8,
+   "dialogue": "Name the person the police must inform. Ask for your advocate. Raise any health concern at once."
+  },
+  {
+   "sceneId": "c41",
+   "seconds": 6,
+   "dialogue": "Keep copies of every document. And remember, arrest does not establish guilt."
+  },
+  {
+   "sceneId": "c42",
+   "seconds": 10,
+   "dialogue": "These safeguards keep the process fair, while the investigation continues and a court decides on the evidence."
+  },
+  {
+   "sceneId": "c43",
+   "seconds": 8,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more legal concepts made simple."
+  }
+ ]
+}

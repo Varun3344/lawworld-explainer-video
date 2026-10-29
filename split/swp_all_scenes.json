@@ -1,0 +1,243 @@
+{
+ "projectTitle": "LawWorld_swp",
+ "title": "Summons, Warrants and Proclamation",
+ "source": "split/scripts/swp.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. A court summons arrives at Asha's home. Her neighbour says a summons means the police will arrest her.",
+   "chip": "1 · THREE DIFFERENT COURT PROCESSES"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 6,
+   "dialogue": "That is wrong. A summons directs attendance. A warrant authorises arrest."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "A proclamation addresses a person believed to be absconding or hiding, so that a warrant cannot be executed."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "Each has its own conditions under the Bharatiya Nagarik Suraksha Sanhita, and the Supreme Court insists that courts move through them in order."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 6,
+   "dialogue": "Section Sixty Three describes a court summons. It is in writing, signed and sealed.",
+   "shown": "Section 63 describes a court summons. It is in writing, signed and sealed.",
+   "chip": "2 · UNDERSTANDING A SUMMONS"
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "It may also be an encrypted electronic communication bearing the image of the court's seal, or a digital signature."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "Read the court, the case, the person summoned, the purpose and the date. A summons can call an accused or a witness. It does not establish guilt."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 6,
+   "dialogue": "An electronic message should be verified through official court channels."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Section Sixty Four governs service: personally where practicable, or by electronic communication in the form the State Government prescribes.",
+   "shown": "Section 64 governs service: personally where practicable, or by electronic communication in the form the State Government prescribes.",
+   "chip": "3 · SERVICE AND THE APPEARANCE DATE"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 8,
+   "dialogue": "Sections Sixty Five to Seventy One cover companies, absent persons, government servants and witnesses.",
+   "shown": "Sections 65 to 71 cover companies, absent persons, government servants and witnesses."
+  },
+  {
+   "sceneId": "c11",
+   "seconds": 8,
+   "dialogue": "There is no universal rule that a summons gives exactly seven or fifteen days.",
+   "shown": "There is no universal rule that a summons gives exactly seven or 15 days."
+  },
+  {
+   "sceneId": "c12",
+   "seconds": 10,
+   "dialogue": "The appearance date on the document controls. Asha should preserve it, and act promptly. Refusing the envelope does not make the case disappear."
+  },
+  {
+   "sceneId": "c13",
+   "seconds": 10,
+   "dialogue": "Suppose Asha is an accused, and is in hospital on the hearing date. She should place the difficulty before the court through counsel.",
+   "chip": "4 · WHEN ATTENDANCE IS DIFFICULT"
+  },
+  {
+   "sceneId": "c14",
+   "seconds": 10,
+   "dialogue": "Section Two Twenty Eight allows a Magistrate who issues a summons to dispense with personal attendance, and permit appearance through an advocate.",
+   "shown": "Section 228 allows a Magistrate who issues a summons to dispense with personal attendance, and permit appearance through an advocate."
+  },
+  {
+   "sceneId": "c15",
+   "seconds": 8,
+   "dialogue": "In Bhaskar Industries, the Supreme Court confirmed this can cover even the first appearance."
+  },
+  {
+   "sceneId": "c16",
+   "seconds": 8,
+   "dialogue": "But it remains a court decision. A private message to the complainant excuses nothing."
+  },
+  {
+   "sceneId": "c17",
+   "seconds": 10,
+   "dialogue": "Under Section Seventy Two, an arrest warrant is a written order signed by the presiding officer, and bearing the court's seal.",
+   "shown": "Under Section 72, an arrest warrant is a written order signed by the presiding officer, and bearing the court's seal.",
+   "chip": "5 · WHAT A WARRANT DOES"
+  },
+  {
+   "sceneId": "c18",
+   "seconds": 10,
+   "dialogue": "It remains in force until executed, or cancelled by the issuing court. It does not expire because a hearing date has passed."
+  },
+  {
+   "sceneId": "c19",
+   "seconds": 10,
+   "dialogue": "If Asha learns of a warrant, the practical response is to obtain its details, and apply to the court promptly to recall or convert it, rather than hide."
+  },
+  {
+   "sceneId": "c20",
+   "seconds": 10,
+   "dialogue": "Section Seventy Three allows the court to endorse on the warrant that, if the person gives a bond with sureties, the executing officer must release them.",
+   "shown": "Section 73 allows the court to endorse on the warrant that, if the person gives a bond with sureties, the executing officer must release them.",
+   "chip": "6 · SECURITY ENDORSED ON A WARRANT"
+  },
+  {
+   "sceneId": "c21",
+   "seconds": 10,
+   "dialogue": "This is commonly called a bailable warrant. A warrant without that endorsement does not mean bail can never be granted."
+  },
+  {
+   "sceneId": "c22",
+   "seconds": 8,
+   "dialogue": "It means the officer cannot release on the warrant itself, so bail must be sought from the court."
+  },
+  {
+   "sceneId": "c23",
+   "seconds": 6,
+   "dialogue": "The Supreme Court has cautioned against issuing non bailable warrants casually.",
+   "shown": "The Supreme Court has cautioned against issuing non-bailable warrants casually."
+  },
+  {
+   "sceneId": "c24",
+   "seconds": 10,
+   "dialogue": "Section Ninety allows a court to issue a warrant instead of, or in addition to, a summons, after recording reasons in writing.",
+   "shown": "Section 90 allows a court to issue a warrant instead of, or in addition to, a summons, after recording reasons in writing.",
+   "chip": "7 · WHEN A COURT MAY ISSUE A WARRANT"
+  },
+  {
+   "sceneId": "c25",
+   "seconds": 6,
+   "dialogue": "That is where it has reason to believe the person has absconded, or will not obey."
+  },
+  {
+   "sceneId": "c26",
+   "seconds": 8,
+   "dialogue": "Or where the person fails to appear without reasonable excuse, after a summons duly served."
+  },
+  {
+   "sceneId": "c27",
+   "seconds": 10,
+   "dialogue": "The Supreme Court adds a sequence: summons first, then a bailable warrant, and a non bailable warrant only when the person is avoiding court.",
+   "shown": "The Supreme Court adds a sequence: summons first, then a bailable warrant, and a non-bailable warrant only when the person is avoiding court."
+  },
+  {
+   "sceneId": "c28",
+   "seconds": 10,
+   "dialogue": "Under Section Eighty Four, the court must have reason to believe that a person against whom it has issued a warrant has absconded, or is hiding.",
+   "shown": "Under Section 84, the court must have reason to believe that a person against whom it has issued a warrant has absconded, or is hiding.",
+   "chip": "8 · THE PROCLAMATION STAGE"
+  },
+  {
+   "sceneId": "c29",
+   "seconds": 6,
+   "dialogue": "So that the warrant cannot be executed."
+  },
+  {
+   "sceneId": "c30",
+   "seconds": 10,
+   "dialogue": "It may then publish a proclamation requiring appearance at a specified place and time, at least thirty days from publication.",
+   "shown": "It may then publish a proclamation requiring appearance at a specified place and time, at least 30 days from publication."
+  },
+  {
+   "sceneId": "c31",
+   "seconds": 6,
+   "dialogue": "One missed hearing does not satisfy these conditions."
+  },
+  {
+   "sceneId": "c32",
+   "seconds": 10,
+   "dialogue": "Ignoring a proclamation is itself an offence under Section Two Hundred Nine of the Bharatiya Nyaya Sanhita.",
+   "shown": "Ignoring a proclamation is itself an offence under Section 209 of the Bharatiya Nyaya Sanhita."
+  },
+  {
+   "sceneId": "c33",
+   "seconds": 8,
+   "dialogue": "Section Eighty Five permits attachment of property by a reasoned order after proclamation.",
+   "shown": "Section 85 permits attachment of property by a reasoned order after proclamation.",
+   "chip": "9 · PROPERTY AND FURTHER CONSEQUENCES"
+  },
+  {
+   "sceneId": "c34",
+   "seconds": 10,
+   "dialogue": "Or simultaneously, where property may be disposed of or removed. A summons alone never leads to attachment."
+  },
+  {
+   "sceneId": "c35",
+   "seconds": 10,
+   "dialogue": "Under Section Eighty Four, sub section four, a person proclaimed for a grave offence who still fails to appear may, after inquiry, be declared a proclaimed offender.",
+   "shown": "Under Section 84(4), a person proclaimed for a grave offence who still fails to appear may, after inquiry, be declared a proclaimed offender."
+  },
+  {
+   "sceneId": "c36",
+   "seconds": 10,
+   "dialogue": "Such a person is normally not entitled to anticipatory bail, and Section Three Fifty Six allows trial in their absence.",
+   "shown": "Such a person is normally not entitled to anticipatory bail, and Section 356 allows trial in their absence."
+  },
+  {
+   "sceneId": "c37",
+   "seconds": 8,
+   "dialogue": "The safest response to court process is organised action. Verify the document. Note the appearance date.",
+   "chip": "10 · THE PRACTICAL RESPONSE"
+  },
+  {
+   "sceneId": "c38",
+   "seconds": 8,
+   "dialogue": "Identify whether you are an accused or a witness, and obtain legal assistance."
+  },
+  {
+   "sceneId": "c39",
+   "seconds": 8,
+   "dialogue": "If attendance is genuinely difficult, seek the court's permission before the date, not after."
+  },
+  {
+   "sceneId": "c40",
+   "seconds": 10,
+   "dialogue": "A summons calls you to court. A warrant authorises arrest. A proclamation requires further findings about evasion."
+  },
+  {
+   "sceneId": "c41",
+   "seconds": 6,
+   "dialogue": "Knowing the difference lets you respond without panic, or dangerous delay."
+  },
+  {
+   "sceneId": "c42",
+   "seconds": 8,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more legal concepts made simple."
+  }
+ ]
+}

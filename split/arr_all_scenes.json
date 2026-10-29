@@ -1,0 +1,71 @@
+{
+ "projectTitle": "LawWorld_arr",
+ "title": "Arrest Safeguards under the BNSS",
+ "source": "split/scripts/arr.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. An F I R names Ravi. Must the police arrest him? Under the B N S S, arrest must be justified.",
+   "shown": "Hi, I am Ravishankar from LawWorld. An FIR names Ravi. Must the police arrest him? Under the BNSS, arrest must be justified.",
+   "chip": "1 · AN ACCUSATION AND AN ARREST"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "Section Thirty Five covers arrest without a warrant. Up to seven years, the officer needs a reason to believe, and must record that necessity.",
+   "shown": "Section 35 covers arrest without a warrant. Up to seven years, the officer needs a reason to believe, and must record that necessity.",
+   "chip": "2 · WHEN ARREST IS NECESSARY"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "If arrest is not needed, he gets a written notice to appear. While Ravi complies, he cannot be arrested, unless fresh reasons are recorded.",
+   "chip": "3 · THE NOTICE TO APPEAR"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "Article Twenty Two and Section Forty Seven require the grounds of arrest. In Mihir Rajesh Shah, the Court held they must be written, in his own language.",
+   "shown": "Article 22(1) and Section 47 require the grounds of arrest. In Mihir Rajesh Shah, the Court held they must be written, in his own language.",
+   "chip": "4 · KNOWING THE GROUNDS"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "Spoken grounds are for exceptional cases only. The written copy must reach him at least two hours before remand. Without it, arrest and remand are illegal."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "Section Thirty Six requires an arrest memo, attested and countersigned. Section Forty Eight requires the police to inform someone he names.",
+   "shown": "Section 36 requires an arrest memo, attested and countersigned. Section 48 requires the police to inform someone he names.",
+   "chip": "5 · RECORDING THE ARREST"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "Section Thirty Eight lets him meet an advocate of his choice during interrogation, though not throughout it. If the offence is bailable, he must be told.",
+   "shown": "Section 38 lets him meet an advocate of his choice during interrogation, though not throughout it. If the offence is bailable, he must be told.",
+   "chip": "6 · COUNSEL, HEALTH AND SPECIAL CARE"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Section Fifty Six protects his health. A woman is not arrested at night save exceptionally, and the infirm or over sixty need senior permission.",
+   "shown": "Section 56 protects his health. A woman is not arrested at night save exceptionally, and the infirm or over 60 need senior permission."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Section Fifty Eight caps police detention at twenty four hours, excluding necessary journey time. The Magistrate then reads the grounds and the delay. Arrest is not guilt.",
+   "shown": "Section 58 caps police detention at 24 hours, excluding necessary journey time. The Magistrate then reads the grounds and the delay. Arrest is not guilt.",
+   "chip": "7 · TWENTY FOUR HOURS, AND THE MAGISTRATE"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple."
+  }
+ ]
+}

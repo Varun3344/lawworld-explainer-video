@@ -1,0 +1,68 @@
+// Summons, Warrants and Proclamation - CONCEPT VIDEO (legal-concept explainer, Cause of Action build): ~5 min, 16:9 + 9:16.
+// Source: the owner's storyboard 02_Summons_Warrants_Proclamation_LawWorld_v2.pdf (~/Downloads, 29-10-2026), 707 spoken words,
+// ten scenes. Its statutory sources and judgments were checked against the LawWorld judgment store on 28 October 2026 (so stated
+// in the PDF). Asha is a hypothetical person, as the PDF states.
+// Points preserved from the PDF's own editing notes:
+//  - every case by its LawWorld Citation ID only; never SCC, AIR or INSC on screen;
+//  - s.84(4) is narrated as "a grave offence"; the ten-years/life/death threshold stays in the source notes, not on screen;
+//  - warrant TYPE is never equated with the offence's classification (a non-bailable warrant = no s.73 endorsement);
+//  - the summons -> bailable warrant -> non-bailable warrant sequence is JUDICIAL GUIDANCE (Inder Mohan Goswami, Satender
+//    Kumar Antil), not the text of s.90; s.90 supplies the grounds and the duty to record reasons;
+//  - the anticipatory-bail point is the NORMAL rule, never "can never get bail";
+//  - s.356 is mentioned as a consequence only; BNS 209 applies to a proclamation under s.84, NOT to an ordinary summons.
+# 1 · THREE DIFFERENT COURT PROCESSES
+10 | Hi, I am Ravishankar from LawWorld. A court summons arrives at Asha's home. Her neighbour says a summons means the police will arrest her.
+8 | That is wrong. A summons directs attendance. A warrant authorises arrest.
+10 | A proclamation addresses a person believed to be absconding or hiding, so that a warrant cannot be executed.
+10 | Each has its own conditions under the Bharatiya Nagarik Suraksha Sanhita, and the Supreme Court insists that courts move through them in order.
+# 2 · UNDERSTANDING A SUMMONS
+8 | Section Sixty Three describes a court summons. It is in writing, signed and sealed. || Section 63 describes a court summons. It is in writing, signed and sealed.
+10 | It may also be an encrypted electronic communication bearing the image of the court's seal, or a digital signature.
+8 | Read the court, the case, the person summoned, the purpose and the date.
+8 | A summons can call an accused or a witness. It does not establish guilt.
+6 | An electronic message should be verified through official court channels.
+# 3 · SERVICE AND THE APPEARANCE DATE
+10 | Section Sixty Four governs service: personally where practicable, or by electronic communication in the form the State Government prescribes. || Section 64 governs service: personally where practicable, or by electronic communication in the form the State Government prescribes.
+10 | Sections Sixty Five to Seventy One cover companies, absent persons, government servants and witnesses. || Sections 65 to 71 cover companies, absent persons, government servants and witnesses.
+8 | There is no universal rule that a summons gives exactly seven or fifteen days.
+8 | The appearance date on the document controls. Asha should preserve it, and act promptly.
+6 | Refusing the envelope does not make the case disappear.
+# 4 · WHEN ATTENDANCE IS DIFFICULT
+10 | Suppose Asha is an accused, and is in hospital on the hearing date. She should place the difficulty before the court through counsel.
+10 | Section Two Twenty Eight allows a Magistrate who issues a summons to dispense with personal attendance, and permit appearance through an advocate. || Section 228 allows a Magistrate who issues a summons to dispense with personal attendance, and permit appearance through an advocate.
+8 | In Bhaskar Industries, the Supreme Court confirmed this can cover even the first appearance.
+8 | But it remains a court decision. A private message to the complainant excuses nothing.
+# 5 · WHAT A WARRANT DOES
+10 | Under Section Seventy Two, an arrest warrant is a written order signed by the presiding officer, and bearing the court's seal. || Under Section 72, an arrest warrant is a written order signed by the presiding officer, and bearing the court's seal.
+8 | It remains in force until executed, or cancelled by the issuing court.
+6 | It does not expire because a hearing date has passed.
+10 | If Asha learns of a warrant, the practical response is to obtain its details, and apply to the court promptly to recall or convert it, rather than hide.
+# 6 · SECURITY ENDORSED ON A WARRANT
+10 | Section Seventy Three allows the court to endorse on the warrant that, if the person gives a bond with sureties, the executing officer must release them. || Section 73 allows the court to endorse on the warrant that, if the person gives a bond with sureties, the executing officer must release them.
+6 | This is commonly called a bailable warrant.
+8 | A warrant without that endorsement does not mean bail can never be granted.
+10 | It means the officer cannot release on the warrant itself, so bail must be sought from the court.
+8 | The Supreme Court has cautioned against issuing non bailable warrants casually. || The Supreme Court has cautioned against issuing non-bailable warrants casually.
+# 7 · WHEN A COURT MAY ISSUE A WARRANT
+10 | Section Ninety allows a court to issue a warrant instead of, or in addition to, a summons, after recording reasons in writing. || Section 90 allows a court to issue a warrant instead of, or in addition to, a summons, after recording reasons in writing.
+8 | That is where it has reason to believe the person has absconded, or will not obey.
+8 | Or where the person fails to appear without reasonable excuse, after a summons duly served.
+10 | The Supreme Court adds a sequence: summons first, then a bailable warrant, and a non bailable warrant only when the person is avoiding court. || The Supreme Court adds a sequence: summons first, then a bailable warrant, and a non-bailable warrant only when the person is avoiding court.
+# 8 · THE PROCLAMATION STAGE
+10 | Under Section Eighty Four, the court must have reason to believe that a person against whom it has issued a warrant has absconded, or is hiding. || Under Section 84, the court must have reason to believe that a person against whom it has issued a warrant has absconded, or is hiding.
+6 | So that the warrant cannot be executed.
+10 | It may then publish a proclamation requiring appearance at a specified place and time, at least thirty days from publication. || It may then publish a proclamation requiring appearance at a specified place and time, at least 30 days from publication.
+6 | One missed hearing does not satisfy these conditions.
+10 | Ignoring a proclamation is itself an offence under Section Two Hundred Nine of the Bharatiya Nyaya Sanhita. || Ignoring a proclamation is itself an offence under Section 209 of the Bharatiya Nyaya Sanhita.
+# 9 · PROPERTY AND FURTHER CONSEQUENCES
+8 | Section Eighty Five permits attachment of property by a reasoned order after proclamation. || Section 85 permits attachment of property by a reasoned order after proclamation.
+10 | Or simultaneously, where property may be disposed of or removed. A summons alone never leads to attachment.
+10 | Under Section Eighty Four, sub section four, a person proclaimed for a grave offence who still fails to appear may, after inquiry, be declared a proclaimed offender. || Under Section 84(4), a person proclaimed for a grave offence who still fails to appear may, after inquiry, be declared a proclaimed offender.
+10 | Such a person is normally not entitled to anticipatory bail, and Section Three Fifty Six allows trial in their absence. || Such a person is normally not entitled to anticipatory bail, and Section 356 allows trial in their absence.
+# 10 · THE PRACTICAL RESPONSE
+10 | The safest response to court process is organised action. Verify the document. Note the appearance date.
+8 | Identify whether you are an accused or a witness, and obtain legal assistance.
+8 | If attendance is genuinely difficult, seek the court's permission before the date, not after.
+10 | A summons calls you to court. A warrant authorises arrest. A proclamation requires further findings about evasion.
+8 | Knowing the difference lets you respond without panic, or dangerous delay.
+8 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more legal concepts made simple.

@@ -1,0 +1,137 @@
+{
+ "aspectRatio": "9:16",
+ "maxWordsPerClip": 32,
+ "downloadFolder": "/Users/admin/Downloads/New short/product-explainer/downloads/bail",
+ "useLastFrameReference": true,
+ "referenceFrameFrom": "first",
+ "transition": {
+  "type": "cut"
+ },
+ "globalStyle": {
+  "avatar": "@me",
+  "useAccountAvatar": true,
+  "hostName": "the presenter",
+  "channelName": "LawWorld",
+  "voice": "@me verified avatar voice (identical pitch, tone, accent in every clip)",
+  "outfit": "a tailored royal-blue two-piece business suit and a light-grey formal shirt with an open collar, no tie (identical in every scene)",
+  "background": "a seamless, plain, very light ivory off-white studio backdrop (almost white, with only a faint warm tint), brightly and evenly lit from edge to edge with no falloff, no vignette, no shadows, no texture and no objects - nothing else in the frame; identical in every scene",
+  "gestures": "He faces the camera squarely for the whole clip: head, shoulders and body stay square to the lens, he never turns to the left or right and never points or presents to the side. Lively but controlled open-palm gestures in front of his chest, counting points on his fingers, small confident nods and a bright smile on emphasis; relaxed fingers close together; hands stay in front of his body, inside the frame and never in front of his face; he stays standing in the same spot, at the same distance from the camera, throughout",
+  "audio": "@me verified avatar voice ONLY, clear and energetic, continuous speech at a brisk trainer's pace, NO background music, NO sound effects, NO silence at the start or end",
+  "negativePrompts": "He stays in the same spot with his face and upper body fully visible at all times; NO turning the head or body to the side, NO looking away from the camera, NO pointing or presenting to the left or right, NO arm stretched out to the side, NO arms, elbows, hands or shoulders touching or cut by the frame edges, NO oversized hands, NO hands held toward the camera, NO big or spread-out fingers, NO thin or lanky body, NO wide-angle lens distortion, NO furniture, NO bookshelves, NO plants, NO lamps, NO props, NO objects behind him, NO icons or graphics, NO text on screen, NO captions, NO name tags, NO logos, NO outfit change, NO camera cut, NO tripod, NO camera or microphone or any studio equipment visible in frame, NO other people",
+  "camera": "Locked-off static shot, vertical. A medium-wide shot: he is STANDING in the middle of the frame, framed from mid-thigh up and fairly small in the frame, so his body fills only about the middle half of the frame width with wide empty backdrop on BOTH sides of him; his shoulders, elbows and hands always stay well inside the frame; clear space above his head. Eye level, natural portrait-lens look, no zoom, no pan, no camera movement; the camera itself is never visible",
+  "realism": "Photorealistic live-action footage of a real human presenter recorded in one studio session against a plain ivory backdrop, NOT a furnished room. Soft, bright, even high-key light: a soft frontal key light on his face with soft fill, no harsh shadows, natural skin texture, natural eye contact straight into the lens and PERFECT LIP SYNC: his lips, jaw and mouth shapes match every syllable of the dialogue exactly, in time with the voice, no mouth movement without sound and no sound without mouth movement, identical exposure and white balance in every scene. TRUE-TO-LIFE BODY: natural adult proportions that match his face - broad shoulders, a solid average build that fills the jacket (not slim, not lanky), and SLENDER, NATURAL-SIZE HANDS: each hand no longer than his face, relaxed fingers held close together, never spread wide, hands never closer to the camera than his chest",
+  "delivery": "Highly energetic, enthusiastic legal trainer leading a masterclass for advocates, like a motivating coach talking straight to camera: bright smile, lively eyes, confident emphasis on key words, brisk clear pace, a tiny pause after each full stop; speak the dialogue exactly once, word for word, never repeat, stretch or slow down a word, never add words"
+ },
+ "projectTitle": "LawWorld_bail_8s",
+ "clipDurationSeconds": 8,
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "Someone is already in custody. Someone else fears arrest. A third person stays detained while investigators miss their deadline."
+  },
+  {
+   "sceneId": "c04",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "Regular bail usually means seeking release after arrest, or after surrender into the court's custody."
+  },
+  {
+   "sceneId": "c08",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "The court weighs the accusation, the available material, and risks such as absconding or influencing witnesses."
+  },
+  {
+   "sceneId": "c11",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "The prosecution explains its custody concerns. The court weighs the circumstances and the legal restrictions."
+  },
+  {
+   "sceneId": "c12",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "If granted bail, Arjun must meet the release requirements and obey the conditions. Bail does not decide guilt."
+  },
+  {
+   "sceneId": "c15",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "The court can direct that, if arrested on that accusation, the person be released on bail."
+  },
+  {
+   "sceneId": "c16",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "Merely filing the application gives no automatic protection. The court's order does."
+  },
+  {
+   "sceneId": "c18",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "These are specified sexual offences against minor girls. Some special laws also bar anticipatory bail."
+  },
+  {
+   "sceneId": "c20",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "If protection is granted, the court may require her to attend police questioning and avoid threatening witnesses."
+  },
+  {
+   "sceneId": "c22",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "It does not cancel the F I R, or excuse cooperation with a lawful investigation."
+  },
+  {
+   "sceneId": "c23",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "Default bail, also called statutory bail, arises under Section One Eighty Seven, sub section Three."
+  },
+  {
+   "sceneId": "c26",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "And sixty days for other offences. The accused must claim the right, and be prepared to furnish bail."
+  },
+  {
+   "sceneId": "c27",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "Check the exact offence, the judicial interpretation and any special law before choosing the deadline."
+  },
+  {
+   "sceneId": "c28",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "Count from the first remand order, including that day as day one, following the Supreme Court's counting rule."
+  },
+  {
+   "sceneId": "c34",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "January accounts for thirty one days. February adds twenty eight, taking the count to fifty nine."
+  },
+  {
+   "sceneId": "c36",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "Ravi can then claim default bail, and offer to furnish bail. He does not simply walk out when the calendar changes."
+  },
+  {
+   "sceneId": "c40",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "A charge sheet filed later cannot defeat his claim, just because the court has not decided it yet."
+  },
+  {
+   "sceneId": "c44",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "Investigation deadline expired without the required report? Examine default bail immediately."
+  }
+ ]
+}

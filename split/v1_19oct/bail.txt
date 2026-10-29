@@ -1,0 +1,61 @@
+// Regular, Anticipatory and Default Bail (BNSS) - from ~/Downloads/Regular_Anticipatory_and_Default_Bail_BNSS_Storyboard.pdf
+// Fact-check 19-10-2026 applied: 482(4) excludes BNS 65 (all of it) and 70(2) - said as "specified sexual offences against minor
+// girls" (no explicit wording in the avatar's lines; the sections are on screen); counting per ED v. Kapil Wadhawan (27.03.2023)
+// para 50: remand day = day 1; 1 March 2026 is a Sunday (day 60) - shown on screen, it does not extend the period.
+# 1 · THREE SITUATIONS
+10 | Someone is already in custody. Someone else fears arrest. A third person stays detained while investigators miss their deadline.
+10 | These situations involve regular bail, anticipatory bail and default bail. And the route depends on the situation.
+10 | Under the Bharatiya Nagarik Suraksha Sanhita, or B N S S, let us understand each route through simple examples.
+# 2 · REGULAR BAIL
+10 | Regular bail usually means seeking release after arrest, or after surrender into the court's custody.
+10 | For a bailable offence, Section Four Seventy Eight generally makes release a right when its requirements are met.
+10 | For non bailable offences, Section Four Eighty governs bail before the Magistrate, subject to restrictions and exceptions.
+6 | Section Four Eighty Three gives bail powers to the Sessions Court and the High Court.
+6 | And remember: non bailable does not mean bail is impossible.
+10 | The court weighs the accusation, the available material, and risks such as absconding or influencing witnesses.
+# 3 · ARJUN IS ARRESTED
+6 | Arjun is arrested in a non bailable case. His lawyer seeks regular bail.
+6 | Arjun has a fixed address, will attend court, and will not contact witnesses.
+8 | The prosecution explains its custody concerns. The court weighs the circumstances and the legal restrictions.
+8 | If granted bail, Arjun must meet the release requirements and obey the conditions. Bail does not decide guilt.
+# 4 · ANTICIPATORY BAIL
+6 | Anticipatory bail is different: it is protection arranged before arrest.
+10 | Under Section Four Eighty Two, someone who reasonably apprehends arrest for a non bailable offence may approach the Sessions Court or High Court.
+8 | The court can direct that, if arrested on that accusation, the person be released on bail.
+8 | Merely filing the application gives no automatic protection. The court's order does.
+10 | Section Four Eighty Two, sub section Four, excludes accusations under B N S Section Sixty Five and Section Seventy, sub section Two.
+8 | These are specified sexual offences against minor girls. Some special laws also bar anticipatory bail.
+# 5 · MEERA'S CASE
+10 | Meera faces a non bailable accusation and has concrete reasons to fear arrest. She applies under Section Four Eighty Two.
+10 | If protection is granted, the court may require her to attend police questioning and avoid threatening witnesses.
+6 | She may also need the court's permission before leaving India.
+6 | Anticipatory bail protects liberty while the case proceeds.
+8 | It does not cancel the F I R, or excuse cooperation with a lawful investigation.
+# 6 · DEFAULT BAIL
+8 | Default bail, also called statutory bail, arises under Section One Eighty Seven, sub section Three.
+10 | It applies when the charge sheet is not filed within the applicable period of detention during investigation.
+10 | The section specifies ninety days for offences punishable with death, life imprisonment, or imprisonment for a term of ten years or more.
+8 | And sixty days for other offences. The accused must claim the right, and be prepared to furnish bail.
+8 | Check the exact offence, the judicial interpretation and any special law before choosing the deadline.
+# 7 · WHERE COUNTING BEGINS
+8 | Count from the first remand order, including that day as day one, following the Supreme Court's counting rule.
+10 | Do not start from the F I R date. And moving from police custody to judicial custody does not restart the clock.
+10 | These sixty or ninety days concern detention during investigation. Separate rules govern prolonged undertrial detention.
+6 | And the trial need not finish within the investigation detention period.
+# 8 · A 60-DAY EXAMPLE
+8 | Suppose Ravi's case is in the sixty day category, with no special law extension.
+6 | His first remand is on the first of January, twenty twenty six. || His first remand is on 1 January 2026.
+8 | January accounts for thirty one days. February adds twenty eight, taking the count to fifty nine. || January accounts for 31 days. February adds 28, taking the count to 59.
+10 | The first of March is day sixty. If the police report is not filed by then, the right arises on the second of March, day sixty one. || 1 March is day 60. If the police report is not filed by then, the right arises on 2 March, day 61.
+10 | Ravi can then claim default bail, and offer to furnish bail. He does not simply walk out when the calendar changes.
+6 | A court order, and compliance with the release requirements, are needed.
+# 9 · WHY A TIMELY CLAIM MATTERS
+6 | Timing matters. Suppose Ravi claims default bail as soon as the period expires.
+6 | At that moment no charge sheet has been filed, and he offers to furnish bail.
+8 | A charge sheet filed later cannot defeat his claim, just because the court has not decided it yet.
+10 | But if a valid charge sheet is filed before he claims the right, default bail is ordinarily unavailable. He may still seek regular bail.
+10 | Default bail rests on the missed statutory deadline. It is not an acquittal, and the investigation may continue after release.
+# 10 · REMEMBER
+10 | Remember three questions. Already in custody? Consider regular bail. Reasonably fearing arrest? Consider anticipatory bail.
+8 | Investigation deadline expired without the required report? Examine default bail immediately.
+6 | In every route, the applicable law, the court order and the bail conditions matter.

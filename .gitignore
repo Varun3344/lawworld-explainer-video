@@ -12,3 +12,15 @@ stock/
 lokadalat/*.mp3
 lokadalat/*.png
 overlays/_thumb_brand.html
+
+# machine-local Flow account map (live Google login sessions; see split/accounts.example.sh)
+split/accounts.local.sh
+
+# runtime gate markers (an empty file = "pilot approved, carry on")
+split/GO*
+kanglish/GO
+kn_office/GO
+
+# scratch
+*.bak_*
+hck_home_now.html
