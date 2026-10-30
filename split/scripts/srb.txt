@@ -1,0 +1,59 @@
+// Shreeram Builders v. Upendra Kantilal Thanawala and others, 2026 INSC 1176, Civil Appeal Nos. 9817-9818 of 2024 (Sanjay Kumar J.
+// wrote it, Sanjeev Sachdeva J.), decided 29.10.2026, REPORTABLE. Concept-format judgment reel (9:16, ~96 s), as sets gpk / rcc / nkp.
+// Source: livelaw PDF, pdfplumber text (scratchpad find30/SC/SC_2026INSC1176_ShreeramBuilders_v_Thanawala.txt, 55 pages, paras 1-62,
+// read in full).
+// Facts used: 'Agreement for Development' dated 06.08.2003, five Thanawalas (the owners, the 'Vendors') and the builder firm with its
+// three partners; Clause 61: each side names an arbitrator, they elect an umpire (2, 15, 29); Lands A, B, C in Village Panchpakhadi,
+// Taluka & District Thane (8); the owners' undivided share 20/90th = 2/9th (15); Clause 1: the right to develop their 2/9th share in
+// the FSI (17); Clause 3: Rs 915 per sq ft on 25,000 sq ft of FSI = Rs 2,28,75,000, open to change with the FSI till the plan is
+// sanctioned (17, 57); Clause 5: Rs 55,00,000 earnest; Clause 6: balance Rs 1,73,75,000 in ten instalments of Rs 17,37,500 (18, 19);
+// Clause 7: notice + 15 days to cure, payments and "time shall be the essence" (19), again Clauses 63, 64 (29); Clause 37: the
+// conveyance not "till payment of all the instalments and amounts due" (27, 58); bungalow, gardens, Room No. 1 in Chawl No. 1
+// excluded (16, 20, 28, 58); Clauses 53, 54: on a payment default the agreement ends; with no construction on their share, the owners
+// repay the consideration, without interest (28, 62).
+// Payment: no plan was sanctioned, so the third mode applied: full payment by 01.03.2008 (54); instalments 1-6 paid 2 to 50 days late,
+// accepted without protest (the missing Clause 7 notice cured that delay, but time stayed of the essence) (55, 56); cheques for
+// instalments 7-9 offered 144 / 52 / 117 days late, returned 16.04.2008; the 10th never tendered; the balance "was not completed by
+// 01.03.2008" (55); termination by the owners' legal notice dated 09.04.2008 (2).
+// Award: majority award 10.12.2011 (Justice S.D. Pandit, umpire, and P.S. Mudholkar; V.P. Patil dissented) (2, 3): termination
+// illegal; specific performance on depositing Rs 10,91,30,164 within 3 months; sale deed for the 2/9th share excluding only the owners'
+// share in the bungalow, garden, room and courtyard (3, 39); six times the agreed rate = Rs 5,490 per sq ft, Rs 13,72,75,000 in all
+// (38); alternative damages Rs 23,21,19,892 if specific performance were reversed (38).
+// Courts below: Principal District Judge, Thane, 29.03.2017, remitted by consent by the Bombay High Court on 26.06.2019 (5); second
+// round 25.01.2020: both s.34 applications dismissed, the majority award upheld "in its entirety" (6); Bombay High Court (a learned
+// Judge) 05.03.2024: the owners' s.37 appeal allowed, the majority award set aside (6), contrary to s.28(3), no rewriting (41).
+// Held: s.37 jurisdiction coterminous with s.34 (Gayatri Balasamy) (44); unamended s.34 applies, both s.34 applications filed long
+// before 23.10.2015 (CMA 35 of 2012, CMA 76 of 2013) (5, 44); an award against the terms of the contract is patently illegal (R.S.
+// Sharma, OPG Power) (47, 50); "the nomenclature of a document would not be decisive as to its nature" (14); development or sale, "it
+// was not essential to identify and label the character of the agreement": the terms, "stipulating sequential performance of
+// obligations", mattered (52); s.28(3): decide by the terms of the contract (52); "it was not for the two learned arbitrators to
+// rewrite its terms" (58); the conveyance was linked to full payment, the consideration still indeterminate (57, 58); excluded property
+// pulled in, the owners of the other 7/9th not before the tribunal (58); the superseded MoU payment (Rs 13,18,334) and Rs 26,222 beyond
+// the agreement (59); the new rate "completely beyond the scope of the agreement and defied logic" (59); no damages clause, alternative
+// damages "opposed to public policy, as rightly noted by the High Court" (60); the arbitrators "completely supplanted them with new
+// terms, as per their own fancies" (61); the High Court's s.28(3) finding "correct", its sale-or-development exercise "not necessary"
+// (61). Result: "no grounds to uphold the majority award"; Article 142: the owners did not abide by Clause 54 and retained the money,
+// so they return the amounts paid under the agreement with simple interest @ 9% p.a. from each payment till the refund; the builder's
+// deposits in the courts returned with interest accrued, if any; appeals disposed of; parties bear their own costs (62).
+// Not said: the Court's general stamp-duty remark (14) is not tied to anyone; the builder's 2017 deposit of Rs 41,11,744 and its offer to
+// pay Rs 13,72,75,000 (53) are only its statements; any refund amount (the judgment gives none); the appeals were "disposed of", not
+// "dismissed".
+// Flow policy: no private person is named in speech (the title is on the cite card only): "the builder", "the owners"; no "admitted".
+// Fact-check 30-10-2026: Rs 915 is per sq ft of FSI, not of land (17: Clause 3); the full-payment date is 01.03.2008 (54, 55); the
+// Court's own words on the award are "no grounds to uphold the majority award" (62), so "could not be upheld", not "stays set aside";
+// interest is 9% "per annum" (62); "unamended" s.34 (44).
+# 1 · REWRITE THE DEAL?
+10 | Hi, I am Ravishankar from LawWorld. Can arbitrators order specific performance at six times the agreed rate, on terms the contract never contained?
+10 | On twenty ninth October, a two-judge Supreme Court bench of Honourable Justice Sanjay Kumar and Honourable Justice Sanjeev Sachdeva ruled. || On 29 October, a two-judge Supreme Court bench of Honourable Justice Sanjay Kumar and Honourable Justice Sanjeev Sachdeva ruled.
+# 2 · THE AGREEMENT
+10 | In two thousand three, landowners gave a builder the right to develop their two ninth share at Panchpakhadi, Thane, at nine hundred fifteen rupees per square foot of F S I. || In 2003, landowners gave a builder the right to develop their 2/9th share at Panchpakhadi, Thane, at ₹915 per square foot of FSI.
+10 | Time was of the essence; conveyance would follow only full payment. The balance was not fully paid by first March two thousand eight, and the owners terminated the agreement. || Time was of the essence; conveyance would follow only full payment. The balance was not fully paid by 1 March 2008, and the owners terminated the agreement.
+# 3 · THE AWARD
+10 | In twenty eleven, the majority award called the termination illegal, and granted the builder specific performance at six times the agreed rate. || In 2011, the majority award called the termination illegal, and granted the builder specific performance at six times the agreed rate.
+10 | It also took in part of the excluded property, and fixed alternative damages. The District Judge upheld the award, but the Bombay High Court set it aside.
+# 4 · WHAT THE COURT HELD
+10 | Testing the award under the unamended Section Thirty Four, the Supreme Court held that rewriting the contract violates Section Twenty Eight, sub section Three. || Testing the award under the unamended Section 34, the Supreme Court held that rewriting the contract violates Section 28(3).
+10 | Development deal or sale, the label did not matter; the terms did. And, the Court said, the two arbitrators supplanted them with new terms, as per their own fancies. || Development deal or sale, the label did not matter; the terms did. And, the Court said, the two arbitrators supplanted them with new terms, "as per their own fancies."
+# 5 · THE ORDERS
+10 | The award could not be upheld. But the owners kept the money, so under Article One Forty Two, they must refund it with nine percent simple interest a year. || The award could not be upheld. But the owners kept the money, so under Article 142, they must refund it with 9% simple interest a year.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple.

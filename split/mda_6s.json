@@ -1,0 +1,42 @@
+{
+  "aspectRatio": "9:16",
+  "maxWordsPerClip": 32,
+  "downloadFolder": "/Users/admin/Downloads/New short/product-explainer/downloads/mda",
+  "useLastFrameReference": true,
+  "referenceFrameFrom": "first",
+  "transition": {
+    "type": "cut"
+  },
+  "globalStyle": {
+    "avatar": "@me",
+    "useAccountAvatar": true,
+    "hostName": "the presenter",
+    "channelName": "LawWorld",
+    "voice": "@me verified avatar voice, speaking fluent natural Kannada with a clear Karnataka accent (identical pitch and tone in every clip)",
+    "outfit": "a tailored dark sapphire-blue two-piece business suit, a pale-lavender formal shirt and a dark-gold silk tie (identical in every scene)",
+    "background": "a seamless, plain, very light ivory off-white studio backdrop (almost white, with only a faint warm tint), brightly and evenly lit from edge to edge with no falloff, no vignette, no shadows, no texture and no objects - nothing else in the frame; identical in every scene",
+    "gestures": "He faces the camera squarely for the whole clip: head, shoulders and body stay square to the lens, he never turns to the left or right and never points or presents to the side. Animated, energetic open-palm gestures in front of his chest, counting points on his fingers, small confident nods and a bright smile on emphasis; relaxed fingers close together; hands stay in front of his body, inside the frame and never in front of his face; he stays standing in the same spot, at the same distance from the camera, throughout",
+    "audio": "@me verified avatar voice ONLY, speaking the dialogue in the Kannada language exactly as written, crisp, clear and high-energy, continuous speech filling the clip at a quick pace, NO background music, NO sound effects, NO silence at the start or end",
+    "negativePrompts": "He stays in the same spot with his face and upper body fully visible at all times; NO turning the head or body to the side, NO looking away from the camera, NO pointing or presenting to the left or right, NO arm stretched out to the side, NO arms, elbows, hands or shoulders touching or cut by the frame edges, NO oversized hands, NO hands held toward the camera, NO big or spread-out fingers, NO thin or lanky body, NO wide-angle lens distortion, NO furniture, NO bookshelves, NO plants, NO lamps, NO props, NO objects behind him, NO icons or graphics, NO text on screen, NO captions, NO name tags, NO logos, NO outfit change, NO camera cut, NO tripod, NO camera or microphone or any studio equipment visible in frame, NO other people",
+    "camera": "Locked-off static shot, vertical. A medium-wide shot: he is STANDING in the middle of the frame, framed from mid-thigh up and fairly small in the frame, so his body fills only about the middle half of the frame width with wide empty backdrop on BOTH sides of him; his shoulders, elbows and hands always stay well inside the frame; clear space above his head. Eye level, natural portrait-lens look, no zoom, no pan, no camera movement; the camera itself is never visible",
+    "realism": "Photorealistic live-action footage of a real human presenter recorded in one studio session against a plain ivory backdrop, NOT a furnished room. Soft, bright, even high-key light: a soft frontal key light on his face with soft fill, no harsh shadows, natural skin texture, natural eye contact straight into the lens and PERFECT LIP SYNC: his lips, jaw and mouth shapes match every syllable of the dialogue exactly, in time with the voice, no mouth movement without sound and no sound without mouth movement, identical exposure and white balance in every scene. TRUE-TO-LIFE BODY: natural adult proportions that match his face - broad shoulders, a solid average build that fills the jacket (not slim, not lanky), and SLENDER, NATURAL-SIZE HANDS: each hand no longer than his face, relaxed fingers held close together, never spread wide, hands never closer to the camera than his chest",
+    "delivery": "FAST, HIGH-ENERGY Kannada delivery, like a top legal educator coaching advocates in Karnataka straight to camera: quick, punchy pace, strong confident voice, crisp emphasis on key words, bright smile; clear pronunciation of every Kannada word, English legal terms (LawWorld, release deed, writ) said naturally as Karnataka advocates say them; speak the dialogue exactly once, word for word in Kannada, never translate it, never repeat, stretch or slow down a word, never add words"
+  },
+  "projectTitle": "LawWorld_mda_6s",
+  "clipDurationSeconds": 6,
+  "scenes": [
+    {
+      "sceneId": "c01",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "ನಮಸ್ಕಾರ, ನಾನು LawWorld ನಿಂದ ರವಿಶಂಕರ್. ಅಂಗವಿಕಲರ ಮೀಸಲು ನಿವೇಶನಗಳು ಖಾಲಿ ಇದ್ದರೆ, ಅರ್ಜಿ ಆಹ್ವಾನವೇ ಇಲ್ಲದೆ ಒಬ್ಬರಿಗೆ ನಿವೇಶನ ಕೊಡಿ ಎಂದು ಆಯುಕ್ತರು ಆದೇಶಿಸಬಹುದೇ?"
+    },
+    {
+      "sceneId": "c10",
+      "sanitizeDialogue": false,
+      "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+      "dialogue": "ನೋಡಿದ್ದಕ್ಕೆ ಧನ್ಯವಾದಗಳು! ಲೈಕ್, ಶೇರ್ ಮತ್ತು ಸಬ್‌ಸ್ಕ್ರೈಬ್ ಮಾಡಿ, ತೀರ್ಪುಗಳನ್ನು ಸರಳವಾಗಿ ತಿಳಿಯಲು LawWorld ಫಾಲೋ ಮಾಡಿ."
+    }
+  ],
+  "flowProjectUrl": "https://flow.google.com/project/fb5510b2-9d15-40f7-a6b8-28d43e906c8f"
+}

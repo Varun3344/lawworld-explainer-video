@@ -1,0 +1,69 @@
+{
+ "projectTitle": "LawWorld_srb",
+ "title": "An award that rewrote the deal",
+ "source": "split/scripts/srb.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. Can arbitrators order specific performance at six times the agreed rate, on terms the contract never contained?",
+   "chip": "1 · REWRITE THE DEAL?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "On twenty ninth October, a two-judge Supreme Court bench of Honourable Justice Sanjay Kumar and Honourable Justice Sanjeev Sachdeva ruled.",
+   "shown": "On 29 October, a two-judge Supreme Court bench of Honourable Justice Sanjay Kumar and Honourable Justice Sanjeev Sachdeva ruled."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "In two thousand three, landowners gave a builder the right to develop their two ninth share at Panchpakhadi, Thane, at nine hundred fifteen rupees per square foot of F S I.",
+   "shown": "In 2003, landowners gave a builder the right to develop their 2/9th share at Panchpakhadi, Thane, at ₹915 per square foot of FSI.",
+   "chip": "2 · THE AGREEMENT"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "Time was of the essence; conveyance would follow only full payment. The balance was not fully paid by first March two thousand eight, and the owners terminated the agreement.",
+   "shown": "Time was of the essence; conveyance would follow only full payment. The balance was not fully paid by 1 March 2008, and the owners terminated the agreement."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "In twenty eleven, the majority award called the termination illegal, and granted the builder specific performance at six times the agreed rate.",
+   "shown": "In 2011, the majority award called the termination illegal, and granted the builder specific performance at six times the agreed rate.",
+   "chip": "3 · THE AWARD"
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "It also took in part of the excluded property, and fixed alternative damages. The District Judge upheld the award, but the Bombay High Court set it aside."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "Testing the award under the unamended Section Thirty Four, the Supreme Court held that rewriting the contract violates Section Twenty Eight, sub section Three.",
+   "shown": "Testing the award under the unamended Section 34, the Supreme Court held that rewriting the contract violates Section 28(3).",
+   "chip": "4 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Development deal or sale, the label did not matter; the terms did. And, the Court said, the two arbitrators supplanted them with new terms, as per their own fancies.",
+   "shown": "Development deal or sale, the label did not matter; the terms did. And, the Court said, the two arbitrators supplanted them with new terms, \"as per their own fancies.\""
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "The award could not be upheld. But the owners kept the money, so under Article One Forty Two, they must refund it with nine percent simple interest a year.",
+   "shown": "The award could not be upheld. But the owners kept the money, so under Article 142, they must refund it with 9% simple interest a year.",
+   "chip": "5 · THE ORDERS"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple."
+  }
+ ]
+}

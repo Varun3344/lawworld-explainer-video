@@ -1,0 +1,38 @@
+// Mandya Urban Development Authority v. Sri. P. Chandrashekar & Ors., W.P. No. 43457 of 2015 (GM-RES), 2026:KHC:59899, High Court of
+// Karnataka at Bengaluru (Suraj Govindaraj J., single bench), CAV order reserved 15.09.2026, pronounced 28.10.2026, REPORTABLE ("®" on
+// page 1). KANNADA concept-format judgment reel (9:16, ~96 s).
+// Source: scratchpad find30/HC/KHC_WP_43457_2015_MUDA_v_Chandrashekar_disability_site.txt (46 pages, read in full). Every Kannada line
+// hand-written from the judgment.
+// Facts used: R1 a person with 80% locomotor disability, certificate not contested (5.1, 10.10.1, 10.12); on 22.08.2007 R1 paid Rs.600
+// to the authority (9.12, 10.10.3); no site allotted (10.10.5); complaint 26.06.2013 to R2, the State Commissioner for Persons with
+// Disabilities (2, 9.12); order 08.08.2013: 3% reservation required (s.43, 1995 Act), directed the authority to allot a site and to
+// reserve the required percentage / make 3% reservation (3, 5.8); the authority's writ petition (1); authority: 42 sites (2%)
+// reserved, only 11 applied, all 11 allotted; R1 never applied (4.3, 4.11, 9.1, 10.3, 10.10.2); R1: the 2007 payment was itself an
+// application (10.10.4).
+// Held: reservation 2% until 14.12.2006; 3% from 14.12.2006 under Rule 28A(iii) (Karnataka Rules of 2003, inserted by the s.73(1)
+// notification); 5% under s.37(c) RPwD Act only from the notification of 18.04.2026 (9.8, 9.19); the Rs.600 payment was mere
+// registration, not an application: no notice calling for applications (there was none), not on Form II, not the initial deposit of
+// Rule 10(1) (10.16-10.21, 10.36); vacant reserved sites show availability, not that R1 is entitled; every eligible person must get
+// the same chance to apply (10.23); ss.61-62 let the Commissioner look into complaints and take the matter up with the authorities,
+// not order a site for a particular person (10.30-10.31, 10.34); W.P. allowed, the 08.08.2013 order quashed (including the directions
+// to allot and to reserve), the complaint of 26.06.2013 dismissed; liberty to apply when the authority issues a notification;
+// seniority from the registration of 22.08.2007 (10.35, 11.1).
+// NOT used: the CBI investigation, the lottery allotments, officers in custody and the embargo (4.2, 5.12, 10.2, 10.7, 10.24-10.27):
+// the court records no finding there. The 2021 amendment (9.11-9.12). R1's awards (5.3).
+// Flow policy / respect: R1 is never named in speech (case title on the cite card only); "ಮಂಡ್ಯ ನಗರಾಭಿವೃದ್ಧಿ ಪ್ರಾಧಿಕಾರ", never the
+// bare acronym; he LOST the writ but keeps a path (c09).
+# 1 · ಅರ್ಜಿ ಇಲ್ಲದೆ ನಿವೇಶನ?
+10 | ನಮಸ್ಕಾರ, ನಾನು LawWorld ನಿಂದ ರವಿಶಂಕರ್. ಅಂಗವಿಕಲರ ಮೀಸಲು ನಿವೇಶನಗಳು ಖಾಲಿ ಇದ್ದರೆ, ಅರ್ಜಿ ಆಹ್ವಾನವೇ ಇಲ್ಲದೆ ಒಬ್ಬರಿಗೆ ನಿವೇಶನ ಕೊಡಿ ಎಂದು ಆಯುಕ್ತರು ಆದೇಶಿಸಬಹುದೇ?
+10 | ಎರಡು ಸಾವಿರದ ಇಪ್ಪತ್ತಾರರ ಅಕ್ಟೋಬರ್ ಇಪ್ಪತ್ತೆಂಟರಂದು, ಕರ್ನಾಟಕ ಹೈಕೋರ್ಟ್‌ನ ಗೌರವಾನ್ವಿತ ನ್ಯಾಯಮೂರ್ತಿ ಸೂರಜ್ ಗೋವಿಂದರಾಜ್ ಅವರ ಏಕಸದಸ್ಯ ಪೀಠ ಈ ಪ್ರಕರಣದಲ್ಲಿ ತೀರ್ಪು ನೀಡಿತು. || 2026ರ ಅಕ್ಟೋಬರ್ 28ರಂದು, ಕರ್ನಾಟಕ ಹೈಕೋರ್ಟ್‌ನ ಗೌರವಾನ್ವಿತ ನ್ಯಾಯಮೂರ್ತಿ ಸೂರಜ್ ಗೋವಿಂದರಾಜ್ ಅವರ ಏಕಸದಸ್ಯ ಪೀಠ ಈ ಪ್ರಕರಣದಲ್ಲಿ ತೀರ್ಪು ನೀಡಿತು.
+# 2 · ಪಾವತಿ ಮತ್ತು ಆದೇಶ
+10 | ಶೇಕಡ ಎಂಬತ್ತು ಚಲನ ಅಂಗವೈಕಲ್ಯ ಇರುವ ವ್ಯಕ್ತಿಯೊಬ್ಬರು, ಎರಡು ಸಾವಿರದ ಏಳರಲ್ಲಿ ಮಂಡ್ಯ ನಗರಾಭಿವೃದ್ಧಿ ಪ್ರಾಧಿಕಾರಕ್ಕೆ ಆರುನೂರು ರೂಪಾಯಿ ಪಾವತಿಸಿದರು. ಆದರೆ ನಿವೇಶನ ಸಿಗಲಿಲ್ಲ. || ಶೇ 80 ಚಲನ ಅಂಗವೈಕಲ್ಯ ಇರುವ ವ್ಯಕ್ತಿಯೊಬ್ಬರು, 2007ರಲ್ಲಿ ಮಂಡ್ಯ ನಗರಾಭಿವೃದ್ಧಿ ಪ್ರಾಧಿಕಾರಕ್ಕೆ ₹600 ಪಾವತಿಸಿದರು. ಆದರೆ ನಿವೇಶನ ಸಿಗಲಿಲ್ಲ.
+10 | ಅವರ ದೂರಿನ ಮೇರೆಗೆ, ಎರಡು ಸಾವಿರದ ಹದಿಮೂರರಲ್ಲಿ ಅಂಗವಿಕಲರ ರಾಜ್ಯ ಆಯುಕ್ತರು, ಅವರಿಗೆ ನಿವೇಶನ ಹಂಚಲು ಮತ್ತು ಶೇಕಡ ಮೂರು ಮೀಸಲಿಡಲು ಪ್ರಾಧಿಕಾರಕ್ಕೆ ಆದೇಶಿಸಿದರು. || ಅವರ ದೂರಿನ ಮೇರೆಗೆ, 2013ರಲ್ಲಿ ಅಂಗವಿಕಲರ ರಾಜ್ಯ ಆಯುಕ್ತರು, ಅವರಿಗೆ ನಿವೇಶನ ಹಂಚಲು ಮತ್ತು ಶೇ 3 ಮೀಸಲಿಡಲು ಪ್ರಾಧಿಕಾರಕ್ಕೆ ಆದೇಶಿಸಿದರು.
+# 3 · ಎರಡೂ ಕಡೆಯ ವಾದ
+10 | ರಿಟ್ ಅರ್ಜಿಯಲ್ಲಿ ಪ್ರಾಧಿಕಾರದ ವಾದ: ಮೀಸಲಿಟ್ಟ ನಲವತ್ತೆರಡು ನಿವೇಶನಗಳಿಗೆ ಅರ್ಜಿ ಹಾಕಿದ ಹನ್ನೊಂದೂ ಜನರಿಗೆ ನಿವೇಶನ ಸಿಕ್ಕಿದೆ, ಇವರು ಅರ್ಜಿ ಹಾಕಿಲ್ಲ. ದೂರುದಾರರ ವಾದ: ಆ ಪಾವತಿಯೇ ಅರ್ಜಿ. || ರಿಟ್ ಅರ್ಜಿಯಲ್ಲಿ ಪ್ರಾಧಿಕಾರದ ವಾದ: ಮೀಸಲಿಟ್ಟ 42 ನಿವೇಶನಗಳಿಗೆ ಅರ್ಜಿ ಹಾಕಿದ ಎಲ್ಲ 11 ಜನರಿಗೆ ನಿವೇಶನ ಸಿಕ್ಕಿದೆ, ಇವರು ಅರ್ಜಿ ಹಾಕಿಲ್ಲ. ದೂರುದಾರರ ವಾದ: ಆ ಪಾವತಿಯೇ ಅರ್ಜಿ.
+# 4 · ಹೈಕೋರ್ಟ್ ತೀರ್ಮಾನ
+10 | ಹೈಕೋರ್ಟ್ ಪ್ರಕಾರ, ಮೀಸಲು ಎರಡು ಸಾವಿರದ ಆರರ ಡಿಸೆಂಬರ್ ಹದಿನಾಲ್ಕರವರೆಗೆ ಶೇಕಡ ಎರಡು, ನಂತರ ಶೇಕಡ ಮೂರು. ಶೇಕಡ ಐದು, ಎರಡು ಸಾವಿರದ ಇಪ್ಪತ್ತಾರರ ಏಪ್ರಿಲ್‌ನಿಂದ ಮಾತ್ರ. || ಹೈಕೋರ್ಟ್ ಪ್ರಕಾರ, ಮೀಸಲು 2006ರ ಡಿಸೆಂಬರ್ 14ರವರೆಗೆ ಶೇ 2, ನಂತರ ಶೇ 3. ಶೇ 5, 2026ರ ಏಪ್ರಿಲ್‌ನಿಂದ ಮಾತ್ರ.
+10 | ಆರುನೂರು ರೂಪಾಯಿ ಪಾವತಿ ಕೇವಲ ನೋಂದಣಿ, ಅರ್ಜಿ ಅಲ್ಲ. ಅರ್ಜಿ ಆಹ್ವಾನಿಸುವ ಪ್ರಕಟಣೆಗೆ ಉತ್ತರವಾಗಿ, ಫಾರ್ಮ್ ಎರಡರಲ್ಲಿ, ಠೇವಣಿಯೊಂದಿಗೆ ಅರ್ಜಿ ಸಲ್ಲಿಸಬೇಕು. ಇಲ್ಲಿ ಪ್ರಕಟಣೆಯೇ ಇರಲಿಲ್ಲ. || ₹600 ಪಾವತಿ ಕೇವಲ ನೋಂದಣಿ, ಅರ್ಜಿ ಅಲ್ಲ. ಅರ್ಜಿ ಆಹ್ವಾನಿಸುವ ಪ್ರಕಟಣೆಗೆ ಉತ್ತರವಾಗಿ, ಫಾರ್ಮ್ IIರಲ್ಲಿ, ಠೇವಣಿಯೊಂದಿಗೆ ಅರ್ಜಿ ಸಲ್ಲಿಸಬೇಕು. ಇಲ್ಲಿ ಪ್ರಕಟಣೆಯೇ ಇರಲಿಲ್ಲ.
+10 | ಮೀಸಲು ನಿವೇಶನ ಖಾಲಿ ಇದ್ದರೂ ಇವರಿಗೆ ಹಕ್ಕು ಬರುವುದಿಲ್ಲ, ಇತರರಿಗೂ ಅವಕಾಶ ಬೇಕು. ಆಯುಕ್ತರು ದೂರು ಪರಿಶೀಲಿಸಬಹುದು, ಆದರೆ ಒಬ್ಬರಿಗೆ ನಿವೇಶನ ಹಂಚಲು ಆದೇಶಿಸುವಂತಿಲ್ಲ.
+# 5 · ಆದೇಶ
+10 | ಹೈಕೋರ್ಟ್ ರಿಟ್ ಅರ್ಜಿ ಪುರಸ್ಕರಿಸಿ, ಆಯುಕ್ತರ ಆದೇಶ ರದ್ದುಗೊಳಿಸಿ, ದೂರು ವಜಾಗೊಳಿಸಿತು. ಅಧಿಸೂಚನೆ ಬಂದಾಗ ಅವರು ಅರ್ಜಿ ಹಾಕಬಹುದು, ಎರಡು ಸಾವಿರದ ಏಳರ ನೋಂದಣಿಯ ಹಿರಿತನದೊಂದಿಗೆ. || ಹೈಕೋರ್ಟ್ ರಿಟ್ ಅರ್ಜಿ ಪುರಸ್ಕರಿಸಿ, ಆಯುಕ್ತರ ಆದೇಶ ರದ್ದುಗೊಳಿಸಿ, ದೂರು ವಜಾಗೊಳಿಸಿತು. ಅಧಿಸೂಚನೆ ಬಂದಾಗ ಅವರು ಅರ್ಜಿ ಹಾಕಬಹುದು, 2007ರ ನೋಂದಣಿಯ ಹಿರಿತನದೊಂದಿಗೆ.
+6 | ನೋಡಿದ್ದಕ್ಕೆ ಧನ್ಯವಾದಗಳು! ಲೈಕ್, ಶೇರ್ ಮತ್ತು ಸಬ್‌ಸ್ಕ್ರೈಬ್ ಮಾಡಿ, ತೀರ್ಪುಗಳನ್ನು ಸರಳವಾಗಿ ತಿಳಿಯಲು LawWorld ಫಾಲೋ ಮಾಡಿ.

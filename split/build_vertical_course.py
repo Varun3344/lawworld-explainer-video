@@ -439,6 +439,19 @@ def auto_edit():
         final_pts = [p for p in final_pts if p[0] < ts - 0.05]
         if len(final_pts) > 1 and ts - final_pts[-1][0] < 2.0: final_pts.pop()
         if final_pts[-1][1] != "S": final_pts.append((ts, "S"))
+    if JUDGMENT:
+        # the bench card stays on the split while each judge's photo pops in: a full-presenter shot inside it hid the second judge
+        # of a two-judge bench (srb, gpk; 30-10-2026), and the owner wants a photo seen for every judge
+        bench = next((c for c in tl["cues"] if c["type"] == "bench"), None)
+        if bench:
+            b0, b1 = bench["t0"], bench["t1"]
+            before = [L for t, L in sorted(final_pts) if t <= b0 + 0.3]     # the look on screen when the card opens
+            if before and before[-1] != "S": final_pts.append((b0, "S"))
+            final_pts = sorted([p for p in final_pts if not (b0 + 0.3 < p[0] < b1 and p[1] != "S")])
+            dedup = []
+            for t, L in final_pts:
+                if not dedup or dedup[-1][1] != L: dedup.append((t, L))
+            final_pts = dedup
     json.dump([[round(t, 3), L] for t, L in final_pts], open(f"{OUT}/edit.json", "w"))
     tot = {L: 0.0 for L in "AGS"}
     for k, (t, L) in enumerate(final_pts):
