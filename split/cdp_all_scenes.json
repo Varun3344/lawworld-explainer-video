@@ -1,0 +1,68 @@
+{
+ "projectTitle": "LawWorld_cdp",
+ "title": "Who can appeal a consent decree?",
+ "source": "split/scripts/cdp.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. No appeal lies from a consent decree. But does that bar stop a stranger to the compromise, whose rights the decree affects?",
+   "chip": "1 · CAN A STRANGER APPEAL?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "On thirtieth October, a two-judge Supreme Court bench of Honourable Justice J B Pardiwala and Honourable Justice K Vinod Chandran ruled.",
+   "shown": "On 30 October, a two-judge Supreme Court bench of Honourable Justice J.B. Pardiwala and Honourable Justice K. Vinod Chandran ruled."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "In nineteen seventy five, the owner sold the land to the respondents' predecessor. Years later, his heirs agreed to sell it to a housing society.",
+   "shown": "In 1975, the owner sold the land to the respondents' predecessor. Years later, his heirs agreed to sell it to a housing society.",
+   "chip": "2 · THE CONSENT DECREE"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "The society sued for specific performance, and got a consent decree in twenty thirteen. In twenty twenty two, the land was conveyed to the appellant.",
+   "shown": "The society sued for specific performance, and got a consent decree in 2013. In 2022, the land was conveyed to the appellant."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "Strangers to that suit, the respondents appealed in twenty twenty four. The High Court restrained the appellant, then condoned eleven years' delay and granted leave.",
+   "shown": "Strangers to that suit, the respondents appealed in 2024. The High Court restrained the appellant, then condoned 11 years' delay and granted leave."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The appellant argued that Section Ninety Six, sub section Three, bars any appeal from a consent decree, and that a stranger to the compromise cannot challenge it.",
+   "shown": "The appellant argued that Section 96(3) bars any appeal from a consent decree, and that a stranger to the compromise cannot challenge it.",
+   "chip": "3 · THE CHALLENGE"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The Court disagreed. That bar, and the estoppel under Order Twenty Three, bind only the parties to the compromise. A stranger is not deemed to have consented.",
+   "shown": "The Court disagreed. That bar, and the estoppel under Order XXIII, bind only the parties to the compromise. A stranger is not deemed to have consented.",
+   "chip": "4 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "But a stranger needs leave, and must show prima facie prejudice. A consent decree faces no stricter test. Here, leave was rightly granted, with no view on the merits."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "A stranger's knowledge can't be assumed from the decree's date; with the delay explained, condoning it was no error. The injunction wasn't disturbed; the appeals failed.",
+   "chip": "5 · THE VERDICT"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple."
+  }
+ ]
+}

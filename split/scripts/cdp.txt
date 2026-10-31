@@ -1,0 +1,45 @@
+// Girishbhai Natwarlal Patel v. Gautam Punjabhai Palkhiwala (Dead) by LRs & Ors., 2026 INSC 1177, Civil Appeal Nos. 14017-14018 of
+// 2026 (arising out of SLP (C) Nos. 29178-29179 of 2024) (J.B. Pardiwala J. wrote it, K. Vinod Chandran J.), decided 30.10.2026,
+// REPORTABLE. Concept-format judgment reel (9:16, ~96 s), as sets srb / gpk.
+// Source: PDF text (scratchpad find31/SC/girishbhai_patel.txt, 67 pages, paras 1-72, read in full).
+// Facts used: sale deed 29.08.1975 by the original owner to the respondents' predecessor, "not in dispute" (18(i), 24(i), 60);
+// registered agreement to sell 11.09.1996 by the owner's heirs to a housing society (18(iii)(ii), 61); the society's suit for
+// specific performance, Civil Suit No. 322 of 2012, May 2012 (18(v)); compromise pursis and consent decree 29.04.2013 (3, 18(vi));
+// execution 2020 (18(vii), 61); sale deed 18.06.2022 by the Court Commissioner to the appellant, the society a confirming party
+// (18(viii), 61); Respondents 1-9 never parties to the suit or the compromise (34(ii), 39, 52, 59); they CLAIM awareness around
+// August 2023, RTI reply 21.03.2024 (64); First Appeal with leave, delay and interim applications 28.02.2024 (24(vii)); Gujarat High Court (27, 72):
+// ex parte ad interim injunction 02.04.2024 (3, 4); 14.08.2024: injunction confirmed, 11 years' delay condoned, leave granted (3, 7).
+// Challenge: s.96(3) CPC bars an appeal from a consent decree; a non-party has no cause of action to challenge it; Pushpa Devi
+// Bhagat, Triloki Nath Singh (13, 43); also the delay and the ex parte injunction (8, 12); three issues (34).
+// Held: the argument "thoroughly misplaced" (43); the s.96(3) bar and the estoppel rest on the compromise between the parties (47);
+// Pushpa Devi relates only to parties (51); Triloki Nath distinguished: a buyer through a party is bound, these respondents trace no
+// claim through any party (52); a stranger is not "deemed to have consented"; s.96(3) r/w Order XXIII Rules 3 and 3A act as an
+// estoppel only on the parties (53); no unrestricted right: leave + prima facie prejudice (54, 55); a consent decree: no "distinct or
+// more restrictive test" (56); not for a remote or indirect effect (58, H. Anjanappa); a legally cognisable interest, leave justified
+// (62); delay: not simply counted from 29.04.2013, knowledge not assumed from the decree's date (63); explanation and steps (64);
+// no error in condoning (65); injunction: no error, land might be alienated, appellant heard before it was continued (37, 39-41);
+// conclusions (66); no final view on the merits or the allegations (35, 62, 67); appeals dismissed (69); the High Court "requested"
+// to decide the main appeal within three months (71).
+// Not said: no finding of fraud or collusion (the Court records none: 35, 38, 61, 62, 67); limitation does not "run from knowledge"
+// as a rule: the Court weighed knowledge in condoning the delay (63-65); the three-month order is a request (71).
+// Flow policy: no private person is named in speech (the title is on the cite card only): "the appellant", "the respondents", "a
+// housing society"; no "fraud", "collusion", "cheating", no "admitted".
+// Fact-check 31-10-2026 (c01-c04, c06, c07, c10 unchanged): c05 "then" (02.04.2024 ex parte injunction first; 14.08.2024
+// confirmation, condonation, leave: 3, 7); c08 the non-party must show prejudice "prima facie" (54) and leave carries no view on the
+// merits (62); c09 condonation rests on non-party status + their explanation + steps, not on the decree's date alone (63-65, 66(iii)),
+// so no "so ... correct"; the injunction "does not warrant interference" / "no error" (37, 66(i), 68), not "stood" / "upheld".
+# 1 · CAN A STRANGER APPEAL?
+10 | Hi, I am Ravishankar from LawWorld. No appeal lies from a consent decree. But does that bar stop a stranger to the compromise, whose rights the decree affects?
+10 | On thirtieth October, a two-judge Supreme Court bench of Honourable Justice J B Pardiwala and Honourable Justice K Vinod Chandran ruled. || On 30 October, a two-judge Supreme Court bench of Honourable Justice J.B. Pardiwala and Honourable Justice K. Vinod Chandran ruled.
+# 2 · THE CONSENT DECREE
+10 | In nineteen seventy five, the owner sold the land to the respondents' predecessor. Years later, his heirs agreed to sell it to a housing society. || In 1975, the owner sold the land to the respondents' predecessor. Years later, his heirs agreed to sell it to a housing society.
+10 | The society sued for specific performance, and got a consent decree in twenty thirteen. In twenty twenty two, the land was conveyed to the appellant. || The society sued for specific performance, and got a consent decree in 2013. In 2022, the land was conveyed to the appellant.
+10 | Strangers to that suit, the respondents appealed in twenty twenty four. The High Court restrained the appellant, then condoned eleven years' delay and granted leave. || Strangers to that suit, the respondents appealed in 2024. The High Court restrained the appellant, then condoned 11 years' delay and granted leave.
+# 3 · THE CHALLENGE
+10 | The appellant argued that Section Ninety Six, sub section Three, bars any appeal from a consent decree, and that a stranger to the compromise cannot challenge it. || The appellant argued that Section 96(3) bars any appeal from a consent decree, and that a stranger to the compromise cannot challenge it.
+# 4 · WHAT THE COURT HELD
+10 | The Court disagreed. That bar, and the estoppel under Order Twenty Three, bind only the parties to the compromise. A stranger is not deemed to have consented. || The Court disagreed. That bar, and the estoppel under Order XXIII, bind only the parties to the compromise. A stranger is not deemed to have consented.
+10 | But a stranger needs leave, and must show prima facie prejudice. A consent decree faces no stricter test. Here, leave was rightly granted, with no view on the merits.
+# 5 · THE VERDICT
+10 | A stranger's knowledge can't be assumed from the decree's date; with the delay explained, condoning it was no error. The injunction wasn't disturbed; the appeals failed.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple.
