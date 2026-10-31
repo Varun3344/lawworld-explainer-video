@@ -1,0 +1,38 @@
+// M/s. Aruna Mills v. The State Tax Officer, Inspection Group-1, Tirupur Intelligence Division & Anr., W.P. Nos. 30908, 31022, 31026
+// & 31597 of 2024 (common order), High Court of Judicature at Madras, single bench of N. Senthilkumar J., reserved 16.09.2026,
+// pronounced 28.10.2026. Reportable: listed under the court's judis "reportable = Y" search (the PDF's "Index : Yes / No" line is left
+// unstruck); no neutral citation printed or assigned yet (judis citno empty). First Madras High Court reel. Concept format as cdp / gms.
+// Source: scratchpad find31/count_B/mhc_1385522.txt + .pdf (24 pages, paras 1-31, read in full).
+// Facts used: the firm makes and supplies cotton, poly-cotton yarn and synthetic fibres, Tiruppur address (cause title, 2); surprise
+// inspection 19.10.2023 and 20.10.2023, on the days of a family wedding at Karur, about 50 km away (3, 22); THE FIRM'S CASE: its
+// accounting staff were coerced to pay through Form GST DRC-03 on 19 and 20.10.2023, amounts collected on the spot for 2020-21 to
+// 2023-24 (3, 4); representation 06.11.2023 objecting to payments made under protest and seeking a refund (4); reply 22.11.2023: the
+// payments "not voluntary" (6); prayers: refund of Rs.2,20,09,106 (2020-21), Rs.2,59,151 (2021-22), Rs.3,84,871 (2022-23), Rs.1,40,687
+// (2023-24) "recovered during surprise inspection" = over two crore (prayers; the counter itself names Rs.2,24,09,652: 19);
+// DRC-01A 07.11.2023 (4); interest dropped, Rule 88B (5, 7); SCN DRC-01 15.12.2023 with Nil proposals (6); order in Form GST DRC-05
+// 27.03.2024 (7, 15); no DRC-04 under Rule 142 (10, 12: Rule 142(2) DRC-03 -> DRC-04 acknowledgement). DEPARTMENT: DRC-03 is "a
+// mechanism for voluntary payment" (18, 19); OTP sent only to the partners' registered mobile and email (19); 17 days' delay (20);
+// Rule 142(3) complied with, DRC-05 (20). HELD: the inspection fell on the wedding days, the partners' presence "could not be possible"
+// (22); the 17-day delay "cannot, by itself, be a ground to reject the petitioner's claim" (23), plea rejected (25); from the counter,
+// DRC-04 was not issued, the 06.11.2023 representation not considered, "non issuance of Form GST DRC-04 is fatal to the respondent",
+// ATR Malleable Casting (Cal. DB) "squarely applies", order set aside (27, 28); orders of 27.03.2024 set aside, refund of the IGST, CGST
+// and SGST remitted during the inspection for 2020-21 to 2023-24 "as prayed for", within eight weeks of receipt of the order (29);
+// a manual appeal may be filed within twelve weeks (30); writ petitions allowed, no costs (31).
+// Not said: the Court makes NO express finding of coercion; coercion stays the firm's case (c04 "The firm says"). No tax-evasion
+// word anywhere. The firm accepted defects 1, 3 and 4 in its SCN reply (7): not spoken, not contradicted. No "admitted" (c08 "showed").
+// Flow policy: only the company is named (no person); the wedding is "a family wedding", nobody in the family is named.
+# 1 · PAID ON THE SPOT?
+10 | Hi, I am Ravishankar from LawWorld. Tax paid on the spot in a surprise G S T inspection, and never acknowledged. Can the department simply keep it?
+10 | On the twenty eighth of October, twenty twenty six, a single bench of Honourable Justice N Senthilkumar of the Madras High Court ruled. || On 28 October 2026, a single bench of Honourable Justice N. Senthilkumar of the Madras High Court ruled.
+# 2 · THE INSPECTION
+10 | Aruna Mills, a yarn maker in Tiruppur, faced a surprise G S T inspection in October twenty twenty three, on the days of a family wedding. || Aruna Mills, a yarn maker in Tiruppur, faced a surprise GST inspection in October 2023, on the days of a family wedding.
+10 | The firm says over two crore rupees of tax was collected on the spot, through Form D R C zero three, and was not voluntary. It sought a refund. || The firm says over ₹2 crore of tax was collected on the spot, through Form DRC-03, and was not voluntary. It sought a refund.
+10 | The officer passed orders in Form D R C zero five in March twenty twenty four. But no acknowledgement in Form D R C zero four was ever issued. || The officer passed orders in Form DRC-05 in March 2024. But no acknowledgement in Form DRC-04 was ever issued.
+# 3 · THE DEPARTMENT'S CASE
+10 | The department's answer: Form D R C zero three is voluntary, payment needs an O T P sent only to the partners, and the protest came seventeen days late. || The department's answer: Form DRC-03 is voluntary, payment needs an OTP sent only to the partners, and the protest came 17 days late.
+# 4 · WHAT THE COURT HELD
+10 | The Court found the inspection fell on the wedding days, so the partners could not be present. And the seventeen day delay could not, by itself, defeat the claim. || The Court found the inspection fell on the wedding days, so the partners could not be present. And the 17-day delay could not, by itself, defeat the claim.
+10 | The respondents' own counter showed Form D R C zero four was never issued, and the firm's protest was not considered. The missing form was fatal, the Court held. || The respondents' own counter showed Form DRC-04 was never issued, and the firm's protest was not considered. The missing form was fatal, the Court held.
+# 5 · THE RESULT
+10 | So the March twenty twenty four orders were set aside. The tax paid during the inspection must be refunded within eight weeks, and the writ petitions were allowed. || So the March 2024 orders were set aside. The tax paid during the inspection must be refunded within 8 weeks, and the writ petitions were allowed.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple.

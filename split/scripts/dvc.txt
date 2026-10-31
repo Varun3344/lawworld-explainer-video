@@ -1,0 +1,42 @@
+// Damodar Valley Corporation v. Maithan Alloys Limited & Ors., 2026 INSC 1178, Civil Appeal No. 11106 of 2024 (K. Vinod Chandran J.
+// wrote it, J.B. Pardiwala J.), decided 30.10.2026, REPORTABLE. Concept-format judgment reel (9:16, ~96 s), as sets cdp / srb.
+// Source: PDF text (scratchpad find31/SC/dvc_maithan.txt, 27 pages, paras 1-32, read in full).
+// Facts used: CERC fixed DVC's tariff for 2009 to 2014 under the Electricity Act 2003, the DVC Act 1948 and the Tariff Regulations of
+// 2009 (2); the Sinking Fund = a portion of the profits appropriated to redeem the bonds issued by DVC (2); Regulation 43(2)(iv): the
+// Section 40 funds "shall be considered as items of expenditure to be recovered through tariff"; the Sinking Fund treated as a first
+// charge, an expense (20, 21); the very same issue upheld for the earlier years in Bhaskar Shrachi Alloys (2018) 8 SCC 281 (1, 2, 27);
+// CERC order 2013; the Appellate Tribunal for Electricity upheld it "on its own reasoning and based on the binding precedent" (3), order
+// dated 17.05.2019 (30); none challenged it, no appeal to this Court (3, 30); a review by one of the appellants (consumers), pending
+// before the Tribunal for 5 years, allowed in 2024 (1, 3); the first respondent was the review petitioner and one of the consumers (4,
+// 8); the review: depreciation on assets built with bond money + the Sinking Fund = "duplication or double allowance", DVC may claim
+// only one of the two (7, 25); the issue "escaped the notice of this Court also" (7, 25); DVC appealed; SAIL, a Public Sector
+// Undertaking, intervened (3). Held: the Court looked at Bhaskar Shrachi because it could refer it to a Larger Bench if the coordinate
+// bench had erred (8); "absolutely no reason to doubt the earlier decision" (14, 15); depreciation alongside the Sinking Fund
+// "specifically considered and upheld" (24), both under Section 40 of the DVC Act (26); "no scope for a review" (23); "the Tribunal has
+// gone haywire" (27); Kamal Sengupta (2008) 8 SCC 612: an error "evident per se from the record", the tribunal "cannot sit in appeal"
+// (27), principles (28); the review fits none of them (28); "clearly illegal, totally misplaced and blatantly in breach of the
+// principles of judicial discipline", a violation of Article 141 (29). Orders: the review order set aside, the order of 17.05.2019
+// restored; Rs 2,00,000 costs on the 1st respondent (abuse of process); Rs 1,50,000 on SAIL ("ill-advised"); paid to DVC within one
+// month, else interest @ 18% p.a. (30); appeal allowed with costs, in addition to the exemplary costs (31).
+// Not said / not voiced: the review section number (the judgment prints "Section 122(f)" of the Electricity Act: not voiced, not on a
+// card); the review's own words were "duplication or double allowance" (25); "double benefit" is the respondents' phrase (6, 7).
+// Flow policy: only companies and public bodies named; the review petitioner is "a consumer" in speech; no "fraud", "collusion",
+// "admitted".
+// Fact-check 31-10-2026: c05 names the review's real target (depreciation on bond-funded assets, 25; "waited for five years", 30);
+// c07 "weighed depreciation with the sinking fund" (juxtaposed, 24); c08 the error must be evident on the record (Kamal Sengupta
+// para 22; review also lies on the other Order 47 Rule 1 grounds, 35(ii)), and "the Tribunal has gone haywire" verbatim (27).
+# 1 · REOPEN A SETTLED POINT?
+10 | Hi, I am Ravishankar from LawWorld. Can a tribunal, on review, reopen a point the Supreme Court had already settled, five years after its own order?
+10 | On thirtieth October, a two-judge Supreme Court bench of Honourable Justice J B Pardiwala and Honourable Justice K Vinod Chandran ruled. || On 30 October, a two-judge Supreme Court bench of Honourable Justice J.B. Pardiwala and Honourable Justice K. Vinod Chandran ruled.
+# 2 · THE TARIFF
+10 | The regulator set Damodar Valley Corporation's tariff for two thousand nine to twenty fourteen. A sinking fund to redeem its bonds counted as an expense. || The regulator set Damodar Valley Corporation's tariff for 2009 to 2014. A sinking fund to redeem its bonds counted as an expense.
+10 | The Supreme Court upheld this for earlier years, in Bhaskar Shrachi. In twenty nineteen, relying on it, the Appellate Tribunal upheld the tariff. No one appealed. || The Supreme Court upheld this for earlier years, in Bhaskar Shrachi. In 2019, relying on it, the Appellate Tribunal upheld the tariff. No one appealed.
+# 3 · THE REVIEW
+10 | A consumer's review waited five years. Then the Tribunal allowed it, calling depreciation on bond-funded assets plus the sinking fund a double allowance.
+10 | It said the point had escaped even the Supreme Court. The Corporation appealed, and the Steel Authority of India intervened to back the review.
+# 4 · WHAT THE COURT HELD
+10 | Had Bhaskar Shrachi erred, the Court could refer it to a larger bench. But it had weighed depreciation with the sinking fund, so there was no scope for a review.
+10 | Under Kamal Sengupta, the error must be evident on the record, and a review cannot sit in appeal. Here, the Court said, the Tribunal has gone haywire. || Under Kamal Sengupta, the error must be evident on the record, and a review cannot sit in appeal. Here, the Court said, "the Tribunal has gone haywire."
+# 5 · THE VERDICT
+10 | Clearly illegal, the review breached Article One Forty One. The twenty nineteen order was restored, with costs on that consumer and the Steel Authority. || Clearly illegal, the review breached Article 141. The 2019 order was restored, with costs on that consumer and the Steel Authority.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple.

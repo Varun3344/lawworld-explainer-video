@@ -1,0 +1,70 @@
+{
+ "projectTitle": "LawWorld_arm",
+ "title": "GST paid on the spot? Refund it",
+ "source": "split/scripts/arm.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. Tax paid on the spot in a surprise G S T inspection, and never acknowledged. Can the department simply keep it?",
+   "chip": "1 · PAID ON THE SPOT?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "On the twenty eighth of October, twenty twenty six, a single bench of Honourable Justice N Senthilkumar of the Madras High Court ruled.",
+   "shown": "On 28 October 2026, a single bench of Honourable Justice N. Senthilkumar of the Madras High Court ruled."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Aruna Mills, a yarn maker in Tiruppur, faced a surprise G S T inspection in October twenty twenty three, on the days of a family wedding.",
+   "shown": "Aruna Mills, a yarn maker in Tiruppur, faced a surprise GST inspection in October 2023, on the days of a family wedding.",
+   "chip": "2 · THE INSPECTION"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "The firm says over two crore rupees of tax was collected on the spot, through Form D R C zero three, and was not voluntary. It sought a refund.",
+   "shown": "The firm says over ₹2 crore of tax was collected on the spot, through Form DRC-03, and was not voluntary. It sought a refund."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "The officer passed orders in Form D R C zero five in March twenty twenty four. But no acknowledgement in Form D R C zero four was ever issued.",
+   "shown": "The officer passed orders in Form DRC-05 in March 2024. But no acknowledgement in Form DRC-04 was ever issued."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The department's answer: Form D R C zero three is voluntary, payment needs an O T P sent only to the partners, and the protest came seventeen days late.",
+   "shown": "The department's answer: Form DRC-03 is voluntary, payment needs an OTP sent only to the partners, and the protest came 17 days late.",
+   "chip": "3 · THE DEPARTMENT'S CASE"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The Court found the inspection fell on the wedding days, so the partners could not be present. And the seventeen day delay could not, by itself, defeat the claim.",
+   "shown": "The Court found the inspection fell on the wedding days, so the partners could not be present. And the 17-day delay could not, by itself, defeat the claim.",
+   "chip": "4 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "The respondents' own counter showed Form D R C zero four was never issued, and the firm's protest was not considered. The missing form was fatal, the Court held.",
+   "shown": "The respondents' own counter showed Form DRC-04 was never issued, and the firm's protest was not considered. The missing form was fatal, the Court held."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "So the March twenty twenty four orders were set aside. The tax paid during the inspection must be refunded within eight weeks, and the writ petitions were allowed.",
+   "shown": "So the March 2024 orders were set aside. The tax paid during the inspection must be refunded within 8 weeks, and the writ petitions were allowed.",
+   "chip": "5 · THE RESULT"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple."
+  }
+ ]
+}

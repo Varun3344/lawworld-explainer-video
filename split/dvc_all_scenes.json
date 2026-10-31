@@ -1,0 +1,67 @@
+{
+ "projectTitle": "LawWorld_dvc",
+ "title": "Can review reopen a settled point?",
+ "source": "split/scripts/dvc.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. Can a tribunal, on review, reopen a point the Supreme Court had already settled, five years after its own order?",
+   "chip": "1 · REOPEN A SETTLED POINT?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "On thirtieth October, a two-judge Supreme Court bench of Honourable Justice J B Pardiwala and Honourable Justice K Vinod Chandran ruled.",
+   "shown": "On 30 October, a two-judge Supreme Court bench of Honourable Justice J.B. Pardiwala and Honourable Justice K. Vinod Chandran ruled."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "The regulator set Damodar Valley Corporation's tariff for two thousand nine to twenty fourteen. A sinking fund to redeem its bonds counted as an expense.",
+   "shown": "The regulator set Damodar Valley Corporation's tariff for 2009 to 2014. A sinking fund to redeem its bonds counted as an expense.",
+   "chip": "2 · THE TARIFF"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "The Supreme Court upheld this for earlier years, in Bhaskar Shrachi. In twenty nineteen, relying on it, the Appellate Tribunal upheld the tariff. No one appealed.",
+   "shown": "The Supreme Court upheld this for earlier years, in Bhaskar Shrachi. In 2019, relying on it, the Appellate Tribunal upheld the tariff. No one appealed."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "A consumer's review waited five years. Then the Tribunal allowed it, calling depreciation on bond-funded assets plus the sinking fund a double allowance.",
+   "chip": "3 · THE REVIEW"
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "It said the point had escaped even the Supreme Court. The Corporation appealed, and the Steel Authority of India intervened to back the review."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "Had Bhaskar Shrachi erred, the Court could refer it to a larger bench. But it had weighed depreciation with the sinking fund, so there was no scope for a review.",
+   "chip": "4 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Under Kamal Sengupta, the error must be evident on the record, and a review cannot sit in appeal. Here, the Court said, the Tribunal has gone haywire.",
+   "shown": "Under Kamal Sengupta, the error must be evident on the record, and a review cannot sit in appeal. Here, the Court said, \"the Tribunal has gone haywire.\""
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Clearly illegal, the review breached Article One Forty One. The twenty nineteen order was restored, with costs on that consumer and the Steel Authority.",
+   "shown": "Clearly illegal, the review breached Article 141. The 2019 order was restored, with costs on that consumer and the Steel Authority.",
+   "chip": "5 · THE VERDICT"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple."
+  }
+ ]
+}

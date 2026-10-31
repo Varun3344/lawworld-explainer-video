@@ -1,0 +1,66 @@
+{
+ "projectTitle": "LawWorld_vzj",
+ "title": "Expert panel flawed by conflict",
+ "source": "split/scripts/vzj.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. Can an expert who once worked on a port project sit on the committee that checks whether that port caused coastal erosion?",
+   "chip": "1 · AN INSIDER ON THE PANEL?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "On thirtieth October, twenty twenty six, a single bench of Honourable Justice Harisankar V Menon of the Kerala High Court ruled.",
+   "shown": "On 30 October 2026, a single bench of Honourable Justice Harisankar V. Menon of the Kerala High Court ruled."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Residents of fishing villages north of the Vizhinjam seaport say its construction eroded their coast. In twenty twenty two, the State formed an expert committee.",
+   "shown": "Residents of fishing villages north of the Vizhinjam seaport say its construction eroded their coast. In 2022, the State formed an expert committee.",
+   "chip": "2 · THE COMMITTEE"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "It was to check whether the port work caused erosion, and suggest remedies. It inspected the site just once. Its report, the State says, blamed high waves and cyclones."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "The petitioners alleged a conflict of interest. The chairman, they said, had served on a technical sub committee for this very seaport since twenty twelve.",
+   "shown": "The petitioners alleged a conflict of interest. The chairman, they said, had served on a technical sub-committee for this very seaport since 2012.",
+   "chip": "3 · THE CHALLENGE"
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "Another member, they said, held a senior post in a company linked to the port's concessionaire. And the report, they argued, contradicted the chairman's own paper."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The Court rejected the delay plea; the petition concerns the twenty twenty two committee. On bias, mere suspicion won't do; a reasonable likelihood will.",
+   "shown": "The Court rejected the delay plea; the petition concerns the 2022 committee. On bias, mere suspicion won't do; a reasonable likelihood will.",
+   "chip": "4 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "No respondent disputed the chairman's earlier role, so his inclusion ought to have been avoided. The other member's link was not denied by the port respondents."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "The committee's constitution was declared flawed; its report is not to be acted upon. The Government must form an independent committee, free of conflict.",
+   "chip": "5 · THE RESULT"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple."
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+// Nirmala Johny & Ors. v. State of Kerala & Ors. (the Vizhinjam coastal-erosion case), W.P.(C) No. 34157 of 2022, 2026:KER:83112,
+// High Court of Kerala (Harisankar V. Menon J., single bench), finally heard 08.10.2026, judgment 30.10.2026, marked "C.R." (reportable).
+// Concept-format judgment reel (9:16, ~96 s), as sets cdp / gms / cft.
+// Source: scratchpad find31/count_A/ker_vizhinjam.txt (PDF text, 56 pages, paras 1-26 + appendix, read in full).
+// Facts used: petitioners are residents of fishing villages within 20 km north of Vizhinjam, where the seaport is being built; they
+// CONTEND the construction (the breakwater) caused substantial erosion on the northern side and accretion on the southern side (1);
+// Ext.P11 G.O. dated 06.10.2022: the State constituted an Expert Committee to examine whether there was coastal erosion consequent to
+// the port work and to identify measures to address it, after hearing the local population (2); the petitioners' case: the members
+// had a conflict of interest (1, 3, 6(ii), 14); the chairman an expert member of the "Technical Sub-committee" for the development of
+// the Vizhinjam Seaport since 2012 (15(i)); another member President-Technical of a company which has a connection with the 7th
+// respondent (concessionaire) (15(ii), 20, 6(vi)); the final report "diametrically opposite" to the chairman's 2010 paper (15(iv));
+// the committee inspected Vizhinjam only once, 23.05.2023, met the inhabitants 24.05.2023; report approved by G.O. 02.08.2024 (23);
+// the State's case: the erosion came from high wave activity and cyclones, "as has been reported by the Committee"; no fresh committee
+// needed (7(ii), 7(iii)); delay and laches raised by the respondents (8(iii), 11).
+// Held: delay and laches repelled, since the petition is with reference to the 2022 G.O. (11, 12); limited judicial review, no stay of
+// the project sought (recorded 22.07.2026), so only the committee and its report are examined (13); the bias test: N.K. Bajpai (18),
+// A.K. Kraipak: "a mere suspicion of bias is not sufficient. There must be a reasonable likelihood of bias" (19); the chairman's earlier
+// involvement "not disputed by any of the respondents", so his inclusion "ought to have been avoided" (20); the other member's link
+// "not seen denied" by respondents 6 and 7 (20); the challenge to a third member rejected: no challenge to his qualification (20); the
+// report is "in stark contrast" to the chairman's own 2010 article, noted only given the uncontroverted conflict allegation (21); the
+// challenge accepted (22), "all the more so" since only one inspection (23); the Government cannot now ignore its own committee's report
+// because of the NGT committee (24); the Court declined to name members itself: for the Government to form a fresh committee (25).
+// Orders (26): the committee's constitution under Ext.P11 declared flawed; its final report not to be acted upon; the Government to
+// constitute an independent committee for the studies in Ext.P11, ensuring no conflict of interest. No time limit is fixed.
+// Not said: the G.O. itself is NOT quashed (the new committee does the Ext.P11 studies); the Court made no finding on the erosion or on
+// the report's merits (21); no finding of actual bias. Neutral on the port company and the Government: no company name in speech.
+// Flow policy: no private person named in speech ("the chairman", "another member"); no "admitted".
+# 1 · AN INSIDER ON THE PANEL?
+10 | Hi, I am Ravishankar from LawWorld. Can an expert who once worked on a port project sit on the committee that checks whether that port caused coastal erosion?
+10 | On thirtieth October, twenty twenty six, a single bench of Honourable Justice Harisankar V Menon of the Kerala High Court ruled. || On 30 October 2026, a single bench of Honourable Justice Harisankar V. Menon of the Kerala High Court ruled.
+# 2 · THE COMMITTEE
+10 | Residents of fishing villages north of the Vizhinjam seaport say its construction eroded their coast. In twenty twenty two, the State formed an expert committee. || Residents of fishing villages north of the Vizhinjam seaport say its construction eroded their coast. In 2022, the State formed an expert committee.
+10 | It was to check whether the port work caused erosion, and suggest remedies. It inspected the site just once. Its report, the State says, blamed high waves and cyclones.
+# 3 · THE CHALLENGE
+10 | The petitioners alleged a conflict of interest. The chairman, they said, had served on a technical sub committee for this very seaport since twenty twelve. || The petitioners alleged a conflict of interest. The chairman, they said, had served on a technical sub-committee for this very seaport since 2012.
+10 | Another member, they said, held a senior post in a company linked to the port's concessionaire. And the report, they argued, contradicted the chairman's own paper.
+# 4 · WHAT THE COURT HELD
+10 | The Court rejected the delay plea; the petition concerns the twenty twenty two committee. On bias, mere suspicion won't do; a reasonable likelihood will. || The Court rejected the delay plea; the petition concerns the 2022 committee. On bias, mere suspicion won't do; a reasonable likelihood will.
+10 | No respondent disputed the chairman's earlier role, so his inclusion ought to have been avoided. The other member's link was not denied by the port respondents.
+# 5 · THE RESULT
+10 | The committee's constitution was declared flawed; its report is not to be acted upon. The Government must form an independent committee, free of conflict.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple.

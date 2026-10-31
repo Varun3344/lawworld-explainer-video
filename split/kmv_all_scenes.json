@@ -1,0 +1,71 @@
+{
+ "projectTitle": "LawWorld_kmv",
+ "title": "Price escalation clause deleted",
+ "source": "split/scripts/kmv.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. Your client's own tender exhibit says the price escalation clause is deleted. Can a Section Thirty Four court still save that claim?",
+   "shown": "Hi, I am Ravishankar from LawWorld. Your client's own tender exhibit says the price escalation clause is deleted. Can a Section 34 court still save that claim?",
+   "chip": "1 · THE DELETED CLAUSE"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "On twenty eighth October, a Karnataka High Court bench of Honourable Chief Justice Vibhu Bakhru and Honourable Justice K S Hemalekha ruled.",
+   "shown": "On 28 October, a Karnataka High Court bench of Honourable Chief Justice Vibhu Bakhru and Honourable Justice K.S. Hemalekha ruled."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "K M V Projects contracted with the State Project Director to build school buildings in Bidar. The works ran late, and its price escalation bills went unpaid.",
+   "shown": "KMV Projects contracted with the State Project Director to build school buildings in Bidar. The works ran late, and its price escalation bills went unpaid.",
+   "chip": "2 · THE ESCALATION CLAIM"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "In arbitration, K M V was awarded about sixty one lakh rupees, with interest. But its escalation claim, over two crore rupees, was rejected.",
+   "shown": "In arbitration, KMV was awarded about ₹61.6 lakh, with interest. But its escalation claim, over ₹2 crore, was rejected."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "The reason: the tender document K M V produced carried a note deleting the price adjustment clause. And K M V failed to prove the amount claimed.",
+   "shown": "The reason: the tender document KMV produced carried a note deleting the price adjustment clause. And KMV failed to prove the amount claimed."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "Under Section Thirty Three, it said it had filed old, obsolete tender documents by mistake. The tribunal held that was no clerical error, and refused.",
+   "shown": "Under Section 33, it said it had filed old, obsolete tender documents by mistake. The tribunal held that was no clerical error, and refused.",
+   "chip": "3 · THE OBSOLETE DOCUMENTS"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "Its Section Thirty Four petition failed. In appeal, K M V said it should have been allowed to file its revised tender, and the amount was undisputed.",
+   "shown": "Its Section 34 petition failed. In appeal, KMV said it should have been allowed to file its revised tender, and the amount was undisputed."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "The High Court held: the award rested on K M V's own documents, which showed the clause deleted. Under Section Thirty Four's narrow scope, it can't be faulted.",
+   "shown": "The High Court held: the award rested on KMV's own documents, which showed the clause deleted. Under Section 34's narrow scope, it can't be faulted.",
+   "chip": "4 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "And even if the clause applied, K M V never showed how the claim was computed. It had to prove the measure, not just entitlement. The appeal was dismissed.",
+   "shown": "And even if the clause applied, KMV never showed how the claim was computed. It had to prove the measure, not just entitlement. The appeal was dismissed.",
+   "chip": "5 · THE VERDICT"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple."
+  }
+ ]
+}

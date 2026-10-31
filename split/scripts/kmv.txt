@@ -1,0 +1,44 @@
+// M/s KMV Projects v. State Project Director, Rashtriya Madhyamika Shiksha Abhiyan & Anr., Commercial Appeal (COMAP) No. 87 of 2025,
+// s.13(1A) Commercial Courts Act, 2015 r/w s.37(1)(c) A&C Act, 1996. High Court of Karnataka at Bengaluru, Division Bench: Vibhu
+// Bakhru CJ (author: "PER: HON'BLE MR. VIBHU BAKHRU, CHIEF JUSTICE") and K.S. Hemalekha J. Reserved 01.09.2026, pronounced
+// 28.10.2026, REPORTABLE (circled R). Concept-format judgment reel (9:16, ~96 s), as sets cdp / levi. English (High Courts page).
+// Source: scratchpad find31/count_B/khc_kmv_comap87.txt (27 pages, paras 1-47, read in full).
+// Facts used: RMSA, a centrally sponsored scheme for secondary education, implemented in Karnataka through the SPD (4); KMV the
+// successful bidder for nine packages; this dispute is Package B-7, new school buildings / additional rooms for Government High Schools
+// in Bidar District; post-tender negotiations, KMV reduced its rates (5); LoA 18.03.2013, ₹2,417.83 lakh (6); Agreement 15.05.2013 (7);
+// works not completed in time; KMV invoked the price adjustment clause, none of its bills was paid; the SPD said no such clause
+// applied (9); Sole Arbitrator appointed by the High Court 05.11.2020 (14); Claim No. 1, price adjustment/escalation ₹2,33,19,736
+// (16); the tribunal found the delay solely attributable to the SPD, but rejected Claim 1: (i) no price variation clause in the
+// Agreement, (ii) KMV failed to prove the amount claimed was payable (20); award 10.11.2023: ₹61,61,668 (Claims 6(a), 7) + 9% future
+// interest, ₹2,00,000 costs (1, 2, 22); the SPD separately challenges the awarded sums (COMAP 61/2025), this appeal is confined to
+// Claim 1 (3, 25); s.33 application 15.12.2023 for an additional award on Claim 1: "by inadvertent error" KMV had filed "old and
+// obsolete tender documents", "by oversight" failed to produce the revised one; not a clerical error under s.33, rejected 05.03.2024
+// (23); s.34 petition Com.A.P. 99/2024 dismissed 05.12.2024 (24); KMV's case: the SPD never disputed the quantum (26), it should have
+// been permitted to produce the tender documents without the note (34, 39: the revised tender document, Ex.C79); the Statement of
+// Claims had no averment on how ₹2,33,19,736 was computed (29); the tender documents carried a note treating the price adjustment /
+// variation clause as deleted (32); the documents KMV produced (Ex.C1) included that note (37, 38).
+// Held: KMV failed to establish the clause was part of the agreement; having failed to produce the documents it now relies on, the
+// tribunal's decision "cannot be faulted" (40); the conclusion rested on the contract documents as proved by KMV, which showed the
+// clause deleted; the SPD contested that the note was dropped and led evidence (41); limited scope of s.34: no interference (42);
+// no evidence of the amounts for labour, cement, steel, fuel etc. (43); even with the clause, no amount without the quantum (44); no
+// patent illegality; KMV had to establish "not only ... its entitlement ... but also the measure of such damages" (45); the
+// Commercial Court rightly declined to interfere (46); appeal dismissed as unmerited (47).
+// Not said: the High Court did not itself rule on the s.33 point (only the tribunal did, 23); no finding that KMV's ₹61.6 lakh is
+// final (the SPD's own appeal, COMAP 61/2025, is separate: 3).
+// Flow policy: only a company (KMV Projects) and a public office (the State Project Director) are named; the arbitrator (respondent 2)
+// and KMV's officer are not; no "fraud", no "collusion", no "admitted" / "admittedly" in speech.
+# 1 · THE DELETED CLAUSE
+10 | Hi, I am Ravishankar from LawWorld. Your client's own tender exhibit says the price escalation clause is deleted. Can a Section Thirty Four court still save that claim?
+10 | On twenty eighth October, a Karnataka High Court bench of Honourable Chief Justice Vibhu Bakhru and Honourable Justice K S Hemalekha ruled. || On 28 October, a Karnataka High Court bench of Honourable Chief Justice Vibhu Bakhru and Honourable Justice K.S. Hemalekha ruled.
+# 2 · THE ESCALATION CLAIM
+10 | K M V Projects contracted with the State Project Director to build school buildings in Bidar. The works ran late, and its price escalation bills went unpaid. || KMV Projects contracted with the State Project Director to build school buildings in Bidar. The works ran late, and its price escalation bills went unpaid.
+10 | In arbitration, K M V was awarded about sixty one lakh rupees, with interest. But its escalation claim, over two crore rupees, was rejected. || In arbitration, KMV was awarded about ₹61.6 lakh, with interest. But its escalation claim, over ₹2 crore, was rejected.
+10 | The reason: the tender document K M V produced carried a note deleting the price adjustment clause. And K M V failed to prove the amount claimed. || The reason: the tender document KMV produced carried a note deleting the price adjustment clause. And KMV failed to prove the amount claimed.
+# 3 · THE OBSOLETE DOCUMENTS
+10 | Under Section Thirty Three, it said it had filed old, obsolete tender documents by mistake. The tribunal held that was no clerical error, and refused.
+10 | Its Section Thirty Four petition failed. In appeal, K M V said it should have been allowed to file its revised tender, and the amount was undisputed. || Its Section 34 petition failed. In appeal, KMV said it should have been allowed to file its revised tender, and the amount was undisputed.
+# 4 · WHAT THE COURT HELD
+10 | The High Court held: the award rested on K M V's own documents, which showed the clause deleted. Under Section Thirty Four's narrow scope, it can't be faulted. || The High Court held: the award rested on KMV's own documents, which showed the clause deleted. Under Section 34's narrow scope, it can't be faulted.
+# 5 · THE VERDICT
+10 | And even if the clause applied, K M V never showed how the claim was computed. It had to prove the measure, not just entitlement. The appeal was dismissed. || And even if the clause applied, KMV never showed how the claim was computed. It had to prove the measure, not just entitlement. The appeal was dismissed.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple.
