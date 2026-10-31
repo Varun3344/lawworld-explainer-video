@@ -1,0 +1,68 @@
+{
+ "projectTitle": "LawWorld_smt",
+ "title": "Direct recruit at 41? Creamy layer",
+ "source": "split/scripts/smt.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. An advocate is directly recruited as a District Judge at forty one. Is her child still in the O B C creamy layer?",
+   "shown": "Hi, I am Ravishankar from LawWorld. An advocate is directly recruited as a District Judge at 41. Is her child still in the OBC creamy layer?",
+   "chip": "1 · CREAMY LAYER?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "On twenty seventh October, Honourable Justice Raja Vijayaraghavan V and Honourable Justice K V Jayakumar of the Kerala High Court ruled.",
+   "shown": "On 27 October, Honourable Justice Raja Vijayaraghavan V. and Honourable Justice K.V. Jayakumar of the Kerala High Court ruled."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "A minor sought an O B C non creamy layer certificate for CLAT. The Tahsildar refused: her mother is a directly recruited Class One officer.",
+   "shown": "A minor sought an OBC non-creamy layer certificate for CLAT. The Tahsildar refused: her mother is a directly recruited Class I officer.",
+   "chip": "2 · THE CERTIFICATE"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "Her mother, a practising advocate, became a District Judge at forty one. Citing a two thousand four clarification, the minor filed a writ petition.",
+   "shown": "Her mother, a practising advocate, became a District Judge at 41. Citing a 2004 clarification, the minor filed a writ petition."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "The single judge quashed the refusal, noting her plea that promoted judges' children get it, and held denying a direct recruit's child was discrimination.",
+   "chip": "3 · THE SINGLE JUDGE"
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The Division Bench held: a directly recruited Class One officer's child falls in the creamy layer. Both the parent's post and the mode of entry matter.",
+   "shown": "The Division Bench held: a directly recruited Class I officer's child falls in the creamy layer. Both the parent's post and the mode of entry matter.",
+   "chip": "4 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The two thousand four clarification covers only staff rising from Class Three or Four. An advocate recruited directly at forty one falls outside it.",
+   "shown": "The 2004 clarification covers only staff rising from Class III or IV. An advocate recruited directly at 41 falls outside it."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "A mere letter cannot override the Office Memorandum, per Rohith Nathan. Equality doesn't require treating different service categories alike."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Sympathy, however genuine, cannot override the criteria, the Court said. The State's appeal was allowed, and the Tahsildar's refusal was upheld.",
+   "chip": "5 · THE RESULT"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple."
+  }
+ ]
+}

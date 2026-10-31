@@ -1,0 +1,4 @@
+# State of Kerala v. [a minor] (Kerala HC, W.A. 2222/2026, 2026:KER:82291, Raja Vijayaraghavan V J. and K.V. Jayakumar J., 27.10.2026), English judgment reel (owner 31-10-2026, round 2): Flow queue settings. The respondent is a minor: never named.
+export SPLIT_D=downloads/smt SPLIT_SB=split/smt SPLIT_ALL=split/smt_all_scenes.json SPLIT_GO=split/GOsmt
+export SPLIT_ACCOUNT=a2; . split/accounts.sh
+export SPLIT_VOCAB="LawWorld, Ravishankar, Kerala High Court, Division Bench, Honourable Justice Raja Vijayaraghavan V, Honourable Justice K V Jayakumar, O B C, non creamy layer, creamy layer, CLAT, Tahsildar, Class One officer, directly recruited, District Judge, advocate, clarification, writ petition, single judge, quashed, discrimination, Office Memorandum, Rohith Nathan, Class Three, Class Four, equality, service categories, sympathy, upheld, mode of entry"

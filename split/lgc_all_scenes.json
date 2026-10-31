@@ -1,0 +1,69 @@
+{
+ "projectTitle": "LawWorld_lgc",
+ "title": "Infosys, Wipro not comparables",
+ "source": "split/scripts/lgc.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. Your client writes software for its own group. Can the transfer pricing officer compare it with giants like Infosys and Wipro?",
+   "chip": "1 · GIANTS AS COMPARABLES"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "On twenty eighth October, a Karnataka High Court bench of Honourable Chief Justice Vibhu Bakhru and Honourable Justice K S Hemalekha ruled.",
+   "shown": "On 28 October, a Karnataka High Court bench of Honourable Chief Justice Vibhu Bakhru and Honourable Justice K.S. Hemalekha ruled."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Logica, a software services company, faced a transfer pricing adjustment of nearly forty crore rupees, for assessment year two thousand seven to eight.",
+   "shown": "Logica, a software services company, faced a transfer pricing adjustment of nearly ₹40 crore, for assessment year 2007-08.",
+   "chip": "2 · THE ADJUSTMENT"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "The Transfer Pricing Officer picked twenty six comparables, including Infosys and Wipro. Their average markup on cost was about twenty five percent.",
+   "shown": "The Transfer Pricing Officer picked 26 comparables, including Infosys and Wipro. Their average markup on cost was about 25%."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "The Tribunal struck out eight comparables, Infosys and Wipro among them, and tightened the related party filter from twenty five to fifteen percent.",
+   "shown": "The Tribunal struck out eight comparables, Infosys and Wipro among them, and tightened the related party filter from 25% to 15%."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The Revenue appealed. After a Supreme Court remand, it argued that brand and size don't affect margins, and that the fifteen percent filter had no basis.",
+   "shown": "The Revenue appealed. After a Supreme Court remand, it argued that brand and size don't affect margins, and that the 15% filter had no basis.",
+   "chip": "3 · THE REVENUE'S APPEAL"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The High Court disagreed. Size matters: a giant's cost structure may differ. T N M M tolerates variations, but not an extremely large gap in size.",
+   "shown": "The High Court disagreed. Size matters: a giant's cost structure may differ. TNMM tolerates variations, but not an extremely large gap in size.",
+   "chip": "4 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "An established brand bears on margins, so Infosys and Wipro were rightly excluded. Product, training and drug discovery firms were found functionally different."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "The fifteen percent related party filter was upheld, as enough comparables remained. No substantial question of law arose. The appeal was dismissed.",
+   "shown": "The 15% related party filter was upheld, as enough comparables remained. No substantial question of law arose. The appeal was dismissed.",
+   "chip": "5 · THE VERDICT"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple."
+  }
+ ]
+}

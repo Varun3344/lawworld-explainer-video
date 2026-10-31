@@ -1,0 +1,66 @@
+{
+ "projectTitle": "LawWorld_sbp",
+ "title": "Which court extends the mandate?",
+ "source": "split/scripts/sbp.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. The High Court appointed your arbitrator under Section Eleven. When time runs out, can that same High Court extend the mandate?",
+   "shown": "Hi, I am Ravishankar from LawWorld. The High Court appointed your arbitrator under Section 11. When time runs out, can that same High Court extend the mandate?",
+   "chip": "1 · WHO EXTENDS THE MANDATE?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "On twenty eighth October, a two-judge Supreme Court bench of Honourable Justice Ujjal Bhuyan and Honourable Justice Atul S Chandurkar ruled.",
+   "shown": "On 28 October, a two-judge Supreme Court bench of Honourable Justice Ujjal Bhuyan and Honourable Justice Atul S. Chandurkar ruled."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "South Bihar Power Distribution Company's franchisee contract required three arbitrators. By consent, the Patna High Court appointed a sole arbitrator.",
+   "chip": "2 · THE ARBITRATION"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "Later, by consent, a former Chief Justice of India took over. Before one year, plus six months by consent, ran out, the respondents asked the High Court for four more months."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "The appellant objected: three arbitrators, the claimant's insolvency, and the High Court's power to extend time. The High Court rejected every one of them.",
+   "chip": "3 · THE OBJECTIONS"
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "On the panel, the Court held: having consented twice, taken part, and filed a counter claim, the appellant waived its objection under Section Four. It came too late.",
+   "shown": "On the panel, the Court held: having consented twice, taken part, and filed a counter claim, the appellant waived its objection under Section 4. It came too late.",
+   "chip": "4 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "And insolvency was no bar. The moratorium stops recovery against the debtor, not the debtor's own claim, which, if it succeeds, only adds to its value."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "But acting under Section Eleven, the High Court could not extend time. That role ends once the tribunal is formed. Only the court defined in Section Two can.",
+   "shown": "But acting under Section 11, the High Court could not extend time. That role ends once the tribunal is formed. Only the court defined in Section 2 can."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Since the Patna Commercial Court had already extended the mandate, the error made no difference. The appeals were dismissed, and the award must come within six weeks.",
+   "chip": "5 · THE VERDICT"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple."
+  }
+ ]
+}

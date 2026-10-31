@@ -1,0 +1,68 @@
+{
+ "projectTitle": "LawWorld_ikc",
+ "title": "Forgery plea? Arbitrator appointed",
+ "source": "split/scripts/ikc.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. The other side calls the agreement forged. Can that plea alone stop a Section Eleven court from appointing an arbitrator?",
+   "shown": "Hi, I am Ravishankar from LawWorld. The other side calls the agreement forged. Can that plea alone stop a Section 11 court from appointing an arbitrator?",
+   "chip": "1 · FORGED, SO NO ARBITRATOR?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "On the thirtieth of October, twenty twenty six, Honourable Chief Justice Sushrut Arvind Dharmadhikari of the Madras High Court answered that question.",
+   "shown": "On 30 October 2026, Honourable Chief Justice Sushrut Arvind Dharmadhikari of the Madras High Court answered that question."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Under a twenty sixteen land aggregator agreement, the petitioners say, the respondent would get them the plot next to theirs, for ninety lakh rupees, paid in cash.",
+   "shown": "Under a 2016 land aggregator agreement, the petitioners say, the respondent would get them the plot next to theirs, for ₹90 lakh, paid in cash.",
+   "chip": "2 · THE LAND DEAL"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "In January twenty twenty three, the respondent wrote that he had acquired the plot. But then, they say, he gave a power of attorney to a third party instead.",
+   "shown": "In January 2023, the respondent wrote that he had acquired the plot. But then, they say, he gave a power of attorney to a third party instead."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "They sought an arbitrator under Section Eleven, and an injunction under Section Nine. The respondent's answer: the agreement is forged, and no money was paid.",
+   "shown": "They sought an arbitrator under Section 11, and an injunction under Section 9. The respondent's answer: the agreement is forged, and no money was paid.",
+   "chip": "3 · THE FORGERY PLEA"
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "He cited the Supreme Court in Rajia Begum: when an agreement's existence is seriously disputed as forged, the dispute is not arbitrable at that stage."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "But Rajia Begum, the Court held, had exceptional facts, like a document missing for nearly nine years. Here, the respondent's own letter acknowledged acquiring the plot.",
+   "chip": "4 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "His pleas also contradicted each other. So the forgery plea was a thin veil, the Court found, and under Salson Liquors, the arbitrator can decide it first."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "The petition was allowed. A retired High Court judge was appointed sole arbitrator. The interim order continues till his Section Seventeen ruling.",
+   "shown": "The petition was allowed. A retired High Court judge was appointed sole arbitrator. The interim order continues till his Section 17 ruling.",
+   "chip": "5 · THE RESULT"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple."
+  }
+ ]
+}

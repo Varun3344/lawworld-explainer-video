@@ -1,0 +1,50 @@
+// Inderchand Kochar & Anr. v. D. Devasitham, Arb O.P. (Com.Div.) No. 513 of 2026 (Section 11(6), A&C Act, 1996) with O.A. No. 528
+// of 2025 (Section 9(1)(c) + Order XIV Rule 8 O.S. Rules), 2026:MHC:4378, High Court of Judicature at Madras, CORAM: Sushrut Arvind
+// Dharmadhikari CJ, sitting alone; reserved 16.10.2026, delivered 30.10.2026. Reportable: judis "reportable = Y" list (mhc_find_Y.json:
+// filename 1386455, citno 2026/MHC/4378, juddate 2026/10/30, jud1 "Honourable The CHIEF JUSTICE"); the PDF prints "Index : Yes" and
+// "Neutral Citation : Yes". Concept format as arm / bcr / kmv. English (LawWorld - High Courts page).
+// Source: scratchpad find31/count_B/mhc_1386455.txt + .pdf (12 pages, paras 1-12, read in full).
+// Facts used: prayers: s.11(6) petition to appoint a Sole Arbitrator under the Land Aggregator Agreement of 06.03.2016; O.A. under
+// Order XIV Rule 8 O.S. Rules + s.9(1)(c) for an interim injunction against alienating the schedule property (prayers); one judgment
+// disposes of both (1); the petitioners own land at Kalavakkam Village, Thiruporur Taluk, wanted the adjacent 24½ cents; the respondent
+// claimed real estate expertise and agreed to act as land aggregator, to acquire the plot from its owner and convey it (2.1); "It is
+// asserted" the agreement was signed 06.03.2016, total consideration Rs.90,00,000 paid in cash; settlement deed by the owner in the
+// respondent's favour 02.03.2022; letter 12.01.2023 to the first petitioner confirming he had acquired the property and would soon
+// execute the sale deed after clearing minor encroachments (2.2); the petitioners' case: instead, a General Power of Attorney on
+// 20.02.2023 in favour of a third party, found through an encumbrance certificate; legal notice under s.21, then these proceedings
+// (2.3); petitioners: full consideration received, Clause 5 violated (3.1); contradictory stands: O.A. counter "forged", stamp paper of
+// October 2015, blank signed papers; O.P. counter: the signature is not his (3.2); six rounds of mediation failed (3.3); Salson Liquors
+// relied on (3.4). RESPONDENT: agreement "forged and fabricated", no money paid, unenforceable, against public policy (4.1); Rajia
+// Begum v. Barnali Mukherjee, 2026 INSC 106: existence of the agreement "seriously disputed on allegations of forgery and fraud" ->
+// "non-arbitrable at that stage" (4.2). HELD: the respondent's confirmatory letter of 12.01.2023 enclosing parent documents, promising
+// registration; the arbitration clause "not in genuine doubt"; disputes commercial, squarely within the clause (6); Rajia Begum turned
+// on exceptional features: the document absent from contemporaneous records for nearly nine years, no standalone arbitration clause,
+// s.9 proceedings final with a prima facie finding that its existence was highly doubtful (7); "fundamentally distinguishable": the
+// respondent's own letter "explicitly acknowledging the acquisition"; contradictory positions across pleadings; forgery makes a matter
+// non-arbitrable only when it goes to the root of the arbitration agreement itself; the plea "merely a thin veil to wriggle out of
+// binding commercial obligations" (8); Salson Liquors (order 20.02.2026, SLP (C) No. 16022 of 2025): genuineness / valid execution a
+// preliminary issue for the Arbitrator, all contentions open; doors of arbitration not shut on "a bald and afterthought plea of
+// forgery" (9). ORDERS (10-12): Arb O.P. allowed; Justice R. Suresh Kumar, a retired judge of the Madras High Court, Sole Arbitrator;
+// s.12 disclosure first; seat and venue Chennai (Clause 11); Madras High Court Arbitration Centre, fees shared equally; merits open;
+// the interim order in O.A. No. 528 of 2025 continues until the Arbitrator decides a s.17 application (to be filed within thirty days
+// of entering upon the reference); the respondent may move s.16; no costs.
+// Not said: the agreement, the payment and the power of attorney stay the petitioners' case ("they say"); the Court did not find the
+// agreement genuine (genuineness goes to the arbitrator). The judgment does not say what the earlier interim order contained: spoken
+// as "the interim order", not "the injunction". No "fraud", no "collusion", no "admitted" in speech.
+// Flow policy: no private person is named in speech: "the petitioners", "the respondent", "a third party"; the plot's owner (Moses)
+// and the attorney holder (Sairam) are not named anywhere.
+# 1 · FORGED, SO NO ARBITRATOR?
+10 | Hi, I am Ravishankar from LawWorld. The other side calls the agreement forged. Can that plea alone stop a Section Eleven court from appointing an arbitrator? || Hi, I am Ravishankar from LawWorld. The other side calls the agreement forged. Can that plea alone stop a Section 11 court from appointing an arbitrator?
+10 | On the thirtieth of October, twenty twenty six, Honourable Chief Justice Sushrut Arvind Dharmadhikari of the Madras High Court answered that question. || On 30 October 2026, Honourable Chief Justice Sushrut Arvind Dharmadhikari of the Madras High Court answered that question.
+# 2 · THE LAND DEAL
+10 | Under a twenty sixteen land aggregator agreement, the petitioners say, the respondent would get them the plot next to theirs, for ninety lakh rupees, paid in cash. || Under a 2016 land aggregator agreement, the petitioners say, the respondent would get them the plot next to theirs, for ₹90 lakh, paid in cash.
+10 | In January twenty twenty three, the respondent wrote that he had acquired the plot. But then, they say, he gave a power of attorney to a third party instead. || In January 2023, the respondent wrote that he had acquired the plot. But then, they say, he gave a power of attorney to a third party instead.
+# 3 · THE FORGERY PLEA
+10 | They sought an arbitrator under Section Eleven, and an injunction under Section Nine. The respondent's answer: the agreement is forged, and no money was paid. || They sought an arbitrator under Section 11, and an injunction under Section 9. The respondent's answer: the agreement is forged, and no money was paid.
+10 | He cited the Supreme Court in Rajia Begum: when an agreement's existence is seriously disputed as forged, the dispute is not arbitrable at that stage.
+# 4 · WHAT THE COURT HELD
+10 | But Rajia Begum, the Court held, had exceptional facts, like a document missing for nearly nine years. Here, the respondent's own letter acknowledged acquiring the plot.
+10 | His pleas also contradicted each other. So the forgery plea was a thin veil, the Court found, and under Salson Liquors, the arbitrator can decide it first.
+# 5 · THE RESULT
+10 | The petition was allowed. A retired High Court judge was appointed sole arbitrator. The interim order continues till his Section Seventeen ruling. || The petition was allowed. A retired High Court judge was appointed sole arbitrator. The interim order continues till his Section 17 ruling.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple.

@@ -1,0 +1,49 @@
+// Commissioner of Income-Tax & Anr. v. M/s Logica Private Ltd. (now merged with CGI Information Systems and Management Consultants
+// Pvt. Ltd.), Income Tax Appeal No. 338 of 2013, s.260A Income Tax Act, 1961. High Court of Karnataka at Bengaluru, Division Bench:
+// Vibhu Bakhru CJ (author: "PER: HON'BLE MR. VIBHU BAKHRU, CHIEF JUSTICE", C.A.V. judgment) and K.S. Hemalekha J. Reserved
+// 28.09.2026, pronounced 28.10.2026, REPORTABLE (circled R on page 1, an image, not in the text layer). Concept-format judgment reel
+// (9:16, ~96 s), as sets kmv / ssk. English (High Courts page). Source: scratchpad find31/count_B/khc_ita338_logica.txt (33 pages,
+// paras 1-73, read in full). Companion the same day, same bench and author: ITA No. 501 of 2014, the Revenue's appeal for AY 2008-09
+// (ITAT order 18.07.2014): six of the same comparables held "squarely covered" by this decision (ITA 501 para 23), ITES comparables
+// Coral Hubs, Eclerx and Mold-Tek also excluded; dismissed (ITA 501 para 34).
+// Facts used: the Revenue appeals under s.260A the ITAT's order of 28.02.2013 in ITA 1129/Bang/2011, AY 2007-08 (1); the Assessee's
+// appeal to the ITAT was against the assessment order of 20.09.2011 under s.143(3) r/w s.144C(5), (8), on DRP directions of 02.09.2011
+// (2); appeal admitted 24.03.2014 on ten questions (3); this Court dismissed it on 12.07.2018 relying on Softbrands (4, 5); the
+// Supreme Court, 19.04.2023, in SAP Labs India v. ITO, (2023) 454 ITR 121 (SC): whether the ALP was determined per the Act and Rules
+// can raise questions of law; order set aside, appeal remitted to be decided afresh (5, 6); Questions 9 and 10 (s.10A) do not
+// survive (7); the Assessee: software development and consultancy services (10); international transactions, reference to the TPO
+// (11); TPO order 30.09.2010 under s.92CA: adjustment ₹39,73,03,044 (software development services ₹38,20,29,316 + support services
+// ₹1,52,73,728) (12); the TPO rejected the Assessee's TP study (13, 15); TNMM, markup on cost as PLI (14); the Assessee's set: mean
+// 13% (14); the TPO's set: 26 companies, mean 25.14% (23.84% working-capital adjusted), Infosys and Wipro among them (15); the ITAT
+// accepted the objections on certain comparables and filters (16); eight comparables (18): Accel (training, functionally different,
+// 20-22), Avani (software product "DXchange", 52.59% margin in FY 2006-07, 23-25), Celestial (drug discovery, no segment data, 26-37),
+// Lucid (product "Muulam", product development spend, no segment financials, 38-40), KALS (products and training, no segment data,
+// 41-46), Infosys (brand valued ₹22,915 crores, revenue over ₹13,145 crores, 47-48), Wipro (67% of sales from premium products, very
+// large turnover, 49-51), Tata Elxsi (niche product company, 52-53); RPT filter: the TPO 25% (no specific reasons), the ITAT 15% (61).
+// The Revenue's case: brand / turnover irrelevant to the profit margin (50, Q6, Q7); the companies' s.133(6) replies (28, 39, 43);
+// the 15% cut-off without basis (Q5).
+// Held: size is relevant; a large company has a different FAR profile; TNMM is tolerant of variations but does not accommodate an
+// extremely large disparity in size; size may significantly alter the cost structure (50); an established brand and goodwill are
+// intangible assets with a vital bearing on revenue margins; brand is not the only variable, but bears on profit margins (64, 69);
+// functional dissimilarity is a finding of fact, not perverse (22, 25, 37, 40, 46, 53); a segment can be compared only with credible
+// segmental financials; s.133(6) information must be credible and duly verified; a question of fact case by case (57, 58); the ITAT
+// may rely on another assessee's order if the material facts are similar (60); narrowing the RPT filter is appropriate if sufficient
+// comparables are found, and here they were (61-63); Q5 and Q8 answered against the Revenue (63, 71); in the given facts the questions
+// are not substantial questions of law (72); appeal dismissed (73).
+// Flow policy: only companies and public offices are named; no accusation against anyone; no "fraud", "collusion", "evasion",
+// "admitted" in speech (the judgment's "concededly" / "does not dispute" are not used).
+# 1 · GIANTS AS COMPARABLES
+10 | Hi, I am Ravishankar from LawWorld. Your client writes software for its own group. Can the transfer pricing officer compare it with giants like Infosys and Wipro?
+10 | On twenty eighth October, a Karnataka High Court bench of Honourable Chief Justice Vibhu Bakhru and Honourable Justice K S Hemalekha ruled. || On 28 October, a Karnataka High Court bench of Honourable Chief Justice Vibhu Bakhru and Honourable Justice K.S. Hemalekha ruled.
+# 2 · THE ADJUSTMENT
+10 | Logica, a software services company, faced a transfer pricing adjustment of nearly forty crore rupees, for assessment year two thousand seven to eight. || Logica, a software services company, faced a transfer pricing adjustment of nearly ₹40 crore, for assessment year 2007-08.
+10 | The Transfer Pricing Officer picked twenty six comparables, including Infosys and Wipro. Their average markup on cost was about twenty five percent. || The Transfer Pricing Officer picked 26 comparables, including Infosys and Wipro. Their average markup on cost was about 25%.
+10 | The Tribunal struck out eight comparables, Infosys and Wipro among them, and tightened the related party filter from twenty five to fifteen percent. || The Tribunal struck out eight comparables, Infosys and Wipro among them, and tightened the related party filter from 25% to 15%.
+# 3 · THE REVENUE'S APPEAL
+10 | The Revenue appealed. After a Supreme Court remand, it argued that brand and size don't affect margins, and that the fifteen percent filter had no basis. || The Revenue appealed. After a Supreme Court remand, it argued that brand and size don't affect margins, and that the 15% filter had no basis.
+# 4 · WHAT THE COURT HELD
+10 | The High Court disagreed. Size matters: a giant's cost structure may differ. T N M M tolerates variations, but not an extremely large gap in size. || The High Court disagreed. Size matters: a giant's cost structure may differ. TNMM tolerates variations, but not an extremely large gap in size.
+10 | An established brand bears on margins, so Infosys and Wipro were rightly excluded. Product, training and drug discovery firms were found functionally different.
+# 5 · THE VERDICT
+10 | The fifteen percent related party filter was upheld, as enough comparables remained. No substantial question of law arose. The appeal was dismissed. || The 15% related party filter was upheld, as enough comparables remained. No substantial question of law arose. The appeal was dismissed.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple.

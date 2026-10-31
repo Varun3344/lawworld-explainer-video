@@ -1,0 +1,46 @@
+// State of Karnataka & Ors. v. Shashikiran G & Ors., Writ Appeal No. 909 of 2026 (LA-RES), High Court of Karnataka at Bengaluru,
+// Division Bench: D K Singh J. (author: "PER: HON'BLE MR. JUSTICE D K SINGH", CAV judgment) and H. Shanthi Bhushan J. Reserved
+// 10.09.2026, pronounced 28.10.2026, REPORTABLE (circled R on page 1). Concept-format judgment reel (9:16, ~96 s), as sets kmv / vzj.
+// English (High Courts page). Source: scratchpad find31/count_B/khc_wa909_shashikiran.txt (84 pages, paras 1-50, read in full).
+// Facts used: the State appeals the Single Judge's order of 02.05.2025 in W.P. 51697/2013 and connected matters, which partly allowed
+// the landowners' writ petitions (Preface); the subject lands: Sy.Nos. 65, 66, 67/2, 68/1, 69, 71, 19 acres 18 guntas, Naganathapura
+// village, Begur Hobli, Bangalore South Taluk (1); 1980 notification for the Central Jail, that land used for a road to the new jail (2);
+// 1989 notification + final declaration 24.05.1990, withdrawn by the State, writ petitions closed as infructuous 26.08.1992 (3); 1998
+// preliminary notification for the new Central Jail; the 2001 urgency order under Section 17 quashed on 12.04.2012, liberty to notify
+// afresh and hear the landowners (4); preliminary notification 19.07.2012 under Section 4(1); objections 23.08.2012; SLAO's report
+// 25/26.03.2013; final declaration 07.08.2013 under Section 6(1) (5); the Single Judge quashed the final declaration and told the State
+// to decide afresh considering the Section 5A(2) report, the objections and the version of the ADGP / IG of Prisons (6); the Single
+// Judge held the report had not considered the alternative land at Devanahalli (13) and did not reflect objective consideration (19);
+// the State's case: buffer zone, no construction up to 200 metres of the main wall (Rule 876(IV), Chapter 45, Prisons Correctional
+// Services Manual, 2021), a high security prison to reduce overcrowding, staff quarters for more than a thousand officers and staff,
+// over 5000 prisoners (8, 8.2, 8.3, 8.4); the landowners: no prior decision of the Government before the Section 6(1) declaration (9.1);
+// the SLAO's report (extract, 14): cost "high and unbearable" for the Government; "discuss at a high level" why a small portion of the
+// Prison Department's 113 acres at Devanahalli should not be used; a high-tension power line crosses the land (14, 21); a 75-metre buffer on all four sides
+// not possible; the Government "free to take an appropriate decision"; the Court calls these "reservations" (32).
+// Held: the Devanahalli objection was considered and sent for high-level discussion; the Single Judge's "no whisper" finding is
+// "unsustainable and contrary to the material available on record" (15, 21); Section 5A is administrative, no need to deal with each
+// objection separately or elaborately, the consideration must be real and not mechanical (16, 17, 25, 28); "Brevity of reasons is not
+// synonymous with absence of reasons" (Alok Kotahwala, quoted at 27); the report is recommendatory and not binding; the Government
+// may differ on an independent application of mind (30-33, 47); the Section 6 declaration need not contain reasons or follow a separate
+// formal order, but the Government's decision must precede it (35-37, 46); expansion of the existing Central Prison is a bona fide
+// public purpose, not to be set aside on "hyper-technicalities" (43, 48). Orders (49): writ appeal allowed; the order of 02.05.2025
+// set aside; the State to take necessary steps to address the RCC buildings, residential layouts, engineering workshops and developed
+// sites on the notified lands, in accordance with law.
+// Not said: no finding on compensation or on the award; the Court did not itself examine the Government's file (47 states what the
+// Government was required to consider). Flow policy: no landowner is named in speech; no "fraud", "collusion", "admitted"; nothing
+// about contraband (the State's 8.2 point is left out).
+# 1 · A REPORT WITH DOUBTS
+10 | Hi, I am Ravishankar from LawWorld. The officer who heard the objections voices reservations about the acquisition. Can the State still acquire the land?
+10 | On twenty eighth October, a Karnataka High Court Division Bench of Honourable Justice D K Singh and Honourable Justice H Shanthi Bhushan ruled. || On 28 October, a Karnataka High Court Division Bench of Honourable Justice D.K. Singh and Honourable Justice H. Shanthi Bhushan ruled.
+# 2 · THE PRISON LAND
+10 | The State wants land near Bengaluru's Parappana Agrahara Central Prison, to expand it. Two attempts fell through. In twenty twelve, it notified the land again. || The State wants land near Bengaluru's Parappana Agrahara Central Prison, to expand it. Two attempts fell through. In 2012, it notified the land again.
+10 | The acquisition officer's report called the cost unbearable, and urged a high level look at the Prison Department's own land at Devanahalli. || The acquisition officer's report called the cost unbearable, and urged a high-level look at the Prison Department's own land at Devanahalli.
+10 | The final declaration came in August twenty thirteen. In twenty twenty five, a single judge quashed it, finding that the report ignored Devanahalli. || The final declaration came in August 2013. In 2025, a single judge quashed it, finding that the report ignored Devanahalli.
+# 3 · THE APPEAL
+10 | The State appealed: the prison holds over five thousand inmates, and needs a two hundred metre buffer zone, a high security jail and staff quarters. || The State appealed: the prison holds over 5,000 inmates, and needs a 200-metre buffer zone, a high security jail and staff quarters.
+# 4 · WHAT THE COURT HELD
+10 | The High Court held the report did weigh Devanahalli. Section Five A needs real, objective consideration, not a judgment on every objection. || The High Court held the report did weigh Devanahalli. Section 5A needs real, objective consideration, not a judgment on every objection.
+10 | And the report only recommends. The Government decides, and may differ if it applies its own mind. A Section Six declaration need not state reasons. || And the report only recommends. The Government decides, and may differ if it applies its own mind. A Section 6 declaration need not state reasons.
+# 5 · THE VERDICT
+10 | Expanding the prison is a bona fide public purpose. The appeal was allowed. The State must address the buildings and sites on the land, in accordance with law.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple.

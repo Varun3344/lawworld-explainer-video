@@ -63,9 +63,10 @@ cue(type="notequal", t0=A("c07", "bias") - 0.05, t1=E("c07") + 0.05, left="Mere 
 cue(type="cite", t0=A("c07", "bias"), t1=E("c07") + 0.05, at=A("c07", "bias"), tag="SUPREME COURT · RELIED ON",
     cases=[{"name": "A.K. Kraipak v. Union of India", "cite": "(1969) 2 SCC 262"},
            {"name": "N.K. Bajpai v. Union of India", "cite": "(2012) 4 SCC 653"}])
+# 31-10 QA: these two rows are the COURT'S FINDINGS, so ok=True (ok=False draws a red x and strikes the text through, which read as "rejected")
 cue(type="verdicts", t0=S("c08"), t1=A("c08", "other") - 0.05,
-    rows=[{"text": "Chairman's earlier involvement “not disputed by any of the respondents”", "ok": False, "at": A("c08", "disputed")},
-          {"text": "His inclusion “ought to have been avoided”", "ok": False, "at": A("c08", "inclusion")}])
+    rows=[{"text": "Chairman's earlier involvement “not disputed by any of the respondents”", "ok": True, "at": A("c08", "disputed")},
+          {"text": "His inclusion “ought to have been avoided”", "ok": True, "at": A("c08", "inclusion")}])
 cue(type="list", t0=A("c08", "other") - 0.05, t1=E("c08") + 0.05, head="Also noted", head_at=A("c08", "other"),
     items=[{"n": 1, "text": "Other member's link with R7: not denied by R6, R7", "at": A("c08", "member")},
            {"n": 2, "text": "Chairman's 2010 article vs report: “stark contrast”", "at": A("c08", "denied")}])

@@ -1,0 +1,42 @@
+// The Principal Commissioner of Income Tax, Bhubaneshwar v. Orissa Mining Corporation Ltd., 2026 INSC 1171, Civil Appeal of 2026
+// (@ SLP (C) No. 14546 of 2023) with four connected Civil Appeals (@ SLP (C) Nos. 25931, 25932, 25882 of 2026 and 3350 of 2024)
+// (Sanjeev Sachdeva J. wrote it, Sanjay Kumar J.), decided 28.10.2026, REPORTABLE. Concept-format judgment reel (9:16, ~96 s), as
+// sets dvc / sbp. Income Tax Act, 1961.
+// Source: the Supreme Court's signed PDF (13 pages, Verdictum's pdf_upload copy, scratchpad find31/SC/omc.pdf; REPORTABLE, bench,
+// author, date checked; its text matches the Indian Kanoon copy, doc 120995256, word for word), paras 1-24, read in full.
+// Facts used: the Revenue appealed against orders holding against it (2); Orissa Mining Corporation Ltd.: AY 2008-09, 2010-11 and
+// 2011-12; an individual assessee (respondent in the connected appeals, not named): AY 2009-10 and 2010-11 (2); returns under s.139,
+// assessed, orders under s.143(3); reopened under s.147, notices under s.148 to file returns in the prescribed form (4); the company
+// asked that its original s.139 return be treated as its return in response to the s.148 notice; the individual refiled the same
+// return (5); no notice under s.143(2) was issued; s.142(1) notices sought documents / stock information (6); reassessment orders,
+// appealed to the CIT(A) on the missing s.143(2) notice (7); CIT(A): having participated after the s.148 and s.142(1) notices, the
+// assessees could not raise it at the appellate stage (8); ITAT: proceedings vitiated for want of the s.143(2) notice, reassessment
+// orders set aside (9); the High Court rejected the Revenue's challenge and upheld the ITAT (10). The Revenue's case: the notice was
+// not required, its omission not fatal; reliance on s.292BB (14). Held: s.143(2) notice mandatory, the chance to produce evidence;
+// a "sine qua non" for reassessment under s.147; without it "no further proceedings can be undertaken" (12, 13); Hotel Blue Moon
+// (2010) 3 SCC 259: the omission is not a curable procedural irregularity, the requirement cannot be dispensed with (12, 20);
+// s.292BB deems a notice duly served, in time and properly, where the assessee appeared / co-operated; it comes into play "only if
+// notice is alleged to have been sent", not where no notice was issued (15, 16); mere participation confers no jurisdiction (17);
+// Laxman Das Khandelwal (2021) 18 SCC 691: s.292BB "does not save complete absence of notice" (21); reiterating the original return
+// does not dispense with the s.143(2) notice (18); a s.142(1) letter is no substitute, "would not validate what is non est" (22); no
+// infirmity in the ITAT's view as affirmed by the High Court; the three questions answered against the Revenue (23); appeals
+// dismissed (24). Assessment years are exact on the cards; in speech: "three assessment years, between 2008 and 2012".
+// Not said: the judgment says only "the High Court" (LiveLaw: the Orissa High Court) - speech and cards say "the High Court". No
+// costs order. The individual assessee is not named anywhere.
+// Flow policy: only the company and the Revenue named; no accusation; no "fraud", "collusion", "evasion", "admitted" (the judgment's
+// "admittedly no notice" is voiced as "no ... notice was issued").
+# 1 · NO NOTICE, STILL VALID?
+10 | Hi, I am Ravishankar from LawWorld. No Section One Forty Three, sub section Two notice was issued, but your client took part anyway. Does that save the reassessment? || Hi, I am Ravishankar from LawWorld. No Section 143(2) notice was issued, but your client took part anyway. Does that save the reassessment?
+10 | On twenty eighth October, a two-judge Supreme Court bench of Honourable Justice Sanjay Kumar and Honourable Justice Sanjeev Sachdeva ruled. || On 28 October, a two-judge Supreme Court bench of Honourable Justice Sanjay Kumar and Honourable Justice Sanjeev Sachdeva ruled.
+# 2 · THE REASSESSMENT
+10 | Orissa Mining Corporation's returns for three assessment years, between two thousand eight and twenty twelve, were assessed. Then the Revenue reopened them. || Orissa Mining Corporation's returns for three assessment years, between 2008 and 2012, were assessed. Then the Revenue reopened them.
+10 | To the Section One Forty Eight notices, it asked that its original returns stand as its reply. No Section One Forty Three, sub section Two notice was issued. || To the Section 148 notices, it asked that its original returns stand as its reply. No Section 143(2) notice was issued.
+# 3 · THE APPEALS
+10 | Reassessment orders followed. The appellate commissioner said: you took part, too late to object. But the Tribunal set them aside, and the High Court agreed.
+10 | The Revenue appealed. It said the notice was not needed, relying on Section Two Ninety Two B B: having taken part, the assessees could not object. || The Revenue appealed. It said the notice was not needed, relying on Section 292BB: having taken part, the assessees could not object.
+# 4 · WHAT THE COURT HELD
+10 | The Court held: this notice is a sine qua non for reassessment. Following Hotel Blue Moon, its absence is not a mere irregularity, and cannot be cured.
+10 | Section Two Ninety Two B B deems a sent notice duly served, once the assessee takes part. It cannot save a notice that was never issued at all. || Section 292BB deems a sent notice duly served, once the assessee takes part. It cannot save a notice that was never issued at all.
+# 5 · THE VERDICT
+10 | Standing by the old return does not excuse the notice, and a Section One Forty Two letter is no substitute. The Revenue's appeals were dismissed. || Standing by the old return does not excuse the notice, and a Section 142 letter is no substitute. The Revenue's appeals were dismissed.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple.

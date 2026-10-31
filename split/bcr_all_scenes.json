@@ -1,0 +1,65 @@
+{
+ "projectTitle": "LawWorld_bcr",
+ "title": "Ex-developer is a RERA allottee",
+ "source": "split/scripts/bcr.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. Your client was the developer, the joint venture ended, and it agreed to buy a flat instead. Can it still go to RERA?",
+   "chip": "1 · DEVELOPER TURNED BUYER?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "On the thirtieth of October, twenty twenty six, a single bench of Honourable Justice P B Balaji of the Madras High Court answered that question.",
+   "shown": "On 30 October 2026, a single bench of Honourable Justice P.B. Balaji of the Madras High Court answered that question."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "In twenty twelve, Bennett Property Holdings signed a joint venture agreement with land owners to develop their land. Later, by consent, it was terminated.",
+   "shown": "In 2012, Bennett Property Holdings signed a joint venture agreement with land owners to develop their land. Later, by consent, it was terminated.",
+   "chip": "2 · THE ROLE REVERSAL"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "Then the roles reversed. The land owners would build, and Bennett would buy an apartment, through an agreement of sale and a separate construction agreement."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "Bennett says the land owners, now the builders, delayed construction and did not hand over possession. So it sought compensation before the Tamil Nadu RERA."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "In July, citing the old joint venture, the Adjudicating Officer rejected it as a monetary deal, triable only by a Commercial Court.",
+   "chip": "3 · REJECTED AS COMMERCIAL"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The High Court held that Bennett is an allottee under Section Two of RERA. Buying its flat with an undivided share is not a commercial transaction.",
+   "shown": "The High Court held that Bennett is an allottee under Section 2 of RERA. Buying its flat with an undivided share is not a commercial transaction.",
+   "chip": "4 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Once the joint venture ended, the parties became strangers, so that old deal cannot be used against the buyer. Land owners who turn developers are bound by RERA."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Calling the officer's finding perverse, the Court allowed the revision. If in order, the complaint must be numbered, the land owners heard, and decided on merits.",
+   "chip": "5 · THE RESULT"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple."
+  }
+ ]
+}

@@ -60,6 +60,13 @@ OUTFITS = {
     "kmv": "a tailored charcoal-grey two-piece business suit, a light-blue formal shirt and a navy-and-silver striped silk tie",  # HC reel 31-10 (Karnataka KMV, English)
     "vzj": "a tailored deep teal-green two-piece business suit, a crisp white formal shirt and a dark-gold silk tie",  # HC reel 31-10 (Kerala Vizhinjam)
     "arm": "a tailored dark brown two-piece business suit, a pale-blue formal shirt and a deep navy silk tie",  # HC reel 31-10 (Madras Aruna Mills)
+    "ssk": "a tailored mid-grey two-piece business suit, a crisp white formal shirt and a deep maroon silk tie",  # HC reel 31-10 round 2 (Karnataka WA 909, English)
+    "bcr": "a tailored dark olive-green two-piece business suit, a cream formal shirt and a rust-orange silk tie",  # HC reel 31-10 round 2 (Madras Bennett RERA)
+    "sbp": "a tailored midnight-black two-piece business suit, a light-grey formal shirt and a royal-blue silk tie",  # SC reel 31-10 round 2 (2026 INSC 1165)
+    "smt": "a tailored slate-blue two-piece business suit, a white formal shirt and a deep purple silk tie",  # HC reel 31-10 round 2 (Kerala W.A. 2222/2026)
+    "lgc": "a tailored charcoal-black pinstripe two-piece business suit, a pale-blue formal shirt and a silver-grey silk tie",  # HC reel 31-10 round 3 (Karnataka CIT v Logica)
+    "omc": "a tailored warm-taupe two-piece business suit, a crisp white formal shirt and a dark navy silk tie",  # SC reel 31-10 round 3 (2026 INSC 1171)
+    "ikc": "a tailored dark steel-blue two-piece business suit, a white formal shirt and a coral-red silk tie",  # HC reel 31-10 round 3 (Madras Inderchand Kochar)
 }
 OUTFIT = OUTFITS.get(SET) or sys.exit(f"[sb] no outfit for {SET}: add one to OUTFITS (every video its own suit)")
 

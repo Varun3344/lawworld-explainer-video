@@ -1,0 +1,44 @@
+// M/s. Bennett Property Holdings Company Limited v. M/s. PNB Techwaves Private Limited & Ors., C.R.P. No. 5206 of 2026 (Article 227),
+// 2026:MHC:4388, High Court of Judicature at Madras, single bench of P.B. Balaji J., reserved 28.09.2026, pronounced 30.10.2026.
+// Reportable: listed under the court's judis "reportable = Y" search (mhc_find_Y.json, filename 1386475, citno 2026/MHC/4388; not in
+// the "N" list); the PDF's "Index : Yes/No" line is left unstruck. Concept format as arm / kmv / vzj. English (High Courts page).
+// Source: scratchpad find31/count_B/mhc_1386475.txt + .pdf (10 pages, paras 1-11, read in full).
+// Facts used: the revision petitioner was the complainant before the Adjudicating Officer, TNRERA, Chennai (1); prayer: set aside
+// the order dated 15.07.2026 in C.C.P.(SR).No.38 of 2026 and direct the Registry to number the compensation complaint (prayer);
+// respondents served, named in the cause list, paper publication effected (order of 11.09.2026), no appearance, set ex parte (2);
+// the complaint was dismissed on maintainability (4); the petitioner, as a property developer, entered into a Joint Venture Agreement
+// with the land owners on 06.11.2012; by consent the JVA stood terminated; role reversal: the land owners proposed to build and the
+// petitioner desired to buy an apartment in the proposed construction; an agreement of sale for the undivided share + a separate
+// construction agreement (4); THE PETITIONER'S GRIEVANCE: the land owners, who assumed the role of a builder, delayed the construction
+// and have not handed over possession as committed under the construction agreement (5); its case: being the original proposed
+// developer does not make the contract commercial; it qualifies as an aggrieved party under RERA (5).
+// HELD: Section 2(d) "allottee" and Section 2(zk) "promoter" quoted (7); the petitioner falls within "allottee" under Section 2; the
+// agreement of sale for the undivided share and the construction agreement are not a commercial transaction; with the JVA ended the
+// parties became strangers, no scope to reopen the earlier arrangement to non-suit the petitioner (8); the sale and construction
+// agreements must be seen independently of the terminated JVA; land owners who assume the role of a developer are equally bound by
+// RERA and liable to address apartment buyers' grievances; the officer "unnecessarily weighed" the earlier arrangement; even if a
+// project is not registered, an aggrieved flat buyer or allottee may move the RERA authorities (9); the finding that the transaction
+// was "an outcome of a monetary transaction" triable only by the Commercial Court is "clearly perverse, improper and unsubstantiated"
+// (10). ORDERS: revision allowed; order of 15.07.2026 set aside; the officer shall entertain the complaint if otherwise in order,
+// number it, issue notice to the respondents, give them adequate opportunity to file a counter, and decide it on merits; no costs (11).
+// Not said: no finding that the construction was in fact delayed (the delay stays the petitioner's grievance: c05 "Bennett says");
+// the Court did not award compensation (the complaint goes back to be decided on merits). The judgment does not say this project
+// was unregistered: the unregistered-project rule (9) is on a c08 card only, as a general rule. No "admitted" / "admittedly" in speech.
+// Flow policy: only the petitioner company is named; the respondents are "the land owners" (no respondent named in speech).
+// Fact-check 31-10: c07 "Buying its flat" (para 8 is about THESE agreements, not a general rule); c09 "If in order" (para 11:
+// "shall entertain the complaint ... if it is otherwise in order and shall number the same").
+# 1 · DEVELOPER TURNED BUYER?
+10 | Hi, I am Ravishankar from LawWorld. Your client was the developer, the joint venture ended, and it agreed to buy a flat instead. Can it still go to RERA?
+10 | On the thirtieth of October, twenty twenty six, a single bench of Honourable Justice P B Balaji of the Madras High Court answered that question. || On 30 October 2026, a single bench of Honourable Justice P.B. Balaji of the Madras High Court answered that question.
+# 2 · THE ROLE REVERSAL
+10 | In twenty twelve, Bennett Property Holdings signed a joint venture agreement with land owners to develop their land. Later, by consent, it was terminated. || In 2012, Bennett Property Holdings signed a joint venture agreement with land owners to develop their land. Later, by consent, it was terminated.
+10 | Then the roles reversed. The land owners would build, and Bennett would buy an apartment, through an agreement of sale and a separate construction agreement.
+10 | Bennett says the land owners, now the builders, delayed construction and did not hand over possession. So it sought compensation before the Tamil Nadu RERA.
+# 3 · REJECTED AS COMMERCIAL
+10 | In July, citing the old joint venture, the Adjudicating Officer rejected it as a monetary deal, triable only by a Commercial Court.
+# 4 · WHAT THE COURT HELD
+10 | The High Court held that Bennett is an allottee under Section Two of RERA. Buying its flat with an undivided share is not a commercial transaction. || The High Court held that Bennett is an allottee under Section 2 of RERA. Buying its flat with an undivided share is not a commercial transaction.
+10 | Once the joint venture ended, the parties became strangers, so that old deal cannot be used against the buyer. Land owners who turn developers are bound by RERA.
+# 5 · THE RESULT
+10 | Calling the officer's finding perverse, the Court allowed the revision. If in order, the complaint must be numbered, the land owners heard, and decided on merits.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple.

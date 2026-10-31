@@ -1,0 +1,69 @@
+{
+ "projectTitle": "LawWorld_omc",
+ "title": "Can 292BB save a missing notice?",
+ "source": "split/scripts/omc.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. No Section One Forty Three, sub section Two notice was issued, but your client took part anyway. Does that save the reassessment?",
+   "shown": "Hi, I am Ravishankar from LawWorld. No Section 143(2) notice was issued, but your client took part anyway. Does that save the reassessment?",
+   "chip": "1 · NO NOTICE, STILL VALID?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "On twenty eighth October, a two-judge Supreme Court bench of Honourable Justice Sanjay Kumar and Honourable Justice Sanjeev Sachdeva ruled.",
+   "shown": "On 28 October, a two-judge Supreme Court bench of Honourable Justice Sanjay Kumar and Honourable Justice Sanjeev Sachdeva ruled."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Orissa Mining Corporation's returns for three assessment years, between two thousand eight and twenty twelve, were assessed. Then the Revenue reopened them.",
+   "shown": "Orissa Mining Corporation's returns for three assessment years, between 2008 and 2012, were assessed. Then the Revenue reopened them.",
+   "chip": "2 · THE REASSESSMENT"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "To the Section One Forty Eight notices, it asked that its original returns stand as its reply. No Section One Forty Three, sub section Two notice was issued.",
+   "shown": "To the Section 148 notices, it asked that its original returns stand as its reply. No Section 143(2) notice was issued."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "Reassessment orders followed. The appellate commissioner said: you took part, too late to object. But the Tribunal set them aside, and the High Court agreed.",
+   "chip": "3 · THE APPEALS"
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The Revenue appealed. It said the notice was not needed, relying on Section Two Ninety Two B B: having taken part, the assessees could not object.",
+   "shown": "The Revenue appealed. It said the notice was not needed, relying on Section 292BB: having taken part, the assessees could not object."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The Court held: this notice is a sine qua non for reassessment. Following Hotel Blue Moon, its absence is not a mere irregularity, and cannot be cured.",
+   "chip": "4 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Section Two Ninety Two B B deems a sent notice duly served, once the assessee takes part. It cannot save a notice that was never issued at all.",
+   "shown": "Section 292BB deems a sent notice duly served, once the assessee takes part. It cannot save a notice that was never issued at all."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Standing by the old return does not excuse the notice, and a Section One Forty Two letter is no substitute. The Revenue's appeals were dismissed.",
+   "shown": "Standing by the old return does not excuse the notice, and a Section 142 letter is no substitute. The Revenue's appeals were dismissed.",
+   "chip": "5 · THE VERDICT"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple."
+  }
+ ]
+}

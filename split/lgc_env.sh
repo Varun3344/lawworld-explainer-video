@@ -1,0 +1,4 @@
+# CIT v. M/s Logica Pvt. Ltd. (Karnataka HC, ITA 338/2013, Vibhu Bakhru CJ and K.S. Hemalekha J., 28.10.2026), English judgment reel (owner 31-10-2026, round 3): Flow queue settings.
+export SPLIT_D=downloads/lgc SPLIT_SB=split/lgc SPLIT_ALL=split/lgc_all_scenes.json SPLIT_GO=split/GOlgc
+export SPLIT_ACCOUNT=a1; . split/accounts.sh
+export SPLIT_VOCAB="LawWorld, Ravishankar, Karnataka High Court, Honourable Chief Justice Vibhu Bakhru, Honourable Justice K S Hemalekha, Logica, transfer pricing, Transfer Pricing Officer, assessment year, two thousand seven to eight, forty crore rupees, comparables, Infosys, Wipro, markup on cost, Tribunal, related party filter, fifteen percent, twenty five percent, Revenue, remand, T N M M, tolerates, cost structure, established brand, drug discovery, functionally different, substantial question of law"

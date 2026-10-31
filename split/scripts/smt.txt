@@ -1,0 +1,49 @@
+// State of Kerala & Ors. v. [a minor, represented by her father] & Ors., Writ Appeal No. 2222 of 2026, 2026:KER:82291
+// (CNR KLHC010813002026), against the judgment dated 23.10.2026 in W.P.(C) No. 28587 of 2026. High Court of Kerala at Ernakulam,
+// Division Bench: Raja Vijayaraghavan V, J. (author: "Raja Vijayaraghavan V, J.") and K. V. Jayakumar, J. Heard for admission and
+// decided the same day, Tuesday 27.10.2026. Marked "CR" (reportable) at the head of the judgment (page 3, above "J U D G M E N T").
+// Concept-format judgment reel (9:16, ~96 s), as sets vzj / kmv / arm. English (LawWorld - High Courts page).
+// Source: scratchpad find31/count_A/smt.txt (Indian Kanoon doc 150039668, the court PDF's text, 28 pages, paras 1-39, read in full).
+// Facts used: the writ petitioner (R1 in the appeal) is a MINOR, represented by her father (cause title, 2, 5(a)); she intended to
+// appear for CLAT 2027, entrance for undergraduate law programmes (2); prayer: quash Ext.P8 rejection of her request for inclusion in
+// the Non-Creamy Layer category and for an NCL certificate; a declaration that creamy layer status could not be decided solely because
+// her mother holds a Class I/Group A post (2, 6); last date for CLAT applications 31.10.2026, exam 06.12.2026, so the appeal was
+// disposed of finally at admission with consent (3); her community is in the Kerala SEBC list (5(a)); Ext.P7 application to the
+// Tahsildar (5(d)); rejected because her mother was a directly recruited Class I officer, under Ext.P9, the 1993 Office Memorandum
+// (5(e)); her mother practised as an advocate and joined the Kerala State Higher Judicial Service in 2021 as an Additional District
+// and Sessions Judge at 41 (5(c), 5(g), 11, 24); income in 2019-20 about Rs.1,20,130 (5(c), 11); Ext.P10, the 14.10.2004
+// clarification: a father directly recruited to Class III/C or IV/D who enters Class I at 40 or earlier -> his children NOT creamy
+// layer (5(f), 20, 21); the Tahsildar's counter (7). Single Judge (8): P9 and P10 read harmoniously in her favour, otherwise
+// discrimination; noted the writ petition's assertion that Munsiff Magistrates promoted District Judge after 40 get the OBC (NCL)
+// certificate, while she was denied only because her mother was directly recruited; also a clear case of discrimination; Ext.P8
+// quashed; the Tahsildar directed to issue the certificate within three working days.
+// Held (Division Bench): Category II A covers children of parents either of whom is a directly recruited Class I officer, subject to
+// the Schedule's exceptions (13, 17); the post held and the manner of entry are material considerations (18); framed on the parent's
+// STATUS, not on promotion or direct recruitment from a lower category (19);
+// P10 is confined to a person initially recruited to Class III/C or IV/D who later enters Class I (22, 23); a practising advocate
+// directly recruited to a Class I judicial post at 41 is outside it (23, 24); the age of entry in isolation is not the test (22, 25);
+// harmonious construction cannot extend a clarification beyond its terms or create an exception (26); Union of India v. Rohith Nathan,
+// (2026) 6 SCC 1: a mere Government letter cannot override the Office Memorandum (27-29); her mother's professional income does not
+// displace the service-status criterion (31); the Delhi High Court rulings are distinguishable (32); equality does not require
+// materially different service categories to be treated identically; no challenge to the validity of Ext.P9 was raised (33);
+// Ashoka Kumar Thakur (35, 36); "sympathy, however genuine, cannot justify a departure from the criteria prescribed by law" (37).
+// Orders (39): the Single Judge's judgment set aside; the Tahsildar's rejection upheld; the writ petitioner not entitled to any relief;
+// the writ appeal allowed.
+// Privacy: the minor is never named or identified (no name, no place, no community, no posting of either parent) in speech or on any
+// card. Flow policy: no private person named in speech; the only names are the judges and the Supreme Court case Rohith Nathan (no
+// accusation); no "admitted". "CLAT" is said as a word.
+# 1 · CREAMY LAYER?
+10 | Hi, I am Ravishankar from LawWorld. An advocate is directly recruited as a District Judge at forty one. Is her child still in the O B C creamy layer? || Hi, I am Ravishankar from LawWorld. An advocate is directly recruited as a District Judge at 41. Is her child still in the OBC creamy layer?
+10 | On twenty seventh October, Honourable Justice Raja Vijayaraghavan V and Honourable Justice K V Jayakumar of the Kerala High Court ruled. || On 27 October, Honourable Justice Raja Vijayaraghavan V. and Honourable Justice K.V. Jayakumar of the Kerala High Court ruled.
+# 2 · THE CERTIFICATE
+10 | A minor sought an O B C non creamy layer certificate for CLAT. The Tahsildar refused: her mother is a directly recruited Class One officer. || A minor sought an OBC non-creamy layer certificate for CLAT. The Tahsildar refused: her mother is a directly recruited Class I officer.
+10 | Her mother, a practising advocate, became a District Judge at forty one. Citing a two thousand four clarification, the minor filed a writ petition. || Her mother, a practising advocate, became a District Judge at 41. Citing a 2004 clarification, the minor filed a writ petition.
+# 3 · THE SINGLE JUDGE
+10 | The single judge quashed the refusal, noting her plea that promoted judges' children get it, and held denying a direct recruit's child was discrimination.
+# 4 · WHAT THE COURT HELD
+10 | The Division Bench held: a directly recruited Class One officer's child falls in the creamy layer. Both the parent's post and the mode of entry matter. || The Division Bench held: a directly recruited Class I officer's child falls in the creamy layer. Both the parent's post and the mode of entry matter.
+10 | The two thousand four clarification covers only staff rising from Class Three or Four. An advocate recruited directly at forty one falls outside it. || The 2004 clarification covers only staff rising from Class III or IV. An advocate recruited directly at 41 falls outside it.
+10 | A mere letter cannot override the Office Memorandum, per Rohith Nathan. Equality doesn't require treating different service categories alike.
+# 5 · THE RESULT
+10 | Sympathy, however genuine, cannot override the criteria, the Court said. The State's appeal was allowed, and the Tahsildar's refusal was upheld.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple.

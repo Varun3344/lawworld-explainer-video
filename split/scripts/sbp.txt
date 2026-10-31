@@ -1,0 +1,48 @@
+// South Bihar Power Distribution Company Ltd. v. India Power Corporation Ltd. & Anr., 2026 INSC 1165, Civil Appeal No. 9313 of 2026
+// (arising out of SLP (C) No. 27403 of 2023) with Civil Appeal No. 9325 of 2026 (Ujjal Bhuyan J. wrote it, Atul S. Chandurkar J.),
+// decided 28.10.2026, REPORTABLE. Concept-format judgment reel (9:16, ~96 s), as sets dvc / cdp.
+// Source: the Supreme Court's own signed PDF (scratchpad find31/SC/sbp.pdf, 50 pages, via LiveLaw's pdf_upload; REPORTABLE, bench,
+// date checked) and the Indian Kanoon text (doc 56219280), paras 1-48, read in full.
+// Facts used: appellant = distribution licensee in Bihar (5); a tripartite Distribution Franchisee Agreement dated 31.12.2013 with the
+// successful bidder (India Power Corporation Ltd.) and its special purpose vehicle (5.1); clause 17.2.5: unresolved disputes to
+// arbitration "by a panel consisting of three arbitrators" (14.1, 14.2); arbitration notice 09.11.2016 (5.3); on the SPV's Section 11
+// request, the Patna High Court, with the parties' consent, appointed a retired judge of that court as sole arbitrator, 04.04.2018
+// (5.3); counter claim 02.02.2019 + supplementary counter claim 28.03.2019 (5.4); NCLT admitted insolvency (CIRP) against the SPV,
+// respondent No. 2, 08.11.2019 (5.5); again with consent, the High Court appointed a former Chief Justice of India as the new
+// arbitrator, 10.03.2021 (5.6); procedural order 07.04.2021: no objection to the composition (5.7, 21.2); one year, then six months
+// more by consent; before that ran out (07.08.2021) the respondents asked the High Court for four more months (Request Case No. 36 of 2021) (5.7, 15);
+// the appellant objected: no jurisdiction to extend time, a three-member tribunal per the agreement (Request Case No. 78 of 2022),
+// and the SPV in insolvency had no locus to arbitrate (5.8, 5.11); High Court, 15.09.2023: consent = waiver, conduct = acquiescence,
+// locus upheld, and it had jurisdiction under Section 29A: mandate extended by four months (3, 5.11).
+// Held: (1) by its conduct the appellant "clearly waived its right to object to the composition of the arbitral tribunal"; took part,
+// consented to the extension, filed a counter claim and a supplementary one = "clear acquiescence"; not open to it "at the very
+// belated stage" (25); Sections 4 and 16(2) (23, 24); the two appointment orders never challenged, final and binding (22); Pam
+// Development (2014) 11 SCC 366 (26); High Court affirmed (27). (2) Section 14 IBC moratorium bars debt recovery action against the
+// corporate debtor; "it would not impair any claim by the corporate debtor, such as, an arbitral claim, which if successful, would
+// only bolster the financial health thereby enhancing the value of the corporate debtor" (29); resolution professional authorised
+// the signatories, approved by the committee of creditors, Section 28(1)(h) IBC (30); affirmed (31). (3) "court" = Section 2(1)(e)(i):
+// the principal civil court of original jurisdiction in a district, including a High Court in its ordinary original civil
+// jurisdiction; Section 11 is about appointment only, "nothing more should be read into it" (34); Associated Contractors (2015) 1 SCC
+// 32 (37); BSC & C and C JV, 13.05.2024 (38); Jagdeep Chowgule (2026) 5 SCC 667: Section 11 jurisdiction "stands exhausted upon the
+// constitution of the arbitral tribunal", no residual supervisory power (39); C. Velusamy (2026) 5 SCC 340 (40); the High Court's
+// view "clearly unsustainable in law", set aside (43). Result: the Commercial Court, Patna, had extended the mandate by six months
+// on 23.03.2026 after this Court's order of 21.01.2026 (8, 9), so setting aside "would have no bearing" (44); questions 1 and 2
+// affirmed, 3 set aside (45); the embargo of 12.02.2024 lifted, award within six weeks (6, 46); appeals dismissed, no costs (47, 48).
+// Not said: the judgment does not say whether the Patna High Court has ordinary original civil jurisdiction (not voiced: "acting
+// under Section Eleven" only). No arbitrator or private person named in speech; only the two companies.
+// Flow policy: no accusation of anyone; no "fraud", "collusion", "admitted".
+# 1 · WHO EXTENDS THE MANDATE?
+10 | Hi, I am Ravishankar from LawWorld. The High Court appointed your arbitrator under Section Eleven. When time runs out, can that same High Court extend the mandate? || Hi, I am Ravishankar from LawWorld. The High Court appointed your arbitrator under Section 11. When time runs out, can that same High Court extend the mandate?
+10 | On twenty eighth October, a two-judge Supreme Court bench of Honourable Justice Ujjal Bhuyan and Honourable Justice Atul S Chandurkar ruled. || On 28 October, a two-judge Supreme Court bench of Honourable Justice Ujjal Bhuyan and Honourable Justice Atul S. Chandurkar ruled.
+# 2 · THE ARBITRATION
+10 | South Bihar Power Distribution Company's franchisee contract required three arbitrators. By consent, the Patna High Court appointed a sole arbitrator.
+10 | Later, by consent, a former Chief Justice of India took over. Before one year, plus six months by consent, ran out, the respondents asked the High Court for four more months.
+# 3 · THE OBJECTIONS
+10 | The appellant objected: three arbitrators, the claimant's insolvency, and the High Court's power to extend time. The High Court rejected every one of them.
+# 4 · WHAT THE COURT HELD
+10 | On the panel, the Court held: having consented twice, taken part, and filed a counter claim, the appellant waived its objection under Section Four. It came too late. || On the panel, the Court held: having consented twice, taken part, and filed a counter claim, the appellant waived its objection under Section 4. It came too late.
+10 | And insolvency was no bar. The moratorium stops recovery against the debtor, not the debtor's own claim, which, if it succeeds, only adds to its value.
+10 | But acting under Section Eleven, the High Court could not extend time. That role ends once the tribunal is formed. Only the court defined in Section Two can. || But acting under Section 11, the High Court could not extend time. That role ends once the tribunal is formed. Only the court defined in Section 2 can.
+# 5 · THE VERDICT
+10 | Since the Patna Commercial Court had already extended the mandate, the error made no difference. The appeals were dismissed, and the award must come within six weeks.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple.
