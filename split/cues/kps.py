@@ -35,12 +35,12 @@ cue(type="bench", t0=S("c03"), t1=E("c03") + 0.05, tag="Supreme Court of India �
             {"name": "Justice K. Vinod Chandran", "photo": "../brand/judges/k_vinod_chandran.jpg", "at": A("c03", "honourable", 2)}])
 
 # ── 2 · the insolvency ───────────────────────────────────────────────────────────────────────────────────────────────────────────
-cue(type="cite", t0=A("c04", "bank"), t1=E("c05") + 0.05, at=A("c04", "bank"), tag="SUPREME COURT OF INDIA · 26.10.2026",
+cue(type="cite", t0=S("c05"), t1=E("c05") + 0.05, at=A("c05", "creditors"), tag="SUPREME COURT OF INDIA · 26.10.2026",
     cases=[{"name": "Bank of India & Ors. v. S.M. Kamal Pasha & Ors.", "cite": "2026 INSC 1154 · Civil Appeal No. 12045 of 2026"}])
 cue(type="flow", t0=S("c04"), t1=E("c04") + 0.05, head="Insolvency and Bankruptcy Code, 2016", head_at=S("c04") + 0.05,
-    steps=[{"label": "Section 7 application by Bank of India", "sub": "the financial creditor that started the insolvency process", "icon": "landmark", "at": A("c04", "started")},
-           {"label": "Corporate debtor: toll collection", "sub": "on National Highway 45", "icon": "file-text", "at": A("c04", "toll")},
-           {"label": "Covid-19 hit the toll business", "sub": "per the lenders, its finances were tottering", "icon": "info", "at": A("c04", "covid")}])
+    steps=[{"label": "Bank of India files", "sub": "Section 7 · the financial creditor", "icon": "landmark", "at": A("c04", "started")},
+           {"label": "Debtor: toll collection", "sub": "on National Highway 45", "icon": "file-text", "at": A("c04", "toll")},
+           {"label": "Covid hit the business", "sub": "per the lenders: finances tottering", "icon": "info", "at": A("c04", "covid")}])
 cue(type="timeline", t0=S("c05"), t1=E("c05") + 0.05,
     nodes=[{"label": "COMMITTEE OF CREDITORS", "value": "plan approved", "sub": "per the lenders: ₹172.55 crore", "at": A("c05", "approved")},
            {"label": "EARLIER PROCEEDINGS", "value": "a stay", "sub": "Supreme Court, the promoter's appeal", "at": A("c05", "stay")},

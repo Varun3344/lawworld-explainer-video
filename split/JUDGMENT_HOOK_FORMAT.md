@@ -32,6 +32,12 @@ Chapters: `# 1 · <HOOK TITLE>` (c01-c03, the intro keeps the Sisinty cuts), `# 
   headed "Follow LawWorld · lawworld.ai" (search judgments, draft with AI, ₹200 AI credit); c09-c10 `list` / `point` / `verdicts`.
 - No `STING` needed. `ENDCARD` as before.
 
+## Card layout gate (owner 02-11-2026: "dont make those type of faults again")
+After the mock plan and BEFORE any render: `V_LAYOUT=judgment python3 split/check_layout.py <set> --mock` must print `LAYOUT OK`.
+It renders every card alone at the moment it is fully built and fails on two cards covering each other (kps c04: the step boxes hid
+the case bar) or a card cut off at the 9:16 edge. post_course.sh runs it again and stops on a FAIL; the ship step refuses without
+`LAYOUT OK`. Keep step / node labels short (two lines in a box) and give a tall card its own clip without the cite bar.
+
 ## Everything else is unchanged from the classic judgment reels
 Reportable judgments only, official PDF, facts with paragraph numbers in the header comments, Flow policy (no private names with
 accusations, no "fraud" / "collusion" / "admitted"), no digits in speech, 38-43 syllables per 10 s clip (`check_scenes.py`),

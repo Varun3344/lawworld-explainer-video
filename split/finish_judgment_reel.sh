@@ -35,6 +35,8 @@ PY
   ffmpeg -v error -y -i $SRC -vn -ac 1 -ar 16000 -b:a 48k $QA/a.mp3
   echo "transcript: $(curl -s https://api.openai.com/v1/audio/transcriptions -H "Authorization: Bearer $KEY" -F file=@$QA/a.mp3 -F model=whisper-1 -F language=${QA_LANG:-en} "${QAP[@]}" | python3 -I -c 'import json,sys;print(json.load(sys.stdin).get("text"))')"
 elif [ "$WHAT" = "ship" ]; then
+  # never ship a reel whose cards overlap or are cut off (post_course.sh writes out/<set>/layout.log; LAYOUT_FORCE=1 overrides)
+  grep -q "LAYOUT OK" out/$SET/layout.log 2>/dev/null || [ -n "${LAYOUT_FORCE:-}" ] || { echo "ship REFUSED: out/$SET/layout.log has no LAYOUT OK - run V_LAYOUT=judgment python3 split/check_layout.py $SET"; exit 1; }
   SLUG=$3; STEM=$4; O=$V/cover; mkdir -p $O; TH=out/$SET/thumb_brand.png
   ENC=(-c:v libx264 -preset veryfast -crf 17 -r 24 -pix_fmt yuv420p -c:a aac -b:a 192k -ar 48000 -ac 2)
   ffmpeg -loglevel error -loop 1 -t 0.625 -i $TH -t 0.625 -i $SRC -map 0:v -map 1:a -vf "scale=1080:1920,setsar=1" "${ENC[@]}" -shortest -y $O/q0.mp4

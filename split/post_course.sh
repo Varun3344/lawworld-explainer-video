@@ -65,6 +65,10 @@ else: print("[post] size: kept max_up 0.10 (outliers stay larger)")
 PY2
 fi
 python3 split/build_course_plan.py --set $SET || { log "plan FAILED"; exit 1; }
+# card layout gate (owner 02-11-2026, kps: the case bar hidden under c04's step boxes - "dont make those type of faults again"):
+# two cards overlapping, or (judgment reels) a card cut off at the 9:16 edge, stops the build here; fix split/cues/$SET.py
+python3 split/check_layout.py $SET > $O/layout.log 2>&1 || { log "layout FAIL - HELD, fix split/cues/$SET.py:"; grep -E "OVERLAP|CUT" $O/layout.log | sed "s/^/[post $SET] /"; exit 1; }
+tail -1 $O/layout.log | sed "s/^/[post $SET] /"
 log "overlay frames"
 rm -rf $O/frames; zsh split/render_parallel.sh overlays/split_panel.html $O/timeline.json $O/frames ${OVERLAY_WORKERS:-2} > $O/frames.log 2>&1 || { log "overlays FAILED"; tail -5 $O/frames.log; exit 1; }
 log "16:9 compose"
