@@ -1,0 +1,66 @@
+{
+ "projectTitle": "LawWorld_avb",
+ "title": "Leased out your excavator: can it be confiscated?",
+ "source": "split/scripts/avb.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Advocates, if you lease out your excavator and it is used to dump waste, can the authorities confiscate it from you, the registered owner?",
+   "chip": "1 · LEASED OUT, STILL LIABLE?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "The owner says the lease made the lessee alone liable. It says the machine was seized on private land, while not in use. So is the confiscation lawful?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On twenty third October, twenty twenty six, Honourable Justice M A Abdul Hakhim of the Kerala High Court ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 23 October 2026, Honourable Justice M A Abdul Hakhim of the Kerala High Court ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "In August twenty twenty five, the Pulikkal Panchayat seized a soil excavator, alleging it was used to dump waste in an abandoned quarry.",
+   "shown": "In August 2025, the Pulikkal Panchayat seized a soil excavator, alleging it was used to dump waste in an abandoned quarry.",
+   "chip": "2 · THE SEIZURE"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "The Sub Collector confiscated it under Section Two Nineteen U of the Kerala Panchayat Raj Act, to be auctioned, with the money going to the Panchayat.",
+   "shown": "The Sub Collector confiscated it under Section 219U of the Kerala Panchayat Raj Act, to be auctioned, with the money going to the Panchayat."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The owner, a partnership firm, filed a writ petition. It relied on a lease saying the lessee alone would bear any penalty for the machine's use.",
+   "chip": "3 · THE LEASE DEFENCE"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "It argued the section needs a vehicle carrying waste on a public road, or returning after use. The State said the owner cannot hide behind a lease."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? A vehicle returning after the offence can be seized even off a public road, and parking at the spot counts as return.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "The plain paper agreement was not a lease deed. Even if it were, the owner took no reasonable care. The confiscation stood; the petition was dismissed."
+  }
+ ]
+}

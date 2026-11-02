@@ -1,0 +1,60 @@
+// Shanta Sinha (since deceased, through LRs) v. Ruma Devi & Anr., First Appeal No. 128 of 2017, CNR BRHC010972642017, High Court of
+// Judicature at Patna, single Judge: Ramesh Chand Malviya, J., oral judgment, Thursday 29.10.2026; "AFR/NAFR AFR" in the footer of the
+// last page (Patna marks reportability there). HOOK format (split/JUDGMENT_HOOK_FORMAT.md), the High Courts page (English).
+// Source: the Indian Kanoon render of the judgment (doc 47301074, 18 pages, scratchpad find2nov_next/pdf/PAT_ShantaSinha_probate_IK.pdf;
+// it carries the court's own page header "Patna High Court FA No.128 of 2017 dt.29-10-2026" and the AFR footer), paras 1-46, read in
+// full. The court's own PDF was NOT obtained: every judgment / order search on patnahighcourt.gov.in (orderslist/AFR, casesearch,
+// orders/caseno) is captcha-gated, and no LiveLaw / Verdictum pdf_upload copy was found (02-11-2026). Fact-check against it if it turns up.
+// WHO IS WHO: the propounders / plaintiffs = Ruma Devi and Prabha Devi, daughters of Bijali Prasad Singh, the testatrix's full brother,
+// i.e. her nieces (4, 5, 39); they won probate at trial and are respondents 1-2 here. The objector / defendant = Baban Devi @ Rukmini
+// Devi, the full sister of the testatrix's husband, then (after her death) her daughter Shanta Sinha (6); Shanta Sinha filed this First
+// Appeal (15) and, she too having died, it is pursued by her legal representatives (cause title 1.1, 1.2). The appellants WON.
+// Facts used: First Appeal under Section 299 of the Indian Succession Act, 1925 against the judgment of 05.07.2017 of the VIIIth
+// Additional District Judge, Begusarai, in Title Suit No. 02 of 2007 (Probate Case No. 01 of 1995) (2); the nieces sought probate
+// under Section 276 of the Will dated 17.12.1994 (Exhibit 3) said to be executed by Sabujwati Kunwari, Schedules I-III (4); her
+// husband died in 1920, she had no issue of her own; the Will is said to bequeath her properties to them out of love and affection;
+// her brother identified her L.T.I. on the Will; she was "not illiterate", but her hands trembled with age, so she put her L.T.I.;
+// she died on 20.01.1995; probate application on 14.03.1995 (4, 5); the objector opposed on 25.07.1995 and pleaded the Will was not
+// genuine ("forged, fabricated and antedated" - NEVER voiced); the probate case became a regular Title Suit (6); the trial court held
+// the L.T.I. hers, identified by the brother, the attesting witnesses and scribe supported execution, the Will duly executed and
+// attested, probate granted (13, 14); the objector's daughter appealed (15); appellants: the testatrix was literate and had signed
+// the F.I.R. (Exhibit A) days earlier; L.T.I. at the top right of every page; unregistered; witnesses not independent (16, 16.i);
+// respondents: the L.T.I. placement and the non-registration were never pleaded, cannot be argued for the first time in appeal (17,
+// 22). HELD: the general rule accepted, but the objection fails (22); forgery was pleaded, so how the mark came on the paper was in
+// issue from the outset; no prejudice (23); Section 63(a), (b): the mark must be so placed that it appears intended to give effect to
+// the writing as a Will - ingredients the propounder must prove, "not a defence that the contestant must plead"; "Even where the
+// contestant has not pleaded a suspicious circumstance with particularity", the Will is not proved if the circumstance is inherent in
+// the document - the propounder must dispel it (Derek A.C. Lobo, para 16); the circumstances here are inherent in Exhibit 3 and the
+// plaintiffs' own evidence: the L.T.I. in place of a signature, its position, the witnesses' relationship to a beneficiary, no
+// registration; the probate Court must itself be satisfied "whether or not a plea has been taken" (24); Section 63(c) needs two
+// attesting witnesses; Section 68 Evidence Act: at least one attesting witness to prove execution, registered or not; "Proof that the
+// mark is the testatrix's own is not proof that she executed this Will" (26); if a genuine doubt remains, probate cannot be granted,
+// the benefit of the doubt goes to the natural line of succession (27); the testatrix signed Exhibit A (F.I.R. of 08.12.1994) nine
+// days before the Will (31-33); "A person who could sign a complaint to the police could sign her Will" (33); the mark at the head
+// of each page does not necessarily close and authenticate the writing (35); the trial court's "admission" reading rejected (36); the
+// brother (the nieces' father) took a prominent part (37); PW-2 is the business partner of Ajay Kumar, husband of plaintiff no. 1;
+// PW-5 is Ajay Kumar's brother-in-law; the third attesting witness died; "The whole of the evidence of execution comes from the circle
+// of the beneficiaries" (38); registration optional, but the Will made twelve days after the Teghra Registry visit was not registered
+// and no reason was shown (40); the trial court reversed the burden (43); Issues III, IV set aside, Issue V against the plaintiffs
+// because the Will is not proved (44); no decision on title (45); appeal allowed, the 05.07.2017 judgment set aside, probate of the
+// Will of 17.12.1994 refused, the probate case dismissed (46).
+// Not said: any finding that the Will is forged (the Court decides only that it is NOT PROVED; it does not find incapacity either, 30);
+// the F.I.R.'s kidnapping account and the persons named in it (31); the appellants' "habit of forging Wills" line (16.ii, a party's
+// submission); the testatrix's age "about 90" (16, counsel's word only); "eight pages" (counsel's count; the Court says "every page").
+// Flow policy: no private person named in speech; roles only ("the propounders", "the objector", "a beneficiary's husband"); no
+// "forgery / forged / fraud / admitted" in speech; only the judge and the court are named.
+# 1 · A THUMB MARK, NOT A SIGNATURE
+10 | Advocates, a Will bears a thumb impression, not a signature, at the top of every page. If the objector never pleaded that, can the Court still doubt the Will?
+10 | The trial court granted probate, on an unregistered Will, with two attesting witnesses tied to a beneficiary's husband. So is proving the thumb mark enough?
+10 | Hi, I'm Ravishankar from LawWorld. On twenty ninth October, twenty twenty six, Honourable Justice Ramesh Chand Malviya of the Patna High Court ruled. || Hi, I'm Ravishankar from LawWorld. On 29 October 2026, Honourable Justice Ramesh Chand Malviya of the Patna High Court ruled.
+# 2 · A WIDOW'S BEQUEST
+10 | An elderly, childless widow is said to have left her property to her two nieces, by a Will of December nineteen ninety four. She died a month later. || An elderly, childless widow is said to have left her property to her two nieces, by a Will of December 1994. She died a month later.
+10 | The nieces, as propounders, sought probate. Her late husband's sister objected that the Will was not genuine. After her death, her daughter carried on as the objector.
+# 3 · PROBATE, THEN APPEAL
+10 | In twenty seventeen, the trial court at Begusarai granted probate. It found the thumb mark was hers, identified by the nieces' own father. The objector appealed. || In 2017, the trial court at Begusarai granted probate. It found the thumb mark was hers, identified by the nieces' own father. The objector appealed.
+10 | In appeal, the objector relied on the thumb mark, its position, and the missing registration. The propounders replied that these points were never pleaded at the trial.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the High Court decide? Suspicions arising from the Will itself must be dispelled by the propounders, even if not pleaded in detail.
+10 | She could sign, yet the Will bears just a thumb mark, and all evidence of execution came from the beneficiaries' circle. The appeal was allowed, probate refused.

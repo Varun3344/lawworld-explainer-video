@@ -1,0 +1,51 @@
+// M/s Teja Electricals v. The Chief Administrative Officer (Construction), South East Central Railway, Bilaspur & Anr., ARBA No. 91 of
+// 2017, 2026:CGHC:46107-DB, CNR CGHC010198342017, High Court of Chhattisgarh at Bilaspur, Division Bench: Parth Prateem Sahu, J. (wrote
+// it) and Sushma Sawant, J.; CAV order reserved 13.10.2026, delivered and uploaded 30.10.2026; "AFR" on page 1 (reportable). HOOK format
+// (split/JUDGMENT_HOOK_FORMAT.md), the High Courts page (English).
+// Source: the Indian Kanoon render of the judgment (doc 136797738, 16 pages, scratchpad find2nov_next/pdf/CG_TejaElectricals_s37_IK.pdf),
+// paras 1-44, read in full. The court's own PDF was NOT obtained (the CG HC judgment search is captcha-gated; no LiveLaw / Verdictum
+// copy found 02-11): fact-check against it before shipping if it turns up.
+// Facts used: Section 37 appeal against the Commercial Court (District Level), Naya Raipur's order of 31.10.2017 in MJC No. 31/2016,
+// dismissing the Section 34 application against the award of 12.5.2015 (1); work: electrification of the private siding of M/s Ind
+// Agro Synergy Ltd. at Kotarlia; Letter of Acceptance 04.08.2005, agreement 05.10.2005 (13); Item 3 of the Special Conditions:
+// materials inspected by RITES / a competent supervisor, "No payment will be made unless the inspection certificate has been submitted
+// along with supplier's original challan. The materials have to be procured only from approved sources of RDSO/CORE." (14, 25);
+// Clause IV: on-account payment up to 85% against invoices with challan, inspection and manufacturer's test certificates; Clause V:
+// the balance 15% through the final bill after satisfactory completion (13); not in dispute: 85% on-account paid on the appellant's
+// test certificates without objection; work completed to the Railway's satisfaction on 14.5.2006, completion certificate 25.1.2007;
+// final bill Rs.1,49,33,340, net payable after on-account payments Rs.41,63,602 (15); the manufacturer's test certificate was
+// demanded (letter 06.06.2008, 2, 19 para 6.3); the reports were issued by M/s Unique Structure & Tower Ltd., Raipur, which only
+// galvanised the masts and was not the manufacturer; no original challan of the manufacturer; the final bill withheld (15, 27, 28);
+// arbitrator appointed by this Court on 4.7.2011 (Arbitration Application 27/2009); claim Rs.1,00,11,599 (15, 18); award 12.5.2015
+// dismissed the claim: contract not completed as per its conditions (16); the Commercial Court dismissed the Section 34 application
+// (16, 21). The contractor: CORE letter 03.12.2014 - Unique Structure and Shri Bajrang Alloys are CORE-approved sources; RITES
+// inspection certificate; 85% released on similar certificates without objection (3, 4); the arbitrator ignored this evidence (5).
+// The Railway: no re-appreciation of facts / evidence under Section 37; on-account and final payment are distinct stages (8-10).
+// Held: Section 37 court cannot re-appreciate evidence or sit in appeal over a plausible interpretation (22); procurement from
+// RDSO/CORE-approved sources "is an essential contractual obligation and not a mere procedural formality"; the galvanising agency's
+// reports cannot by themselves prove the source (28, 29); the arbitrator's conclusion is a finding of fact, not perverse (30); not
+// against the fundamental policy of Indian law (31); the on-account payment "cannot be construed as an acknowledgment of complete
+// contractual compliance or as a automatic waiver" (32); the manufacturer's test report still not produced (33); the arbitrator's
+// reading of Item 3 "a plausible and reasonable interpretation"; an alternative view is no ground (34); MMTC v. Vedanta, Dyna
+// Technology, Delhi Airport Metro, UHL Power, Konkan Railway, Larsen Air Conditioning, Reliance Infrastructure, Somdatt Builders
+// (35-42); no ground under Section 34 (43); "we find this appeal devoid of merit and accordingly, the same is dismissed" (44).
+// WHO WON: the Railway (respondents). The award rejecting the contractor's claim and the Commercial Court's order stand.
+// Not said: the Railway Board's five-year ban on the appellant and the Rs.32.11 lakh "non-approved sources" recovery (19, paras 6.8,
+// 6.10 of the award: the Railway's allegations, kept off speech and cards); the proprietor's name; the "genuineness" doubt (20, 30).
+// Flow policy: only the firm (Teja Electricals) is named, in a neutral sentence (c04); no accusation; no "fraud" / "collusion" /
+// "admitted" / "admission" in speech; judges named.
+# 1 · CAN THE RAILWAY HOLD BACK?
+10 | Advocates, the Railway paid eighty five percent on account, against a contractor's test certificates. Can it still hold back the final payment? || Advocates, the Railway paid 85% on account, against a contractor's test certificates. Can it still hold back the final payment?
+10 | The work was done and certified complete. Yet the arbitrator rejected the claim, and the Commercial Court agreed. Can a Section Thirty Seven appeal change that? || The work was done and certified complete. Yet the arbitrator rejected the claim, and the Commercial Court agreed. Can a Section 37 appeal change that?
+10 | Hi, I'm Ravishankar from LawWorld. A Chhattisgarh High Court bench of Honourable Justice Parth Prateem Sahu and Honourable Justice Sushma Sawant ruled.
+# 2 · THE CONTRACT
+10 | In two thousand five, the Railway hired Teja Electricals to electrify a siding. Materials had to come from R D S O or CORE approved sources. || In 2005, the Railway hired Teja Electricals to electrify a siding. Materials had to come from RDSO or CORE approved sources.
+10 | The work was completed in May two thousand six. Eighty five percent was paid on account, and the final bill left a balance of over forty one lakh rupees. || The work was completed in May 2006. 85% was paid on account, and the final bill left a balance of over ₹41 lakh.
+# 3 · THE WITHHELD BILL
+10 | Then the Railway asked for the maker's test certificates for the steel masts. The reports came from a firm that had only galvanised them, so the bill was withheld.
+10 | The contractor said the sources were confirmed, and the on account payment proved compliance. The Railway said a Section Thirty Seven court cannot reweigh evidence. || The contractor said the sources were confirmed, and the on-account payment proved compliance. The Railway said a Section 37 court cannot reweigh evidence.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the High Court decide? An approved source was an essential term, not a formality, and the arbitrator's reading was a plausible view.
+10 | An on account payment is no acknowledgment of full compliance, nor an automatic waiver. The award was not perverse, and the contractor's appeal was dismissed. || An on-account payment is no acknowledgment of full compliance, nor an automatic waiver. The award was not perverse, and the contractor's appeal was dismissed.

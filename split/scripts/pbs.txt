@@ -1,0 +1,46 @@
+// The Bihar Public Service Commission & Anr. v. Dr. Sushma Sharan & Ors., Letters Patent Appeal No. 472 of 2023 in CWJC No. 18940 of
+// 2019, High Court of Judicature at Patna, Division Bench: Mohit Kumar Shah, J. (wrote it, "CAV JUDGMENT") and Sourendra Pandey, J.,
+// 30.10.2026 (CAV date 03.08.2026), footer "AFR/NAFR: AFR". HOOK format (split/JUDGMENT_HOOK_FORMAT.md), the High Courts page (English).
+// Source: the Indian Kanoon render (doc 102140170, 13 pages, scratchpad find2nov_next/pdf/PAT_BPSC_SushmaSharan_IK.pdf), paras 1-20, read
+// in full. The court's own PDF was NOT obtained: every judgment route on patnahighcourt.gov.in (AFR list, case number, free text) is
+// captcha-gated, and no LiveLaw / Verdictum copy was found (02-11-2026). Fact-check against it before shipping if it turns up.
+// Facts used: appeal against the Single Judge's judgment of 14.02.2023 in CWJC 18940/2019 directing the respondents to consider respondent 1
+// for Assistant Professor, Obstetrics and Gynecology, under the SC category on her merit, if otherwise suitable, appointment from when
+// lower-merit persons were appointed, without all consequential benefits (1); Advertisement No. 20/2017 by the BPSC: 74 Assistant
+// Professors in Medical Colleges and Hospitals, 13 reserved for SC, 5 of them for women; she applied under SC with a caste certificate
+// issued by the Sub-divisional Officer, No. 1598 dated 02.08.2006; application found in order, interview 28.02.2018, thereafter original
+// documents incl. the caste certificate verified; result 08.08.2019, her name not in the SC list (2, 12); her plea: daughter of Late
+// Mahim Chand Ram, SC per a Circle Officer, Patna Sadar certificate of 17.08.2019; her husband too SC (3, 13); BPSC's counter: combined
+// merit list, 37 successful; she failed on lower merit in the unreserved category; not considered as reserved because her certificate
+// was in her husband's name, should have been her father's; minutes of 08.08.2019: one chance given by newspaper / website notice to
+// married women who filed certificates with the husband's name, failing which unreserved (4, 14); Single Judge allowed the writ (5, 15);
+// in appeal the BPSC: the advertisement and the interview letter required a Circle Officer's certificate; the 17.08.2019 certificate was
+// produced first in the writ petition; she secured 29 marks against the unreserved cut-off of 37.50 (7, 8); Vandana Govindam: candidates
+// must abide by the advertisement's terms (9); her counsel: no stipulation anywhere in the advertisement for the father's name; father
+// and husband both SC, no objection on that; the SDO ranks above the Circle Officer and was the competent authority in 2006 (10).
+// Held: the issue - does the husband's name instead of the father's in the 02.08.2006 certificate entail consideration as unreserved -
+// "our answer is in negative": the advertisement prescribes no such condition (16); Braj Kishore Prasad (FB) para 26(d): the writ
+// court may grant relief in deserving cases; "this is exactly what has been done by the writ court" (17, 18); a caste certificate is
+// only an affirmation of a fact already in existence; not denied by the BPSC that she belongs to SC; Articles 15(4), 16(4); her
+// candidature "could not have been rejected as a scheduled caste category candidate merely on the ground of non-existent
+// technicalities/reasons"; not disputed that the SDO who issued the 2006 certificate is higher in rank to the Circle Officer; she had
+// also produced the Circle Officer's certificate of 17.08.2019 (19); no infirmity, appeal dismissed (20).
+// NOT said: that she must be appointed (the Single Judge's direction is to CONSIDER her on merit, if otherwise suitable - c07 says
+// "considered"); a general rule that any higher officer's certificate is always enough (the Court said it on these facts, with the
+// later Circle Officer certificate on record - c10 keeps it to "the issuing officer ranks above"); the BPSC counsel's "admitted" line (10).
+// Flow policy: the candidate is a private person - never named in speech ("a candidate", "she"); no allegation against her; judges named.
+# 1 · HUSBAND'S NAME, NOT FATHER'S?
+10 | Advocates, can a Scheduled Caste candidate be moved to the general list just because her caste certificate names her husband, not her father?
+10 | The Commission also says it wanted a Circle Officer's certificate, and hers came from a higher officer. So is she out of the reserved category?
+10 | Hi, I'm Ravishankar from LawWorld. A Patna High Court bench of Honourable Justice Mohit Kumar Shah and Honourable Justice Sourendra Pandey ruled.
+# 2 · THE RECRUITMENT
+10 | In twenty seventeen, the Bihar Public Service Commission advertised seventy four Assistant Professor posts, thirteen of them for Scheduled Castes. || In 2017, the Bihar Public Service Commission advertised 74 Assistant Professor posts, 13 of them for Scheduled Castes.
+10 | A candidate applied for one in Obstetrics and Gynecology, with a caste certificate from two thousand six. She was interviewed, and her papers were checked. || A candidate applied for one in Obstetrics and Gynecology, with a caste certificate from 2006. She was interviewed, and her papers were checked.
+# 3 · THE GENERAL LIST
+10 | But the certificate named her husband, not her father. So the Commission put her in the general list, where she fell short. It says it gave one chance to fix this.
+10 | A Single Judge ordered that she be considered as a Scheduled Caste candidate. The Commission appealed: the advertisement's terms bind all candidates.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the High Court decide? Nothing in the advertisement required the father's name rather than the husband's. That was no ground for the general list.
+10 | The issuing officer ranks above a Circle Officer, and her caste was not disputed. Such technicalities could not defeat her candidature; the appeal failed.

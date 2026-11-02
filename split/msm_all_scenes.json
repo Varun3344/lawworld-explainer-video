@@ -1,0 +1,70 @@
+{
+ "projectTitle": "LawWorld_msm",
+ "title": "Lost under Section 34: can you file a writ?",
+ "source": "split/scripts/msm.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Advocates, you lost your Section Thirty Four challenge to an M S M E Council's award. Can you now skip the appeal and file a writ petition instead?",
+   "shown": "Advocates, you lost your Section 34 challenge to an MSME Council's award. Can you now skip the appeal and file a writ petition instead?",
+   "chip": "1 · AWARD OR NULLITY?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "Here, a State corporation held back over nineteen lakh rupees from a supplier. It lost before the Council, lost at Kanpur, then filed a writ in Madras. Will that work?",
+   "shown": "Here, a State corporation held back over ₹19 lakh from a supplier. It lost before the Council, lost at Kanpur, then filed a writ in Madras. Will that work?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. In Madras, Honourable Chief Justice Sushrut Arvind Dharmadhikari and Honourable Justice G Arul Murugan ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "In two thousand nine, the Tamil Nadu Medical Services Corporation ordered one hundred and thirty diesel generator sets for primary health centres.",
+   "shown": "In 2009, the Tamil Nadu Medical Services Corporation ordered 130 diesel generator sets for primary health centres.",
+   "chip": "2 · THE GENERATOR SETS"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "Citing delay, it deducted liquidated damages. The supplier went to the U P M S M E Council. Its award ordered a refund with interest.",
+   "shown": "Citing delay, it deducted liquidated damages. The supplier went to the UP MSME Council. Its award ordered a refund with interest."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The Corporation's Section Thirty Four challenge at Kanpur was dismissed. It then filed a writ in the Madras High Court, and a Single Judge dismissed that too.",
+   "shown": "The Corporation's Section 34 challenge at Kanpur was dismissed. It then filed a writ in the Madras High Court, and a Single Judge dismissed that too.",
+   "chip": "3 · LOST, THEN A WRIT"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "On appeal, the Corporation said a writ lies for jurisdictional flaws. The supplier said: having lost under Section Thirty Four, it cannot now disown the award.",
+   "shown": "On appeal, the Corporation said a writ lies for jurisdictional flaws. The supplier said: having lost under Section 34, it cannot now disown the award."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? A Council award has the same force as any arbitral award. A writ cannot replace a Section Thirty Seven appeal.",
+   "shown": "Finally, what did the High Court decide? A Council award has the same force as any arbitral award. A writ cannot replace a Section 37 appeal.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "A party cannot call the order an award for one purpose and a nullity for another. The writ appeal was dismissed, and the interim stay was vacated."
+  }
+ ]
+}

@@ -1,0 +1,4 @@
+# TNMSC v. UP State MSE Facilitation Council (Madras HC DB, W.A. 2187/2025, 2026:MHC:4346, 29.10.2026, Index: Yes), HOOK-format judgment reel for 03-11-2026 09:00: Flow queue settings.
+export SPLIT_D=downloads/msm SPLIT_SB=split/msm SPLIT_ALL=split/msm_all_scenes.json SPLIT_GO=split/GOmsm
+export SPLIT_ACCOUNT=main; . split/accounts.sh
+export SPLIT_VOCAB="LawWorld, Ravishankar, Madras High Court, Honourable Chief Justice Sushrut Arvind Dharmadhikari, Honourable Justice G Arul Murugan, Tamil Nadu Medical Services Corporation, U P M S M E Council, Uttar Pradesh, Kanpur, Madras, diesel generator sets, primary health centres, liquidated damages, arbitral award, Section Thirty Four, Section Thirty Seven, writ petition, writ appeal, jurisdictional flaws, disown, nullity, Single Judge, interim stay, vacated, lakh, lawworld dot A I"

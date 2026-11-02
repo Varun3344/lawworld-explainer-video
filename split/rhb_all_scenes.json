@@ -1,0 +1,72 @@
+{
+ "projectTitle": "LawWorld_rhb",
+ "title": "Late by one day: is the land acquisition appeal barred?",
+ "source": "split/scripts/rhb.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Advocates, if a land acquisition appeal comes even one day after the one hundred and twenty day limit, can a High Court condone the delay?",
+   "shown": "Advocates, if a land acquisition appeal comes even one day after the 120-day limit, can a High Court condone the delay?",
+   "chip": "1 · LATE BY ONE DAY?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "A two judge bench of the Supreme Court, in S V Global Mill, applied the Limitation Act to these appeals. Now another bench disagrees. So is the limit rigid?",
+   "shown": "A two-judge bench of the Supreme Court, in S.V. Global Mill, applied the Limitation Act to these appeals. Now another bench disagrees. So is the limit rigid?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On sixteenth October, Honourable Justice Dipankar Datta and Honourable Justice Sheel Nagu ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 16 October, Honourable Justice Dipankar Datta and Honourable Justice Sheel Nagu ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "Under the twenty thirteen Act, the land acquisition authority at Jaipur allowed a company's reference, and later its review, with a minor change.",
+   "shown": "Under the 2013 Act, the land acquisition authority at Jaipur allowed a company's reference, and later its review, with a minor change.",
+   "chip": "2 · THE WRIT"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "The Rajasthan Housing Board and the State did not appeal under Section Seventy Four. Instead, they filed a writ petition under Article Two Twenty Seven.",
+   "shown": "The Rajasthan Housing Board and the State did not appeal under Section 74. Instead, they filed a writ petition under Article 227."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The High Court dismissed it: an appeal was the remedy. Section Seventy Four gives sixty days, and sixty more under the proviso. Even that had run out.",
+   "shown": "The High Court dismissed it: an appeal was the remedy. Section 74 gives 60 days, and 60 more under the proviso. Even that had run out.",
+   "chip": "3 · TOO LATE TO APPEAL"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "In the Supreme Court, the Board relied on S V Global Mill, seeking liberty to file a late appeal. When the Bench doubted it, the Board asked for a larger bench.",
+   "shown": "In the Supreme Court, the Board relied on S.V. Global Mill, seeking liberty to file a late appeal. When the Bench doubted it, the Board asked for a larger bench."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the Supreme Court decide? It held the hundred and twenty days inflexible and rigid. An appeal even a single day beyond is barred.",
+   "shown": "Finally, what did the Supreme Court decide? It held the 120 days inflexible and rigid. An appeal even a single day beyond is barred.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "The Court disagreed with S V Global Mill, but declined a reference. In any case, the Board never filed an appeal, so its special leave petition failed.",
+   "shown": "The Court disagreed with S.V. Global Mill, but declined a reference. In any case, the Board never filed an appeal, so its special leave petition failed."
+  }
+ ]
+}

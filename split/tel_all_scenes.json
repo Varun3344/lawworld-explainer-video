@@ -1,0 +1,69 @@
+{
+ "projectTitle": "LawWorld_tel",
+ "title": "Can the Railway hold back the final bill?",
+ "source": "split/scripts/tel.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Advocates, the Railway paid eighty five percent on account, against a contractor's test certificates. Can it still hold back the final payment?",
+   "shown": "Advocates, the Railway paid 85% on account, against a contractor's test certificates. Can it still hold back the final payment?",
+   "chip": "1 · CAN THE RAILWAY HOLD BACK?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "The work was done and certified complete. Yet the arbitrator rejected the claim, and the Commercial Court agreed. Can a Section Thirty Seven appeal change that?",
+   "shown": "The work was done and certified complete. Yet the arbitrator rejected the claim, and the Commercial Court agreed. Can a Section 37 appeal change that?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. A Chhattisgarh High Court bench of Honourable Justice Parth Prateem Sahu and Honourable Justice Sushma Sawant ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "In two thousand five, the Railway hired Teja Electricals to electrify a siding. Materials had to come from R D S O or CORE approved sources.",
+   "shown": "In 2005, the Railway hired Teja Electricals to electrify a siding. Materials had to come from RDSO or CORE approved sources.",
+   "chip": "2 · THE CONTRACT"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "The work was completed in May two thousand six. Eighty five percent was paid on account, and the final bill left a balance of over forty one lakh rupees.",
+   "shown": "The work was completed in May 2006. 85% was paid on account, and the final bill left a balance of over ₹41 lakh."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "Then the Railway asked for the maker's test certificates for the steel masts. The reports came from a firm that had only galvanised them, so the bill was withheld.",
+   "chip": "3 · THE WITHHELD BILL"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The contractor said the sources were confirmed, and the on account payment proved compliance. The Railway said a Section Thirty Seven court cannot reweigh evidence.",
+   "shown": "The contractor said the sources were confirmed, and the on-account payment proved compliance. The Railway said a Section 37 court cannot reweigh evidence."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? An approved source was an essential term, not a formality, and the arbitrator's reading was a plausible view.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "An on account payment is no acknowledgment of full compliance, nor an automatic waiver. The award was not perverse, and the contractor's appeal was dismissed.",
+   "shown": "An on-account payment is no acknowledgment of full compliance, nor an automatic waiver. The award was not perverse, and the contractor's appeal was dismissed."
+  }
+ ]
+}

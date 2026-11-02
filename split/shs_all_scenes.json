@@ -1,0 +1,66 @@
+{
+ "projectTitle": "LawWorld_shs",
+ "title": "A thumb mark is not a Will",
+ "source": "split/scripts/shs.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Advocates, a Will bears a thumb impression, not a signature, at the top of every page. If the objector never pleaded that, can the Court still doubt the Will?",
+   "chip": "1 · A THUMB MARK, NOT A SIGNATURE"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "The trial court granted probate, on an unregistered Will, with two attesting witnesses tied to a beneficiary's husband. So is proving the thumb mark enough?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On twenty ninth October, twenty twenty six, Honourable Justice Ramesh Chand Malviya of the Patna High Court ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 29 October 2026, Honourable Justice Ramesh Chand Malviya of the Patna High Court ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "An elderly, childless widow is said to have left her property to her two nieces, by a Will of December nineteen ninety four. She died a month later.",
+   "shown": "An elderly, childless widow is said to have left her property to her two nieces, by a Will of December 1994. She died a month later.",
+   "chip": "2 · A WIDOW'S BEQUEST"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "The nieces, as propounders, sought probate. Her late husband's sister objected that the Will was not genuine. After her death, her daughter carried on as the objector."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "In twenty seventeen, the trial court at Begusarai granted probate. It found the thumb mark was hers, identified by the nieces' own father. The objector appealed.",
+   "shown": "In 2017, the trial court at Begusarai granted probate. It found the thumb mark was hers, identified by the nieces' own father. The objector appealed.",
+   "chip": "3 · PROBATE, THEN APPEAL"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "In appeal, the objector relied on the thumb mark, its position, and the missing registration. The propounders replied that these points were never pleaded at the trial."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? Suspicions arising from the Will itself must be dispelled by the propounders, even if not pleaded in detail.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "She could sign, yet the Will bears just a thumb mark, and all evidence of execution came from the beneficiaries' circle. The appeal was allowed, probate refused."
+  }
+ ]
+}

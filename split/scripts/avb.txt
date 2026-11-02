@@ -1,0 +1,48 @@
+// M/s AVS Bull v. The Sub Collector, Perinthalmanna & Anr. (the Secretary, Pulikkal Grama Panchayat), W.P.(C) No. 48444 of 2025,
+// 2026:KER:80857, CNR KLHC011080262025, High Court of Kerala at Ernakulam, single Judge: M.A. Abdul Hakhim, J.; heard 12.10.2026,
+// judgment Friday 23.10.2026; "CR" (reportable) above the JUDGMENT heading. HOOK format (split/JUDGMENT_HOOK_FORMAT.md), the High
+// Courts page (English).
+// Source: the Indian Kanoon render of the judgment (doc 166033275, 6 pages, scratchpad find2nov_next/pdf/KER_AVSBull_excavator_IK.pdf),
+// paras 1-17 + appendix, read in full. The court's own PDF was NOT obtained (Kerala HC citation search is captcha-gated; no LiveLaw /
+// Verdictum copy found 02-11): fact-check against it before shipping if it turns up.
+// Facts used: the petitioner claims to be a registered partnership firm (Feroke, Kozhikode), registered owner of the soil excavator
+// KL-85-C-4763 (1; RC Ext.P6, 15.05.2024); the writ challenges Ext.P3, the Sub Collector's order of 10.12.2025 under Section 219U of
+// the Kerala Panchayat Raj Act, 1994, confiscating it (1); seized by the 2nd respondent (Pulikkal Grama Panchayat) on 15.08.2025 under
+// the Ext.P1 mahazar "on the allegation that the said Excavator was used for dumping waste in an abandoned granite quarry, causing
+// serious pollution and nuisance"; handed to the Kondotty Police Station; after an enquiry, confiscated, to be auctioned, the sale
+// money to the Panchayat Fund; clean-up costs to be recovered from the responsible persons (2); the Panchayat: continuous use,
+// Rs.12,33,773 spent on removing the waste, FIR 968/2025 against four persons (3); no reply affidavit (4); the owner: Section 219U
+// needs a vehicle carrying waste through a public place / road, or on its return; the dumping alleged on 02.08.2025, the seizure
+// on 15.08.2025; Ext.P8 (agreement dated 13.06.2025): the lessee alone responsible for any penalty (6); the State: huge pollution,
+// waste dumped for several days; the owner "cannot be allowed to shirk its responsibilities" by pointing to the lease (7); the
+// Panchayat: use for dumping not controverted (8); the owner's case: seized from private land, not in use or returning (10).
+// Held: Section 219U(1) permits seizure in two contingencies; the second (on its return after use for an offence) does not need a
+// public place or road; Section 219N(2) bars dumping waste in private places; by the Mischief Rule, "return" covers parking on return
+// after the offence; the excavator was parked on the spot after the dumping; the seizure justified (11, 12); Section 219U(2):
+// confiscation on reasonable ground to believe the vehicle was used for an offence (13); the use for dumping uncontroverted; Ext.P8
+// "executed on a plain paper and it does not have the trappings of a Lease Deed"; even assuming a lease, the registered owner had
+// not taken reasonable care; "A mere incorporation of a condition in the Lease Deed alone is not sufficient"; the owner should have
+// monitored the use; used for several days (14); Section 219U(2) satisfied, confiscation fully justified (15); discretion not used
+// for release, given the gravity and the ecological damage (16); the writ petition "is devoid of any merit, and accordingly the same is
+// dismissed" (17).
+// WHO WON: the State and the Panchayat. The confiscation order (Ext.P3) stands.
+// Not said: the firm's name in speech (on the cite card only); the four persons in the FIR (unnamed); "hospital waste" (the State's
+// and the Panchayat's submission, 7, 8); the Rs.12.33 lakh clean-up figure (the Panchayat's, 3). The judgment's own word for the use
+// (14, 15) is kept off speech: Flow policy, no "admitted".
+// Flow policy: no person named; the owner is "a partnership firm"; the dumping is voiced as the Panchayat's allegation (c04) and the
+// Court's reasoning (c09-c10); judges named.
+# 1 · LEASED OUT, STILL LIABLE?
+10 | Advocates, if you lease out your excavator and it is used to dump waste, can the authorities confiscate it from you, the registered owner?
+10 | The owner says the lease made the lessee alone liable. It says the machine was seized on private land, while not in use. So is the confiscation lawful?
+10 | Hi, I'm Ravishankar from LawWorld. On twenty third October, twenty twenty six, Honourable Justice M A Abdul Hakhim of the Kerala High Court ruled. || Hi, I'm Ravishankar from LawWorld. On 23 October 2026, Honourable Justice M A Abdul Hakhim of the Kerala High Court ruled.
+# 2 · THE SEIZURE
+10 | In August twenty twenty five, the Pulikkal Panchayat seized a soil excavator, alleging it was used to dump waste in an abandoned quarry. || In August 2025, the Pulikkal Panchayat seized a soil excavator, alleging it was used to dump waste in an abandoned quarry.
+10 | The Sub Collector confiscated it under Section Two Nineteen U of the Kerala Panchayat Raj Act, to be auctioned, with the money going to the Panchayat. || The Sub Collector confiscated it under Section 219U of the Kerala Panchayat Raj Act, to be auctioned, with the money going to the Panchayat.
+# 3 · THE LEASE DEFENCE
+10 | The owner, a partnership firm, filed a writ petition. It relied on a lease saying the lessee alone would bear any penalty for the machine's use.
+10 | It argued the section needs a vehicle carrying waste on a public road, or returning after use. The State said the owner cannot hide behind a lease.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the High Court decide? A vehicle returning after the offence can be seized even off a public road, and parking at the spot counts as return.
+10 | The plain paper agreement was not a lease deed. Even if it were, the owner took no reasonable care. The confiscation stood; the petition was dismissed.

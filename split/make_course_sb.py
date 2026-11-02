@@ -72,6 +72,13 @@ OUTFITS = {
     "ahf": "a tailored deep midnight-green two-piece business suit, a pale-blue formal shirt and a dark-gold silk tie",  # HC reel 02-11 (Chhattisgarh Aadhar Housing, HOOK)
     "ckd": "a tailored dark charcoal two-piece business suit, a pale-pink formal shirt and a navy-blue silk tie",  # HC reel 02-11 (Kerala Chokkad SCB, HOOK)
     "mmc": "a tailored deep oxford-blue two-piece business suit, a crisp white formal shirt and a burgundy silk tie",  # HC reel 02-11 (Kerala Malabar Medical, HOOK)
+    "shs": "a tailored dark teal-grey two-piece business suit, a crisp white formal shirt and a deep burgundy silk tie",  # HC reel 02-11 set 2 (Patna Shanta Sinha probate, HOOK)
+    "msm": "a tailored deep charcoal-navy two-piece business suit, a pale-lavender formal shirt and a dark-green silk tie",  # HC reel for 03-11 09:00 (Madras TNMSC v UP MSEFC, HOOK)
+    "aca": "a tailored dark burgundy-brown two-piece business suit, a crisp white formal shirt and a navy-blue silk tie",  # HC reel 02-11 (Andhra Pradesh civil arrest, HOOK)
+    "rhb": "a tailored deep navy two-piece business suit, a pale-pink formal shirt and a charcoal silk tie",  # SC reel 02-11 set 2 (2026 INSC 1168, HOOK)
+    "pbs": "a tailored dark chocolate-brown two-piece business suit, a light-blue formal shirt and a navy silk tie",  # HC reel 02-11 set 2 (Patna BPSC, HOOK)
+    "tel": "a tailored dark olive two-piece business suit, a crisp white formal shirt and a maroon silk tie",  # HC reel 02-11 set 2 (Chhattisgarh Teja Electricals, HOOK)
+    "avb": "a tailored midnight-blue pinstripe two-piece business suit, a pale-blue formal shirt and a dark-gold silk tie",  # HC reel 02-11 set 2 (Kerala AVS Bull, HOOK)
     "vdw": "a tailored dark slate-blue pinstripe two-piece business suit, a pale-blue formal shirt and a deep maroon silk tie",  # HC reel (Allahabad Vidyawati, HOOK) - on hold: no official photo of one judge
 }
 OUTFIT = OUTFITS.get(SET) or sys.exit(f"[sb] no outfit for {SET}: add one to OUTFITS (every video its own suit)")

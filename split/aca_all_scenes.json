@@ -1,0 +1,66 @@
+{
+ "projectTitle": "LawWorld_aca",
+ "title": "Past business: enough for civil arrest?",
+ "source": "split/scripts/aca.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Advocates, a man loses a money suit. He once ran a pharma company. Is that alone enough to have him arrested in execution of the decree?",
+   "chip": "1 · PAST BUSINESS, PRESENT MEANS?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "He told the court his company's turnover was forty to fifty lakh a year, but it closed in twenty twelve. The court below ordered an arrest warrant. Was that right?",
+   "shown": "He told the court his company's turnover was ₹40 to 50 lakh a year, but it closed in 2012. The court below ordered an arrest warrant. Was that right?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On thirtieth October, Honourable Justice Purushottam Kumar Chintalapudi of the Andhra Pradesh High Court ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 30 October, Honourable Justice Purushottam Kumar Chintalapudi of the Andhra Pradesh High Court ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "The decree-holder won a money decree in twenty seventeen. He sought the judgment-debtor's arrest, under Order Twenty One, Rules Thirty Seven and Thirty Eight.",
+   "shown": "The decree-holder won a money decree in 2017. He sought the judgment-debtor's arrest, under Order XXI, Rules 37 and 38.",
+   "chip": "2 · THE EXECUTION"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "He said the judgment-debtor runs a business, has gold and cash, and is wilfully avoiding payment. The judgment-debtor denied it, citing heavy losses."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "At the enquiry, neither side produced documents. Citing his evidence of the company's turnover and his income tax status, the court below found he could pay.",
+   "chip": "3 · THE WARRANT"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "In revision, the judgment-debtor said past business is not present means. The decree-holder replied that the court-ordered quarter deposit showed he could pay."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? The decree-holder must prove means and wilful refusal. Past business, or his parents' land, does not by itself prove his means.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "The arrest order was set aside, and the case remanded. The decree-holder may withdraw the deposit, and the judgment-debtor must pay the balance in two phases."
+  }
+ ]
+}

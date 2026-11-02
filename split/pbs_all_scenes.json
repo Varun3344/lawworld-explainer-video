@@ -1,0 +1,65 @@
+{
+ "projectTitle": "LawWorld_pbs",
+ "title": "Husband's name on the caste certificate: no ground to reject",
+ "source": "split/scripts/pbs.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Advocates, can a Scheduled Caste candidate be moved to the general list just because her caste certificate names her husband, not her father?",
+   "chip": "1 · HUSBAND'S NAME, NOT FATHER'S?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "The Commission also says it wanted a Circle Officer's certificate, and hers came from a higher officer. So is she out of the reserved category?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. A Patna High Court bench of Honourable Justice Mohit Kumar Shah and Honourable Justice Sourendra Pandey ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "In twenty seventeen, the Bihar Public Service Commission advertised seventy four Assistant Professor posts, thirteen of them for Scheduled Castes.",
+   "shown": "In 2017, the Bihar Public Service Commission advertised 74 Assistant Professor posts, 13 of them for Scheduled Castes.",
+   "chip": "2 · THE RECRUITMENT"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "A candidate applied for one in Obstetrics and Gynecology, with a caste certificate from two thousand six. She was interviewed, and her papers were checked.",
+   "shown": "A candidate applied for one in Obstetrics and Gynecology, with a caste certificate from 2006. She was interviewed, and her papers were checked."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "But the certificate named her husband, not her father. So the Commission put her in the general list, where she fell short. It says it gave one chance to fix this.",
+   "chip": "3 · THE GENERAL LIST"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "A Single Judge ordered that she be considered as a Scheduled Caste candidate. The Commission appealed: the advertisement's terms bind all candidates."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? Nothing in the advertisement required the father's name rather than the husband's. That was no ground for the general list.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "The issuing officer ranks above a Circle Officer, and her caste was not disputed. Such technicalities could not defeat her candidature; the appeal failed."
+  }
+ ]
+}

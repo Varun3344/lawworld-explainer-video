@@ -1,0 +1,46 @@
+// Rajasthan Housing Board v. M/s Hariyali Rural Ventures Ltd. & Ors., 2026 INSC 1168, Special Leave Petition (Civil) No. 35141/2026
+// (an ORDER: Dipankar Datta J. wrote it, Sheel Nagu J.), New Delhi, 16 October 2026, REPORTABLE. HOOK format (split/JUDGMENT_HOOK_FORMAT.md).
+// Source: the Supreme Court's own PDF (13 pages, scratchpad find2nov_next/pdf/SC_RHB_Hariyali_2026INSC1168.pdf; Reportable, 2026 INSC 1168,
+// bench, author and date on the face of it), paras 1-26, read in full.
+// Facts used: RHB's SLP against the Rajasthan High Court (Jaipur Bench) judgment of 06.07.2026 dismissing an Article 227 petition (S.B. Civil
+// Writ Petition No. 4122/2026) filed by RHB with the State of Rajasthan and the Special Officer, UDH (1); the petition assailed LARRA, Jaipur's
+// order of 26.05.2025 allowing the reference sought by the first respondent under Section 64 of the 2013 Act, and its order of 12.09.2025
+// making a minor modification in the first respondent's favour while allowing its review petition (2); the High Court: writ not
+// maintainable given the appeal under Section 74(1); even treated as an appeal, the proviso is attracted on the belated approach - no
+// appeal 60 days beyond the 60-day period can be entertained; the right to maintain an appeal stood foreclosed after the maximum
+// condonable period (3); RHB relied on S.V. Global Mill (2026 SCC OnLine SC 171, a coordinate Bench): the 60 days in the proviso held
+// "not to be mandatory", went unnoticed by the High Court; sought liberty to approach the appellate forum with a condonation application
+// (4); this Court's summary of S.V. Global Mill: Section 74 does not exclude Sections 4-24 of the Limitation Act (5); the Bench "expressed
+// reservation" whether it lays down correct law; counsel then asked for a reference to a larger Bench (6); reference not warranted; the
+// ratio of S.V. Global Mill does not apply here; the Bench briefly observes why the precedent "does not commend our acceptance" (7);
+// SEBI, Arbitration (S.34), FEMA, PMLA, Electricity, Companies, IBC - "but not thereafter" / "not exceeding" held to bar condonation
+// beyond the outer limit (8, 9); Section 74(1) is in pari materia; S.V. Global Mill "does not accord with the precedents" (10); it renders
+// the proviso otiose and denudes the 120-day outer limit of meaning; the legislature impliedly excluded Section 5 (11); Hukumdev Narain
+// Yadav (3-Judge) binding, distinguished in S.V. Global Mill on a "specious ground"; "reverse prejudice": the State / acquiring bodies too
+// could seek condonation of inordinate delay, to the landowners' detriment (14-16); the proviso is an in-built Section 5-like provision
+// with a statutory cap; no condonation beyond the second 60 days (17); "the period of 120 days in Section 74 is inflexible and rigid", no
+// appeal "barred even by a single day's delay"; "Even this Court in exercise of its power under Article 142 cannot condone the delay"
+// (20); a reference "is, indeed, not an available option"; S.V. Global Mill "ought not to have placed a discordant construction" and could
+// itself have referred; "we decline a reference" (21); even assuming S.V. Global Mill is right, its ratio is inapplicable: RHB never
+// availed the Section 74 appeal, it invoked Article 227; the High Court "was perfectly justified in spurning the challenge" (23); no reason
+// to refer; "pending time-barred appeals under Section 74 of the 2013 Act may be decided by the relevant high courts in accordance with
+// law" (24); SLP dismissed (25).
+// NOT said (kept off speech and cards): that S.V. Global Mill is OVERRULED (a coordinate two-Judge Bench; this Bench disagreed, declined
+// a reference, and held the ratio inapplicable on the facts - speech says "disagreed ... declined a reference"); that the first respondent
+// is a landowner (the order never says what it is: "a company"); the delay in days (not given).
+// Flow policy: no accusation against anyone; only the Board and the authority named; judges named.
+# 1 · LATE BY ONE DAY?
+10 | Advocates, if a land acquisition appeal comes even one day after the one hundred and twenty day limit, can a High Court condone the delay? || Advocates, if a land acquisition appeal comes even one day after the 120-day limit, can a High Court condone the delay?
+10 | A two judge bench of the Supreme Court, in S V Global Mill, applied the Limitation Act to these appeals. Now another bench disagrees. So is the limit rigid? || A two-judge bench of the Supreme Court, in S.V. Global Mill, applied the Limitation Act to these appeals. Now another bench disagrees. So is the limit rigid?
+10 | Hi, I'm Ravishankar from LawWorld. On sixteenth October, Honourable Justice Dipankar Datta and Honourable Justice Sheel Nagu ruled. || Hi, I'm Ravishankar from LawWorld. On 16 October, Honourable Justice Dipankar Datta and Honourable Justice Sheel Nagu ruled.
+# 2 · THE WRIT
+10 | Under the twenty thirteen Act, the land acquisition authority at Jaipur allowed a company's reference, and later its review, with a minor change. || Under the 2013 Act, the land acquisition authority at Jaipur allowed a company's reference, and later its review, with a minor change.
+10 | The Rajasthan Housing Board and the State did not appeal under Section Seventy Four. Instead, they filed a writ petition under Article Two Twenty Seven. || The Rajasthan Housing Board and the State did not appeal under Section 74. Instead, they filed a writ petition under Article 227.
+# 3 · TOO LATE TO APPEAL
+10 | The High Court dismissed it: an appeal was the remedy. Section Seventy Four gives sixty days, and sixty more under the proviso. Even that had run out. || The High Court dismissed it: an appeal was the remedy. Section 74 gives 60 days, and 60 more under the proviso. Even that had run out.
+10 | In the Supreme Court, the Board relied on S V Global Mill, seeking liberty to file a late appeal. When the Bench doubted it, the Board asked for a larger bench. || In the Supreme Court, the Board relied on S.V. Global Mill, seeking liberty to file a late appeal. When the Bench doubted it, the Board asked for a larger bench.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the Supreme Court decide? It held the hundred and twenty days inflexible and rigid. An appeal even a single day beyond is barred. || Finally, what did the Supreme Court decide? It held the 120 days inflexible and rigid. An appeal even a single day beyond is barred.
+10 | The Court disagreed with S V Global Mill, but declined a reference. In any case, the Board never filed an appeal, so its special leave petition failed. || The Court disagreed with S.V. Global Mill, but declined a reference. In any case, the Board never filed an appeal, so its special leave petition failed.

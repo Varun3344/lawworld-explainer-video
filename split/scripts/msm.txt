@@ -1,0 +1,50 @@
+// Tamil Nadu Medical Services Corporation Ltd. v. Uttar Pradesh State Micro and Small Enterprises Facilitation Council & Anr.
+// (R2: Atul Generators Pvt Ltd, Agra), W.A. No. 2187 of 2025 (CNR HCMA011519922025) with C.M.P. Nos. 16737 of 2025 and 14192 of 2026,
+// 2026:MHC:4346, High Court of Judicature at Madras, Division Bench: Sushrut Arvind Dharmadhikari CJ (wrote it: "THE CHIEF JUSTICE")
+// and G. Arul Murugan J.; reserved 26.10.2026, delivered 29.10.2026; "Index : Yes", "Neutral Citation : Yes" (reportable). HOOK format
+// (split/JUDGMENT_HOOK_FORMAT.md), the High Courts page (English).
+// Source: the court's own PDF (11 pages, mhc.tn.gov.in/judis viewpdf 1385635, uploaded 29/10/2026), scratchpad find_allowed/pdf/
+// MAD_WA_2187_2025_TNMSC_v_UP_MSEFC_2026MHC4346_official.pdf, paras 1-9 read in full.
+// Facts used: Clause 15 Letters Patent appeal against the Single Judge's order of 18.10.2024 in W.P. No. 10688 of 2024 (prayer), which
+// dismissed the Corporation's writ petition challenging the arbitral award of 28.11.2016 passed by the UP Council under Section 18 of
+// the MSMED Act (1); purchase order 20.05.2009 to the second respondent for procurement, supply and installation of 130 Diesel Generator
+// sets across Primary Health Centres in Tamil Nadu, repeat order for 4 more on 22.10.2009 (2.1); "It is stated": bills raised for the
+// full value; the Corporation deducted Rs.19,71,049/- as liquidated damages, "citing delayed delivery schedules" (2.2); "It is averred":
+// the supplier invoked Section 18 (Claim Petition No. 26 of 2012); on failure of conciliation the Council entered upon the reference as an
+// arbitral tribunal; award 28.11.2016: refund of the withheld principal with statutory compound interest under Section 16 (2.3); the
+// Section 34 (read with Section 19 MSMED Act) challenge before the Commercial Court, Kanpur Nagar, Arb. Misc. Case No. 274 of 2023,
+// dismissed on 30.10.2023 (2.4); "Pursuant thereto", an Article 226 writ seeking to quash the award; the Single Judge dismissed it on
+// 18.10.2024 (2.5); a Division Bench stayed further proceedings on the award on 16.07.2025, extended 24.09.2025 (2.6); the Corporation
+// (AAG): jurisdictional flaws and procedural infirmities, so a writ lies to correct fundamental jurisdictional errors (3.1); the
+// Section 34 petition was dismissed solely on delay; Tamil Nadu Cements (SLP (C) Diary No. 3776 of 2023, 22.01.2025): Larger Bench
+// reference on writs against Council orders and a conciliating Council acting as arbitrator; keep the award in abeyance (3.2); the
+// supplier: a Section 18(3) award has the status of an award under the 1996 Act; after Section 34, the remedy is a Section 37 appeal
+// (4.1); having invoked Section 34 and lost, the Corporation cannot now plead the Council's order is not an award; approbate and
+// reprobate; merger into the Kanpur order; no cause of action within this court's jurisdiction (4.2); Tamil Nadu Cements distinguishable
+// (4.3); the two issues (5). Held: under Section 18(3)/(4) the award has "the identical legal status, efficacy and binding force as an
+// arbitral award passed under the 1996 Act" (6); the 1996 Act is a self-contained code; the Corporation consciously filed Section 34
+// at the competent Commercial Court, Kanpur Nagar, and raised a Section 29A ground (which applies only to an arbitral award); "A party
+// cannot call the order an award for one purpose and a nullity for another."; after the adverse order of 30.10.2023 its recourse was
+// "exhaustively confined to filing an appeal under Section 37" (7); a writ against an award that merged into the Kanpur order, when
+// the remedy is a Section 37 appeal, would subvert the speedy-resolution intent of both Acts (8); the Single Judge's view affirmed;
+// Article 226 cannot be invoked "as a substitute for a statutory appeal under Section 37"; appeal dismissed; the order of 18.10.2024
+// confirmed; no costs; C.M.P.s closed; "the interim order granted is vacated" (9).
+// Not decided / not said: territorial jurisdiction (the supplier's plea, 4.2, never ruled on); the Tamil Nadu Cements reference (not
+// discussed by the Court); the merits of the liquidated damages; whether Section 34 failed on merits (2.4) or on delay (3.2, the
+// Corporation's version): speech and cards say only "dismissed" / "lost"; any order to pay (none was made).
+// Flow policy: the supplier is a company (named on cards only); no accusation against anyone; no "fraud" / "collusion" / "admitted".
+# 1 · AWARD OR NULLITY?
+10 | Advocates, you lost your Section Thirty Four challenge to an M S M E Council's award. Can you now skip the appeal and file a writ petition instead? || Advocates, you lost your Section 34 challenge to an MSME Council's award. Can you now skip the appeal and file a writ petition instead?
+10 | Here, a State corporation held back over nineteen lakh rupees from a supplier. It lost before the Council, lost at Kanpur, then filed a writ in Madras. Will that work? || Here, a State corporation held back over ₹19 lakh from a supplier. It lost before the Council, lost at Kanpur, then filed a writ in Madras. Will that work?
+10 | Hi, I'm Ravishankar from LawWorld. In Madras, Honourable Chief Justice Sushrut Arvind Dharmadhikari and Honourable Justice G Arul Murugan ruled.
+# 2 · THE GENERATOR SETS
+10 | In two thousand nine, the Tamil Nadu Medical Services Corporation ordered one hundred and thirty diesel generator sets for primary health centres. || In 2009, the Tamil Nadu Medical Services Corporation ordered 130 diesel generator sets for primary health centres.
+10 | Citing delay, it deducted liquidated damages. The supplier went to the U P M S M E Council. Its award ordered a refund with interest. || Citing delay, it deducted liquidated damages. The supplier went to the UP MSME Council. Its award ordered a refund with interest.
+# 3 · LOST, THEN A WRIT
+10 | The Corporation's Section Thirty Four challenge at Kanpur was dismissed. It then filed a writ in the Madras High Court, and a Single Judge dismissed that too. || The Corporation's Section 34 challenge at Kanpur was dismissed. It then filed a writ in the Madras High Court, and a Single Judge dismissed that too.
+10 | On appeal, the Corporation said a writ lies for jurisdictional flaws. The supplier said: having lost under Section Thirty Four, it cannot now disown the award. || On appeal, the Corporation said a writ lies for jurisdictional flaws. The supplier said: having lost under Section 34, it cannot now disown the award.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the High Court decide? A Council award has the same force as any arbitral award. A writ cannot replace a Section Thirty Seven appeal. || Finally, what did the High Court decide? A Council award has the same force as any arbitral award. A writ cannot replace a Section 37 appeal.
+10 | A party cannot call the order an award for one purpose and a nullity for another. The writ appeal was dismissed, and the interim stay was vacated.
