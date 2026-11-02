@@ -36,5 +36,7 @@ Chapters: `# 1 · <HOOK TITLE>` (c01-c03, the intro keeps the Sisinty cuts), `# 
 Reportable judgments only, official PDF, facts with paragraph numbers in the header comments, Flow policy (no private names with
 accusations, no "fraud" / "collusion" / "admitted"), no digits in speech, 38-43 syllables per 10 s clip (`check_scenes.py`),
 list items <= 52 chars, `"ok": False` only for what the Court rejected, own suit per reel (OUTFITS, dark colours only), pilot c01
-then `touch split/GO<set>`, `V_LAYOUT=judgment NO_DELIVER=1 OVERLAY_WORKERS=1 post_course.sh`, `thumb_brand.py`,
+then `touch split/GO<set>`, `V_LAYOUT=judgment NO_DELIVER=1 OVERLAY_WORKERS=1 post_course.sh`, thumbnail `python3 split/thumb_darkfoot.py out/<set>/thumb_brand.json`
+(owner 02-11-2026: this design for every judgment reel - cream top, three strips in copper / blue / green, the court as a picture block with the
+judges at its sides, a dark foot for the apps' view count; writes thumb_brand.png, which the ship step lays over the first 15 frames),
 `finish_judgment_reel.sh <set> qa|ship`. First reel in this format: `kps` (Bank of India v. S.M. Kamal Pasha, 2026 INSC 1154).

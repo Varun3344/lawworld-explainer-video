@@ -6,5 +6,5 @@ until grep -q "ALL DONE" logs/queue_kps.log 2>/dev/null && (( $(ls downloads/kps
 echo "$(date +%H:%M:%S) post kps start"
 V_LAYOUT=judgment NO_DELIVER=1 OVERLAY_WORKERS=1 zsh split/post_course.sh kps SC_BankOfIndia_v_KamalPasha_2026INSC1154_CoC_cannot_withdraw_approved_plan > logs/post_kps.log 2>&1
 echo "$(date +%H:%M:%S) post kps post_course exit $?"
-python3 split/thumb_brand.py out/kps/thumb_brand.json > logs/thumb_kps.log 2>&1
+python3 split/thumb_darkfoot.py out/kps/thumb_brand.json > logs/thumb_kps.log 2>&1
 zsh split/finish_judgment_reel.sh kps qa > logs/qa_kps.log 2>&1; echo "$(date +%H:%M:%S) post kps done (qa exit $?)"

@@ -1,4 +1,5 @@
-"""Reel thumbnail in the LawWorld video palette (owner 26-10-2026: "for that thumbnail also use our colour palette theme").
+"""(Judgment reels from 02-11-2026 use split/thumb_darkfoot.py - owner's choice. This classic cream design stays for reference.)
+Reel thumbnail in the LawWorld video palette (owner 26-10-2026: "for that thumbnail also use our colour palette theme").
 Same layout as reel-service work/review/thumb_2judges.py (headline, three strips, the bench as framed official photos, badge; never
 the presenter), drawn as an HTML page with the concept videos' own fonts and colours (cream, terracotta / copper, ink; Instrument
 Serif + Manrope) and screenshotted by headless Chrome at 1080x1920.
