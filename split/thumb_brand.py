@@ -36,6 +36,15 @@ judges = "".join(
     f'<div class="jd" style="transform:rotate({a}deg)"><div class="fr"><img src="file://{e(p)}"></div><div class="nm">{e(n)}</div></div>'
     for (p, n), a in zip(cfg["judges"], (3, -3, 3)))   # three-judge benches (rcc 28-10-2026) draw all three
 
+# owner 02-11-2026: "old design is good but that three points are not looking good": optional point styles (config "points"),
+#   card      one white card, copper number discs, thin dividers
+#   ticks     no boxes: a copper tick disc and bold ink text per line
+#   numerals  big italic copper serif numerals, bold ink text, thin rules between the lines
+PSTYLE = cfg.get("points") or (sys.argv[2] if len(sys.argv) > 2 else "")
+TICK = '<svg viewBox="0 0 24 24"><path d="M5 12.5l4.2 4.2L19 7"/></svg>'
+if PSTYLE:
+    strips = "".join(f'<div class="pt"><div class="n">{TICK if PSTYLE == "ticks" else k}</div><div class="tx">{e(s[0])}</div></div>'
+                     for k, s in enumerate(cfg["strips"], 1))
 court = (f'<div class="court" style="background-image:url(file://{e(cfg["court"])})"></div>' if cfg.get("court") else "")
 page = f"""<!doctype html><html><head><meta charset="utf-8"><style>
 @font-face{{font-family:"Instrument Serif";font-style:normal;src:url({BRAND}/fonts/Instrument_Serif_jizBRFtNs2ka5fXjeivQ4LroWlx-6zUTjnTLgNs.woff2) format("woff2");}}
@@ -74,6 +83,19 @@ h1 em{{font-style:italic;color:var(--deep);}}
 .bench{{margin-top:50px;display:flex;justify-content:center;gap:70px;position:relative;z-index:2;}}
 .court{{position:absolute;left:0;width:1080px;z-index:1;background-size:cover;background-position:center 32%;opacity:.92;filter:sepia(.62) saturate(.78) brightness(1.06) contrast(.94);-webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 26%,#000 70%,transparent 100%);mask-image:linear-gradient(to bottom,transparent 0,#000 26%,#000 70%,transparent 100%);}}
 .strips{{position:relative;z-index:3;}}
+.p-card{{width:900px;gap:0;background:var(--paper);border-radius:30px;padding:6px 36px;box-shadow:0 24px 54px rgba(60,40,25,.13),inset 0 0 0 2px var(--rule);}}
+.p-card .pt{{display:flex;align-items:center;gap:26px;padding:22px 0;}} .p-card .pt + .pt{{border-top:2px solid #efe6d6;}}
+.p-card .n{{width:60px;height:60px;flex:none;border-radius:50%;background:var(--copper);color:#fff;font-weight:800;font-size:31px;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 18px rgba(179,87,63,.3);}}
+.p-card .tx{{font-weight:700;font-size:42px;line-height:1.12;color:var(--ink);}}
+.p-ticks{{width:860px;gap:26px;}}
+.p-ticks .pt{{display:flex;align-items:center;gap:26px;}}
+.p-ticks .n{{width:64px;height:64px;flex:none;border-radius:50%;background:var(--copper);display:flex;align-items:center;justify-content:center;box-shadow:0 10px 22px rgba(179,87,63,.32);}}
+.p-ticks .n svg{{width:36px;height:36px;fill:none;stroke:#fff;stroke-width:3.2;stroke-linecap:round;stroke-linejoin:round;}}
+.p-ticks .tx{{font-weight:800;font-size:44px;line-height:1.1;color:var(--ink);}}
+.p-numerals{{width:880px;gap:0;}}
+.p-numerals .pt{{display:flex;align-items:center;gap:30px;padding:14px 0;}} .p-numerals .pt + .pt{{border-top:2px solid #e3d7c3;}}
+.p-numerals .n{{width:66px;flex:none;text-align:center;font-family:"Instrument Serif",serif;font-style:italic;font-size:104px;line-height:.9;color:var(--deep);}}
+.p-numerals .tx{{font-weight:700;font-size:43px;line-height:1.12;color:var(--ink);}}
 .nm{{background:rgba(245,240,232,.94);padding:8px 24px 10px;border-radius:30px;box-shadow:0 8px 20px rgba(60,40,25,.12);}}
 .jd{{display:flex;flex-direction:column;align-items:center;gap:22px;}}
 .fr{{width:290px;height:366px;padding:13px;background:#fff;border-radius:6px;box-shadow:0 30px 64px rgba(60,40,25,.22),0 3px 8px rgba(60,40,25,.10);}}
@@ -87,10 +109,12 @@ h1 em{{font-style:italic;color:var(--deep);}}
 <div class="kick"><span>{e(cfg.get("kicker", "JUDGMENT EXPLAINED"))}</span></div>
 <h1 class="{KN}"><span class="l l1">{e(cfg["head1"])}</span><span class="l l2">{head2()}</span></h1>
 <div class="rule"></div>
-<div class="strips">{strips}</div>
+<div class="strips{(" p-" + PSTYLE) if PSTYLE else ""}">{strips}</div>
 {court}<div class="bench{" j3" if len(cfg["judges"]) >= 3 else ""}">{judges}</div>
 <script>window.__layout = () => {{ const c = document.querySelector(".court"), b = document.querySelector(".bench"); if (!c) return;
-  const r = b.getBoundingClientRect(); c.style.top = (r.top - 150) + "px"; c.style.height = (r.height + 230) + "px"; }};</script>
+  const r = b.getBoundingClientRect(); let t = r.top - 150; const sp = document.querySelector(".strips");
+  if (sp.className.includes("p-")) t = Math.max(t, sp.getBoundingClientRect().bottom + 12);   // new point styles: the photo starts under the points
+  c.style.top = t + "px"; c.style.height = (r.bottom + 80 - t) + "px"; }};</script>
 <div class="badge"><span>{e(cfg["badge"])}</span></div>
 </body></html>"""
 
