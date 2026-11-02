@@ -56,7 +56,7 @@ page = f"""<!doctype html><html><head><meta charset="utf-8"><style>
       --copper:linear-gradient(135deg,#de8a6a 0%,#d97757 38%,#b3573f 100%);}}
 *{{margin:0;padding:0;box-sizing:border-box;}}
 html,body{{width:1080px;height:1920px;overflow:hidden;background:var(--cream);font-family:Manrope,"Noto Sans Kannada",sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased;}}
-body{{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0 70px 150px;}}   /* owner 26-10: everything in the middle (player bar / app UI cover the foot) */
+body{{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding:92px 70px 0;position:relative;}}   /* owner 26-10: everything in the middle (player bar / app UI cover the foot) */
 .top{{display:flex;justify-content:center;align-items:center;gap:22px;}}
 .top img.mk{{width:76px;height:76px;filter:drop-shadow(0 8px 16px rgba(120,60,30,.25));}}
 .top img.wm{{height:64px;}}
@@ -78,17 +78,18 @@ h1 em{{font-style:italic;color:var(--deep);}}
 .st.paper .ic{{background:rgba(255,255,255,.18);}} .st.paper svg{{stroke:#fff;}}
 .st.ink{{background:linear-gradient(135deg,#2f9068 0%,#22724f 55%,#1a5a3e 100%);color:#fff;box-shadow:0 22px 50px rgba(26,90,62,.32);}}
 .st.ink .ic{{background:rgba(255,255,255,.18);}} .st.ink svg{{stroke:#fff;}}
-.bench{{margin-top:50px;display:flex;justify-content:center;gap:70px;position:relative;z-index:2;}}
-.court{{position:absolute;left:0;width:1080px;z-index:1;background-size:cover;background-position:center 30%;filter:brightness(.62) contrast(1.38) saturate(1.05) sepia(.14);-webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 20%,#000 100%);}}
+.bench{{position:absolute;left:52px;right:52px;display:flex;justify-content:space-between;z-index:2;}}
+.court{{position:absolute;left:0;width:1080px;z-index:1;background-size:cover;background-position:center 38%;filter:brightness(.80) contrast(1.28) saturate(1.12);box-shadow:0 -10px 30px rgba(60,40,25,.18);}}
+.court::before{{content:"";position:absolute;left:0;right:0;top:0;height:8px;background:linear-gradient(90deg,#de8a6a,#d97757 40%,#b3573f);}}
 .foot{{position:absolute;left:0;right:0;bottom:0;z-index:1;pointer-events:none;}}
 .strips{{position:relative;z-index:3;}}
 .nm{{background:rgba(245,240,232,.94);padding:8px 24px 10px;border-radius:30px;box-shadow:0 8px 20px rgba(60,40,25,.12);}}
 .jd{{display:flex;flex-direction:column;align-items:center;gap:22px;}}
-.fr{{width:290px;height:366px;padding:13px;background:#fff;border-radius:6px;box-shadow:0 30px 64px rgba(60,40,25,.22),0 3px 8px rgba(60,40,25,.10);}}
+.fr{{width:252px;height:318px;padding:13px;background:#fff;border-radius:6px;box-shadow:0 30px 64px rgba(60,40,25,.22),0 3px 8px rgba(60,40,25,.10);}}
 .fr img{{width:100%;height:100%;object-fit:cover;object-position:50% 18%;display:block;border-radius:2px;}}
 .bench.j3{{gap:34px;}} .bench.j3 .fr{{width:262px;height:330px;}} .bench.j3 .nm{{font-size:36px;}}
 .nm{{font-family:"Instrument Serif","Noto Serif Kannada",serif;font-size:44px;line-height:1;color:var(--ink);}}
-.badge{{margin-top:40px;text-align:center;position:relative;z-index:3;}}
+.badge{{position:absolute;left:0;right:0;text-align:center;z-index:3;}}
 .badge span{{display:inline-block;background:linear-gradient(135deg,#e8946f 0%,#d97757 40%,#b3573f 100%);color:#fff;font-weight:800;font-size:34px;letter-spacing:4px;padding:20px 42px;border-radius:44px;box-shadow:0 18px 40px rgba(30,20,15,.25);}}
 </style></head><body>
 <div class="top"><img class="mk" src="{BRAND}/site_logo_mark.png"><img class="wm" src="{BRAND}/wordmark_ink.png"></div>
@@ -97,10 +98,12 @@ h1 em{{font-style:italic;color:var(--deep);}}
 <div class="rule"></div>
 <div class="strips">{strips}</div>
 {court}<div class="foot"></div><div class="bench{" j3" if len(cfg["judges"]) >= 3 else ""}">{judges}</div>
-<script>window.__layout = () => {{ const c = document.querySelector(".court"), b = document.querySelector(".bench"); if (!c) return;
-  const r = b.getBoundingClientRect(); c.style.top = (r.top - 170) + "px"; c.style.height = (1920 - r.top + 170) + "px";
-  const f = document.querySelector(".foot"), y0 = r.top + r.height * 0.55; f.style.top = y0 + "px";
-  f.style.background = "linear-gradient(to bottom, rgba(11,9,8,0) 0, rgba(11,9,8,.82) 150px, #0b0908 300px)"; }};</script>
+<script>window.__layout = () => {{ const st = document.querySelector(".strips").getBoundingClientRect(), c = document.querySelector(".court"),
+  b = document.querySelector(".bench"), f = document.querySelector(".foot"), bd = document.querySelector(".badge");
+  const top = Math.round(st.bottom + 40), H = 650; if (c) {{ c.style.top = top + "px"; c.style.height = (1920 - top) + "px"; c.style.backgroundSize = "auto " + H + "px"; c.style.backgroundRepeat = "no-repeat"; c.style.backgroundPosition = "center 0"; }}
+  const bt = top + 215; b.style.top = bt + "px"; const br = b.getBoundingClientRect();
+  const y0 = top + H - 260; f.style.top = y0 + "px"; f.style.background = "linear-gradient(to bottom, rgba(11,9,8,0) 0, rgba(11,9,8,.85) 170px, #0b0908 260px)";
+  bd.style.top = Math.round(br.bottom + 18) + "px"; }};</script>
 <div class="badge"><span>{e(cfg["badge"])}</span></div>
 </body></html>"""
 
