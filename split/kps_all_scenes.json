@@ -1,0 +1,71 @@
+{
+ "projectTitle": "LawWorld_kps",
+ "title": "Can lenders walk away from an approved plan?",
+ "source": "split/scripts/kps.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Advocates, can lenders back out of a resolution plan they already approved under the I B C, just because the company is now earning more?",
+   "shown": "Advocates, can lenders back out of a resolution plan they already approved under the IBC, just because the company is now earning more?",
+   "chip": "1 · CAN LENDERS WALK AWAY?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "The lenders say the company's balance was thirty crore rupees when the plan was proposed, and one hundred and sixty five crore after the delay. So who gets the windfall?",
+   "shown": "The lenders say the company's balance was ₹30 crore when the plan was proposed, and ₹165 crore after the delay. So who gets the windfall?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On twenty sixth October, Honourable Justice J B Pardiwala and Honourable Justice K Vinod Chandran ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 26 October, Honourable Justice J B Pardiwala and Honourable Justice K Vinod Chandran ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "Bank of India started insolvency against a toll collection company on National Highway Forty Five. Covid had hit its business hard.",
+   "shown": "Bank of India started insolvency against a toll collection company on National Highway 45. Covid had hit its business hard.",
+   "chip": "2 · THE INSOLVENCY"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "The creditors' committee approved the plan, which the lenders put at about one hundred and seventy two crore. Then a stay in earlier proceedings delayed it.",
+   "shown": "The creditors' committee approved the plan, which the lenders put at about ₹172 crore. Then a stay in earlier proceedings delayed it."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The lenders said the winning bidder would get a windfall. The committee voted unanimously to withdraw the plan, and the N C L T allowed it.",
+   "shown": "The lenders said the winning bidder would get a windfall. The committee voted unanimously to withdraw the plan, and the NCLT allowed it.",
+   "chip": "3 · THE U-TURN"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The appellate tribunal reversed: the committee had no power to withdraw. The lenders came to the Supreme Court, saying their commercial wisdom must prevail."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the Supreme Court decide? Once the committee approves a plan and it goes to the N C L T, there is no withdrawal. The plan binds the lenders too.",
+   "shown": "Finally, what did the Supreme Court decide? Once the committee approves a plan and it goes to the NCLT, there is no withdrawal. The plan binds the lenders too.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "Better profits alone cannot block approval, if the plan meets the law. The Court did not disturb the appellate order, and asked the N C L T to decide quickly.",
+   "shown": "Better profits alone cannot block approval, if the plan meets the law. The Court did not disturb the appellate order, and asked the NCLT to decide quickly."
+  }
+ ]
+}

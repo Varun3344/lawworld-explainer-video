@@ -32,7 +32,12 @@ stale = [] if MOCK else [c for c in IDS if c not in missing and os.path.getmtime
 if stale: sys.exit(f"[plan] FATAL flattened clips older than their source (retake?): {stale} -> python3 split/flatten_bg.py --seam left " + " ".join(f"{D}/{c}.mp4" for c in stale))
 IDS = [c for c in IDS if c not in missing]
 PLACE = json.load(open(f"{OUT}/place.json")) if os.path.exists(f"{OUT}/place.json") else {}
-HOOK = 39 / 24; END = 4.2          # the opening lead is a whole number of frames (1.6 s = 38.4 frames put the picture 1 frame behind the voice)
+CUEF = f"split/cues/{SET}.py"
+# HOOK format (owner 02-11-2026, judgment reels v2): a cue file with FORMAT = "hook" opens on the presenter asking the hook question
+# right after the cover - no title sting; the 15-frame lead is exactly the thumbnail finish_judgment_reel.sh lays over frames 0-14.
+# Every other set keeps the classic opening (sting, name tag on c01).
+HOOK_FMT = os.path.exists(CUEF) and re.search(r"""^FORMAT\s*=\s*["']hook["']""", open(CUEF).read(), re.M) is not None
+HOOK = (15 if HOOK_FMT else 39) / 24; END = 4.2          # the opening lead is a whole number of frames (1.6 s = 38.4 frames put the picture 1 frame behind the voice)
 
 t = HOOK; segs = []; words = []
 for cid in IDS:
@@ -91,11 +96,14 @@ exec(compile(open(CUEF).read(), CUEF, "exec"), NS)
 
 # ── opening sting (frame 0 = finished logo card = thumbnail), persistent panel with chapter chips, presenter name ──────────────────
 st = NS.get("STING") or META.get("sting", {})
-cue(type="sting", t0=0.0, t1=HOOK + 0.35, kicker=st.get("kicker", "LAWWORLD · EXPLAINED"), title=st.get("title", META["title"]), sub=st.get("sub", ""))
-fx("slam", 0.02, -8); fx("riser", HOOK - 0.9, -18)
+if not HOOK_FMT:
+    cue(type="sting", t0=0.0, t1=HOOK + 0.35, kicker=st.get("kicker", "LAWWORLD · EXPLAINED"), title=st.get("title", META["title"]), sub=st.get("sub", ""))
+    fx("slam", 0.02, -8); fx("riser", HOOK - 0.9, -18)
 chips = [{"at": r3(HOOK if s["sceneId"] == IDS[0] else S(s["sceneId"]) - 0.1), "label": s["chip"]} for s in ALL if s.get("chip") and s["sceneId"] in IDS]
-cue(type="panel", t0=HOOK - 0.3, t1=pend + 0.25, scenes=chips)
-cue(type="lower_third", t0=S(IDS[0]) + 0.5, t1=S(IDS[0]) + 5.2, name="Ravishankar", role="LawWorld")
+cue(type="panel", t0=0.0 if HOOK_FMT else HOOK - 0.3, t1=pend + 0.25, scenes=chips)   # hook: the panel slides in under the cover
+# the name tag sits on the clip where he introduces himself (hook format: after the hook and the curiosity clips, not on c01)
+NAME_CID = next((c for c in IDS if "ravishankar" in SCRIPT[c].lower()), IDS[0]) if HOOK_FMT else IDS[0]
+cue(type="lower_third", t0=S(NAME_CID) + 0.5, t1=S(NAME_CID) + 5.2, name="Ravishankar", role="LawWorld")
 
 # ── sound: a soft pop on every build, a whoosh as a big card arrives, a ding on a result, a slam on a stamp (the set's cue file may
 #    add its own with fx(); two sounds never sit closer than 0.22 s) ──────────────────────────────────────────────────────────────

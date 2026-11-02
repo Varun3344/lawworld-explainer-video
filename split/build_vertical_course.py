@@ -45,7 +45,9 @@ os.makedirs(OUT, exist_ok=True)
 
 def plan(): return json.load(open(PLAN))
 def timeline(): return json.load(open(TIMELINE))
-def sting_end(): return next(c["t1"] for c in timeline()["cues"] if c["type"] == "sting") - 0.25          # 1.70 for HOOK 1.6
+def has_sting(): return any(c["type"] == "sting" for c in timeline()["cues"])
+def sting_end():          # 1.70 for HOOK 1.6; hook format (no sting, 02-11-2026): the presenter's first frame
+    return next(c["t1"] for c in timeline()["cues"] if c["type"] == "sting") - 0.25 if has_sting() else plan()["presenter_start"]
 def card_start(): return next(c["t0"] for c in timeline()["cues"] if c["type"] == "endcard")
 
 
@@ -527,7 +529,7 @@ def final(t0=None, t1=None, out=None):
         # (~4 GB, swapping, 0.11x on 19-10)
         f"[ca]fade=t=out:st={STING_END:.3f}:d=0.3:alpha=1[cardA]",
         f"[cb]fade=t=in:st={CARD_START:.3f}:d=0.3:alpha=1[cardB]",
-        f"[split][cardA]overlay=0:0:enable='lte(t,{STING_END + 0.3:.3f})':format=auto[x1]",
+        f"[split][cardA]overlay=0:0:enable='lte(t,{STING_END + 0.3 if has_sting() else -1.0:.3f})':format=auto[x1]",   # hook format: never
         f"[x1][cardB]overlay=0:0:enable='gte(t,{CARD_START:.3f})':format=auto,format=yuv420p[x2]",
         f"[x2]subtitles=filename='{fsub}',format=yuv420p[v]",
     ]

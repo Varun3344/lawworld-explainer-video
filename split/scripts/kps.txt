@@ -1,0 +1,39 @@
+// Bank of India & Ors. v. S.M. Kamal Pasha & Ors., 2026 INSC 1154, Civil Appeal No. 12045 of 2026 (K. Vinod Chandran J. wrote it,
+// J. B. Pardiwala J.), decided 26.10.2026, Reportable. FIRST reel in the HOOK format (owner 02-11-2026: hook question first, build
+// curiosity, then "Hi, I'm Ravishankar", facts / case / discussion, a LawWorld request just before the verdict, the verdict last).
+// Source: the Supreme Court's signed PDF (20 pages, Verdictum's pdf_upload copy, scratchpad kps_dl/kps.pdf; Reportable, bench, author,
+// date checked; its text matches the Indian Kanoon copy, doc 50823129), paras 1-28, read in full.
+// Facts used: the question - can the CoC, after approving the plan, seek its withdrawal before the NCLT on the plea that the
+// corporate debtor's finances improved (1); the NCLT allowed the withdrawal filed by the RP, approved by the CoC unanimously; the CoC's
+// plea: finances improved while the RP managed it, the SRA would have a windfall gain (2); NCLAT: withdrawal violates the IBC (Ebix
+// Singapore), the CoC has no jurisdiction to withdraw; the delay came from the stay granted in the earlier proceedings before this
+// Court; the confirmation application IA 1505/2021 revived (3); the appeal by six CoC members, the 1st appellant the Section 7
+// applicant who initiated the CIRP (4); the lenders' counsel: plan amount Rs.172.55 crores when the CD had an opening balance of
+// Rs.30 crores, risen to Rs.165 crores by the time this Court dismissed the promoter's SLP - a windfall; the CD's toll collection
+// on National Highway 45 had taken a beating due to Covid-19; commercial wisdom of the CoC has primacy (5). Held: the plan is
+// binding inter se the CoC and the SRA even before the AA's approval; neither can renege (9, 10, Ebix paras 115, 116); the Ebix
+// dictum "applies squarely to the CoC too" (14); withdrawal "can only be till the CoC approves the plan and after it is placed
+// before the Adjudicating Authority, there can be no withdrawal either of the application or the approved Resolution Plan" (17);
+// "Here the delay was occasioned because of the stay granted by this Court" (20); the Court "would not interfere with the impugned
+// order"; the NCLT must verify the CD's present financial position and cash balance against the plan; "improved profitability alone
+// cannot be a reason to refuse approval if the Resolution Plan meets the requirements under sub-section (2) of Section 30" (25);
+// the NCLT to take up both applications together and decide "as expeditiously as possible" (26); appeal disposed of (27).
+// Not said: the corporate debtor's name (the judgment never names it); the SRA's "institutionalized rapacity" line (a party's
+// contention, 24). The Rs.30 / 165 / 172.55 crore figures are the lenders' counsel's (5): attributed to the lenders in c02, c05
+// (fact-check 02-11: the Court never accepted them; the NCLT is to verify the present finances, 25).
+// Flow policy: no accusation against anyone; only Bank of India named; judges named.
+# 1 · CAN LENDERS WALK AWAY?
+10 | Advocates, can lenders back out of a resolution plan they already approved under the I B C, just because the company is now earning more? || Advocates, can lenders back out of a resolution plan they already approved under the IBC, just because the company is now earning more?
+10 | The lenders say the company's balance was thirty crore rupees when the plan was proposed, and one hundred and sixty five crore after the delay. So who gets the windfall? || The lenders say the company's balance was ₹30 crore when the plan was proposed, and ₹165 crore after the delay. So who gets the windfall?
+10 | Hi, I'm Ravishankar from LawWorld. On twenty sixth October, Honourable Justice J B Pardiwala and Honourable Justice K Vinod Chandran ruled. || Hi, I'm Ravishankar from LawWorld. On 26 October, Honourable Justice J B Pardiwala and Honourable Justice K Vinod Chandran ruled.
+# 2 · THE INSOLVENCY
+10 | Bank of India started insolvency against a toll collection company on National Highway Forty Five. Covid had hit its business hard. || Bank of India started insolvency against a toll collection company on National Highway 45. Covid had hit its business hard.
+10 | The creditors' committee approved the plan, which the lenders put at about one hundred and seventy two crore. Then a stay in earlier proceedings delayed it. || The creditors' committee approved the plan, which the lenders put at about ₹172 crore. Then a stay in earlier proceedings delayed it.
+# 3 · THE U-TURN
+10 | The lenders said the winning bidder would get a windfall. The committee voted unanimously to withdraw the plan, and the N C L T allowed it. || The lenders said the winning bidder would get a windfall. The committee voted unanimously to withdraw the plan, and the NCLT allowed it.
+10 | The appellate tribunal reversed: the committee had no power to withdraw. The lenders came to the Supreme Court, saying their commercial wisdom must prevail. || The appellate tribunal reversed: the committee had no power to withdraw. The lenders came to the Supreme Court, saying their commercial wisdom must prevail.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the Supreme Court decide? Once the committee approves a plan and it goes to the N C L T, there is no withdrawal. The plan binds the lenders too. || Finally, what did the Supreme Court decide? Once the committee approves a plan and it goes to the NCLT, there is no withdrawal. The plan binds the lenders too.
+10 | Better profits alone cannot block approval, if the plan meets the law. The Court did not disturb the appellate order, and asked the N C L T to decide quickly. || Better profits alone cannot block approval, if the plan meets the law. The Court did not disturb the appellate order, and asked the NCLT to decide quickly.
