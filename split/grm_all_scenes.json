@@ -1,0 +1,67 @@
+{
+ "projectTitle": "LawWorld_grm",
+ "title": "House mark is no free pass",
+ "source": "split/scripts/grm.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Hi, I am Ravishankar from LawWorld. Your client sells under its own house mark, but uses a rival's registered word to describe the product. Is that a defence?",
+   "chip": "1 · A RIVAL'S WORD?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "On the twenty seventh of October, twenty twenty six, a single bench of Honourable Justice C S Dias of the Kerala High Court ruled.",
+   "shown": "On 27 October 2026, a single bench of Honourable Justice C.S. Dias of the Kerala High Court ruled."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Wipro says it acquired the Brahmins group business, with its trademark, in twenty twenty three. It sued Greenmount Spices, whose sambar powder carries that word in its name.",
+   "shown": "Wipro says it acquired the Brahmins group business, with its trademark, in 2023. It sued Greenmount Spices, whose sambar powder carries that word in its name.",
+   "chip": "2 · THE DISPUTE"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "In April, an Ernakulam court granted a temporary injunction. Greenmount appealed, arguing that the trial court treated a mere description as its trademark."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "Its case: the trademark is Greenmount, and the other words only describe the product, a use protected by Section Thirty, sub section Two, clause A, of the Trade Marks Act.",
+   "shown": "Its case: the trademark is Greenmount, and the other words only describe the product, a use protected by Section 30(2)(a) of the Trade Marks Act.",
+   "chip": "3 · THE DEFENCE"
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The Court held: calling a registered word descriptive is no unrestricted licence. What matters is whether, in context, it genuinely describes the goods.",
+   "chip": "4 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "Equally, registration alone doesn't prove infringement. And Greenmount's house mark, or peaceful co existence, is no answer by itself. These are matters for trial.",
+   "shown": "Equally, registration alone doesn't prove infringement. And Greenmount's house mark, or peaceful co-existence, is no answer by itself. These are matters for trial."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Prima facie, documents date the brand to nineteen eighty seven; on Greenmount's own case, its use began in twenty eleven. That backs Wipro's claim of prior use.",
+   "shown": "Prima facie, documents date the brand to 1987; on Greenmount's own case, its use began in 2011. That backs Wipro's claim of prior use."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Seeing no perversity, the Court dismissed the appeal, so the interim injunction stays. The findings are tentative; the suit will be decided at trial, free of them.",
+   "chip": "5 · THE RESULT"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple."
+  }
+ ]
+}

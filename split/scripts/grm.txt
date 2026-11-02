@@ -1,0 +1,47 @@
+// Greenmount Spices Private Limited v. Wipro Enterprises Private Limited, F.A.O. No. 95 of 2026, 2026:KER:82024 (CNR KLHC010537132026),
+// High Court of Kerala at Ernakulam, single bench of C.S. Dias J.; heard for admission 23.10.2026, judgment Tuesday 27.10.2026. Marked
+// "C.R" (reportable): printed in quotes on page 3, just above "C.S.DIAS,J." (court PDF via LiveLaw's upload, and the Indian Kanoon text).
+// Appeal against the order dated 10.04.2026 in I.A. 4/2024 in O.S. No. 22 of 2024 of the II Additional District Court, Ernakulam.
+// Concept-format judgment reel (9:16, ~96 s), as sets vzj / smt / bcr. English (LawWorld - High Courts page).
+// Source: scratchpad find31/count_A/ker3_42931492.txt (Indian Kanoon doc 42931492, paras 1-15 + appendix, read in full), checked
+// against the court copy (scratchpad grm_pdf_dl/greenmount-spices-708658.pdf, 27 pages, LiveLaw upload of 28.10.2026).
+// Facts used: the appellant is the defendant; the suit seeks to restrain it from selling food products, including sambar powder, under
+// the respondent's mark or any identical or deceptively similar mark, with or without a prefix or suffix; the trial court allowed the
+// temporary injunction application as prayed for; this appeal (1, cause title). Appellant: its trade mark is 'Greenmount'; the rest of
+// the product name is used only descriptively; the Trial Court wrongly assumed that expression was used as its trade mark; Section
+// 30(2)(a) of the Trade Marks Act, 1999; Ext. B1 series: use since 2011; co-existence for years without confusion (3, 10). Respondent:
+// Wander v. Antox (limited appellate interference); in 2023 it acquired the group business with its trade mark and goodwill; 29
+// registrations for the word; launch by its predecessor (4, 10); certificates R1(a) to R1(m), thirteen classes (6, 10).
+// Held: at the interlocutory stage the Court does not decide whether infringement will finally be established (9); Section 30(2)(a)
+// "does not confer an unrestricted licence to use a registered expression merely because the user characterises it as descriptive";
+// it turns on whether, in context, the expression is "genuinely used to indicate the kind or another characteristic of the goods";
+// "Conversely, the existence of a registration does not relieve the proprietor of the obligation to establish the elements required by
+// the statutory provision"; prominence, placement, relative size, other distinctive features: "only ... after a full-fledged trial"
+// (11). Ext. A1 (13.07.1987) prima facie: launched in 1987; Ext. A2 licence (04.07.1987); "Going by the appellant's own case", its use
+// began only in 2011; "these materials lend prima facie support to the respondent's claim of prior use"; the mark 'Greenmount' "does
+// not, by itself, answer the question of infringement"; "the mere appearance of a word on packaging does not establish infringement";
+// average consumer, product as a whole; peaceful co-existence does not, by itself, settle it; both sides' pleas "are matters to be
+// adjudicated" (12). Shruti Manav Sharma v. Sunanina Singh [2026 KHC OnLine 6611] (Supreme Court): interim principles and limited
+// appellate interference (14). Midas Hygiene [2004 KHC 467]; prima facie case shown, supported by materials indicating prior commercial
+// use; balance of convenience for the respondent; continued use, if ultimately found infringing, may erode distinctiveness; "These
+// conclusions are tentative"; no arbitrariness or perversity; appeal dismissed; the Trial Court to decide the suit "untrammelled by any
+// observation" in the impugned order or this judgment (15).
+// Not said: no final finding of infringement (interim order only); no finding of dishonesty against either company.
+// Sensitivity: the mark is a community name. It is spoken once (c03), only as the name of the business Wipro says it acquired; no
+// comment on any community or cuisine anywhere. Flow policy: only the two companies and the judge are named; no individual; no
+// "admitted" (c08 says "on Greenmount's own case", the judgment's words).
+# 1 · A RIVAL'S WORD?
+10 | Hi, I am Ravishankar from LawWorld. Your client sells under its own house mark, but uses a rival's registered word to describe the product. Is that a defence?
+10 | On the twenty seventh of October, twenty twenty six, a single bench of Honourable Justice C S Dias of the Kerala High Court ruled. || On 27 October 2026, a single bench of Honourable Justice C.S. Dias of the Kerala High Court ruled.
+# 2 · THE DISPUTE
+10 | Wipro says it acquired the Brahmins group business, with its trademark, in twenty twenty three. It sued Greenmount Spices, whose sambar powder carries that word in its name. || Wipro says it acquired the Brahmins group business, with its trademark, in 2023. It sued Greenmount Spices, whose sambar powder carries that word in its name.
+10 | In April, an Ernakulam court granted a temporary injunction. Greenmount appealed, arguing that the trial court treated a mere description as its trademark.
+# 3 · THE DEFENCE
+10 | Its case: the trademark is Greenmount, and the other words only describe the product, a use protected by Section Thirty, sub section Two, clause A, of the Trade Marks Act. || Its case: the trademark is Greenmount, and the other words only describe the product, a use protected by Section 30(2)(a) of the Trade Marks Act.
+# 4 · WHAT THE COURT HELD
+10 | The Court held: calling a registered word descriptive is no unrestricted licence. What matters is whether, in context, it genuinely describes the goods.
+10 | Equally, registration alone doesn't prove infringement. And Greenmount's house mark, or peaceful co existence, is no answer by itself. These are matters for trial. || Equally, registration alone doesn't prove infringement. And Greenmount's house mark, or peaceful co-existence, is no answer by itself. These are matters for trial.
+10 | Prima facie, documents date the brand to nineteen eighty seven; on Greenmount's own case, its use began in twenty eleven. That backs Wipro's claim of prior use. || Prima facie, documents date the brand to 1987; on Greenmount's own case, its use began in 2011. That backs Wipro's claim of prior use.
+# 5 · THE RESULT
+10 | Seeing no perversity, the Court dismissed the appeal, so the interim injunction stays. The findings are tentative; the suit will be decided at trial, free of them.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more judgments made simple.
