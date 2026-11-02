@@ -1,0 +1,64 @@
+{
+ "projectTitle": "LawWorld_vdw",
+ "title": "Can an insurer refuse a farmer's sister as his legal heir?",
+ "source": "split/scripts/vdw.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Advocates, can an insurance company refuse a farmer's accident death claim, just because the person claiming it is his sister, not his wife or child?",
+   "chip": "1 · THE SISTER'S CLAIM"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "Under the scheme, family means a spouse, an unmarried daughter, a dependent son and dependent parents. A sister is not on the list. So does she get nothing?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. An Allahabad High Court bench of Honourable Justice Prakash Padia and Honourable Justice Garima Prashad ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "A farmer, the head and breadwinner of his family, died in a road accident in two thousand nineteen. A State scheme insured him for five lakh rupees.",
+   "shown": "A farmer, the head and breadwinner of his family, died in a road accident in 2019. A State scheme insured him for ₹5 lakh.",
+   "chip": "2 · THE ACCIDENT CLAIM"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "His unmarried sister claimed that amount. Oriental Insurance rejected her claim, because a sister is not in the scheme's definition of family."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "After an inquiry, the District Committee found he was the head of the family, and directed the insurer to pay. The insurer still refused.",
+   "chip": "3 · THE INSURER'S STAND"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "In the High Court, the insurer argued that a sister is not covered, and a beneficial scheme cannot stretch the policy. She claimed as his legal heir."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? The family list decides whose own accident is insured. But the death benefit goes to the nominee or legal heir.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "The insurer applied the wrong clause. The unmarried sister is entitled as legal heir. The rejection was quashed, and the insurer must pay within four weeks."
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "projectTitle": "LawWorld_ahf",
+ "title": "Can a sale stop SARFAESI?",
+ "source": "split/scripts/ahf.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Advocates, the loan turns bad, and the mortgaged house is sold to a buyer. Can the District Magistrate then refuse the lender possession under the SARFAESI Act?",
+   "chip": "1 · CAN A SALE STOP SARFAESI?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "The District Magistrate turned the lender away, on the ground of that sale. But can a magistrate under Section Fourteen decide a buyer's rights at all?",
+   "shown": "The District Magistrate turned the lender away, on the ground of that sale. But can a magistrate under Section 14 decide a buyer's rights at all?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On twenty ninth October, Honourable Justice Amitendra Kishore Prasad of the Chhattisgarh High Court ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 29 October, Honourable Justice Amitendra Kishore Prasad of the Chhattisgarh High Court ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "The borrowers mortgaged their house to secure a loan of seven point nine six lakh rupees. In August twenty nineteen, the loan was declared an N P A.",
+   "shown": "The borrowers mortgaged their house to secure a loan of ₹7.96 lakh. In August 2019, the loan was declared an NPA.",
+   "chip": "2 · THE LOAN AND THE SALE"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "The demand notice went unpaid, so the lender moved the Magistrate under Section Fourteen. By a December twenty nineteen deed, the house had been sold to a buyer.",
+   "shown": "The demand notice went unpaid, so the lender moved the Magistrate under Section 14. By a December 2019 deed, the house had been sold to a buyer."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "In September twenty twenty one, the Magistrate rejected the application because of the sale. The lender challenged that order in a writ petition.",
+   "shown": "In September 2021, the Magistrate rejected the application because of the sale. The lender challenged that order in a writ petition.",
+   "chip": "3 · THE MAGISTRATE SAYS NO"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The lender argued that Section Fourteen is purely ministerial, and a sale cannot defeat its security. The buyer and the State backed the order.",
+   "shown": "The lender argued that Section 14 is purely ministerial, and a sale cannot defeat its security. The buyer and the State backed the order."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? The Magistrate's role is ministerial. He cannot decide disputes between the lender and the borrower, or a buyer.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "Those objections belong before the D R T under Section Seventeen. The order was set aside, and the Magistrate must decide afresh within thirty days.",
+   "shown": "Those objections belong before the DRT under Section 17. The order was set aside, and the Magistrate must decide afresh within 30 days."
+  }
+ ]
+}

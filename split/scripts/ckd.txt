@@ -1,0 +1,42 @@
+// Chokkad Service Co-operative Bank Ltd. v. Labour Court, Kozhikode & Anr., W.P.(C) No. 26370 of 2026, 2026:KER:81613, High Court of
+// Kerala at Ernakulam, single Judge: Viju Abraham, J., judgment delivered on admission, Friday 23.10.2026; "C.R." (reportable) above the
+// JUDGMENT heading. HOOK format (split/JUDGMENT_HOOK_FORMAT.md), the High Courts page (English). [2026 LiveLaw (Ker) 603]
+// Source: the High Court's own judgment PDF (12 pages, CNR KLHC010552512026, file 2157002637020264, LiveLaw's pdf_upload copy
+// https://www.livelaw.in/pdf_upload/2026/10/27/2157002637020264-708509.pdf), saved as scratchpad find2nov_next/pdf/
+// KER_Chokkad_LabourCourt_official.pdf; its text matches the Indian Kanoon copy (doc 31827380) word for word; paras 1-10 + appendix.
+// Facts used: the writ challenges Ext.P11, the Labour Court's order in I.A. No. 55 of 2026 in I.D. No. 46 of 2025; the petitioner is a
+// co-operative society; the 2nd respondent joined as Peon on 30.05.2008; suspended, and after a detailed enquiry dismissed from service
+// by Ext.P4; the bank: he had an appeal to the Executive Committee / Board of Management under Rule 198(4) of the Kerala Co-operative
+// Societies Rules, 1969, and without it he went directly to the Labour Court (I.D. No. 46 of 2025); the bank's I.A. 55/2026 on
+// maintainability rejected by Ext.P11, the claim held maintainable (1); appendix: Ext.P4 dismissal order dated 07.12.2023, Ext.P11
+// dated 12.06.2026; the bank's case: the punishment was imposed by the President; s.28 of the KCS Act vests the management in the
+// Committee, so only the Board's order in the Rule 198(4) appeal is the employer's order / a final order open to challenge before the
+// Labour Court; relies on S. Murali (DB), 2026 (5) KHC 64 (2); the employee: Ext.P11 is lawful, he could approach the Labour Court
+// without the appeal; no writ against a maintainability order, the Award can be challenged, interference only delays (3); the
+// question (5); S. Murali (limitation under s.2A(3) runs from the appellate order) does not apply; Rule 198(3): the President is the
+// authority to impose the penalty on him; Rule 198(4): the Board is an Appellate Authority, not an original authority; Ext.P4 is the
+// order imposing punishment and "it is his choice to file any appeal" (6); Annamma K.A. v. Secretary, Cochin Co-operative Hospital
+// Society, 2018 (1) KHC 258 (SC): the KCS Act and the I.D. Act "both possess and enjoy the concurrent jurisdiction"; the employee's
+// choice of forum, subject to workman / industrial dispute / industry (7); Veerankavu Welfare Co-op. Society v. C. Sindhu Kumari,
+// 2025 (1) KHC 421: not necessary to exhaust the statutory appellate remedy before a s.2A(2) application (8, 9); followed in
+// Channapetta SCB v. G. Anithakumari, 2026 KHC 474 (9); Basil Scaria: no interference with or stay of Tribunal proceedings on
+// preliminary issues such as maintainability; he may approach the Labour Court without exhausting the Rule 198(4) appeal; the Labour
+// Court rightly held the termination within the I.D. Act and maintainable; "no reason to interfere", writ petition dismissed (10).
+// Not said: the employee's name (a private person, never named); the allegations behind the suspension (para 1) - not in speech or
+// on any card. The final line's "Ext.P7" (10) is a slip for Ext.P11; para 10's "the petitioner is entitled" means the employee.
+// Flow policy: only the bank (a society), the Labour Court and the judge are named; no accusation; no "fraud" / "collusion" / "admitted".
+# 1 · SKIP THE APPEAL?
+10 | Advocates, a co-operative bank dismisses its peon. Must he first file the appeal under the Society Rules, or can he go straight to the Labour Court? || Advocates, a co-operative bank dismisses its peon. Must he first file the appeal under the Society Rules, or can he go straight to the Labour Court?
+10 | The bank says the President's dismissal order is not final until its board decides an appeal. The Labour Court rejected that. So who was right in law? || The bank says the President's dismissal order is not final until its board decides an appeal. The Labour Court rejected that. So who was right in law?
+10 | Hi, I'm Ravishankar from LawWorld. On twenty third October, twenty twenty six, Honourable Justice Viju Abraham of the Kerala High Court ruled. || Hi, I'm Ravishankar from LawWorld. On 23 October 2026, Honourable Justice Viju Abraham of the Kerala High Court ruled.
+# 2 · THE DISMISSAL
+10 | The employee joined the bank as a peon in two thousand eight. After an enquiry, the President dismissed him from service on seventh December, twenty twenty three. || The employee joined the bank as a peon in 2008. After an enquiry, the President dismissed him from service on 7 December 2023.
+10 | Under Rule One Ninety Eight, sub rule Four, he could appeal to the society's Board. Instead, he went straight to the Labour Court, under the Industrial Disputes Act. || Under Rule 198(4), he could appeal to the society's Board. Instead, he went straight to the Labour Court, under the Industrial Disputes Act.
+# 3 · THE BANK'S OBJECTION
+10 | The bank objected that his claim was not maintainable without that appeal. The Labour Court rejected the objection, so the bank filed a writ petition. || The bank objected that his claim was not maintainable without that appeal. The Labour Court rejected the objection, so the bank filed a writ petition.
+10 | The bank relied on Section Twenty Eight: the committee manages the society, so only the board's appeal order is final. The employee backed the Labour Court. || The bank relied on Section 28: the committee manages the society, so only the board's appeal order is final. The employee backed the Labour Court.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the High Court decide? The President's order itself is the punishment. The Board is only the appellate authority, and an appeal is his choice. || Finally, what did the High Court decide? The President's order itself is the punishment. The Board is only the appellate authority, and an appeal is his choice.
+10 | He need not exhaust the appeal. Under Annamma, the Labour Court and the co-operative forum have concurrent jurisdiction. The bank's writ petition was dismissed. || He need not exhaust the appeal. Under Annamma, the Labour Court and the co-operative forum have concurrent jurisdiction. The bank's writ petition was dismissed.

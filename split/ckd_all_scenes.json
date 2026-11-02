@@ -1,0 +1,67 @@
+{
+ "projectTitle": "LawWorld_ckd",
+ "title": "Skip the appeal?",
+ "source": "split/scripts/ckd.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Advocates, a co-operative bank dismisses its peon. Must he first file the appeal under the Society Rules, or can he go straight to the Labour Court?",
+   "chip": "1 · SKIP THE APPEAL?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "The bank says the President's dismissal order is not final until its board decides an appeal. The Labour Court rejected that. So who was right in law?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On twenty third October, twenty twenty six, Honourable Justice Viju Abraham of the Kerala High Court ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 23 October 2026, Honourable Justice Viju Abraham of the Kerala High Court ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "The employee joined the bank as a peon in two thousand eight. After an enquiry, the President dismissed him from service on seventh December, twenty twenty three.",
+   "shown": "The employee joined the bank as a peon in 2008. After an enquiry, the President dismissed him from service on 7 December 2023.",
+   "chip": "2 · THE DISMISSAL"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "Under Rule One Ninety Eight, sub rule Four, he could appeal to the society's Board. Instead, he went straight to the Labour Court, under the Industrial Disputes Act.",
+   "shown": "Under Rule 198(4), he could appeal to the society's Board. Instead, he went straight to the Labour Court, under the Industrial Disputes Act."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The bank objected that his claim was not maintainable without that appeal. The Labour Court rejected the objection, so the bank filed a writ petition.",
+   "chip": "3 · THE BANK'S OBJECTION"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The bank relied on Section Twenty Eight: the committee manages the society, so only the board's appeal order is final. The employee backed the Labour Court.",
+   "shown": "The bank relied on Section 28: the committee manages the society, so only the board's appeal order is final. The employee backed the Labour Court."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? The President's order itself is the punishment. The Board is only the appellate authority, and an appeal is his choice.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "He need not exhaust the appeal. Under Annamma, the Labour Court and the co-operative forum have concurrent jurisdiction. The bank's writ petition was dismissed."
+  }
+ ]
+}

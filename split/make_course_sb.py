@@ -68,6 +68,11 @@ OUTFITS = {
     "omc": "a tailored dark slate-grey two-piece business suit, a light-blue formal shirt and a deep crimson silk tie",  # SC reel 31-10 round 3 (2026 INSC 1171); re-render: the warm-taupe suit was flattened into the backdrop
     "ikc": "a tailored dark steel-blue two-piece business suit, a white formal shirt and a coral-red silk tie",  # HC reel 31-10 round 3 (Madras Inderchand Kochar)
     "kps": "a tailored dark cobalt-navy two-piece business suit, a lavender formal shirt and a deep maroon silk tie",  # SC reel 02-11, first HOOK-format reel (2026 INSC 1154)
+    "apx": "a tailored dark espresso-brown two-piece business suit, a crisp white formal shirt and a deep teal silk tie",  # HC reel 02-11 (Allahabad Apex Construction, HOOK)
+    "ahf": "a tailored deep midnight-green two-piece business suit, a pale-blue formal shirt and a dark-gold silk tie",  # HC reel 02-11 (Chhattisgarh Aadhar Housing, HOOK)
+    "ckd": "a tailored dark charcoal two-piece business suit, a pale-pink formal shirt and a navy-blue silk tie",  # HC reel 02-11 (Kerala Chokkad SCB, HOOK)
+    "mmc": "a tailored deep oxford-blue two-piece business suit, a crisp white formal shirt and a burgundy silk tie",  # HC reel 02-11 (Kerala Malabar Medical, HOOK)
+    "vdw": "a tailored dark slate-blue pinstripe two-piece business suit, a pale-blue formal shirt and a deep maroon silk tie",  # HC reel (Allahabad Vidyawati, HOOK) - on hold: no official photo of one judge
 }
 OUTFIT = OUTFITS.get(SET) or sys.exit(f"[sb] no outfit for {SET}: add one to OUTFITS (every video its own suit)")
 

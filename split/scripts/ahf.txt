@@ -1,0 +1,45 @@
+// Aadhar Housing Finance Ltd. v. Manpreet Singh & Ors., WPC No. 4952 of 2021, 2026:CGHC:45681, High Court of Chhattisgarh at Bilaspur,
+// single Judge: Hon'ble Mr. Justice Amitendra Kishore Prasad ("C A V Order"), reserved 10.09.2026, delivered 29.10.2026, "AFR" on page 1.
+// HOOK format (split/JUDGMENT_HOOK_FORMAT.md), the High Courts page (English).
+// Source: Indian Kanoon's render of the court's digitally signed PDF (doc 27718171; "Digitally signed by AVINASH SHARMA, 2026.10.29",
+// CNR CGHC010324902021, AFR), scratchpad find2nov_next/pdf/CG_AadharHousing_SARFAESI14_IK.pdf, read in full. The court's own PDF could
+// not be fetched: the CG HC order/judgment search (hcbspjudgement/oj_search.php) needs a captcha, the e-HCR AFR feed for Oct 2026 does not
+// list it, and no LiveLaw / Verdictum pdf_upload copy was found (02-11-2026).
+// NB the judgment's paragraph numbers repeat: two paras "12", two "13", two "15"; there is no para 10. Cited below as 12a/12b etc.
+// Facts used: the writ challenges the DM Rajnandgaon's order dated 06.09.2021 rejecting the petitioner's s.14 SARFAESI application (1);
+// respondents 1 & 2 (borrowers) borrowed Rs.7,96,388 and mortgaged their house (Khasra No. 101/5, Rajnandgaon), agreement 24.05.2017;
+// they failed to repay; the loan account was declared NPA on 10.08.2019; s.13(2) notice for Rs.8,29,436, not paid; s.14 application
+// before the DM (Case No. ... Year 2019-20); the DM's order 06.09.2021: the s.14 application "cannot be allowed for the fact that the
+// secured asset has been sold to respondent no. 03 (Subsequent Purchaser), vide registered sale deed dated 13.12.2019" (2); the
+// lender: the DM erred by entering the merits; s.14 powers are "purely ministerial in nature and not adjudicatory" (R.D. Jain & Co.
+// v. Capital First, (2023) 1 SCC 675, para 25) (3); a transfer to a third party by the mortgagor does not oust the secured creditor's
+// right; set aside and remand (4); respondent 3 supports the order (5); the State: rightly passed as the property was sold (6); the
+// question - can the DM under s.14 enter the merits and adjudicate disputed questions of the parties' rights (8); the DM has no
+// jurisdiction to adjudicate the merits or disputed facts; such issues fall within the DRT's jurisdiction (9); the later transfer to a
+// third party could not by itself give the DM jurisdiction to adjudicate its validity or effect (11); the DM's role under s.14 "is
+// ministerial in nature"; not justified in entering the merits on the basis of the subsequent sale (12a); Balkrishna Rama Tarle v.
+// Phoenix ARC, (2023) 1 SCC 662, paras 18-19: the CMM/DM is not to adjudicate disputes between the borrower and the secured creditor
+// "and/or between any other third party and the secured creditor"; the aggrieved party is relegated to s.17 before the DRT (13a);
+// Calcutta HC, Only Wheel v. Bank of Baroda, 2025 SCC OnLine Cal 7217: administrative / executive functions (12b); the DM "travelled
+// beyond the scope of the jurisdiction"; the order "erroneous and unsustainable" (13b); writ allowed, order of 06.09.2021 set aside (14);
+// remanded to the DM Rajnandgaon to decide the s.14 application afresh, within the scope of s.14, "within a period of 30 days from the
+// date of receipt of a copy of this order", after hearing the parties (15a); the lender to cooperate (15b); head note.
+// Not said: who sold the house (the judgment says only "the secured asset has been sold to respondent no. 03", "transferred in favour of
+// a third party"); speech says "the house was sold to a buyer". No finding on the sale's validity or the buyer's rights (left to the DRT).
+// Flow policy: the borrowers and the buyer are private persons, never named; no accusation (the default is not a crime); only the
+// lender (a company), the District Magistrate (an office) and the judge are named.
+# 1 · CAN A SALE STOP SARFAESI?
+10 | Advocates, the loan turns bad, and the mortgaged house is sold to a buyer. Can the District Magistrate then refuse the lender possession under the SARFAESI Act? || Advocates, the loan turns bad, and the mortgaged house is sold to a buyer. Can the District Magistrate then refuse the lender possession under the SARFAESI Act?
+10 | The District Magistrate turned the lender away, on the ground of that sale. But can a magistrate under Section Fourteen decide a buyer's rights at all? || The District Magistrate turned the lender away, on the ground of that sale. But can a magistrate under Section 14 decide a buyer's rights at all?
+10 | Hi, I'm Ravishankar from LawWorld. On twenty ninth October, Honourable Justice Amitendra Kishore Prasad of the Chhattisgarh High Court ruled. || Hi, I'm Ravishankar from LawWorld. On 29 October, Honourable Justice Amitendra Kishore Prasad of the Chhattisgarh High Court ruled.
+# 2 · THE LOAN AND THE SALE
+10 | The borrowers mortgaged their house to secure a loan of seven point nine six lakh rupees. In August twenty nineteen, the loan was declared an N P A. || The borrowers mortgaged their house to secure a loan of ₹7.96 lakh. In August 2019, the loan was declared an NPA.
+10 | The demand notice went unpaid, so the lender moved the Magistrate under Section Fourteen. By a December twenty nineteen deed, the house had been sold to a buyer. || The demand notice went unpaid, so the lender moved the Magistrate under Section 14. By a December 2019 deed, the house had been sold to a buyer.
+# 3 · THE MAGISTRATE SAYS NO
+10 | In September twenty twenty one, the Magistrate rejected the application because of the sale. The lender challenged that order in a writ petition. || In September 2021, the Magistrate rejected the application because of the sale. The lender challenged that order in a writ petition.
+10 | The lender argued that Section Fourteen is purely ministerial, and a sale cannot defeat its security. The buyer and the State backed the order. || The lender argued that Section 14 is purely ministerial, and a sale cannot defeat its security. The buyer and the State backed the order.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the High Court decide? The Magistrate's role is ministerial. He cannot decide disputes between the lender and the borrower, or a buyer. || Finally, what did the High Court decide? The Magistrate's role is ministerial. He cannot decide disputes between the lender and the borrower, or a buyer.
+10 | Those objections belong before the D R T under Section Seventeen. The order was set aside, and the Magistrate must decide afresh within thirty days. || Those objections belong before the DRT under Section 17. The order was set aside, and the Magistrate must decide afresh within 30 days.

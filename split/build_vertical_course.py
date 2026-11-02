@@ -71,9 +71,37 @@ def base_chains():
 TRACKS = {"split": (K, REG_H, Y0), "full": (H / BOX_H, H, 0)}
 
 
+def head_top_box():
+    """Judgment reels (owner 02-11-2026, kps at 0:25: "head is cutting ... it will look as two different parts"): HEAD_TOP_BOX is a
+    fixed guess (177 box rows); a presenter framed closer (kps) had the top of his head sliced off by the 40 % band. Measure it on the
+    16:9 render instead: three frames per clip, the presenter box minus its edges, the first row with hair / skin against the
+    flattened cream backdrop; the HIGHEST head of the reel sets the band, so no clip is cut."""
+    cache = f"{OUT}/head_top.json"
+    if os.path.exists(cache) and os.path.getmtime(cache) >= os.path.getmtime(FULL): return json.load(open(cache))["head_top_box"]
+    from PIL import Image
+    p = plan(); box = p["presenter_box"]; bx, bw = box["x"], box["w"]; ref = (245, 239, 230)
+    ts, t = [], p["presenter_start"]
+    for s in p["presenter"]:
+        d = s["out"] - s["in"]; ts += [t + d * f for f in (0.2, 0.5, 0.8)]; t += d
+    tops = []
+    for k, tt in enumerate(ts):
+        png = f"{OUT}/_head_{k}.png"
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{tt:.3f}", "-i", FULL, "-frames:v", "1", "-vf", f"crop={bw - 120}:600:{bx + 60}:0", png], check=True)
+        im = Image.open(png).convert("RGB"); w, h = im.size; px = im.load(); os.remove(png)
+        top = next((y for y in range(h) if sum(1 for x in range(0, w, 2) if sum(abs(a - b) for a, b in zip(px[x, y], ref)) > 45) >= 4), None)
+        if top is not None: tops.append(top)
+    # a frame with something else across the top of the box (a transition) reads ~0: ignore impossible rows (< 40) and one stray
+    ok = sorted(v for v in tops if v >= 40); head = (ok[1] if len(ok) > 3 else ok[0]) if ok else HEAD_TOP_BOX
+    json.dump({"head_top_box": head, "per_frame": tops}, open(cache, "w"))
+    print(f"[vertical] head top measured at box row {head} (fixed guess {HEAD_TOP_BOX}); {len(tops)} frames")
+    return head
+
+
 def ptrack(name="split"):
     p = plan(); chains = base_chains(); total = p["total"]
     k, rh, ytop = TRACKS[name]
+    if name == "split" and JUDGMENT:      # the band starts HEAD_MARGIN above the reel's highest head (never through his hair)
+        ytop = int(round(head_top_box() * K - HEAD_MARGIN)) & ~1
     inputs, f = [], []
     for c in chains:
         clip = os.path.join(CLIPDIR, os.path.basename(p["presenter"][c["i"]]["clip"]))
@@ -98,6 +126,22 @@ def ptrack(name="split"):
            out, "-stats_period", "10"]
     print(f"[vertical] ptrack {name}: K {k:.4f}, {W}x{rh}, box rows from {ytop / k:.0f}, {len(chains)} clips, {total:.2f} s -> {out}")
     subprocess.run(cmd, check=True)
+    if name == "split" and JUDGMENT: head_check(out, total)
+
+
+def head_check(track, total):
+    """One frame a second of the split band: its top 6 rows must be plain backdrop (no hair cut by the band's edge)."""
+    from PIL import Image
+    bad = []
+    for t in range(1, int(total)):
+        png = f"{OUT}/_hc.png"
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", str(t), "-i", track, "-frames:v", "1", "-vf", "crop=1080:6:0:0", png], check=True)
+        im = Image.open(png).convert("RGB"); px = im.load()
+        n = sum(1 for y in range(6) for x in range(0, 1080, 3) if sum(abs(a - b) for a, b in zip(px[x, y], (245, 239, 230))) > 45)
+        if n > 8: bad.append(t)
+    os.remove(f"{OUT}/_hc.png") if os.path.exists(f"{OUT}/_hc.png") else None
+    print("[vertical] head check: " + ("OK - the band's top edge is clear in every second" if not bad else f"HEAD CUT at {bad[:12]} s"))
+    if bad: raise SystemExit(f"[vertical] HEAD CUT: the presenter's head touches the band edge at {bad[:12]} s")
 
 
 # ---------------------------------------------------------------- captions (caption form = the scene's "shown" text)

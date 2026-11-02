@@ -1,0 +1,41 @@
+// State of U.P. & Ors. v. M/s Apex Construction Company, Mathura & Anr., Appeal under Section 37 of the Arbitration and Conciliation
+// Act, 1996 No. 62 of 2023, 2026:AHC-LKO:76453-DB, High Court of Judicature at Allahabad, Lucknow (Chief Justice Court), Division
+// Bench: Arun Bhansali, CJ. and Jaspreet Singh, J. (Jaspreet Singh J. wrote it), reserved 23.09.2026, delivered 24.10.2026, "AFR".
+// HOOK format (split/JUDGMENT_HOOK_FORMAT.md). Source: the court's signed PDF (39 pages, LiveLawBiz pdf_upload copy,
+// scratchpad find2nov_next/pdf/ALL_ApexConstruction_s37_official.pdf; AFR, bench, author, dates and the neutral citation under the
+// QR stamp checked), paras 1-94, read in full.
+// Facts used: the appeal under Section 37 against Commercial Court No. 1, Lucknow (09.02.2023), which dismissed the State's Section 34
+// petition and upheld the award of 30.07.2017 (1, 15); a contract for widening and strengthening the Raya-Math Road, District Mathura
+// (2, 3), awarded 30.09.2008 (4); the work completed on 31.08.2009 (5; the record, 54(b)); three-member tribunal (6); claim
+// Rs.23,79,90,727 with 18% quarterly rest (7); the final bill "false and misleading", the revised claim Rs.1,56,79,034.65 allowed
+// (11, 50); Rs.10 lakh costs (12, 63); 14% interest from 01.09.2009 compounded annually till the reference, pendente lite and till
+// realisation (63, 64, 74); the State's case: no completion certificate (Clause 48.1), so the work was not complete, the tribunal
+// rewrote the contract (17-19); the contract silent on interest, Section 3(3)(c) Interest Act bars interest upon interest, the
+// tribunal is a "court" under it (23-25); the contractor: banks charge interest with quarterly rest, yearly rest not arbitrary (39).
+// Held: no notice, complaint or correspondence on non-completion or defects; CRRI / PWD reports never said the work was incomplete,
+// the wear came from heavy traffic on a road built for light and medium traffic (54); "merely because the completion certificate was
+// not issued by the appellant it would not mean that the work was incomplete" (55, 56); the contract silent on interest (58);
+// Section 31(7) attracted, the tribunal had the power to grant interest for both periods (72, 80-82); compound interest cannot be
+// granted without a stipulation in the contract (75); Section 2(a) "Court" includes an arbitrator, Section 3(3)(c) bars interest
+// upon interest; annual compounding is a species of compound interest (77, 78, 79); "compounding of interest/interest on interest is
+// not permissible" without a specific stipulation (86); 14% not on the higher side, the contract commercial; 14% simple from
+// 01.09.2009 to 31.01.2016, the crystallised sum (principal + interest) then 14% simple till payment (87); the Rs.1,39,619 deduction
+// at 14% simple (88); only the interest part modified, Gayatri Balasamy (89-92); all other findings affirmed (93); appeal partly
+// allowed, no costs (94).
+// Not said: the contractor's proprietor's name; "false and misleading" (the tribunal's words about the final bill) kept off speech.
+// Flow policy: no private person named; no accusation; judges named.
+# 1 · CAN THE TRIBUNAL COMPOUND?
+10 | Advocates, if a contract says nothing about interest, can an arbitral tribunal still award interest that is compounded every year?
+10 | The State never issued a completion certificate, and the tribunal added fourteen percent interest, compounded yearly. Two objections. Which one survives? || The State never issued a completion certificate, and the tribunal added 14% interest, compounded yearly. Two objections. Which one survives?
+10 | Hi, I'm Ravishankar from LawWorld. An Allahabad High Court bench of Honourable Chief Justice Arun Bhansali and Honourable Justice Jaspreet Singh ruled.
+# 2 · THE ROAD CONTRACT
+10 | The Public Works Department hired a contractor to widen and strengthen the Raya Math Road in Mathura district. The work was completed in August two thousand nine. || The Public Works Department hired a contractor to widen and strengthen the Raya-Math Road in Mathura district. The work was completed in August 2009.
+10 | The contractor claimed nearly twenty four crore rupees. The tribunal rejected its final bill, but awarded about one crore fifty seven lakh, plus costs. || The contractor claimed nearly ₹24 crore. The tribunal rejected its final bill, but awarded about ₹1.57 crore, plus costs.
+# 3 · TWO OBJECTIONS
+10 | The Commercial Court at Lucknow upheld the award. In appeal, the State argued that no completion certificate was ever issued, so the work was never complete.
+10 | On interest, the State said the contract is silent, and the Interest Act bars interest upon interest. The contractor replied: banks compound every quarter.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the High Court decide? With the work proved, a missing certificate did not mean it was incomplete. The State never gave notice of any defect.
+10 | The Court held that yearly compounding is interest upon interest, which needs a contract clause. So the award was modified to fourteen percent simple, in two stages. || The Court held that yearly compounding is interest upon interest, which needs a contract clause. So the award was modified to 14% simple, in two stages.

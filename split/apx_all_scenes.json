@@ -1,0 +1,67 @@
+{
+ "projectTitle": "LawWorld_apx",
+ "title": "Can a tribunal compound interest the contract never mentions?",
+ "source": "split/scripts/apx.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Advocates, if a contract says nothing about interest, can an arbitral tribunal still award interest that is compounded every year?",
+   "chip": "1 · CAN THE TRIBUNAL COMPOUND?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "The State never issued a completion certificate, and the tribunal added fourteen percent interest, compounded yearly. Two objections. Which one survives?",
+   "shown": "The State never issued a completion certificate, and the tribunal added 14% interest, compounded yearly. Two objections. Which one survives?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. An Allahabad High Court bench of Honourable Chief Justice Arun Bhansali and Honourable Justice Jaspreet Singh ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "The Public Works Department hired a contractor to widen and strengthen the Raya Math Road in Mathura district. The work was completed in August two thousand nine.",
+   "shown": "The Public Works Department hired a contractor to widen and strengthen the Raya-Math Road in Mathura district. The work was completed in August 2009.",
+   "chip": "2 · THE ROAD CONTRACT"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "The contractor claimed nearly twenty four crore rupees. The tribunal rejected its final bill, but awarded about one crore fifty seven lakh, plus costs.",
+   "shown": "The contractor claimed nearly ₹24 crore. The tribunal rejected its final bill, but awarded about ₹1.57 crore, plus costs."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The Commercial Court at Lucknow upheld the award. In appeal, the State argued that no completion certificate was ever issued, so the work was never complete.",
+   "chip": "3 · TWO OBJECTIONS"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "On interest, the State said the contract is silent, and the Interest Act bars interest upon interest. The contractor replied: banks compound every quarter."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? With the work proved, a missing certificate did not mean it was incomplete. The State never gave notice of any defect.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "The Court held that yearly compounding is interest upon interest, which needs a contract clause. So the award was modified to fourteen percent simple, in two stages.",
+   "shown": "The Court held that yearly compounding is interest upon interest, which needs a contract clause. So the award was modified to 14% simple, in two stages."
+  }
+ ]
+}

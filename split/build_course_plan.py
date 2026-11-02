@@ -232,7 +232,9 @@ plan = {"fps": 24, "out": f"{OUT}/{SET}_full.mp4", "size": [1920, 1080],
         "presenter_box": {"x": 1280, "y": 0, "w": 640, "h": 1080, "fx": 0.5, "fy": 0.78, "pad": "0xf5f0e8"},   # fy 0.78: the cove line at y~36 stays hidden
         "presenter_start": HOOK, "presenter": [seg(s) for s in segs],
         "match_bg": False, "cutaways": [], "endcard": {"clip": "brand/cream_tail.mp4", "dur": END + 0.3, "offset": 0, "xfade": 0.3},
-        "music": {"file": "audio/bed_course_600s.mp3", "target_lufs": -26, "fade_in": 0.2, "fade_out": 2.5, "duck": True},
+        # owner 02-11-2026 ("add trending music"): a set may pick its own bed in its cue file, MUSIC = {"file": ..., "target_lufs": ...};
+        # the house bed at -26 LUFS is inaudible on a phone
+        "music": {"file": "audio/bed_course_600s.mp3", "target_lufs": -26, "fade_in": 0.2, "fade_out": 2.5, "duck": True, **(NS.get("MUSIC") or {})},
         "voice_lufs": -14, "level_voice": True, "limit": 0.85, "sfx": sfx,
         "grade_presenter": "unsharp=5:5:0.5:5:5:0", "scenes": SCENES,
         "overlays": {"dir": f"{OUT}/frames", "fps": 24}, "delogo": None, "total": total, "tail_black": 0}

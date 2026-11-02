@@ -1,0 +1,90 @@
+{
+ "aspectRatio": "9:16",
+ "maxWordsPerClip": 32,
+ "downloadFolder": "/Users/admin/Downloads/New short/product-explainer/downloads/mmc",
+ "useLastFrameReference": true,
+ "referenceFrameFrom": "first",
+ "transition": {
+  "type": "cut"
+ },
+ "globalStyle": {
+  "avatar": "@me",
+  "useAccountAvatar": true,
+  "hostName": "the presenter",
+  "channelName": "LawWorld",
+  "voice": "@me verified avatar voice (identical pitch, tone, accent in every clip)",
+  "outfit": "a tailored deep oxford-blue two-piece business suit, a crisp white formal shirt and a burgundy silk tie (identical in every scene)",
+  "background": "a seamless, plain, very light ivory off-white studio backdrop (almost white, with only a faint warm tint), brightly and evenly lit from edge to edge with no falloff, no vignette, no shadows, no texture and no objects - nothing else in the frame; identical in every scene",
+  "gestures": "He faces the camera squarely for the whole clip: head, shoulders and body stay square to the lens, he never turns to the left or right and never points or presents to the side. Animated, energetic open-palm gestures in front of his chest, counting points on his fingers, small confident nods and a bright smile on emphasis; relaxed fingers close together; hands stay in front of his body, inside the frame and never in front of his face; he stays standing in the same spot, at the same distance from the camera, throughout",
+  "audio": "@me verified avatar voice ONLY, crisp, clear and high-energy, fast continuous speech at a quick trainer's pace, NO background music, NO sound effects, NO silence at the start or end",
+  "negativePrompts": "He stays in the same spot with his face and upper body fully visible at all times; NO turning the head or body to the side, NO looking away from the camera, NO pointing or presenting to the left or right, NO arm stretched out to the side, NO arms, elbows, hands or shoulders touching or cut by the frame edges, NO oversized hands, NO hands held toward the camera, NO big or spread-out fingers, NO thin or lanky body, NO wide-angle lens distortion, NO furniture, NO bookshelves, NO plants, NO lamps, NO props, NO objects behind him, NO icons or graphics, NO text on screen, NO captions, NO name tags, NO logos, NO outfit change, NO camera cut, NO tripod, NO camera or microphone or any studio equipment visible in frame, NO other people",
+  "camera": "Locked-off static shot, vertical. A medium-wide shot: he is STANDING in the middle of the frame, framed from mid-thigh up and fairly small in the frame, so his body fills only about the middle half of the frame width with wide empty backdrop on BOTH sides of him; his shoulders, elbows and hands always stay well inside the frame; clear space above his head. Eye level, natural portrait-lens look, no zoom, no pan, no camera movement; the camera itself is never visible",
+  "realism": "Photorealistic live-action footage of a real human presenter recorded in one studio session against a plain ivory backdrop, NOT a furnished room. Soft, bright, even high-key light: a soft frontal key light on his face with soft fill, no harsh shadows, natural skin texture, natural eye contact straight into the lens and PERFECT LIP SYNC: his lips, jaw and mouth shapes match every syllable of the dialogue exactly, in time with the voice, no mouth movement without sound and no sound without mouth movement, identical exposure and white balance in every scene. TRUE-TO-LIFE BODY: natural adult proportions that match his face - broad shoulders, a solid average build that fills the jacket (not slim, not lanky), and SLENDER, NATURAL-SIZE HANDS: each hand no longer than his face, relaxed fingers held close together, never spread wide, hands never closer to the camera than his chest",
+  "delivery": "FAST, HIGH-ENERGY delivery, like a top law educator on YouTube coaching advocates straight to camera: quick, punchy pace (about 160 words per minute) with no slow stretches, a strong confident voice, rising energy, crisp emphasis on key words, bright smile, lively eyes; CRISP, PRECISE DICTION: every word pronounced fully, clearly and correctly in neutral Indian English, every consonant clear, the letters of an acronym spoken one by one (B N S S); only a very brief breath at each full stop; speak the dialogue exactly once, word for word, never repeat, stretch or slow down a word, never add words"
+ },
+ "projectTitle": "LawWorld_mmc_10s",
+ "clipDurationSeconds": 10,
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "Advocates, if a minimum wages notification is quashed later, does a Labour Court order already passed under it simply fall with it?"
+  },
+  {
+   "sceneId": "c02",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "Here, the Labour Court ruled first. The notification was quashed later, and then the quashing judgment was itself stayed in appeal. So can the order still be enforced?"
+  },
+  {
+   "sceneId": "c03",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. A Kerala High Court bench of Honourable Justice Devan Ramachandran and Honourable Justice Basant Balaji ruled."
+  },
+  {
+   "sceneId": "c04",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "In twenty eighteen, the State issued a minimum wages notification. Relying on it, the Labour Court at Kozhikode ruled for a hospital employee."
+  },
+  {
+   "sceneId": "c05",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "That order came in November twenty twenty two. In January twenty twenty three, a Single Judge of the High Court quashed the notification."
+  },
+  {
+   "sceneId": "c06",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "But in the appeals, a Division Bench stayed that judgment and kept it in abeyance. In June twenty twenty six, a Single Judge held the notification still in force."
+  },
+  {
+   "sceneId": "c07",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "The hospital appealed: the order rests on a quashed notification, and cannot be enforced. The employee replied: the order came first, and the quashing is stayed."
+  },
+  {
+   "sceneId": "c08",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I."
+  },
+  {
+   "sceneId": "c09",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "Finally, what did the High Court decide? The later quashing does not take away the worth of the Labour Court's order, passed while the notification was in force."
+  },
+  {
+   "sceneId": "c10",
+   "sanitizeDialogue": false,
+   "visual3D": "The presenter standing in the middle of the frame against the plain, evenly lit ivory backdrop, wide empty space on both sides of him, facing the camera squarely and speaking fast and energetically straight to camera with perfectly lip-synced speech, hands in front of his chest, same position, size, outfit and framing in every clip, no text.",
+   "dialogue": "A stay is not a quashing: a stayed order stops operating only from then on. The Court found no error, and left the notification's fate to the pending appeal."
+  }
+ ],
+ "flowProjectUrl": "https://flow.google.com/project/304e1ddd-2a43-464c-8832-d77195de5fe0"
+}

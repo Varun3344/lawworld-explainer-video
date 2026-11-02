@@ -1,0 +1,40 @@
+// Km. Vidyawati v. State of U.P. & 4 Ors., Writ-C No. 28051 of 2023, 2026:AHC:221877-DB, High Court of Judicature at Allahabad,
+// Court No. 5, Division Bench: Prakash Padia, J. and Garima Prashad, J. (Garima Prashad J. wrote it), reserved 25.09.2026, delivered
+// 26.10.2026, "A.F.R.". HOOK format (split/JUDGMENT_HOOK_FORMAT.md). Source: the court's signed PDF (10 pages, Verdictum pdf_upload
+// copy, scratchpad find2nov_next/pdf/ALL_Vidyawati.pdf; A.F.R., bench, author, dates and the neutral citation under the QR stamp
+// checked), paras 1-26, read in full.
+// Facts used: the writ challenges the rejection of the claim under the Mukhyamantri Kisan Evam Sarvahit Bima Yojana, communicated by
+// Oriental Insurance on 16.04.2021; Rs.5,00,000 sought for the accidental death of her brother (2); he died in a road accident on
+// 18.05.2019; per the petition, after their parents died he cultivated the family land and was the head and breadwinner; she was
+// unmarried and dependent on him (3); the insurer's letter of 03.10.2019: rejected because a sister is not in the MoU's definition of
+// family; the District Committee, Basti (18.11.2019), on the SDM Harraiya's report, recorded that he was the head of the family and
+// directed the insurer to accept the claim and pay (4); the insurer maintained the rejection on 16.04.2021 (5); her case: nominee /
+// legal heir, the scheme pays the nominee or legal heir (6); the insurer: the MoU and policy govern, the family list (head or
+// breadwinner, spouse, unmarried daughter, dependent son, parents) has no sister, a beneficial object cannot force payment of an
+// uncovered claim (7). The question (9); the policy period 14.09.2018-13.09.2019 covers the accident (10); personal accident cover for
+// the head or breadwinner up to Rs.5,00,000 (11); the family-composition clause: head or breadwinner, spouse, unmarried daughter,
+// dependent son, dependent parents; no sister (12); on death, "the entire insured amount of Rs.5.00 lakh to the nominee or legal heir"
+// (13, 14). Held: the family clause identifies who is covered; the death-payment clause identifies the recipient; it does not restrict
+// a legal heir to the family list (15); the insurer's reading adds words to "nominee/legal heir" (16); Uma Devi (2021) 1 ILR (All) 314:
+// the contract read as a whole (17); no rival heir, no succession dispute (22, 23); the insurer applied the family-composition clause
+// to a question governed by the death-payment clause, "That error vitiates the rejection" (24); an unmarried sister is not
+// disqualified merely because she is not listed; the petitioner entitled as legal heir; the cover itself is not enlarged (25); writ
+// allowed, the rejection of 16.04.2021 quashed, Rs.5,00,000 within four weeks of a certified copy, the DM Basti to facilitate (26).
+// Not said: the names of the deceased and the claimant (private persons: "a farmer", "his unmarried sister"); the cause title shows
+// only on the cite card. The dependency (3) is the petition's case: kept off speech as a finding.
+// Flow policy: no private person named; no accusation; judges named.
+# 1 · THE SISTER'S CLAIM
+10 | Advocates, can an insurance company refuse a farmer's accident death claim, just because the person claiming it is his sister, not his wife or child?
+10 | Under the scheme, family means a spouse, an unmarried daughter, a dependent son and dependent parents. A sister is not on the list. So does she get nothing?
+10 | Hi, I'm Ravishankar from LawWorld. An Allahabad High Court bench of Honourable Justice Prakash Padia and Honourable Justice Garima Prashad ruled.
+# 2 · THE ACCIDENT CLAIM
+10 | A farmer, the head and breadwinner of his family, died in a road accident in two thousand nineteen. A State scheme insured him for five lakh rupees. || A farmer, the head and breadwinner of his family, died in a road accident in 2019. A State scheme insured him for ₹5 lakh.
+10 | His unmarried sister claimed that amount. Oriental Insurance rejected her claim, because a sister is not in the scheme's definition of family.
+# 3 · THE INSURER'S STAND
+10 | After an inquiry, the District Committee found he was the head of the family, and directed the insurer to pay. The insurer still refused.
+10 | In the High Court, the insurer argued that a sister is not covered, and a beneficial scheme cannot stretch the policy. She claimed as his legal heir.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the High Court decide? The family list decides whose own accident is insured. But the death benefit goes to the nominee or legal heir.
+10 | The insurer applied the wrong clause. The unmarried sister is entitled as legal heir. The rejection was quashed, and the insurer must pay within four weeks.

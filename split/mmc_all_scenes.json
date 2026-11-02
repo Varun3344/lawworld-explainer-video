@@ -1,0 +1,66 @@
+{
+ "projectTitle": "LawWorld_mmc",
+ "title": "Quashed later: does the Labour Court order fall?",
+ "source": "split/scripts/mmc.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Advocates, if a minimum wages notification is quashed later, does a Labour Court order already passed under it simply fall with it?",
+   "chip": "1 · QUASHED LATER: DOES IT FALL?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "Here, the Labour Court ruled first. The notification was quashed later, and then the quashing judgment was itself stayed in appeal. So can the order still be enforced?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. A Kerala High Court bench of Honourable Justice Devan Ramachandran and Honourable Justice Basant Balaji ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "In twenty eighteen, the State issued a minimum wages notification. Relying on it, the Labour Court at Kozhikode ruled for a hospital employee.",
+   "shown": "In 2018, the State issued a minimum wages notification. Relying on it, the Labour Court at Kozhikode ruled for a hospital employee.",
+   "chip": "2 · THE WAGE NOTIFICATION"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "That order came in November twenty twenty two. In January twenty twenty three, a Single Judge of the High Court quashed the notification.",
+   "shown": "That order came in November 2022. In January 2023, a Single Judge of the High Court quashed the notification."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "But in the appeals, a Division Bench stayed that judgment and kept it in abeyance. In June twenty twenty six, a Single Judge held the notification still in force.",
+   "shown": "But in the appeals, a Division Bench stayed that judgment and kept it in abeyance. In June 2026, a Single Judge held the notification still in force.",
+   "chip": "3 · A STAY ON THE QUASHING"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The hospital appealed: the order rests on a quashed notification, and cannot be enforced. The employee replied: the order came first, and the quashing is stayed."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? The later quashing does not take away the worth of the Labour Court's order, passed while the notification was in force.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "A stay is not a quashing: a stayed order stops operating only from then on. The Court found no error, and left the notification's fate to the pending appeal."
+  }
+ ]
+}

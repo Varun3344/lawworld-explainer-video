@@ -24,3 +24,7 @@ kn_office/GO
 # scratch
 *.bak_*
 hck_home_now.html
+
+# Mixkit Stock Music Free License tracks (owner 02-11-2026 music): free to use in videos, not to redistribute as files.
+# Re-create: curl https://assets.mixkit.co/music/<id>/<id>.mp3, loop to 140 s (acrossfade 3 s) -> audio/bed_mixkit<id>_140s.mp3
+audio/bed_mixkit*
