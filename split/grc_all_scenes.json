@@ -1,0 +1,68 @@
+{
+ "projectTitle": "LawWorld_grc",
+ "title": "Diwali green crackers: Arjun Gopal v Union of India",
+ "source": "split/scripts/grc.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Can you legally burst crackers in Delhi this Diwali, when Delhi and the N C R around it have been under a complete, year round ban on firecrackers?",
+   "shown": "Can you legally burst crackers in Delhi this Diwali, when Delhi and the NCR around it have been under a complete, year-round ban on firecrackers?",
+   "chip": "1 · CRACKERS THIS DIWALI?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "But even with the ban, the Court noted no significant improvement in air quality, and ordinary crackers sold as green ones. So does a ban work?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On twenty ninth October, Honourable Justice M M Sundresh and Honourable Justice Prasanna B Varale ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 29 October, Honourable Justice M.M. Sundresh and Honourable Justice Prasanna B. Varale ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "In twenty eighteen, in this same Arjun Gopal case, the Court allowed green crackers. In December twenty twenty four, Delhi banned all firecrackers, all year round.",
+   "shown": "In 2018, in this same Arjun Gopal case, the Court allowed green crackers. In December 2024, Delhi banned all firecrackers, all year round.",
+   "chip": "2 · FROM GREEN TO A TOTAL BAN"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "Last year, as a test, the Court allowed green crackers on two days. The States were to study the effect. The Court found the State utterly failed to comply."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The petitioners and the amicus sought a complete ban. The traders wanted their licences back, saying refusing them helps illegal crackers from across the border.",
+   "chip": "3 · BAN OR REGULATE?"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The Court said religious practice under Article Twenty Five is subject to health. Article Twenty One protects the right to a pollution free environment.",
+   "shown": "The Court said religious practice under Article 25 is subject to health. Article 21 protects the right to a pollution-free environment."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the Supreme Court decide? A blanket ban seems ideal, it said, but it lacks data on whether the ban has worked. So, for now, it will regulate.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "Only approved green crackers, on seventh and eighth November, from six to seven in the morning and eight to ten at night. From ninth November, the complete ban returns.",
+   "shown": "Only approved green crackers, on 7 and 8 November, from 6 to 7 in the morning and 8 to 10 at night. From 9 November, the complete ban returns."
+  }
+ ]
+}
