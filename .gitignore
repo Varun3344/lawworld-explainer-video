@@ -11,7 +11,7 @@ storyboard_progress.json
 stock/
 lokadalat/*.mp3
 lokadalat/*.png
-overlays/_thumb_brand.html
+overlays/_thumb_*.html
 
 # machine-local Flow account map (live Google login sessions; see split/accounts.example.sh)
 split/accounts.local.sh
