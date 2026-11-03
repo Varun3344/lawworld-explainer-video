@@ -20,6 +20,8 @@ for s in S:
     if n > 32: flags.append("WORDS>32")
     if re.search(r"\d", d): flags.append("DIGITS")
     if not re.search(r"[.?!]['\"’”)]*$", d.strip()): flags.append("NOT-A-SENTENCE-END")
+    # owner 03-11-2026: "i dont need that advocate name in the starting" - the opening clip goes straight to the question
+    if s is S[0] and re.match(r"\s*(advocates?\b|ವಕೀಲ)", d, re.I): flags.append("STARTS-WITH-ADVOCATE")
     rate = sy / sec
     # v1 (Videos 1-3): measured on Cause of Action, 3.6 (median) to 4.5 syl/s -> the avatar spoke ~130 words a minute. Owner 19-10-2026
     # after Video 1: "full energetic ... raise some speed": the fast budget (~4.6 syl/s over 92 % of the clip) is the default now

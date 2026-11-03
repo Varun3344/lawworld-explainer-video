@@ -15,7 +15,7 @@ What the flag changes (split/build_course_plan.py, split/build_vertical_course.p
 
 | Clip | Part | Rule |
 |---|---|---|
-| c01 | Hook | A question an advocate cares about. No greeting. Starts the video. |
+| c01 | Hook | A question an advocate cares about. No greeting and NO address: never open with "Advocates," (owner 03-11-2026: "i dont need that advocate name in the starting"). Start straight on the question or the situation, e.g. "Can lenders back out of a resolution plan they already approved...?" Starts the video. `check_scenes.py` flags a c01 that starts with "Advocate". |
 | c02 | Curiosity | Build up the story: the stakes, a twist, a number, two forums disagreeing. End on a question or a cliff-hanger. |
 | c03 | Intro | "Hi, I'm Ravishankar from LawWorld." + date + bench ("Honourable Justice ..." once per judge). Bench card here. |
 | c04-c07 | Facts, case, discussion | Facts -> what went wrong below -> each side's argument. Whole sentences, every clip ends on a full stop. |

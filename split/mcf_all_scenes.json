@@ -1,0 +1,68 @@
+{
+ "projectTitle": "LawWorld_mcf",
+ "title": "Court fee refund after evidence",
+ "source": "split/scripts/mcf.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "If a civil suit settles out of court after the witnesses have already testified, can the court fee still be refunded, or is every rupee of it gone?",
+   "chip": "1 · REFUND AFTER TRIAL?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "The Supreme Court has allowed a full refund even for private settlements. Yet one trial court gave only half, and another gave nothing. So who got it right?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On thirtieth October, twenty twenty six, Honourable Justice P B Balaji of the Madras High Court ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 30 October 2026, Honourable Justice P.B. Balaji of the Madras High Court ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "In one suit for specific performance, they settled after the plaintiff's witness filed a proof affidavit. The trial court refunded only half the fee, less five per cent.",
+   "shown": "In one suit for specific performance, they settled after the plaintiff's witness filed a proof affidavit. The trial court refunded only half the fee, less 5%.",
+   "chip": "2 · TWO SETTLEMENTS"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "In the other suit, both sides had examined witnesses, and even a court witness, when they compromised. There, the trial court refused any refund at all."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The plaintiffs relied on the Supreme Court's ruling in M C Subramaniam: even a private settlement earns a full refund under Section Sixty Nine A.",
+   "shown": "The plaintiffs relied on the Supreme Court's ruling in M.C. Subramaniam: even a private settlement earns a full refund under Section 69-A.",
+   "chip": "3 · THE ARGUMENTS"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The Advocate General said that ruling never considered Afcons, on the stage of settlement; the amicus added it never dealt with Section Sixty Nine.",
+   "shown": "The Advocate General said that ruling never considered Afcons, on the stage of settlement; the amicus added it never dealt with Section 69."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? Under Section Sixty Nine, a refund is allowed only if the suit settles before any evidence is recorded.",
+   "shown": "Finally, what did the High Court decide? Under Section 69, a refund is allowed only if the suit settles before any evidence is recorded.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "Following Afcons, the earlier Supreme Court ruling, it held: no refund once evidence is recorded. Both petitions failed, but the unchallenged half refund stays."
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+// Susheela Kawar v. M. Pettu Lakshmi, with S. Ranjani (died) through LRs v. Gopi @ Gopala Krishnan & Anr., C.R.P. Nos. 4064 & 4106
+// of 2026, 2026:MHC:4385, High Court of Judicature at Madras, single Judge: P.B. Balaji, J.; order reserved 23.09.2026, pronounced and
+// uploaded 30.10.2026 (common order). REPORTABLE: the court's own judis database lists it under "Reportable" (judge-wise search
+// 29.10-03.11.2026, filename 1386471). Reported by LiveLaw on 02.11.2026 as 2026 LiveLaw (Mad) 523. HOOK format
+// (split/JUDGMENT_HOOK_FORMAT.md), the High Courts page (English). Opening clip WITHOUT "Advocates," and spoken to everyone, not to
+// lawyers (owner 03-11-2026: "dont use advocate in the starting it should be like we are telling to all").
+// Source: the court's own PDF (29 pages, mhc.tn.gov.in/judis viewpdf 1386471), scratchpad find3nov/pdf/MHC_1386471_SusheelaKawar.pdf.
+// Facts used (page / para): the question - a plaintiff's entitlement to refund of court fee on the plaint after trial has commenced (p2,
+// para 1). CRP 4064: suit O.S. 3/2019 for specific performance, Thiruvallur at Ponneri; settled out of court and withdrawn; decree
+// "Half of the Court fee is refunded to the plaintiff after deduction of 5% as per rules"; issues framed and trial commenced by the
+// proof affidavit of PW1 (paras 11, 19, 23, 24). CRP 4106: suit O.S. 133/2007, Chengalpattu; compromise memo 09.10.2025; PW1, DW1, DW2 and
+// a court witness CW1 examined, exhibits marked; trial court refused any refund (paras 4, 25). Petitioners: M.C. Subramaniam, (2021) 3
+// SCC 560 - even an out-of-court settlement entitles the plaintiff to a 100% refund under s.69-A of the Tamil Nadu Court Fees and Suits
+// Valuation Act, 1955 (para 3). The Court heard the Advocate General and appointed an amicus (para 7); AG: M.C. Subramaniam did not
+// factor Afcons, (2010) 8 SCC 24 (para 8); amicus: the SC analysed only s.69-A with s.89 CPC; s.69 was not in issue; refund only when
+// no evidence recorded (paras 9-10). s.69: refund (half, "full" since Act 6 of 2017) only if the suit is dismissed as settled out of
+// court "before any evidence has been recorded on the merits of the claim" (para 12); s.69-A ties refund to a s.89 CPC reference
+// (para 13); M.C. Subramaniam dealt only with s.69-A (14) and not with the stage of settlement (18) or s.69 (22(i), 26); "a party is not entitled to
+// any refund once evidence is recorded" (para 19); Afcons: ADR reference after pleadings, before framing issues; once evidence commences
+// the court is reluctant to refer (para 21); the Court follows Afcons, the earlier binding ratio (para 22); CRP 4106: the trial court
+// rightly refused any refund; CRP 4064: the plaintiff was not entitled to any refund, but the 50% less 5% is left alone because the
+// State did not challenge it (paras 22, 24); both CRPs dismissed; copy to the Tamil Nadu Law Commission on restoring the pre-2017
+// s.69-A (para 31).
+// Not said: the parties' names (private persons; the cite card may carry the cause title); the Law Commission reference (card only, if
+// at all). Flow policy: no accusation, no "fraud" / "collusion" / "admitted"; only the court, the judge and the statutes are named.
+# 1 · REFUND AFTER TRIAL?
+10 | If a civil suit settles out of court after the witnesses have already testified, can the court fee still be refunded, or is every rupee of it gone?
+10 | The Supreme Court has allowed a full refund even for private settlements. Yet one trial court gave only half, and another gave nothing. So who got it right?
+10 | Hi, I'm Ravishankar from LawWorld. On thirtieth October, twenty twenty six, Honourable Justice P B Balaji of the Madras High Court ruled. || Hi, I'm Ravishankar from LawWorld. On 30 October 2026, Honourable Justice P.B. Balaji of the Madras High Court ruled.
+# 2 · TWO SETTLEMENTS
+10 | In one suit for specific performance, they settled after the plaintiff's witness filed a proof affidavit. The trial court refunded only half the fee, less five per cent. || In one suit for specific performance, they settled after the plaintiff's witness filed a proof affidavit. The trial court refunded only half the fee, less 5%.
+10 | In the other suit, both sides had examined witnesses, and even a court witness, when they compromised. There, the trial court refused any refund at all.
+# 3 · THE ARGUMENTS
+10 | The plaintiffs relied on the Supreme Court's ruling in M C Subramaniam: even a private settlement earns a full refund under Section Sixty Nine A. || The plaintiffs relied on the Supreme Court's ruling in M.C. Subramaniam: even a private settlement earns a full refund under Section 69-A.
+10 | The Advocate General said that ruling never considered Afcons, on the stage of settlement; the amicus added it never dealt with Section Sixty Nine. || The Advocate General said that ruling never considered Afcons, on the stage of settlement; the amicus added it never dealt with Section 69.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the High Court decide? Under Section Sixty Nine, a refund is allowed only if the suit settles before any evidence is recorded. || Finally, what did the High Court decide? Under Section 69, a refund is allowed only if the suit settles before any evidence is recorded.
+10 | Following Afcons, the earlier Supreme Court ruling, it held: no refund once evidence is recorded. Both petitions failed, but the unchallenged half refund stays.
+// Fact-check 03-11-2026 (independent agent): no wrong facts; applied - c10 now says the half refund stays (para 24), c07 credits
+// the Afcons point to the Advocate General (para 8) and the Section 69 point to the amicus (para 10), c04 'the plaintiff's witness'.
