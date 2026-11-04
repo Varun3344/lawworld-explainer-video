@@ -23,8 +23,8 @@
   {
    "sceneId": "c04",
    "seconds": 10,
-   "dialogue": "He joined in two thousand eight. His wife died in twenty twenty two, and he died in twenty twenty three. His brother is married and lives separately.",
-   "shown": "He joined in 2008. His wife died in 2022, and he died in 2023. His brother is married and lives separately.",
+   "dialogue": "He joined in two thousand eight. His wife died in twenty twenty two; he died in twenty twenty three. His brother is married, with his own family, living apart.",
+   "shown": "He joined in 2008. His wife died in 2022; he died in 2023. His brother is married, with his own family, living apart.",
    "chip": "2 · THE FAMILY LEFT BEHIND"
   },
   {
@@ -54,13 +54,13 @@
   {
    "sceneId": "c09",
    "seconds": 10,
-   "dialogue": "Finally, what did the High Court decide? Marriage is a fact in an employee's life, and a wife's death does not erase it. A widower is not an unmarried man.",
+   "dialogue": "Finally, what did the High Court decide? Marriage is a fact in an employee's life; a wife's death does not erase it. Under this rule, a widower is not unmarried.",
    "chip": "5 · WHAT THE COURT HELD"
   },
   {
    "sceneId": "c10",
    "seconds": 10,
-   "dialogue": "A promise to look after the mother cannot create eligibility. So the appeal was allowed, and the corporation's rejection was upheld."
+   "dialogue": "A promise to care for the mother cannot create eligibility. So the appeal was allowed, the single judge's order set aside and the rejection upheld."
   }
  ]
 }

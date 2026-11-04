@@ -35,7 +35,7 @@
 10 | His mother sought a job for her other son, who promised to look after her. The corporation said no, but a single judge of the Karnataka High Court said yes.
 10 | Hi, I'm Ravishankar from LawWorld. On twenty eighth October, Honourable Justice M Nagaprasanna and Honourable Justice Hema Kulkarni ruled. || Hi, I'm Ravishankar from LawWorld. On 28 October, Honourable Justice M. Nagaprasanna and Honourable Justice Hema Kulkarni ruled.
 # 2 · THE FAMILY LEFT BEHIND
-10 | He joined in two thousand eight. His wife died in twenty twenty two, and he died in twenty twenty three. His brother is married and lives separately. || He joined in 2008. His wife died in 2022, and he died in 2023. His brother is married and lives separately.
+10 | He joined in two thousand eight. His wife died in twenty twenty two; he died in twenty twenty three. His brother is married, with his own family, living apart. || He joined in 2008. His wife died in 2022; he died in 2023. His brother is married, with his own family, living apart.
 10 | The corporation's rule covers a married employee's widow and children. A brother qualifies only if the employee was unmarried. So it rejected the claim.
 10 | The single judge held that when the wife died first and there are no children, mere marriage cannot bar the claim, and ordered the corporation to appoint him within twelve weeks.
 # 3 · COMPASSION OR THE RULE?
@@ -43,10 +43,12 @@
 # 4 · BEFORE THE VERDICT
 10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
 # 5 · WHAT THE COURT HELD
-10 | Finally, what did the High Court decide? Marriage is a fact in an employee's life, and a wife's death does not erase it. A widower is not an unmarried man.
-10 | A promise to look after the mother cannot create eligibility. So the appeal was allowed, and the corporation's rejection was upheld.
+10 | Finally, what did the High Court decide? Marriage is a fact in an employee's life; a wife's death does not erase it. Under this rule, a widower is not unmarried.
+10 | A promise to care for the mother cannot create eligibility. So the appeal was allowed, the single judge's order set aside and the rejection upheld.
 // Fact-check 04-11-2026 (line by line against the PDF; the fork could not start a separate agent): no wrong facts. Applied: c01 'a job'
 // (the single judge ordered a suitable post as per his qualification, not the driver's own post, para 11 ORDER iii); c02 'sought a job'.
 // c04 follows the Division Bench (para 10, 12: brother married, residing separately; facts not in dispute), not the single judge's
 // 'living together' (quoted para 11, its para 8). c05 'rule' = the Circular (paras 14, 15); the brother category also needs a dependent
 // living with the employee (card only).
+// Independent fact-check 04-11-2026 (separate agent, whole PDF): no wrong facts. Applied: c09 'Under this rule' (paras 16, 17 tie it to the
+// Circular), c04 'with his own family, living apart' (paras 10, 12), c10 names the order set aside (para 28(ii)), ENDCARD 'a job'.

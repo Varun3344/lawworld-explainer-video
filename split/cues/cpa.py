@@ -19,7 +19,7 @@ def A(c, w, n=1, d=-0.08): return r3(at(c, w, n) + d)
 
 CITE_B = 110     # the citation bar's shadow ends inside the panel (one seamless screen)
 PLAIN_BG = True   # owner 26-10-2026: the cards and the presenter on one plain cream screen
-ENDCARD = {"title": "Wife died first: can his brother get the job?", "line": "No: a married employee's brother is not a dependent under the Circular, even if the wife died first", "sub": "LawWorld: legal research for advocates"}
+ENDCARD = {"title": "Wife died first: can his brother get a job?", "line": "No: a married employee's brother is not a dependent under the Circular, even if the wife died first", "sub": "LawWorld: legal research for advocates"}
 
 # ── 1 · who gets the job? (hook, curiosity, intro) ───────────────────────────────────────────────────────────────────
 cue(type="question", t0=S("c01"), t1=E("c01") + 0.05, at=A("c01", "driver"), text="Wife died first, no children. Can his brother get a compassionate job?", hl="Can his brother get a compassionate job?")
@@ -40,7 +40,7 @@ cue(type="timeline", t0=S("c04"), t1=E("c04") + 0.05,
            {"label": "HE DIES IN SERVICE", "value": "2023", "sub": "his mother and brother survive", "at": A("c04", "died", 2)}])
 cue(type="flow", t0=S("c05"), t1=E("c05") + 0.05, head="The corporation's Circular · who qualifies?", head_at=S("c05") + 0.05,
     steps=[{"label": "Married employee", "sub": "his widow and children", "icon": "users", "at": A("c05", "married")},
-           {"label": "Unmarried employee", "sub": "a dependent brother or sister", "icon": "user-round", "at": A("c05", "unmarried")},
+           {"label": "Unmarried employee", "sub": "a dependent brother or sister living with him", "icon": "user-round", "at": A("c05", "unmarried")},
            {"label": "Claim rejected", "sub": "he was married", "icon": "x", "at": A("c05", "rejected")}])
 cue(type="list", t0=S("c06"), t1=E("c06") + 0.05, head="The single judge · W.P. No. 101661 of 2025", head_at=S("c06") + 0.05,
     items=[{"n": 1, "text": "Wife died first, and no children", "at": A("c06", "wife")},
@@ -66,7 +66,7 @@ cue(type="point", t0=A("c09", "marriage") - 0.05, t1=E("c09") + 0.05, text="“M
 cue(type="point", t0=S("c10"), t1=A("c10", "so") - 0.05, text="A promise to care for the mother cannot create eligibility", icon="scale", accent=True, at=A("c10", "promise"))
 cue(type="verdicts", t0=A("c10", "so") - 0.05, t1=E("c10") + 0.05,
     rows=[{"text": "The corporation's appeal: allowed", "ok": True, "at": A("c10", "allowed")},
-          {"text": "The single judge's order: set aside", "ok": False, "at": A("c10", "and")},
+          {"text": "The single judge's order: set aside", "ok": False, "at": A("c10", "aside")},
           {"text": "Rejection of the brother's claim: upheld", "ok": True, "at": A("c10", "upheld")}])
 
 MUSIC = {"file": "audio/bed_mixkit738_140s.mp3", "target_lufs": -21}   # owner 02-11-2026: trending-style royalty-free bed, audible under the voice
