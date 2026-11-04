@@ -1,0 +1,31 @@
+// Suo Motu PIL, High Court of Karnataka at Bengaluru, oral order of 03.11.2026 (Division Bench: D K Singh J., who wrote it, and H. Shanthi Bhushan J.),
+// "RE: In the matter of murder of two Advocates ... and attempt to murder of Senior Advocate ... and other connected matters". Source: the
+// owner's PDF "SUO MOTO PIL-1-03.11.2026.pdf" (16 pages), read in full. NOT a judgment and no reportable mark: an order directing the
+// Registry to register a suo motu PIL; made at the owner's request (04-11-2026). Facts used (para): Advocates Association Bengaluru and the
+// Karnataka State Bar Council brought to notice increasing violence, assaults, threats and murders of Advocates and sought protection (1);
+// murders of two Advocates reported 09.10.2026 and 18.10.2026, attempt to murder of a Senior Advocate at Gauribidanur on 28.10.2026 (2);
+// Advocates across Karnataka abstained from work on 03.11.2026 seeking a stronger Advocates Protection Act (3); police stations alleged to
+// act as parallel courts settling civil disputes (4, 8); SOPs already exist but are not followed at field level, per the Bar (8); Advocates
+// are officers of the Court; an attack on an Advocate is not an isolated incident and affects the independence of the Bar (9); SOP needed
+// for receiving Advocates at police stations with due respect, dignity and minimum courtesy, "not to confer any special privilege" (10);
+// "A Police Station cannot be converted into a forum for adjudication of civil rights" (11); examine strengthening the Advocates Protection
+// Act (12, 21); SOP for complaints by Advocates against police officers (13); Bombay HC at Goa and Telangana HC took similar suo motu steps
+// (16); Registry to register a Suo Motu PIL (18); State and DG&IGP to place existing SOPs and steps (20); case-wise details of every case
+// of murder of an Advocate in Karnataka, verified by the DG&IGP (22); notice returnable and listed on 08.12.2026 (p16).
+// Not said: the names of the deceased or injured Advocates (private persons) or of any accused; no accusation against any police officer.
+// KANNADA version (set apk), hand-written from the order (never auto-translated). Greeting form "ನಮಸ್ಕಾರ, ನಾನು LawWorld ನಿಂದ ರವಿಶಂಕರ್."
+# 1 · ವಕೀಲರ ರಕ್ಷಣೆ ಯಾರದು?
+10 | ಅಕ್ಟೋಬರ್‌ನಲ್ಲಿ ಕರ್ನಾಟಕದಲ್ಲಿ ಇಬ್ಬರು ವಕೀಲರ ಹತ್ಯೆಯಾಯಿತು, ಒಬ್ಬ ಹಿರಿಯ ವಕೀಲರ ಮೇಲೆ ದಾಳಿಯಾಯಿತು. ಬಳಿಕ ರಾಜ್ಯದಾದ್ಯಂತ ವಕೀಲರು ಕೆಲಸ ಬಹಿಷ್ಕರಿಸಿದರು. ಹೈಕೋರ್ಟ್ ತಾನಾಗಿ ಮುಂದಾಗಬಹುದೇ?
+10 | ಇನ್ನೊಂದು ದೂರೂ ಇತ್ತು. ಕೆಲವು ಪೊಲೀಸ್ ಠಾಣೆಗಳು ಕೋರ್ಟ್‌ಗಳಂತೆ ವರ್ತಿಸಿ, ಆಸ್ತಿ ಮತ್ತು ಒಪ್ಪಂದದ ವ್ಯಾಜ್ಯಗಳನ್ನು ತಾವೇ ಇತ್ಯರ್ಥ ಮಾಡುತ್ತಿವೆ ಎಂದು ವಕೀಲರು ಹೇಳಿದರು. ಹಾಗಾದರೆ ಕರ್ನಾಟಕ ಹೈಕೋರ್ಟ್ ಏನು ಮಾಡಿತು?
+10 | ನಮಸ್ಕಾರ, ನಾನು LawWorld ನಿಂದ ರವಿಶಂಕರ್. ಎರಡು ಸಾವಿರದ ಇಪ್ಪತ್ತಾರರ ನವೆಂಬರ್ ಮೂರರಂದು ಗೌರವಾನ್ವಿತ ನ್ಯಾಯಮೂರ್ತಿ ಡಿ ಕೆ ಸಿಂಗ್ ಮತ್ತು ಗೌರವಾನ್ವಿತ ನ್ಯಾಯಮೂರ್ತಿ ಎಚ್ ಶಾಂತಿ ಭೂಷಣ್ ಆದೇಶ ನೀಡಿದರು. || ನಮಸ್ಕಾರ, ನಾನು LawWorld ನಿಂದ ರವಿಶಂಕರ್. 2026ರ ನವೆಂಬರ್ 3ರಂದು ಗೌರವಾನ್ವಿತ ನ್ಯಾಯಮೂರ್ತಿ ಡಿ ಕೆ ಸಿಂಗ್ ಮತ್ತು ಗೌರವಾನ್ವಿತ ನ್ಯಾಯಮೂರ್ತಿ ಎಚ್ ಶಾಂತಿ ಭೂಷಣ್ ಆದೇಶ ನೀಡಿದರು.
+# 2 · ವಕೀಲರ ಅಳಲು
+10 | ಬೆಂಗಳೂರು ವಕೀಲರ ಸಂಘ ಮತ್ತು ಕರ್ನಾಟಕ ರಾಜ್ಯ ವಕೀಲರ ಪರಿಷತ್ತು, ವಕೀಲರ ಮೇಲೆ ಹೆಚ್ಚುತ್ತಿರುವ ಬೆದರಿಕೆ, ಹಲ್ಲೆ ಮತ್ತು ಹಿಂಸೆಯನ್ನು ಕೋರ್ಟ್ ಗಮನಕ್ಕೆ ತಂದು, ತುರ್ತು ರಕ್ಷಣೆ ಕೋರಿದವು.
+10 | ಆದೇಶದ ದಿನವೇ ರಾಜ್ಯದಾದ್ಯಂತ ವಕೀಲರು ಕೋರ್ಟ್ ಕೆಲಸದಿಂದ ದೂರ ಉಳಿದು, ಇನ್ನಷ್ಟು ಬಲವಾದ ವಕೀಲರ ಸಂರಕ್ಷಣಾ ಕಾಯ್ದೆ ಮತ್ತು ಕೆಲಸದಲ್ಲಿ ಸುರಕ್ಷತೆ ಬೇಕೆಂದು ಆಗ್ರಹಿಸಿದರು.
+10 | ಹಿರಿಯ ಪೊಲೀಸ್ ಅಧಿಕಾರಿಗಳು ಈಗಾಗಲೇ ಸೂಚನೆ ನೀಡಿದ್ದರೂ, ಕೆಲವು ಠಾಣೆಗಳು ಆಸ್ತಿ ಮತ್ತು ಒಪ್ಪಂದದಂತಹ ಸಿವಿಲ್ ವ್ಯಾಜ್ಯಗಳಲ್ಲಿ ಸಮಾನಾಂತರ ಕೋರ್ಟ್‌ಗಳಂತೆ ವರ್ತಿಸುತ್ತಿವೆ ಎಂದೂ ಅವರು ದೂರಿದರು.
+# 3 · ಏಕೆ ಮುಖ್ಯ?
+10 | ವಕೀಲರು ಕೇವಲ ಕಕ್ಷಿದಾರರ ಪ್ರತಿನಿಧಿಗಳಲ್ಲ, ನ್ಯಾಯಾಲಯದ ಅಧಿಕಾರಿಗಳು ಎಂದು ಕೋರ್ಟ್ ಹೇಳಿತು. ವಕೀಲರ ಮೇಲಿನ ದಾಳಿ ಪ್ರತ್ಯೇಕ ಘಟನೆಯಲ್ಲ, ಅದು ವಕೀಲ ವೃತ್ತಿಯ ಸ್ವಾತಂತ್ರ್ಯಕ್ಕೇ ಧಕ್ಕೆ ತರುತ್ತದೆ.
+# 4 · ಆದೇಶಕ್ಕೂ ಮುನ್ನ
+10 | ಹೈಕೋರ್ಟ್ ಏನು ತೀರ್ಮಾನಿಸಿತು ಎಂದು ಹೇಳುವ ಮೊದಲು ಒಂದು ಸಣ್ಣ ವಿನಂತಿ. LawWorld ಫಾಲೋ ಮಾಡಿ, ವಕೀಲರಿಗಾಗಿ ಇರುವ ಭಾರತದ ಆಲ್ ಇನ್ ಒನ್ ಎಐ ವೇದಿಕೆಯನ್ನು lawworld ಡಾಟ್ ಎಐ ನಲ್ಲಿ ಬಳಸಿ. || ಹೈಕೋರ್ಟ್ ಏನು ತೀರ್ಮಾನಿಸಿತು ಎಂದು ಹೇಳುವ ಮೊದಲು ಒಂದು ಸಣ್ಣ ವಿನಂತಿ. LawWorld ಫಾಲೋ ಮಾಡಿ, ವಕೀಲರಿಗಾಗಿ ಇರುವ ಭಾರತದ ಆಲ್-ಇನ್-ಒನ್ AI ವೇದಿಕೆಯನ್ನು lawworld.ai ನಲ್ಲಿ ಬಳಸಿ.
+# 5 · ಕೋರ್ಟ್ ಆದೇಶ
+10 | ಕೊನೆಗೆ, ಹೈಕೋರ್ಟ್ ಏನು ತೀರ್ಮಾನಿಸಿತು? ಸ್ವಯಂಪ್ರೇರಿತ ಸಾರ್ವಜನಿಕ ಹಿತಾಸಕ್ತಿ ಅರ್ಜಿ ದಾಖಲಿಸಲು ಆದೇಶಿಸಿತು. ಪೊಲೀಸ್ ಠಾಣೆ ಸಿವಿಲ್ ವ್ಯಾಜ್ಯಗಳ ಇತ್ಯರ್ಥದ ವೇದಿಕೆ ಆಗುವಂತಿಲ್ಲ ಎಂದು ಸ್ಪಷ್ಟಪಡಿಸಿತು.
+10 | ಈಗಿನ ಪೊಲೀಸ್ ಮಾರ್ಗಸೂಚಿಗಳನ್ನು ಸರ್ಕಾರ ಸಲ್ಲಿಸಿ, ಸಂರಕ್ಷಣಾ ಕಾಯ್ದೆಯ ಬಲವರ್ಧನೆ ಪರಿಶೀಲಿಸಬೇಕು. ಪ್ರತಿ ವಕೀಲರ ಹತ್ಯೆ ಪ್ರಕರಣದ ವಿವರ ಪೊಲೀಸರು ನೀಡಬೇಕು. ವಿಚಾರಣೆ ಡಿಸೆಂಬರ್ ಎಂಟರಂದು. || ಈಗಿನ ಪೊಲೀಸ್ ಮಾರ್ಗಸೂಚಿಗಳನ್ನು ಸರ್ಕಾರ ಸಲ್ಲಿಸಿ, ಸಂರಕ್ಷಣಾ ಕಾಯ್ದೆಯ ಬಲವರ್ಧನೆ ಪರಿಶೀಲಿಸಬೇಕು. ಪ್ರತಿ ವಕೀಲರ ಹತ್ಯೆ ಪ್ರಕರಣದ ವಿವರ ಪೊಲೀಸರು ನೀಡಬೇಕು. ವಿಚಾರಣೆ ಡಿಸೆಂಬರ್ 8ರಂದು.

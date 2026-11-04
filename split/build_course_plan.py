@@ -102,7 +102,7 @@ if not HOOK_FMT:
 chips = [{"at": r3(HOOK if s["sceneId"] == IDS[0] else S(s["sceneId"]) - 0.1), "label": s["chip"]} for s in ALL if s.get("chip") and s["sceneId"] in IDS]
 cue(type="panel", t0=0.0 if HOOK_FMT else HOOK - 0.3, t1=pend + 0.25, scenes=chips)   # hook: the panel slides in under the cover
 # the name tag sits on the clip where he introduces himself (hook format: after the hook and the curiosity clips, not on c01)
-NAME_CID = next((c for c in IDS if "ravishankar" in SCRIPT[c].lower()), IDS[0]) if HOOK_FMT else IDS[0]
+NAME_CID = next((c for c in IDS if "ravishankar" in SCRIPT[c].lower() or "ರವಿಶಂಕರ್" in SCRIPT[c]), IDS[0]) if HOOK_FMT else IDS[0]   # Kannada hook reels too (04-11-2026)
 cue(type="lower_third", t0=S(NAME_CID) + 0.5, t1=S(NAME_CID) + 5.2, name="Ravishankar", role="LawWorld")
 
 # ── sound: a soft pop on every build, a whoosh as a big card arrives, a ding on a result, a slam on a stamp (the set's cue file may

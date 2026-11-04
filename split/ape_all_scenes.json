@@ -1,0 +1,64 @@
+{
+ "projectTitle": "LawWorld_ape",
+ "title": "Who protects the lawyers?",
+ "source": "split/scripts/ape.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "In October, two lawyers were killed in Karnataka and a senior lawyer attacked. Then lawyers across the State struck work. Can a High Court act on its own?",
+   "chip": "1 · WHO PROTECTS THE LAWYERS?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "There was a second complaint too, that some police stations act like courts, settling property and contract disputes. So what did the Karnataka High Court do?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On third November, Honourable Justice D K Singh and Honourable Justice H Shanthi Bhushan passed an order."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "The Advocates' Association of Bengaluru and the State Bar Council told the Court of rising threats, assaults and violence against lawyers, and asked for protection.",
+   "chip": "2 · THE BAR'S GRIEVANCE"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "On the day of the order, lawyers across Karnataka abstained from court work, seeking a stronger Advocates Protection Act and safety at work."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "They also said some police stations act as parallel courts in civil disputes, even though senior officers have already issued instructions against it."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The Court said lawyers are officers of the Court. An attack on a lawyer is not an isolated incident; it touches the independence of the Bar itself.",
+   "chip": "3 · WHY IT MATTERS"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE ORDER"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? It ordered a suo motu public interest case, and said police stations cannot be forums for settling civil disputes.",
+   "chip": "5 · WHAT THE COURT ORDERED"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "The State must file existing police guidelines and study strengthening the Protection Act; police must detail each lawyer's killing. Next hearing, eighth December.",
+   "shown": "The State must file existing police guidelines and study strengthening the Protection Act; police must detail each lawyer's killing. Next hearing, 8 December."
+  }
+ ]
+}
