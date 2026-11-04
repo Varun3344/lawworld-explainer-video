@@ -495,11 +495,15 @@ def auto_edit():
         ia = next((k for k, (t, L) in enumerate(final_pts) if L == "A"), None)
         if ia is not None:
             end_a = final_pts[ia + 1][0] if ia + 1 < len(final_pts) else None
-            # a card shown during that full shot (the hook question) must be gone before the switch: its tail ran 0.14-0.15 s
-            # into the split view and blinked back for ~4 frames (elt, tka, hgd, mgn QA 04-11-2026)
+            # a card shown during that full shot (the hook question, never seen in the 9:16 full shot) still has its tail after the
+            # switch: in the split view it blinked back for ~4 frames (elt, tka, hgd, mgn QA 04-11). Moving the switch past the tail
+            # put 3 frames of the next clip's full shot on screen (QA 05-11), so the switch stays where it is and the panel is held
+            # blank (plain canvas) from the switch until that card is gone (panel_mask.json, read by final())
+            mask = None
             if end_a is not None:
                 tails = [c["t1"] for c in content if c["t0"] < end_a - 0.3 and end_a - 0.02 < c["t1"] <= end_a + 0.6]
-                if tails: end_a = max(tails) + 0.05
+                if tails: mask = [round(end_a - 0.01, 3), round(max(tails) + 0.06, 3)]
+            json.dump(mask, open(f"{OUT}/panel_mask.json", "w"))
             final_pts = [(final_pts[0][0], "A")] + ([(end_a, "S")] if end_a is not None else [])
     if JUDGMENT:
         # the bench card stays on the split while each judge's photo pops in: a full-presenter shot inside it hid the second judge
@@ -550,6 +554,13 @@ def feather_pngs():
         im.save(f"{OUT}/feather_{name}.png")
 
 
+def panel_enable():
+    """The split-view panel is held blank while the hook card's tail would blink in it (window from edit(), panel_mask.json)."""
+    try: m = json.load(open(f"{OUT}/panel_mask.json"))
+    except Exception: m = None
+    return f":enable='not(between(t,{m[0]:.3f},{m[1]:.3f}))'" if m else ""
+
+
 def final(t0=None, t1=None, out=None):
     total = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", FULL], capture_output=True, text=True).stdout)
     STING_END, CARD_START = sting_end(), card_start()
@@ -571,7 +582,7 @@ def final(t0=None, t1=None, out=None):
         f"[o5]{lt}[lt2]",
         f"[o4]crop={G_CROP[1]}:1080:{G_CROP[0]}:0,scale={G_W}:{G_H}:flags=lanczos{LIFT}[gpanel]",
         f"color=c={CANVAS}:s={W}x{H}:r={FPS}:d={total:.3f},format=yuv420p,split=3[c1][c2][c3]",
-        f"[c1][panel]overlay=0:{(PANEL_H - G_H) // 2 if JUDGMENT else 0}:format=auto[s1]",
+        f"[c1][panel]overlay=0:{(PANEL_H - G_H) // 2 if JUDGMENT else 0}:format=auto{panel_enable()}[s1]",
         f"[s1][1:v]overlay=0:{PANEL_H}[s2]",
         f"[s2][lt]overlay=24:{PANEL_H + 48}:format=auto,format=yuv420p[split0]",
         f"[c3][gpanel]overlay=0:{G_Y}:format=auto[g1]",

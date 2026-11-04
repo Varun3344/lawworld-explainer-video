@@ -26,9 +26,10 @@ while true; do
     [[ -z "$s" || "$s" == \#* ]] && continue
     [ -f logs/b2_started_$s ] && continue
     left=1
+    [ -f logs/b2_hold ] && break   # 05-11: hold new batch-2 posts while a priority fix runs
     grep -q "ALL DONE" logs/queue_$s.log 2>/dev/null || continue
     (( $(nflat $s) >= $(nclips $s) )) || continue
-    (( $(pgrep -f "post_course.sh " | wc -l | tr -d ' ') >= 2 )) && break
+    (( $(pgrep -f "post_course.sh " | wc -l | tr -d ' ') >= $(cat logs/b2_maxposts 2>/dev/null || echo 2) )) && break   # 04-11 22:55: limit from logs/b2_maxposts (3 once Flow renders are done)
     touch logs/b2_started_$s; echo "$(date +%H:%M:%S) $s post start"; one $s $stem $slug &
     sleep 20
   done < split/batch2_04nov.tsv
