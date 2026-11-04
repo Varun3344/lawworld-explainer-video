@@ -488,6 +488,11 @@ def auto_edit():
         if len(final_pts) > 1 and ts - final_pts[-1][0] < 2.0: final_pts.pop()
         if final_pts[-1][1] != "S": final_pts.append((ts, "S"))
     if JUDGMENT:
+        # owner 04-11-2026: the full presenter ONLY at the start ("after that show down side only, again no need to show full body"):
+        # keep the first full-presenter shot, then the split to the end card
+        ia = next((k for k, (t, L) in enumerate(final_pts) if L == "A"), None)
+        if ia is not None and ia + 1 < len(final_pts): final_pts = final_pts[:ia + 1] + [(final_pts[ia + 1][0], "S")]
+    if JUDGMENT:
         # the bench card stays on the split while each judge's photo pops in: a full-presenter shot inside it hid the second judge
         # of a two-judge bench (srb, gpk; 30-10-2026), and the owner wants a photo seen for every judge
         bench = next((c for c in tl["cues"] if c["type"] == "bench"), None)
