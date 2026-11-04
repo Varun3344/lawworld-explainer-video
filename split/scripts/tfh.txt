@@ -1,0 +1,44 @@
+// Naveen v. State of Karnataka by Aldur Police Station, Criminal Petition No. 13177 of 2026, 2026:KHC:60797, High Court of Karnataka at
+// Bengaluru, single Judge: S. Vishwajith Shetty, J.; heard and reserved 28.10.2026, CAV order pronounced 02.11.2026. REPORTABLE: the
+// "R" on page 1, and the court's own "Reportable - 2026 - 11" list (Principal Bench, ds_report.php, checked 04-11-2026: the newest
+// reportable Karnataka judgments are this one and W.A. 2030/2026, both 02.11.2026). HOOK format (split/JUDGMENT_HOOK_FORMAT.md), the
+// High Courts page (ENGLISH, owner 04-11-2026: "focus on new updated judgement of karnataka high court and make a reel on that").
+// Opening clip spoken to everyone, no "Advocates," (owner 03-11-2026).
+// Source: the court's own PDF (33 pages, rep_judgment_download_single.php -> KAHC010592902026_1.pdf), read in full; scratchpad
+// khc4nov/CRL.P_13177-2026.pdf + txt_CRL.P_13177-2026.txt.
+// Facts used (para): bail petition under s.483 BNSS by accused no.1 in S.C. 98/2026 (II Addl. District & Sessions Judge,
+// Chikkamagaluru), Crime 155/2025 of Aldur PS, BNS ss.352, 351(2), 85, 49, 103 r/w 3(5) and s.4 Dowry Prohibition Act (1). FIR
+// 12.10.2025 against the petitioner and two others on the information of the mother of the deceased (3), his wife; the two others are
+// his parents (6). Sessions Court rejected bail 09.04.2026 (3). He voluntarily surrendered before the police on 14.10.2025 at about
+// 11.00 a.m.; shown as arrested at 9.45 p.m. the same day; produced before the jurisdictional Magistrate on 15.10.2025 at 5.45 p.m.
+// (6, 27). Petitioner: in police custody from 11.00 a.m.; not produced within 24 hours; Articles 21 and 22(2) violated; bail as of
+// right; relied on ED v. Subhash Sharma, 2025 INSC 141, and the Kerala HC in Biswajit Mandal (4). SPP: he appeared voluntarily but did
+// not cooperate, so he was not arrested immediately; merely being in the police station from 11.00 a.m. is not arrest or detention;
+// relied on Subhashree Das (2012) 9 SCC 729 and the Bombay HC in Manohar Sharad Pathare (5). CDR produced to show he had his phone,
+// but undisputedly he made or received no calls after surrendering (23). Article 22(2) and s.58 BNSS (7-10). Held: his movements were
+// restricted to the four corners of the police station; "Detention for the purpose of interrogation is unknown to law"; "Arrest
+// commences with the restraint placed on the liberty of the accused and not with the time of arrest recorded by the police officer";
+// the 24 hours run from when the accused was detained or his liberty was curtailed, not from the recorded time (27); the case diary
+// does not say why he was not interrogated at once or why he was shown as arrested only at 9.45 p.m. (28, the SPP fairly submitted
+// it); not produced within 24 hours of detention, so the detention is illegal and the arrest vitiated (28); courts must uphold
+// Articles 21/22 notwithstanding the gravity of the offence (26). ORDER: petition allowed; bail with conditions - personal bond of
+// Rs. 1,00,000 with two sureties, regular appearance, no tampering with witnesses, no similar offences, not to leave the jurisdiction
+// without permission (29).
+// Not said: any person's name (the petitioner, his late wife, her mother, his parents are private persons; the cite card may carry
+// the cause title "Naveen v. State of Karnataka"); the offences are named only on a card, never spoken as an accusation. Flow policy:
+// no accusation in speech, no "fraud" / "collusion" / "admitted"; only the court, the judge, the Constitution and the statute.
+# 1 · WHEN DOES THE CLOCK START?
+10 | You walk into a police station on your own at eleven in the morning, but the police record your arrest only at night. When does the twenty four hour clock start?
+10 | The Constitution says an arrested person must reach a Magistrate within twenty four hours. This man reached one only the next evening. So was he late or not?
+10 | Hi, I'm Ravishankar from LawWorld. On second November, twenty twenty six, Honourable Justice S Vishwajith Shetty of the Karnataka High Court ruled. || Hi, I'm Ravishankar from LawWorld. On 2 November 2026, Honourable Justice S. Vishwajith Shetty of the Karnataka High Court ruled.
+# 2 · ELEVEN IN THE MORNING
+10 | After his wife's death, police registered a case against a man and his parents. Two days later, he surrendered to the police at eleven in the morning.
+10 | The police showed his arrest only at nine forty five that night. He was produced before the Magistrate the next day, at five forty five in the evening. || The police showed his arrest only at 9:45 that night. He was produced before the Magistrate the next day, at 5:45 in the evening.
+# 3 · WHEN WAS HE ARRESTED?
+10 | His counsel argued he was in police custody from eleven in the morning, so the twenty four hours had run out, breaching Articles Twenty One and Twenty Two. || His counsel argued he was in police custody from 11 in the morning, so the 24 hours had run out, breaching Articles 21 and 22.
+10 | The State said he came on his own but did not cooperate, so he was not arrested at once. Merely sitting in a police station, it argued, is not an arrest.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the High Court decide? The twenty four hours run from the moment liberty is actually curtailed, not from the arrest time the police write down. || Finally, what did the High Court decide? The 24 hours run from the moment liberty is actually curtailed, not from the arrest time the police write down.
+10 | Detention for questioning is unknown to law. He was held from eleven in the morning, so the arrest was vitiated, and he was granted bail with conditions. || Detention for questioning is unknown to law. He was held from 11 in the morning, so the arrest was vitiated, and he was granted bail with conditions.
