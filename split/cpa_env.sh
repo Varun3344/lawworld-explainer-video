@@ -1,0 +1,4 @@
+# Divisional Controller, KKRTC v. Smt. Mantavva & Anr. (Karnataka HC at Dharwad, W.A. 100758/2025, 2026:KHC-D:17610-DB, 28.10.2026, reportable): compassionate appointment, brother of a married (widowed) employee. HOOK-format judgment reel in ENGLISH for the High Courts page, 04-11-2026 (opening spoken to everyone, no "Advocates,").
+export SPLIT_D=downloads/cpa SPLIT_SB=split/cpa SPLIT_ALL=split/cpa_all_scenes.json SPLIT_GO=split/GOcpa
+export SPLIT_ACCOUNT=main; . split/accounts.sh
+export SPLIT_VOCAB="LawWorld, Ravishankar, Karnataka High Court, Honourable Justice M Nagaprasanna, Honourable Justice Hema Kulkarni, compassionate grounds, bus corporation, single judge, appoint, twelve weeks, exception, equal public employment, eligibility, widower, unmarried, married, separately, rejection, upheld, lawworld dot A I"

@@ -1,0 +1,52 @@
+// The Divisional Controller, KKRTC, Ballari Division v. Smt. Mantavva & Anr., Writ Appeal No. 100758 of 2025 (S-KSRTC),
+// 2026:KHC-D:17610-DB, High Court of Karnataka at Dharwad, Division Bench: M. Nagaprasanna J. (wrote it, oral judgment) and
+// Hema Kulkarni J.; delivered 28.10.2026 at the preliminary hearing. REPORTABLE: the circled "R" on page 1, and the court's own
+// "Reportable - 2026 - 10" list (Dharwad bench, ds_report.php, checked 04-11-2026). HOOK format (split/JUDGMENT_HOOK_FORMAT.md), the
+// High Courts page (ENGLISH, owner 04-11-2026: "create one karnataka judgement reel in english and post for high court channel").
+// Opening clip spoken to everyone, no "Advocates," (owner 03-11-2026).
+// Source: the court's own PDF (20 pages, rep_judgment_download_single.php, KAHC020249872025_2.pdf), read in full; scratchpad
+// find4nov/khc/ksrtc.pdf + txt_ksrtc.txt.
+// Facts used (page / para): appeal by the Kalyana Karnataka Road Transport Corporation against the single judge's order of
+// 19.08.2025 in W.P. 101661/2025, which directed consideration of the brother's claim to compassionate appointment notwithstanding
+// the Circular (para 1). The employee served the Corporation as a Driver from 18.03.2008 until his death on 21.09.2023 (paras 3.1,
+// 9). His mother applied for compassionate appointment, not for herself but for her other son (3.1, 10). His wife had predeceased
+// him on 09.04.2022; no children (9). Mother about 65, brother about 34; the brother is married and resides separately with his own
+// family; he filed an affidavit undertaking to look after and maintain the mother (10). Rejection by endorsement dated 04.11.2024
+// on the ground that the deceased was married (single judge's order quoted at para 11, its para 2). The single judge: if the spouse
+// predeceased the employee and there are no children, the mere marriage of the deceased cannot be a ground to reject; directed the
+// Corporation to consider and appoint the brother to a suitable post within twelve weeks; liberty to the mother to seek
+// cancellation if he does not take care of her (para 11, its paras 9 and ORDER iii-iv). Corporation: the Circular defines dependents
+// with precision; the brother, married and residing separately, is not a dependent; compassionate appointment is an exception to the
+// constitutional mandate of equality in public employment (paras 4, 5). Respondents: the soul of compassionate appointment is
+// rescuing a family from the sudden financial catastrophe after the breadwinner's death; mother and brother looked to him; the
+// brother's affidavit (paras 6, 7). The Circular: married male employee -> widow and children (dependent, living with him);
+// unmarried male employee -> a dependent brother or sister residing with him (paras 14, 15). Held: "Marriage is a fact in the life
+// of the employee; the death of the spouse does not obliterate that fact"; widowerhood cannot be judicially equated with never
+// having been married (paras 16, 17); "Compassion is the foundation of the scheme; eligibility is its boundary" (18); "Judicial
+// sympathy cannot rewrite an administrative policy" (20); an undertaking to maintain the mother cannot elevate him into an eligible
+// dependent (21, 22); "Compassionate appointment cannot become compassionate recruitment" (25); "a concession born of necessity, not
+// a right born of relationship" (26). ORDER: writ appeal allowed; single judge's order set aside; the Corporation's rejection
+// sustained; the observations are confined to compassionate appointment and do not prejudice any other benefit, if otherwise
+// admissible, to the legal heirs (para 28).
+// Not said: the names of the employee, his mother, his brother or his late wife (private persons). Flow policy: no accusation, no
+// "fraud" / "collusion" / "admitted"; only the court, the judges, the corporation and the rule are named.
+# 1 · WHO GETS THE JOB?
+10 | A driver with a State bus corporation dies in service. His wife had died before him, and there were no children. Can his brother now get a job on compassionate grounds?
+10 | His mother sought a job for her other son, who promised to look after her. The corporation said no, but a single judge of the Karnataka High Court said yes.
+10 | Hi, I'm Ravishankar from LawWorld. On twenty eighth October, Honourable Justice M Nagaprasanna and Honourable Justice Hema Kulkarni ruled. || Hi, I'm Ravishankar from LawWorld. On 28 October, Honourable Justice M. Nagaprasanna and Honourable Justice Hema Kulkarni ruled.
+# 2 · THE FAMILY LEFT BEHIND
+10 | He joined in two thousand eight. His wife died in twenty twenty two, and he died in twenty twenty three. His brother is married and lives separately. || He joined in 2008. His wife died in 2022, and he died in 2023. His brother is married and lives separately.
+10 | The corporation's rule covers a married employee's widow and children. A brother qualifies only if the employee was unmarried. So it rejected the claim.
+10 | The single judge held that when the wife died first and there are no children, mere marriage cannot bar the claim, and ordered the corporation to appoint him within twelve weeks.
+# 3 · COMPASSION OR THE RULE?
+10 | The corporation appealed: such jobs are an exception to equal public employment. The family said the scheme is meant to rescue families who lose their earner.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the High Court decide? Marriage is a fact in an employee's life, and a wife's death does not erase it. A widower is not an unmarried man.
+10 | A promise to look after the mother cannot create eligibility. So the appeal was allowed, and the corporation's rejection was upheld.
+// Fact-check 04-11-2026 (line by line against the PDF; the fork could not start a separate agent): no wrong facts. Applied: c01 'a job'
+// (the single judge ordered a suitable post as per his qualification, not the driver's own post, para 11 ORDER iii); c02 'sought a job'.
+// c04 follows the Division Bench (para 10, 12: brother married, residing separately; facts not in dispute), not the single judge's
+// 'living together' (quoted para 11, its para 8). c05 'rule' = the Circular (paras 14, 15); the brother category also needs a dependent
+// living with the employee (card only).

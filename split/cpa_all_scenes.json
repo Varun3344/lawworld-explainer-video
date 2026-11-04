@@ -1,0 +1,66 @@
+{
+ "projectTitle": "LawWorld_cpa",
+ "title": "Brother's claim to a compassionate job",
+ "source": "split/scripts/cpa.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "A driver with a State bus corporation dies in service. His wife had died before him, and there were no children. Can his brother now get a job on compassionate grounds?",
+   "chip": "1 · WHO GETS THE JOB?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "His mother sought a job for her other son, who promised to look after her. The corporation said no, but a single judge of the Karnataka High Court said yes."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On twenty eighth October, Honourable Justice M Nagaprasanna and Honourable Justice Hema Kulkarni ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 28 October, Honourable Justice M. Nagaprasanna and Honourable Justice Hema Kulkarni ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "He joined in two thousand eight. His wife died in twenty twenty two, and he died in twenty twenty three. His brother is married and lives separately.",
+   "shown": "He joined in 2008. His wife died in 2022, and he died in 2023. His brother is married and lives separately.",
+   "chip": "2 · THE FAMILY LEFT BEHIND"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "The corporation's rule covers a married employee's widow and children. A brother qualifies only if the employee was unmarried. So it rejected the claim."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The single judge held that when the wife died first and there are no children, mere marriage cannot bar the claim, and ordered the corporation to appoint him within twelve weeks.",
+   "shown": "The single judge held that when the wife died first and there are no children, mere marriage cannot bar the claim, and ordered the corporation to appoint him within 12 weeks."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The corporation appealed: such jobs are an exception to equal public employment. The family said the scheme is meant to rescue families who lose their earner.",
+   "chip": "3 · COMPASSION OR THE RULE?"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? Marriage is a fact in an employee's life, and a wife's death does not erase it. A widower is not an unmarried man.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "A promise to look after the mother cannot create eligibility. So the appeal was allowed, and the corporation's rejection was upheld."
+  }
+ ]
+}

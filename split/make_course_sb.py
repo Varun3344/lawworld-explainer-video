@@ -82,6 +82,7 @@ OUTFITS = {
     "vdw": "a tailored dark slate-blue pinstripe two-piece business suit, a pale-blue formal shirt and a deep maroon silk tie",  # HC reel (Allahabad Vidyawati, HOOK) - on hold: no official photo of one judge
     "mcf": "a tailored deep aubergine two-piece business suit, a crisp white formal shirt and a silver-grey silk tie",  # Madras HC court-fee reel 03-11 (hook, no "Advocates,")
     "grc": "a tailored dark charcoal-grey two-piece business suit, a pale-blue formal shirt and a deep burgundy silk tie",  # SC reel 03-11 (2026 INSC 1181 Diwali green crackers, HOOK, no \"Advocates,\")
+    "cpa": "a tailored deep prussian-blue two-piece business suit, a crisp white formal shirt with fine blue pinstripes and a dark maroon silk tie",  # Karnataka HC (Dharwad) compassionate-appointment reel 04-11, English, hook
 }
 OUTFIT = OUTFITS.get(SET) or sys.exit(f"[sb] no outfit for {SET}: add one to OUTFITS (every video its own suit)")
 
