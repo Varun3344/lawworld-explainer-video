@@ -42,8 +42,8 @@
   {
    "sceneId": "c07",
    "seconds": 10,
-   "dialogue": "Section Forty Nine makes liable the person nominated as responsible, or else those in charge of the business. The State's counsel could not dispute her plea.",
-   "shown": "Section 49 makes liable the person nominated as responsible, or else those in charge of the business. The State's counsel could not dispute her plea."
+   "dialogue": "Section Forty Nine defines director, leaving out nominated, honorary and government nominated directors. The State could not dispute her plea.",
+   "shown": "Section 49 defines director, leaving out nominated, honorary and Government nominated directors. The State could not dispute her plea."
   },
   {
    "sceneId": "c08",
@@ -55,7 +55,7 @@
   {
    "sceneId": "c09",
    "seconds": 10,
-   "dialogue": "Finally, what did the High Court decide? Under the Act, a non-executive director cannot be prosecuted for the company's alleged violations.",
+   "dialogue": "Finally, what did the High Court decide? On that definition, a non-executive director cannot be prosecuted for the company's alleged violations.",
    "chip": "5 · WHAT THE COURT HELD"
   },
   {

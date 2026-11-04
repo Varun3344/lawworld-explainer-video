@@ -70,7 +70,7 @@ cue(type="list", t0=S("c10"), t1=A("c10", "so") - 0.05, head="For the Adjudicati
            {"n": 2, "text": "Were the sums received proceeds of crime?", "at": A("c10", "conditions")},
            {"n": 3, "text": "Are the Act's conditions satisfied?", "at": A("c10", "authority")}])
 cue(type="verdicts", t0=A("c10", "so") - 0.05, t1=E("c10") + 0.05,
-    rows=[{"text": "Plea to quash the attachment", "ok": False, "at": A("c10", "dismissed")},
+    rows=[{"text": "Writ petition: dismissed, not entertained", "ok": False, "at": A("c10", "dismissed")},   # fact-check 04-11-2026: 15.1 "maintainable but is not entertained"; order (iii)
           {"text": "All PMLA remedies: left open", "ok": True, "at": A("c10", "remedies")},
           {"text": "Interim order: 30 more days to seek relief", "ok": True, "at": A("c10", "open")}])
 

@@ -45,9 +45,12 @@ cue(type="timeline", t0=S("c05"), t1=E("c05") + 0.05,
 cue(type="list", t0=S("c06"), t1=E("c06") + 0.05, head="Her plea · Section 49", head_at=S("c06") + 0.05,
     items=[{"n": 1, "text": "No prosecution of a non-executive director", "at": A("c06", "bars")},
            {"n": 2, "text": "Not the directors alone, without the company", "at": A("c06", "directors")}])
-cue(type="flow", t0=S("c07"), t1=A("c07", "state") - 0.05, head="Section 49(1) · who is liable", head_at=S("c07") + 0.05,
-    steps=[{"label": "The nominated person", "sub": "in charge of, and responsible to, the company", "icon": "user-round", "at": A("c07", "nominated")},
-           {"label": "If none nominated", "sub": "every person in charge and responsible", "icon": "users", "at": A("c07", "charge")}])
+# fact-check 04-11-2026: c07 now carries the basis the Court gave (para 10: "especially, explanation (b) ... wherein definition of
+# 'director' is found"), Section 49, Explanation (b) as culled in para 9, instead of the s.49(1)(a) limbs (no finding on those)
+cue(type="list", t0=S("c07"), t1=A("c07", "state") - 0.05, head="Section 49 · Explanation (b) · “director”", head_at=S("c07") + 0.05,
+    items=[{"n": 1, "text": "In a firm: “a partner in the firm”", "at": A("c07", "defines")},
+           {"n": 2, "text": "Excludes nominated and honorary directors", "at": A("c07", "nominated")},
+           {"n": 3, "text": "Excludes Government nominated directors", "at": A("c07", "government")}])
 cue(type="point", t0=A("c07", "state") - 0.05, t1=E("c07") + 0.05, text="The State's counsel could not dispute her plea, given Section 49", icon="info", at=A("c07", "state"))
 
 # ── 4 · before the verdict: the LawWorld request ─────────────────────────────────────────────────────────────────────
@@ -58,8 +61,8 @@ cue(type="list", t0=A("c08", "follow") - 0.05, t1=E("c08") + 0.05, head="Follow 
            {"n": 3, "text": "Sign up free · ₹200 AI credit included", "at": A("c08", "advocates")}])
 
 # ── 5 · what the Court held ──────────────────────────────────────────────────────────────────────────────────────────
-cue(type="point", t0=S("c09"), t1=A("c09", "under") - 0.05, text="What did the High Court decide?", icon="scale", accent=True, at=A("c09", "finally"))
-cue(type="point", t0=A("c09", "under") - 0.05, t1=E("c09") + 0.05, text="“a non-executive director cannot be proceeded criminally for the alleged violations committed by the company”", icon="quote", accent=True, at=A("c09", "under"))
+cue(type="point", t0=S("c09"), t1=A("c09", "on") - 0.05, text="What did the High Court decide?", icon="scale", accent=True, at=A("c09", "finally"))
+cue(type="point", t0=A("c09", "on") - 0.05, t1=E("c09") + 0.05, text="“a non-executive director cannot be proceeded criminally for the alleged violations committed by the company”", icon="quote", accent=True, at=A("c09", "on"))
 cue(type="point", t0=S("c10"), t1=A("c10", "so") - 0.05, text="Form 32, Registrar of Companies: a non-executive director", icon="file-check", at=A("c10", "form"))
 cue(type="verdicts", t0=A("c10", "so") - 0.05, t1=E("c10") + 0.05,
     rows=[{"text": "Her petition: allowed", "ok": True, "at": A("c10", "allowed")},

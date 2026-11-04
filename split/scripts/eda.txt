@@ -46,3 +46,8 @@
 # 5 · WHAT THE COURT HELD
 10 | Finally, what did the High Court decide? Property bought before the crime can still be attached for equal value, if the Act's conditions are met, even with nothing abroad.
 10 | Whether those conditions are met is for the Adjudicating Authority, on the merits. So the writ petition was dismissed, with all remedies left open.
+// Fact-check 04-11-2026 (independent, against the court's 228-page PDF: facts 1-4, points 8, answers 10.19-14.24, order 15.1):
+// speech unchanged (Kerala HC 11.59-11.61 and Delhi HC 11.72-11.73 stated correctly; c09 = 11.57 / 11.88 / 11.90, a "can", not a
+// finding that this attachment is valid; c10 = 11.89 + order (i)-(ii)). Cues: c10 verdict row "Plea to quash the attachment" ->
+// "Writ petition: dismissed, not entertained" (15.1 "maintainable but is not entertained"; order (iii) confines the observations to
+// entertainment). Thumbnail strip 3 "Writ petition dismissed" -> "Writ not entertained · remedies open" (same reason; re-rendered).
