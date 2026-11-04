@@ -1,0 +1,70 @@
+{
+ "projectTitle": "LawWorld_jgr",
+ "title": "Does a jagir grant make you the owner?",
+ "source": "split/scripts/jgr.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "If a ruler once granted a family a whole village as a jagir, does that family own the land today? Or did the grant give it something else?",
+   "chip": "1 · DOES A JAGIR MAKE YOU OWNER?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "At stake: about five hundred and fifty acres at Miyapur, in Telangana. Individuals and societies claimed it through three different sources. So who owns it?",
+   "shown": "At stake: about 550 acres at Miyapur, in Telangana. Individuals and societies claimed it through three different sources. So who owns it?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On twenty ninth October, Honourable Justice M M Sundresh and Honourable Justice Satish Chandra Sharma ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 29 October, Honourable Justice M.M. Sundresh and Honourable Justice Satish Chandra Sharma ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "The nineteen twelve survey recorded this land as government land. Then, in nineteen twenty nine, the Nizam's firman settled Miyapur on a family as a jagir.",
+   "shown": "The 1912 survey recorded this land as government land. Then, in 1929, the Nizam's firman settled Miyapur on a family as a jagir.",
+   "chip": "2 · FROM FIRMAN TO ABOLITION"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "But the firman barred any sale without the Nizam's sanction. From August nineteen forty nine, a new law abolished all jagirs, and the State took them over.",
+   "shown": "But the firman barred any sale without the Nizam's sanction. From August 1949, a new law abolished all jagirs, and the State took them over."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "Yet in the early nineteen fifties, a woman's name was entered as pattedar in the village records. Claimants through her, and through the jagirdar, sought the land.",
+   "shown": "Yet in the early 1950s, a woman's name was entered as pattedar in the village records. Claimants through her, and through the jagirdar, sought the land.",
+   "chip": "3 · RIVAL CLAIMS"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The Special Court and the High Court held the State owns it. In appeal, claimants cited the old grant and records. The State said it all vested in nineteen forty nine.",
+   "shown": "The Special Court and the High Court held the State owns it. In appeal, claimants cited the old grant and records. The State said it all vested in 1949."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the Supreme Court decide? A jagir grant is a right over land revenue, not title to the land. A jagirdar is not a title holder.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "Those limited rights ended in nineteen forty nine, and entries made without proceedings were a nullity. The land is the State's, and the appeals were dismissed.",
+   "shown": "Those limited rights ended in 1949, and entries made without proceedings were a nullity. The land is the State's, and the appeals were dismissed."
+  }
+ ]
+}

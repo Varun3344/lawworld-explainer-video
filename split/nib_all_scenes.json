@@ -1,0 +1,69 @@
+{
+ "projectTitle": "LawWorld_nib",
+ "title": "Insurer appealed, award went up",
+ "source": "split/scripts/nib.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "An insurer appeals to cut a road accident award. The family never files an appeal of its own. Can the High Court still raise the compensation?",
+   "chip": "1 · CAN THE AWARD GO UP?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "A Tribunal awarded a young accident victim's parents over nine lakh rupees. The insurer appealed, blaming the young man himself. So who pays, and how much?",
+   "shown": "A Tribunal awarded a young accident victim's parents over ₹9 lakh. The insurer appealed, blaming the young man himself. So who pays, and how much?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On second November, twenty twenty six, Honourable Justice Sunitha Gandham of the Andhra Pradesh High Court ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 2 November 2026, Honourable Justice Sunitha Gandham of the Andhra Pradesh High Court ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "On a February night in twenty eleven, he was driving a car from Palasa to Srikakulam when a tractor and trailer hit it. He died in the crash.",
+   "shown": "On a February night in 2011, he was driving a car from Palasa to Srikakulam when a tractor and trailer hit it. He died in the crash.",
+   "chip": "2 · THE CRASH AND THE CLAIM"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "He was twenty four and unmarried, earning nine thousand six hundred rupees a month. His parents claimed compensation from the driver, owner and insurer.",
+   "shown": "He was 24 and unmarried, earning ₹9,600 a month. His parents claimed compensation from the driver, owner and insurer."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "On appeal, the insurer blamed the young man's own driving, said the tractor had no fitness certificate, and disputed his salary. The parents filed no appeal.",
+   "chip": "3 · THE INSURER'S APPEAL"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The parents' counsel still asked for just and fair compensation. The other side replied that today's principles cannot apply to a twenty eleven accident.",
+   "shown": "The parents' counsel still asked for just and fair compensation. The other side replied that today's principles cannot apply to a 2011 accident."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? The tractor driver was rash and negligent. Even without a cross appeal, it is bound to award just and fair compensation.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "The Tribunal used the mother's age, not his. The award rose to over fifteen lakh rupees, which the insurer must pay first and recover from the owner and driver.",
+   "shown": "The Tribunal used the mother's age, not his. The award rose to over ₹15 lakh, which the insurer must pay first and recover from the owner and driver."
+  }
+ ]
+}

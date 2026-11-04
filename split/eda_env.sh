@@ -1,0 +1,4 @@
+# Shanker Mahadevan Iyer v. Directorate of Enforcement (Karnataka HC, W.P. 34513/2024, 2026:KHC:59898, 28.10.2026, reportable): property bought before the alleged crime can be attached as property of equal value under the PMLA, if the Act's conditions are met; writ dismissed, remedies open. HOOK-format judgment reel, ENGLISH, 04-11-2026 (opening spoken to everyone, no "Advocates,").
+export SPLIT_D=downloads/eda SPLIT_SB=split/eda SPLIT_ALL=split/eda_all_scenes.json SPLIT_GO=split/GOeda
+export SPLIT_ACCOUNT=main; . split/accounts.sh
+export SPLIT_VOCAB="LawWorld, Ravishankar, Karnataka High Court, Honourable Justice Suraj Govindaraj, Enforcement Directorate, E D, provisionally attached, proceeds, equal value, abroad, Kerala High Court, Delhi High Court, petitioner, iron ore, premature, remedies, Adjudicating Authority, writ petition, dismissed, lawworld dot A I"

@@ -1,0 +1,67 @@
+{
+ "projectTitle": "LawWorld_awg",
+ "title": "Never signed, still bound by the award?",
+ "source": "split/scripts/awg.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "A government never signs a contract, but joins the whole arbitration without protest. Once the award comes, can it refuse to pay, saying it was never a party?",
+   "chip": "1 · NEVER SIGNED, STILL BOUND?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "Here, the tipping fee alone was raised to over twenty five crore rupees. Yet the award holder could go after just one municipality's property. Was that right?",
+   "shown": "Here, the tipping fee alone was raised to over ₹25 crore. Yet the award holder could go after just one municipality's property. Was that right?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On thirtieth October, twenty twenty six, Honourable Justice P B Balaji of the Madras High Court ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 30 October 2026, Honourable Justice P.B. Balaji of the Madras High Court ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "A company won Puducherry's waste project; the government itself never signed the contract. In twenty twenty two, an arbitrator ruled for the company.",
+   "shown": "A company won Puducherry's waste project; the government itself never signed the contract. In 2022, an arbitrator ruled for the company.",
+   "chip": "2 · THE AWARD AND THE OBJECTION"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "Nobody on the paying side challenged it, so it became final. In execution, the government said it never signed the contract, so its assets were off limits."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The executing court rejected that, but held government departments' property could not be attached, since the contracts covered only the municipalities."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The government said it never signed the arbitration agreement. The award holder said it took part from the first notice to the award, without protest.",
+   "chip": "3 · THE ARGUMENTS"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? Having taken part without protest, and never challenged the award, the government could not deny being a party.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "All four judgment debtors were jointly and severally liable, so the limit was set aside. If they do not settle in eight weeks, execution can go against them all.",
+   "shown": "All four judgment debtors were jointly and severally liable, so the limit was set aside. If they do not settle in 8 weeks, execution can go against them all."
+  }
+ ]
+}

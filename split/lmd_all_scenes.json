@@ -1,0 +1,68 @@
+{
+ "projectTitle": "LawWorld_lmd",
+ "title": "Non-executive director and the Legal Metrology Act",
+ "source": "split/scripts/lmd.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Inspectors find a weights and measures violation at a company's premises. Can its non-executive director be prosecuted, just for being on the board?",
+   "chip": "1 · JUST ON THE BOARD?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "Here, company records showed her as only a non-executive director, yet she was made an accused. Would the Karnataka High Court let the case go on?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On twenty eighth October, twenty twenty six, Honourable Justice V Srishananda of the Karnataka High Court ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 28 October 2026, Honourable Justice V. Srishananda of the Karnataka High Court ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "A Legal Metrology flying squad visited a company's premises. It found some violation with the weighing scale there, seized the scale, and started action.",
+   "chip": "2 · THE WEIGHING SCALE"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "In twenty sixteen, the inspector filed a private complaint under Section Eighteen of the Legal Metrology Act, and named her the third accused.",
+   "shown": "In 2016, the inspector filed a private complaint under Section 18 of the Legal Metrology Act, and named her the third accused."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "Her plea: Section Forty Nine bars prosecuting a non-executive director, and directors alone cannot be prosecuted without the company.",
+   "shown": "Her plea: Section 49 bars prosecuting a non-executive director, and directors alone cannot be prosecuted without the company.",
+   "chip": "3 · WHO IS LIABLE?"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "Section Forty Nine makes liable the person nominated as responsible, or else those in charge of the business. The State's counsel could not dispute her plea.",
+   "shown": "Section 49 makes liable the person nominated as responsible, or else those in charge of the business. The State's counsel could not dispute her plea."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? Under the Act, a non-executive director cannot be prosecuted for the company's alleged violations.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "Her Form Thirty Two, filed with the Registrar of Companies, showed her as one. So her petition was allowed, and the case was quashed only as against her.",
+   "shown": "Her Form 32, filed with the Registrar of Companies, showed her as one. So her petition was allowed, and the case was quashed only as against her."
+  }
+ ]
+}

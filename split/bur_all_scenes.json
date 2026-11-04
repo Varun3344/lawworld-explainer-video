@@ -24,8 +24,8 @@
   {
    "sceneId": "c04",
    "seconds": 10,
-   "dialogue": "He died in March twenty twenty five, and his body was kept in a forensic lab in Ajman. He was unmarried; his niece and nephew are among his legal heirs.",
-   "shown": "He died in March 2025, and his body was kept in a forensic lab in Ajman. He was unmarried; his niece and nephew are among his legal heirs.",
+   "dialogue": "He died on the twenty sixth of March, twenty twenty five, and his body was kept in a forensic lab in Ajman. Unmarried, he left a niece and nephew among his heirs.",
+   "shown": "He died on 26 March 2025, and his body was kept in a forensic lab in Ajman. Unmarried, he left a niece and nephew among his heirs.",
    "chip": "2 · TWO RELATIVES, TWO PLANS"
   },
   {

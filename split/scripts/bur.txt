@@ -39,7 +39,7 @@
 10 | It happened to a seventy one year old Indian in the U A E. Even this October, his body was still in that forensic lab. So what can a court do? || It happened to a 71-year-old Indian in the UAE. Even this October, his body was still in that forensic lab. So what can a court do?
 10 | Hi, I'm Ravishankar from LawWorld. On twenty eighth October, Honourable Justice P V Kunhikrishnan of the Kerala High Court passed an interim order. || Hi, I'm Ravishankar from LawWorld. On 28 October, Honourable Justice P.V. Kunhikrishnan of the Kerala High Court passed an interim order.
 # 2 · TWO RELATIVES, TWO PLANS
-10 | He died in March twenty twenty five, and his body was kept in a forensic lab in Ajman. He was unmarried; his niece and nephew are among his legal heirs. || He died in March 2025, and his body was kept in a forensic lab in Ajman. He was unmarried; his niece and nephew are among his legal heirs.
+10 | He died on the twenty sixth of March, twenty twenty five, and his body was kept in a forensic lab in Ajman. Unmarried, he left a niece and nephew among his heirs. || He died on 26 March 2025, and his body was kept in a forensic lab in Ajman. Unmarried, he left a niece and nephew among his heirs.
 10 | His niece, who filed the case, wanted him buried at the family tomb in Kollam. His nephew asked the consulate for the funeral rites in the U A E. || His niece, who filed the case, wanted him buried at the family tomb in Kollam. His nephew asked the consulate for the funeral rites in the UAE.
 # 3 · HOME, BUT WHERE?
 10 | Facing contradictory demands, the External Affairs Ministry and the consulate said they could not act. So the body stayed in the forensic lab.
@@ -49,3 +49,5 @@
 # 5 · THE INTERIM DIRECTIONS
 10 | Finally, what did the High Court decide? In an interim order, it said even the dead have a right to dignity under Article Twenty One, and stepped in. || Finally, what did the High Court decide? In an interim order, it said even the dead have a right to dignity under Article 21, and stepped in.
 10 | For now, the burial must be done within four days of her receiving the body, with police ensuring peace and dignity. The case continues on twenty sixth November. || For now, the burial must be done within 4 days of her receiving the body, with police ensuring peace and dignity. The case continues on 26 November.
+
+// 04-11-2026 QA: c04 was heard as "March twenty-five" (the card says 26 March 2025) -> re-take with the exact date, "on the twenty sixth of March, twenty twenty five".

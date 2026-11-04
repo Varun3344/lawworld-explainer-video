@@ -1,0 +1,64 @@
+// MMTC Limited v. Aust Grain Exports Pty Ltd, FAO(OS) (COMM) 210/2023, CNR DLHC010375712023, High Court of Delhi at New Delhi,
+// Division Bench: Avneesh Jhingan, J. (wrote it) and Shail Jain, J.; reserved 05.10.2026, pronounced 28.10.2026. REPORTABLE:
+// "Reportable:- Yes" printed at the end of the judgment (page 21 of 21, under the signatures; Delhi does not print it on page 1).
+// HOOK format (split/JUDGMENT_HOOK_FORMAT.md), the High Courts page (ENGLISH). Opening clip spoken to everyone, no "Advocates,"
+// (owner 03-11-2026). Reported as 2026 LLBiz HC (DEL) 1187 (LiveLaw Business, 30.10.2026).
+// Source: the court's judgment PDF as uploaded by LiveLaw (livelawbiz.com/pdf_upload/2026/10/30/mmtc-limited-vs-aust-grain-exports-
+// pty-ltd-708987.pdf, 21 pages, paras 1-26), read in full and cross-checked with Indian Kanoon doc 94169721; scratchpad
+// drafts4nov/mmt/src/ll_mmtc_708987.pdf + drafts4nov/mmt/mmt.txt. The court's own copy is not in the delhihighcourt.nic.in "Latest
+// Judgments" list (checked 04-11-2026) and the case-number search is behind a captcha.
+// Facts used (para): Section 37 appeal against the Single Judge's judgment of 12.06.2023 dismissing the Section 34 petition (1); MMTC
+// is a public sector undertaking; the respondent an Australian company exporting agricultural commodities; tender 30.03.2009 for
+// yellow peas; contract 16.04.2009 for 35,000 MT (+/-10%) at USD 259 per MT; shipment period September-October 2009 (2); MV Geeta
+// cancelled 08.10.2009, MV Star Lily nominated; MMTC, subject to the contract and penalty, extended the period to 15.11.2009 and then
+// 30.11.2009 (2.1); loading from 23.11.2009 after delay due to weather and port congestion; shipped 27.11.2009, arrived 01.01.2010;
+// MMTC sought compensation under clause 20 (USD 14 per MT on 31,924.572 MT = USD 446,943.98); the respondent disputed it and
+// invoked force majeure; on 12.01.2010 MMTC invoked the performance bank guarantee (PBG) and appropriated USD 271,950 (2.2); ICA
+// arbitration, three-member tribunal (2.3); majority award signed 05.03.2021, dissent signed 16.06.2021, both sent 22.06.2021 (2.4);
+// the majority rejected MMTC's claim 1 (delayed-shipment compensation, USD 861,963); allowed claim 2 (despatch money USD 30,620 +
+// 9%); allowed counter-claim 1 (refund of the PBG, USD 271,950, with 9% from 12.01.2010); rejected counter-claim 2 (interest on the
+// PBG) "in view of clause 13(2)"; allowed counter-claim 3 (USD 42,815) (2.5); the Section 34 petition dismissed on 12.06.2023:
+// irregularities not material, plausible view (2.6). MMTC: award not signed by all; dissent signed after "a gap of 103 days"; "two
+// separate awards" (3); clause 20 rebate needs no proof of loss (3.1); contradiction: counter-claim 2 rejected, yet 9% interest on the
+// PBG granted in the conclusion (3.2); delay (3.3). Respondent: waiver (rule 58), majority prevails (rule 61), the dissent only an
+// opinion (4.1); MMTC sold at a higher price, no loss proved, extension by mutual consent (4.2); no inconsistency, the interest
+// consequential (4.3). Clause 13(2): "No claim shall be admissible against the Buyer in respect of interest on Performance Guarantee
+// regardless of the time of the release." (6). International commercial arbitration: the respondent an Australian company, venue New
+// Delhi, Indian law (7); patent illegality not available (8, 9). HELD: the Section 31 challenge "lacks merit": two members signed the
+// majority award, the third a separate dissent, "not one of a missing signature" (10); "a difference of opinion among the members does
+// not tantamount to the passing of two awards"; the majority award is the award (11); rule 61: the majority award "is the decision of
+// the tribunal" (12); Dakshin Haryana distinguished, Section 29A does not apply to an international commercial arbitration (13); no
+// statutory period for a dissent, reasonable time (14); delay argument (Fibroplast) not applicable (15); procedural grievances rightly
+// rejected (16); the LD / damages claims rightly rejected: shipment rescheduled to 30.11.2009 by mutual consent, damages neither
+// pleaded nor proved (17); counter-claim 1 (refund) not under challenge; the tribunal rejected interest on the PBG under clause 13(2),
+// yet in conclusion directed refund with 9% interest from 12.01.2010 (18); the respondent's counsel offered no explanation for the
+// contradiction, but called it severable (19); Section 31(7): under clause 13(2) the PBG was not to carry interest; the grant "is
+// not a mere contradiction in the award but is contrary to the statutory provisions and the terms agreed between the parties" (20);
+// Associate Builders, (2015) 3 SCC 49 (21); "In the peculiar facts of this case, without revisiting the facts or re-appreciating the
+// evidence, the award of interest on the PBG is in conflict with the public policy of India and falls within the ambit of Section
+// 34(2)(b)(ii) of the Act." (22); severability, Gayatri Balasamy, (2025) 7 SCC 1 (23); the PBG interest severable, even from the
+// refund (24); "the appeal is partly allowed. The impugned award is set aside to the limited extent of awarding interest at 9% per
+// annum on the PBG." (25); pending applications disposed of (26).
+// Not said: para 19 (the respondent's counsel's concession) is kept off speech (Flow policy: no "admitted"); the exporter is named on
+// the cite card only; MMTC (a public sector undertaking, not accused of anything) is named in speech, spelt out "M M T C".
+// "a hundred and three days later" = 05.03.2021 to 16.06.2021 (3, 14).
+# 1 · NO INTEREST, THEN INTEREST?
+10 | A contract says a guarantee will never earn interest. The tribunal agrees, then grants that interest anyway in its conclusion. Can that part stand?
+10 | It began with a two thousand nine deal for yellow peas, from an Australian firm. A Single Judge dismissed the challenge to the award. Would the Delhi High Court step in? || It began with a 2009 deal for yellow peas, from an Australian firm. A Single Judge dismissed the challenge to the award. Would the Delhi High Court step in?
+10 | Hi, I'm Ravishankar from LawWorld. On twenty eighth October, twenty twenty six, Honourable Justice Avneesh Jhingan and Honourable Justice Shail Jain ruled. || Hi, I'm Ravishankar from LawWorld. On 28 October 2026, Honourable Justice Avneesh Jhingan and Honourable Justice Shail Jain ruled.
+# 2 · A SHIPMENT OF YELLOW PEAS
+10 | M M T C, a public sector undertaking, contracted to buy thirty five thousand tonnes of yellow peas from an Australian exporter, to ship by October. || MMTC, a public sector undertaking, contracted to buy 35,000 tonnes of yellow peas from an Australian exporter, to ship by October.
+10 | The exporter got extra time and shipped in late November. M M T C claimed compensation for delay, and cashed the exporter's bank guarantee. || The exporter got extra time and shipped in late November. MMTC claimed compensation for delay, and cashed the exporter's bank guarantee.
+10 | By majority, the tribunal rejected the delay claim and ordered the guarantee refunded. Citing the contract, it refused interest on that money.
+# 3 · THE APPEAL
+10 | Yet its conclusion gave nine per cent interest on the refund. In appeal, M M T C attacked this, and also the dissent, signed a hundred and three days later. || Yet its conclusion gave 9% interest on the refund. In appeal, MMTC attacked this, and also the dissent, signed 103 days later.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the High Court decide? A dissent does not create a second award. The majority award, signed by two members, is the tribunal's decision.
+10 | But the contract barred interest on the guarantee. On these facts, that interest conflicted with India's public policy, so only that part was set aside.
+// Fact-check 04-11-2026 (independent check against the court PDF as uploaded by LiveLaw, paras 1-26): facts, amounts, dates, bench
+// and outcome verified; quotes on the cards verbatim (clause 13(2) in 6; 11; 22). Changed: c02 "a two thousand nine deal for
+// Australian yellow peas" -> "a two thousand nine deal for yellow peas, from an Australian firm": the judgment says the seller is an
+// Australian company exporting agricultural commodities (2), it never says the peas were Australian. Cue anchors (deal, dismissed,
+// would, step) unchanged. Cards and thumbnail: no change.

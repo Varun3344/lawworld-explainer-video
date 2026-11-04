@@ -1,0 +1,48 @@
+// Shanker Mahadevan Iyer v. Deputy Director, Directorate of Enforcement, Mangaluru Sub-Zonal Office, Writ Petition No. 34513 of 2024
+// (GM-RES), 2026:KHC:59898, CNR KAHC010734842024, High Court of Karnataka at Bengaluru, single Judge: Suraj Govindaraj, J.; reserved
+// 29.07.2026, CAV order pronounced 28.10.2026. REPORTABLE: the circled "R" (®) on page 1, and the court's own "Reportable - 2026 - 10"
+// list (Principal Bench, ds_report.php, row "28-10-2026 | WP 34513/2024 | SURAJ GOVINDARAJ"). HOOK format
+// (split/JUDGMENT_HOOK_FORMAT.md), the High Courts page (ENGLISH). Opening clip spoken to everyone, no "Advocates," (owner 03-11-2026).
+// Source: the court's own PDF (228 pages, scratchpad fresh4nov/khc_mhc/khc_pdf/2026-10-28_WP_34513_2024.pdf); facts (1-4), the
+// submissions' key parts (5.3-5.9, 6.65), points (8) and the Court's answers (10.19-15.1) with the operative order read in full; copy +
+// text in drafts4nov/eda/.
+// Facts used (para): challenge to Provisional Attachment Order No. 01/2024 dated 29.10.2024 in ECIR/MGSZO/04/2022 under s.5(1) PMLA
+// and the s.8 notice of 30.11.2024 (1, 2, 4, 10.20). Crime No. 90/2017 (Manipal PS, 02.06.2017, IPC ss.120B, 406, 417, 420, 465-468,
+// 471, 474, 34) on a private complaint; charge sheet 30.12.2021, the petitioner accused no. 3 (3, 4, 11.28, 12.22-12.23); ECIR
+// 28.03.2022 (4). The alleged transactions: export of 40,000 MT of iron ore, agreement of 18.01.2012 (13.3, 13.4); the alleged
+// scheduled offence and transactions relate to 2011-2012 (8(ii), 11.17). The two properties (an apartment, sale deed 15.12.2004; a
+// non-agricultural property, sale deed 28.03.2008, both Mangaluru) (5.8, 5.9, 8(ii), 11.87). The ED does not claim they were bought
+// with tainted funds; it attached them as property of equivalent value because the original proceeds are no longer available
+// (10.45, 11.19, 11.50, 12.21 "in lieu of"); the order records the money withdrawn in cash or transferred (11.84; counsel 13.6).
+// Petitioner: property bought before the predicate offence cannot be proceeds of crime (5.3, 5.4, 5.7); equivalent-value property only
+// when proceeds are taken or held outside India (11.53). Respondent: premature; relegate to the statutory remedies (6.65, 14.3).
+// Kerala HC, Satish Motilal Bidri (2024 SCC OnLine Ker 3410): the only power against equivalent-value property with no link to the
+// predicate offence is when the property was taken or held out of India; attachment of a 2004 property "ex-facie, ultra vires"
+// (11.59, 11.60); it disagreed with the Delhi HC in Axis Bank (2019:DHC:1887) (11.61); Axis Bank (Delhi): other property of
+// equivalent value may be attached where the tainted property is untraceable, cannot be reached or is deficient (11.72, 11.73).
+// Held: property bought in 2004 / 2008 cannot itself be derived from criminal activity of 2011-12 (11.47, 11.49, 11.87); Vijay
+// Madanlal Choudhary (2023) 12 SCC 1, para 172, rejected the "only if abroad" argument and binds; Satish Motilal Bidri not followed to
+// that extent (11.54-11.57, 11.62, 11.63, 11.88); not an unrestricted power: the statutory conditions must be met (11.58, 11.63,
+// 11.76); whether the original proceeds are unavailable, whether the sums received are proceeds of crime and whether the conditions are
+// satisfied are for the Adjudicating Authority and the Appellate Tribunal on the evidence (11.89, 11.90, 13.44); the First Proviso
+// to s.5(1) was satisfied, the charge sheet having been filed before the attachment (12.24, 12.54, 14.12); the writ is maintainable but
+// not entertained (10.59, 10.60, 15.1). ORDER: writ petition dismissed (i); all PMLA remedies undisturbed (ii); the authorities decide
+// on the merits, uninfluenced by the observations, which are confined to whether to entertain the writ (iii); s.14 Limitation Act
+// benefit (iv); the interim order extended by 30 days to approach the appropriate authority (v).
+// Not said: any person's or firm's name (the petitioner is a private person; the cite card carries only the cause title); no
+// accusation in speech: "the alleged offence" only. Flow policy: no "fraud" / "collusion" / "admitted".
+# 1 · BOUGHT BEFORE THE CRIME
+10 | Can the Enforcement Directorate attach property you bought years before the alleged crime even happened, so it was never bought with crime money?
+10 | The Kerala High Court has said no, unless the proceeds went abroad. The Delhi High Court took a wider view. So which view would the Karnataka High Court take?
+10 | Hi, I'm Ravishankar from LawWorld. On twenty eighth October, twenty twenty six, Honourable Justice Suraj Govindaraj of the Karnataka High Court ruled. || Hi, I'm Ravishankar from LawWorld. On 28 October 2026, Honourable Justice Suraj Govindaraj of the Karnataka High Court ruled.
+# 2 · ATTACHED FOR ITS VALUE
+10 | The petitioner bought a flat in two thousand four and some land in two thousand eight. The alleged offence, over iron ore, is from twenty eleven and twelve. || The petitioner bought a flat in 2004 and some land in 2008. The alleged offence, over iron ore, is from 2011-12.
+10 | In twenty twenty four, the E D provisionally attached both. It did not claim they were bought with crime money, but held them as property of equal value. || In 2024, the ED provisionally attached both. It did not claim they were bought with crime money, but held them as property of equal value.
+# 3 · ONLY IF IT WENT ABROAD?
+10 | His counsel argued that property bought before a crime can never be its proceeds, and that equal value property can be taken only when proceeds go abroad.
+10 | The E D said the original money had been withdrawn or moved on, and that the petition was premature, as the Act has its own remedies. || The ED said the original money had been withdrawn or moved on, and that the petition was premature, as the Act has its own remedies.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the High Court decide? Property bought before the crime can still be attached for equal value, if the Act's conditions are met, even with nothing abroad.
+10 | Whether those conditions are met is for the Adjudicating Authority, on the merits. So the writ petition was dismissed, with all remedies left open.

@@ -1,0 +1,68 @@
+{
+ "projectTitle": "LawWorld_mmt",
+ "title": "No interest, then interest",
+ "source": "split/scripts/mmt.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "A contract says a guarantee will never earn interest. The tribunal agrees, then grants that interest anyway in its conclusion. Can that part stand?",
+   "chip": "1 · NO INTEREST, THEN INTEREST?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "It began with a two thousand nine deal for yellow peas, from an Australian firm. A Single Judge dismissed the challenge to the award. Would the Delhi High Court step in?",
+   "shown": "It began with a 2009 deal for yellow peas, from an Australian firm. A Single Judge dismissed the challenge to the award. Would the Delhi High Court step in?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On twenty eighth October, twenty twenty six, Honourable Justice Avneesh Jhingan and Honourable Justice Shail Jain ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 28 October 2026, Honourable Justice Avneesh Jhingan and Honourable Justice Shail Jain ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "M M T C, a public sector undertaking, contracted to buy thirty five thousand tonnes of yellow peas from an Australian exporter, to ship by October.",
+   "shown": "MMTC, a public sector undertaking, contracted to buy 35,000 tonnes of yellow peas from an Australian exporter, to ship by October.",
+   "chip": "2 · A SHIPMENT OF YELLOW PEAS"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "The exporter got extra time and shipped in late November. M M T C claimed compensation for delay, and cashed the exporter's bank guarantee.",
+   "shown": "The exporter got extra time and shipped in late November. MMTC claimed compensation for delay, and cashed the exporter's bank guarantee."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "By majority, the tribunal rejected the delay claim and ordered the guarantee refunded. Citing the contract, it refused interest on that money."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "Yet its conclusion gave nine per cent interest on the refund. In appeal, M M T C attacked this, and also the dissent, signed a hundred and three days later.",
+   "shown": "Yet its conclusion gave 9% interest on the refund. In appeal, MMTC attacked this, and also the dissent, signed 103 days later.",
+   "chip": "3 · THE APPEAL"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? A dissent does not create a second award. The majority award, signed by two members, is the tribunal's decision.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "But the contract barred interest on the guarantee. On these facts, that interest conflicted with India's public policy, so only that part was set aside."
+  }
+ ]
+}

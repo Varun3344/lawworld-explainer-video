@@ -1,0 +1,4 @@
+# C R Sons Infra Projects Ltd v. IRCON International Ltd (Delhi HC, FAO(OS)(COMM) 60/2019, DB Avneesh Jhingan J & Amit Sharma J, 29.10.2026, "Reportable: Yes"): arbitrator examined final-bill deductions never pleaded against, costs without Section 31A(3) factors; Single Judge's partial set-aside upheld, Section 37 appeal dismissed. HOOK-format judgment reel, ENGLISH, 04-11-2026 (opening spoken to everyone, no "Advocates,").
+export SPLIT_D=downloads/crs SPLIT_SB=split/crs SPLIT_ALL=split/crs_all_scenes.json SPLIT_GO=split/GOcrs
+export SPLIT_ACCOUNT=a1; . split/accounts.sh
+export SPLIT_VOCAB="LawWorld, Ravishankar, Delhi High Court, Honourable Justice Avneesh Jhingan, Honourable Justice Amit Sharma, IRCON, Saket, New Delhi, contractor, corporate office, arbitrator, final bill, deductions, defects, pleading, lakh rupees, Single Judge, Section Thirty Four, Section Thirty One A, plausible view, partial success, costs, dismissed, lawworld dot A I"

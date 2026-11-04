@@ -490,8 +490,12 @@ def auto_edit():
     if JUDGMENT:
         # owner 04-11-2026: the full presenter ONLY at the start ("after that show down side only, again no need to show full body"):
         # keep the first full-presenter shot, then the split to the end card
+        # and the reel OPENS on him full screen: a short split view before the first full shot flashed for 6-15 frames (hgd, mgn,
+        # bur QA 04-11-2026), so the first full shot starts at the very beginning
         ia = next((k for k, (t, L) in enumerate(final_pts) if L == "A"), None)
-        if ia is not None and ia + 1 < len(final_pts): final_pts = final_pts[:ia + 1] + [(final_pts[ia + 1][0], "S")]
+        if ia is not None:
+            end_a = final_pts[ia + 1][0] if ia + 1 < len(final_pts) else None
+            final_pts = [(final_pts[0][0], "A")] + ([(end_a, "S")] if end_a is not None else [])
     if JUDGMENT:
         # the bench card stays on the split while each judge's photo pops in: a full-presenter shot inside it hid the second judge
         # of a two-judge bench (srb, gpk; 30-10-2026), and the owner wants a photo seen for every judge

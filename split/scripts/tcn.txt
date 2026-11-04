@@ -1,0 +1,50 @@
+// Mangala Bhimrao Ingle v. The Additional Commissioner, Amravati Division & Ors., 2026 INSC 1193, Civil Appeal No. ___ of 2026 @ Special
+// Leave Petition (C) No. 30772 of 2025 (the C.A. number is blank in the PDF); Supreme Court of India, Civil Appellate Jurisdiction;
+// Pamidighantam Sri Narasimha J. and Alok Aradhe J. (no author line: "the Court"); New Delhi, November 04, 2026. REPORTABLE (page 1).
+// A REFERENCE TO A LARGER BENCH WITH INTERIM PROTECTION, NOT A FINAL RULING: the Court did not strike the Maharashtra provision down
+// (its validity "has not been challenged before us and, as such, we may not adjudicate directly upon its validity", 31, 46); it
+// referred the matter "to a larger bench for reconsideration of the ratio laid down in Javed" (66) and the interim stay continues "until
+// disposal of the Civil Appeal" (67). HOOK format (split/JUDGMENT_HOOK_FORMAT.md), English, opening spoken to everyone (no "Advocates,").
+// Source: the court's PDF, LiveLaw's pdf_upload copy (document-ed95afc1-6392-4405-9eda-8f75b0e91b93-709832.pdf, 37 pages), read in full
+// with pdfplumber (text in scratchpad drafts4nov/tcn/tcn.txt).
+// Facts used (para): leave granted (1); the appellant's election as Sarpanch of Kakoda Gram Panchayat "was set aside on the ground that
+// she was disqualified from contesting panchayat elections because she had more than two children", Section 14(1)(j-1), Maharashtra
+// Village Panchayats Act, 1959 (2); "laws that penalise having more than two children have lost their relevance. The foundation of such
+// laws, i.e. the fear of overpopulation, has crumbled"; since Javed (2003) the TFR "has fallen from 3.02 to 1.9"; 2.1 = the replacement
+// rate; stay of the proceedings and reference to a larger Bench (3); the choice "between bearing children and democratic
+// participation", Article 21 reproductive autonomy (4, 64); third child born in 2014, elected Sarpanch in the 2022 elections (5); the
+// Court's enquiry "was not about the legality and validity of the judgment of the High Court in its application of the governing laws";
+// "We were concerned about the relevance of these laws when the very foundation for their articulation has changed" (6); Javed v.
+// State of Haryana, (2003) 8 SCC 369 (fn 1): upheld the disqualification of persons with more than two living children from panchayat
+// positions under the Haryana Panchayati Raj Act, 1994; "the court relied on the then perception about population boom and its negative
+// impact on the economy" (8); TFR 3.0 at the time of Javed; the NPP 2000 target (replacement level by 2010) "not only been reached but
+// surpassed, with a TFR of 1.9" (11, 29); SRS: TFR 5.2 (1971) to 1.9 (2024) (18); 1.9 = "below replacement level fertility" (20); the
+// share aged 60+ rose from about 8.3% (2014) to 9.7% (2024), nearly 15% projected by 2036 (21); "the population is gradually ageing"
+// (22, Economic Survey); several States brought such laws in for Panchayati Raj institutions (57); the appellant may "continue in her
+// elected position as Sarpanch of Kakoda Gram Panchayat. The interim order shall continue until disposal of the Civil Appeal" (67).
+// Not said: "struck down", "unconstitutional", "invalid" (the Court's observations in 7 and 65 are not voiced as a ruling); the
+// appellant's name (a private person: the cite card's cause title only); "Javed" in speech (a party's name: "the two thousand and three
+// ruling"); her counsel's birth-certificate argument (5); the Amicus. Flow policy: no "fraud" / "collusion" / "admitted"; neutral on
+// population policy, no politics.
+# 1 · THIRD CHILD, NO ELECTION?
+10 | Should having a third child stop you from contesting a village election? Such laws rest on a fear of overpopulation. But do they still make sense today?
+10 | In Maharashtra, a Sarpanch's election was set aside over her third child. But India's fertility rate has fallen to one point nine. Should that rule still stand? || In Maharashtra, a Sarpanch's election was set aside over her third child. But India's fertility rate has fallen to 1.9. Should that rule still stand?
+10 | Hi, I'm Ravishankar from LawWorld. On fourth November, Honourable Justice Pamidighantam Sri Narasimha and Honourable Justice Alok Aradhe ruled. || Hi, I'm Ravishankar from LawWorld. On 4 November, Honourable Justice Pamidighantam Sri Narasimha and Honourable Justice Alok Aradhe ruled.
+# 2 · THE SARPANCH'S CASE
+10 | She had her third child in twenty fourteen and became Sarpanch in twenty twenty two. She was then found disqualified under the Maharashtra Village Panchayats Act. || She had her third child in 2014 and became Sarpanch in 2022. She was then found disqualified under the Maharashtra Village Panchayats Act.
+10 | She appealed against the High Court's judgment. The Maharashtra law itself was not challenged. The Court asked a different question: are such laws still relevant?
+# 3 · WHAT HAS CHANGED
+10 | In two thousand and three, the Supreme Court upheld such a two-child bar for panchayat posts in Haryana. It relied on the perception, back then, of a population boom. || In 2003, the Supreme Court upheld such a two-child bar for panchayat posts in Haryana. It relied on the perception, back then, of a population boom.
+10 | Since then, India's fertility rate has fallen from over three to one point nine, below the replacement level of two point one. The population is ageing. || Since then, India's fertility rate has fallen from over 3 to 1.9, below the replacement level of 2.1. The population is ageing.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the Supreme Court decide? In its strong opinion, laws penalising more than two children have lost their relevance. But it did not strike them down.
+10 | It sent the case to a larger bench to reconsider the two thousand and three ruling. Under the interim stay, she remains Sarpanch until the appeal is decided. || It sent the case to a larger bench to reconsider the 2003 ruling. Under the interim stay, she remains Sarpanch until the appeal is decided.
+// Fact-check 04-11-2026 (independent, against the PDF): c09 "It said laws penalising more than two children have lost their
+// relevance, as the fear of overpopulation has crumbled" -> "In its strong opinion, laws penalising more than two children have lost
+// their relevance. But it did not strike them down." (para 3 "We are of the strong opinion"; validity "has not been challenged before
+// us ... we may not adjudicate directly upon its validity", 31, 46; operative part = reference + interim order only, 66-67). The old
+// line answered "what did the Court decide?" with an observation and could be heard as the rule being struck down. Cues: c09 card
+// split moved from "said" to "in"; new c09 point card "Not struck down" at "but"; ENDCARD line says "without striking them down".
+// Thumbnail strip 2 "Javed (2003) sent to larger bench" -> "Not struck down: to a larger bench". All other facts checked OK.

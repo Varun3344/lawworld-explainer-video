@@ -1,0 +1,70 @@
+{
+ "projectTitle": "LawWorld_gft",
+ "title": "Buyer from the tenant's son sues: struck off",
+ "source": "split/scripts/gft.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "A tenant loses his eviction case right up to the Supreme Court. A buyer from his son then sues to keep the property. Can the High Court throw that suit out itself?",
+   "chip": "1 · THROWN OUT AT ONCE?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "The owner won his case in two thousand five, yet his family is still in court. The usual remedy lies with the trial court. So can the High Court step in directly?",
+   "shown": "The owner won his case in 2005, yet his family is still in court. The usual remedy lies with the trial court. So can the High Court step in directly?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On twenty ninth October, twenty twenty six, Honourable Justice N Anand Venkatesh of the Madras High Court ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 29 October 2026, Honourable Justice N. Anand Venkatesh of the Madras High Court ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "The owner sued to evict his tenant in nineteen eighty two. The Supreme Court upheld the eviction in two thousand five, giving time till August two thousand six.",
+   "shown": "The owner sued to evict his tenant in 1982. The Supreme Court upheld the eviction in 2005, giving time till August 2006.",
+   "chip": "2 · SIGNED OVER, THEN SOLD"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "In two thousand one, the tenant and his wife signed the property over to their son by a settlement deed. In twenty twelve, the son sold it to this buyer.",
+   "shown": "In 2001, the tenant and his wife signed the property over to their son by a settlement deed. In 2012, the son sold it to this buyer."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The District Registrar cancelled her sale deed, and her writ petition failed. In twenty twenty, she sued for an injunction to protect her possession.",
+   "shown": "The District Registrar cancelled her sale deed, and her writ petition failed. In 2020, she sued for an injunction to protect her possession."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The defendants called it an abuse of process that hid the earlier cases. Citing the Supreme Court, she said Article Two Twenty Seven cannot strike off a plaint.",
+   "shown": "The defendants called it an abuse of process that hid the earlier cases. Citing the Supreme Court, she said Article 227 cannot strike off a plaint.",
+   "chip": "3 · THE ARGUMENTS"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? This suit was abuse of process and re-litigation, not grounds under Order Seven Rule Eleven, so it had to step in.",
+   "shown": "Finally, what did the High Court decide? This suit was abuse of process and re-litigation, not grounds under Order VII Rule 11, so it had to step in.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "It found she hid the earlier cases and used the court to perpetuate an illegality. The revision was allowed, and her suit was struck off the register."
+  }
+ ]
+}

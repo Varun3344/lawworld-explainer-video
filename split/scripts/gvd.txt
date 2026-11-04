@@ -1,0 +1,50 @@
+// Goverdhan v. State of Rajasthan, 2026 INSC 1190, Criminal Appeal No. 1394 of 2017 (Sandeep Mehta J. wrote it, Devendra Kumar
+// Upadhyaya J.), decided 03.11.2026 (New Delhi; November 03, 2026; digitally signed 2026.11.03), REPORTABLE. HOOK format
+// (split/JUDGMENT_HOOK_FORMAT.md), Supreme Court page (English). Opening clip spoken to everyone, no "Advocates," (owner 03-11-2026).
+// SENSITIVE (a death by suicide): no names of private persons in speech or on cards (the cite card carries the cause title only), no
+// graphic detail (how she died is not said or shown), the hook is the legal question - what the prosecution must prove for abetment.
+// Source: the Supreme Court's PDF (Verdictum's pdf_upload copy goverdhan-v-the-state-of-rajasthan-1787154.pdf, fetched 04-11-2026,
+// scratchpad drafts4nov/gvd/dl/gvd_vd.pdf; its text matches the Indian Kanoon copy, doc 180647521, which carries the digital signature
+// of 2026.11.03), paras 1-34, read in full. (Indian Kanoon's header wrongly says "Author: Vikram Nath"; the judgment is "Mehta, J." and
+// is signed by Sandeep Mehta J. and Devendra Kumar Upadhyaya J.)
+// Facts used (para): tried under s.306 IPC before the Addl. Sessions Judge, Women Atrocities Cases No.1, Jaipur Metropolitan;
+// convicted 09.12.2016: ten years' RI and Rs.50,000 fine; the High Court (single Judge, Jaipur) dismissed his appeal 11.05.2017 (2);
+// married 21.11.1996, a son (4); the prosecution alleged harassment and that she was turned out in February 2009 and lived at her
+// parental home (4); she lodged FIR 14/2009 under ss.498-A, 406, 323 IPC on 05.02.2009 (5) and Domestic Violence Act proceedings for
+// maintenance (6); the prosecution alleged four letters with abusive language and threats (7); she died on 18.01.2011 (7); her mother's
+// complaint on 02.02.2011, forwarded under s.156(3) CrPC, FIR 45/2011 under s.306 (8, 9), "15 days after the incident" (16); 16
+// prosecution witnesses (9); the High Court held his continuous harassment "tantamounted to instigation" (12); "The only palpable
+// evidence" = the four postcard letters (Ex. P-16 to P-19) allegedly written by him; "the Investigating Officer did not obtain any
+// specimen handwriting"; the comparison writings: an application allegedly handed over at his arrest and a pocket diary produced by his
+// elder brother (20); handwriting opinion needs corroboration (21, Magan Bihari Lal; 22, Patel Babubhai Manohardas); "it is essential
+// to examine the handwriting expert in evidence"; such reports are not admissible under s.293 CrPC (s.329 BNSS) and must be proved by
+// examining the expert; "Admittedly, in the present case, the handwriting expert was not examined by the prosecution" (23); the courts
+// below relied on his not specifically denying authorship in his s.313 CrPC statement; "the prosecution must stand on its own legs and
+// establish the guilt of the accused beyond reasonable doubt"; no "substitute for proof" (24); "grave error" in relying on the letters
+// without proof of authorship; delay of ~15 days unexplained (25); no s.498A charge was framed (26); the letters, read as a whole: abuse
+// and threats, but also "fervent appeals ... for reconciliation" (27); she had lived at her father's house for more than two years and
+// was actively pursuing litigation; "the letters by themselves cannot be construed to be the instigating material which was the
+// immediate cause"; even if in his handwriting, not the ingredients of abetment under s.107 IPC; the prosecution failed to prove
+// instigation (29, 30); conviction and the High Court's judgment set aside; acquitted of s.306 IPC (31); appeal allowed (32); on bail,
+// bail bonds discharged (33).
+// Not said: any name (the appellant, the deceased, her family, his family, the witnesses are private persons); the manner of death,
+// the fire and the defence's accident theory (14-19); the dowry allegation. Flow policy: no accusation next to a name, no "fraud" /
+// "collusion" / "admitted". The word "suicide" is spoken once (c01, "dies by suicide"); elsewhere "abetment".
+# 1 · WHAT MUST BE PROVED?
+10 | When a person dies by suicide, what exactly must the prosecution prove in court, and how, before someone else can be convicted of abetting it?
+10 | Here, a husband was sentenced to ten years, and the main evidence was four letters said to be in his handwriting. But did anyone actually prove he wrote them?
+10 | Hi, I'm Ravishankar from LawWorld. On third November, Honourable Justice Sandeep Mehta and Honourable Justice Devendra Kumar Upadhyaya ruled. || Hi, I'm Ravishankar from LawWorld. On 3 November, Honourable Justice Sandeep Mehta and Honourable Justice Devendra Kumar Upadhyaya ruled.
+# 2 · THE FOUR LETTERS
+10 | For over two years, his wife had lived with her parents, and filed a cruelty case and a domestic violence case against him. She died in January twenty eleven. || For over two years, his wife had lived with her parents, and filed a cruelty case and a domestic violence case against him. She died in January 2011.
+10 | Fifteen days later, her mother filed a complaint. The prosecution's case rested on four postcard letters, said to be his, with abusive language and threats.
+# 3 · WHO WROTE THEM?
+10 | The police never took his specimen handwriting, and the expert who compared the letters with other papers was never examined in court.
+10 | Still, the trial court convicted him, and the High Court agreed, noting he never specifically denied the letters in his statement under Section Three Thirteen.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the Supreme Court decide? The prosecution must stand on its own legs and prove abetment beyond reasonable doubt. A missing denial is not proof.
+10 | The expert was never examined, so the letters were never proved. And even if he wrote them, they alone were not the immediate cause. So he was acquitted.
+// Fact-check 04-11-2026 (independent, against the official PDF): spoken lines c01-c10 unchanged. Card fix: c09 list item 2
+// "Abetment proved beyond reasonable doubt" -> "Abetment must be proved beyond reasonable doubt" (paras 24, 29-30: the Court held
+// it was NOT proved; the old wording read as a finding of abetment).

@@ -109,7 +109,7 @@ h1 em{{font-style:italic;color:var(--deep);}}
 <div class="badge"><span>{e(cfg["badge"])}</span></div>
 </body></html>"""
 
-tmp = os.path.join(ROOT, "overlays", "_thumb_darkfoot.html")
+tmp = os.path.join(ROOT, "overlays", f"_thumb_darkfoot_{os.getpid()}.html")   # one page per run: two renders at once overwrote each other (04-11-2026)
 os.makedirs(os.path.dirname(tmp), exist_ok=True)
 open(tmp, "w").write(page)
 out = os.path.abspath(cfg.get("out_v3") or cfg["out"])
@@ -129,5 +129,6 @@ const { chromium } = require('playwright');
 })().catch(e => { console.error(e); process.exit(1); });
 """
 r = subprocess.run(["node", "-e", js, tmp, out], cwd=ROOT, capture_output=True, text=True)
+os.remove(tmp) if os.path.exists(tmp) else None
 print(r.stdout.strip(), r.stderr.strip()[-400:]); r.check_returncode()
 print("saved", out)

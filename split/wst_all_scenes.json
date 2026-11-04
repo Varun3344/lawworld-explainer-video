@@ -1,0 +1,68 @@
+{
+ "projectTitle": "LawWorld_wst",
+ "title": "Waste plan stay lifted",
+ "source": "split/scripts/wst.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "A State changes how garbage is handled in one hundred and forty seven urban centres. A court stays the whole plan. Should a court freeze public sanitation like that?",
+   "shown": "A State changes how garbage is handled in 147 urban centres. A court stays the whole plan. Should a court freeze public sanitation like that?",
+   "chip": "1 · A STAY ON THE WASTE PLAN"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "Private waste operators called the plan arbitrary, and a Madras High Court judge stayed all of it. Can the State appeal that interim stay? And will the stay survive?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. In Madras, Honourable Chief Justice Sushrut Arvind Dharmadhikari and Honourable Justice G Arul Murugan ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. In Madras, Honourable Chief Justice Sushrut Arvind Dharmadhikari and Honourable Justice G. Arul Murugan ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "On ninth October, Tamil Nadu issued a Government Order restructuring solid waste management in one hundred and forty seven urban local bodies.",
+   "shown": "On 9 October, Tamil Nadu issued a Government Order restructuring solid waste management in 147 urban local bodies.",
+   "chip": "2 · ONE ORDER, ONE STAY"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "An association of waste operators challenged it in a writ petition. On thirtieth October, a Single Judge stayed the whole order, and the State appealed.",
+   "shown": "An association of waste operators challenged it in a writ petition. On 30 October, a Single Judge stayed the whole order, and the State appealed."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The State said waste policy is the executive's call, contractors have no right to endless renewals, and a blanket stay risked sanitation paralysis.",
+   "chip": "3 · BOTH SIDES"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The operators said the two categories had no rational basis, and they had invested in trucks. They said the State should first ask the Single Judge to lift the stay."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? This was no routine order. It froze sanitation across one hundred and forty seven urban centres, so an appeal lay.",
+   "shown": "Finally, what did the High Court decide? This was no routine order. It froze sanitation across 147 urban centres, so an appeal lay.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "Against overwhelming public interest, private commercial expectations must yield. The balance favoured the State, so the stay was set aside; the main case continues."
+  }
+ ]
+}

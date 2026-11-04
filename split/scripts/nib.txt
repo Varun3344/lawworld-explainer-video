@@ -1,0 +1,60 @@
+// The National Insurance Company Limited v. Bammidi Savithri & Ors., M.A.C.M.A. No. 3096 of 2017 (against the order and decree of
+// 25.07.2017 in M.V.O.P. No. 213 of 2013, Motor Accidents Claims Tribunal-cum-I Additional District Judge, Srikakulam), 2026:APHC:46786,
+// CNR APHC010980022017, High Court of Andhra Pradesh at Amaravati, single Judge: Sunitha Gandham, J.; judgment Monday 02.11.2026.
+// REPORTABLE evidence: "Note: L.R. Copy to be marked." under the signature (p.16 of the court's own PDF) - marked to the Law Reporters
+// (the neutral citation alone proves nothing: AP gives one to every order).
+// HOOK format (split/JUDGMENT_HOOK_FORMAT.md), the High Courts page (ENGLISH). Opening clip spoken to everyone, no "Advocates,".
+// Source: the court's own PDF (16 pages, judgment paras 1-13), digi-services.aphc.ap.gov.in citation search (MACMA 3096/2017 ->
+// 203600030962017_5.pdf), saved as scratchpad drafts4nov/nib/pdf/2026_APHC_46786.pdf, read in full (Indian Kanoon doc 198991645 matches).
+// Facts used (para): the insurer (R3 before the Tribunal) appeals the Tribunal's order and decree of 25.07.2017 granting Rs.9,14,800 for
+// the death of a young man in a motor accident of 12.02.2011 (1); parties referred to as arrayed before the Tribunal: "petitioners" =
+// the claimants (his parents), "respondents" = R1 driver, R2 owner, R3 insurer of the tractor and trailer (2, 3). Claimants' case: on
+// 12.02.2011, about 8.30 PM, he was driving a car from Palasa to Srikakulam; near Akula Nandigam village a tractor and trailer came on
+// the wrong route rashly and negligently and dashed against the car; he died; aged about 24, a male nursing orderly earning Rs.9,600 a
+// month; Crime No.14 of 2011 (Ss. 304-A, 338 IPC) against the tractor driver; R1-R3 jointly and severally liable (3). R3's written
+// statement: the deceased drove rashly and negligently, the vehicle had no valid fitness certificate, policy breach, excessive claim (4).
+// Tribunal: Rs.9,14,800 with interest at 9% a year (6). Appeal grounds: no negligence of R1 / the deceased negligent, no fitness
+// certificate, contributory negligence, policy violation, salary not properly assessed (6). The claimants filed no appeal or cross
+// objections on quantum (9, 11(c)). Point 1: involvement of the tractor undisputed; the only eyewitness PW.2, a co-passenger, testified
+// the tractor came on the wrong route and dashed against the car, nothing elicited in cross (10(a)); R3 had only the "self-serving
+// statement" of RW.1, its branch manager; R1 ex parte and not examined, "his non examination is fatal" (10(b)); charge sheet against R1;
+// MVI report: no mechanical defect; held: the accident occurred due to R1's rash and negligent driving (10(c)). Point 2: age 24 (11(a));
+// income Rs.9,600 rightly assessed (11(b)); the claimants' counsel sought just and fair compensation though no appeal / cross objections;
+// "learned counsel for the respondents" (as arrayed before the Tribunal) argued that the accident was in 2011 so present principles
+// should not apply; held: under Order 41 Rule 33 "this court can enhance the amount of compensation even in the absence of appeal or
+// cross objections", Sharanamma, (2013) 11 SCC 517 (11(c)); Susheelamma (AP DB) (11(d)); Surekha v. Santhosh, (2021) 16 SCC 467: no
+// hyper-technical approach; "this Court is under obligation to award just and fair compensation" (11(e)); Sarla Verma, Pranay Sethi,
+// Magma; Devaraj Medical College: SC decisions apply retrospectively unless expressly prospective (11(f)); the Tribunal "erred in
+// considering the age of the mother of the deceased instead of age of the deceased", applied multiplier 11 and, though he was
+// unmarried, deducted 1/3 for personal expenses (11(g)); reassessed: Rs.1,15,200 a year, 1/2 deduction, 40% future prospects,
+// multiplier 18 = Rs.14,51,520 loss of dependency; filial consortium Rs.40,000 x 2; funeral, transport, loss of estate Rs.15,000 each;
+// total Rs.15,76,520, rounded to Rs.15,76,500 (11(h)), "just and reasonable" (11(i)). Liability: RW.2 - no valid permit on the date;
+// breach of the policy, the owner alone liable, but the deceased is a third party, so under Ss. 157(2) and 149 MV Act the insurer pays
+// at the first instance and recovers (11(j)-(s)); Challa Upendra Rao, (2004) 8 SCC 517; Amrit Paul Singh, (2018) 7 SCC 558 (11(o),(p)).
+// Point 3: the Tribunal erred in determining just and fair compensation; the award is liable to be modified (12). RESULT: appeal
+// "allowed in part"; compensation enhanced from Rs.9,14,800 to Rs.15,76,500 with simple interest at 7.5% a year from the date of the
+// petition till realisation; Rs.7,88,250 to each claimant; R3 (the insurer) to deposit within one month of the Tribunal receiving the
+// judgment, at the first instance, and recover from R1 and R2 (driver and owner); no costs (13).
+// Not said: any private person's name (the deceased, his parents, the driver, the owner; the cite card carries the cause title
+// only); the tractor driver's guilt in the crime (only that a case and a charge sheet exist; the Court's finding is negligence for
+// compensation); that the insurer "lost" (the appeal was allowed in part: pay-and-recover granted, interest 7.5% against the
+// Tribunal's 9%). The "fitness certificate" plea is voiced as the insurer's; the Court's own finding is "no valid permit" (11(s)).
+// Flow policy: no accusation next to a name, no "fraud" / "collusion" / "admitted" (para 9's "Admittedly" is not voiced).
+# 1 · CAN THE AWARD GO UP?
+10 | An insurer appeals to cut a road accident award. The family never files an appeal of its own. Can the High Court still raise the compensation?
+10 | A Tribunal awarded a young accident victim's parents over nine lakh rupees. The insurer appealed, blaming the young man himself. So who pays, and how much? || A Tribunal awarded a young accident victim's parents over ₹9 lakh. The insurer appealed, blaming the young man himself. So who pays, and how much?
+10 | Hi, I'm Ravishankar from LawWorld. On second November, twenty twenty six, Honourable Justice Sunitha Gandham of the Andhra Pradesh High Court ruled. || Hi, I'm Ravishankar from LawWorld. On 2 November 2026, Honourable Justice Sunitha Gandham of the Andhra Pradesh High Court ruled.
+# 2 · THE CRASH AND THE CLAIM
+10 | On a February night in twenty eleven, he was driving a car from Palasa to Srikakulam when a tractor and trailer hit it. He died in the crash. || On a February night in 2011, he was driving a car from Palasa to Srikakulam when a tractor and trailer hit it. He died in the crash.
+10 | He was twenty four and unmarried, earning nine thousand six hundred rupees a month. His parents claimed compensation from the driver, owner and insurer. || He was 24 and unmarried, earning ₹9,600 a month. His parents claimed compensation from the driver, owner and insurer.
+# 3 · THE INSURER'S APPEAL
+10 | On appeal, the insurer blamed the young man's own driving, said the tractor had no fitness certificate, and disputed his salary. The parents filed no appeal.
+10 | The parents' counsel still asked for just and fair compensation. The other side replied that today's principles cannot apply to a twenty eleven accident. || The parents' counsel still asked for just and fair compensation. The other side replied that today's principles cannot apply to a 2011 accident.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the High Court decide? The tractor driver was rash and negligent. Even without a cross appeal, it is bound to award just and fair compensation.
+10 | The Tribunal used the mother's age, not his. The award rose to over fifteen lakh rupees, which the insurer must pay first and recover from the owner and driver. || The Tribunal used the mother's age, not his. The award rose to over ₹15 lakh, which the insurer must pay first and recover from the owner and driver.
+// Fact-check 04-11-2026 (independent, against the court's PDF 2026:APHC:46786, paras 1-13): every spoken line, caption, cue card,
+// amount (Rs.9,14,800 -> Rs.15,76,500; 9% -> 7.5% simple; multiplier 11 -> 18; Rs.7,88,250 each), date, bench and the thumbnail
+// verified; negligence of the deceased and the fitness certificate stay the insurer's grounds. No changes made.

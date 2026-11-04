@@ -1,0 +1,68 @@
+{
+ "projectTitle": "LawWorld_gvd",
+ "title": "What must be proved for abetment?",
+ "source": "split/scripts/gvd.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "When a person dies by suicide, what exactly must the prosecution prove in court, and how, before someone else can be convicted of abetting it?",
+   "chip": "1 · WHAT MUST BE PROVED?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "Here, a husband was sentenced to ten years, and the main evidence was four letters said to be in his handwriting. But did anyone actually prove he wrote them?",
+   "shown": "Here, a husband was sentenced to 10 years, and the main evidence was four letters said to be in his handwriting. But did anyone actually prove he wrote them?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On third November, Honourable Justice Sandeep Mehta and Honourable Justice Devendra Kumar Upadhyaya ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 3 November, Honourable Justice Sandeep Mehta and Honourable Justice Devendra Kumar Upadhyaya ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "For over two years, his wife had lived with her parents, and filed a cruelty case and a domestic violence case against him. She died in January twenty eleven.",
+   "shown": "For over two years, his wife had lived with her parents, and filed a cruelty case and a domestic violence case against him. She died in January 2011.",
+   "chip": "2 · THE FOUR LETTERS"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "Fifteen days later, her mother filed a complaint. The prosecution's case rested on four postcard letters, said to be his, with abusive language and threats.",
+   "shown": "15 days later, her mother filed a complaint. The prosecution's case rested on four postcard letters, said to be his, with abusive language and threats."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The police never took his specimen handwriting, and the expert who compared the letters with other papers was never examined in court.",
+   "chip": "3 · WHO WROTE THEM?"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "Still, the trial court convicted him, and the High Court agreed, noting he never specifically denied the letters in his statement under Section Three Thirteen.",
+   "shown": "Still, the trial court convicted him, and the High Court agreed, noting he never specifically denied the letters in his statement under Section 313."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the Supreme Court decide? The prosecution must stand on its own legs and prove abetment beyond reasonable doubt. A missing denial is not proof.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "The expert was never examined, so the letters were never proved. And even if he wrote them, they alone were not the immediate cause. So he was acquitted."
+  }
+ ]
+}

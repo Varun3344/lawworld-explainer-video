@@ -1,0 +1,4 @@
+# Renuka Ramnath v. State of Karnataka (Karnataka HC, W.P. 18251/2021, 2026:KHC:59939, 28.10.2026, reportable): a non-executive director cannot be prosecuted for the company's alleged Legal Metrology violations (s.49); case quashed as against her. HOOK-format judgment reel, ENGLISH, 04-11-2026 (opening spoken to everyone, no "Advocates,").
+export SPLIT_D=downloads/lmd SPLIT_SB=split/lmd SPLIT_ALL=split/lmd_all_scenes.json SPLIT_GO=split/GOlmd
+export SPLIT_ACCOUNT=a2; . split/accounts.sh
+export SPLIT_VOCAB="LawWorld, Ravishankar, Karnataka High Court, Honourable Justice V Srishananda, weights and measures, Legal Metrology, flying squad, weighing scale, inspector, private complaint, Section Eighteen, Section Forty Nine, non-executive director, nominated, third accused, Form Thirty Two, Registrar of Companies, quashed, lawworld dot A I"

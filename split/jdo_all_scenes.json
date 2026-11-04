@@ -1,0 +1,65 @@
+{
+ "projectTitle": "LawWorld_jdo",
+ "title": "Can a High Court condemn a judge unheard?",
+ "source": "split/scripts/jdo.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "When a trial judge's verdict has some typing errors, can a higher court condemn that judge in a judicial order, without first hearing the judge's side?",
+   "chip": "1 · CONDEMNED UNHEARD?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "The High Court wrote that such an officer is not entitled to remain in service, and ordered a copy placed in her annual record. So was that fair?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On second November, Honourable Justice Sandeep Mehta and Honourable Justice Devendra Kumar Upadhyaya ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 2 November, Honourable Justice Sandeep Mehta and Honourable Justice Devendra Kumar Upadhyaya ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "A district judge in Rajasthan heard two trials from one case: a juvenile tried as an adult, and an adult co-accused. The law required separate judgments.",
+   "chip": "2 · TWO TRIALS, ONE SLIP"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "On the same day in January twenty twenty four, she convicted both of them. But some evidence details from one trial slipped, by mistake, into the other judgment.",
+   "shown": "On the same day in January 2024, she convicted both of them. But some evidence details from one trial slipped, by mistake, into the other judgment."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "While refusing to suspend the sentence, the High Court blamed her: cut, copy and paste, a judgment probably written by her staff and signed without being read.",
+   "chip": "3 · CUT, COPY AND PASTE?"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "Before the Supreme Court, she explained that both cases had almost the same witnesses, her only stenographer was on leave, and the errors were typographical."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the Supreme Court decide? The strictures were recorded on the judicial side, without giving her a chance to explain. That breaks natural justice.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "If needed, concerns go in a remark slip to the Chief Justice, on the administrative side. The remarks and directions were set aside, and her appeal was allowed."
+  }
+ ]
+}

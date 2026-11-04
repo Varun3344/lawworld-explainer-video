@@ -1,0 +1,57 @@
+// M/s. Reha Environ Private Limited (formerly Kivar Environ) & Anr. v. Government of Puducherry & Ors., with the connected revisions,
+// C.R.P. Nos. 5394, 5220 & 5221 of 2026 (& C.M.P. Nos. 22726 and 22727 of 2026), 2026:MHC:4381, High Court of Judicature at Madras,
+// single Judge: P.B. Balaji, J.; reserved 22.09.2026, pronounced 30.10.2026 (common order; "Index: Yes", "Speaking order", "Neutral
+// Citation: Yes"). REPORTABLE: the court's own judis database lists it under "Reportable" (judge-wise search, reportable=Y,
+// 28.10-04.11.2026, re-run 04-11-2026: CRP.5394/2026, filename 1386456, citno 2026/MHC/4381; also in fresh4nov/khc_mhc/mhc/mhc_Y.json).
+// HOOK format (split/JUDGMENT_HOOK_FORMAT.md), the High Courts page (ENGLISH). Opening clip spoken to everyone, no "Advocates,".
+// Source: the court's own PDF (20 pages, mhc.tn.gov.in/judis viewpdf 1386456, footer "Uploaded on: 30/10/2026 06:28:15 pm"; md5 identical to
+// fresh4nov/khc_mhc/mhc/pdf/20261030_CRP_5394_2026.pdf), read in full; scratchpad drafts4nov/awg/.
+// Facts used (para): C.R.P. 5394 by the award holders; C.R.P. 5220 and 5221 by the award sufferers, all under Article 227 against the
+// common order of 27.07.2026 in E.P. 37/2024 (A.F. 72/2016), Principal District Judge, Puducherry (prayers, 1). Respondents 2 to 4
+// invited bids for integrated Municipal Solid Waste Management Projects; the award holder was the successful bidder; disputes; this
+// Court appointed a sole Arbitrator; award 10.02.2022; amended award under s.33 dated 31.03.2022, the tipping fee of Rs.21,36,68,616
+// enhanced to Rs.25,53,42,384 (3). None of the award sufferers challenged the award or the amended award under s.34; the award attained
+// finality; E.P. 37/2024 filed (4); the award holders' own s.34 petition on interest (A.O.P. 5/2025) dismissed 30.01.2026 (4). The
+// Government of Puducherry filed a s.47 CPC application: never a party to the contract, so its assets cannot be proceeded against; the
+// judgment debtors also said the award does not quantify the amount each must pay (4). Executing Court: s.47 application dismissed, but
+// the properties of the Government's departments cannot be attached as the contracts pertained only to four municipalities; execution
+// confined to the third judgment debtor's property (Oulgaret Municipality, Jawahar Nagar), dismissed against JDs 1, 2 and 4 (5).
+// Award holder: the Government took part from the s.21 notice, the s.11 petition and before the Arbitrator, without protest or demur;
+// all JDs jointly and severally liable (6). Additional Solicitor General: the operative portion awards a sum without any division among
+// the JDs; the Government was not a party to the contract (8); s.7 - no arbitration agreement signed by the Government (11). Held: the
+// concession agreement of 18.10.2010 was with JDs 2 to 4 alone and the Government was not a signatory, but the s.21 notice of
+// 12.06.2012 went to it, it was a party respondent in the s.11 applications without objection, and the Arbitrator was appointed in its
+// presence (13); it never objected before the Arbitrator, participated, suffered the award and the amended award; no JD filed a s.34
+// challenge (14); "not only too late in the day ... but in fact, does not even lie in their mouth to contend so" (15); no infirmity in
+// dismissing the s.47 application; "the Executing Court cannot go behind the decree" (16); "A Section 47 petition cannot be an appeal or
+// challenge under Section 34 of the Arbitration Conciliation Act in disguise" (17); the asset plea should have gone to the Arbitrator
+// (18, 19); restricting execution to JD3 was an error; the decree holder may proceed jointly or severally; "all the judgment debtors are
+// jointly and severally liable to pay the award amount to the claimant"; they "cannot take advantage of the wordings in the operative
+// portion of the award to try and wriggle out of liability" (20); S.N. Prasad, (2011) 1 SCC 320: having consciously participated and
+// accepted the award without a s.34 challenge, the Government cannot say in execution that it is not a party to the arbitration
+// agreement (21); the objections are "an after thought" to protract the proceedings (22). ORDER: C.R.P. 5220 and 5221 dismissed; the
+// order restricting execution to JD3 set aside; liberty to proceed against the assets of all JDs; given the negotiations, two months to
+// settle, execution in abeyance meanwhile (23); E.P. corrections within two weeks; if the award is not settled within eight weeks of
+// receipt of the order, the decree holder may proceed against all JDs and their assets (24); C.R.P. 5394 allowed; no costs (25).
+// Not said: any person's name; the Additional Solicitor General's "fraud" plea about the project assets (9, 10, 18, 19: card-free, not
+// spoken); the companies' names (cite card only). Flow policy: no accusation, no "fraud" / "collusion" / "admitted"; only the court,
+// the judge and the Government of Puducherry (accused of nothing) are named.
+# 1 · NEVER SIGNED, STILL BOUND?
+10 | A government never signs a contract, but joins the whole arbitration without protest. Once the award comes, can it refuse to pay, saying it was never a party?
+10 | Here, the tipping fee alone was raised to over twenty five crore rupees. Yet the award holder could go after just one municipality's property. Was that right? || Here, the tipping fee alone was raised to over ₹25 crore. Yet the award holder could go after just one municipality's property. Was that right?
+10 | Hi, I'm Ravishankar from LawWorld. On thirtieth October, twenty twenty six, Honourable Justice P B Balaji of the Madras High Court ruled. || Hi, I'm Ravishankar from LawWorld. On 30 October 2026, Honourable Justice P.B. Balaji of the Madras High Court ruled.
+# 2 · THE AWARD AND THE OBJECTION
+10 | A company won Puducherry's waste project; the government itself never signed the contract. In twenty twenty two, an arbitrator ruled for the company. || A company won Puducherry's waste project; the government itself never signed the contract. In 2022, an arbitrator ruled for the company.
+10 | Nobody on the paying side challenged it, so it became final. In execution, the government said it never signed the contract, so its assets were off limits.
+10 | The executing court rejected that, but held government departments' property could not be attached, since the contracts covered only the municipalities.
+# 3 · THE ARGUMENTS
+10 | The government said it never signed the arbitration agreement. The award holder said it took part from the first notice to the award, without protest.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the High Court decide? Having taken part without protest, and never challenged the award, the government could not deny being a party.
+10 | All four judgment debtors were jointly and severally liable, so the limit was set aside. If they do not settle in eight weeks, execution can go against them all. || All four judgment debtors were jointly and severally liable, so the limit was set aside. If they do not settle in 8 weeks, execution can go against them all.
+// Fact-check 04-11-2026 (independent, against the court's PDF): spoken lines verified, no change (c10: 8 weeks from receipt of the
+// order, then execution against all JDs, paras 23-24). Cues: c06 "one municipality's land" -> "property" (para 5). Thumbnail strips:
+// "Took part, no protest: bound" -> "Took part, never challenged: bound" (para 21 rests on participation AND no s.34 challenge);
+// "Settle within 8 weeks" -> "8 weeks to settle, else execution" (the Court granted time, it did not order payment, paras 23-24).

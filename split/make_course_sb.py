@@ -17,6 +17,21 @@ if REF and not os.path.exists(f"{D}/frames/c00_last.jpg"): shutil.copy(REF, f"{D
 # owner 19-10-2026: "use different different suits for each video, dont repeat the same" - one suit per video, none repeated, none
 # the Cause of Action navy blazer; no white or cream shirts (the backdrop flatten keys on the ivory)
 OUTFITS = {
+    "cst": "a tailored deep claret-red two-piece business suit, a crisp white formal shirt and a dark navy silk tie",  # Karnataka judgment reel 04-11 (batch 2)
+    "eda": "a tailored deep charcoal-blue two-piece business suit, a pale-blue formal shirt and a deep burgundy silk tie",  # Karnataka judgment reel 04-11 (batch 2)
+    "lmd": "a tailored dark olive-brown herringbone two-piece business suit, a crisp white formal shirt and a dark-gold silk tie",  # Karnataka judgment reel 04-11 (batch 2)
+    "gft": "a tailored dark plum two-piece business suit, a crisp white formal shirt and a silver-grey silk tie",  # Madras judgment reel 04-11 (batch 2)
+    "drv": "a tailored deep ultramarine-blue two-piece business suit, a crisp white formal shirt and a dark-gold silk tie",  # Madras judgment reel 04-11 (batch 2)
+    "awg": "a tailored graphite-grey windowpane-check two-piece business suit, a light-blue formal shirt and a deep teal silk tie",  # Madras judgment reel 04-11 (batch 2)
+    "tcn": "a tailored deep pine-green two-piece business suit, a pale-blue formal shirt and a dark burgundy silk tie",  # SC judgment reel 04-11 (2026 INSC 1193 two-child norm)
+    "nib": "a tailored dark slate-grey two-piece business suit, a pale-blue formal shirt and a deep maroon silk tie",  # AP judgment reel 04-11 (batch 2)
+    "sfr": "a tailored deep aubergine two-piece business suit, a pale-lavender formal shirt and a dark-green silk tie",  # AP judgment reel 04-11 (batch 2)
+    "wst": "a tailored deep spruce-green two-piece business suit, a pale-blue formal shirt and a dark-gold silk tie",  # HC judgment reel 04-11 (batch 2)
+    "crs": "a tailored dark navy glen-check two-piece business suit, a crisp white formal shirt and a deep wine-red silk tie",  # HC judgment reel 04-11 (batch 2)
+    "mmt": "a tailored dark cognac-brown two-piece business suit, a light-blue formal shirt and a deep navy silk tie",  # HC judgment reel 04-11 (batch 2)
+    "jgr": "a tailored dark moss-green two-piece business suit, a crisp white formal shirt and a deep burgundy silk tie",  # SC judgment reel 04-11 (batch 2)
+    "jdo": "a tailored deep ink-blue two-piece business suit, a pale-blue formal shirt and a dark maroon silk tie",  # SC judgment reel 04-11 (batch 2)
+    "gvd": "a tailored dark charcoal-brown flannel two-piece business suit, a pale-blue formal shirt and a deep navy silk tie",  # SC judgment reel 04-11 (batch 2)
     "cog": "a tailored charcoal-grey two-piece business suit, a crisp light-blue formal shirt and a deep burgundy silk tie",
     "cpb": "a tailored black two-piece business suit and a pale-pink formal shirt with an open collar, no tie",
     "apl": "a tailored mid-grey two-piece business suit, a lavender formal shirt and a navy-blue silk tie",

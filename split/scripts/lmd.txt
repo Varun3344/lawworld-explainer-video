@@ -1,0 +1,40 @@
+// Renuka Ramnath v. State of Karnataka, represented by the Inspector of Legal Metrology, Flying Squad, Auto and Taxi Unit, Bangalore,
+// Writ Petition No. 18251 of 2021 (GM-RES), 2026:KHC:59939, CNR KAHC010372352021, High Court of Karnataka at Bengaluru, single Judge:
+// V Srishananda, J.; oral order 28.10.2026 at the preliminary hearing in 'B' group. REPORTABLE: the circled "R" on page 1, and the
+// court's own "Reportable - 2026 - 10" list (Principal Bench, ds_report.php, row "28-10-2026 | WP 18251/2021 | V SRISHANANDA").
+// HOOK format (split/JUDGMENT_HOOK_FORMAT.md), the High Courts page (ENGLISH). Opening clip spoken to everyone, no "Advocates,"
+// (owner 03-11-2026).
+// Source: the court's own PDF (7 pages, scratchpad fresh4nov/khc_mhc/khc_pdf/2026-10-28_WP_18251_2021.pdf), read in full; copy + text
+// in drafts4nov/lmd/.
+// Facts used (para): petition under Articles 226 / 227 r/w s.482 CrPC to set aside the complaint dated 19.05.2016 in C.C. No.
+// 36296/2016 (Metropolitan Magistrate, Traffic Court-1, Mayo Hall, Bengaluru) and the order of 26.11.2016, so far as the petitioner
+// is concerned (cause title, 2). The Inspector of Legal Metrology filed a private complaint alleging violation of s.18 of the Legal
+// Metrology Act r/w Rule 18(2) of the Legal Metrology (Packaged Commodity) Rules, 2011 (3.1). The petitioner is accused no. 3; she
+// claims she was shown as a non-executive director of the company whose premises were visited (3.2). The flying squad visited the
+// premises, found some violation with regard to the weighing scale, seized it and initiated action (3.3). Her plea: under s.49 no
+// prosecution is permissible against a non-executive director (4); unless the company is made a party, prosecution of the directors
+// alone is impermissible (5). The HCGP could not dispute the factual and legal aspects urged, having regard to s.49, and submitted that
+// suitable orders may be passed (6). The Court examined Form No. 32 filed before the Registrar of Companies, a mandatory requirement
+// (7); it shows her as a non-executive director (8). s.49(1): where an offence is committed by a company, (a)(i) the person nominated
+// under s.49(2) to be in charge of, and responsible to, the company for the conduct of its business, or (ii) where none is nominated,
+// every person in charge of and responsible to the company at the time, and (b) the company; Explanation (b) defines "director" (9).
+// Held: on Explanation (b), "a non-executive director cannot be proceeded criminally for the alleged violations committed by the
+// company" (10); a case is made out for quashing the proceedings qua the petitioner (11). ORDER: petition allowed (i); proceedings in
+// C.C. No. 36296/2016 quashed (ii), qua the petitioner, without affecting the prosecution's rights as to the others (iii; 11).
+// Not said: any person's or company's name (the petitioner is a private person; the cite card carries only the cause title; the
+// company is not named anywhere). Flow policy: no "fraud" / "collusion" / "admitted" (para 6 is voiced as "could not dispute").
+# 1 · JUST ON THE BOARD?
+10 | Inspectors find a weights and measures violation at a company's premises. Can its non-executive director be prosecuted, just for being on the board?
+10 | Here, company records showed her as only a non-executive director, yet she was made an accused. Would the Karnataka High Court let the case go on?
+10 | Hi, I'm Ravishankar from LawWorld. On twenty eighth October, twenty twenty six, Honourable Justice V Srishananda of the Karnataka High Court ruled. || Hi, I'm Ravishankar from LawWorld. On 28 October 2026, Honourable Justice V. Srishananda of the Karnataka High Court ruled.
+# 2 · THE WEIGHING SCALE
+10 | A Legal Metrology flying squad visited a company's premises. It found some violation with the weighing scale there, seized the scale, and started action.
+10 | In twenty sixteen, the inspector filed a private complaint under Section Eighteen of the Legal Metrology Act, and named her the third accused. || In 2016, the inspector filed a private complaint under Section 18 of the Legal Metrology Act, and named her the third accused.
+# 3 · WHO IS LIABLE?
+10 | Her plea: Section Forty Nine bars prosecuting a non-executive director, and directors alone cannot be prosecuted without the company. || Her plea: Section 49 bars prosecuting a non-executive director, and directors alone cannot be prosecuted without the company.
+10 | Section Forty Nine makes liable the person nominated as responsible, or else those in charge of the business. The State's counsel could not dispute her plea. || Section 49 makes liable the person nominated as responsible, or else those in charge of the business. The State's counsel could not dispute her plea.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the High Court decide? Under the Act, a non-executive director cannot be prosecuted for the company's alleged violations.
+10 | Her Form Thirty Two, filed with the Registrar of Companies, showed her as one. So her petition was allowed, and the case was quashed only as against her. || Her Form 32, filed with the Registrar of Companies, showed her as one. So her petition was allowed, and the case was quashed only as against her.

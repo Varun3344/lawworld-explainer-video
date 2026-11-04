@@ -1,0 +1,69 @@
+{
+ "projectTitle": "LawWorld_tcn",
+ "title": "A third child, no election?",
+ "source": "split/scripts/tcn.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Should having a third child stop you from contesting a village election? Such laws rest on a fear of overpopulation. But do they still make sense today?",
+   "chip": "1 · THIRD CHILD, NO ELECTION?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "In Maharashtra, a Sarpanch's election was set aside over her third child. But India's fertility rate has fallen to one point nine. Should that rule still stand?",
+   "shown": "In Maharashtra, a Sarpanch's election was set aside over her third child. But India's fertility rate has fallen to 1.9. Should that rule still stand?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On fourth November, Honourable Justice Pamidighantam Sri Narasimha and Honourable Justice Alok Aradhe ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 4 November, Honourable Justice Pamidighantam Sri Narasimha and Honourable Justice Alok Aradhe ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "She had her third child in twenty fourteen and became Sarpanch in twenty twenty two. She was then found disqualified under the Maharashtra Village Panchayats Act.",
+   "shown": "She had her third child in 2014 and became Sarpanch in 2022. She was then found disqualified under the Maharashtra Village Panchayats Act.",
+   "chip": "2 · THE SARPANCH'S CASE"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "She appealed against the High Court's judgment. The Maharashtra law itself was not challenged. The Court asked a different question: are such laws still relevant?"
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "In two thousand and three, the Supreme Court upheld such a two-child bar for panchayat posts in Haryana. It relied on the perception, back then, of a population boom.",
+   "shown": "In 2003, the Supreme Court upheld such a two-child bar for panchayat posts in Haryana. It relied on the perception, back then, of a population boom.",
+   "chip": "3 · WHAT HAS CHANGED"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "Since then, India's fertility rate has fallen from over three to one point nine, below the replacement level of two point one. The population is ageing.",
+   "shown": "Since then, India's fertility rate has fallen from over 3 to 1.9, below the replacement level of 2.1. The population is ageing."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the Supreme Court decide? In its strong opinion, laws penalising more than two children have lost their relevance. But it did not strike them down.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "It sent the case to a larger bench to reconsider the two thousand and three ruling. Under the interim stay, she remains Sarpanch until the appeal is decided.",
+   "shown": "It sent the case to a larger bench to reconsider the 2003 ruling. Under the interim stay, she remains Sarpanch until the appeal is decided."
+  }
+ ]
+}

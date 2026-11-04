@@ -1,0 +1,66 @@
+{
+ "projectTitle": "LawWorld_drv",
+ "title": "Driver hurt on duty: a different law?",
+ "source": "split/scripts/drv.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "A driver is badly hurt in an accident on duty, and claims under the Motor Vehicles Act. Can the tribunal pay him under a different law instead?",
+   "chip": "1 · A DIFFERENT LAW?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "The tribunal gave him nearly twenty lakh rupees as employee's compensation. The insurer said: no power to switch laws, and no proof he was employed. Who was right?",
+   "shown": "The tribunal gave him nearly ₹20 lakh as employee's compensation. The insurer said: no power to switch laws, and no proof he was employed. Who was right?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On second November, twenty twenty six, Honourable Justice K K Ramakrishnan of the Madras High Court ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 2 November 2026, Honourable Justice K.K. Ramakrishnan of the Madras High Court ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "He drove a car insured with this insurer. In January twenty twenty, during his employment, he met with an accident and was severely injured.",
+   "shown": "He drove a car insured with this insurer. In January 2020, during his employment, he met with an accident and was severely injured.",
+   "chip": "2 · HURT ON DUTY"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "He claimed under the Motor Vehicles Act. Finding he was the driver, the tribunal treated it as an employee's compensation claim, and added interest."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "In appeal, the insurer said there was no evidence or jurisdiction to convert the claim, and the amount did not follow the Employees' Compensation Act.",
+   "chip": "3 · THE ARGUMENTS"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The driver replied that two witnesses proved he worked as the driver, and the compensation was properly worked out under the Employees' Compensation Act."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? The witnesses were cogent and trustworthy, and the insurer led no contrary evidence. He was the car owner's driver.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "If a motor claim is not maintainable, but it's proved he was the owner's employee, hurt at work, the court must consider conversion. The appeal failed; the award stands."
+  }
+ ]
+}

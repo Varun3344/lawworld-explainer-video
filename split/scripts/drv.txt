@@ -1,0 +1,48 @@
+// The Branch Manager, Royal Sundaram General Insurance Company Ltd. v. Asaraf Asad & Ors., C.M.A.(MD) No. 627 of 2024 (& C.M.P.(MD)
+// No. 7744 of 2024), Madurai Bench of Madras High Court, single Judge: K.K. Ramakrishnan, J.; reserved 31.08.2026, pronounced
+// 02.11.2026. No neutral citation is shown (judis citno blank; the PDF's "NCC / Index / Internet: Yes/No" lines are not struck).
+// REPORTABLE: the court's own judis database lists it under "Reportable" (judge-wise search, reportable=Y, 28.10-04.11.2026, re-run
+// 04-11-2026: CMA(MD).627/2024, filename 2115939, juddate 2026/11/02; also in fresh4nov/khc_mhc/mhc/mhc_Y.json). HOOK format
+// (split/JUDGMENT_HOOK_FORMAT.md), the High Courts page (ENGLISH). Opening clip spoken to everyone, no "Advocates," (owner 03-11-2026).
+// Source: the court's own PDF (9 pages, mhc.tn.gov.in/judis viewpdf 2115939, footer "Uploaded on: 03/11/2026 07:05:09 pm"; md5 identical to
+// fresh4nov/khc_mhc/mhc/pdf/20261102_CMA_MD_627_2024.pdf), read in full; scratchpad drafts4nov/drv/.
+// Facts used (para): appeal under s.173 of the Motor Vehicles Act, 1988 by the insurer against the award dated 20.12.2022 in M.C.O.P.
+// 341/2020, Motor Accident Claims Tribunal (Principal District Judge), Pudukkottai (prayer, 1). The claimant worked as the driver of a
+// Maruti car insured with the appellant; during the course of his employment he met with an accident on 22.01.2020, sustained severe
+// injuries and was treated in hospital; he claimed compensation against the owner and the insurer (2.1). Insurer's counter: denied
+// the manner of the accident and liability; no employer-employee relationship (2.2). Evidence: PW1, PW2, Exs. P1-P13; RW1, Exs. R1-R3;
+// C1, C2 (2.3). Tribunal: liability on the insurer; the claimant was the driver; though filed under the MV Act, treated as a claim
+// under the Workmen's Compensation Act; Rs.19,77,595 with interest at 7.25% p.a. from the petition to realisation (3.1). Insurer: no
+// evidence to convert the claim; the Tribunal had no jurisdiction to convert it; the amount is not in accordance with the Employees'
+// Compensation Act (4.1). Claimant: PW2 established that he was the driver, PW1 also deposed so, cogent and corroborative; amount
+// properly calculated under the Employees' Compensation Act (5.1). Held: PW1 deposed he worked as the driver earning Rs.10,000 a
+// month; PW2 deposed the owner asked him to arrange a driver and he arranged the claimant (7.1); nothing material elicited in PW2's
+// cross-examination; proceedings are summary; the evidence "cogent, corroborative and trustworthy" and no contra evidence from the
+// insurer (7.2); following the Division Bench in Oriental Insurance Co. Ltd. v. Krishnan, (2003) 2 LW 73 and Oriental Insurance Co.
+// Ltd. v. Kaliya Pillai, (2002) 4 CTC 469: "when this Court finds that a claim under the Motor Vehicles Act is not maintainable, it is
+// the duty of the Court to consider converting the claim into one under the Employees' Compensation Act and grant the lesser relief
+// permissible thereunder, provided the facts establish that the claimant was employed by the owner of the vehicle and that the
+// accident occurred in the course of such employment"; employment by the owner and the insurance proved; findings concurred (7.3);
+// the plea that the claimant was not covered under any category of the policy rejected (7.4). ORDER: C.M.A. dismissed; the award of
+// 20.12.2022 confirmed; no costs; C.M.P. closed (8.1).
+// Not said: any person's name (the claimant and the respondents are private persons; the insurer is named only on the cite card);
+// "nearly twenty lakh" = Rs.19,77,595 (3.1). Flow policy: no accusation, no "fraud" / "collusion" / "admitted".
+# 1 · A DIFFERENT LAW?
+10 | A driver is badly hurt in an accident on duty, and claims under the Motor Vehicles Act. Can the tribunal pay him under a different law instead?
+10 | The tribunal gave him nearly twenty lakh rupees as employee's compensation. The insurer said: no power to switch laws, and no proof he was employed. Who was right? || The tribunal gave him nearly ₹20 lakh as employee's compensation. The insurer said: no power to switch laws, and no proof he was employed. Who was right?
+10 | Hi, I'm Ravishankar from LawWorld. On second November, twenty twenty six, Honourable Justice K K Ramakrishnan of the Madras High Court ruled. || Hi, I'm Ravishankar from LawWorld. On 2 November 2026, Honourable Justice K.K. Ramakrishnan of the Madras High Court ruled.
+# 2 · HURT ON DUTY
+10 | He drove a car insured with this insurer. In January twenty twenty, during his employment, he met with an accident and was severely injured. || He drove a car insured with this insurer. In January 2020, during his employment, he met with an accident and was severely injured.
+10 | He claimed under the Motor Vehicles Act. Finding he was the driver, the tribunal treated it as an employee's compensation claim, and added interest.
+# 3 · THE ARGUMENTS
+10 | In appeal, the insurer said there was no evidence or jurisdiction to convert the claim, and the amount did not follow the Employees' Compensation Act.
+10 | The driver replied that two witnesses proved he worked as the driver, and the compensation was properly worked out under the Employees' Compensation Act.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the High Court decide? The witnesses were cogent and trustworthy, and the insurer led no contrary evidence. He was the car owner's driver.
+10 | If a motor claim is not maintainable, but it's proved he was the owner's employee, hurt at work, the court must consider conversion. The appeal failed; the award stands.
+// Fact-check 04-11-2026 (independent, against the court's PDF): c06 "did not follow that Act" -> "did not follow the Employees'
+// Compensation Act" ("that Act" could be heard as the Motor Vehicles Act; para 4.1); c10 "the job and the accident on duty are proved"
+// -> "it's proved he was the owner's employee, hurt at work" (para 7.3 proviso: employed by the owner, accident in the course of such
+// employment). Cues: ENDCARD line restated as the Court's rule (not maintainable -> duty to consider converting, para 7.3). Rest verified.

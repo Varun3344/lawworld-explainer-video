@@ -1,0 +1,4 @@
+# Bandari Ramchander v. Maitri Coop. Housing Society Ltd. (SC, 2026 INSC 1175, M.M. Sundresh J. and Satish Chandra Sharma J., 29.10.2026, reportable): a jagir grant is a right over land revenue, not title; the Miyapur lands (Survey Nos. 100 and 101) belong to the State, all appeals dismissed. HOOK-format judgment reel, ENGLISH, 04-11-2026 (opening spoken to everyone, no "Advocates,").
+export SPLIT_D=downloads/jgr SPLIT_SB=split/jgr SPLIT_ALL=split/jgr_all_scenes.json SPLIT_GO=split/GOjgr
+export SPLIT_ACCOUNT=a1; . split/accounts.sh
+export SPLIT_VOCAB="LawWorld, Ravishankar, lawworld dot A I, Supreme Court, Honourable Justice M M Sundresh, Honourable Justice Satish Chandra Sharma, Nizam, firman, jagir, jagirs, jagirdar, Miyapur, Telangana, Sarkari poramboke, pattedar, village records, Special Court, High Court, vested, land revenue, title holder, nullity, proceedings, abolished, sanction, appeals dismissed"

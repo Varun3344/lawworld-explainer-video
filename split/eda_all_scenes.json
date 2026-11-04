@@ -1,0 +1,67 @@
+{
+ "projectTitle": "LawWorld_eda",
+ "title": "ED attachment of property bought before the crime",
+ "source": "split/scripts/eda.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Can the Enforcement Directorate attach property you bought years before the alleged crime even happened, so it was never bought with crime money?",
+   "chip": "1 · BOUGHT BEFORE THE CRIME"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "The Kerala High Court has said no, unless the proceeds went abroad. The Delhi High Court took a wider view. So which view would the Karnataka High Court take?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On twenty eighth October, twenty twenty six, Honourable Justice Suraj Govindaraj of the Karnataka High Court ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 28 October 2026, Honourable Justice Suraj Govindaraj of the Karnataka High Court ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "The petitioner bought a flat in two thousand four and some land in two thousand eight. The alleged offence, over iron ore, is from twenty eleven and twelve.",
+   "shown": "The petitioner bought a flat in 2004 and some land in 2008. The alleged offence, over iron ore, is from 2011-12.",
+   "chip": "2 · ATTACHED FOR ITS VALUE"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "In twenty twenty four, the E D provisionally attached both. It did not claim they were bought with crime money, but held them as property of equal value.",
+   "shown": "In 2024, the ED provisionally attached both. It did not claim they were bought with crime money, but held them as property of equal value."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "His counsel argued that property bought before a crime can never be its proceeds, and that equal value property can be taken only when proceeds go abroad.",
+   "chip": "3 · ONLY IF IT WENT ABROAD?"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The E D said the original money had been withdrawn or moved on, and that the petition was premature, as the Act has its own remedies.",
+   "shown": "The ED said the original money had been withdrawn or moved on, and that the petition was premature, as the Act has its own remedies."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? Property bought before the crime can still be attached for equal value, if the Act's conditions are met, even with nothing abroad.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "Whether those conditions are met is for the Adjudicating Authority, on the merits. So the writ petition was dismissed, with all remedies left open."
+  }
+ ]
+}

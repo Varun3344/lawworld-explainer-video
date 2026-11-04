@@ -1,0 +1,58 @@
+// Perumalla Kasi Rao v. Nukala Muralikrishna & Ors. (A.S. No. 82 of 2013), with Perumalla Kasi Rao v. Nagabhairava Medhini Devi & Ors.
+// (A.S. No. 83 of 2013) and Perumalla Kasi Rao v. Kodali Vidhyullatha & Ors. (A.S. No. 84 of 2013), common judgment, 2026:APHC:47171,
+// 47170 and 47172 (same text), High Court of Andhra Pradesh at Amaravati, Division Bench: D. Ramesh J. (official profile name: Justice
+// Donadi Ramesh) and Alapati Giridhar J. (who wrote it); reserved 04.08.2026, pronounced and uploaded Tuesday 03.11.2026.
+// REPORTABLE evidence: "LR copy to be marked" under the signatures (p.54) - marked to the Law Reporters (the neutral citation alone
+// proves nothing: AP gives one to every order).
+// HOOK format (split/JUDGMENT_HOOK_FORMAT.md), the High Courts page (ENGLISH). Opening clip spoken to everyone, no "Advocates,".
+// Source: the court's own PDFs (55 pages each, paras 1-104), scratchpad fresh4nov/tg_ap/ap/pdf/2026_APHC_47170.pdf (copied to
+// drafts4nov/sfr/pdf/ with 47171, 47172; identical but for the citation footer), read in full.
+// Facts used (para): appeals by the plaintiff against the decree and common order of the VI Additional District Judge, Markapur, of
+// 15.02.2012, allowing three I.A.s for rejection of the plaint under Order VII Rule 11 CPC in O.S. No. 43 of 2011, a suit for specific
+// performance of an agreement of sale dated 06.01.2010 (1). Plaint: D1 to D4 (a mother, two daughters, a son-in-law) own 47.50 acres
+// (10); on the night of 05.01.2010 D1, the eldest daughter managing the properties, agreed for herself and D2-D4 to sell for
+// Rs.2,38,00,000; Rs.5,00,000 earnest money paid; the four terms written by D1 in her own hand and signed (11); in August 2010 he
+// learnt that D1-D4 had executed nine documents (Doc. Nos. 5840-5848/2010, all of 20.08.2010) in favour of D5-D9 (15-16); suit for
+// specific performance (17-18). I.A.s by D2-D4, D1 and D5-D9 (19): the paper does not show who executed it or in whose favour, or a
+// description of the property (21); white paper, liable to stamp duty and penalty (22); only terms to enter into an agreement of sale
+// on 18.01.2010, an agreement to enter into an agreement is not enforceable (23); no written authorisation to D1 (25). Plaintiff: D1
+// did not deny her handwriting or receiving Rs.5,00,000; the trial court rejected the plaint on the ground that an agreement to enter
+// into another agreement is not enforceable, no authority, no names of vendors and vendees, no schedule (4); it nipped the plaint at
+// the threshold (5). Held: the Court looks only at the averments of the plaint and its documents, no mini-trial (30); the agreement's
+// recitals: 47.50 acres in Narasimhapuram and Markapuram, total Rs.2,38,00,000, 25% (Rs.60,00,000) with Rs.5,00,000 advance paid on
+// 06.01.2010, balance Rs.1,78,00,000 within four months and registration (34, 70); "all the essential ingredients of an agreement";
+// signatures of D1, the plaintiff and two witnesses; the defendants did not dispute her handwriting, the Rs.5,00,000 advance or her
+// signature (35, 60, 67); identification of the property not disputed (44-45); parties and authorisation are for trial (51, 57, 63);
+// "These disputed points on authorization and allied aspects shall be adjudicated only after trial" (66); an agreement to enter into
+// an agreement is not enforceable (69), but the defendants could not show any missing material term; "The Court also prima facie
+// finds that the agreement contains all essential terms", enforceable subject to proof, to be decided after trial (73); the trial
+// court "mainly relied on the principle that an agreement to execute another agreement is not enforceable without referring to the
+// contents of the agreement" (75); rejection is "a drastic power", Salim D. Agboatwala (77); the dispute pending about 16 years
+// without trial (85); "the impugned Order of the Trial Court in rejecting the plaint is not sustainable" (90); stamp duty, T.P. Act,
+// Registration Act - no grounds for rejection, may be raised at the appropriate stage (98). RESULT: the three appeals allowed with
+// costs; no view on the merits, the trial court to proceed on the merits uninfluenced (101); the plaintiff to deposit the balance
+// sale consideration by way of fixed deposits within 10 days, subject to the result; on failure the defendants may seek leave to
+// alienate under S. 52 T.P. Act (102); the suit to be disposed of preferably within 6 months of receipt of the judgment (103).
+// Not said: any private person's name (cite card cause title only); the deposit figure (para 100 says Rs.2.33 crore, para 102
+// Rs.2,28,00,000 - not voiced, not on a card); the I.A. year (para 1: 2011, para 19: 2009); that the agreement is valid or that the
+// buyer will win (no view on the merits, 101); the plaint's word "fraudulent" (16). Flow policy: no accusation next to a name, no
+// "fraud" / "collusion" / "admitted" (paras 45, 60 "Admittedly" not voiced). Party positions are voiced as "they said" / "the buyer
+// says" / "the buyer replied".
+# 1 · THROWN OUT BEFORE TRIAL?
+10 | You pay an advance on a handwritten deal for farmland, and the sellers then sell it to others. Can a court throw out your suit before any trial even begins?
+10 | In Andhra Pradesh, a trial court did just that, mainly calling the deal a mere agreement to agree. The buyer appealed to the High Court. Was the deal incomplete?
+10 | Hi, I'm Ravishankar from LawWorld. On third November, Honourable Justice D Ramesh and Honourable Justice Alapati Giridhar ruled. || Hi, I'm Ravishankar from LawWorld. On 3 November, Honourable Justice D. Ramesh and Honourable Justice Alapati Giridhar ruled.
+# 2 · THE HANDWRITTEN DEAL
+10 | The deal, written in January twenty ten, covered forty seven and a half acres for two crore thirty eight lakh rupees. The buyer paid five lakh as advance. || The deal, written in January 2010, covered 47.5 acres for ₹2.38 crore. The buyer paid ₹5 lakh as advance.
+10 | One owner wrote and signed it by hand, for her whole family, the buyer says. That August, the owners sold the land to others, and he sued for specific performance.
+# 3 · REJECT IT AT THE DOOR?
+10 | All the defendants sought rejection of the plaint. The paper, they said, named no buyer or seller, described no property, and only promised a later agreement.
+10 | They also said she had no authority to sign for the other owners. The buyer replied that she never denied her handwriting or the five lakh advance. || They also said she had no authority to sign for the other owners. The buyer replied that she never denied her handwriting or the ₹5 lakh advance.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the High Court decide? At this stage, only the plaint and its documents count, and on its face, this paper had every essential term of a sale.
+10 | The disputed points must go to trial. The appeals were allowed with costs, and the buyer must deposit the balance sale price within ten days, in fixed deposits.
+// Fact-check 04-11-2026 (independent, against the court's PDFs 2026:APHC:47170/47171/47172, identical text, paras 1-104; 47171 =
+// A.S. 82/2013 per the AP HC citation list): every spoken line, caption, cue card, quote (para 66 verbatim), amount, date, bench and
+// the thumbnail verified; signing for the family stays "the buyer says"; no merits view, suit to trial (101). No changes made.

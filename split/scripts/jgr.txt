@@ -1,0 +1,50 @@
+// Bandari Ramchander & Ors. v. Maitri Coop. Housing Society Ltd. & Ors., 2026 INSC 1175, Civil Appeal No. 10699 of 2013 with connected
+// civil appeals (M.M. Sundresh J. wrote it, Satish Chandra Sharma J.), decided 29.10.2026 (New Delhi; October 29, 2026), REPORTABLE.
+// HOOK format (split/JUDGMENT_HOOK_FORMAT.md), Supreme Court page (English). Opening clip spoken to everyone, no "Advocates," (03-11).
+// Source: the Supreme Court's PDF (44 pages, Verdictum's pdf_upload copy 926620034150175647judgement29-oct-2026watermark-1786943.pdf,
+// byte-identical to scratchpad fresh4nov/sc/pdf/i1175_bandari.pdf), paras 1-67, read in full.
+// Facts used (para): appeals against the A.P. High Court's common judgment of 16.04.2003 in W.P. 889/1998 and connected (1); lands in
+// Survey Nos. 100 and 101 of Village Miyapur, Serilingamapally Mandal, Ranga Reddy District, Telangana (4); "multiple individuals and
+// societies claim their title and possession through three different sources, by way of inheritance and various conveyance deeds";
+// Special Court under the A.P. Land Grabbing (Prohibition) Act, 1982 - LGC 21 and 22 of 1994 (State not a party); LGC 110/1994,
+// 131/1995, 136/1995 (State impleaded): the lands "poramboke lands" belonging to the State (5); extent 550 acres and 39 guntas; after
+// the 1912 survey, Ac. 277-05 (S.No.100) and Ac. 273-34 (S.No.101) classified as Sarkari poramboke (9); Paigah (Reilly) Commission
+// report 30.04.1927: Miyapur among four villages to be restored to an heir of the paigah family (10); Firman Isfandar 1338 Fasli: the
+// jagirs given to the present heirs (11); the 1929 firman: the paigah jagirs and immovable properties not to be sold, mortgaged or
+// gifted without the Nizam's sanction (12); A.P. (Telangana Area) Abolition of Jagirs Regulation 1358-Fasli from 15.08.1949 abolishing
+// all jagirs; notification 07.09.1949 transferring the jagirs to the administration of the State of Hyderabad from 15.09.1949 (13);
+// in the pahanies of 1950-51, 1951-52 and 1952-53 the name of one woman inserted as pattedar in column 14, despite "Poramboke" and
+// "Sarkari" in columns 11-12 (14); commutation award to the jagirdar's line, 1957-58 (16); appellants claim through the jagirdar's
+// line, and through two women of the same name (21-23, 38-40); in LGC 110/1994, 131/1995, 136/1995 applicants and private respondents
+// declared land grabbers and the State the rightful owner (23); the High Court, 16.04.2003, confirmed those, set aside LGC 21/22 of
+// 1994 and declared the State the rightful owner (7, 24). Held: a jagir = "a grant of the estate qua the right in respect of land
+// revenue. Therefore, a grant of jagir is not to be misconstrued as one of title over the property" (26); "a jagirdar is not a title
+// holder" (29); jagirdars entitled only to the commutation amount (33, 37); the State "the ultimate landlord" (34, Ahmad-un-Nissa);
+// submissions: the jagirdar-line appellants on the paigah village and the jagirdar's status (38); the other appellants on the pahanies
+// and revenue records, estoppel and adverse possession (39); the State: vesting took place under Regulation 5, commutation received
+// (41-43); "Even the said limited rights, transferred by the firman, have been statutorily removed" by the 1949 Regulation; pahanies
+// interpolated thereafter (45); receipt of the commutation amount disentitles the jagirdar's line (46); the entries "have been made
+// without any authority or jurisdiction. They constitute an act of nullity" (49); "There is absolutely no power to record the name of
+// an individual as a pattedar, through a mere entry, sans any proceedings" (52); the Tahsildar's permission to alienate a nullity (53);
+// "the title of the State is clearly established" (58); no perversity in the High Court's judgment; appeals dismissed (60, 64); no
+// equities (63); no costs (65); impleadment / intervention applications dismissed (66).
+// Not said in speech: any person's name (the paigah heirs, the two women, the GPA holder, the claimants are private persons; the cite
+// card carries the cause title only); "land grabbers" and the Court's fraud finding (51, 58) - cards and speech stay neutral; Flow
+// policy: no "fraud" / "collusion" / "admitted". Hyderabad is not said (the judgment places Miyapur in Ranga Reddy District, Telangana).
+# 1 · DOES A JAGIR MAKE YOU OWNER?
+10 | If a ruler once granted a family a whole village as a jagir, does that family own the land today? Or did the grant give it something else?
+10 | At stake: about five hundred and fifty acres at Miyapur, in Telangana. Individuals and societies claimed it through three different sources. So who owns it? || At stake: about 550 acres at Miyapur, in Telangana. Individuals and societies claimed it through three different sources. So who owns it?
+10 | Hi, I'm Ravishankar from LawWorld. On twenty ninth October, Honourable Justice M M Sundresh and Honourable Justice Satish Chandra Sharma ruled. || Hi, I'm Ravishankar from LawWorld. On 29 October, Honourable Justice M.M. Sundresh and Honourable Justice Satish Chandra Sharma ruled.
+# 2 · FROM FIRMAN TO ABOLITION
+10 | The nineteen twelve survey recorded this land as government land. Then, in nineteen twenty nine, the Nizam's firman settled Miyapur on a family as a jagir. || The 1912 survey recorded this land as government land. Then, in 1929, the Nizam's firman settled Miyapur on a family as a jagir.
+10 | But the firman barred any sale without the Nizam's sanction. From August nineteen forty nine, a new law abolished all jagirs, and the State took them over. || But the firman barred any sale without the Nizam's sanction. From August 1949, a new law abolished all jagirs, and the State took them over.
+# 3 · RIVAL CLAIMS
+10 | Yet in the early nineteen fifties, a woman's name was entered as pattedar in the village records. Claimants through her, and through the jagirdar, sought the land. || Yet in the early 1950s, a woman's name was entered as pattedar in the village records. Claimants through her, and through the jagirdar, sought the land.
+10 | The Special Court and the High Court held the State owns it. In appeal, claimants cited the old grant and records. The State said it all vested in nineteen forty nine. || The Special Court and the High Court held the State owns it. In appeal, claimants cited the old grant and records. The State said it all vested in 1949.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the Supreme Court decide? A jagir grant is a right over land revenue, not title to the land. A jagirdar is not a title holder.
+10 | Those limited rights ended in nineteen forty nine, and entries made without proceedings were a nullity. The land is the State's, and the appeals were dismissed. || Those limited rights ended in 1949, and entries made without proceedings were a nullity. The land is the State's, and the appeals were dismissed.
+// Fact-check 04-11-2026 (independent, against the official PDF): spoken lines c01-c10 unchanged. Card fix: c02 counter label
+// "Miyapur village" -> "The lands in dispute" (para 9: the 550 acres 39 guntas are Survey Nos. 100 and 101, not the whole village).

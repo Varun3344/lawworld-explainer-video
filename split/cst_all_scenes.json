@@ -1,0 +1,66 @@
+{
+ "projectTitle": "LawWorld_cst",
+ "title": "Lockdown and the demand charges",
+ "source": "split/scripts/cst.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "The lockdown hits a factory, and its power use falls to a tiny fraction. Must it still pay the fixed demand charges on its electricity bill?",
+   "chip": "1 · LOCKDOWN: STILL PAY?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "A single judge of the Karnataka High Court cut its April demand charges to match the power used. The electricity company appealed. So who was right?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On twenty ninth October, Honourable Chief Justice Vibhu Bakhru and Honourable Justice K S Hemalekha ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 29 October, Honourable Chief Justice Vibhu Bakhru and Honourable Justice K.S. Hemalekha ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "A tyre maker runs plants in Mysuru on two high tension power connections. The nationwide lockdown ran from twenty fourth March to third May, twenty twenty.",
+   "shown": "A tyre maker runs plants in Mysuru on two high-tension power connections. The nationwide lockdown ran from 24 March to 3 May 2020.",
+   "chip": "2 · THE LOCKDOWN BILL"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "In April, its use fell to about three and five percent of normal. The State exempted M S M E units from demand charges, but others could only pay later.",
+   "shown": "In April, its use fell to about 3% and 5% of normal. The State exempted MSME units from demand charges, but others could only pay later."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "Its request for a waiver was refused. But the single judge treated the lockdown as force majeure and cut April's demand charges in proportion to use.",
+   "chip": "3 · DEMAND OR MINIMUM CHARGE?"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The electricity company appealed: demand charges are not minimum charges, and a billing dispute belongs before the consumer grievance forum."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? The force majeure clause applies only if something stops the consumer from receiving power, like war, riot or a strike.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "Here, it did receive and use power, and no notice was given under that clause. So the appeal was allowed, and the single judge's order was set aside."
+  }
+ ]
+}

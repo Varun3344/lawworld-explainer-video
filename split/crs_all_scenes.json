@@ -1,0 +1,69 @@
+{
+ "projectTitle": "LawWorld_crs",
+ "title": "Cuts never challenged",
+ "source": "split/scripts/crs.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Your claim never disputes the deductions made from your final bill for defects. Can an arbitrator still go through each one, and give that money back to you?",
+   "chip": "1 · CUTS NEVER CHALLENGED?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "An arbitrator awarded a contractor over forty eight lakh rupees. A Single Judge then cut about nine lakh, and all the costs. Will the Delhi High Court restore them?",
+   "shown": "An arbitrator awarded a contractor over ₹48 lakh. A Single Judge then cut about ₹9 lakh, and all the costs. Will the Delhi High Court restore them?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On the twenty ninth of October, Honourable Justice Avneesh Jhingan and Honourable Justice Amit Sharma ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On the 29th of October, Honourable Justice Avneesh Jhingan and Honourable Justice Amit Sharma ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "In two thousand four, IRCON hired a contractor to build corporate office buildings in Saket, New Delhi. Later, disputes went to an arbitrator.",
+   "shown": "In 2004, IRCON hired a contractor to build corporate office buildings in Saket, New Delhi. Later, disputes went to an arbitrator.",
+   "chip": "2 · AN OFFICE AT SAKET"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "The contractor had raised eight claims, and won part of two, plus five and a half lakh rupees as costs. IRCON then challenged the unpaid work part, and the costs.",
+   "shown": "The contractor had raised eight claims, and won part of two, plus ₹5.5 lakh as costs. IRCON then challenged the unpaid work part, and the costs."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The contractor argued that the Single Judge had gone beyond Section Thirty Four, replacing the arbitrator's plausible view, and that the costs were well reasoned.",
+   "shown": "The contractor argued that the Single Judge had gone beyond Section 34, replacing the arbitrator's plausible view, and that the costs were well reasoned.",
+   "chip": "3 · THE APPEAL"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "IRCON replied that the arbitrator found the final bill undisputed, yet examined every deduction, and ignored the factors the law lists for costs."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? The arbitrator itself found no pleading against the final bill or its deductions, made for defects the contractor accepted.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "Yet it examined them on merits, beyond the dispute. Costs ignored the factors in Section Thirty One A, like partial success. The contractor's appeal was dismissed.",
+   "shown": "Yet it examined them on merits, beyond the dispute. Costs ignored the factors in Section 31A, like partial success. The contractor's appeal was dismissed."
+  }
+ ]
+}

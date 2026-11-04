@@ -1,0 +1,4 @@
+# Royal Sundaram General Insurance v. Asaraf Asad (Madras HC, Madurai Bench, C.M.A.(MD) 627/2024, 02.11.2026, reportable): a driver hurt on duty - MV Act claim treated as employee's compensation, Rs.19,77,595 award confirmed. HOOK-format judgment reel, ENGLISH, 04-11-2026 (opening spoken to everyone, no "Advocates,").
+export SPLIT_D=downloads/drv SPLIT_SB=split/drv SPLIT_ALL=split/drv_all_scenes.json SPLIT_GO=split/GOdrv
+export SPLIT_ACCOUNT=main; . split/accounts.sh
+export SPLIT_VOCAB="LawWorld, Ravishankar, Madras High Court, Honourable Justice K K Ramakrishnan, driver, on duty, Motor Vehicles Act, tribunal, insurer, employee's compensation, Employees' Compensation Act, lakh rupees, employment, severely injured, interest, evidence, jurisdiction, convert, conversion, witnesses, cogent, trustworthy, contrary evidence, maintainable, appeal, award, lawworld dot A I"

@@ -1,0 +1,54 @@
+// In Re: XXX, a Judicial Officer in the District Judge Cadre of Rajasthan Judicial Services, 2026 INSC 1188, Criminal Appeal No. ___ of
+// 2026 (arising out of SLP (Crl.) No. 13501 of 2025) (Sandeep Mehta J. wrote it, Devendra Kumar Upadhyaya J.), decided 02.11.2026 (New
+// Delhi; November 02, 2026; digitally signed 2026.11.02), REPORTABLE. HOOK format (split/JUDGMENT_HOOK_FORMAT.md), Supreme Court page
+// (English). Opening clip spoken to everyone, no "Advocates," (owner 03-11-2026).
+// Source: the Supreme Court's signed PDF (13 pages, Verdictum's pdf_upload copy rajasthan-judicial-services-1787129.pdf, byte-identical
+// to scratchpad fresh4nov/sc/pdf/i1188_judofficer.pdf), paras 1-29, read in full.
+// Facts used (para): the appellant a Judicial Officer of the District Judge cadre, Rajasthan Judicial Services; her name masked in the
+// title (3); "To err is human, to forgive, divine" (4); Article 227: supervisory jurisdiction, to guide, strengthen and nurture the
+// district judiciary (5); FIR 56/2019, PS Malsisar, District Jhunjhunu, under s.376-D IPC and ss.3-4 POCSO (7); one accused a child in
+// conflict with law, found fit to be tried as an adult and sent to the Special Judge, POCSO Cases, Jhunjhunu (8); a separate trial of
+// the adult co-accused; s.23 JJ Act bars joint proceedings, so separate trials and distinct judgments (9); separate judgments on
+// 20.01.2024 convicting both, 20 years' RI each (10); some overlapping extracts of evidence / numerical details of one trial
+// "inadvertently incorporated" into the other judgment (11); the High Court (single Judge), 01.05.2025, rejected the suspension of
+// sentence application on merits, but held she used "cut, copy and paste" and "in all probability" the judgment was scripted by the
+// Stenographer / Clerk and signed without being read and corrected; adverse remarks in its paras 8-11, including "such a Judicial
+// Officer is not entitled to remain in service of Judiciary"; directions: a copy to the Rajasthan Judicial Academy for training in
+// judgment writing (17) and a copy to be made part of her ACR for 2024 after obtaining her comments (18) (13); her appeal seeks
+// expungement (14). Held: the remarks "were uncalled for and avoidable", recorded on the judicial side "without affording an
+// opportunity to the appellant-Judicial Officer to show cause or to place her explanation on record", so they "suffer from the vice of
+// non-adherence to the principles of natural justice" (16); her explanation: the facts of both cases intermingled, the witnesses and
+// evidence almost the same (17); POCSO courts' limited resources and time-bound disposal (18); the sole Stenographer on leave, part
+// dictated to the LDC; the errors, incl. wrong serial numbers of prosecution witnesses, "according to her" bona fide typographical
+// errors that did not affect the outcome (19); the High Court should have acted with greater magnanimity, as "guardian of the officers
+// in the district judiciary" under Article 227 (20); "To castigate a Judicial Officer for inadvertent typographical errors in a
+// judgment, which did not, in any manner, affect the outcome of the case was avoidable" (21); Kaushal Singh: High Courts should
+// ordinarily refrain from strictures against Judicial Officers on the judicial side; concerns may go to the Chief Justice on the
+// administrative side (22); such remarks may destroy a career and chill the district judiciary; no dereliction of duty (23); even if
+// there was an error, no adverse observations "without first affording her an opportunity to explain"; contrary to 'audi alteram
+// partem' (24); Shuvendu Saha, 2026 INSC 367: where warranted, observations in a remark slip placed before the administrative Judge or
+// the Chief Justice for follow-up on the administrative side; condemnation on the judicial side without natural justice
+// "unsustainable in the eyes of law" (25); remarks in paras 9, 10, 11 and directions 17, 18 (training, ACR) "expunged and set aside"
+// (26); appeal allowed (27); copy to the Registrar General for the Chief Justice of the Rajasthan High Court (28).
+// Not said: the officer's name (masked by the Court) or anything identifying her; the accused, the victim, the offence details; the
+// High Court judge's name (not in the judgment). Flow policy: no accusation against a named person; no "fraud" / "collusion" /
+// "admitted".
+# 1 · CONDEMNED UNHEARD?
+10 | When a trial judge's verdict has some typing errors, can a higher court condemn that judge in a judicial order, without first hearing the judge's side?
+10 | The High Court wrote that such an officer is not entitled to remain in service, and ordered a copy placed in her annual record. So was that fair?
+10 | Hi, I'm Ravishankar from LawWorld. On second November, Honourable Justice Sandeep Mehta and Honourable Justice Devendra Kumar Upadhyaya ruled. || Hi, I'm Ravishankar from LawWorld. On 2 November, Honourable Justice Sandeep Mehta and Honourable Justice Devendra Kumar Upadhyaya ruled.
+# 2 · TWO TRIALS, ONE SLIP
+10 | A district judge in Rajasthan heard two trials from one case: a juvenile tried as an adult, and an adult co-accused. The law required separate judgments.
+10 | On the same day in January twenty twenty four, she convicted both of them. But some evidence details from one trial slipped, by mistake, into the other judgment. || On the same day in January 2024, she convicted both of them. But some evidence details from one trial slipped, by mistake, into the other judgment.
+# 3 · CUT, COPY AND PASTE?
+10 | While refusing to suspend the sentence, the High Court blamed her: cut, copy and paste, a judgment probably written by her staff and signed without being read.
+10 | Before the Supreme Court, she explained that both cases had almost the same witnesses, her only stenographer was on leave, and the errors were typographical.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the Supreme Court decide? The strictures were recorded on the judicial side, without giving her a chance to explain. That breaks natural justice.
+10 | If needed, concerns go in a remark slip to the Chief Justice, on the administrative side. The remarks and directions were set aside, and her appeal was allowed.
+// Fact-check 04-11-2026 (independent, against the official PDF): spoken lines c01-c10 unchanged. Card fixes: c06 flow sub
+// "on the merits of the appeal" -> "after discussing the merits" (para 13: only the suspension-of-sentence application was decided,
+// "after discussing merits of the case"; the appeal itself was not); c10 point card drops the precedent party name "Shuvendu Saha"
+// (names only in the cite card), keeps 2026 INSC 367 (para 25).

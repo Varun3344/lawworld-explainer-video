@@ -1,0 +1,52 @@
+// Lourde Marie Dhambarane (rep. by power agent) & Anr. v. S. Santhi, C.R.P. No. 1196 of 2022 (& C.M.P. Nos. 6364 of 2022 & 6188 of
+// 2023), 2026:MHC:4366, High Court of Judicature at Madras, single Judge: N. Anand Venkatesh, J.; reserved 27.10.2026, delivered
+// 29.10.2026 ("Index: Yes", "Speaking Order", "Neutral Citation: Yes"). REPORTABLE: the court's own judis database lists it under
+// "Reportable" (judge-wise search, reportable=Y, 28.10-04.11.2026, re-run 04-11-2026: CRP.1196/2022, filename 1385959, citno
+// 2026/MHC/4366; also in fresh4nov/khc_mhc/mhc/mhc_Y.json). HOOK format (split/JUDGMENT_HOOK_FORMAT.md), the High Courts page
+// (ENGLISH). Opening clip spoken to everyone, no "Advocates," (owner 03-11-2026).
+// Source: the court's own PDF (17 pages, mhc.tn.gov.in/judis viewpdf 1385959, footer "Uploaded on: 30/10/2026 01:14:27 pm"; md5
+// identical to fresh4nov/khc_mhc/mhc/pdf/20261029_CRP_1196_2022.pdf), read in full; scratchpad drafts4nov/gft/.
+// Facts used (para): revision under Article 227 by the defendants to strike off the plaint in O.S. 756/2020, Principal District
+// Munsif Court, Puducherry (prayer, 1). The plaintiff sued for a permanent injunction against interference with her possession,
+// claiming ownership under a sale deed dated 27.1.2012 (4). The owner (the first petitioner's father) sued his tenant for ejectment
+// in O.S. 945/1982, decreed 11.11.1983; reversed in A.S. 25/1984 (22.12.1987); this Court restored the decree on 18.8.2000 in S.A.
+// 1441/1988; the Supreme Court confirmed it in C.A. 5384/2001 on 23.11.2005, granting the tenant time till 31.8.2006 to vacate (5(a)).
+// The tenant and his wife executed a registered settlement deed dated 10.8.2001 in favour of their son, who executed two registered
+// sale deeds, one to the plaintiff and one to another buyer; on the owner's heirs' application, the District Registrar cancelled the
+// plaintiff's sale deed on 11.12.2015 (5(b)). The plaintiff's W.P. 5723/2014 against a Tahsildar's order of 11.2.2014 was dismissed
+// on 05.01.2016 (5(c), (d)); the other buyer's W.P. 12168/2014 was dismissed on 21.4.2023 with a direction to vacate (5(e), (f), 10).
+// O.S. 756/2020 filed for an injunction; this C.R.P. seeks to strike it off (5(g)). Defendants: the plaintiff concealed all the
+// earlier facts; abuse of process; an attempt to get over the earlier decrees and writ orders (6). Plaintiff: P. Suresh v. D.
+// Kalaivani, 2026 (7) SCC 644 - a petition under Article 227 cannot be entertained to strike off a plaint (7); P. Suresh, paras 37-40:
+// Article 227 "has to be treated as an exceptional resort when an alternative efficacious civil remedy ... like Order VII Rule 11, CPC
+// ... is available" (8, 9). Held: "a text book case" (10); the plaintiff, "apart from concealing all the earlier proceedings upto the
+// Hon'ble Apex Court and the orders passed in the earlier writ petitions, has indulged in abuse of process of court and used the Court
+// to perpetuate illegality"; the tenant's settlement deed and the son's sale deeds "would amount to contumacious conduct and would
+// tantamount to contempt of court" (11); the owner "has been made to run from pillar to post till date" despite succeeding up to the
+// Supreme Court in 2005; the suit "is a clear abuse of process of court and a re-litigation, which are not grounds that can be raised
+// under Order VII Rule 11 of the CPC"; a fit case to exercise Article 227 "in order to prevent further miscarriage of justice" (12);
+// the plea that the property is different is unsustainable - she claims through the same settlement deed and sale deeds (13-15).
+// ORDER: C.R.P. allowed; O.S. 756/2020 struck off the register; no costs; C.M.P.s closed (16).
+// Not said: any person's name (the tenant, his son, the plaintiff, the other buyer, the owner and his heirs are private persons; the
+// cite card carries the cause title only); the Tahsildar's "fraud" / land-grabbing finding (5(c)); the contempt remark (11, card-free).
+// Sequence: only the dates the judgment gives (settlement deed 10.8.2001; Supreme Court 23.11.2005; sale deed 27.1.2012) - no
+// "before/after the Supreme Court order" claim. Flow policy: no accusation next to a name, no "fraud" / "collusion" / "admitted".
+# 1 · THROWN OUT AT ONCE?
+10 | A tenant loses his eviction case right up to the Supreme Court. A buyer from his son then sues to keep the property. Can the High Court throw that suit out itself?
+10 | The owner won his case in two thousand five, yet his family is still in court. The usual remedy lies with the trial court. So can the High Court step in directly? || The owner won his case in 2005, yet his family is still in court. The usual remedy lies with the trial court. So can the High Court step in directly?
+10 | Hi, I'm Ravishankar from LawWorld. On twenty ninth October, twenty twenty six, Honourable Justice N Anand Venkatesh of the Madras High Court ruled. || Hi, I'm Ravishankar from LawWorld. On 29 October 2026, Honourable Justice N. Anand Venkatesh of the Madras High Court ruled.
+# 2 · SIGNED OVER, THEN SOLD
+10 | The owner sued to evict his tenant in nineteen eighty two. The Supreme Court upheld the eviction in two thousand five, giving time till August two thousand six. || The owner sued to evict his tenant in 1982. The Supreme Court upheld the eviction in 2005, giving time till August 2006.
+10 | In two thousand one, the tenant and his wife signed the property over to their son by a settlement deed. In twenty twelve, the son sold it to this buyer. || In 2001, the tenant and his wife signed the property over to their son by a settlement deed. In 2012, the son sold it to this buyer.
+10 | The District Registrar cancelled her sale deed, and her writ petition failed. In twenty twenty, she sued for an injunction to protect her possession. || The District Registrar cancelled her sale deed, and her writ petition failed. In 2020, she sued for an injunction to protect her possession.
+# 3 · THE ARGUMENTS
+10 | The defendants called it an abuse of process that hid the earlier cases. Citing the Supreme Court, she said Article Two Twenty Seven cannot strike off a plaint. || The defendants called it an abuse of process that hid the earlier cases. Citing the Supreme Court, she said Article 227 cannot strike off a plaint.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the High Court decide? This suit was abuse of process and re-litigation, not grounds under Order Seven Rule Eleven, so it had to step in. || Finally, what did the High Court decide? This suit was abuse of process and re-litigation, not grounds under Order VII Rule 11, so it had to step in.
+10 | It found she hid the earlier cases and used the court to perpetuate an illegality. The revision was allowed, and her suit was struck off the register.
+// Fact-check 04-11-2026 (independent, against the court's PDF): c02 "won back in 2005" -> "won his case in 2005" ("won back" could be heard
+// as getting the property back; para 12: he is still running "from pillar to post"); c09 tied to this suit ("This suit was abuse of
+// process and re-litigation", para 12) instead of a general rule; c10 "It found she hid..." so the concealment is the Court's finding
+// (para 11), not the narrator's. Cues: c02 head "Over twenty years on" (2005-2026); ENDCARD line tied to this suit. Rest verified.

@@ -1,0 +1,63 @@
+// The Secretary to Government, Municipal Administration and Water Supply Department, Government of Tamil Nadu & Anr. v. Waste
+// Management Operators Association of South India, W.A. No. 3362 of 2026 (& C.M.P. No. 30001 of 2026), CNR HCMA012651622026,
+// 2026:MHC:4432, High Court of Judicature at Madras, Division Bench: Sushrut Arvind Dharmadhikari, CJ (delivered it) and
+// G. Arul Murugan, J.; judgment dated and uploaded 03.11.2026 ("Index : Yes", "Neutral Citation : Yes"). REPORTABLE: the court's own
+// judis database lists it under "Reportable" (judge-wise search, list fresh4nov/khc_mhc/mhc/mhc_Y.json: WA.3362/2026, filename
+// 1387664, citno 2026/MHC/4432, juddate 2026/11/03). HOOK format (split/JUDGMENT_HOOK_FORMAT.md), the High Courts page (ENGLISH).
+// Opening clip spoken to everyone, no "Advocates," (owner 03-11-2026).
+// Source: the court's own PDF (12 pages, mhc.tn.gov.in/judis, footer "Uploaded on: 03/11/2026 08:29:59 pm"), read in full; scratchpad
+// drafts4nov/wst/src/20261103_WA_3362_2026.pdf + drafts4nov/wst/wst.txt.
+// Facts used (para): intra-court appeal under Clause 15 of the Letters Patent by the State against the interlocutory order dated
+// 30.10.2026 of the Single Judge in W.M.P. No. 50214 of 2026 in W.P. No. 44715 of 2026 (prayer, 1); the Single Judge granted an
+// "omnibus stay" of G.O. (Ms.) No. 181, Municipal Administration and Water Supply (ME.3) Department, dated 09.10.2026, on the
+// restructuring and execution of Solid Waste Management operations under "Category II" across 147 Urban Local Bodies (1). Issue:
+// whether the Single Judge was justified in an expansive interim order that effectively granted the final relief, halting a major
+// executive policy framework on public health and municipal conservancy on the eve of the expiry of transitional contract extensions,
+// without satisfying the tests for interlocutory orders (2). Advocate General: the policy is in the executive domain and the Urban
+// Local Bodies' competence, Article 243W with Entry 6 of the Twelfth Schedule (3.1); the G.O. is for compliance with the Solid Waste
+// Management Rules under the Environment (Protection) Act, 1986; the new hybrid direct-management model uses direct electronic bank
+// transfers, biometric attendance and direct statutory remittances (3.2); contractors have no vested right to perpetual renewals or to
+// insist on outsourcing (Erusian Equipment, (1975) 1 SCC 70; Association of Registration Plates, (2005) 1 SCC 679) (3.3); the
+// association represents only seven private operators with no subsisting contract with any ULB; a Rs.616.28 crore framework across
+// 147 ULBs, 140 of them with zero subsisting contracts (3.4, the State's submission); balance of convenience with the State; the stay
+// threatened "complete sanitation paralysis" (3.5). Respondent: G.O. 181 is arbitrary, Article 14, splitting the ULBs into Category I
+// and Category II "without any intelligible differentia" (4.2); under the 2022 policy contractors invested in compactor trucks, hook
+// loaders, battery-operated vehicles and sorting equipment; legitimate expectation; Article 19(1)(g) (4.3); the writ appeal is not
+// maintainable against an ad-interim order, the State ought to have sought to vacate the stay before the Single Judge (4.4). HELD: an
+// interlocutory order with the characteristics of a "judgment" is appealable (5); Midnapore Peoples' Coop. Bank v. Chunilal Nanda,
+// (2006) 5 SCC 399, five categories (6); this interim order is not routine (categories iv/v): "by paralyzing essential municipal
+// sanitation operations across 147 urban centres and altering vital legal rights", it is a "judgment" open to appeal under Clause 15
+// (7); N.G. Projects, (2022) 6 SCC 127, and NHSRCL v. Montecarlo, (2022) 6 SCC 401: courts must refrain from mechanical interim stays
+// halting essential public works or utilities; "When private commercial expectations are pitted against overwhelming public interest,
+// public interest must decisively prevail."; here the balance of convenience lay "overwhelmingly in favour of the State" (8); the
+// interlocutory order of 30.10.2026 set aside in the larger public interest (9). ORDER: writ appeal allowed, the order of 30.10.2026
+// set aside, "full liberty to implement G.O. (Ms.) No.181", no costs, C.M.P. closed (10); all observations "strictly prima facie",
+// confined to the interlocutory relief; the merits to be decided independently by the Single Judge; counter-affidavits in three
+// weeks; the Single Judge requested to expedite W.P. No. 44715 of 2026 (closing paragraph after 10).
+// Not said: the State's allegations against intermediaries / contractors (3.2: EPF/ESI deductions, "ghost workers", "profiteering")
+// and its attack on the association's standing (3.4) - kept off speech and the verdict cards (neutral reel, no accusation against
+// any company or official); the Rs.616.28 crore figure (a party's figure; not used). The association is named on the cite card only.
+// "urban centres" (7) / "urban local bodies" (1) for the 147 ULBs. The decision is interlocutory: speech ends "the main case continues".
+# 1 · A STAY ON THE WASTE PLAN
+10 | A State changes how garbage is handled in one hundred and forty seven urban centres. A court stays the whole plan. Should a court freeze public sanitation like that? || A State changes how garbage is handled in 147 urban centres. A court stays the whole plan. Should a court freeze public sanitation like that?
+10 | Private waste operators called the plan arbitrary, and a Madras High Court judge stayed all of it. Can the State appeal that interim stay? And will the stay survive?
+10 | Hi, I'm Ravishankar from LawWorld. In Madras, Honourable Chief Justice Sushrut Arvind Dharmadhikari and Honourable Justice G Arul Murugan ruled. || Hi, I'm Ravishankar from LawWorld. In Madras, Honourable Chief Justice Sushrut Arvind Dharmadhikari and Honourable Justice G. Arul Murugan ruled.
+# 2 · ONE ORDER, ONE STAY
+10 | On ninth October, Tamil Nadu issued a Government Order restructuring solid waste management in one hundred and forty seven urban local bodies. || On 9 October, Tamil Nadu issued a Government Order restructuring solid waste management in 147 urban local bodies.
+10 | An association of waste operators challenged it in a writ petition. On thirtieth October, a Single Judge stayed the whole order, and the State appealed. || An association of waste operators challenged it in a writ petition. On 30 October, a Single Judge stayed the whole order, and the State appealed.
+# 3 · BOTH SIDES
+10 | The State said waste policy is the executive's call, contractors have no right to endless renewals, and a blanket stay risked sanitation paralysis.
+10 | The operators said the two categories had no rational basis, and they had invested in trucks. They said the State should first ask the Single Judge to lift the stay.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the High Court decide? This was no routine order. It froze sanitation across one hundred and forty seven urban centres, so an appeal lay. || Finally, what did the High Court decide? This was no routine order. It froze sanitation across 147 urban centres, so an appeal lay.
+10 | Against overwhelming public interest, private commercial expectations must yield. The balance favoured the State, so the stay was set aside; the main case continues.
+// Fact-check 04-11-2026 (independent check against the court's own 12-page PDF, paras 1-10 and the closing paragraph): facts,
+// dates, numbers, bench and outcome verified; card quotes verbatim (8); verdict rows and thumbnail stay within the holding (interim
+// stay set aside, observations "strictly prima facie", merits left to the Single Judge). c01 NOT edited (already filmed); no problem
+// found in it. Changed: c06 "...endless renewals. A blanket stay risked sanitation paralysis." -> "...endless renewals, and a blanket
+// stay risked sanitation paralysis." so the sanitation-paralysis line stays the State's submission (3.5), not the narrator's;
+// c10 "Public interest must prevail over private commercial expectations" -> "Against overwhelming public interest, private
+// commercial expectations must yield": the Court's rule is conditional on "overwhelming public interest" (8), the old line dropped
+// that qualifier. Cue anchors (state, policy, renewals, paralysis; public, so, stay, aside, continues) unchanged. Cards: no change.

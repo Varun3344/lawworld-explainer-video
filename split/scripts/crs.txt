@@ -1,0 +1,54 @@
+// C R Sons Infra Projects Ltd v. IRCON International Ltd (spelt "IRCON INTERNATION LTD" in the cause title), FAO(OS) (COMM) 60/2019,
+// CNR DLHC010157052019, High Court of Delhi at New Delhi, Division Bench: Avneesh Jhingan, J. (wrote it, ORAL) and Amit Sharma, J.,
+// date of decision 29.10.2026 (signed 02.11.2026). REPORTABLE: "Reportable: Yes" printed at the end of the judgment (page 8 of 8,
+// under the signatures). HOOK format (split/JUDGMENT_HOOK_FORMAT.md), the High Courts page (ENGLISH). Opening clip spoken to everyone,
+// no "Advocates," (owner 03-11-2026).
+// Source: Indian Kanoon doc 128645259 (the court's digitally signed 8-page PDF reproduced page by page, "Signed By:CHANCHAL",
+// "Signing Date:02.11.2026"), read in full; scratchpad drafts4nov/crs/src/128645259.html + drafts4nov/crs/crs_ik.txt. The court's own
+// PDF is NOT in the delhihighcourt.nic.in "Latest Judgments" list (checked 04-11-2026) and its case-number judgment search is behind
+// a captcha, so the Indian Kanoon text is used (IK's own metadata line "Author/Bench: Amit Sharma" is wrong: the text says "AVNEESH
+// JHINGAN, J. (ORAL)"). No LiveLaw / Verdictum copy found.
+// Facts used (para): Section 37 appeal against the Single Judge's judgment of 14.12.2018 partially allowing IRCON's Section 34 objection
+// petition (1); IRCON invited tenders for the construction of corporate office buildings at C-4, District Centre, Saket, New Delhi;
+// CRS the successful bidder; Letter of Acceptance 19.07.2004; agreement 17.08.2004 with an arbitration clause (2); arbitration invoked by
+// CRS; award dated 27.02.2018 (2.1); CRS raised eight claims, partially succeeded in two and was awarded cost of Rs.5.5 lakhs; claim 1
+// (work done but not paid) Rs.2,70,25,343 claimed, Rs.11,83,921.94 awarded; claim 3 (retention / security money) Rs.31,37,844 awarded;
+// claim 7: 9% simple interest p.a. from January 2010; claim 8 (litigation cost) Rs.5.50 lakhs; total Rs.48,71,765.94 (2.2); IRCON's
+// Section 34 petition challenged claim 1 and the cost; allowed: the award "to the extent of directing payment of Rs.9,28,205/- under
+// claim no.1 and cost of Rs.5.5 lakhs was set aside" (2.3). CRS: the Single Judge exceeded the scope of Section 34 and substituted the
+// plausible view of the arbitrator (Konkan Railway, (2023) 9 SCC 85) (3); the final bill and deductions were in dispute, IRCON failed to
+// defend them (3.1); detailed reasons for costs, Section 31A discretion rightly exercised (Om Vajrakaya, 2021:DHC:4273) (3.2). IRCON:
+// Section 37 scope limited; the arbitrator found the final bill and the deductions not disputed, yet examined the deductions on merits;
+// costs set aside rightly for failure to consider the Section 31A(3) factors (4). No other contention pressed (5). Section 37: only
+// whether Section 34 was exercised within its four corners (6; AC Chokshi, (2025) 5 SCC 321; SEPCO, (2026) 2 SCC 542). The Single
+// Judge examined award paras 203-206: CRS did not refute the final bill or the deductions; it failed to prove its own bill Ex.CW-1/20
+// and claimed on IRCON's final bill; the arbitrator observed there was no pleading challenging the final bill or the deductions; the
+// deductions were for defects in the work, accepted by CRS; the arbitrator could not independently examine them and went beyond the
+// issue in dispute (7). Konkan Railway "of no avail": the arbitrator, contradicting its finding that there was no pleading challenging
+// the final bill or the deductions, considered the deductions on merits "acting beyond the referred dispute" (8). Section 31A(3)
+// factors (9); the factors were not gone into; partial success not considered; five out of seven claims "found to be frivolous"; costs
+// "contrary to the statutory provisions", "vitiated by patent illegality" (10); Om Vajrakaya not applicable (11). "No case is made out
+// for interference in the impugned judgement. The appeal is dismissed." (12).
+// Not said: "frivolous" (10) - kept off speech (the contractor is not named in speech; its name is on the cite card only); "over forty
+// eight lakh rupees" = the award total Rs.48,71,765.94 (2.2), plus 9% interest on claim 7; "about nine lakh" = Rs.9,28,205 (2.3).
+// The judgment does not itemise which deductions made up the Rs.9,28,205; speech says only that the Judge "cut about nine lakh".
+# 1 · CUTS NEVER CHALLENGED?
+10 | Your claim never disputes the deductions made from your final bill for defects. Can an arbitrator still go through each one, and give that money back to you?
+10 | An arbitrator awarded a contractor over forty eight lakh rupees. A Single Judge then cut about nine lakh, and all the costs. Will the Delhi High Court restore them? || An arbitrator awarded a contractor over ₹48 lakh. A Single Judge then cut about ₹9 lakh, and all the costs. Will the Delhi High Court restore them?
+10 | Hi, I'm Ravishankar from LawWorld. On the twenty ninth of October, Honourable Justice Avneesh Jhingan and Honourable Justice Amit Sharma ruled. || Hi, I'm Ravishankar from LawWorld. On the 29th of October, Honourable Justice Avneesh Jhingan and Honourable Justice Amit Sharma ruled.
+# 2 · AN OFFICE AT SAKET
+10 | In two thousand four, IRCON hired a contractor to build corporate office buildings in Saket, New Delhi. Later, disputes went to an arbitrator. || In 2004, IRCON hired a contractor to build corporate office buildings in Saket, New Delhi. Later, disputes went to an arbitrator.
+10 | The contractor had raised eight claims, and won part of two, plus five and a half lakh rupees as costs. IRCON then challenged the unpaid work part, and the costs. || The contractor had raised eight claims, and won part of two, plus ₹5.5 lakh as costs. IRCON then challenged the unpaid work part, and the costs.
+# 3 · THE APPEAL
+10 | The contractor argued that the Single Judge had gone beyond Section Thirty Four, replacing the arbitrator's plausible view, and that the costs were well reasoned. || The contractor argued that the Single Judge had gone beyond Section 34, replacing the arbitrator's plausible view, and that the costs were well reasoned.
+10 | IRCON replied that the arbitrator found the final bill undisputed, yet examined every deduction, and ignored the factors the law lists for costs.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the High Court decide? The arbitrator itself found no pleading against the final bill or its deductions, made for defects the contractor accepted.
+10 | Yet it examined them on merits, beyond the dispute. Costs ignored the factors in Section Thirty One A, like partial success. The contractor's appeal was dismissed. || Yet it examined them on merits, beyond the dispute. Costs ignored the factors in Section 31A, like partial success. The contractor's appeal was dismissed.
+// Fact-check 04-11-2026 (independent check against the Indian Kanoon text of the judgment, paras 1-12): all facts, amounts, dates,
+// bench and outcome verified; quotes on the cards verbatim (8, 10). Changed: c10 "The appeal was dismissed." -> "The contractor's
+// appeal was dismissed." so the viewer hears who lost (the contractor's Section 37 appeal, 12: the Single Judge's cut of Rs.9,28,205
+// and the Rs.5.5 lakh costs stays); "going beyond the dispute" -> "beyond the dispute", "Costs, too," -> "Costs" to keep 43
+// syllables. Cue anchors (beyond, ignored, dismissed) unchanged. Cards and thumbnail: no change.

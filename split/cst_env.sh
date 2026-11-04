@@ -1,0 +1,4 @@
+# CESCOM v. J.K. Tyre and Industries Ltd. (Karnataka HC, W.A. 439/2025 (GM-KEB), 29.10.2026, reportable): the COVID lockdown did not excuse the demand charges (Clause 3 not triggered: power received and used, no notice; non-MSME units got only more time). HOOK-format judgment reel, ENGLISH, 04-11-2026 (opening spoken to everyone, no "Advocates,").
+export SPLIT_D=downloads/cst SPLIT_SB=split/cst SPLIT_ALL=split/cst_all_scenes.json SPLIT_GO=split/GOcst
+export SPLIT_ACCOUNT=a1; . split/accounts.sh
+export SPLIT_VOCAB="LawWorld, Ravishankar, Karnataka High Court, Honourable Chief Justice Vibhu Bakhru, Honourable Justice K S Hemalekha, lockdown, demand charges, minimum charges, electricity, tyre maker, Mysuru, high tension, M S M E, waiver, single judge, force majeure, consumer grievance forum, receiving power, notice, appeal allowed, set aside, lawworld dot A I"

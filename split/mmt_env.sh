@@ -1,0 +1,4 @@
+# MMTC Limited v. Aust Grain Exports Pty Ltd (Delhi HC, FAO(OS)(COMM) 210/2023, DB Avneesh Jhingan J & Shail Jain J, 28.10.2026, "Reportable:- Yes"): 9% interest on the performance bank guarantee, barred by clause 13(2), set aside as against public policy; dissent / signature objections rejected; appeal partly allowed. HOOK-format judgment reel, ENGLISH, 04-11-2026 (opening spoken to everyone, no "Advocates,").
+export SPLIT_D=downloads/mmt SPLIT_SB=split/mmt SPLIT_ALL=split/mmt_all_scenes.json SPLIT_GO=split/GOmmt
+export SPLIT_ACCOUNT=a2; . split/accounts.sh
+export SPLIT_VOCAB="LawWorld, Ravishankar, Delhi High Court, Honourable Justice Avneesh Jhingan, Honourable Justice Shail Jain, M M T C, public sector undertaking, Australian exporter, yellow peas, tonnes, bank guarantee, guarantee, tribunal, majority award, dissent, interest, nine per cent, conclusion, public policy of India, Single Judge, set aside, lawworld dot A I"

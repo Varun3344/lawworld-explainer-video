@@ -1,0 +1,4 @@
+# Lourde Marie Dhambarane v. S. Santhi (Madras HC, C.R.P. 1196/2022, 2026:MHC:4366, 29.10.2026, reportable): a buyer from the evicted tenant's son sued for an injunction - struck off under Article 227 as an abuse of process and re-litigation. HOOK-format judgment reel, ENGLISH, 04-11-2026 (opening spoken to everyone, no "Advocates,").
+export SPLIT_D=downloads/gft SPLIT_SB=split/gft SPLIT_ALL=split/gft_all_scenes.json SPLIT_GO=split/GOgft
+export SPLIT_ACCOUNT=a2; . split/accounts.sh
+export SPLIT_VOCAB="LawWorld, Ravishankar, Madras High Court, Honourable Justice N Anand Venkatesh, Supreme Court, tenant, eviction, evict, settlement deed, sale deed, District Registrar, writ petition, injunction, possession, plaint, abuse of process, re-litigation, Article Two Twenty Seven, Order Seven Rule Eleven, perpetuate, illegality, revision, struck off, register, lawworld dot A I"

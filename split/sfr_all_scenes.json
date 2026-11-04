@@ -1,0 +1,67 @@
+{
+ "projectTitle": "LawWorld_sfr",
+ "title": "Plaint thrown out, suit goes to trial",
+ "source": "split/scripts/sfr.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "You pay an advance on a handwritten deal for farmland, and the sellers then sell it to others. Can a court throw out your suit before any trial even begins?",
+   "chip": "1 · THROWN OUT BEFORE TRIAL?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "In Andhra Pradesh, a trial court did just that, mainly calling the deal a mere agreement to agree. The buyer appealed to the High Court. Was the deal incomplete?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On third November, Honourable Justice D Ramesh and Honourable Justice Alapati Giridhar ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 3 November, Honourable Justice D. Ramesh and Honourable Justice Alapati Giridhar ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "The deal, written in January twenty ten, covered forty seven and a half acres for two crore thirty eight lakh rupees. The buyer paid five lakh as advance.",
+   "shown": "The deal, written in January 2010, covered 47.5 acres for ₹2.38 crore. The buyer paid ₹5 lakh as advance.",
+   "chip": "2 · THE HANDWRITTEN DEAL"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "One owner wrote and signed it by hand, for her whole family, the buyer says. That August, the owners sold the land to others, and he sued for specific performance."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "All the defendants sought rejection of the plaint. The paper, they said, named no buyer or seller, described no property, and only promised a later agreement.",
+   "chip": "3 · REJECT IT AT THE DOOR?"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "They also said she had no authority to sign for the other owners. The buyer replied that she never denied her handwriting or the five lakh advance.",
+   "shown": "They also said she had no authority to sign for the other owners. The buyer replied that she never denied her handwriting or the ₹5 lakh advance."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? At this stage, only the plaint and its documents count, and on its face, this paper had every essential term of a sale.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "The disputed points must go to trial. The appeals were allowed with costs, and the buyer must deposit the balance sale price within ten days, in fixed deposits.",
+   "shown": "The disputed points must go to trial. The appeals were allowed with costs, and the buyer must deposit the balance sale price within 10 days, in fixed deposits."
+  }
+ ]
+}
