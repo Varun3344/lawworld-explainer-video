@@ -495,6 +495,11 @@ def auto_edit():
         ia = next((k for k, (t, L) in enumerate(final_pts) if L == "A"), None)
         if ia is not None:
             end_a = final_pts[ia + 1][0] if ia + 1 < len(final_pts) else None
+            # a card shown during that full shot (the hook question) must be gone before the switch: its tail ran 0.14-0.15 s
+            # into the split view and blinked back for ~4 frames (elt, tka, hgd, mgn QA 04-11-2026)
+            if end_a is not None:
+                tails = [c["t1"] for c in content if c["t0"] < end_a - 0.3 and end_a - 0.02 < c["t1"] <= end_a + 0.6]
+                if tails: end_a = max(tails) + 0.05
             final_pts = [(final_pts[0][0], "A")] + ([(end_a, "S")] if end_a is not None else [])
     if JUDGMENT:
         # the bench card stays on the split while each judge's photo pops in: a full-presenter shot inside it hid the second judge
