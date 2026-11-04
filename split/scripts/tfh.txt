@@ -28,7 +28,7 @@
 // the cause title "Naveen v. State of Karnataka"); the offences are named only on a card, never spoken as an accusation. Flow policy:
 // no accusation in speech, no "fraud" / "collusion" / "admitted"; only the court, the judge, the Constitution and the statute.
 # 1 · WHEN DOES THE CLOCK START?
-10 | You walk into a police station on your own at eleven in the morning, but the police record your arrest only at night. When does the twenty four hour clock start?
+10 | You walk into a police station on your own at eleven and are kept there, but your arrest is recorded only at night. When does the twenty four hour clock start?
 10 | The Constitution says an arrested person must reach a Magistrate within twenty four hours. This man reached one only the next evening. So was he late or not?
 10 | Hi, I'm Ravishankar from LawWorld. On second November, twenty twenty six, Honourable Justice S Vishwajith Shetty of the Karnataka High Court ruled. || Hi, I'm Ravishankar from LawWorld. On 2 November 2026, Honourable Justice S. Vishwajith Shetty of the Karnataka High Court ruled.
 # 2 · ELEVEN IN THE MORNING
@@ -36,9 +36,12 @@
 10 | The police showed his arrest only at nine forty five that night. He was produced before the Magistrate the next day, at five forty five in the evening. || The police showed his arrest only at 9:45 that night. He was produced before the Magistrate the next day, at 5:45 in the evening.
 # 3 · WHEN WAS HE ARRESTED?
 10 | His counsel argued he was in police custody from eleven in the morning, so the twenty four hours had run out, breaching Articles Twenty One and Twenty Two. || His counsel argued he was in police custody from 11 in the morning, so the 24 hours had run out, breaching Articles 21 and 22.
-10 | The State said he came on his own but did not cooperate, so he was not arrested at once. Merely sitting in a police station, it argued, is not an arrest.
+10 | The State said he came on his own but did not cooperate, so he was not arrested at once. Merely being in a police station, it argued, is not an arrest.
 # 4 · BEFORE THE VERDICT
 10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
 # 5 · WHAT THE COURT HELD
 10 | Finally, what did the High Court decide? The twenty four hours run from the moment liberty is actually curtailed, not from the arrest time the police write down. || Finally, what did the High Court decide? The 24 hours run from the moment liberty is actually curtailed, not from the arrest time the police write down.
-10 | Detention for questioning is unknown to law. He was held from eleven in the morning, so the arrest was vitiated, and he was granted bail with conditions. || Detention for questioning is unknown to law. He was held from 11 in the morning, so the arrest was vitiated, and he was granted bail with conditions.
+10 | Detention for questioning is unknown to law. He was confined to the station from eleven, so the arrest was vitiated, and he got bail with conditions. || Detention for questioning is unknown to law. He was confined to the station from 11, so the arrest was vitiated, and he got bail with conditions.
+// Independent fact-check 04-11-2026 (separate agent, whole PDF): no wrong facts. Applied: c01 'and are kept there' and c10 'confined to
+// the station' (the 11 a.m. finding rests on this case's facts, paras 23, 27, 28; Manohar Sharad Pathare only distinguished, 22-23),
+// c07 'being' (para 5), thumbnail 'Held from eleven?' (not 'Walked in'), cards: travel time excluded, Article 22(2).

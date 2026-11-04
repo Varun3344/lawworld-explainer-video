@@ -20,9 +20,9 @@ PLAIN_BG = True   # owner 26-10-2026: the cards and the presenter on one plain c
 ENDCARD = {"title": "When does the 24-hour clock start?", "line": "From the moment liberty is actually curtailed, not from the arrest time the police record", "sub": "LawWorld: legal research for advocates"}
 
 # ── 1 · when does the clock start? (hook, curiosity, intro) ──────────────────────────────────────────────────────────
-cue(type="question", t0=S("c01"), t1=E("c01") + 0.05, at=A("c01", "walk"), text="Walked in at 11 AM, arrest recorded at night. When does the 24-hour clock start?", hl="When does the 24-hour clock start?")
+cue(type="question", t0=S("c01"), t1=E("c01") + 0.05, at=A("c01", "walk"), text="Walked in at 11 AM, kept there, arrest recorded at night. When does the 24-hour clock start?", hl="When does the 24-hour clock start?")
 cue(type="list", t0=S("c02"), t1=A("c02", "so") - 0.05, head="Article 22(2) · the 24-hour rule", head_at=S("c02") + 0.05,
-    items=[{"n": 1, "text": "Arrested person: before a Magistrate in 24 hours", "at": A("c02", "arrested")},
+    items=[{"n": 1, "text": "Before a Magistrate in 24 hours, travel excluded", "at": A("c02", "arrested")},
            {"n": 2, "text": "This man: produced the next evening", "at": A("c02", "reached")},
            {"n": 3, "text": "Counted from when?", "at": A("c02", "evening")}])
 cue(type="point", t0=A("c02", "so") - 0.05, t1=E("c02") + 0.05, text="Late or not?", icon="search", accent=True, at=A("c02", "late"))
@@ -43,7 +43,7 @@ cue(type="timeline", t0=S("c05"), t1=E("c05") + 0.05,
 cue(type="compare", t0=S("c06"), t1=E("c07") + 0.05, head="Arrested at 11 AM, or at 9:45 PM?", head_at=S("c06") + 0.05,
     cols=[{"title": "His counsel", "icon": "scale", "at": A("c06", "counsel")}, {"title": "The State", "icon": "landmark", "at": A("c07", "state")}],
     rows=[{"cells": ["In police custody from 11 AM", "Came on his own, did not cooperate"], "cells_at": [A("c06", "custody"), A("c07", "cooperate")]},
-          {"cells": ["24 hours crossed: Articles 21 and 22", "Sitting in a police station is not arrest"], "cells_at": [A("c06", "breaching"), A("c07", "merely")]}])
+          {"cells": ["24 hours crossed: Articles 21 and 22(2)", "Merely being in the station is not arrest"], "cells_at": [A("c06", "breaching"), A("c07", "merely")]}])
 
 # ── 4 · before the verdict: the LawWorld request ─────────────────────────────────────────────────────────────────────
 cue(type="point", t0=S("c08"), t1=A("c08", "follow") - 0.05, text="The verdict is next. First, a quick request…", icon="scale", accent=True, at=A("c08", "decided"))

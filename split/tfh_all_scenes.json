@@ -6,8 +6,8 @@
   {
    "sceneId": "c01",
    "seconds": 10,
-   "dialogue": "You walk into a police station on your own at eleven in the morning, but the police record your arrest only at night. When does the twenty four hour clock start?",
-   "shown": "You walk into a police station on your own at eleven in the morning, but the police record your arrest only at night. When does the 24-hour clock start?",
+   "dialogue": "You walk into a police station on your own at eleven and are kept there, but your arrest is recorded only at night. When does the twenty four hour clock start?",
+   "shown": "You walk into a police station on your own at eleven and are kept there, but your arrest is recorded only at night. When does the 24-hour clock start?",
    "chip": "1 · WHEN DOES THE CLOCK START?"
   },
   {
@@ -44,7 +44,7 @@
   {
    "sceneId": "c07",
    "seconds": 10,
-   "dialogue": "The State said he came on his own but did not cooperate, so he was not arrested at once. Merely sitting in a police station, it argued, is not an arrest."
+   "dialogue": "The State said he came on his own but did not cooperate, so he was not arrested at once. Merely being in a police station, it argued, is not an arrest."
   },
   {
    "sceneId": "c08",
@@ -63,8 +63,8 @@
   {
    "sceneId": "c10",
    "seconds": 10,
-   "dialogue": "Detention for questioning is unknown to law. He was held from eleven in the morning, so the arrest was vitiated, and he was granted bail with conditions.",
-   "shown": "Detention for questioning is unknown to law. He was held from 11 in the morning, so the arrest was vitiated, and he was granted bail with conditions."
+   "dialogue": "Detention for questioning is unknown to law. He was confined to the station from eleven, so the arrest was vitiated, and he got bail with conditions.",
+   "shown": "Detention for questioning is unknown to law. He was confined to the station from 11, so the arrest was vitiated, and he got bail with conditions."
   }
  ]
 }
