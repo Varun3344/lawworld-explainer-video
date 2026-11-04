@@ -1,0 +1,67 @@
+{
+ "projectTitle": "LawWorld_adt",
+ "title": "Time asked, order passed that day",
+ "source": "split/scripts/adt.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "You ask the tax department for time to file documents, until a certain date. The order comes on that very date, with no word on your request. Is that fair?",
+   "chip": "1 · ORDER ON THE LAST DAY?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "A company faced exactly this. It also had a remedy of appeal. So would the Delhi High Court hear its writ petition, or send it off to appeal?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On the twenty ninth of October, Honourable Justice Avneesh Jhingan and Honourable Justice Amit Sharma ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On the 29th of October, Honourable Justice Avneesh Jhingan and Honourable Justice Amit Sharma ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "The company, registered for service tax, got a show cause notice and replied in May twenty twenty two. Its hearing came in November twenty twenty three.",
+   "shown": "The company, registered for service tax, got a show cause notice and replied in May 2022. Its hearing came in November 2023.",
+   "chip": "2 · THE DATES THAT MATTER"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "At its request, the hearing moved to the fifteenth. That day, it asked for time until the twenty fourth to produce documents. The order came on the twenty fourth.",
+   "shown": "At its request, the hearing moved to the 15th. That day, it asked for time until the 24th to produce documents. The order came on the 24th."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The company argued it got no reasonable chance to defend itself. Its email had asked for ten more days, and the order came without considering it.",
+   "chip": "3 · A FAIR CHANCE?"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The department replied that it had given enough chances. It says it waited nine more days after the fifteenth, and no document was filed before the order.",
+   "shown": "The department replied that it had given enough chances. It says it waited nine more days after the 15th, and no document was filed before the order."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? The request for time was neither considered nor rejected. Yet one ground of the order was that documents were not produced.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "The minimum expected was to deal with that request. Natural justice was breached, so the appeal route was no bar. The Court set the order aside and sent the case back."
+  }
+ ]
+}

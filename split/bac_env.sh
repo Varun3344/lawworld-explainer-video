@@ -1,0 +1,4 @@
+# Mohammad Irfan K.I. v. State Bank of India (Kerala HC, W.A. 2209/2026, 2026:KER:82568, 28.10.2026, "C.R."): no court-ordered police probe on account entries alone when no police officer alleges a crime; freeze only on the six disputed entries. HOOK-format judgment reel, ENGLISH, 04-11-2026 (opening spoken to everyone, no "Advocates,").
+export SPLIT_D=downloads/bac SPLIT_SB=split/bac SPLIT_ALL=split/bac_all_scenes.json SPLIT_GO=split/GObac
+export SPLIT_ACCOUNT=a2; . split/accounts.sh
+export SPLIT_VOCAB="LawWorld, Ravishankar, Kerala High Court, Honourable Justice Devan Ramachandran, Honourable Justice Basant Balaji, Kasaragod, Puducherry, cyber crime police, State Bank, freeze, disputed entries, credits, single judge, investigation, probe, counsel, implicated, presumption, crime proceeds, appeal allowed, lawworld dot A I"

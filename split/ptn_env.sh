@@ -1,0 +1,4 @@
+# Sri Jakkula Dasharatham v. Sri Jakkula Balaiah (Telangana HC, C.R.P. 6423/2012, 28.10.2026, "Note: LR copy to be marked"): when a protected tenant dies, the Section 38-E certificate goes to all his lineal heirs in equal shares by lineage, not to one son in possession; RDO and Joint Collector confirmed. HOOK-format judgment reel, ENGLISH, 04-11-2026 (opening spoken to everyone, no "Advocates,").
+export SPLIT_D=downloads/ptn SPLIT_SB=split/ptn SPLIT_ALL=split/ptn_all_scenes.json SPLIT_GO=split/GOptn
+export SPLIT_ACCOUNT=a3; . split/accounts.sh
+export SPLIT_VOCAB="LawWorld, Ravishankar, Telangana High Court, Honourable Justice Vakiti Ramakrishna Reddy, protected tenant, tenant farmer, Telangana Tenancy Act, Section Thirty Eight E, Section Forty, ownership certificate, surviving son, heirs, lineal descendants, lineage, R D O, Joint Collector, enquiry, family arrangement, possession, revision, sale deeds, lawworld dot A I"

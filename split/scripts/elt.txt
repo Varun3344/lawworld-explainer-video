@@ -1,0 +1,48 @@
+// Chief Electoral Officer & Anr. v. M/s Mahlakshmi Light House (spelt so in the cause title), FAO(OS)(COMM) 43/2018, CNR
+// DLHC010640622018, High Court of Delhi at New Delhi, Division Bench: Avneesh Jhingan, J. (wrote it) and Shail Jain, J.; reserved
+// 13.10.2026, pronounced 28.10.2026. REPORTABLE: "Reportable:- Yes" printed at the end of the judgment (page 8 of 8, under the
+// signatures; Delhi does not print it on page 1). HOOK format (split/JUDGMENT_HOOK_FORMAT.md), the High Courts page (ENGLISH).
+// Opening clip spoken to everyone, no "Advocates," (owner 03-11-2026).
+// Source: the court's own PDF (delhihighcourt.nic.in, 75928102026FAC432018_163358.pdf, 8 pages, paras 1-17), read in full; scratchpad
+// fresh4nov/ker_dhc/dhc/pdf/75928102026FAC432018_163358.pdf + drafts4nov/elt/elt.txt.
+// Facts used (para): appeal under Section 37 of the Arbitration and Conciliation Act, 1996 against the Single Judge's decision of
+// 02.05.2017 dismissing the Section 34 objection petition (1); the appellants invited tenders for tentage, furniture and electrical
+// items on hire basis for the 1999 Lok Sabha General Elections; the respondent, the successful bidder, was awarded the work for the
+// Karol Bagh and Outer Delhi Parliamentary Constituencies on 09.08.1999; agreement with an arbitration clause (2); bills of
+// Rs.19,98,426 (Karol Bagh) and Rs.80,30,654 (Outer Delhi); the appellants alleged the bills were inflated; clause 19: payment subject
+// to scrutiny, approval of bills and physical verification of the tentage before dismantling; show-cause notice of 31.03.2000 for not
+// submitting daily challans verified by the Returning Officers (2.1); arbitration invoked by the respondent; sole arbitrator appointed
+// by the court; claims Rs.1,00,28,788; the arbitrator "allowed the claims" and awarded Rs.1,00,28,788 with interest @9% p.a. on
+// Rs.15,22,772 from February 2000, post-award interest @9% if unpaid within two months, and costs of Rs.2,00,000 (2.2); the Single
+// Judge dismissed the Section 34 objections and upheld the award (2.3). Appellants: clause 19 had three prerequisites; only the RO's
+// physical verification undisputed (3); the arbitrator failed to consider the Finance Department's objections that the bills were
+// inflated: patent illegality, perversity (Associate Builders; DAMEPL) (3.1). Respondent: the contentions were never pressed under
+// Section 34; reasons were recorded; plausible view (Jan De Nul, (2026) 3 SCC 186) (4); challans submitted and goods physically
+// verified by the RO (4.1). Clause 19 (6, 7); no other CEO representative appointed; verification by the RO; orders oral (8). Under
+// Section 34 only ground 'E' was pressed (10). HELD: "The issues not raised under Section 34 of the Act cannot be permitted to be raised
+// in the appeal under Section 37 of the Act." (11); "Be that as it may, the contention that the arbitrator ignored the objections of
+// the Finance Department is misconceived"; the tentage was supplied in the last quarter of 1999 and the bills physically verified by
+// the RO; both ROs deposed the bills were signed after physical verification (12); the Finance Department's objections "were not found
+// reliable" since the tentage was physically verified before dismantling, whereas the scrutiny started in July 2000 (13); the arbitrator
+// held the RO's verification more reliable; the inquiry reports were prepared "much later, after dismantling of the structure"; the
+// quantum of evidence is the arbitrator's exclusive domain (Ferro Concrete, (2009) 12 SCC 1) (14); the 2006 inquiry reports against two
+// officials were rightly rejected by the Single Judge (15); "the view taken by the arbitrator is plausible, suffers from no factual or
+// legal error, much less perversity and calls for no interference" (16); "the appeal is dismissed" (17).
+// Not said: any official's or witness's name (private persons; paras 12-15 kept off speech and cards); "bogus bills" (10, a party's
+// submission); the firm's name in speech (it is accused of inflated bills: cite card only); para 8's "admitted case" (Flow policy).
+// "about one crore rupees" = the award of Rs.1,00,28,788 (2.2). "inflated" is voiced only as the electoral office's allegation.
+# 1 · WHOSE CHECK COUNTS?
+10 | Tents are put up for an election, and the Returning Officer checks them before they come down. Later, the finance department calls the bills inflated. Whose check counts?
+10 | It began with the nineteen ninety nine Lok Sabha election. An arbitrator awarded about one crore rupees. Will the Delhi High Court let it stand? || It began with the 1999 Lok Sabha election. An arbitrator awarded about one crore rupees. Will the Delhi High Court let it stand?
+10 | Hi, I'm Ravishankar from LawWorld. On twenty eighth October, twenty twenty six, Honourable Justice Avneesh Jhingan and Honourable Justice Shail Jain ruled. || Hi, I'm Ravishankar from LawWorld. On 28 October 2026, Honourable Justice Avneesh Jhingan and Honourable Justice Shail Jain ruled.
+# 2 · TENTS FOR TWO SEATS
+10 | For that election, Delhi's Chief Electoral Officer hired tents, furniture and electrical items from a contractor, for Karol Bagh and Outer Delhi.
+10 | The contract needed the Returning Officer's check before the tents came down, then approval. The bills came to one crore; the electoral office called them inflated.
+10 | The arbitrator allowed the contractor's claims in full, with some interest and costs. In May twenty seventeen, a Single Judge rejected the challenge to the award. || The arbitrator allowed the contractor's claims in full, with some interest and costs. In May 2017, a Single Judge rejected the challenge to the award.
+# 3 · THE APPEAL
+10 | In appeal, the office argued that the arbitrator ignored the finance objections. The contractor replied that these points were never pressed before the Single Judge.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the High Court decide? Issues not raised before the Single Judge cannot be raised in this appeal. And the finance objections were not ignored.
+10 | The tents were checked before they came down; the inquiry came much later. Weighing that was the arbitrator's job, and the view was plausible. The appeal was dismissed.

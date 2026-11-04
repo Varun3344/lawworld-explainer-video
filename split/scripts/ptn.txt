@@ -1,0 +1,59 @@
+// Sri Jakkula Dasharatham and others v. Sri Jakkula Balaiah and others, C.R.P. No. 6423 of 2012 (CNR HBHC010579032012), High Court for
+// the State of Telangana at Hyderabad, single Judge: Vakiti Ramakrishna Reddy, J.; reserved 29.07.2026, pronounced and uploaded
+// 28.10.2026. REPORTABLE: the last page, under the signature, "Note: LR copy to be marked" (the cover sheet's three questions are left
+// "Yes/No"). HOOK format (split/JUDGMENT_HOOK_FORMAT.md), the High Courts page (ENGLISH). Opening clip spoken to everyone, no
+// "Advocates," (owner 03-11-2026).
+// Source: the Indian Kanoon copy (doc 111779084, "Telangana High Court ... on 28 October, 2026"), read in full; scratchpad
+// fresh4nov/tg_ap/ik/tgdoc/111779084.txt. The court's own judgment search (tshc.gov.in / csis.tshc.gov.in) is captcha-gated: not
+// bypassed; no LiveLaw / Verdictum PDF copy used. Para 26 (points for consideration) is printed twice in the IK text.
+// Facts used (para): revision under s.91 of the Telangana Tenancy and Agricultural Lands Act, 1950 against the Joint Collector,
+// Mahabubnagar's order 01.09.2012 (Case F1/IA-05/2010), which dismissed the s.90 appeal and confirmed the RDO, Mahabubnagar's order
+// 30.03.2010 (File K/1972/2009) issuing s.38-E certificates to all the legal heirs of the late protected tenant, Ac. 8.29 guntas in
+// Sy. No. 456, Yelikatta village, Farooqnagar mandal (1). He was the protected tenant; the final list of protected tenants named him, but
+// his s.38-E certificate stayed incomplete for want of an application (3, 4). He died in 1980-81 leaving five sons and five daughters;
+// all except one son have since died; petitioners 1-3 are that son's children, the respondents the other grandchildren (5). In 2007
+// that son, "the only surviving son", applied claiming exclusive possession; RDO's proceedings 04.10.2007 registered him as owner and
+// issued a Form-II certificate (6). Within about two months he sold Ac. 2.09 guntas (13.12.2007) to petitioner 4 and Ac. 6.20 guntas
+// (20.12.2007) to petitioner 5 and others (7). The other heirs appealed under s.90; the Joint Collector on 04.06.2009 set aside the
+// 04.10.2007 order and remanded for a de novo enquiry (8). After notice to all the legal heirs, the RDO on 30.03.2010 directed the
+// certificate in favour of all the legal heirs "with equal rights in accordance with their respective lineal shares"; the Joint
+// Collector dismissed the petitioners' appeal on 01.09.2012 (9, 10: s.40, all lineal descendants succeed). Petitioners: a family
+// arrangement after the death gave the land to that son, who stayed in continuous possession; the s.48-A bar runs from acquisition,
+// not the certificate; revenue authorities cannot decide disputed succession - Civil Court (12-17). Respondents: s.40, all lineal
+// descendants succeed; the 2007 certificate was issued without notice to them (18-22). Framework: the Act protects tenants of
+// agricultural lands; s.38-E: ownership of land held by a protected tenant stands transferred to him on the notified date, 01.01.1973,
+// and the certificate is conclusive evidence of ownership; s.40 makes the rights heritable, lineal descendants the heirs (28). The
+// certificate "evidences ownership that has already vested; it is not the source of that ownership" (33). Point (i): the s.48-A
+// eight-year bar runs from the notified date, 01.01.1973, not from the certificate (34, 35, 49(a)). Point (ii): s.40 - "upon the death
+// of a protected tenant, his lineal descendants by blood are entitled to hold the land on the same terms" (36); with no serious dispute
+// about heirship the revenue authorities may recognise succession (41-44, 49(b)); here neither the son nor his children ever disputed
+// the respondents' relationship; his was "a claim to exclusive rights over the land and not a dispute about the status of the
+// respondents as lineal descendants" (43). Point (iii): ownership does not depend on possession (Sada, AIR 1988 AP 77 FB; Thota
+// Sridhar Reddy, 2021 INSC 588); the heirs' entitlement "flows from Section 40 and not from their possession"; a co-owner cannot claim
+// exclusive possession against the others; the respondents "are entitled to equal shares as per the lineage" (45); the family
+// arrangement and sale deeds are private matters, no opinion expressed (46). Point (iv): the RDO and Joint Collector's approach is in
+// accordance with law; no illegality, material irregularity or error of jurisdiction (47, 48). Conclusion and RESULT: the son was not
+// entitled to the certificate "to the exclusion of the other legal heirs ... who are entitled to equal shares as per their lineage"
+// (49(c)); validity of the sale deeds and the family arrangement left open (50); C.R.P. dismissed; the Joint Collector's order
+// affirming the RDO's confirmed; the s.38-E certificate to the legal heirs, with equal shares as per their lineage, confirmed; no
+// costs (51, 52).
+// Not said: any person's name (private persons; the cite card carries the cause title only); the respondents' plea that the 2007
+// certificate was obtained "by suppressing" their existence (8, 19) - not in speech or on any card; the s.48-A point (i) (decided for
+// the petitioners, but it does not change the result; not voiced, so the sales are neither called void nor valid - para 50 left
+// them open, which c10 says). Flow policy: no accusation, no "fraud" / "collusion" / "admitted"; only the court, the judge, the
+// revenue offices and the statute are named.
+# 1 · ONE SON, OR EVERY HEIR?
+10 | When a protected tenant dies, does the ownership certificate for his land go only to the one son who holds it, or to every one of his heirs?
+10 | Here, the one surviving son got the certificate alone and sold the land. His brothers' and sisters' children objected. So who did the Telangana High Court back?
+10 | Hi, I'm Ravishankar from LawWorld. On twenty eighth October, twenty twenty six, Honourable Justice Vakiti Ramakrishna Reddy ruled. || Hi, I'm Ravishankar from LawWorld. On 28 October 2026, Honourable Justice Vakiti Ramakrishna Reddy ruled.
+# 2 · THE PROTECTED TENANT
+10 | A protected tenant is a tenant farmer the Telangana Tenancy Act protects. Under Section Thirty Eight E, he became owner of the land he held. || A protected tenant is a tenant farmer the Telangana Tenancy Act protects. Under Section 38-E, he became owner of the land he held.
+10 | This tenant died in the early eighties, leaving five sons and five daughters. In two thousand seven, his only surviving son got the certificate alone, and sold the land. || This tenant died in the early eighties, leaving five sons and five daughters. In 2007, his only surviving son got the certificate alone, and sold the land.
+10 | The other heirs appealed. After a fresh enquiry, the R D O gave the certificate to every heir, by lineage, and the Joint Collector agreed. || The other heirs appealed. After a fresh enquiry, the RDO gave the certificate to every heir, by lineage, and the Joint Collector agreed.
+# 3 · THE HEIRS' DISPUTE
+10 | In the High Court, the son's side said a family arrangement gave him the land. The other heirs said Section Forty makes every lineal descendant an heir. || In the High Court, the son's side said a family arrangement gave him the land. The other heirs said Section 40 makes every lineal descendant an heir.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the High Court decide? Under Section Forty, a protected tenant's rights pass to all his lineal descendants, in equal shares by lineage. || Finally, what did the High Court decide? Under Section 40, a protected tenant's rights pass to all his lineal descendants, in equal shares by lineage.
+10 | Possession, or a claimed family arrangement, could not shut other heirs out of the certificate. The revision was dismissed; the sale deeds were left open.

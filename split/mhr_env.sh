@@ -1,0 +1,4 @@
+# Shiva Enterprises & Siddhi Agencies v. State of Maharashtra (Karnataka HC, W.P. 31910 & 31320/2025, 2026:KHC:60505, 29.10.2026, reportable): Maharashtra police could not summon Tumkur traders to Vadgaon under s.179 BNSS; the Tumkur visit without the Karnataka police was unlawful; the FIR stays. HOOK-format judgment reel, ENGLISH, 04-11-2026 (opening spoken to everyone, no "Advocates,").
+export SPLIT_D=downloads/mhr SPLIT_SB=split/mhr SPLIT_ALL=split/mhr_all_scenes.json SPLIT_GO=split/GOmhr
+export SPLIT_ACCOUNT=a3; . split/accounts.sh
+export SPLIT_VOCAB="LawWorld, Ravishankar, Karnataka High Court, Honourable Justice Suraj Govindaraj, Maharashtra, Karnataka, Tumkur, Kolhapur, Vadgaon, police station, Section One Seventy Nine, adjoining, F I R, statements, ledgers, unlawful, intimation, counsel, lawworld dot A I"

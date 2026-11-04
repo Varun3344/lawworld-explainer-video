@@ -1,0 +1,69 @@
+{
+ "projectTitle": "LawWorld_tka",
+ "title": "Late with the balance?",
+ "source": "split/scripts/tka.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "You pay fifty thousand rupees as advance on a ten lakh rupee property, then you miss the deadline for the balance. Can you still force the seller to sell?",
+   "shown": "You pay ₹50,000 as advance on a ₹10 lakh property, then you miss the deadline for the balance. Can you still force the seller to sell?",
+   "chip": "1 · LATE WITH THE BALANCE?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "A trial court said yes, and ordered the sale deed. The seller appealed, and sixteen years later, the Telangana High Court decided. So who was right?",
+   "shown": "A trial court said yes, and ordered the sale deed. The seller appealed, and 16 years later, the Telangana High Court decided. So who was right?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On the thirtieth of October, twenty twenty six, Honourable Justice Suddala Chalapathi Rao ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 30 October 2026, Honourable Justice Suddala Chalapathi Rao ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "In December two thousand five, a buyer agreed to buy a property for ten lakh rupees. He paid fifty thousand, and the rest was due by twentieth January.",
+   "shown": "In December 2005, a buyer agreed to buy a property for ₹10 lakh. He paid ₹50,000, and the rest was due by 20 January.",
+   "chip": "2 · TEN LAKH, FIFTY THOUSAND PAID"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "The buyer was then living in America. Before the deadline, his side could show just one letter, by certificate of posting. Everything else came later."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "In October two thousand six, the seller cancelled the deal and kept the advance. The buyer sued, and in twenty ten, the trial court decreed specific performance.",
+   "shown": "In October 2006, the seller cancelled the deal and kept the advance. The buyer sued, and in 2010, the trial court decreed specific performance."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "In appeal, the seller argued that time was the essence, and that a mere telegram does not prove readiness. The buyer said his letters proved he was always ready.",
+   "chip": "3 · THE APPEAL"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? Read as a whole, the agreement made time the essence: miss the date, and the seller could keep the advance and sell to others.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "Only fifty thousand of ten lakh was paid, and there was no concrete proof he was ready and willing. The decree was set aside, and the buyer's suit was dismissed.",
+   "shown": "Only ₹50,000 of ₹10 lakh was paid, and there was no concrete proof he was ready and willing. The decree was set aside, and the buyer's suit was dismissed."
+  }
+ ]
+}

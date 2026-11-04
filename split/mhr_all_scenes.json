@@ -1,0 +1,68 @@
+{
+ "projectTitle": "LawWorld_mhr",
+ "title": "Summoned to another State: must you go?",
+ "source": "split/scripts/mhr.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "You run a business in Karnataka. Police from another State send you a notice: come to our police station, in our State. Are you bound to go?",
+   "chip": "1 · SUMMONED TO ANOTHER STATE?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "Here, Maharashtra police came to Tumkur, took statements and business records, and never told the Karnataka police. So was any of it lawful?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On twenty ninth October, twenty twenty six, Honourable Justice Suraj Govindaraj of the Karnataka High Court ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 29 October 2026, Honourable Justice Suraj Govindaraj of the Karnataka High Court ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "On nineteenth August, twenty twenty five, Maharashtra police stopped a truck near Kolhapur. Next day, a food safety case was filed against unknown persons.",
+   "shown": "On 19 August 2025, Maharashtra police stopped a truck near Kolhapur. Next day, a food safety case was filed against unknown persons.",
+   "chip": "2 · FROM KOLHAPUR TO TUMKUR"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "A day later, Vadgaon officers visited two trading firms in Tumkur, not named in the F I R, and gave the partners notices to appear at Vadgaon.",
+   "shown": "A day later, Vadgaon officers visited two trading firms in Tumkur, not named in the FIR, and gave the partners notices to appear at Vadgaon."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "Yet their statements were recorded right there in Tumkur. The traders argued Section One Seventy Nine reaches only people within that station or an adjoining one.",
+   "shown": "Yet their statements were recorded right there in Tumkur. The traders argued Section 179 reaches only people within that station or an adjoining one.",
+   "chip": "3 · WHO TOLD KARNATAKA?"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "Maharashtra did not appear, despite notice. Karnataka's counsel said its police were never informed, before, during or after the visit."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? The notices could not make traders in Tumkur appear at Vadgaon, and the visit, without telling local police, was unlawful.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "So its statements can't be relied on, and ledgers held unlawfully must go back. Next time, Vadgaon must first inform Karnataka police in writing. The F I R stays.",
+   "shown": "So its statements can't be relied on, and ledgers held unlawfully must go back. Next time, Vadgaon must first inform Karnataka police in writing. The FIR stays."
+  }
+ ]
+}

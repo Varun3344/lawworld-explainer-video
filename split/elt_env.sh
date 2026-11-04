@@ -1,0 +1,4 @@
+# Chief Electoral Officer v. M/s Mahlakshmi Light House (Delhi HC, FAO(OS)(COMM) 43/2018, DB Avneesh Jhingan J & Shail Jain J, 28.10.2026, "Reportable:- Yes"): 1999 Lok Sabha election tentage award (~Rs 1 crore) upheld, Section 37 appeal dismissed. HOOK-format judgment reel, ENGLISH, 04-11-2026 (opening spoken to everyone, no "Advocates,").
+export SPLIT_D=downloads/elt SPLIT_SB=split/elt SPLIT_ALL=split/elt_all_scenes.json SPLIT_GO=split/GOelt
+export SPLIT_ACCOUNT=a1; . split/accounts.sh
+export SPLIT_VOCAB="LawWorld, Ravishankar, Delhi High Court, Honourable Justice Avneesh Jhingan, Honourable Justice Shail Jain, Returning Officer, Chief Electoral Officer, Lok Sabha, Karol Bagh, Outer Delhi, arbitrator, crore, inflated, finance department, Single Judge, plausible, dismissed, lawworld dot A I"

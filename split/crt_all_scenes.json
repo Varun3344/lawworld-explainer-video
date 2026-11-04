@@ -1,0 +1,68 @@
+{
+ "projectTitle": "LawWorld_crt",
+ "title": "Certificates held for fees?",
+ "source": "split/scripts/crt.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "You get a college seat and hand over your original certificates, but cannot join. Can the college keep them until you pay the fee for the entire course?",
+   "chip": "1 · CERTIFICATES HELD FOR FEES?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "The college said it would return her certificates only if she paid the whole course fee, nearly twenty two lakh rupees, though she never joined. Was that lawful?",
+   "shown": "The college said it would return her certificates only if she paid the whole course fee, nearly ₹22 lakh, though she never joined. Was that lawful?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On twenty eighth October, twenty twenty six, Honourable Justice Harinath N of the Andhra Pradesh High Court ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 28 October 2026, Honourable Justice Harinath N. of the Andhra Pradesh High Court ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "She took NEET in twenty nineteen and won a B D S seat in university counselling. Her original certificates went to the dental college.",
+   "shown": "She took NEET in 2019 and won a BDS seat in university counselling. Her original certificates went to the dental college.",
+   "chip": "2 · THE SEAT AND THE SURGERY"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "She says complications after a leg operation kept her from joining. She wrote to the university and sent a legal notice for her certificates."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The college said it is private and unaided, so no writ lies. It argued that a student who drops out voluntarily cannot deprive it of the entire course fee.",
+   "chip": "3 · THE COLLEGE'S CASE"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "It cited a State order fixing a discontinuation fee. Yet the university's counsel agreed the full fee demand breaks U G C guidelines.",
+   "shown": "It cited a State order fixing a discontinuation fee. Yet the university's counsel agreed the full fee demand breaks UGC guidelines."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? The U G C's twenty eighteen notification strictly bars colleges from keeping original certificates.",
+   "shown": "Finally, what did the High Court decide? The UGC's 2018 notification strictly bars colleges from keeping original certificates.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "Certificates are the student's property; no college holds a lien. If any fee is due, the remedy lies elsewhere. They must be returned within a week."
+  }
+ ]
+}

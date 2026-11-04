@@ -1,0 +1,66 @@
+{
+ "projectTitle": "LawWorld_elt",
+ "title": "Election tents: whose check counts",
+ "source": "split/scripts/elt.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Tents are put up for an election, and the Returning Officer checks them before they come down. Later, the finance department calls the bills inflated. Whose check counts?",
+   "chip": "1 · WHOSE CHECK COUNTS?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "It began with the nineteen ninety nine Lok Sabha election. An arbitrator awarded about one crore rupees. Will the Delhi High Court let it stand?",
+   "shown": "It began with the 1999 Lok Sabha election. An arbitrator awarded about one crore rupees. Will the Delhi High Court let it stand?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On twenty eighth October, twenty twenty six, Honourable Justice Avneesh Jhingan and Honourable Justice Shail Jain ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 28 October 2026, Honourable Justice Avneesh Jhingan and Honourable Justice Shail Jain ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "For that election, Delhi's Chief Electoral Officer hired tents, furniture and electrical items from a contractor, for Karol Bagh and Outer Delhi.",
+   "chip": "2 · TENTS FOR TWO SEATS"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "The contract needed the Returning Officer's check before the tents came down, then approval. The bills came to one crore; the electoral office called them inflated."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The arbitrator allowed the contractor's claims in full, with some interest and costs. In May twenty seventeen, a Single Judge rejected the challenge to the award.",
+   "shown": "The arbitrator allowed the contractor's claims in full, with some interest and costs. In May 2017, a Single Judge rejected the challenge to the award."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "In appeal, the office argued that the arbitrator ignored the finance objections. The contractor replied that these points were never pressed before the Single Judge.",
+   "chip": "3 · THE APPEAL"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? Issues not raised before the Single Judge cannot be raised in this appeal. And the finance objections were not ignored.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "The tents were checked before they came down; the inquiry came much later. Weighing that was the arbitrator's job, and the view was plausible. The appeal was dismissed."
+  }
+ ]
+}

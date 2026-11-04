@@ -1,0 +1,67 @@
+{
+ "projectTitle": "LawWorld_hgd",
+ "title": "Late guarantor's debt: must the heirs pay it all?",
+ "source": "split/scripts/hgd.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Your father stands guarantor for a company's loan, then passes away before it is repaid. Can the lender make you pay the entire debt from your own pocket?",
+   "chip": "1 · MUST THE HEIRS PAY IT ALL?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "Here, loans of seventy three and a half lakh grew into a decree of over forty crore, against the heirs too. The Karnataka High Court asked: must they pay it all?",
+   "shown": "Here, loans of ₹73.5 lakh grew into a decree of over ₹40 crore, against the heirs too. The Karnataka High Court asked: must they pay it all?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On twenty eighth October, Honourable Justice D K Singh and Honourable Justice H Shanthi Bhushan ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 28 October, Honourable Justice D.K. Singh and Honourable Justice H. Shanthi Bhushan ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "In nineteen eighty eight and eighty nine, the Karnataka State Financial Corporation lent a granite company seventy three and a half lakh rupees.",
+   "shown": "In 1988 and 1989, the Karnataka State Financial Corporation lent a granite company ₹73.5 lakh.",
+   "chip": "2 · THE GUARANTEE"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "A man stood guarantor, by unconditional and irrevocable guarantees; under their terms, his liability was joint and several. He has since passed away."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "In July twenty twenty six, the Commercial Court held all the respondents, his heirs included, jointly and severally liable for over forty crore rupees.",
+   "shown": "In July 2026, the Commercial Court held all the respondents, his heirs included, jointly and severally liable for over ₹40 crore.",
+   "chip": "3 · FORTY CRORE ON THE HEIRS"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "One heir appealed: heirs are liable only up to the estate they inherit. The corporation did not dispute that, but said they had not disclosed the inheritance."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? A guarantor's death does not end his existing liability. It continues against the estate the heirs inherit.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "But the heirs' own income and assets are not liable just by inheritance. The decree was modified: they answer only up to the estate, and must disclose it."
+  }
+ ]
+}

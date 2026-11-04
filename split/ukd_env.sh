@@ -1,0 +1,4 @@
+# N. Sridhar Reddy v. State of A.P. (SC, 2026 INSC 1191, Prashant Kumar Mishra J. and Shree Chandrashekhar J., 03.11.2026, reportable): a UK divorce on irretrievable breakdown fails Section 13 CPC; the bigamy case against the husband goes on, quashed for his parents and the second wife. HOOK-format judgment reel, ENGLISH, 04-11-2026 (opening spoken to everyone, no "Advocates,").
+export SPLIT_D=downloads/ukd SPLIT_SB=split/ukd SPLIT_ALL=split/ukd_all_scenes.json SPLIT_GO=split/GOukd
+export SPLIT_ACCOUNT=main; . split/accounts.sh
+export SPLIT_VOCAB="LawWorld, Ravishankar, lawworld dot A I, Supreme Court, Honourable Justice Prashant Kumar Mishra, Honourable Justice Shree Chandrashekhar, England, Cambridge, Andhra Pradesh, Hindu rites, Hindu marriage law, divorce, irretrievable breakdown, jurisdiction, British citizen, citizenship, foreigner, remarried, bigamy, complaint, Magistrate, quash, quashed, decree, Section Thirteen, C P C, overt act, High Court"

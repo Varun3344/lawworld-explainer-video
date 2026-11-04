@@ -1,0 +1,45 @@
+// N. Sridhar Reddy v. The State of A.P. through Secretary & Ors., 2026 INSC 1191, Criminal Appeal No. 5187 of 2026 (arising out of
+// S.L.P. (Crl.) No. 7708 of 2019), with Criminal Appeals Nos. 5188 and 5189 of 2026 (S.L.P. (Crl.) Nos. 7793 and 7812 of 2019); Supreme
+// Court of India, Criminal Appellate Jurisdiction; Prashant Kumar Mishra J. (author) and Shree Chandrashekhar J.; pronounced New Delhi,
+// 03.11.2026. REPORTABLE (page 1). HOOK format (split/JUDGMENT_HOOK_FORMAT.md), English, opening spoken to everyone (no "Advocates,").
+// Source: the court's signed PDF, LiveLaw's copy (18 pages, pdftk-signed like the SC's own PDFs), scratchpad fresh4nov/sc/pdf/ll_bigamy.pdf,
+// read in full (text in drafts4nov/ukd/ll_bigamy.txt).
+// Facts used (para): the issue - a husband who failed to get a divorce in India gets one abroad and marries again (1); appeals against
+// the Andhra Pradesh High Court's common order of 08.07.2019 dismissing the s.482 Cr.PC petitions to quash C.C. No. 571/2018,
+// I Addl. Junior Civil Judge, Sattenapalli (3). Married 18.04.2003 at Sattenapalli, Andhra Pradesh, by Hindu rites and customs (4.i);
+// he went to the UK on 04.02.2005 to pursue his career as a doctor (4.iii); his divorce and custody case at Narasaraopet was
+// dismissed, his High Court appeal withdrawn, "the original Hindu marriage continue to subsist" (4.v, 22); UK citizenship by
+// naturalisation on 01.02.2013 (4.vi); divorce petition before the Cambridge County Court 16.08.2013, the wife filed objections on
+// its jurisdiction and competence (4.vii, 11, 24); decree nisi 27.11.2013, made absolute 29.01.2014, the marriage dissolved "on the
+// ground of irretrievable breakdown of marriage" (4.viii); second marriage 03.03.2014 in Norfolk, UK (4.ix); "almost after two years",
+// on 01.02.2016, the first wife's complaint under ss.494, 120B r/w 34 IPC (4.x); chargesheet against him and his parents, the second
+// wife's name deleted, the Magistrate took cognizance against her too (4.xi, 31); the High Court refused to quash for all four (4.xii,
+// 4.xiii). His case: a British citizen when he remarried abroad, s.4 IPC (5); the UK decree is valid, presumed under s.14 CPC (6); the
+// complaint came late (7). Her case: a marriage solemnised in India can be dissolved only under Hindu law (10); irretrievable breakdown
+// is no statutory ground under the Hindu Marriage Act, s.13 CPC, Y. Narasimha Rao (12). Held: a decree on "a ground not statutorily
+// recognized under the Hindu Laws" under which they married "cannot automatically be accorded recognition in India"; it "violates the
+// legal threshold of Section 13 of the CPC" and Y. Narasimha Rao (22); he cannot rely on it to escape s.494 IPC (23); her objection
+// to jurisdiction is not an unconditional submission (24); "legal consequences flowing from the subsisting marriage cannot be defeated
+// by a subsequent change in the nationality" (25); delay: bigamy is a continuing offence (26); confined to the present stage, "Nothing
+// contained in this judgment shall be construed as a final expression on the merits of the case" (27). Parents: no overt act, mere
+// knowledge not enough (28, 29); second wife: no overt act showing she knowingly took part; liability "qua each accused separately",
+// continuing would be an abuse of process (32). Result: proceedings against him under s.494 IPC "sustained", his appeal dismissed;
+// proceedings against the parents and the second wife quashed, their appeals allowed (33).
+// Not said: any person's name (all private persons: husband, both wives, parents; the cite card carries only the cause title); no
+// finding of guilt is voiced (he is an accused; "the case against him goes on"). Flow policy: no "fraud" / "collusion" / "admitted";
+// only the court, the judges and the statutes are named.
+# 1 · DIVORCED ABROAD, WED AGAIN
+10 | A man gets a divorce in England and marries again. But Hindu marriage law does not recognise the ground of that divorce. Can he still face a bigamy case in India?
+10 | By then he was a British citizen, and he remarried in England. Indian criminal law, he argued, cannot reach a foreigner's acts abroad. So who is right?
+10 | Hi, I'm Ravishankar from LawWorld. On third November, Honourable Justice Prashant Kumar Mishra and Honourable Justice Shree Chandrashekhar ruled. || Hi, I'm Ravishankar from LawWorld. On 3 November, Honourable Justice Prashant Kumar Mishra and Honourable Justice Shree Chandrashekhar ruled.
+# 2 · TWO DIVORCE CASES
+10 | They married in Andhra Pradesh in two thousand and three, by Hindu rites. He later sought a divorce in India, lost, and withdrew his appeal. The marriage stood. || They married in Andhra Pradesh in 2003, by Hindu rites. He later sought a divorce in India, lost, and withdrew his appeal. The marriage stood.
+10 | Now a British citizen, he filed for divorce in Cambridge. She objected to its jurisdiction, but the court dissolved the marriage for irretrievable breakdown.
+# 3 · THE BIGAMY CASE
+10 | About a month later, he married again in England. Almost two years on, his first wife filed a bigamy complaint. His parents and the second wife were accused too.
+10 | The High Court refused to quash the case. Before the Supreme Court, he called the English decree valid and the complaint late. She said Hindu law has no such ground.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the Supreme Court decide? This divorce, on a ground Hindu law does not recognise, fails Section Thirteen of the C P C. At this stage, it cannot shield him. || Finally, what did the Supreme Court decide? This divorce, on a ground Hindu law does not recognise, fails Section 13 of the CPC. At this stage, it cannot shield him.
+10 | His new citizenship cannot defeat the first marriage, so the case against him goes on. Finding no overt act, it quashed the case against his parents and the second wife.

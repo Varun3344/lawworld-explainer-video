@@ -1,0 +1,66 @@
+{
+ "projectTitle": "LawWorld_ukd",
+ "title": "Divorced abroad, wed again",
+ "source": "split/scripts/ukd.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "A man gets a divorce in England and marries again. But Hindu marriage law does not recognise the ground of that divorce. Can he still face a bigamy case in India?",
+   "chip": "1 · DIVORCED ABROAD, WED AGAIN"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "By then he was a British citizen, and he remarried in England. Indian criminal law, he argued, cannot reach a foreigner's acts abroad. So who is right?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On third November, Honourable Justice Prashant Kumar Mishra and Honourable Justice Shree Chandrashekhar ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 3 November, Honourable Justice Prashant Kumar Mishra and Honourable Justice Shree Chandrashekhar ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "They married in Andhra Pradesh in two thousand and three, by Hindu rites. He later sought a divorce in India, lost, and withdrew his appeal. The marriage stood.",
+   "shown": "They married in Andhra Pradesh in 2003, by Hindu rites. He later sought a divorce in India, lost, and withdrew his appeal. The marriage stood.",
+   "chip": "2 · TWO DIVORCE CASES"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "Now a British citizen, he filed for divorce in Cambridge. She objected to its jurisdiction, but the court dissolved the marriage for irretrievable breakdown."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "About a month later, he married again in England. Almost two years on, his first wife filed a bigamy complaint. His parents and the second wife were accused too.",
+   "chip": "3 · THE BIGAMY CASE"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The High Court refused to quash the case. Before the Supreme Court, he called the English decree valid and the complaint late. She said Hindu law has no such ground."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the Supreme Court decide? This divorce, on a ground Hindu law does not recognise, fails Section Thirteen of the C P C. At this stage, it cannot shield him.",
+   "shown": "Finally, what did the Supreme Court decide? This divorce, on a ground Hindu law does not recognise, fails Section 13 of the CPC. At this stage, it cannot shield him.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "His new citizenship cannot defeat the first marriage, so the case against him goes on. Finding no overt act, it quashed the case against his parents and the second wife."
+  }
+ ]
+}

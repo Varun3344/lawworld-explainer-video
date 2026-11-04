@@ -1,0 +1,49 @@
+// Sri Sridhara Babu v. Karnataka State Financial Corporation & Ors., Commercial Appeal (COMAP) No. 446 of 2026, 2026:KHC:59867-DB,
+// CNR KAHC010573922026, High Court of Karnataka at Bengaluru, Division Bench: D K Singh, J. (wrote it, oral judgment) and
+// H. Shanthi Bhushan, J., 28.10.2026, "coming on for orders" (p3). REPORTABLE: the circled "R" (®) on page 1, and on the court's
+// Reportable list (per the finder). HOOK format (split/JUDGMENT_HOOK_FORMAT.md), the High Courts page (ENGLISH, owner 04-11-2026).
+// Opening clip spoken to everyone, no "Advocates," (owner 03-11-2026).
+// Source: the court's own PDF (11 pages), scratchpad fresh4nov/khc_mhc/khc_pdf/2026-10-28_COMAP_446_2026.pdf, read in full
+// (text: drafts4nov/hgd/hgd.txt).
+// Facts used (para): appeal under s.13(1A) Commercial Courts Act r/w s.32(9) SFC Act against the judgment and decree of 06.07.2026
+// of the XI Addl. District & Sessions Judge (Dedicated Commercial Court), Bengaluru Rural, in Commercial Misc. Petition 12/2020 filed
+// by KSFC (1, p3). KSFC's recovery proceedings under ss.31(1)(aa) and 32 SFC Act against M/s. Prashanth Minerals Exports Pvt Ltd, the
+// guarantor P.S. Raju and M/s. Karunai Granites Pvt Ltd for Rs.2,40,64,651 as on 10.03.2000 with future interest at 16.5% p.a.
+// quarterly rests (2). The appellant is the legal heir of the deceased guarantor (3; cause title "S/O LATE P S RAJU"). Deeds of
+// Guarantee 16.01.1989 and 17.12.1989, unconditional and irrevocable; liability continuing, joint and several, enforceable on default
+// (3). KSFC term loans Rs.60,00,000 (sanction 20.07.1988) and Rs.13,50,000 (29.11.1989) to the company for a medium scale granite
+// processing industry; equitable mortgage by deposit of title deeds besides the guarantees (4). Commercial Court, 06.07.2026: petition
+// allowed with costs; all the respondents (including the appellant) jointly and severally liable for Rs.40,82,49,500.80 (claim with
+// interest and charges from the petition to the order), costs and future interest at 16.5% compounded quarterly till realisation (5).
+// Appellant: heirs liable only to the extent of the estate inherited; no personal liability merely as heirs (6). KSFC "does not
+// dispute this legal position", but says the heirs have not furnished details of the properties inherited (7). Point: jointly and
+// severally liable for the entire decretal amount, or only to the extent of the estate inherited? (8). Held: legal heirs do not
+// ordinarily incur the guarantor's personal liability because they are heirs; recoverable from the inherited estate, not the heirs'
+// independent assets, unless they separately assume the liability; SBI v. Jayanthi, AIR 2011 Mad 179 (s.131 Contract Act: death
+// revokes the guarantee for future transactions, existing liability survives against the estate) (9); "The death of the guarantor does
+// not extinguish guarantor's existing liability"; heirs inherit the estate subject to the liability; heirs' liability limited to the
+// inherited estate, Ram Kishun v. State of U.P., (2012) 11 SCC 511 (10); s.128: surety coextensive with the principal debtor (11, 12);
+// "The heirs' personal income and independently acquired assets should not be made liable merely by reason of inheritance";
+// enforcement confined to the inherited properties, subject to the amount actually due and defences (12). ORDER: decree modified; the
+// appellant and the other legal heirs liable only to the extent of the estate/properties inherited, not jointly and severally liable
+// for the entire Rs.40,82,49,500.80 with interest and costs; the heirs to disclose to the Executing Court the properties inherited (13);
+// appeal disposed of with that clarification and modification (14).
+// Not said: any person's name (the guarantor and his heirs are private persons; the cite card carries the cause title only); when
+// the guarantor died (the judgment does not say: speech says only "has since passed away"); the company is not named in speech.
+// "Over forty crore" is the Commercial Court's decree figure (5); "seventy three and a half lakh" = the two sanctioned loans (4).
+// Flow policy: no accusation against anyone; KSFC "did not dispute" (never "admitted"); only the court, the judges, KSFC and the statute.
+# 1 · MUST THE HEIRS PAY IT ALL?
+10 | Your father stands guarantor for a company's loan, then passes away before it is repaid. Can the lender make you pay the entire debt from your own pocket?
+10 | Here, loans of seventy three and a half lakh grew into a decree of over forty crore, against the heirs too. The Karnataka High Court asked: must they pay it all? || Here, loans of ₹73.5 lakh grew into a decree of over ₹40 crore, against the heirs too. The Karnataka High Court asked: must they pay it all?
+10 | Hi, I'm Ravishankar from LawWorld. On twenty eighth October, Honourable Justice D K Singh and Honourable Justice H Shanthi Bhushan ruled. || Hi, I'm Ravishankar from LawWorld. On 28 October, Honourable Justice D.K. Singh and Honourable Justice H. Shanthi Bhushan ruled.
+# 2 · THE GUARANTEE
+10 | In nineteen eighty eight and eighty nine, the Karnataka State Financial Corporation lent a granite company seventy three and a half lakh rupees. || In 1988 and 1989, the Karnataka State Financial Corporation lent a granite company ₹73.5 lakh.
+10 | A man stood guarantor, by unconditional and irrevocable guarantees; under their terms, his liability was joint and several. He has since passed away.
+# 3 · FORTY CRORE ON THE HEIRS
+10 | In July twenty twenty six, the Commercial Court held all the respondents, his heirs included, jointly and severally liable for over forty crore rupees. || In July 2026, the Commercial Court held all the respondents, his heirs included, jointly and severally liable for over ₹40 crore.
+10 | One heir appealed: heirs are liable only up to the estate they inherit. The corporation did not dispute that, but said they had not disclosed the inheritance.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the High Court decide? A guarantor's death does not end his existing liability. It continues against the estate the heirs inherit.
+10 | But the heirs' own income and assets are not liable just by inheritance. The decree was modified: they answer only up to the estate, and must disclose it.

@@ -1,0 +1,4 @@
+# Uday Chand Vedi v. Puneet Vedi (Telangana HC, C.C.C.A. 68/2010, 30.10.2026, cover sheet "marked to Law Reporters: Yes"): a buyer who paid ₹50,000 of ₹10 lakh and missed the balance deadline did not prove readiness and willingness; the specific-performance decree set aside, suit dismissed. HOOK-format judgment reel, ENGLISH, 04-11-2026 (LawWorld's first Telangana reel; opening spoken to everyone, no "Advocates,").
+export SPLIT_D=downloads/tka SPLIT_SB=split/tka SPLIT_ALL=split/tka_all_scenes.json SPLIT_GO=split/GOtka
+export SPLIT_ACCOUNT=a2; . split/accounts.sh
+export SPLIT_VOCAB="LawWorld, Ravishankar, Telangana High Court, Honourable Justice Suddala Chalapathi Rao, advance, ten lakh rupee, fifty thousand rupees, deadline, balance, certificate of posting, telegram, cancelled, decreed, specific performance, essence, readiness, ready and willing, concrete proof, set aside, dismissed, appealed, lawworld dot A I"

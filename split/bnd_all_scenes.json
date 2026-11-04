@@ -1,0 +1,69 @@
+{
+ "projectTitle": "LawWorld_bnd",
+ "title": "Freed, but still unpaid?",
+ "source": "split/scripts/bnd.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "A worker rescued from bonded labour is due immediate cash aid to restart his life. How long should he wait for it? A few days? A few months? Or a few years?",
+   "chip": "1 · FREED, BUT STILL UNPAID?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "One rescued worker got his aid nearly three years later. Seventeen others freed with him, the petitioners say, were still unpaid. So what is the deadline now?",
+   "shown": "One rescued worker got his aid nearly three years later. 17 others freed with him, the petitioners say, were still unpaid. So what is the deadline now?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On second November, Honourable Justice Vikram Nath and Honourable Justice Aparesh Kumar Singh ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 2 November, Honourable Justice Vikram Nath and Honourable Justice Aparesh Kumar Singh ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "In twenty nineteen, workers from Bihar were rescued from a brick kiln in Uttar Pradesh. They had been taken there on the pretext of repaying a bonded debt.",
+   "shown": "In 2019, workers from Bihar were rescued from a brick kiln in Uttar Pradesh. They had been taken there on the pretext of repaying a bonded debt.",
+   "chip": "2 · THE BRICK KILN"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "They were sent home to Bihar with release certificates. But several did not get the immediate cash aid the rehabilitation scheme provides."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "Bihar said some certificates from Uttar Pradesh were not in the prescribed format. The Court noted such delays often come from poor coordination.",
+   "chip": "3 · WHY THE DELAY?"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "That worker's writ petition flagged the delays, and a national campaign sought one uniform procedure. The Union's affidavit cites a revised S O P.",
+   "shown": "That worker's writ petition flagged the delays, and a national campaign sought one uniform procedure. The Union's affidavit cites a revised SOP."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the Supreme Court decide? Rescued workers must ordinarily get their aid within seven days of the release certificate, subject to checks.",
+   "shown": "Finally, what did the Supreme Court decide? Rescued workers must ordinarily get their aid within 7 days of the release certificate, subject to checks.",
+   "chip": "5 · WHAT THE COURT DIRECTED"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "One S O P must apply across India, and States get six months. Uttar Pradesh and Bihar must check the seventeen workers' dues. The case stays pending, for monitoring.",
+   "shown": "One SOP must apply across India, and States get 6 months. Uttar Pradesh and Bihar must check the 17 workers' dues. The case stays pending, for monitoring."
+  }
+ ]
+}

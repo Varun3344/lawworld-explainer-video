@@ -1,0 +1,67 @@
+{
+ "projectTitle": "LawWorld_pcw",
+ "title": "No waiting list?",
+ "source": "split/scripts/pcw.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "You clear all four stages of a police recruitment, but just miss the list. Then selected candidates drop out at verification. Do those posts simply lapse?",
+   "chip": "1 · WHEN SELECTEES DROP OUT"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "In Andhra Pradesh's twenty twenty two constable recruitment, four hundred posts were left unfilled this way. The State pointed to a no waiting list clause. Was it valid?",
+   "shown": "In Andhra Pradesh's 2022 constable recruitment, 400 posts were left unfilled this way. The State pointed to a no-waiting-list clause. Was it valid?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On thirtieth October, twenty twenty six, Honourable Justice Nyapathy Vijay of the Andhra Pradesh High Court ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 30 October 2026, Honourable Justice Nyapathy Vijay of the Andhra Pradesh High Court ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "The State Level Police Recruitment Board notified over six thousand constable posts, to be filled strictly on merit after written and physical tests.",
+   "shown": "The State Level Police Recruitment Board notified over 6,000 constable posts, to be filled strictly on merit after written and physical tests.",
+   "chip": "2 · THE RECRUITMENT"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "At the antecedent and medical checks, some selectees dropped out, picked by other departments or unwilling to join. The next in merit sought those posts."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "They were not considered. The State relied on Clause Thirty Three, nine: no waiting list under any circumstances, and left-over vacancies are deemed to have lapsed.",
+   "shown": "They were not considered. The State relied on Clause 33(ix): no waiting list under any circumstances, and left-over vacancies are deemed to have lapsed.",
+   "chip": "3 · THE NO WAITING LIST CLAUSE"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "It said those who took part with open eyes cannot challenge it. Yet the Supreme Court had read a similar rule to cover only drop-outs after appointment orders."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? The clause is arbitrary and unfair. At the verification stage, it would be unfair to shut out the next in merit.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "Taking part did not validate the clause. The State must take steps to fill the left-over vacancies, by merit and reservation, within four months of the order."
+  }
+ ]
+}

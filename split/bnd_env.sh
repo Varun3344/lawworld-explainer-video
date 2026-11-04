@@ -1,0 +1,4 @@
+# Surendra Manjhi v. Union of India (SC, 2026 INSC 1185, Vikram Nath J. and Aparesh Kumar Singh J., 02.11.2026, reportable): rescued bonded labourers get immediate aid ordinarily within 7 days of the release certificate; one SOP across India; writ petitions kept pending for monitoring. HOOK-format judgment reel, ENGLISH, 04-11-2026 (opening spoken to everyone, no "Advocates,").
+export SPLIT_D=downloads/bnd SPLIT_SB=split/bnd SPLIT_ALL=split/bnd_all_scenes.json SPLIT_GO=split/GObnd
+export SPLIT_ACCOUNT=a1; . split/accounts.sh
+export SPLIT_VOCAB="LawWorld, Ravishankar, lawworld dot A I, Supreme Court, Honourable Justice Vikram Nath, Honourable Justice Aparesh Kumar Singh, bonded labour, bonded labourers, brick kiln, Bihar, Uttar Pradesh, pretext, bonded debt, release certificates, rehabilitation scheme, immediate cash aid, prescribed format, coordination, writ petition, national campaign, uniform procedure, revised S O P, ordinarily, seventeen workers, monitoring"

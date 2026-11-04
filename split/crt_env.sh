@@ -1,0 +1,4 @@
+# Anisha Busa v. SIBAR Institute of Dental Sciences (Andhra Pradesh HC, W.P. 15274/2020, 2026:APHC:46012, 28.10.2026, "LR COPY"): a college cannot keep a student's original certificates to force the full course fee. HOOK-format judgment reel, ENGLISH, 04-11-2026 (opening spoken to everyone, no "Advocates,").
+export SPLIT_D=downloads/crt SPLIT_SB=split/crt SPLIT_ALL=split/crt_all_scenes.json SPLIT_GO=split/GOcrt
+export SPLIT_ACCOUNT=main; . split/accounts.sh
+export SPLIT_VOCAB="LawWorld, Ravishankar, Andhra Pradesh High Court, Honourable Justice Harinath N, NEET, B D S seat, university counselling, dental college, original certificates, complications, legal notice, private and unaided, writ, voluntarily, discontinuation fee, U G C guidelines, notification, lien, property, pursued elsewhere, lawworld dot A I"

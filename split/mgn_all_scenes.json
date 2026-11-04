@@ -1,0 +1,69 @@
+{
+ "projectTitle": "LawWorld_mgn",
+ "title": "Absorption taken back?",
+ "source": "split/scripts/mgn.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "You are hired under a government scheme through a proper selection, and serve for years. The State even decides to absorb you. Can it later just take that back?",
+   "chip": "1 · TAKEN BACK?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "Tamil Nadu did exactly this to over five hundred computer assistants in the rural job scheme, and relied on Supreme Court rulings to do it. Was it right?",
+   "shown": "Tamil Nadu did exactly this to over 500 computer assistants in the rural job scheme, and relied on Supreme Court rulings to do it. Was it right?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On twenty eighth October, twenty twenty six, Honourable Justice C Kumarappan of the Madras High Court ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 28 October 2026, Honourable Justice C. Kumarappan of the Madras High Court ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "Between two thousand six and twenty thirteen, they were hired on consolidated pay, through the Employment Exchange, with due procedure and communal rotation.",
+   "shown": "Between 2006 and 2013, they were hired on consolidated pay, through the Employment Exchange, with due procedure and communal rotation.",
+   "chip": "2 · HIRED, THEN DROPPED"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "In twenty seventeen, given their long service, the State decided to absorb them. In twenty twenty three, it withdrew that, citing two Supreme Court rulings.",
+   "shown": "In 2017, given their long service, the State decided to absorb them. In 2023, it withdrew that, citing two Supreme Court rulings."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The computer assistants said theirs were sanctioned posts, so those rulings did not apply, and overseers in the same scheme were absorbed in two thousand eight. Why not them?",
+   "shown": "The computer assistants said theirs were sanctioned posts, so those rulings did not apply, and overseers in the same scheme were absorbed in 2008. Why not them?",
+   "chip": "3 · THE ARGUMENTS"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The State fairly said they were no backdoor entrants, but called them contract staff, kept only while the scheme lasts, with no sanctioned posts to absorb them into."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? The posts were sanctioned and the hiring proper, so those rulings were no bar. Switching views with no change in law was arbitrary.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "The government should be a model employer. The withdrawal was quashed, and it must absorb them as Junior Assistants, through a special qualifying test, within twelve weeks.",
+   "shown": "The government should be a model employer. The withdrawal was quashed, and it must absorb them as Junior Assistants, through a special qualifying test, within 12 weeks."
+  }
+ ]
+}

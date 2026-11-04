@@ -1,0 +1,66 @@
+{
+ "projectTitle": "LawWorld_rnt",
+ "title": "Too late to evict?",
+ "source": "split/scripts/rnt.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "You are a tenant in Tamil Nadu, paying rent every month, but no written tenancy agreement was ever signed. Can the landlord evict you for that alone?",
+   "chip": "1 · TOO LATE TO EVICT?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "The law gave both sides five hundred and seventy five days to sign one. This tenant said that once the window closed, the landlords had lost that ground. So who is right?",
+   "shown": "The law gave both sides 575 days to sign one. This tenant said that once the window closed, the landlords had lost that ground. So who is right?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On thirtieth October, twenty twenty six, Honourable Justice P B Balaji of the Madras High Court ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 30 October 2026, Honourable Justice P.B. Balaji of the Madras High Court ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "According to the tenant, the landlords' notice said: sign a written tenancy agreement, or vacate. The tenant replied that the demand had lapsed with the window.",
+   "chip": "2 · SIGN OR VACATE"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "The Rent Court still ordered eviction for the failure to sign, though it rejected the landlords' plea of rent default. The Rent Tribunal confirmed the eviction."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "In revision, the tenant relied on a Division Bench ruling: a petition filed after the window is not maintainable. That bench made it prospective.",
+   "chip": "3 · THE ARGUMENTS"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "Only the Supreme Court can do that, the tenant argued, so it applies here. The landlords said it spared pending cases, and the reason for failure is irrelevant."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? It agreed a High Court cannot overrule prospectively, but that bench ruling had already been held per incuriam.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "The failure can arise only after the window ends, so the petition was maintainable. Revision dismissed: the tenant must vacate by thirty first December.",
+   "shown": "The failure can arise only after the window ends, so the petition was maintainable. Revision dismissed: the tenant must vacate by 31 December."
+  }
+ ]
+}

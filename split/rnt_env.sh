@@ -1,0 +1,4 @@
+# M/s. Jaison Electronics v. Mujahid Baig (Madras HC, C.R.P. 1837/2026, 2026:MHC:4386, 30.10.2026, reportable): eviction for failure to enter into a tenancy agreement, s.21(2)(a) TN Act 42 of 2017, maintainable after the 575 days. HOOK-format judgment reel, ENGLISH, 04-11-2026 (opening spoken to everyone, no "Advocates,").
+export SPLIT_D=downloads/rnt SPLIT_SB=split/rnt SPLIT_ALL=split/rnt_all_scenes.json SPLIT_GO=split/GOrnt
+export SPLIT_ACCOUNT=main; . split/accounts.sh
+export SPLIT_VOCAB="LawWorld, Ravishankar, Madras High Court, Honourable Justice P B Balaji, Tamil Nadu, tenant, tenancy agreement, landlords, evict, eviction, vacate, lapsed, Rent Court, Rent Tribunal, rent default, revision, Division Bench, prospective, prospectively, overrule, per incuriam, maintainable, irrelevant, Supreme Court, five hundred and seventy five days, lawworld dot A I"

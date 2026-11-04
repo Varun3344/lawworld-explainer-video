@@ -1,0 +1,4 @@
+# S.R. Balakrishnan v. State of Tamil Nadu (Madras HC, W.P. 27070/2024 & W.P. 23311, 32020/2023, 2026:MHC:4344, 28.10.2026, reportable): MGNREGS computer assistants - 2023 withdrawal of absorption quashed, absorb as Junior Assistants via a Special Qualifying Test in 12 weeks. HOOK-format judgment reel, ENGLISH, 04-11-2026 (opening spoken to everyone, no "Advocates,").
+export SPLIT_D=downloads/mgn SPLIT_SB=split/mgn SPLIT_ALL=split/mgn_all_scenes.json SPLIT_GO=split/GOmgn
+export SPLIT_ACCOUNT=a1; . split/accounts.sh
+export SPLIT_VOCAB="LawWorld, Ravishankar, Madras High Court, Honourable Justice C Kumarappan, Tamil Nadu, computer assistants, rural job scheme, absorb, absorption, consolidated pay, Employment Exchange, communal rotation, Umadevi, Daya Lal, sanctioned posts, overseers, backdoor entrants, contract staff, arbitrary, model employer, quashed, Junior Assistants, special qualifying test, lawworld dot A I"

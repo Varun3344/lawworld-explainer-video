@@ -1,0 +1,45 @@
+// Mohammad Irfan K.I. v. State Bank of India & Ors., W.A. No. 2209 of 2026 (against the judgment dated 28.09.2026 in WP(C) No. 41222
+// of 2025), 2026:KER:82568, CNR KLHC010810012026, High Court of Kerala at Ernakulam, Division Bench: Devan Ramachandran, J. (wrote it)
+// and Basant Balaji, J.; Wednesday 28.10.2026, delivered the same day the appeal came up for admission (p2). REPORTABLE: "C.R." printed
+// on page 3 above JUDGMENT. HOOK format (split/JUDGMENT_HOOK_FORMAT.md), the High Courts page (ENGLISH). Opening clip spoken to everyone,
+// no "Advocates," (owner 03-11-2026).
+// Source: the court's copy (8 pages, neutral citation and CNR on every page) as uploaded by LiveLaw Biz,
+// livelawbiz.com/pdf_upload/2026/11/03/document-68c6a1ed-617c-4984-a17e-13eb6c9195f0-709646.pdf, scratchpad
+// fresh4nov/ker_dhc/pdfbiz/document-68c6a1ed-617c-4984-a17e-13eb6c9195f0-709646.pdf, read in full (paras 1-12).
+// Facts used (page / para): the appellant, aged 20, of Kasaragod (cause title p1); respondents: SBI Kasaragod branch, the Station House
+// Officer, Cyber Crimes Cell Puducherry (R2), the SHO Bekal (R3) (p2). The writ petition sought that his account be discharged of the
+// "freezing order" issued by the 2nd respondent police officer (1). He explains the disputed entries as sums given to him by his cousin
+// and her husband; alternatively, confine any freeze to the disputed amount alone (2, his case). The Single Judge dismissed the writ
+// petition, "but then moved a step forward", directing that his account itself be investigated by the police (3); after finding against
+// him on merits, the Single Judge ordered an investigation against him and his account, noticing "large amounts also credited in the
+// account of the petitioner" (8). His counsel: he explained the source of the money; no other investigation pending against him,
+// including by R2 or R3; the Single Judge could only have dismissed the writ petition, not ordered an investigation (5). SBI's standing
+// counsel: the bank has received no information from R2 or R3 of any investigation launched, initiated or pending against him or his
+// account; it only acts on R2's requisition (6). The Senior Government Pleader: as of now, the Puducherry police officer (R2) has not
+// issued any letter implicating him or his account; the freeze appears to follow six disputed entries (7). Held: the Single Judge could
+// not have ordered an investigation against him or his account "solely because of certain entries in the statement of such account
+// presented by the SBI"; "None of the Police Officers on record imputes that the appellant is involved in any Crime"; at least as of now,
+// the only insinuation is that the senders may have obtained the sums as proceeds of crime; "This itself being only a presumption at
+// this stage, an investigation cannot be ordered by this Court independently" (9); the investigation direction "cannot find forensic
+// favour" (10); the disputed amounts are only the six entries in SBI's statement, so the account stays frozen only to that extent and not
+// beyond (11); appeal allowed, impugned judgment set aside; R2's freezing order stands only for the disputed entries in its requisition;
+// any further requisition by R2 or any other competent police officer binds SBI, subject to the appellant's rights in law (12).
+// Not said: the appellant's name or his relatives' (private persons; the cause title appears only on the cite card); that the money is
+// clean or tainted (the Court decided neither); "conceded" / "admitted" (SBI's and the State's statements are voiced as "said").
+// Flow policy: no accusation against a named person; no "fraud" / "collusion" / "admitted"; only the court, the judges, the bank and
+// the police are named.
+# 1 · A PROBE INTO YOUR ACCOUNT?
+10 | Your bank account is frozen over a few disputed credits, and you ask a court to free it. Can the court order the police to investigate your account instead?
+10 | It happened to a young man in Kasaragod. He asked the Kerala High Court to free his account, but a judge ordered a police probe. Could a court do that?
+10 | Hi, I'm Ravishankar from LawWorld. On twenty eighth October, Honourable Justice Devan Ramachandran and Honourable Justice Basant Balaji ruled. || Hi, I'm Ravishankar from LawWorld. On 28 October, Honourable Justice Devan Ramachandran and Honourable Justice Basant Balaji ruled.
+# 2 · THE FROZEN ACCOUNT
+10 | The Puducherry cyber crime police had the bank freeze his State Bank account, over six disputed entries. He said the money came from his cousin and her husband. || The Puducherry cyber crime police had the bank freeze his State Bank account, over 6 disputed entries. He said the money came from his cousin and her husband.
+10 | He asked the court to lift the freeze, or limit it to the disputed sums. The single judge dismissed his plea, and, citing large credits, ordered a police probe.
+# 3 · WHO ALLEGED A CRIME?
+10 | His counsel argued he had explained the source, and no investigation was pending, so the single judge could only dismiss his plea, not order a probe.
+10 | The bank said neither police officer in the case had informed it of any probe. The State said that, as of now, Puducherry police had not implicated him.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the High Court decide? No police officer on record accuses him of a crime. That the credits may be crime proceeds is just a presumption now.
+10 | So the single judge could not order a probe on the bank statement entries alone. The appeal was allowed, and the freeze stays only on the six disputed entries. || So the single judge could not order a probe on the bank statement entries alone. The appeal was allowed, and the freeze stays only on the 6 disputed entries.

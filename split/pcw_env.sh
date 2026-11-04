@@ -1,0 +1,4 @@
+# Paravada Ganesh v. State of Andhra Pradesh (Andhra Pradesh HC, W.P. 27611/2025 & batch, 2026:APHC:47018-47020, 30.10.2026, "L.R copy be marked"): the 2022 constable recruitment's no-waiting-list Clause 33(ix) declared arbitrary and unfair; left-over vacancies to be filled by merit and reservation in 4 months. HOOK-format judgment reel, ENGLISH, 04-11-2026.
+export SPLIT_D=downloads/pcw SPLIT_SB=split/pcw SPLIT_ALL=split/pcw_all_scenes.json SPLIT_GO=split/GOpcw
+export SPLIT_ACCOUNT=a1; . split/accounts.sh
+export SPLIT_VOCAB="LawWorld, Ravishankar, Andhra Pradesh High Court, Honourable Justice Nyapathy Vijay, State Level Police Recruitment Board, constable recruitment, antecedent, verification, selectees, departments, waiting list, Clause Thirty Three nine, left-over vacancies, lapsed, open eyes, Supreme Court, appointment orders, arbitrary, unfair, merit, reservation, lawworld dot A I"

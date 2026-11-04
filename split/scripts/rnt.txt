@@ -1,0 +1,48 @@
+// M/s. Jaison Electronics v. Mujahid Baig & Anr., C.R.P. No. 1837 of 2026 (& C.M.P. No. 8259 of 2026), 2026:MHC:4386, High Court of
+// Judicature at Madras, single Judge: P.B. Balaji, J.; order reserved 28.09.2026, pronounced and uploaded 30.10.2026. REPORTABLE: the
+// court's own judis database lists it under "Reportable" (judge-wise search, list fresh4nov/khc_mhc/mhc/mhc_Y.json: CRP.1837/2026,
+// filename 1386464, citno 2026/MHC/4386). HOOK format (split/JUDGMENT_HOOK_FORMAT.md), the High Courts page (ENGLISH). Opening clip
+// spoken to everyone, no "Advocates," (owner 03-11-2026).
+// Source: the court's own PDF (13 pages, mhc.tn.gov.in/judis, footer "Uploaded on: 30/10/2026 06:40:35 pm"), read in full; scratchpad
+// fresh4nov/khc_mhc/mhc/pdf/20261030_CRP_1837_2026.pdf + .txt.
+// Facts used (para): revision under Article 227 by the tenant against concurrent eviction - Rent Court (XV Judge, Small Causes Court,
+// Chennai) RLTOP 43/2023 order 29.09.2023, confirmed by the Rent Tribunal (VII Addl. City Civil Court) in RLTA 236/2023 on 11.02.2026
+// (prayer, 1, 4). The landlords sought possession on two grounds: failure to enter into a tenancy agreement as mandated by s.21(2)(a)
+// of the TNRRRLT Act (Act 42 of 2017) and rent default at Rs.89,000 a month from October 2022 (3). The Rent Court allowed the petition
+// under s.21(2)(a) r/w s.4(2) and DISMISSED the default ground under s.21(2)(b); exhibits only, no oral evidence (3). Tenant's counsel:
+// the landlords' notice of 19.10.2022 called on the tenant to enter into a written tenancy agreement (at Rs.89,000, "fanciful") or vacate
+// within a month; reply of 11.11.2022: the demand had lapsed by efflux of time, as the Act contemplates an agreement within 575 days;
+// the only remedy was the civil court (S. Muruganandam, 2022 (2) CTC 291) (6). Tenant: the Division Bench in Hemalatha v.
+// Jeevanantham, 2026 (4) CTC 39 (Madurai Bench) held a s.21(2)(a) petition filed after 575 days not maintainable; it declared its
+// decision prospective, but prospective overruling is for the Supreme Court alone under Article 141 (P.V. George, (2007) 3 SCC 557;
+// Nurpur Private Bus Operators' Union, (1999) 9 SCC 559), so it applies retrospectively (7, 10); alternatively tag the case with the
+// pending reference in Dilip Solanki (8-10). Landlords: the cause of action for failure arises only after the 575 days; the reason for
+// the failure is irrelevant; the Division Bench said its decision would not affect pending proceedings or orders of eviction pending
+// in appeal or revision (11); Ven Ponn Shoes, CRP 956/2025 (12). Court: the window was 90 days at first, substituted by 275 and then
+// 575 days (15); V. Ganesh v. S. Balaji (SC, SLP (C) 17295-17296/2025, 04.07.2025) affirmed a single judge's view that s.21(2)(a) is
+// maintainable whoever was willing (13); "in entire agreement" that a High Court cannot invoke prospective overruling, but Hemalatha
+// has already been held per incuriam by this Court (Neelavathi, CRP(MD) 1357/2026, 12.06.2026; L. Mohamed Ibrahim Sait, CRP 4791/2026,
+// 12.08.2026), so its ratio cannot be applied (14); the referred issue is no longer res integra, no tagging (15); "even on a plain
+// reading of the statute, the cause of action for alleging failure can arise only after the expiry of 575 days"; no merit in the plea
+// that s.21(2)(a) cannot be invoked after 575 days; the consistent view on maintainability "has also been upheld by the Hon'ble
+// Supreme Court in V.Ganesh's case" (15). ORDER: C.R.P. dismissed; the petitioner to vacate and hand over vacant possession by
+// 31.12.2026; no costs; C.M.P. closed (16).
+// Not said: any person's name (the landlords are private persons; the cite card carries only the cause title); the Rs.89,000 figure
+// (a party's figure, disputed as "fanciful"); the Dilip Solanki reference (para 8-10, 15: card-free, not spoken). The notice and reply
+// are voiced as "according to the tenant" (they appear only in the tenant's submission, para 6). Flow policy: no accusation, no
+// "fraud" / "collusion" / "admitted"; only the court, the judge and the statute are named.
+# 1 · TOO LATE TO EVICT?
+10 | You are a tenant in Tamil Nadu, paying rent every month, but no written tenancy agreement was ever signed. Can the landlord evict you for that alone?
+10 | The law gave both sides five hundred and seventy five days to sign one. This tenant said that once the window closed, the landlords had lost that ground. So who is right? || The law gave both sides 575 days to sign one. This tenant said that once the window closed, the landlords had lost that ground. So who is right?
+10 | Hi, I'm Ravishankar from LawWorld. On thirtieth October, twenty twenty six, Honourable Justice P B Balaji of the Madras High Court ruled. || Hi, I'm Ravishankar from LawWorld. On 30 October 2026, Honourable Justice P.B. Balaji of the Madras High Court ruled.
+# 2 · SIGN OR VACATE
+10 | According to the tenant, the landlords' notice said: sign a written tenancy agreement, or vacate. The tenant replied that the demand had lapsed with the window.
+10 | The Rent Court still ordered eviction for the failure to sign, though it rejected the landlords' plea of rent default. The Rent Tribunal confirmed the eviction.
+# 3 · THE ARGUMENTS
+10 | In revision, the tenant relied on a Division Bench ruling: a petition filed after the window is not maintainable. That bench made it prospective.
+10 | Only the Supreme Court can do that, the tenant argued, so it applies here. The landlords said it spared pending cases, and the reason for failure is irrelevant.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the High Court decide? It agreed a High Court cannot overrule prospectively, but that bench ruling had already been held per incuriam.
+10 | The failure can arise only after the window ends, so the petition was maintainable. Revision dismissed: the tenant must vacate by thirty first December. || The failure can arise only after the window ends, so the petition was maintainable. Revision dismissed: the tenant must vacate by 31 December.

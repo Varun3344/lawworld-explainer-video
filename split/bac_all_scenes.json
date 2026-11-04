@@ -1,0 +1,66 @@
+{
+ "projectTitle": "LawWorld_bac",
+ "title": "Probe into a frozen account",
+ "source": "split/scripts/bac.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Your bank account is frozen over a few disputed credits, and you ask a court to free it. Can the court order the police to investigate your account instead?",
+   "chip": "1 · A PROBE INTO YOUR ACCOUNT?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "It happened to a young man in Kasaragod. He asked the Kerala High Court to free his account, but a judge ordered a police probe. Could a court do that?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On twenty eighth October, Honourable Justice Devan Ramachandran and Honourable Justice Basant Balaji ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 28 October, Honourable Justice Devan Ramachandran and Honourable Justice Basant Balaji ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "The Puducherry cyber crime police had the bank freeze his State Bank account, over six disputed entries. He said the money came from his cousin and her husband.",
+   "shown": "The Puducherry cyber crime police had the bank freeze his State Bank account, over 6 disputed entries. He said the money came from his cousin and her husband.",
+   "chip": "2 · THE FROZEN ACCOUNT"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "He asked the court to lift the freeze, or limit it to the disputed sums. The single judge dismissed his plea, and, citing large credits, ordered a police probe."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "His counsel argued he had explained the source, and no investigation was pending, so the single judge could only dismiss his plea, not order a probe.",
+   "chip": "3 · WHO ALLEGED A CRIME?"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The bank said neither police officer in the case had informed it of any probe. The State said that, as of now, Puducherry police had not implicated him."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? No police officer on record accuses him of a crime. That the credits may be crime proceeds is just a presumption now.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "So the single judge could not order a probe on the bank statement entries alone. The appeal was allowed, and the freeze stays only on the six disputed entries.",
+   "shown": "So the single judge could not order a probe on the bank statement entries alone. The appeal was allowed, and the freeze stays only on the 6 disputed entries."
+  }
+ ]
+}

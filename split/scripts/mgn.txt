@@ -1,0 +1,47 @@
+// S.R. Balakrishnan v. State of Tamil Nadu & Ors., with K. Karthikeyan & Anr. v. State of Tamil Nadu & Ors. and A. Arumugam & 517 Ors. v.
+// State of Tamil Nadu & Ors., W.P. Nos. 27070 of 2024, 23311 of 2023 & 32020 of 2023, 2026:MHC:4344, High Court of Judicature at
+// Madras, single Judge: C. Kumarappan, J.; common order dated and uploaded 28.10.2026 ("Index: Yes", "Neutral Citation: Yes").
+// REPORTABLE: the court's own judis database lists it under "Reportable" (judge-wise search, list fresh4nov/khc_mhc/mhc/mhc_Y.json:
+// WP.27070/2024, filename 1385234, citno 2026/MHC/4344). HOOK format (split/JUDGMENT_HOOK_FORMAT.md), the High Courts page (ENGLISH).
+// Opening clip spoken to everyone, no "Advocates," (owner 03-11-2026).
+// Source: the court's own PDF (34 pages, mhc.tn.gov.in/judis, footer "Uploaded on: 28/10/2026 07:49:02 pm"), read in full; scratchpad
+// fresh4nov/khc_mhc/mhc/pdf/20261028_WP_27070_2024.pdf + .txt. Petitioners: 1 + 2 + 518 (W.P. 32020/2023 lists 518) = 521.
+// Facts used (para): all three writs attack G.O.(Ms) No.92, RD&PR (E5), 13.07.2023 (1). The petitioners were appointed as Computer
+// Assistants between 2006 and 2013 under MGNREGS, on consolidated pay, after due selection and communal rotation (2); G.O.(Ms) No.37
+// dated 22.03.2017 took a policy decision to absorb them, based on their long service (2; "an admitted fact", 9); G.O. 92 withdrew the
+// absorption citing Umadevi, (2006) 4 SCC 1, and Daya Lal, (2011) 2 SCC 429 (2). Petitioners: sanctioned posts (2); Director's
+// recommendation 28.02.2019 and the Division Bench in W.A.(MD) 1358/2019 etc. (21.11.2019) (4(a)); overseers recruited under the same
+// scheme were absorbed by G.O.(Ms) No.96 dated 06.06.2008 with age relaxation - discrimination, Article 14 (4(a)); TNPSC had earlier
+// agreed to a Special Qualifying Test (4(b)); Sukhendu Bhattacharjee, 2026 SCC OnLine SC 909 (4(b)); Umadevi distinguishable,
+// legitimate expectation (5). State (Addl. Advocate General): "in all fairness" the petitioners are not back door entrants and were
+// appointed after due procedure and communal rotation, but Employment Exchange sponsorship alone is no valid recruitment; contractual,
+// consolidated pay, only while the scheme exists or the need lasts (6(a)); 60:40 Centre-State cost sharing under VB-G RAM G (Act 36 of
+// 2025) (6(b)-(c)); no sanctioned post, Nihal Singh, (2013) 14 SCC 65 (6(c)). Court: recruitment through the Employment Exchange with
+// due procedure and communal rotation not seriously disputed (10); Umadevi and Daya Lal: no regularisation as of right in a post NOT
+// sanctioned; here sanctioned posts (10); 1,791 Computer Assistant posts sanctioned (11-12); posts sanctioned though contractual and
+// coterminous with the scheme, so the "not sanctioned" plea is rejected; the scheme is now permanent by Act 36/2025, so the post is
+// impliedly permanent (13); TNPSC had concurred in 2017; "one view during 2017 and another view during 2023 without there being any
+// change in law" shows an arbitrary exercise of power (14); overseers absorbed by G.O. 96 (not seriously disputed): denying others is
+// discrimination, arbitrary (15); Sukhendu Bhattacharjee para 76: Umadevi no "blanket barrier", the State "as a model employer" (16);
+// Jaggo, 2024 SCC OnLine SC 3826: "the Government should be a model employer and cannot engage an employee on contractual basis
+// perpetually"; G.O. 92 and Letter (Ms) No.94 of 13.07.2023 quashed as illegal and arbitrary (17). ORDER: writ petitions allowed; the
+// respondents are directed to absorb the petitioners in the post of Junior Assistant by conducting a Special Qualifying Test in
+// accordance with G.O.(Ms) No.37 dated 22.03.2017, within twelve weeks from the date of receipt of a copy of the order; no costs (18).
+// Not said: any petitioner's name (private persons; the cite card carries the lead cause title only); "mala fide" and "change in ruling
+// regime" (para 14: card-free, not spoken); "admitted". Flow policy: no accusation of a private person, no "fraud" / "collusion" /
+// "admitted"; only the court, the judge, the State and the rulings are named.
+# 1 · TAKEN BACK?
+10 | You are hired under a government scheme through a proper selection, and serve for years. The State even decides to absorb you. Can it later just take that back?
+10 | Tamil Nadu did exactly this to over five hundred computer assistants in the rural job scheme, and relied on Supreme Court rulings to do it. Was it right? || Tamil Nadu did exactly this to over 500 computer assistants in the rural job scheme, and relied on Supreme Court rulings to do it. Was it right?
+10 | Hi, I'm Ravishankar from LawWorld. On twenty eighth October, twenty twenty six, Honourable Justice C Kumarappan of the Madras High Court ruled. || Hi, I'm Ravishankar from LawWorld. On 28 October 2026, Honourable Justice C. Kumarappan of the Madras High Court ruled.
+# 2 · HIRED, THEN DROPPED
+10 | Between two thousand six and twenty thirteen, they were hired on consolidated pay, through the Employment Exchange, with due procedure and communal rotation. || Between 2006 and 2013, they were hired on consolidated pay, through the Employment Exchange, with due procedure and communal rotation.
+10 | In twenty seventeen, given their long service, the State decided to absorb them. In twenty twenty three, it withdrew that, citing two Supreme Court rulings. || In 2017, given their long service, the State decided to absorb them. In 2023, it withdrew that, citing two Supreme Court rulings.
+# 3 · THE ARGUMENTS
+10 | The computer assistants said theirs were sanctioned posts, so those rulings did not apply, and overseers in the same scheme were absorbed in two thousand eight. Why not them? || The computer assistants said theirs were sanctioned posts, so those rulings did not apply, and overseers in the same scheme were absorbed in 2008. Why not them?
+10 | The State fairly said they were no backdoor entrants, but called them contract staff, kept only while the scheme lasts, with no sanctioned posts to absorb them into.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the High Court decide? The posts were sanctioned and the hiring proper, so those rulings were no bar. Switching views with no change in law was arbitrary.
+10 | The government should be a model employer. The withdrawal was quashed, and it must absorb them as Junior Assistants, through a special qualifying test, within twelve weeks. || The government should be a model employer. The withdrawal was quashed, and it must absorb them as Junior Assistants, through a special qualifying test, within 12 weeks.

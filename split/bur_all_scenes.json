@@ -1,0 +1,70 @@
+{
+ "projectTitle": "LawWorld_bur",
+ "title": "A body waiting abroad",
+ "source": "split/scripts/bur.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "A man dies abroad, and his relatives cannot agree where to bury him. His body waits in a forensic lab for a year and a half. Who must step in?",
+   "chip": "1 · A BODY WAITING ABROAD"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "It happened to a seventy one year old Indian in the U A E. Even this October, his body was still in that forensic lab. So what can a court do?",
+   "shown": "It happened to a 71-year-old Indian in the UAE. Even this October, his body was still in that forensic lab. So what can a court do?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On twenty eighth October, Honourable Justice P V Kunhikrishnan of the Kerala High Court passed an interim order.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 28 October, Honourable Justice P.V. Kunhikrishnan of the Kerala High Court passed an interim order."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "He died in March twenty twenty five, and his body was kept in a forensic lab in Ajman. He was unmarried; his niece and nephew are among his legal heirs.",
+   "shown": "He died in March 2025, and his body was kept in a forensic lab in Ajman. He was unmarried; his niece and nephew are among his legal heirs.",
+   "chip": "2 · TWO RELATIVES, TWO PLANS"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "His niece, who filed the case, wanted him buried at the family tomb in Kollam. His nephew asked the consulate for the funeral rites in the U A E.",
+   "shown": "His niece, who filed the case, wanted him buried at the family tomb in Kollam. His nephew asked the consulate for the funeral rites in the UAE."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "Facing contradictory demands, the External Affairs Ministry and the consulate said they could not act. So the body stayed in the forensic lab.",
+   "chip": "3 · HOME, BUT WHERE?"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "On twenty second October, both sides raised no objection to bringing him home, and the Court ordered it. But that order did not say where he should be buried.",
+   "shown": "On 22 October, both sides raised no objection to bringing him home, and the Court ordered it. But that order did not say where he should be buried."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? In an interim order, it said even the dead have a right to dignity under Article Twenty One, and stepped in.",
+   "shown": "Finally, what did the High Court decide? In an interim order, it said even the dead have a right to dignity under Article 21, and stepped in.",
+   "chip": "5 · THE INTERIM DIRECTIONS"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "For now, the burial must be done within four days of her receiving the body, with police ensuring peace and dignity. The case continues on twenty sixth November.",
+   "shown": "For now, the burial must be done within 4 days of her receiving the body, with police ensuring peace and dignity. The case continues on 26 November."
+  }
+ ]
+}

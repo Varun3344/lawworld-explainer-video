@@ -1,0 +1,51 @@
+// Mary Victoria v. Ministry of External Affairs, Government of India & Ors., WP(C) No. 35189 of 2025 (W), High Court of Kerala at
+// Ernakulam, single Judge: P.V. Kunhikrishnan, J.; order of Wednesday 28.10.2026 (an INTERIM order in a pending writ petition: additional
+// directions on top of the interim order of 22.10.2026; "Post on 26.11.2026"). REPORTABLE: "CR" printed on pages 3 and 4 of the order.
+// HOOK format (split/JUDGMENT_HOOK_FORMAT.md), the High Courts page (ENGLISH). Opening clip spoken to everyone, no "Advocates,".
+// Source: the court's certified order (15 pages, "28-10-2026 /True Copy/ Assistant Registrar"), as uploaded by Bar & Bench,
+// images.assettype.com/barandbench/2026-10-30/x9lf1ttk/Mary_Victoria_v_Ministry_of_External_Affairs___ors.pdf, scratchpad
+// fresh4nov/ker_dhc/pdf/Mary_Victoria_v_Ministry_of_External_Affairs___ors.pdf, read in full (paras 1-13 + appendix).
+// Facts used (para): the body has waited for a decent burial since 26.03.2025 in a forensic laboratory in Ajman, UAE; interim order of
+// 22.10.2026 directed respondents 1 and 2 (Ministry of External Affairs, Indian Consulate Dubai) to repatriate it; posted to 26.11.2026
+// (1); posted again because additional directions were needed (2). He was 71, died on 26.03.2025 while in the UAE; remains at the
+// forensic laboratory, MSK Sheikh Khalifa Hospital, Ajman; the petitioner is the daughter of his elder sister (Ext.P2); he was not
+// married (4). The petitioner asked the Consulate to repatriate the remains to Kerala for funeral rites and burial at the family tomb at
+// St. Andrew's Church, Sasthamcotta, Kollam; the additional 4th respondent wrote to the Consulate that he is the only nearest blood
+// relative and asked for the funeral rites in the UAE itself; with two conflicting views on the place of burial, the body is kept in
+// the UAE (5). Respondents 1 and 2: contradictory demands by the nephew and the niece, so they are not in a position to do the needful
+// (6). 22.10.2026: "It is a sad story"; petitioner = niece, 4th respondent = nephew, both among the legal heirs; their counsel had no
+// objection to repatriating the body to India; respondents 1 and 2 directed to repatriate forthwith; the petitioner bears the expense
+// for the time being and is the point of contact; "Post on 26.11.2026" (7). Steps to repatriate already taken; the 22.10 order did not
+// address where the body is to be buried (8). For 1 1/2 years the body of an Indian citizen has waited in a forensic lab in the UAE over
+// the place of burial; "If relatives fail, society should step in; if society fails, the state should step in"; "A dead body deserves no
+// label, but it deserves respect and dignity. This is part of the right under Article 21 of the Constitution of India."; Parmanand
+// Katara (9). The dispute should not have been a reason to deny a decent burial; the Court need not consider the relatives'
+// disagreement over the place; it has to step in for a decent burial (10). Property rights, if that is the aim, are for a competent
+// court (11). The disagreement must not become an indefinite impediment; the 4th respondent may take part in the funeral but cannot
+// create any problem; the jurisdictional police and the DMO, Kollam to be impleaded, the body arriving after about 1 1/2 years (12).
+// SHOs Thekkumbhagam and Sasthamcotta and the DMO Kollam impleaded suo motu as respondents 6-8; directions: (1) the petitioner informs
+// them in advance of the date she receives the body; (2) the police ensure no law-and-order problem until the burial is completed and a
+// dignified and decent burial; (3) the petitioner may perform the rites per the religious ceremony, burial at St. Andrew's Church,
+// Sasthamcotta, West Kallada, Kollam, with the consent of the Church authorities; (4) burial completed within four days of the date the
+// petitioner receives the body; the DMO, Kollam preserves the body until then, the petitioner meets any expense; (5) copy to the
+// Government Pleader; "Post on 26.11.2026" (13).
+// Not said: any private person's name (the deceased, the niece, the nephew; the cause title appears only on the cite card); the manner
+// of death (para 4) - speech says only "he died"; the nephew's claim to be the only nearest blood relative or to the belongings (5);
+// the property remark (11) and the direction that the nephew may attend but not disrupt (12) - kept off speech and cards so the reel
+// takes no side in the family dispute. Interim: c09 "In an interim order", c10 "For now" + "The case continues on twenty sixth November".
+// Flow policy: no accusation; no "fraud" / "collusion" / "admitted" ("Admittedly ... not married" becomes "He was unmarried").
+# 1 · A BODY WAITING ABROAD
+10 | A man dies abroad, and his relatives cannot agree where to bury him. His body waits in a forensic lab for a year and a half. Who must step in?
+10 | It happened to a seventy one year old Indian in the U A E. Even this October, his body was still in that forensic lab. So what can a court do? || It happened to a 71-year-old Indian in the UAE. Even this October, his body was still in that forensic lab. So what can a court do?
+10 | Hi, I'm Ravishankar from LawWorld. On twenty eighth October, Honourable Justice P V Kunhikrishnan of the Kerala High Court passed an interim order. || Hi, I'm Ravishankar from LawWorld. On 28 October, Honourable Justice P.V. Kunhikrishnan of the Kerala High Court passed an interim order.
+# 2 · TWO RELATIVES, TWO PLANS
+10 | He died in March twenty twenty five, and his body was kept in a forensic lab in Ajman. He was unmarried; his niece and nephew are among his legal heirs. || He died in March 2025, and his body was kept in a forensic lab in Ajman. He was unmarried; his niece and nephew are among his legal heirs.
+10 | His niece, who filed the case, wanted him buried at the family tomb in Kollam. His nephew asked the consulate for the funeral rites in the U A E. || His niece, who filed the case, wanted him buried at the family tomb in Kollam. His nephew asked the consulate for the funeral rites in the UAE.
+# 3 · HOME, BUT WHERE?
+10 | Facing contradictory demands, the External Affairs Ministry and the consulate said they could not act. So the body stayed in the forensic lab.
+10 | On twenty second October, both sides raised no objection to bringing him home, and the Court ordered it. But that order did not say where he should be buried. || On 22 October, both sides raised no objection to bringing him home, and the Court ordered it. But that order did not say where he should be buried.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · THE INTERIM DIRECTIONS
+10 | Finally, what did the High Court decide? In an interim order, it said even the dead have a right to dignity under Article Twenty One, and stepped in. || Finally, what did the High Court decide? In an interim order, it said even the dead have a right to dignity under Article 21, and stepped in.
+10 | For now, the burial must be done within four days of her receiving the body, with police ensuring peace and dignity. The case continues on twenty sixth November. || For now, the burial must be done within 4 days of her receiving the body, with police ensuring peace and dignity. The case continues on 26 November.

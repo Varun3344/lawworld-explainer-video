@@ -84,6 +84,20 @@ OUTFITS = {
     "grc": "a tailored dark charcoal-grey two-piece business suit, a pale-blue formal shirt and a deep burgundy silk tie",  # SC reel 03-11 (2026 INSC 1181 Diwali green crackers, HOOK, no \"Advocates,\")
     "cpa": "a tailored deep prussian-blue two-piece business suit, a crisp white formal shirt with fine blue pinstripes and a dark maroon silk tie",  # Karnataka HC (Dharwad) compassionate-appointment reel 04-11, English, hook
     "tfh": "a tailored deep petrol-blue two-piece business suit, a crisp white formal shirt and a dark rust-red silk tie",  # Karnataka HC 24-hour-rule reel 04-11 (Crl.P. 13177/2026, English, HOOK)
+    "ukd": "a tailored deep navy windowpane-check two-piece business suit, a crisp white formal shirt and a deep burgundy silk tie",  # judgment reel 04-11-2026 (14-reel batch, 2 per live court, English, HOOK)
+    "bnd": "a tailored dark charcoal herringbone two-piece business suit, a light-blue formal shirt and a deep green silk tie",  # judgment reel 04-11-2026 (14-reel batch, 2 per live court, English, HOOK)
+    "hgd": "a tailored deep mahogany-brown two-piece business suit, a pale-blue formal shirt and a dark navy silk tie",  # judgment reel 04-11-2026 (14-reel batch, 2 per live court, English, HOOK)
+    "mhr": "a tailored dark emerald-green two-piece business suit, a crisp white formal shirt and a deep burgundy silk tie",  # judgment reel 04-11-2026 (14-reel batch, 2 per live court, English, HOOK)
+    "rnt": "a tailored deep hunter-green herringbone two-piece business suit, a crisp white formal shirt and a dark-burgundy silk tie",  # judgment reel 04-11-2026 (14-reel batch, 2 per live court, English, HOOK)
+    "mgn": "a tailored dark chestnut-brown pinstripe two-piece business suit, a pale-blue formal shirt and a navy silk tie",  # judgment reel 04-11-2026 (14-reel batch, 2 per live court, English, HOOK)
+    "bac": "a tailored dark steel-grey windowpane-check two-piece business suit, a pale-pink formal shirt and a deep burgundy silk tie",  # judgment reel 04-11-2026 (14-reel batch, 2 per live court, English, HOOK)
+    "bur": "a tailored deep plum two-piece business suit, a crisp white formal shirt and a silver-grey silk tie",  # judgment reel 04-11-2026 (14-reel batch, 2 per live court, English, HOOK)
+    "adt": "a tailored dark midnight-teal two-piece business suit, a crisp white formal shirt and a rust-orange silk tie",  # judgment reel 04-11-2026 (14-reel batch, 2 per live court, English, HOOK)
+    "elt": "a tailored deep mulberry two-piece business suit, a pale-blue formal shirt and a dark-navy silk tie",  # judgment reel 04-11-2026 (14-reel batch, 2 per live court, English, HOOK)
+    "tka": "a tailored dark sapphire-blue two-piece business suit, a lavender formal shirt and a deep maroon silk tie",  # judgment reel 04-11-2026 (14-reel batch, 2 per live court, English, HOOK)
+    "ptn": "a tailored dark forest-olive two-piece business suit, a crisp white formal shirt and a burgundy silk tie",  # judgment reel 04-11-2026 (14-reel batch, 2 per live court, English, HOOK)
+    "crt": "a tailored deep oxblood two-piece business suit, a crisp white formal shirt and a dark navy silk tie",  # judgment reel 04-11-2026 (14-reel batch, 2 per live court, English, HOOK)
+    "pcw": "a tailored dark gunmetal-grey two-piece business suit, a pale-blue formal shirt and a deep crimson silk tie",  # judgment reel 04-11-2026 (14-reel batch, 2 per live court, English, HOOK)
 }
 OUTFIT = OUTFITS.get(SET) or sys.exit(f"[sb] no outfit for {SET}: add one to OUTFITS (every video its own suit)")
 

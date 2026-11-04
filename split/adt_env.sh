@@ -1,0 +1,4 @@
+# Adit Buildwell Pvt. Ltd. v. Commissioner, CGST Delhi South (Delhi HC, W.P.(C) 2728/2024, DB Avneesh Jhingan J & Amit Sharma J, 29.10.2026, "Reportable: Yes"): time sought till 24.11.2023, order passed that day without dealing with it; natural justice, set aside, remanded. HOOK-format judgment reel, ENGLISH, 04-11-2026 (opening spoken to everyone, no "Advocates,").
+export SPLIT_D=downloads/adt SPLIT_SB=split/adt SPLIT_ALL=split/adt_all_scenes.json SPLIT_GO=split/GOadt
+export SPLIT_ACCOUNT=main; . split/accounts.sh
+export SPLIT_VOCAB="LawWorld, Ravishankar, Delhi High Court, Honourable Justice Avneesh Jhingan, Honourable Justice Amit Sharma, tax department, service tax, show cause notice, personal hearing, writ petition, remedy of appeal, appeal route, natural justice, neither considered nor rejected, set aside, fifteenth, twenty fourth, lawworld dot A I"

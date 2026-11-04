@@ -1,0 +1,43 @@
+// Adit Buildwell Pvt. Ltd. v. Commissioner of Central Goods and Service Tax, South Commissionerate, New Delhi & Anr.,
+// W.P.(C) 2728/2024 & CM APPL. 11120/2024, CNR DLHC010085442024, High Court of Delhi at New Delhi, Division Bench: Avneesh Jhingan, J.
+// (wrote it, ORAL) and Amit Sharma, J., date of decision 29.10.2026. REPORTABLE: "Reportable: Yes" printed at the end of the judgment
+// (page 4 of 4, under the signatures; Delhi does not print it on page 1). HOOK format (split/JUDGMENT_HOOK_FORMAT.md), the High Courts
+// page (ENGLISH). Opening clip spoken to everyone, no "Advocates," (owner 03-11-2026).
+// Source: the court's own PDF (delhihighcourt.nic.in, 75929102026CW27282024_143954.pdf, 4 pages, 13 paras), read in full; scratchpad
+// fresh4nov/ker_dhc/dhc/pdf/75929102026CW27282024_143954.pdf + drafts4nov/adt/adt.txt.
+// Facts used (para): writ petition to quash the order dated 24.11.2023 passed by the Commissioner, CGST, Delhi South Commissionerate (1);
+// the petitioner was a registered dealer with the Service Tax Department; a show cause notice (SCN) was issued; reply filed on
+// 23.05.2022; personal hearing afforded on 07.11.2023; adjourned to 15.11.2023 at the petitioner's request; on 15.11.2023 it sought
+// further time till 24.11.2023 to produce the requisite documents; the request was not considered and the order was passed on
+// 24.11.2023 (2). Petitioner: no reasonable opportunity to defend; by email dated 15.11.2023 it sought a further period of ten days,
+// and the order was passed without considering the request (3). Department: sufficient opportunities; hearing on 07.11.2023 and time
+// till 15.11.2023 to place additional material, but no attempt; no document filed till 23.11.2023, only then the order on 24.11.2023 (4);
+// counter para 5.6: the authorities "waited for an additional period of 9 days" after 15.11.2023 (8). Held: the "after waiting for nine
+// days" contention "lacks merit": once the request was not considered there was no occasion to file the documents, and the order was
+// passed on 24.11.2023 whereas the time sought was till 24.11.2023 (6); an alternative remedy of appeal exists, but the self-imposed
+// restriction is subject to the Whirlpool Corpn. v. Registrar of Trade Marks, (1998) 8 SCC 1 exceptions, one being "a violation of the
+// principle of natural justice" (7); a reasonable opportunity to defend was not granted; the request to produce material by 24.11.2023
+// "was neither considered nor rejected" (8); the email request "was not even noted" in the impugned order; one of the grounds for the
+// order was the failure to produce the relevant documents; "The minimum that was expected from a quasi-judicial authority was at least
+// to deal with the request for grant of further time and thereafter take an appropriate decision thereon." (9). ORDER: the impugned
+// order "is violative of principles of natural justice and is set aside"; remanded to respondent no.1 (the Commissioner) to decide
+// afresh from the stage at which the proceedings stood on 15.11.2023 (10); the petitioner to appear before respondent no.1 on
+// 02.12.2026 at 11.00 a.m.; respondent no.1 to proceed in accordance with law (11); petition disposed of (12); CM APPL disposed of (13).
+// Not said: the nature or amount of the tax demand (the judgment does not give it: speech says "the order", never "demand"); any
+// finding on the tax merits; the company's name in speech (cite card only). Para 9's "admitted case of the department" is kept off
+// speech and cards (Flow policy: no "admitted"). Speech says "about ten more days" only as the company's email (3).
+# 1 · ORDER ON THE LAST DAY?
+10 | You ask the tax department for time to file documents, until a certain date. The order comes on that very date, with no word on your request. Is that fair?
+10 | A company faced exactly this. It also had a remedy of appeal. So would the Delhi High Court hear its writ petition, or send it off to appeal?
+10 | Hi, I'm Ravishankar from LawWorld. On the twenty ninth of October, Honourable Justice Avneesh Jhingan and Honourable Justice Amit Sharma ruled. || Hi, I'm Ravishankar from LawWorld. On the 29th of October, Honourable Justice Avneesh Jhingan and Honourable Justice Amit Sharma ruled.
+# 2 · THE DATES THAT MATTER
+10 | The company, registered for service tax, got a show cause notice and replied in May twenty twenty two. Its hearing came in November twenty twenty three. || The company, registered for service tax, got a show cause notice and replied in May 2022. Its hearing came in November 2023.
+10 | At its request, the hearing moved to the fifteenth. That day, it asked for time until the twenty fourth to produce documents. The order came on the twenty fourth. || At its request, the hearing moved to the 15th. That day, it asked for time until the 24th to produce documents. The order came on the 24th.
+# 3 · A FAIR CHANCE?
+10 | The company argued it got no reasonable chance to defend itself. Its email had asked for ten more days, and the order came without considering it.
+10 | The department replied that it had given enough chances. It says it waited nine more days after the fifteenth, and no document was filed before the order. || The department replied that it had given enough chances. It says it waited nine more days after the 15th, and no document was filed before the order.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the High Court decide? The request for time was neither considered nor rejected. Yet one ground of the order was that documents were not produced.
+10 | The minimum expected was to deal with that request. Natural justice was breached, so the appeal route was no bar. The Court set the order aside and sent the case back.

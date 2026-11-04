@@ -1,0 +1,49 @@
+// Shiva Enterprises & Ors. v. State of Maharashtra & Ors. (W.P. No. 31910 of 2025) c/w Siddhi Agencies & Ors. v. State of
+// Maharashtra & Ors. (W.P. No. 31320 of 2025), 2026:KHC:60505, CNR KAHC010676422025, High Court of Karnataka at Bengaluru, single
+// Judge: Suraj Govindaraj, J.; reserved 09.09.2026, CAV order pronounced 29.10.2026. REPORTABLE: the circled "R" (®) on page 1, and on
+// the court's Reportable list (per the finder). HOOK format (split/JUDGMENT_HOOK_FORMAT.md), the High Courts page (ENGLISH, owner
+// 04-11-2026). Opening clip spoken to everyone, no "Advocates," (owner 03-11-2026).
+// Source: the court's own PDF (204 pages), scratchpad fresh4nov/khc_mhc/khc_pdf/2026-10-29_WP_31320_2025.pdf; facts, points, answers
+// (paras 1-24) and the operative order read in full (text: drafts4nov/mhr/mhr.txt).
+// Facts used (para): both petitioners are partnership firms at the Antharasanahalli Industrial Area, KIADB, Tumkur, trading as
+// stockists / CNF agents for pan masala and chewing tobacco (3, 9). On 19.08.2025 Vadgaon Police Station (Kolhapur District,
+// Maharashtra) intercepted a truck at Kagni Toll Naka, Hatkanangale, Kolhapur, on the Bengaluru-Pune highway (5, 10); on 20.08.2025 a
+// constable's complaint against unknown persons -> Crime No. 446/2025 under the FSS Act 2006 and BNS ss.275, 274, 223, 123 (6, 10,
+// 20.15). The petitioners are not named in the FIR (7, 11, 20.15). On 21.08.2025 five to six Vadgaon police personnel visited the
+// premises at Tumkur; notices of that date required the partners to appear at Vadgaon, but their statements were recorded at Tumkur
+// (7, 11, 20.15). Counsel: s.179 BNSS (= s.160 CrPC) confines the power to require attendance to persons "within the limits of his own
+// or any adjoining station" (13.3-13.5, 20.2); no Karnataka police were present (13.2); the books of account were inspected and
+// ledger copies taken (13.6, 21.1). Respondents 1-2 (Maharashtra, Vadgaon PS) served, did not appear (20.11, 21.9). The AGA for
+// respondent 3 (Karnataka, Tumkur Rural PS), on instructions: the Vadgaon police never contacted them; not informed before, during or
+// after (16.2, 21.10); the Court accepted it (21.12). Held: s.179 imposes a real territorial limit; the petitioners in Tumkur are not
+// within the limits of Vadgaon PS or an adjoining station; the notices, so far as they required attendance at Vadgaon, were without
+// authority (20.18-20.37, 20.59); the finding is limited, the FIR is not challenged, no finding on the merits (20.57). The Tumkur
+// operation (statements, inspection, ledger books or copies) was without the required coordination with the Karnataka police and
+// without shown compliance with ss.185-186 BNSS: "unlawful" (21.43, 21.85, 21.95, 21.98); the statements are not to be relied on as
+// lawfully obtained, though fresh statements may be taken in accordance with law (21.92, 21.96); no finding on motive (21.94).
+// Standing Order 576 (1962) binds only the Karnataka police (22.14). Relief limited; the FIR is not quashed and the investigation may
+// continue in accordance with law (23.17-23.20, 24.4). ORDER: both petitions partly allowed; notices dated 21.08.2025 unenforceable so
+// far as they require appearance at Vadgaon under s.179, no coercive action for non-compliance (ii); no such notices while the
+// petitioners are outside that station and any adjoining one (iii); the inter-State operation at Tumkur declared unsustainable in law,
+// statements not to be relied on (iv); ledger books and copies to be accounted for, and documents retained without lawful authority
+// returned within 21 days, subject to any lawful order (v); before any further investigative operation in Karnataka, prior written
+// intimation to the officer in charge of the jurisdictional Karnataka police station, entered in both stations' records (vi, vii);
+// prayers to restrain all contact and to quash the FIR / investigation declined (viii); no finding on the merits or anyone's guilt (ix).
+// Not said: any person's name (the partners are private persons; the cite card carries only the firm's cause title); the goods (pan
+// masala, tobacco) and the offences stay off speech: no accusation against anyone; the Court made no finding on the merits (ix).
+// "Unlawful" is the Court's own word (21.98). Flow policy: no "fraud" / "collusion" / "admitted"; Karnataka's counsel "said".
+# 1 · SUMMONED TO ANOTHER STATE?
+10 | You run a business in Karnataka. Police from another State send you a notice: come to our police station, in our State. Are you bound to go?
+10 | Here, Maharashtra police came to Tumkur, took statements and business records, and never told the Karnataka police. So was any of it lawful?
+10 | Hi, I'm Ravishankar from LawWorld. On twenty ninth October, twenty twenty six, Honourable Justice Suraj Govindaraj of the Karnataka High Court ruled. || Hi, I'm Ravishankar from LawWorld. On 29 October 2026, Honourable Justice Suraj Govindaraj of the Karnataka High Court ruled.
+# 2 · FROM KOLHAPUR TO TUMKUR
+10 | On nineteenth August, twenty twenty five, Maharashtra police stopped a truck near Kolhapur. Next day, a food safety case was filed against unknown persons. || On 19 August 2025, Maharashtra police stopped a truck near Kolhapur. Next day, a food safety case was filed against unknown persons.
+10 | A day later, Vadgaon officers visited two trading firms in Tumkur, not named in the F I R, and gave the partners notices to appear at Vadgaon. || A day later, Vadgaon officers visited two trading firms in Tumkur, not named in the FIR, and gave the partners notices to appear at Vadgaon.
+# 3 · WHO TOLD KARNATAKA?
+10 | Yet their statements were recorded right there in Tumkur. The traders argued Section One Seventy Nine reaches only people within that station or an adjoining one. || Yet their statements were recorded right there in Tumkur. The traders argued Section 179 reaches only people within that station or an adjoining one.
+10 | Maharashtra did not appear, despite notice. Karnataka's counsel said its police were never informed, before, during or after the visit.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the High Court decide? The notices could not make traders in Tumkur appear at Vadgaon, and the visit, without telling local police, was unlawful.
+10 | So its statements can't be relied on, and ledgers held unlawfully must go back. Next time, Vadgaon must first inform Karnataka police in writing. The F I R stays. || So its statements can't be relied on, and ledgers held unlawfully must go back. Next time, Vadgaon must first inform Karnataka police in writing. The FIR stays.

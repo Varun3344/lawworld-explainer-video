@@ -1,0 +1,69 @@
+{
+ "projectTitle": "LawWorld_ptn",
+ "title": "One son, or every heir?",
+ "source": "split/scripts/ptn.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "When a protected tenant dies, does the ownership certificate for his land go only to the one son who holds it, or to every one of his heirs?",
+   "chip": "1 · ONE SON, OR EVERY HEIR?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "Here, the one surviving son got the certificate alone and sold the land. His brothers' and sisters' children objected. So who did the Telangana High Court back?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On twenty eighth October, twenty twenty six, Honourable Justice Vakiti Ramakrishna Reddy ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 28 October 2026, Honourable Justice Vakiti Ramakrishna Reddy ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "A protected tenant is a tenant farmer the Telangana Tenancy Act protects. Under Section Thirty Eight E, he became owner of the land he held.",
+   "shown": "A protected tenant is a tenant farmer the Telangana Tenancy Act protects. Under Section 38-E, he became owner of the land he held.",
+   "chip": "2 · THE PROTECTED TENANT"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "This tenant died in the early eighties, leaving five sons and five daughters. In two thousand seven, his only surviving son got the certificate alone, and sold the land.",
+   "shown": "This tenant died in the early eighties, leaving five sons and five daughters. In 2007, his only surviving son got the certificate alone, and sold the land."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The other heirs appealed. After a fresh enquiry, the R D O gave the certificate to every heir, by lineage, and the Joint Collector agreed.",
+   "shown": "The other heirs appealed. After a fresh enquiry, the RDO gave the certificate to every heir, by lineage, and the Joint Collector agreed."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "In the High Court, the son's side said a family arrangement gave him the land. The other heirs said Section Forty makes every lineal descendant an heir.",
+   "shown": "In the High Court, the son's side said a family arrangement gave him the land. The other heirs said Section 40 makes every lineal descendant an heir.",
+   "chip": "3 · THE HEIRS' DISPUTE"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the High Court decide? Under Section Forty, a protected tenant's rights pass to all his lineal descendants, in equal shares by lineage.",
+   "shown": "Finally, what did the High Court decide? Under Section 40, a protected tenant's rights pass to all his lineal descendants, in equal shares by lineage.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "Possession, or a claimed family arrangement, could not shut other heirs out of the certificate. The revision was dismissed; the sale deeds were left open."
+  }
+ ]
+}

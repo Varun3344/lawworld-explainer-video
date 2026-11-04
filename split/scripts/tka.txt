@@ -1,0 +1,54 @@
+// Uday Chand Vedi v. Puneet Vedi, C.C.C.A. No. 68 of 2010 (CNR HBHC010637482010), High Court for the State of Telangana at
+// Hyderabad, single Judge: Suddala Chalapathi Rao, J.; reserved 29.07.2026, pronounced 30.10.2026 (cover sheet "ORDER PRONOUNCED ON:
+// 30.10.2026"; the inner title page leaves the day blank, ".10.2026"). REPORTABLE: the cover sheet, Q2 "Whether the copies of judgment
+// may be marked to Law Reporters/Journals? : Yes". HOOK format (split/JUDGMENT_HOOK_FORMAT.md), the High Courts page (ENGLISH).
+// LawWorld's FIRST Telangana reel. Opening clip spoken to everyone, no "Advocates," (owner 03-11-2026).
+// Source: the Indian Kanoon copy (doc 175732047, "Telangana High Court ... on 30 October, 2026"), read in full; scratchpad
+// fresh4nov/tg_ap/ik/tgdoc/175732047.txt. The court's own judgment search (tshc.gov.in / csis.tshc.gov.in) is captcha-gated: not
+// bypassed; no LiveLaw / Verdictum PDF copy used. Paragraph numbers below are the IK text's (the judgment skips "26").
+// Text quirks (IK copy): after the signature (page 22) and a blank title page (23), pages 24-28 carry a second, alternative version of
+// the discussion (paras numbered 20-28 again: K.S. Vidyanadam (1997) 3 SCC; N.P. Thirugnanam (1995) 5 SCC 115 - "continuous readiness
+// and willingness ... is a condition precedent"; ends "No costs."). Facts below cite the main body (paras 1-32) unless marked "alt".
+// Slips in the text: "20.01.2026" in paras 22 and 27 for 20.01.2006; para 25 "when time is not the essence" (the Court held it was, 22);
+// Basheer's date 14.06.2021 (list of cases) / 14.06.2001 (footnote 1).
+// Facts used (para): the defendant's appeal against the judgment and decree dated 29.01.2010 in O.S. No. 2124 of 2006, X Addl. Senior
+// Civil Judge (Fast Track Court), City Civil Court, Hyderabad (2). Suit for specific performance of the agreement of sale dated
+// 26.12.2005 for Rs. 10,00,000 (4). The plaintiff, a permanent resident of Hyderabad temporarily residing in the USA, paid Rs. 50,000
+// advance; the balance Rs. 9,50,000 was payable by 20.01.2006 (5). Ex.A1 stipulates the balance "shall be paid on or before
+// 20.01.2006, failing which the advance sale consideration of Rs.50,000/- shall be forfeited and the defendant shall be entitled to
+// alienate the property to any third party" (22). His mother's letter of 16.01.2006 under Certificate of Posting (6; Ex.A2, 19, 25);
+// letter 13.03.2006 (Ex.A3), telegram/legal notice 18.10.2006 calling the defendant to the Sub-Registrar on 19.10.2006 (Ex.A4), GPA
+// 15.07.2008 (Ex.A8) - all after 20.01.2006 (6, 7, 12, 25). Reply notice 31.10.2006: the defendant cancelled the agreement for non-payment
+// in time and forfeited the Rs. 50,000 (7, 8, 23). Trial court: plaintiff ready and willing; cancellation illegal; the forfeiture
+// clause does not authorise cancellation, so time not the essence; decree: receive Rs. 9,50,000, execute the sale deed, deliver
+// possession within 45 days (12, 13). Appellant: time was the essence; mere telegraphic notice does not establish readiness; no prayer
+// to set aside the cancellation (14-16). Respondent: Exs.A1-A9 show readiness; no automatic cancellation, so time not the essence (19).
+// HELD: the agreement "has to read as a whole": on non-payment by the date the seller may forfeit the advance and sell to others, so
+// "the time was the essence of the contract" (22); unilateral cancellation without a stipulation is impermissible (K.S. Manjunath,
+// 2025 INSC 1298) (23-24); s.16(c) SRA: only Rs. 50,000 of Rs. 10,00,000 paid; except Ex.A2 the plaintiff did not establish readiness
+// within the stipulated time; Exs.A3, A4, A8 came after 20.01.2006 (25); "the plaintiff was never ready and willing to perform his
+// part of the contract, particularly when he was residing in the USA"; Certificate of Posting "is also not a proper mode", service
+// not proved, he ought to have sent it by registered post; Mohammed Khaleel v. Jayamma, 2026 INSC 651; "there is no concrete material
+// placed by plaintiff to show that he was always ready and willing to perform his part" (27); trial court's findings not just and
+// valid (28); specific performance is equitable and discretionary; where a substantial amount remains unpaid the Court considers the
+// surrounding circumstances; only Rs. 50,000 of Rs. 10,00,000 paid (29); by paying a "paltry" Rs. 50,000 and prolonging the matter the
+// plaintiff defeated the purpose of the sale (the defendant's case: urgent financial need) (30). ORDER: appeal allowed; the decree
+// dated 29.01.2010 in O.S. 2124/2006 set aside; the suit dismissed (31, 32; alt 28: "No costs").
+// Not said: any party's name (private persons, both "Vedi"; the cite card carries the cause title); the relationship between them
+// and the plaintiff's allegation that the defendant "took advantage" (6); the K.S. Manjunath cancellation point (23-24, not on any
+// card: it does not change the result). Flow policy: no accusation, no "fraud" / "collusion" / "admitted".
+# 1 · LATE WITH THE BALANCE?
+10 | You pay fifty thousand rupees as advance on a ten lakh rupee property, then you miss the deadline for the balance. Can you still force the seller to sell? || You pay ₹50,000 as advance on a ₹10 lakh property, then you miss the deadline for the balance. Can you still force the seller to sell?
+10 | A trial court said yes, and ordered the sale deed. The seller appealed, and sixteen years later, the Telangana High Court decided. So who was right?
+10 | Hi, I'm Ravishankar from LawWorld. On the thirtieth of October, twenty twenty six, Honourable Justice Suddala Chalapathi Rao ruled. || Hi, I'm Ravishankar from LawWorld. On 30 October 2026, Honourable Justice Suddala Chalapathi Rao ruled.
+# 2 · TEN LAKH, FIFTY THOUSAND PAID
+10 | In December two thousand five, a buyer agreed to buy a property for ten lakh rupees. He paid fifty thousand, and the rest was due by twentieth January. || In December 2005, a buyer agreed to buy a property for ₹10 lakh. He paid ₹50,000, and the rest was due by 20 January.
+10 | The buyer was then living in America. Before the deadline, his side could show just one letter, by certificate of posting. Everything else came later.
+10 | In October two thousand six, the seller cancelled the deal and kept the advance. The buyer sued, and in twenty ten, the trial court decreed specific performance. || In October 2006, the seller cancelled the deal and kept the advance. The buyer sued, and in 2010, the trial court decreed specific performance.
+# 3 · THE APPEAL
+10 | In appeal, the seller argued that time was the essence, and that a mere telegram does not prove readiness. The buyer said his letters proved he was always ready.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the High Court decide? Read as a whole, the agreement made time the essence: miss the date, and the seller could keep the advance and sell to others.
+10 | Only fifty thousand of ten lakh was paid, and there was no concrete proof he was ready and willing. The decree was set aside, and the buyer's suit was dismissed. || Only ₹50,000 of ₹10 lakh was paid, and there was no concrete proof he was ready and willing. The decree was set aside, and the buyer's suit was dismissed.

@@ -1,0 +1,53 @@
+// Anisha Busa v. SIBAR Institute of Dental Sciences & Anr. (R2: Dr. NTR University of Health Sciences), W.P. No. 15274 of 2020,
+// 2026:APHC:46012, High Court of Andhra Pradesh at Amaravati, single Judge: Harinath N., J. (official profile name: Justice Harinath
+// Nunepally); order pronounced Wednesday 28.10.2026. REPORTABLE evidence: "LR COPY" endorsed under the signature (p.10) and on the
+// LR sheet (p.11) - the order is marked to the Law Reporters (the neutral citation alone proves nothing: AP gives one to every order).
+// HOOK format (split/JUDGMENT_HOOK_FORMAT.md), the High Courts page (ENGLISH). Opening clip spoken to everyone, no "Advocates,".
+// Source: the court's own PDF (11 pages, order paras 1-19), scratchpad fresh4nov/tg_ap/ap/pdf/2026_APHC_46012.pdf, read in full.
+// Facts used (para): the petitioner is aggrieved by the respondents retaining her original certificates (SSC marks list,
+// Intermediate memo, study and conduct, transfer and migration certificates) and demanding the entire course fee, Rs.5,46,978 a
+// year, for their release (1, prayer p.3). NEET 2019; BDS seat in the counselling conducted by R2 (the University); she gave her
+// original certificates to R2, which forwarded them to R1, the college she was allotted to (2). Medical complications in her right
+// leg, an operation, post-operation complications: she could not join the course and sought the certificates back - letter of
+// 17.12.2019 to R2 (copy to R1) and a legal notice of 16.03.2020 (3); R1's reply notice called on her to pay the entire fee,
+// Rs.5,46,978 a year for four years (3). Petitioner: the demand is contrary to UGC guidelines; settled law that colleges cannot keep
+// certificates and demand the fee for returning them (4). R1's counter: a private unaided institution with no government aid, so
+// the writ petition is not maintainable; the certificates were submitted at joining on 14.09.2019; she did not pay the first-year fee
+// of Rs.5,49,000, got 3 more days at her father's request, and did not join or pay (5); no objection to returning them if she pays
+// the entire course fee of Rs.21,96,000 with other fees and the cancellation fee payable to R2; private colleges cannot be deprived
+// of the fee for the whole year / entire course when students voluntarily drop out; no refund for a voluntary drop-out (6); G.O.Ms.
+// No.72 dated 15.07.2019: course discontinuation fee Rs.1,00,000 for BDS (Rs.3,00,000 MBBS) plus GST, payable to the University (7).
+// R2's Standing Counsel "fairly admits" the full-course-fee demand for returning the certificates is not permissible under the UGC
+// guidelines and regulations (8). Point: whether R1 has a bona fide right to retain the certificates and demand the course fee for
+// returning them (10). UGC notification, October 2018 (s.12(d) r/w 12(j) UGC Act, 1956): to curb coercive and profiteering practices
+// on fee refunds and retention of original certificates (11); R1's claim is "evidently contrary" to it (12); cl. 4.2.1 no insistence
+// on originals with the admission form (13); cl. 4.2.2 verify originals at admission and return them immediately (14); cl. 4.2.3
+// self-attested copies valid; originals used for any later verification returned at once (15); cl. 4.2.4 "Taking the certificates
+// into institutional custody under any circumstances or pretext is strictly prohibited." (16); cl. 4.2.5 no retention even on
+// suspicion (17). Held: "Original academic certificates are the property of the student."; Article 21 (livelihood and education);
+// "An institution has no lien over them."; "Even if the College has a legitimate claim for the Tuition Fee or any other fee,
+// withholding of certificates is not permissible as a mode of recovery."; the remedy lies elsewhere (18). ORDER: writ petition
+// allowed; the respondents to return the original certificates within one week from the date of receipt of the order; pending
+// miscellaneous petitions closed (19).
+// Not said: the student's name (private person; the cite card carries the cause title only); the college's name in speech (cite
+// card only); whether any fee is actually owed (the Court did not decide it: "the remedy ... lies elsewhere", 18); the maintainability
+// plea (5) - the Court allowed the writ but did not discuss it, so it is not shown as rejected; the allotment date (para 2 reads
+// "14.09.2009", the counter says 14.09.2019); the letters' dates are on a card only (the reply notice of 27.01.2020 predates the legal
+// notice of 16.03.2020 in para 3, so no sequence is spoken). Flow policy: no accusation, no "fraud" / "collusion" / "admitted" (para
+// 8's "fairly admits" is voiced as "agreed"). The illness is her account (3; the college: she did not join "for reasons best known to
+// the petitioner", 5), so c05 says "She says".
+# 1 · CERTIFICATES HELD FOR FEES?
+10 | You get a college seat and hand over your original certificates, but cannot join. Can the college keep them until you pay the fee for the entire course?
+10 | The college said it would return her certificates only if she paid the whole course fee, nearly twenty two lakh rupees, though she never joined. Was that lawful? || The college said it would return her certificates only if she paid the whole course fee, nearly ₹22 lakh, though she never joined. Was that lawful?
+10 | Hi, I'm Ravishankar from LawWorld. On twenty eighth October, twenty twenty six, Honourable Justice Harinath N of the Andhra Pradesh High Court ruled. || Hi, I'm Ravishankar from LawWorld. On 28 October 2026, Honourable Justice Harinath N. of the Andhra Pradesh High Court ruled.
+# 2 · THE SEAT AND THE SURGERY
+10 | She took NEET in twenty nineteen and won a B D S seat in university counselling. Her original certificates went to the dental college. || She took NEET in 2019 and won a BDS seat in university counselling. Her original certificates went to the dental college.
+10 | She says complications after a leg operation kept her from joining. She wrote to the university and sent a legal notice for her certificates.
+# 3 · THE COLLEGE'S CASE
+10 | The college said it is private and unaided, so no writ lies. It argued that a student who drops out voluntarily cannot deprive it of the entire course fee.
+10 | It cited a State order fixing a discontinuation fee. Yet the university's counsel agreed the full fee demand breaks U G C guidelines. || It cited a State order fixing a discontinuation fee. Yet the university's counsel agreed the full fee demand breaks UGC guidelines.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the High Court decide? The U G C's twenty eighteen notification strictly bars colleges from keeping original certificates. || Finally, what did the High Court decide? The UGC's 2018 notification strictly bars colleges from keeping original certificates.
+10 | Certificates are the student's property; no college holds a lien. If any fee is due, the remedy lies elsewhere. They must be returned within a week.

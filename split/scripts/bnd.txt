@@ -1,0 +1,49 @@
+// Surendra Manjhi & Anr. v. Union of India & Ors., 2026 INSC 1185, Writ Petition (Civil) No. 511 of 2022, with Writ Petition (C) Diary
+// No. 32325 of 2026; Supreme Court of India, Civil Original Jurisdiction (Article 32); Vikram Nath J. (author) and Aparesh Kumar Singh J.;
+// pronounced New Delhi, 02.11.2026. REPORTABLE (page 1). DIRECTIONS IN PENDING WRIT PETITIONS, NOT A FINAL DISPOSAL: the petitions
+// "shall remain pending before this Court for monitoring compliance", listed after seven months (38, 39). HOOK format
+// (split/JUDGMENT_HOOK_FORMAT.md), English, opening spoken to everyone (no "Advocates,").
+// Source: the court's signed PDF (17 pages), Verdictum's copy (fresh4nov/sc/pdf/i1185_manjhi.pdf) and LiveLaw's copy (ll_manjhi.pdf),
+// same text word for word, both pdftk-signed 02.11.2026 like the SC's own PDFs; read in full (drafts4nov/bnd/i1185_manjhi.txt).
+// Facts used (para): two Article 32 petitions on identification, rescue, release and rehabilitation of bonded labourers (2); the
+// first by a survivor of bonded labour, on the delays in immediate financial assistance (2); the second by the National Campaign
+// Committee for the Eradication of Bonded Labour and others, seeking uniform and enforceable procedures (3). He was rescued with
+// several other bonded labourers from a brick kiln in District Shahjahanpur, Uttar Pradesh, on 28.02.2019; they had been taken from
+// Bihar "on the pretext of repayment of a bonded debt"; repatriated to Bihar and issued release certificates (5). Several did not
+// receive the immediate financial assistance under the Central Sector Scheme for Rehabilitation of Bonded Labourers; he received it
+// only in 2022, "nearly three years after his rescue" (6, 18). The petitioners' figures (a party's, voiced as "the petitioners say"):
+// of 42 with release certificates only 25 got Rs. 20,000 each, 17 still waiting (6, rejoinder); "It was also submitted ... that 17
+// labourers ... had still not received" (18, 30). Bihar: some UP release certificates not in the prescribed format (7). Orders of
+// 19.09.2022, 30.08.2024 (NHRC), 21.11.2024 (Labour Secretary to meet all States/UTs) (8, 9); AG's note 21.04.2026; Union's compliance
+// affidavit 15.05.2026 (10); revised SOP dated 14.05.2026 (25). Reasoning: "rehabilitation delayed may, in substance, amount to
+// rehabilitation denied" (18); inter-State delays "frequently arise from inadequate coordination between the concerned authorities";
+// a uniform framework with definite timelines is necessary (19); assistance not to be withheld merely because investigation or a
+// criminal case is pending (21). Directions: the Union to ensure uniform implementation of the revised SOP throughout the country;
+// all States/UTs to implement it and comply within six months; supplementary guidelines with the NHRC within three months (25);
+// complaints verified ordinarily within 24 hours; release certificate ordinarily within 24 hours of the determination; a uniform
+// format recognised by every State/UT (26); immediate financial assistance "shall ordinarily be disbursed within seven days of
+// issuance of the release certificate, subject to necessary verification"; rehabilitation plan within 90 days; not withheld merely
+// because investigation or criminal proceedings remain pending (27); the Union to decide on revising the scheme within three months
+// (28); nodal officer per State/UT; no inter-State dispute shall delay payment (29); UP and Bihar to jointly verify the 17 within one
+// month, pay any amount found payable preferably within three months, in any event within six (30); Vigilance Committees (31);
+// NAVJIVAN portal, monthly State monitoring, grievances in 30 days (32); Union affidavit in four months (36); States comply in six
+// months, affidavits two weeks later (37); petitions remain pending for monitoring (38); listed after seven months (39).
+// Not said: the petitioner's name (a private person; the cite card carries only the cause title); Petitioner No. 2 (Bachpan Bachao
+// Andolan, 24) is not named. The 17 unpaid workers are the petitioners' figure (voiced "the petitioners say"); "nearly three years" is
+// the Court's own finding (6, 18).
+// Flow policy: no accusation against any person (the kiln owner is never mentioned), no "fraud" / "collusion" / "admitted".
+# 1 · FREED, BUT STILL UNPAID?
+10 | A worker rescued from bonded labour is due immediate cash aid to restart his life. How long should he wait for it? A few days? A few months? Or a few years?
+10 | One rescued worker got his aid nearly three years later. Seventeen others freed with him, the petitioners say, were still unpaid. So what is the deadline now? || One rescued worker got his aid nearly three years later. 17 others freed with him, the petitioners say, were still unpaid. So what is the deadline now?
+10 | Hi, I'm Ravishankar from LawWorld. On second November, Honourable Justice Vikram Nath and Honourable Justice Aparesh Kumar Singh ruled. || Hi, I'm Ravishankar from LawWorld. On 2 November, Honourable Justice Vikram Nath and Honourable Justice Aparesh Kumar Singh ruled.
+# 2 · THE BRICK KILN
+10 | In twenty nineteen, workers from Bihar were rescued from a brick kiln in Uttar Pradesh. They had been taken there on the pretext of repaying a bonded debt. || In 2019, workers from Bihar were rescued from a brick kiln in Uttar Pradesh. They had been taken there on the pretext of repaying a bonded debt.
+10 | They were sent home to Bihar with release certificates. But several did not get the immediate cash aid the rehabilitation scheme provides.
+# 3 · WHY THE DELAY?
+10 | Bihar said some certificates from Uttar Pradesh were not in the prescribed format. The Court noted such delays often come from poor coordination.
+10 | That worker's writ petition flagged the delays, and a national campaign sought one uniform procedure. The Union's affidavit cites a revised S O P. || That worker's writ petition flagged the delays, and a national campaign sought one uniform procedure. The Union's affidavit cites a revised SOP.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT DIRECTED
+10 | Finally, what did the Supreme Court decide? Rescued workers must ordinarily get their aid within seven days of the release certificate, subject to checks. || Finally, what did the Supreme Court decide? Rescued workers must ordinarily get their aid within 7 days of the release certificate, subject to checks.
+10 | One S O P must apply across India, and States get six months. Uttar Pradesh and Bihar must check the seventeen workers' dues. The case stays pending, for monitoring. || One SOP must apply across India, and States get 6 months. Uttar Pradesh and Bihar must check the 17 workers' dues. The case stays pending, for monitoring.
