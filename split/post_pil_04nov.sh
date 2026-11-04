@@ -3,7 +3,7 @@
 cd "/Users/admin/Downloads/New short/product-explainer"; export PATH=/usr/local/bin:$PATH
 typeset -A STEM SLUG; STEM=(ape KHC_SuoMotu_PIL_Advocates_safety_03_11_2026_English apk KHC_SuoMotu_PIL_Advocates_safety_03_11_2026_Kannada)
 SLUG=(ape suo-motu-pil-advocates-safety-khc-03-11-2026-english apk suo-motu-pil-advocates-safety-khc-03-11-2026-kannada)
-for s in ape apk; do
+for s in ${@:-ape apk}; do
   until grep -q "ALL DONE" logs/queue_$s.log 2>/dev/null && (( $(ls downloads/$s/flat/c*.mp4 2>/dev/null | grep -v part | wc -l | tr -d ' ') >= 10 )); do sleep 30; done
   while (( $(pgrep -f "post_course.sh " | wc -l | tr -d ' ') >= 2 )); do sleep 20; done
   echo "$(date +%H:%M:%S) $s post start"

@@ -150,6 +150,8 @@ NUMW = {"zero": "0", "one": "1", "two": "2", "three": "3", "four": "4", "five": 
 
 
 def canon(tok):
+    if re.search(r"[ಀ-೿]", tok):   # Kannada word: keep its letters (04-11-2026: the ASCII filter below emptied them, captions drifted)
+        return re.sub(r"[^ಀ-೿0-9]", "", tok)
     t = tok.lower().replace("’", "'").replace("₹", "")
     t = re.sub(r"[^a-z0-9']", "", t)
     return NUMW.get(t, t)
