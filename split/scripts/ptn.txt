@@ -47,7 +47,7 @@
 10 | Here, the one surviving son got the certificate alone and sold the land. His brothers' and sisters' children objected. So who did the Telangana High Court back?
 10 | Hi, I'm Ravishankar from LawWorld. On twenty eighth October, twenty twenty six, Honourable Justice Vakiti Ramakrishna Reddy ruled. || Hi, I'm Ravishankar from LawWorld. On 28 October 2026, Honourable Justice Vakiti Ramakrishna Reddy ruled.
 # 2 · THE PROTECTED TENANT
-10 | A protected tenant is a tenant farmer the Telangana Tenancy Act protects. Under Section Thirty Eight E, he became owner of the land he held. || A protected tenant is a tenant farmer the Telangana Tenancy Act protects. Under Section 38-E, he became owner of the land he held.
+10 | A protected tenant is a tenant farmer protected by the Telangana Tenancy Act. Under Section Thirty Eight E, he became owner of the land he held. || A protected tenant is a tenant farmer protected by the Telangana Tenancy Act. Under Section 38-E, he became owner of the land he held.
 10 | This tenant died in the early eighties, leaving five sons and five daughters. In two thousand seven, his only surviving son got the certificate alone, and sold the land. || This tenant died in the early eighties, leaving five sons and five daughters. In 2007, his only surviving son got the certificate alone, and sold the land.
 10 | The other heirs appealed. After a fresh enquiry, the R D O gave the certificate to every heir, by lineage, and the Joint Collector agreed. || The other heirs appealed. After a fresh enquiry, the RDO gave the certificate to every heir, by lineage, and the Joint Collector agreed.
 # 3 · THE HEIRS' DISPUTE
@@ -57,3 +57,5 @@
 # 5 · WHAT THE COURT HELD
 10 | Finally, what did the High Court decide? Under Section Forty, a protected tenant's rights pass to all his lineal descendants, in equal shares by lineage. || Finally, what did the High Court decide? Under Section 40, a protected tenant's rights pass to all his lineal descendants, in equal shares by lineage.
 10 | Possession, or a claimed family arrangement, could not shut other heirs out of the certificate. The revision was dismissed; the sale deeds were left open.
+
+// 05-11-2026 QA: the avatar kept adding a word here ("ki" / "and"); reworded to natural English: "is a tenant farmer protected by the Telangana Tenancy Act.".

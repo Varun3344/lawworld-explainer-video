@@ -21,7 +21,7 @@ def A(c, w, n=1, d=-0.08): return r3(at(c, w, n) + d)
 
 CITE_B = 110     # the citation bar's shadow ends inside the panel (one seamless screen)
 PLAIN_BG = True   # owner 26-10-2026: the cards and the presenter on one plain cream screen
-ENDCARD = {"title": "Deductions never pleaded: open to re-check?", "line": "No: with no pleading against the final bill, examining each deduction went beyond the dispute; costs ignored Section 31A(3); appeal dismissed", "sub": "LawWorld: legal research for advocates"}
+ENDCARD = {"title": "Deductions never pleaded: open to re-check?", "line": "No: with no pleading against the final bill, examining each deduction went beyond the dispute; appeal dismissed", "sub": "LawWorld: legal research for advocates"}
 
 # ── 1 · cuts never challenged? (hook, curiosity, intro) ──────────────────────────────────────────────────────────────
 cue(type="question", t0=S("c01"), t1=E("c01") + 0.05, at=A("c01", "claim"), text="Your claim never disputes the deductions for defects. Can the arbitrator still go through each one?", hl="go through each one?")
@@ -67,3 +67,5 @@ cue(type="verdicts", t0=S("c10"), t1=E("c10") + 0.05,
           {"text": "The contractor's appeal: dismissed", "ok": False, "at": A("c10", "dismissed")}])
 
 MUSIC = {"file": "audio/bed_mixkit738_140s.mp3", "target_lufs": -21}   # owner 02-11-2026: trending-style royalty-free bed, audible under the voice
+
+# 05-11-2026 QA: the end-card line (141 chars) was clipped at both edges; shortened to 111 chars.

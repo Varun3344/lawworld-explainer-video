@@ -340,6 +340,9 @@ def captions():
         if n + 1 < len(allc) and (nxt - c1 < 0.25 or (not re.search(r"[.?!:]['’\"]?$", txt) and nxt - c1 < 1.2)):
             c1 = nxt
         c1 = max(c0 + 0.3, min(c1, nxt))
+        # the last caption leaves with the presenter: it floated 1-3 frames on the empty band before the end card (apk, hgd QA
+        # 05-11-2026; the presenter track can end a frame or two before the plan's clip end)
+        if n + 1 == len(allc): c1 = max(c0 + 0.2, min(c1, clip_end - 0.12))
         c = spread(c, c1, run_at)
         review.append({"scene": sid, "start": round(c0, 2), "end": round(c1, 2), "text": txt})
         for k, (tok, s, e) in enumerate(c):

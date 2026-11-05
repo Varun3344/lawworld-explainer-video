@@ -24,7 +24,7 @@ def A(c, w, n=1, d=-0.08): return r3(at(c, w, n) + d)
 
 CITE_B = 110     # the citation bar's shadow ends inside the panel (one seamless screen)
 PLAIN_BG = True   # owner 26-10-2026: the cards and the presenter on one plain cream screen
-ENDCARD = {"title": "A third child, no election?", "line": "Laws penalising more than two children have lost their relevance, said the Court, without striking them down; the 2003 ruling goes to a larger bench, the interim stay continues", "sub": "LawWorld: legal research for advocates"}
+ENDCARD = {"title": "A third child, no election?", "line": "Such laws have lost their relevance, said the Court, without striking them down; the 2003 ruling goes to a larger bench", "sub": "LawWorld: legal research for advocates"}
 
 # ── 1 · third child, no election? (hook, curiosity, intro) ──────────────────────────────────────────────────────────────
 cue(type="question", t0=S("c01"), t1=E("c01") + 0.05, at=A("c01", "child"), text="Should a third child stop you from contesting a village election? Do such laws still make sense today?", hl="Do such laws still make sense today?")
@@ -73,3 +73,5 @@ cue(type="verdicts", t0=S("c10"), t1=E("c10") + 0.05,
           {"text": "She stays Sarpanch until the appeal is decided", "ok": True, "at": A("c10", "remains")}])
 
 MUSIC = {"file": "audio/bed_mixkit738_140s.mp3", "target_lufs": -21}   # owner 02-11-2026: trending-style royalty-free bed, audible under the voice
+
+# 05-11-2026 QA: the end-card line (176 chars) was clipped at both edges; shortened to 119 chars.

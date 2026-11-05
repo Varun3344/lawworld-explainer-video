@@ -44,5 +44,7 @@
 # 4 · BEFORE THE VERDICT
 10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
 # 5 · WHAT THE COURT HELD
-10 | Finally, what did the High Court decide? It agreed a High Court cannot overrule prospectively, but that bench ruling had already been held per incuriam.
+10 | Finally, what did the High Court decide? It agreed that a High Court cannot overrule prospectively, but that bench ruling had already been held per incuriam.
 10 | The failure can arise only after the window ends, so the petition was maintainable. Revision dismissed: the tenant must vacate by thirty first December. || The failure can arise only after the window ends, so the petition was maintainable. Revision dismissed: the tenant must vacate by 31 December.
+
+// 05-11-2026 QA: the avatar kept adding a word here ("ki" / "and"); reworded to natural English: "It agreed that a High Court cannot overrule prospectively".

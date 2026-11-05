@@ -25,7 +25,7 @@ def A(c, w, n=1, d=-0.08): return r3(at(c, w, n) + d)
 
 CITE_B = 110     # the citation bar's shadow ends inside the panel (one seamless screen)
 PLAIN_BG = True   # owner 26-10-2026: the cards and the presenter on one plain cream screen
-ENDCARD = {"title": "Never signed, but took part: is the award enforceable?", "line": "Yes: having joined the arbitration without protest and never challenged the award, the Government of Puducherry could not say it was not a party", "sub": "LawWorld: legal research for advocates"}
+ENDCARD = {"title": "Never signed, but took part: is the award enforceable?", "line": "Yes: having joined the arbitration without protest and never challenged the award, the Government is bound", "sub": "LawWorld: legal research for advocates"}
 
 # ── 1 · never signed, still bound? (hook, curiosity, intro) ─────────────────────────────────────────────────────────
 cue(type="question", t0=S("c01"), t1=E("c01") + 0.05, at=A("c01", "government"), text="Never signed the contract, but joined the whole arbitration without protest. Can the government refuse to pay the award?", hl="refuse to pay the award?")
@@ -76,3 +76,5 @@ cue(type="verdicts", t0=A("c10", "if") - 0.05, t1=E("c10") + 0.05,
 
 MUSIC = {"file": "audio/bed_mixkit738_140s.mp3", "target_lufs": -21}   # owner 02-11-2026: trending-style royalty-free bed, audible under the voice
 # Fact-check 04-11-2026: c06 flow sub "one municipality's land" -> "property" (para 5: "the immovable property belonging to the Oulgaret Municipality").
+
+# 05-11-2026 QA: the end-card line (144 chars) was clipped at both edges; shortened to 106 chars.

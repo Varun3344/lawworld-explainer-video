@@ -23,7 +23,7 @@ def A(c, w, n=1, d=-0.08): return r3(at(c, w, n) + d)
 
 CITE_B = 110     # the citation bar's shadow ends inside the panel (one seamless screen)
 PLAIN_BG = True   # owner 26-10-2026: the cards and the presenter on one plain cream screen
-ENDCARD = {"title": "Hurt on duty, claimed under the MV Act?", "line": "If the MV Act claim is not maintainable, but employment by the owner and an accident on duty are proved, the court must consider converting it to employee's compensation", "sub": "LawWorld: legal research for advocates"}
+ENDCARD = {"title": "Hurt on duty, claimed under the MV Act?", "line": "MV Act claim not maintainable? With employment and an accident on duty proved, the court must consider conversion", "sub": "LawWorld: legal research for advocates"}
 
 # ── 1 · a different law? (hook, curiosity, intro) ───────────────────────────────────────────────────────────────────
 cue(type="question", t0=S("c01"), t1=E("c01") + 0.05, at=A("c01", "driver"), text="Hurt on duty, he claims under the Motor Vehicles Act. Can the tribunal pay him under a different law instead?", hl="under a different law instead?")
@@ -73,3 +73,5 @@ cue(type="verdicts", t0=A("c10", "appeal") - 0.05, t1=E("c10") + 0.05,
 
 MUSIC = {"file": "audio/bed_mixkit738_140s.mp3", "target_lufs": -21}   # owner 02-11-2026: trending-style royalty-free bed, audible under the voice
 # Fact-check 04-11-2026: ENDCARD line restated as the Court's rule (para 7.3: not maintainable -> duty to consider converting, provided employment by the owner and an accident in its course are established).
+
+# 05-11-2026 QA: the end-card line (169 chars) was clipped at both edges; shortened to 113 chars.

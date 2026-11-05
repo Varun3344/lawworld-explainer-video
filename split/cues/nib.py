@@ -28,7 +28,7 @@ def A(c, w, n=1, d=-0.08): return r3(at(c, w, n) + d)
 
 CITE_B = 110     # the citation bar's shadow ends inside the panel (one seamless screen)
 PLAIN_BG = True   # owner 26-10-2026: the cards and the presenter on one plain cream screen
-ENDCARD = {"title": "Insurer's appeal: can the award go up?", "line": "Yes: with no cross-appeal, the Court still awarded just and fair compensation · ₹9,14,800 raised to ₹15,76,500; the insurer pays first and recovers", "sub": "LawWorld: legal research for advocates"}
+ENDCARD = {"title": "Insurer's appeal: can the award go up?", "line": "Yes: no cross-appeal needed for just and fair compensation · ₹9,14,800 raised to ₹15,76,500; insurer pays first", "sub": "LawWorld: legal research for advocates"}
 
 # ── 1 · can the award go up? (hook, curiosity, intro) ───────────────────────────────────────────────────────────────────────
 cue(type="question", t0=S("c01"), t1=E("c01") + 0.05, at=A("c01", "insurer"), text="The insurer appeals to cut the award. The family doesn't appeal. Can the High Court still raise it?", hl="Can the High Court still raise it?")
@@ -82,3 +82,5 @@ cue(type="verdicts", t0=A("c10", "which") - 0.05, t1=E("c10") + 0.05,
           {"text": "Appeal allowed in part · award modified", "ok": True, "at": A("c10", "driver")}])
 
 MUSIC = {"file": "audio/bed_mixkit738_140s.mp3", "target_lufs": -21}   # owner 02-11-2026: trending-style royalty-free bed, audible under the voice
+
+# 05-11-2026 QA: the end-card line (147 chars) was clipped at both edges; shortened to 111 chars.

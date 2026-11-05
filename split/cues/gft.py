@@ -24,7 +24,7 @@ def A(c, w, n=1, d=-0.08): return r3(at(c, w, n) + d)
 
 CITE_B = 110     # the citation bar's shadow ends inside the panel (one seamless screen)
 PLAIN_BG = True   # owner 26-10-2026: the cards and the presenter on one plain cream screen
-ENDCARD = {"title": "A buyer from the tenant's son sues: thrown out?", "line": "Yes, on these facts: the suit was a clear abuse of process and a re-litigation, not grounds under Order VII Rule 11, so the High Court struck it off under Article 227", "sub": "LawWorld: legal research for advocates"}
+ENDCARD = {"title": "A buyer from the tenant's son sues: thrown out?", "line": "Yes, on these facts: a clear abuse of process and re-litigation, so the High Court struck the suit off under Article 227", "sub": "LawWorld: legal research for advocates"}
 
 # ── 1 · thrown out at once? (hook, curiosity, intro) ────────────────────────────────────────────────────────────────
 cue(type="question", t0=S("c01"), t1=E("c01") + 0.05, at=A("c01", "tenant"), text="Eviction upheld by the Supreme Court, then a buyer from the tenant's son sues. Can the High Court throw that suit out itself?", hl="throw that suit out itself?")
@@ -74,3 +74,5 @@ cue(type="verdicts", t0=A("c10", "revision") - 0.05, t1=E("c10") + 0.05,
 
 MUSIC = {"file": "audio/bed_mixkit738_140s.mp3", "target_lufs": -21}   # owner 02-11-2026: trending-style royalty-free bed, audible under the voice
 # Fact-check 04-11-2026: c02 head "Twenty" -> "Over twenty years on" (2005 to 2026); ENDCARD line tied to this suit ("on these facts", para 12).
+
+# 05-11-2026 QA: the end-card line (166 chars) was clipped at both edges; shortened to 120 chars.
