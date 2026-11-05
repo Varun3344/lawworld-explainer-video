@@ -43,8 +43,10 @@
 10 | Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the High Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
 # 5 · WHAT THE COURT HELD
 10 | Finally, what did the High Court decide? The force majeure clause applies only if something stops the consumer from receiving power, like war, riot or a strike.
-10 | Here, it did receive and use power, and no notice was given under that clause. So the appeal was allowed, and the single judge's order was set aside.
+10 | It did receive and use power, and no notice was given under that clause. So the appeal was allowed, and the single judge's order was set aside.
 // Fact-check 04-11-2026 (independent, against the court's 18-page PDF read in full): no changes. Checked every line, card and the
 // thumbnail: bench, dates (24.03-03.05.2020, G.O. 08.05.2020, refusal 05.10.2020, judgment 29.10.2026), 3.1% / 5.1%, Clause 3 read as
 // in para 26 (impediment to receiving power: war, mutiny, riot, strikes ...), no notice (23, 26, 29), power received and used (26),
 // non-MSME only more time to pay (31), order (32); CESCOM's grounds stated as its grounds (13); verdict rows correct.
+
+// 05-11-2026 QA: the c10 take never says "Here," - caption made to match the speech (no re-take; meaning unchanged).

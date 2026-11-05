@@ -55,6 +55,17 @@ for id in $IDS; do
       line=$(python3 scripts/words.py $ALLJ $D/$id.mp4 --prompt "$VOCAB" 2>&1 | tail -1); echo "[queue] $line"
       ratio=$(python3 -c "import json; print(json.load(open('$D/$id.words.json')).get('match_ratio',0))" 2>/dev/null || echo 0)
       keep=$(python3 -c "print('True' if float('$ratio')>=0.90 else 'False')")
+      # 05-11-2026: a take that ADDS words is rejected whatever its ratio - the avatar spoke a prompt line ("Continue speech at a
+      # quick pace.", match 0.91) and inserted "ki" / "in" (all kept at >= 0.90). Extra = words heard but not in the script; digit
+      # forms, "ai", "i am" and one stray article are tolerated.
+      [ "$keep" = "True" ] && keep=$(python3 - "$D/$id.words.json" <<'PY'
+import json, re, sys
+ex = [w.lower().strip(".,?!") for w in json.load(open(sys.argv[1])).get("extra", [])]
+alpha = [w for w in ex if w and not re.search(r"\d", w) and w not in {"ai", "i", "am", "a", "an", "the", "that", "and"}]
+print("False" if ("ki" in ex or len(alpha) >= 2 or len([w for w in ex if w in {"and", "that", "in"}]) + len(alpha) >= 3) else "True")
+PY
+)
+      [ "$keep" = "False" ] && echo "[queue] $id: extra words $(python3 -c "import json;print(json.load(open('$D/$id.words.json')).get('extra'))") - re-take"
       fi
       python3 -c "import json; p='$D/$id.words.json'; d=json.load(open(p)); d['keep']=$keep; json.dump(d,open(p,'w'),ensure_ascii=False,indent=1)"
       [ "$keep" = "False" ] && echo "[queue] $id take $take REJECTED (match $ratio) — re-rendering"
