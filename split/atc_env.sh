@@ -1,0 +1,4 @@
+# Sri Sujit Das & Ors. v. Union of India (SC, 2026 INSC 1195, Crl.A. 5283-5285/2026, Ujjal Bhuyan J. and Atul S. Chandurkar J., 05.11.2026, reportable): the Article 22(2) 24-hour clock runs from detention, when liberty is curtailed, not from the formal arrest; bail via the Special Court. HOOK-format judgment reel, ENGLISH, 06-11-2026 (opening spoken to everyone, no "Advocates,").
+export SPLIT_D=downloads/atc SPLIT_SB=split/atc SPLIT_ALL=split/atc_all_scenes.json SPLIT_GO=split/GOatc
+export SPLIT_ACCOUNT=main; . split/accounts.sh
+export SPLIT_VOCAB="LawWorld, Ravishankar, lawworld dot A I, Supreme Court, Honourable Justice Ujjal Bhuyan, Honourable Justice Atul S Chandurkar, Constitution, Magistrate, Magistrates, Tripura High Court, twenty four hour clock, intercepted, detention, detained, liberty, curtailed, formal arrest, formalities, banned drug tablets, bail, strict bail bar, deadline, set aside, released on bail"

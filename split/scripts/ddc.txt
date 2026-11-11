@@ -1,0 +1,68 @@
+// Sau. Kamalbai Waman Patil v. The State of Maharashtra, 2026 INSC 1196, Criminal Appeal No. 118 of 2018, Supreme Court of India
+// (Atul S. Chandurkar J. wrote it, Ujjal Bhuyan J.), pronounced 05.11.2026 (New Delhi, November 5, 2026), REPORTABLE (page 1).
+// HOOK format (split/JUDGMENT_HOOK_FORMAT.md), the Supreme Court page (English). Opening clip spoken to everyone, no "Advocates,".
+// DRAFT 06-11-2026: awaiting the owner's yes; nothing rendered.
+// Source: the Court's own signed PDF (28 pages, sci.gov.in "Latest Judgments"), scratchpad drafts6nov/ddc/judgment.pdf + judgment.txt,
+// paras 1-30 read in full.
+// Facts used (para): the appeal questions her conviction by the Bombay High Court, Aurangabad Bench, under s.302 IPC, rigorous
+// imprisonment for life and a fine of Rs.25,000; the HC reversed her acquittal by the Sessions Court (1). Prosecution's case: the
+// deceased was married to A1 and lived with his father A2 and mother A3 (the appellant); A4 his younger brother; it was ALLEGED that
+// all the accused ill-treated her because she had no issue from the marriage, and that there was a demand of dowry with physical and
+// mental torture; it was alleged that on 10.04.2005 at about 10 a.m. all four set her on fire; she was taken to the Civil Hospital
+// with burn injuries by Vishwas Desle; her statement recorded at 10.30 a.m. implicated the appellant; further statements by ASI
+// Prakash Wagh and the Special Executive Magistrate; she died on 15.04.2005 (2). Charges: ss.498A, 342, 406 and 302 r/w 34 IPC
+// against A1-A4 (2, 14). Post-mortem: 90% burns, septicaemia due to thermal burns (3; PW-7 put the burns at 94%, 24).
+// The three dying declarations, all on 10.04.2005: Ex-56, the medico-legal case papers, the patient's history recorded by the
+// Medical Officer Dr. Prashant Shinde, PW-7 (7, 10, 21, 22), the "initial" one per the HC (10), endorsed by Vishwas Desle (23):
+// she was set on fire by the appellant (9). Ex-44, recorded by ASI Prakash Wagh, PW-4 (4; police arrived about 1.40 p.m., 22):
+// A1 and A4 tied her hands and legs, the appellant poured kerosene, A2 set her on fire (4, 25). Ex-48, recorded by the Special
+// Executive Magistrate, PW-5 (5; about 2.15 p.m., 22): a similar narration (25). Ex-44 and Ex-48: set on fire by her father-in-law
+// A2 (9). Sessions Court: the three declarations inconsistent; Vishwas Desle, who took her to hospital, not examined; no neighbours
+// examined; no witness to any rope; s.498A not proved on the stamp paper alone; all four acquitted (9). Vishwas Patil (= Desle), a
+// Police Patil, put out the fire, was the first at the house, and admitted her to hospital; never examined, no reason given (7, 8,
+// 23). High Court (Division Bench): Ex-56 voluntary, without anyone's influence; per the defence of the accused, the appellant
+// alone was inside the house and failed to explain the burns; Ex-56 accepted as truthful; Ex-44 and 48 discarded as inconsistent
+// with it; the appellant alone convicted under s.302 and sentenced to life; A1, A2, A4's acquittal upheld; ss.498A, 342, 406 not
+// proved against anyone; the acquittal held illegal and perverse (10). Appellant: corroboration needed; reversing an acquittal
+// needs material without doubt (11). State: Ex-56 voluntary, with the seizures and the Chemical Analyser's report; she was alone
+// at home (12).
+// Held: the reversal of the acquittal "was not called for" (13); all four were charged only under s.302 r/w 34 (common intention),
+// no independent s.302 charge; convicting her alone on the defence statement would be "making out a new accusation", prejudicial
+// "in the facts of the present case" (14, 15); Krishna Govind Patil, 1962 INSC 19 (16, 17); she alone was convicted under s.302,
+// "a charge that was never framed against her" (18); the Court nonetheless assessed the evidence independently; multiple dying
+// declarations: each case on its own facts (Jagbir Singh, 19); the Abhishek Sharma principles, 2023 INSC 924, paras 9.1-9.7 (20);
+// the HC based the conviction solely on PW-7 and Ex-56 (21); Vishwas Patil "definitely a material witness" (23); since Ex-44 and
+// 48 were inconsistent with Ex-56, the HC "ought to have looked for some corroborative material"; "Exhibit-56 without any
+// corroboration cannot be the sole basis to reverse the acquittal of the appellant and thereafter convict her alone" (24); her
+// conviction needed convincing evidence; the victim about thirty, the appellant about sixty: a relevant factor in reversing the
+// acquittal (25); s.106 Evidence Act only after the prosecution discharges its initial burden (Anees, 2024 INSC 368); not
+// discharged here, so the HC's reasoning on her silence is not accepted (26, 27); she was not heard on sentence (s.386(a) CrPC),
+// nothing turns on it (28). Para 29: the Sessions Court was correct that "in view of inconsistency in the three dying declarations,
+// the appellant was entitled to the benefit of doubt"; the HC, in an appeal against acquittal, ought to have considered this; "The
+// presumption of innocence in favour of the appellant was in fact enhanced by her acquittal by the Sessions Court"; the Sessions
+// Court's view not perverse or illegal; Ex-56 accepted "without any corroborating evidence being available". Para 30: the HC's
+// judgment in Criminal Appeal No. 63 of 2008 dated 28.09.2017 quashed; the appellant acquitted of s.302 IPC; to be set free
+// forthwith if not required in any other case; appeal allowed.
+// Not said: any private person's name (only the cause title on the cite card); the dowry / ill-treatment allegations only as the
+// prosecution's case (c04), and the HC held ss.498A, 342, 406 not proved (10); no graphic detail (no kerosene, rope or burn
+// percentage in speech); the hook does NOT say dying declarations cannot convict: the holding is about these inconsistent
+// declarations, no corroboration of Ex-56, and reversing an acquittal. Flow policy: no names, no "admitted" / "fraud" / "collusion".
+# 1 · WHICH ONE IS TRUE?
+10 | Before she died, a woman gave three statements. One named only her mother-in-law. The other two named all four in the family. Which one would you believe?
+10 | The Sessions Court acquitted her husband and his family. The High Court believed just the first statement, and gave the mother-in-law life imprisonment. So who was right?
+10 | Hi, I'm Ravishankar from LawWorld. On fifth November, twenty twenty six, Honourable Justice Ujjal Bhuyan and Honourable Justice Atul S Chandurkar ruled. || Hi, I'm Ravishankar from LawWorld. On 5 November 2026, Honourable Justice Ujjal Bhuyan and Honourable Justice Atul S. Chandurkar ruled.
+# 2 · THREE STATEMENTS
+10 | The prosecution said her husband and his family ill-treated her over dowry, and because she had no child. She suffered burns at home and died five days later.
+10 | A doctor at the hospital recorded the first. A police officer and a Special Executive Magistrate took the other two, which named all four accused.
+# 3 · TWO COURTS, TWO VIEWS
+10 | The Sessions Court found the statements did not match. The man who put out the fire and took her to hospital was never called as a witness, nor was any neighbour.
+10 | The High Court found the doctor's record voluntary. By the family's own defence, it said, the mother-in-law alone was at home with her, and gave no explanation.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the Supreme Court decide? Given the inconsistency in the three statements, the Sessions Court was right. She was entitled to the benefit of doubt.
+10 | Her acquittal had strengthened the presumption of innocence, and the doctor's record, without corroboration, could not alone reverse it. So she was acquitted.
+// Fact-check 06-11-2026 (parent, against the PDF): c01 said the other two statements blamed the father-in-law, which read as if they
+// cleared the mother-in-law; in Ex-44/48 she poured the kerosene and the father-in-law set the fire, all four named (paras 8, 9, 25).
+// c01 now: one names only the mother-in-law, the other two all four in the family. "young wife" -> "a woman" (age about thirty, para 27).
+// c05 card items reworded to match. All other lines checked OK (paras 2, 9, 10, 23, 24, 29, 30).

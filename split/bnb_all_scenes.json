@@ -1,0 +1,247 @@
+{
+ "projectTitle": "LawWorld_bnb",
+ "title": "Bailable and Non-Bailable Offences",
+ "source": "split/scripts/bnb.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 6,
+   "dialogue": "Does non bailable mean no bail? Does bailable mean the case is over? Both beliefs are wrong!",
+   "shown": "Does non-bailable mean no bail? Does bailable mean the case is over? Both beliefs are wrong!",
+   "chip": "1 · DOES NON BAILABLE MEAN NO BAIL?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. A family hears that their relative faces a non bailable offence, and fears that bail is now impossible.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. A family hears that their relative faces a non-bailable offence, and fears that bail is now impossible."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Others assume a bailable offence makes the case disappear. Let us see what bail means under the Bharatiya Nagarik Suraksha Sanhita, or B N S S.",
+   "shown": "Others assume a bailable offence makes the case disappear. Let us see what bail means under the Bharatiya Nagarik Suraksha Sanhita, or BNSS."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "Section Two, sub section One, clause B defines bail as release from legal custody on conditions set by an officer or court, through a bond or a bail bond.",
+   "shown": "Section 2(1)(b) defines bail as release from legal custody on conditions set by an officer or court, through a bond or a bail bond.",
+   "chip": "2 · START WITH THE DEFINITIONS"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 8,
+   "dialogue": "Clause C defines a bailable offence as one shown as bailable in the First Schedule, or made bailable by another law.",
+   "shown": "Clause (c) defines a bailable offence as one shown as bailable in the First Schedule, or made bailable by another law."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "Every other offence is non bailable. Bail concerns liberty while the case proceeds. It is not an acquittal, and it is not a finding of guilt.",
+   "shown": "Every other offence is non-bailable. Bail concerns liberty while the case proceeds. It is not an acquittal, and it is not a finding of guilt."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 6,
+   "dialogue": "Meet Amit. He is accused of slapping an adult neighbour during a private argument.",
+   "chip": "3 · A BAILABLE OFFENCE AND THE RIGHT TO RELEASE"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Assume only ordinary voluntarily causing hurt, B N S Section One Fifteen, sub section Two. The B N S S First Schedule lists it as bailable.",
+   "shown": "Assume only ordinary voluntarily causing hurt, BNS Section 115(2). The BNSS First Schedule lists it as bailable."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 6,
+   "dialogue": "Amit appears before the Magistrate, ready to meet the lawful bail requirements."
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "Under Section Four Seventy Eight, his release is a right once those requirements are met.",
+   "shown": "Under Section 478(1), his release is a right once those requirements are met."
+  },
+  {
+   "sceneId": "c11",
+   "seconds": 10,
+   "dialogue": "But the case continues, and Amit must attend as required. The Bharatiya Nyaya Sanhita defines the offence, and the B N S S supplies the procedure.",
+   "shown": "But the case continues, and Amit must attend as required. The Bharatiya Nyaya Sanhita defines the offence, and the BNSS supplies the procedure."
+  },
+  {
+   "sceneId": "c12",
+   "seconds": 10,
+   "dialogue": "What if Amit cannot find a surety? Under Section Two, clause D, a bail bond involves a surety. Clause E describes a personal bond, without one.",
+   "shown": "What if Amit cannot find a surety? Under Section 2(1)(d), a bail bond involves a surety. Clause (e) describes a personal bond, without one.",
+   "chip": "4 · WHAT IF AMIT CANNOT FIND A SURETY?"
+  },
+  {
+   "sceneId": "c13",
+   "seconds": 6,
+   "dialogue": "A surety undertakes responsibility for the accused's appearance."
+  },
+  {
+   "sceneId": "c14",
+   "seconds": 10,
+   "dialogue": "Section Four Seventy Eight lets the officer or court accept a personal bond, and requires it for an indigent person who cannot furnish surety.",
+   "shown": "Section 478(1) lets the officer or court accept a personal bond, and requires it for an indigent person who cannot furnish surety."
+  },
+  {
+   "sceneId": "c15",
+   "seconds": 10,
+   "dialogue": "Section Four Eighty Four adds that the bond amount must not be excessive. And bail should never become a punishment merely because someone is poor.",
+   "shown": "Section 484(1) adds that the bond amount must not be excessive. And bail should never become a punishment merely because someone is poor."
+  },
+  {
+   "sceneId": "c16",
+   "seconds": 10,
+   "dialogue": "Now change the example. A person is accused of causing hurt with a knife, with the facts falling under B N S Section One Eighteen, sub section One.",
+   "shown": "Now change the example. A person is accused of causing hurt with a knife, with the facts falling under BNS Section 118(1).",
+   "chip": "5 · NON BAILABLE CAN STILL ATTRACT BAIL"
+  },
+  {
+   "sceneId": "c17",
+   "seconds": 10,
+   "dialogue": "The First Schedule classifies that offence as non bailable. Does that mean bail is prohibited? No! Non bailable is not a blanket ban on bail.",
+   "shown": "The First Schedule classifies that offence as non-bailable. Does that mean bail is prohibited? No! Non-bailable is not a blanket ban on bail."
+  },
+  {
+   "sceneId": "c18",
+   "seconds": 10,
+   "dialogue": "Section Four Eighty governs bail in non bailable cases before the Magistrate, and within its limits, the officer in charge of a police station.",
+   "shown": "Section 480 governs bail in non-bailable cases before the Magistrate, and within its limits, the officer in charge of a police station."
+  },
+  {
+   "sceneId": "c19",
+   "seconds": 6,
+   "dialogue": "Section Four Eighty Three gives special bail powers to the Sessions Court and the High Court.",
+   "shown": "Section 483 gives special bail powers to the Sessions Court and the High Court."
+  },
+  {
+   "sceneId": "c20",
+   "seconds": 6,
+   "dialogue": "How does the court decide? It examines the material, and the seriousness of the offence.",
+   "chip": "6 · HOW THE COURT CONSIDERS THE APPLICATION"
+  },
+  {
+   "sceneId": "c21",
+   "seconds": 6,
+   "dialogue": "It weighs risks such as absconding, threatening witnesses, or interfering with evidence."
+  },
+  {
+   "sceneId": "c22",
+   "seconds": 10,
+   "dialogue": "Section Four Eighty contains restrictions, including rules for offences punishable with death or life imprisonment, alongside specified exceptions.",
+   "shown": "Section 480 contains restrictions, including rules for offences punishable with death or life imprisonment, alongside specified exceptions."
+  },
+  {
+   "sceneId": "c23",
+   "seconds": 8,
+   "dialogue": "So the label non bailable only begins the analysis. By itself, it does not decide whether this person should receive bail.",
+   "shown": "So the label non-bailable only begins the analysis. By itself, it does not decide whether this person should receive bail."
+  },
+  {
+   "sceneId": "c24",
+   "seconds": 8,
+   "dialogue": "Now suppose Sita has reason to believe she may be arrested on an accusation of a non bailable offence.",
+   "shown": "Now suppose Sita has reason to believe she may be arrested on an accusation of a non-bailable offence.",
+   "chip": "7 · ANTICIPATORY BAIL BEFORE ARREST"
+  },
+  {
+   "sceneId": "c25",
+   "seconds": 10,
+   "dialogue": "Under Section Four Eighty Two, she may apply to the Sessions Court or High Court, which may direct that, if arrested, she be released on bail, on conditions.",
+   "shown": "Under Section 482, she may apply to the Sessions Court or High Court, which may direct that, if arrested, she be released on bail, on conditions."
+  },
+  {
+   "sceneId": "c26",
+   "seconds": 8,
+   "dialogue": "This is anticipatory bail: protection sought before arrest, rather than ordinary bail sought after entering custody."
+  },
+  {
+   "sceneId": "c27",
+   "seconds": 10,
+   "dialogue": "It is not automatic immunity. Filing alone does not protect Sita. Only a court direction secures her release on bail if she is arrested."
+  },
+  {
+   "sceneId": "c28",
+   "seconds": 10,
+   "dialogue": "Section Four Eighty Two, sub section Four, excludes B N S Section Seventy, sub section Two, and all of Section Sixty Five. Special laws may add more.",
+   "shown": "Section 482(4) excludes BNS Section 70(2), and all of Section 65. Special laws may add more."
+  },
+  {
+   "sceneId": "c29",
+   "seconds": 10,
+   "dialogue": "After release, obey the order and the bond. Attend when required, cooperate as directed, and never threaten witnesses or tamper with evidence.",
+   "chip": "8 · RELEASE COMES WITH RESPONSIBILITIES"
+  },
+  {
+   "sceneId": "c30",
+   "seconds": 10,
+   "dialogue": "Section Four Eighty Five deals with appearance undertakings and recorded conditions. Under other provisions, a breach can lead to a return to custody.",
+   "shown": "Section 485 deals with appearance undertakings and recorded conditions. Under other provisions, a breach can lead to a return to custody."
+  },
+  {
+   "sceneId": "c31",
+   "seconds": 10,
+   "dialogue": "Even in a bailable case, a missed date may let the court refuse bail on a later occasion in that same case, under Section Four Seventy Eight, sub section Two.",
+   "shown": "Even in a bailable case, a missed date may let the court refuse bail on a later occasion in that same case, under Section 478(2)."
+  },
+  {
+   "sceneId": "c32",
+   "seconds": 10,
+   "dialogue": "Do not confuse bail with cognizability. Cognizable and non cognizable concern police powers. Bailable and non bailable concern release on bail.",
+   "shown": "Do not confuse bail with cognizability. Cognizable and non-cognizable concern police powers. Bailable and non-bailable concern release on bail.",
+   "chip": "9 · DO NOT CONFUSE BAIL WITH COGNIZABILITY"
+  },
+  {
+   "sceneId": "c33",
+   "seconds": 10,
+   "dialogue": "In the First Schedule, ordinary grievous hurt under B N S Section One Seventeen, sub section Two, is listed as cognizable and bailable.",
+   "shown": "In the First Schedule, ordinary grievous hurt under BNS Section 117(2) is listed as cognizable and bailable."
+  },
+  {
+   "sceneId": "c34",
+   "seconds": 6,
+   "dialogue": "That does not cover the different, aggravated offences in sub sections Three and Four.",
+   "shown": "That does not cover the different, aggravated offences in Section 117(3) and 117(4)."
+  },
+  {
+   "sceneId": "c35",
+   "seconds": 10,
+   "dialogue": "So cognizable does not automatically mean non bailable. Check the exact subsection and special laws; the seriousness of the name alone is not enough.",
+   "shown": "So cognizable does not automatically mean non-bailable. Check the exact subsection and special laws; the seriousness of the name alone is not enough."
+  },
+  {
+   "sceneId": "c36",
+   "seconds": 6,
+   "dialogue": "Remember: Section Four Seventy Eight provides bail as a right when its requirements are met.",
+   "shown": "Remember: Section 478 provides bail as a right when its requirements are met.",
+   "chip": "10 · THE DISTINCTION TO REMEMBER"
+  },
+  {
+   "sceneId": "c37",
+   "seconds": 8,
+   "dialogue": "For non bailable offences, release remains possible, including under Sections Four Eighty and Four Eighty Three.",
+   "shown": "For non-bailable offences, release remains possible, including under Sections 480 and 483."
+  },
+  {
+   "sceneId": "c38",
+   "seconds": 8,
+   "dialogue": "Section Four Eighty Two concerns anticipatory bail. A bond secures attendance, and bail does not end the case.",
+   "shown": "Section 482 concerns anticipatory bail. A bond secures attendance, and bail does not end the case."
+  },
+  {
+   "sceneId": "c39",
+   "seconds": 6,
+   "dialogue": "Identify the exact offence, the correct bail route, and the conditions of release."
+  },
+  {
+   "sceneId": "c40",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more legal concepts made simple."
+  }
+ ]
+}

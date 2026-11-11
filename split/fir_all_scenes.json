@@ -1,0 +1,223 @@
+{
+ "projectTitle": "LawWorld_fir",
+ "title": "FIR, Zero FIR and e-FIR",
+ "source": "split/scripts/fir.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 8,
+   "dialogue": "Your phone is stolen in another city. Must you go back there to report it? Under the B N S S, you need not.",
+   "shown": "Your phone is stolen in another city. Must you go back there to report it? Under the BNSS, you need not.",
+   "chip": "1 · WHERE CAN YOU REPORT A CRIME?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. Where, and how, can an F I R be lodged under the Bharatiya Nagarik Suraksha Sanhita? What if it is not recorded?",
+   "shown": "Hi, I'm Ravishankar from LawWorld. Where, and how, can an FIR be lodged under the Bharatiya Nagarik Suraksha Sanhita? What if it is not recorded?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 8,
+   "dialogue": "Here is a hypothetical. Meera, a teacher from Mysuru, has her phone stolen at a bus stand in Hubballi."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "Section One Seventy Three, sub section One, deals with information about a cognizable offence. Once recorded, it is commonly called the F I R.",
+   "shown": "Section 173(1) deals with information about a cognizable offence. Once recorded, it is commonly called the FIR.",
+   "chip": "2 · WHAT AN FIR IS"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 8,
+   "dialogue": "It may be given in writing, orally, or electronically, to the officer in charge of a police station."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 6,
+   "dialogue": "Oral information is reduced to writing, read over to the informant, and signed."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 8,
+   "dialogue": "Notice the words: irrespective of the area where the offence is committed. That phrase is the basis of the Zero F I R.",
+   "shown": "Notice the words: irrespective of the area where the offence is committed. That phrase is the basis of the Zero FIR.",
+   "chip": "3 · ZERO FIR: REPORT ANYWHERE"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 8,
+   "dialogue": "Assume Meera's information discloses a cognizable offence. She may report it at a police station in Mysuru."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 8,
+   "dialogue": "It is recorded there, and the case is then generally transferred to the police station that has jurisdiction."
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "Under the old Code of Criminal Procedure, the Supreme Court held in Satvinder Kaur that police cannot refuse an F I R only for lack of jurisdiction.",
+   "shown": "Under the old Code of Criminal Procedure, the Supreme Court held in Satvinder Kaur that police cannot refuse an FIR only for lack of jurisdiction."
+  },
+  {
+   "sceneId": "c11",
+   "seconds": 10,
+   "dialogue": "Now suppose Meera reports electronically, from a laptop. That is the E F I R route; the Sanhita calls it electronic communication.",
+   "shown": "Now suppose Meera reports electronically, from a laptop. That is the e-FIR route; the Sanhita calls it electronic communication.",
+   "chip": "4 · E-FIR: ELECTRONIC INFORMATION"
+  },
+  {
+   "sceneId": "c12",
+   "seconds": 6,
+   "dialogue": "Under clause Two, it is taken on record once the person giving it signs it within three days.",
+   "shown": "Under clause (ii), it is taken on record once the person giving it signs it within three days."
+  },
+  {
+   "sceneId": "c13",
+   "seconds": 10,
+   "dialogue": "When a woman reports specified offences against her, such as sexual offences or an acid attack, a woman officer must record it.",
+   "chip": "5 · SAFEGUARDS AND A FREE COPY"
+  },
+  {
+   "sceneId": "c14",
+   "seconds": 10,
+   "dialogue": "If the victim of these offences is disabled, it is recorded at home or a chosen place, with an interpreter or special educator, and videographed."
+  },
+  {
+   "sceneId": "c15",
+   "seconds": 8,
+   "dialogue": "Under sub section Two, the informant or the victim gets a free copy of the information as recorded, forthwith.",
+   "shown": "Under sub-section (2), the informant or the victim gets a free copy of the information as recorded, forthwith."
+  },
+  {
+   "sceneId": "c16",
+   "seconds": 10,
+   "dialogue": "Under the old Code, the Constitution Bench in Lalita Kumari held registration mandatory when the information discloses a cognizable offence.",
+   "chip": "6 · PRELIMINARY ENQUIRY"
+  },
+  {
+   "sceneId": "c17",
+   "seconds": 10,
+   "dialogue": "A preliminary inquiry was permitted only in limited cases, and only to check whether a cognizable offence was disclosed."
+  },
+  {
+   "sceneId": "c18",
+   "seconds": 10,
+   "dialogue": "Sub section Three is new. For offences punishable with three years or more but less than seven years, police may hold a preliminary enquiry.",
+   "shown": "Sub-section (3) is new. For offences punishable with three years or more but less than seven years, police may hold a preliminary enquiry."
+  },
+  {
+   "sceneId": "c19",
+   "seconds": 10,
+   "dialogue": "It needs prior permission from a Deputy Superintendent of Police or above, and must check, within fourteen days, whether a prima facie case exists.",
+   "shown": "It needs prior permission from a Deputy Superintendent of Police or above, and must check, within 14 days, whether a prima facie case exists."
+  },
+  {
+   "sceneId": "c20",
+   "seconds": 8,
+   "dialogue": "The Supreme Court has called this an exception, allowing enquiry even when a cognizable offence is disclosed."
+  },
+  {
+   "sceneId": "c21",
+   "seconds": 10,
+   "dialogue": "Outside that exception, registration remains mandatory. And if the enquiry finds no prima facie case, the informant should be told immediately."
+  },
+  {
+   "sceneId": "c22",
+   "seconds": 8,
+   "dialogue": "Now suppose the information is not recorded. Section One Seventy Three, sub section Four, gives Meera a remedy.",
+   "shown": "Now suppose the information is not recorded. Section 173(4) gives Meera a remedy.",
+   "chip": "7 · WHEN INFORMATION IS NOT RECORDED"
+  },
+  {
+   "sceneId": "c23",
+   "seconds": 8,
+   "dialogue": "She may send the substance of her information, in writing and by post, to the Superintendent of Police concerned."
+  },
+  {
+   "sceneId": "c24",
+   "seconds": 10,
+   "dialogue": "If satisfied that it discloses a cognizable offence, the Superintendent must investigate, or direct a subordinate officer to investigate."
+  },
+  {
+   "sceneId": "c25",
+   "seconds": 8,
+   "dialogue": "Failing that, she may apply to the Magistrate. Section One Seventy Five, sub section Three, requires an affidavit in support.",
+   "shown": "Failing that, she may apply to the Magistrate. Section 175(3) requires an affidavit in support."
+  },
+  {
+   "sceneId": "c26",
+   "seconds": 10,
+   "dialogue": "The Magistrate may make any necessary inquiry, and must consider the police officer's submissions, before ordering investigation."
+  },
+  {
+   "sceneId": "c27",
+   "seconds": 10,
+   "dialogue": "The Supreme Court has said these conditions codify earlier judicial safeguards, like Priyanka Srivastava's affidavit rule under the old Code."
+  },
+  {
+   "sceneId": "c28",
+   "seconds": 8,
+   "dialogue": "What if the information discloses only a non cognizable offence? Then Section One Seventy Four applies instead.",
+   "shown": "What if the information discloses only a non-cognizable offence? Then Section 174 applies instead.",
+   "chip": "8 · NON-COGNIZABLE INFORMATION"
+  },
+  {
+   "sceneId": "c29",
+   "seconds": 6,
+   "dialogue": "The officer records its substance in a book, and refers the informant to the Magistrate."
+  },
+  {
+   "sceneId": "c30",
+   "seconds": 10,
+   "dialogue": "Police need a Magistrate's order to investigate it. But where at least one offence is cognizable, the whole case is treated as cognizable."
+  },
+  {
+   "sceneId": "c31",
+   "seconds": 6,
+   "dialogue": "Registration is not arrest, and an F I R is not proof of guilt; that is for the court.",
+   "shown": "Registration is not arrest, and an FIR is not proof of guilt; that is for the court.",
+   "chip": "9 · WHAT AN FIR IS NOT"
+  },
+  {
+   "sceneId": "c32",
+   "seconds": 8,
+   "dialogue": "Nor is it substantive evidence. It can generally be used only to corroborate or contradict its maker."
+  },
+  {
+   "sceneId": "c33",
+   "seconds": 8,
+   "dialogue": "Under the old Code, the Supreme Court also held that an F I R is not an encyclopaedia of every fact and detail.",
+   "shown": "Under the old Code, the Supreme Court also held that an FIR is not an encyclopaedia of every fact and detail."
+  },
+  {
+   "sceneId": "c34",
+   "seconds": 10,
+   "dialogue": "Report promptly. Delay is not fatal by itself, but courts look for a satisfactory explanation, because delay can invite embellishment."
+  },
+  {
+   "sceneId": "c35",
+   "seconds": 10,
+   "dialogue": "Knowingly giving false information may be an offence, for example under Sections Two Seventeen and Two Forty Eight of the Bharatiya Nyaya Sanhita.",
+   "shown": "Knowingly giving false information may be an offence, for example under Sections 217 and 248 of the Bharatiya Nyaya Sanhita."
+  },
+  {
+   "sceneId": "c36",
+   "seconds": 8,
+   "dialogue": "Finally, a quick checklist. Take your free copy, check that it records your facts accurately, and note the sections mentioned.",
+   "chip": "10 · YOUR CHECKLIST"
+  },
+  {
+   "sceneId": "c37",
+   "seconds": 10,
+   "dialogue": "Not recorded? Write to the Superintendent of Police by post. If that fails, apply to the Magistrate, with an affidavit and a copy of that letter."
+  },
+  {
+   "sceneId": "c38",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more legal concepts made simple."
+  }
+ ]
+}

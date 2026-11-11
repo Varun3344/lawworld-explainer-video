@@ -1,0 +1,232 @@
+{
+ "projectTitle": "LawWorld_chq",
+ "title": "Cheque Dishonour: Law and Timelines",
+ "source": "split/scripts/chq.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 8,
+   "dialogue": "Your cheque has bounced. So when must you send notice, how long does the drawer get to pay, and when can you file a complaint?",
+   "chip": "1 · FOUR CLOCKS AFTER A BOUNCED CHEQUE"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. A complaint under Section One Thirty Eight of the Negotiable Instruments Act runs on four separate legal clocks.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. A complaint under Section 138 of the Negotiable Instruments Act runs on four separate legal clocks."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "First, the essentials. The bounced cheque must relate to a legally enforceable debt or liability, and the statutory conditions must be met.",
+   "chip": "2 · THE POSITION OF LAW"
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "In Rangappa versus Sri Mohan, the Supreme Court confirmed a rebuttable presumption for the holder, once the necessary foundation is established."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 6,
+   "dialogue": "That foundation includes the drawer's signature. The drawer can still raise a probable defence."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 8,
+   "dialogue": "A security cheque may also attract liability, when the secured debt has become payable and remains unpaid."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 8,
+   "dialogue": "Clock one starts with the cheque's date. The Act itself mentions six months, or the cheque's validity, whichever is earlier.",
+   "chip": "3 · CLOCK ONE: PRESENT IN TIME"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "R B I directions limit ordinary cheque validity to three months. Do not assume ninety days. A postdated cheque becomes payable on its stated date.",
+   "shown": "RBI directions limit ordinary cheque validity to three months. Do not assume 90 days. A postdated cheque becomes payable on its stated date."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Deposit early enough to reach the drawee bank in time. Ishar Alloy explains why a last minute deposit at your collecting bank may be insufficient.",
+   "shown": "Deposit early enough to reach the drawee bank in time. Ishar Alloy explains why a last-minute deposit at your collecting bank may be insufficient."
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "Clock two begins when the payee receives the bank's information that the cheque was returned unpaid. Within thirty days, give the drawer a written demand notice.",
+   "shown": "Clock two begins when the payee receives the bank's information that the cheque was returned unpaid. Within 30 days, give the drawer a written demand notice.",
+   "chip": "4 · CLOCK TWO: THE DEMAND NOTICE"
+  },
+  {
+   "sceneId": "c11",
+   "seconds": 8,
+   "dialogue": "Record both the memo date, and when the information actually reached you. Clearly identify the cheque, and demand its amount."
+  },
+  {
+   "sceneId": "c12",
+   "seconds": 8,
+   "dialogue": "If interest or costs are claimed, state them separately. Suman Sethi explains why the cheque amount must be identifiable."
+  },
+  {
+   "sceneId": "c13",
+   "seconds": 10,
+   "dialogue": "Dispatch and receipt dates serve different purposes. The payment clock turns on receipt, including legally presumed service where applicable."
+  },
+  {
+   "sceneId": "c14",
+   "seconds": 8,
+   "dialogue": "C C Alavi Haji explains the rebuttable presumption for a correctly addressed notice sent by registered post.",
+   "shown": "C.C. Alavi Haji explains the rebuttable presumption for a correctly addressed notice sent by registered post."
+  },
+  {
+   "sceneId": "c15",
+   "seconds": 10,
+   "dialogue": "Refusal or avoidance does not necessarily defeat service. Keep the signed notice, postal records and address proof, and never invent a delivery date."
+  },
+  {
+   "sceneId": "c16",
+   "seconds": 8,
+   "dialogue": "Clock three gives the drawer fifteen days after receipt of the notice to pay the cheque amount. Exclude the receipt date when counting.",
+   "shown": "Clock three gives the drawer 15 days after receipt of the notice to pay the cheque amount. Exclude the receipt date when counting.",
+   "chip": "5 · CLOCK THREE: THE PAYMENT WINDOW"
+  },
+  {
+   "sceneId": "c17",
+   "seconds": 10,
+   "dialogue": "Payment within this period prevents the cause of action from arising on that notice. A reply denying liability is not payment, and it does not stop the clock."
+  },
+  {
+   "sceneId": "c18",
+   "seconds": 8,
+   "dialogue": "There is no separate statutory reply deadline. A drawer who disputes the demand should still reply promptly, with records."
+  },
+  {
+   "sceneId": "c19",
+   "seconds": 10,
+   "dialogue": "If unpaid after those fifteen days, the cause of action arises on the next day. Do not file early, even if the drawer has rejected the demand.",
+   "shown": "If unpaid after those 15 days, the cause of action arises on the next day. Do not file early, even if the drawer has rejected the demand."
+  },
+  {
+   "sceneId": "c20",
+   "seconds": 10,
+   "dialogue": "In Yogendra Pratap Singh versus Savitri Pandey, the Supreme Court held that filing before the payment period expires is not maintainable."
+  },
+  {
+   "sceneId": "c21",
+   "seconds": 6,
+   "dialogue": "Later cognizance cannot cure a premature complaint; a fresh one may need delay condoned."
+  },
+  {
+   "sceneId": "c22",
+   "seconds": 10,
+   "dialogue": "Clock four is one calendar month from the cause of action, not a fixed thirty days. Econ Antri confirms that the cause of action date is excluded.",
+   "shown": "Clock four is one calendar month from the cause of action, not a fixed 30 days. Econ Antri confirms that the cause of action date is excluded.",
+   "chip": "6 · CLOCK FOUR: FILE WITHIN ONE MONTH"
+  },
+  {
+   "sceneId": "c23",
+   "seconds": 8,
+   "dialogue": "A delayed complaint may be entertained if the court accepts sufficient cause under the proviso to Section One Forty Two.",
+   "shown": "A delayed complaint may be entertained if the court accepts sufficient cause under the proviso to Section 142."
+  },
+  {
+   "sceneId": "c24",
+   "seconds": 10,
+   "dialogue": "But a delayed notice is different; this proviso does not excuse it. Negotiations and promises to pay do not, by themselves, extend the filing deadline."
+  },
+  {
+   "sceneId": "c25",
+   "seconds": 10,
+   "dialogue": "Here is a fictional example. The cheque was presented within validity, and the bank's dishonour information reached the payee on first May.",
+   "shown": "Here is a fictional example. The cheque was presented within validity, and the bank's dishonour information reached the payee on 1 May.",
+   "chip": "7 · A WORKED EXAMPLE"
+  },
+  {
+   "sceneId": "c26",
+   "seconds": 8,
+   "dialogue": "Notice was dispatched on second May, and actually received on sixth May. So the payment days run from seventh to twenty first May.",
+   "shown": "Notice was dispatched on 2 May, and actually received on 6 May. So the payment days run from 7 to 21 May."
+  },
+  {
+   "sceneId": "c27",
+   "seconds": 8,
+   "dialogue": "If unpaid, the cause of action arises on twenty second May, and the ordinary complaint window runs to twenty second June.",
+   "shown": "If unpaid, the cause of action arises on 22 May, and the ordinary complaint window runs to 22 June."
+  },
+  {
+   "sceneId": "c28",
+   "seconds": 8,
+   "dialogue": "These dates assume proven actual receipt, no intervening payment, and no special court closure or extension issue."
+  },
+  {
+   "sceneId": "c29",
+   "seconds": 8,
+   "dialogue": "Now file a written complaint. It must be made by the payee or holder in due course, before the competent Magistrate.",
+   "chip": "8 · THE COURT AND THE COMPLAINT"
+  },
+  {
+   "sceneId": "c30",
+   "seconds": 10,
+   "dialogue": "For collection through an account, jurisdiction ordinarily follows the payee's account branch, even if deposited at another branch of that bank."
+  },
+  {
+   "sceneId": "c31",
+   "seconds": 10,
+   "dialogue": "Presentation otherwise than through an account follows the drawer's bank branch. Also check the special rule for subsequent complaints against the same drawer."
+  },
+  {
+   "sceneId": "c32",
+   "seconds": 10,
+   "dialogue": "Organise the cheque, return memo, debt records, notice, service proof and date calculation, together with the required synopsis and affidavits."
+  },
+  {
+   "sceneId": "c33",
+   "seconds": 8,
+   "dialogue": "Avoid treating every return memo as automatic guilt, confusing a reply with payment, or filing early.",
+   "chip": "9 · COMMON MISTAKES"
+  },
+  {
+   "sceneId": "c34",
+   "seconds": 10,
+   "dialogue": "A cheque may be presented again within its validity. M S R Leathers permits prosecution on a subsequent dishonour, if all conditions are met.",
+   "shown": "A cheque may be presented again within its validity. MSR Leathers permits prosecution on a subsequent dishonour, if all conditions are met."
+  },
+  {
+   "sceneId": "c35",
+   "seconds": 6,
+   "dialogue": "But a reminder notice alone, without a fresh dishonour, does not restart the clock."
+  },
+  {
+   "sceneId": "c36",
+   "seconds": 10,
+   "dialogue": "After the payment window, document any later payment. It does not automatically erase the case; settlement or compounding needs legal steps."
+  },
+  {
+   "sceneId": "c37",
+   "seconds": 10,
+   "dialogue": "Remember the sequence. Present within the cheque's validity, ordinarily three months. Send notice within thirty days of receiving the bank's information.",
+   "shown": "Remember the sequence. Present within the cheque's validity, ordinarily three months. Send notice within 30 days of receiving the bank's information.",
+   "chip": "10 · REMEMBER THE SEQUENCE"
+  },
+  {
+   "sceneId": "c38",
+   "seconds": 10,
+   "dialogue": "Allow fifteen days after notice receipt for payment. Then file within one calendar month of the cause of action. And keep proof for every date.",
+   "shown": "Allow 15 days after notice receipt for payment. Then file within one calendar month of the cause of action. And keep proof for every date."
+  },
+  {
+   "sceneId": "c39",
+   "seconds": 8,
+   "dialogue": "Those four clocks, supported by the underlying debt and proper service, form the foundation of a cheque dishonour complaint."
+  },
+  {
+   "sceneId": "c40",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more legal concepts made simple."
+  }
+ ]
+}

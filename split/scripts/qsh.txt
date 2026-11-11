@@ -1,0 +1,138 @@
+// Quashing of FIRs and Criminal Proceedings: the High Court's Inherent Power under Section 528 BNSS - CONCEPT VIDEO (legal-concept
+// explainer, Cause of Action build): ~5 min, 16:9 + 9:16. Set id qsh.
+// Source: NO owner storyboard. Drafted 10-11-2026 from the orchestrator's topic brief; every legal point was checked the same day
+// against the BNSS text on Indian Kanoon (full Act: indiankanoon.org/doc/91117739; s.528: doc/99044874) and the judgments on Indian
+// Kanoon (doc ids below). SCC paragraph numbers were confirmed through later judgments that cite them; "as delivered" = the number
+// in the Supreme Court's own copy where the SCC report renumbers. Kavya (accused supplier), Harish (complainant buyer) and the
+// furniture dispute are HYPOTHETICAL (label "HYPOTHETICAL EXAMPLE" on screen). Cases are named by name only in narration; citations
+// and paragraphs go in the panel footers only. Every case named was decided under s.482 CrPC (Bhajan Lal: Art. 226 and s.482) and
+// the narration says "under the old Code"; s.528 BNSS repeats s.482 CrPC word for word, only "Code" -> "Sanhita".
+// STATUTE (Bharatiya Nagarik Suraksha Sanhita, 2023):
+//  - s.528 "Saving of inherent powers of High Court": "Nothing in this Sanhita shall be deemed to limit or affect the inherent powers
+//    of the High Court to make such orders as may be necessary to give effect to any order under this Sanhita, or to prevent abuse of
+//    the process of any Court or otherwise to secure the ends of justice." (c03-c05; c04 PARAPHRASES it - the panel shows the
+//    verbatim text). Same words as s.482 CrPC (s.482 as quoted in Prabhu Chawla).
+//  - s.531(1)-(2)(a): CrPC repealed; appeals, applications, trials, inquiries and investigations PENDING on 1 July 2024 continue under
+//    the CrPC. FOOTER ONLY under c03 ("matters pending on 1 July 2024 may still run under s.482 CrPC"), not narrated.
+//  - s.174(2): no police officer shall investigate a non-cognizable case without the order of a Magistrate (successor of s.155(2)
+//    CrPC, which Bhajan Lal category 4 cites) (c12).
+//  - s.227: issue of process (summons / warrant) = the "summoning order" (c06, c08).
+//  - s.359: (1) Table 1, compoundable by the person named; (2) Table 2, compoundable only with the permission of the court before
+//    which the prosecution is pending; (8) composition has the effect of an acquittal (footer only); (9) "No offence shall be
+//    compounded except as provided by this section". Forgery (BNS 336, 338, 340) is in NEITHER table (full tables read); cheating
+//    318(2) is in Table 1, cheating 318(4) and criminal breach of trust 316(2) in Table 2 (c26). Compounding (s.359, the parties,
+//    the trial court) and quashing on settlement (s.528, the High Court's discretion) stay visually separate.
+//  - ss.438-442 (revision): 438(1) the High Court or a Sessions Judge examines the correctness, legality or propriety of any finding,
+//    sentence or order of an inferior criminal court; 438(2) NOT for interlocutory orders; 438(3) one application, to the High Court
+//    OR the Sessions Judge; 439 further inquiry; 440 Sessions Judge (440(3): final for that applicant); 441 Additional Sessions Judge;
+//    442 High Court's revisional powers. 443 (transfer of revision cases) is not narrated (c31).
+//  - Constitution, Article 226: FIR-quashing petitions are also filed under it; Bhajan Lal para 102 speaks of both powers (c09, c33).
+// CASES (Supreme Court; all read on Indian Kanoon):
+//  - State of Haryana v. Bhajan Lal, 1992 Supp (1) SCC 335 (21 Nov 1990; IK doc 1033637 is the SCR headnote, 8.1; paras 102-103 read
+//    as quoted in Neeharika para 7.3 and in O.C. Kuttan, quoted there): para 102, under Art. 226 or s.482, seven categories "by way
+//    of illustration", no "exhaustive list" possible: (1) allegations taken at face value and accepted in entirety make out no
+//    offence; (2) no cognizable offence disclosed to justify police investigation without a Magistrate's order; (3) uncontroverted
+//    allegations and evidence collected disclose no offence; (4) only a non-cognizable offence, no investigation without a
+//    Magistrate's order; (5) so absurd and inherently improbable that no prudent person could find sufficient ground; (6) express
+//    legal bar to institution/continuance, or a specific provision giving efficacious redress; (7) manifestly mala fide, or
+//    maliciously instituted with an ulterior motive to wreak vengeance out of private and personal grudge. Para 103: "very sparingly
+//    and with circumspection"; no enquiry into the reliability or genuineness of the allegations; no arbitrary jurisdiction
+//    (c09-c17, c33).
+//  - Neeharika Infrastructure (P) Ltd. v. State of Maharashtra, (2021) 19 SCC 401 : 2021 SCC OnLine SC 315 (three Judges, 13 Apr 2021;
+//    IK doc 199473647). Conclusions = para 80 in the SCC OnLine numbering = para 23 (i)-(xviii) as delivered; the paragraph number in
+//    the (2021) 19 SCC report was NOT confirmed - check it before a footer prints "SCC ... para": (ii) courts would not thwart the
+//    investigation of cognizable offences; (v) no enquiry into reliability or genuineness; (vii) quashing an exception rather than an
+//    ordinary rule; (xii), (xv) the court does not go into the merits while investigation is on; (xvi) an interim stay / "no coercive
+//    steps" order not routine, casual or mechanical; (xvii) brief reasons for an interim stay; (xviii) the High Court must clarify what
+//    "no coercive steps" means (c17-c19).
+//  - Anand Kumar Mohatta v. State (NCT of Delhi), (2019) 11 SCC 706 (15 Nov 2018; IK doc 14567786), para 17 as delivered: nothing in
+//    s.482 restricts it to the FIR stage; "the abuse of process caused by FIR stands aggravated if the FIR has taken the form of a
+//    charge sheet after investigation" (c07).
+//  - Pepsi Foods Ltd. v. Special Judicial Magistrate, (1998) 5 SCC 749 (4 Nov 1997; IK doc 574884), para 28 (confirmed through citing
+//    judgments): "Summoning of an accused in a criminal case is a serious matter"; the order must reflect application of mind; the
+//    next paragraph: the accused may approach the High Court under s.482 or Art. 227 to have the proceeding quashed (c06, c08).
+//  - Paramjeet Batra v. State of Uttarakhand, (2013) 11 SCC 673 (14 Dec 2012; IK doc 6591830), para 12 (para 7 as delivered): the
+//    power is used sparingly; whether the essential ingredients exist is for the High Court; a civil transaction may also have a
+//    criminal texture, but the High Court must see whether an essentially civil dispute is given "a cloak of criminal offence" (c22).
+//  - Hridaya Ranjan Prasad Verma v. State of Bihar, (2000) 4 SCC 168 (IK doc 853800), para 15: mere breach of contract is not cheating
+//    unless fraudulent or dishonest intention is shown right at the beginning of the transaction (c23; NOT named, footer only).
+//  - Indian Oil Corpn. v. NEPC India Ltd., (2006) 6 SCC 736 (IK doc 39679), para 12(v) (9(v) as delivered): the same facts may be a
+//    civil wrong and a criminal offence; a commercial dispute is not by itself a ground to quash; para 13 (10 as delivered): the
+//    "growing tendency in business circles to convert purely civil disputes into criminal cases" (c24; NOT named, footer only).
+//  - Gian Singh v. State of Punjab, (2012) 10 SCC 303 (three Judges, 24 Sep 2012; IK doc 69949024), para 61 (57 as delivered):
+//    quashing on settlement is distinct from compounding under s.320 CrPC; heinous and serious offences (murder, rape, dacoity)
+//    "cannot be fittingly quashed" despite settlement; nor offences under special statutes like the Prevention of Corruption Act or
+//    by public servants in that capacity (public servants: footer only); cases with an overwhelmingly civil flavour (commercial,
+//    financial, mercantile, partnership, matrimonial/dowry, family) may be quashed where the parties have resolved their entire
+//    dispute, conviction is remote and bleak, and continuing would be oppressive (c27-c29, c35).
+//  - Narinder Singh v. State of Punjab, (2014) 6 SCC 466 (27 Mar 2014; IK doc 160278245), para 29 (31 as delivered): 29.1 the power
+//    reaches non-compoundable cases but is "to be exercised sparingly and with caution"; 29.3 heinous offences, PC Act; 29.6 s.307
+//    IPC generally treated as serious; 29.7 timing: a settlement during investigation may be accepted more liberally, normally not
+//    once the evidence is almost complete (c30).
+//  - Parbatbhai Aahir v. State of Gujarat, (2017) 9 SCC 641 (4 Oct 2017; IK doc 7293093), para 16 (15 as delivered): 16.1 s.482 confers
+//    no new power, it preserves powers inherent in the High Court; 16.2 quashing on settlement is not compounding and is available
+//    even for non-compoundable offences; 16.6 heinous offences; 16.8 commercial, financial, partnership disputes with a civil flavour;
+//    16.10 economic offences involving the financial and economic well-being of the State: the High Court may decline to quash
+//    (c05, c30).
+//  - Prabhu Chawla v. State of Rajasthan, (2016) 16 SCC 30 (three Judges, 5 Sep 2016; IK doc 170577355), paras 4-6: the availability
+//    of revision under s.397 CrPC does not by itself bar s.482; "The limitation is self-restraint, nothing more" (c32).
+// Panel rules: quashing is EXCEPTIONAL - never show a "QUASHED" stamp as Kavya's outcome (it stays open: "facts decide"); Kavya is
+// "ACCUSED", never "CHEAT" or "FORGER"; Harish is "COMPLAINANT"; keep "ILLUSTRATIVE, NOT EXHAUSTIVE" on the seven-category panel;
+// "rarest of rare" (Bhajan Lal para 103, Neeharika (iv)) is NOT used - if ever shown, add Neeharika's caveat (not the death-penalty
+// sense); never write "s.482" alone on a panel (s.482 CrPC = old inherent power, s.482 BNSS = anticipatory bail) - always "s.482
+// CrPC"; no outcome is promised; a dismissed quashing petition is not a finding of guilt (c36).
+// Practice points c34-c35 (what to attach, who is heard) are drafting practice, not a statutory rule; the "real and complete"
+// settlement test follows Gian Singh para 61 ("full and complete settlement", "resolved their entire dispute").
+// Left out on purpose: Rajiv Thapar (the accused's unimpeachable material), Article 142, Madhu Limaye, anticipatory bail, the
+// Neeharika "rarest of rare" wording, recent s.528 High Court rulings on a "second revision"; s.359(8) is footer-only.
+// Fast budget (no PACE=v1); whole sentences per clip, no digits spoken; the closing line is 6 s (24 syl).
+# 1 · CAN AN FIR BE QUASHED?
+8 | Can a High Court end a criminal case before trial? Yes, but only rarely, and never just because the accused calls it false.
+8 | Hi, I'm Ravishankar from LawWorld. When will the High Court quash an F I R or a criminal case, and when will it refuse?
+10 | The power sits in Section Five Twenty Eight of the Bharatiya Nagarik Suraksha Sanhita, or B N S S. It succeeds Section Four Eighty Two of the old Code.
+# 2 · WHAT SECTION 528 SAYS
+10 | Nothing in the Sanhita limits the High Court's inherent powers to give effect to orders under it, prevent abuse of process, or secure the ends of justice.
+6 | It creates no new power. It preserves a power that belongs to the High Court alone.
+# 3 · WHAT CAN BE QUASHED
+8 | What can be quashed? An F I R and its investigation, a charge sheet, a summoning order, or the proceedings themselves.
+8 | A charge sheet does not close the door. Anand Kumar Mohatta, under the old Code, says abuse of process may then be aggravated.
+6 | Pepsi Foods, also under the old Code, calls summoning an accused a serious matter.
+# 4 · THE BHAJAN LAL CATEGORIES
+10 | The leading case is State of Haryana versus Bhajan Lal, under the old Code and Article Two Twenty Six. It gives seven illustrative categories.
+6 | One: the allegations, even taken at face value and accepted in full, make out no offence.
+10 | Two: no cognizable offence is disclosed to justify police investigation. Three: the uncontroverted allegations and evidence disclose no offence.
+8 | Four: only a non cognizable offence is disclosed, which police cannot investigate without a Magistrate's order.
+8 | Five: the allegations are so absurd and inherently improbable that no prudent person could find sufficient ground to proceed.
+6 | Six: an express legal bar to the case, or a specific provision giving effective redress.
+8 | Seven: the case is manifestly mala fide, or maliciously filed to wreak vengeance out of a private, personal grudge.
+8 | The Court stressed that this list is not exhaustive, and that the power must be used very sparingly, with circumspection.
+# 5 · WHAT THE HIGH COURT WILL NOT DO
+8 | The High Court does not hold a mini trial, or test whether the allegations are true. Disputed defences are left for trial. || The High Court does not hold a mini-trial, or test whether the allegations are true. Disputed defences are left for trial.
+8 | Neeharika Infrastructure, under the old Code, says courts should not thwart investigation. Quashing is the exception, not the rule.
+8 | Interim protection must not be routine. An interim stay needs brief reasons, and a no coercive steps order must say what it means. || Interim protection must not be routine. An interim stay needs brief reasons, and a “no coercive steps” order must say what it means.
+# 6 · A BUSINESS DISPUTE WITH A CRIMINAL COLOUR
+8 | Here is a hypothetical. Harish pays Kavya an advance for furniture. Delivery runs late, and he withholds the balance.
+8 | Instead of suing, Harish files an F I R alleging cheating and forgery. Kavya asks the High Court to quash it.
+8 | Paramjeet Batra, under the old Code, tells the High Court to see whether a civil dispute is given a cloak of criminal offence.
+8 | The Supreme Court has also held that a mere breach of contract is not cheating, without dishonest intention at the start.
+8 | But a civil dispute can involve a real offence. If the F I R gives specific facts of forgery, the case may proceed.
+# 7 · SETTLEMENT IN NON-COMPOUNDABLE CASES
+8 | Now suppose they settle. Kavya refunds part of the advance, and Harish files an affidavit supporting quashing.
+8 | Section Three Fifty Nine lists the offences that can be compounded, some only with the court's permission. Forgery is not among them.
+8 | Gian Singh, under the old Code, holds that the High Court may still quash on settlement, using a power distinct from compounding.
+10 | Cases with an overwhelmingly civil flavour, like commercial, matrimonial or family disputes, may be quashed once the parties resolve their entire dispute.
+10 | Heinous offences like murder, rape and dacoity affect society, so settlement alone cannot end them, nor Prevention of Corruption Act cases.
+10 | Narinder Singh and Parbatbhai Aahir, also under the old Code, add that timing matters, and economic offences affecting the State may not be quashed.
+# 8 · OTHER ROUTES TO THE HIGH COURT
+8 | Another route is revision under Sections Four Thirty Eight to Four Forty Two, but not against interlocutory orders.
+// c32 reworded 10-11 16:40: Flow refused six takes naming Prabhu Chawla (a public figure's name); the case stays on the panel bar.
+8 | The Supreme Court has also held, under the old Code, that the revision remedy does not, by itself, bar the inherent power.
+8 | Quashing petitions are also filed under Article Two Twenty Six. Bhajan Lal's categories cover both powers.
+# 9 · PREPARING THE PETITION
+8 | In practice, attach the F I R or charge sheet under challenge, and show which category applies from the prosecution's own papers.
+10 | In a settlement case, file the complainant's affidavit. The State and the complainant are heard, and the court must find the settlement real and complete.
+8 | If the petition fails, the case simply continues. That is not a finding of guilt; the trial court still weighs the evidence.
+# 10 · REMEMBER THE TEST
+8 | Remember: Section Five Twenty Eight exists to prevent abuse of process. It is used sparingly, and the facts decide.
+6 | For Kavya, everything turns on what the F I R alleges, and what was truly settled.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more legal concepts made simple.

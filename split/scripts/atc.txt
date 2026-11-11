@@ -1,0 +1,52 @@
+// Sri Sujit Das & Ors. etc. v. Union of India, 2026 INSC 1195, Criminal Appeal Nos. 5283-5285 of 2026 (arising out of SLP (Crl.) Nos.
+// 12451-12453 of 2026), Supreme Court of India, Criminal Appellate Jurisdiction; Ujjal Bhuyan J. (wrote it) and Atul S. Chandurkar J.;
+// pronounced 05.11.2026 (New Delhi). REPORTABLE (page 1). Appeal from the Tripura High Court's common order of 29.04.2026 refusing regular
+// bail (NDPS Act). HOOK format (split/JUDGMENT_HOOK_FORMAT.md), Supreme Court page, ENGLISH; opening spoken to everyone, no "Advocates,".
+// Source: the Court's own signed PDF (97 pages, sci.gov.in "Latest Judgments", scratchpad drafts6nov/atc/judgment.pdf + judgment.txt),
+// read in full. The appeal-number blank on page 1 is filled from the sci.gov.in listing ("Crl.A. No. 5283-5285/2026", uploaded
+// 05-11-2026 14:37, scratchpad sc6nov/home.html).
+// Facts used (para): HC common order 29.04.2026 dismissed the regular bail applications of the three appellants (2, 3); NDPS Act case
+// (4); secret information, ambush 29.09.2025, truck followed; at about 1 pm a man on a motorcycle met the truck; all four detained by the
+// search team, tablets recovered (5, 9.2); field-tested, NDPS case registered on 29.09.2025 (9.4, 65); taken to the Customs Division office,
+// second seizure (9.5); "arrested" 30.09.2025 under s.42(1)(d) NDPS (9.6); Special Judge refused bail 30.03.2026 (9.7); HC: Section 37 NDPS
+// rigour, Sukhwinder Singh (7). The 24-hour point "had not been argued before the High Court"; raised at the SC hearing of 21.09.2026; the
+// IO was directed to file an affidavit (10). IO's affidavit: accused "merely intercepted at 02:00 pm on 29.09.2025 and not formally
+// detained"; the hours were needed for statutory formalities (search and seizure, weighing, interrogation, travel) (11.5); search and
+// seizure completed 5 pm on 29.09.2025 (11.2); formal arrest 11:00 am / 11:15 am on 30.09.2025 (11.10). Appellants: intercepted at
+// 2 pm with liberty completely curtailed, 24 hours run from then; produced at 4:45 pm next day, a breach (12, 12.1). ASG: not formally
+// arrested at 2 pm (13.2); the interval for statutory formalities cannot be counted (13.5, 13.7); even from 5 pm, within 24 hours (13.6,
+// 13.10). High Courts divided: Bombay (Ashak Hussain, Hanumant Nazirkar), Telangana (T. Ramadevi), Kerala (Biswajit Mandal) count from
+// restraint (32-35); Orissa (Aryaman Pattnayak), Madras (Kannan), Kerala (Arun K. Thomas) exclude search/seizure/formalities (37-41).
+// Held: the Constitution "does not recognize any detention dehors arrest"; the 24 hours "would commence the moment a person is detained by
+// the arresting authority suspecting him to have committed an offence, when his liberty is effectively curtailed" (58); the deadline runs
+// "from the time when a person is intercepted and detained by the investigating agency ... when his liberty is curtailed" (64); facts:
+// intercepted at 2 pm on 29.09.2025, liberty curtailed from then, under the search team's control; search completed 5 pm; shown formally
+// arrested 30.09.2025 at 11:00 / 11:15 am; produced before the Judicial Magistrate 30.09.2025 at 4:45 pm (65); arrest for Article 22(2)
+// at 2 pm on 29.09.2025, production due before 2 pm on 30.09.2025, a clear breach vitiating the arrest (66); an unexplained 18-hour gap
+// (5 pm to 11 am), not a reasonable period under s.58 BNSS / s.57 CrPC (67). Conclusions 69(i)-(ix): (i) the 24 hours commence "from the
+// date and time of detention of the person detained when his liberty stands curtailed and not from the time of his formal arrest";
+// (ii) detention beyond 24 hours before production: release forthwith; (iii) only the journey time is excluded; (iv) Aryaman Pattnayak,
+// Kannan and Arun K. Thomas do not lay down the correct law; (v) detention also within a reasonable period (s.58 BNSS); (vi) the
+// Magistrate is "duty bound to record the actual date and time of detention" and check the deadline, release forthwith on a breach;
+// (vii) may decline remand if the detention was longer than reasonable; (viii) here: breach of Article 22(2) and s.58 BNSS; (ix) HC order
+// of 29.04.2026 set aside, appellants to be produced before the jurisdictional Special Court within 7 days and then released on bail on
+// terms. Copy to all DGPs, HC Registrars General, State Judicial Academy Directors (70); appeals allowed (71).
+// Not said: any accused's name (only the cause title on the cite card); the drug's name (speech: "banned drug tablets"); the quantity;
+// the agency's name in speech (the facts say the Customs Division's preventive force, para 64 says "officials of the NCB": speech says
+// "officers"). No accusation of wrongdoing against the officers in speech ("the arrest was shown", not "the officers lied"). Flow policy:
+// no "fraud" / "collusion" / "admitted". The fourth man (not an appellant) is not covered by the bail order: c06/c10 say "three".
+# 1 · WHEN DOES THE CLOCK START?
+10 | Officers stop you at two in the afternoon and hold you. But your arrest is written down only the next morning. So when does the twenty four hour clock start? || Officers stop you at 2 in the afternoon and hold you. But your arrest is written down only the next morning. So when does the 24-hour clock start?
+10 | The Constitution says you must reach a Magistrate within twenty four hours of arrest. But High Courts had differed on when that clock starts. So who is right? || The Constitution says you must reach a Magistrate within 24 hours of arrest. But High Courts had differed on when that clock starts. So who is right?
+10 | Hi, I'm Ravishankar from LawWorld. On the fifth of November, Honourable Justice Ujjal Bhuyan and Honourable Justice Atul S Chandurkar ruled. || Hi, I'm Ravishankar from LawWorld. On 5 November, Honourable Justice Ujjal Bhuyan and Honourable Justice Atul S. Chandurkar ruled.
+# 2 · STOPPED AT TWO
+10 | On the twenty ninth of September, twenty twenty five, officers intercepted four men and a truck at two in the afternoon, and seized banned drug tablets. || On 29 September 2025, officers intercepted four men and a truck at 2 in the afternoon, and seized banned drug tablets.
+10 | The search ended that evening, but the arrest was shown only the next morning. The accused reached a Magistrate at a quarter to five in the evening. || The search ended that evening, but the arrest was shown only the next morning. The accused reached a Magistrate at 4:45 in the evening.
+# 3 · DETAINED, OR ARRESTED?
+10 | The Tripura High Court refused bail to three of them, citing the strict bail bar in drug cases. In the Supreme Court, a new point came up about the clock.
+10 | They said their liberty was curtailed from two, so the deadline was missed. The government said they were only intercepted, and the time for formalities does not count. || They said their liberty was curtailed from 2, so the deadline was missed. The government said they were only intercepted, and the time for formalities does not count.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the Supreme Court decide? The twenty four hours run from the moment of detention, when liberty is curtailed, not from the formal arrest. || Finally, what did the Supreme Court decide? The 24 hours run from the moment of detention, when liberty is curtailed, not from the formal arrest.
+10 | Magistrates must record the actual time of detention. Here, the deadline was missed, so the High Court's order was set aside, and the three will be released on bail.

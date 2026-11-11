@@ -1,0 +1,228 @@
+{
+ "projectTitle": "LawWorld_elv",
+ "title": "Electronic Evidence under Section 63 BSA",
+ "source": "split/scripts/elv.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 8,
+   "dialogue": "The C C T V footage shows everything. Yet the court may refuse to admit it, for want of one certificate.",
+   "shown": "The CCTV footage shows everything. Yet the court may refuse to admit it, for want of one certificate.",
+   "chip": "1 · CAN A VIDEO CLIP BE EVIDENCE?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. Today: electronic evidence, and the certificate under Section Sixty Three of the Bharatiya Sakshya Adhiniyam.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. Today: electronic evidence, and the certificate under Section 63 of the Bharatiya Sakshya Adhiniyam."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 6,
+   "dialogue": "It replaced Section Sixty Five B of the old Evidence Act in July twenty twenty four.",
+   "shown": "It replaced Section 65B of the old Evidence Act in July 2024."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 8,
+   "dialogue": "Take a hypothetical. Nisha's bakery in Belagavi is burgled at night, and her C C T V camera records it.",
+   "shown": "Take a hypothetical. Nisha's bakery in Belagavi is burgled at night, and her CCTV camera records it."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 6,
+   "dialogue": "Police copy the footage onto a pen drive. They also rely on WhatsApp chats and call records."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 8,
+   "dialogue": "Are these documents? Yes. Under Section Two, sub section One, clause D, a document includes electronic and digital records.",
+   "shown": "Are these documents? Yes. Under Section 2(1)(d), a document includes electronic and digital records.",
+   "chip": "2 · ELECTRONIC RECORDS ARE DOCUMENTS"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 8,
+   "dialogue": "Section Sixty One bars refusing a record only because it is electronic. But Section Sixty Three still applies.",
+   "shown": "Section 61 bars refusing a record only because it is electronic. But Section 63 still applies."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 8,
+   "dialogue": "Primary evidence is the document itself. Section Fifty Seven now adds explanations for electronic records.",
+   "shown": "Primary evidence is the document itself. Section 57 now adds explanations for electronic records.",
+   "chip": "3 · PRIMARY OR SECONDARY?"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 8,
+   "dialogue": "Where a record sits in multiple files or storage spaces, even temporary ones, each is primary evidence."
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "And so is a record produced from proper custody, unless it is disputed."
+  },
+  {
+   "sceneId": "c11",
+   "seconds": 8,
+   "dialogue": "But Nisha's pen drive holds a copy from the D V R. It is a computer output, governed by Section Sixty Three.",
+   "shown": "But Nisha's pen drive holds a copy from the DVR. It is a computer output, governed by Section 63."
+  },
+  {
+   "sceneId": "c12",
+   "seconds": 8,
+   "dialogue": "Sub section One deems a computer output a document, admissible without the original, if the conditions are met.",
+   "shown": "Sub-section (1) deems a computer output a document, admissible without the original, if the conditions are met.",
+   "chip": "4 · SECTION 63: THE CONDITIONS"
+  },
+  {
+   "sceneId": "c13",
+   "seconds": 10,
+   "dialogue": "Sub section Two lists them. The device was regularly used by the person in lawful control, and such information was regularly fed in.",
+   "shown": "Sub-section (2) lists them. The device was regularly used by the person in lawful control, and such information was regularly fed in."
+  },
+  {
+   "sceneId": "c14",
+   "seconds": 8,
+   "dialogue": "It worked properly, or a fault did not affect the record. And the record reproduces, or derives from, what was fed in."
+  },
+  {
+   "sceneId": "c15",
+   "seconds": 10,
+   "dialogue": "Sub section Four requires a certificate. It identifies the record, explains how it was produced, describes the device, and addresses those conditions.",
+   "shown": "Sub-section (4) requires a certificate. It identifies the record, explains how it was produced, describes the device, and addresses those conditions.",
+   "chip": "5 · THE CERTIFICATE AND ITS SCHEDULE"
+  },
+  {
+   "sceneId": "c16",
+   "seconds": 8,
+   "dialogue": "It is signed by a person in charge of the device or relevant activities, and also by an expert. That is new."
+  },
+  {
+   "sceneId": "c17",
+   "seconds": 8,
+   "dialogue": "It must accompany the record at each submission for admission, and may be stated to the best of knowledge and belief."
+  },
+  {
+   "sceneId": "c18",
+   "seconds": 8,
+   "dialogue": "The Schedule gives the form: Part A for the party, and Part B for the expert. Both identify the source device."
+  },
+  {
+   "sceneId": "c19",
+   "seconds": 8,
+   "dialogue": "In Part A, the party affirms lawful control, regular use and proper working, and whether they own, manage or operate it."
+  },
+  {
+   "sceneId": "c20",
+   "seconds": 6,
+   "dialogue": "For the bakery footage, Nisha, who runs the D V R, could sign Part A, and an expert Part B.",
+   "shown": "For the bakery footage, Nisha, who runs the DVR, could sign Part A, and an expert Part B."
+  },
+  {
+   "sceneId": "c21",
+   "seconds": 8,
+   "dialogue": "Both parts also state the record's hash value, and the algorithm used to calculate it. A hash report is enclosed.",
+   "chip": "6 · HASH VALUE: A DIGITAL FINGERPRINT"
+  },
+  {
+   "sceneId": "c22",
+   "seconds": 8,
+   "dialogue": "A hash value is a short code calculated from a file's contents. Change even one character, and the hash value changes."
+  },
+  {
+   "sceneId": "c23",
+   "seconds": 8,
+   "dialogue": "So if the copy in court gives the same hash value, the data has not changed since the certificate recorded it."
+  },
+  {
+   "sceneId": "c24",
+   "seconds": 10,
+   "dialogue": "In May twenty twenty six, the Supreme Court declined a challenge to this rule. It called a hash value an electronic fingerprint, ensuring integrity.",
+   "shown": "In May 2026, the Supreme Court declined a challenge to this rule. It called a hash value an electronic fingerprint, ensuring integrity."
+  },
+  {
+   "sceneId": "c25",
+   "seconds": 10,
+   "dialogue": "It also observed that, besides notified examiners, a person the court finds skilled in cyber forensics may sign Part B, but kept the question open."
+  },
+  {
+   "sceneId": "c26",
+   "seconds": 10,
+   "dialogue": "In twenty fourteen, a three judge bench of the Supreme Court held the old Section Sixty Five B certificate mandatory for secondary electronic evidence.",
+   "shown": "In 2014, a three-judge bench of the Supreme Court held the old Section 65B certificate mandatory for secondary electronic evidence.",
+   "chip": "7 · WHAT THE SUPREME COURT HELD"
+  },
+  {
+   "sceneId": "c27",
+   "seconds": 8,
+   "dialogue": "Electronic records are more open to tampering, so the certificate safeguards their source and authenticity."
+  },
+  {
+   "sceneId": "c28",
+   "seconds": 8,
+   "dialogue": "In twenty twenty, another three judge bench called it a condition precedent. Oral evidence cannot replace it.",
+   "shown": "In 2020, another three-judge bench called it a condition precedent. Oral evidence cannot replace it."
+  },
+  {
+   "sceneId": "c29",
+   "seconds": 10,
+   "dialogue": "It held a certificate unnecessary when the original is produced, as when a phone's owner enters the witness box and proves the device is his."
+  },
+  {
+   "sceneId": "c30",
+   "seconds": 8,
+   "dialogue": "What if the person who must sign refuses? The party can apply to the court, which can summon that person to produce it.",
+   "chip": "8 · WHEN THE CERTIFICATE IS MISSING"
+  },
+  {
+   "sceneId": "c31",
+   "seconds": 8,
+   "dialogue": "In criminal trials, electronic evidence must reach the accused before the trial begins, so a defence can be prepared."
+  },
+  {
+   "sceneId": "c32",
+   "seconds": 8,
+   "dialogue": "Until the hearing ends, the judge may still allow a certificate later, if the accused is not seriously prejudiced."
+  },
+  {
+   "sceneId": "c33",
+   "seconds": 8,
+   "dialogue": "A WhatsApp screenshot or email printout is a computer output too. Without a proper certificate, it risks exclusion.",
+   "chip": "9 · SCREENSHOTS, EMAILS AND CALL RECORDS"
+  },
+  {
+   "sceneId": "c34",
+   "seconds": 10,
+   "dialogue": "Call records come from the service provider's system, so its responsible officer should certify them. Providers keep them only for a limited time."
+  },
+  {
+   "sceneId": "c35",
+   "seconds": 8,
+   "dialogue": "Common mistakes? A screenshot with no certificate, a signer with no responsibility for the device, or no expert part."
+  },
+  {
+   "sceneId": "c36",
+   "seconds": 10,
+   "dialogue": "Under Section One Seventy, trials, investigations and other proceedings pending when the Adhiniyam began continue under the old Evidence Act.",
+   "shown": "Under Section 170, trials, investigations and other proceedings pending when the Adhiniyam began continue under the old Evidence Act.",
+   "chip": "10 · OLD ACT OR NEW? YOUR CHECKLIST"
+  },
+  {
+   "sceneId": "c37",
+   "seconds": 8,
+   "dialogue": "Finally, a quick checklist. Check which law applies, preserve the original device, and make the copy with its hash value."
+  },
+  {
+   "sceneId": "c38",
+   "seconds": 8,
+   "dialogue": "Get Part A signed by the person in charge, Part B by an expert, and file the certificate with every submission."
+  },
+  {
+   "sceneId": "c39",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more legal concepts made simple."
+  }
+ ]
+}

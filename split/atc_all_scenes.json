@@ -1,0 +1,70 @@
+{
+ "projectTitle": "LawWorld_atc",
+ "title": "When does the 24-hour clock start?",
+ "source": "split/scripts/atc.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Officers stop you at two in the afternoon and hold you. But your arrest is written down only the next morning. So when does the twenty four hour clock start?",
+   "shown": "Officers stop you at 2 in the afternoon and hold you. But your arrest is written down only the next morning. So when does the 24-hour clock start?",
+   "chip": "1 · WHEN DOES THE CLOCK START?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "The Constitution says you must reach a Magistrate within twenty four hours of arrest. But High Courts had differed on when that clock starts. So who is right?",
+   "shown": "The Constitution says you must reach a Magistrate within 24 hours of arrest. But High Courts had differed on when that clock starts. So who is right?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On the fifth of November, Honourable Justice Ujjal Bhuyan and Honourable Justice Atul S Chandurkar ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 5 November, Honourable Justice Ujjal Bhuyan and Honourable Justice Atul S. Chandurkar ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "On the twenty ninth of September, twenty twenty five, officers intercepted four men and a truck at two in the afternoon, and seized banned drug tablets.",
+   "shown": "On 29 September 2025, officers intercepted four men and a truck at 2 in the afternoon, and seized banned drug tablets.",
+   "chip": "2 · STOPPED AT TWO"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "The search ended that evening, but the arrest was shown only the next morning. The accused reached a Magistrate at a quarter to five in the evening.",
+   "shown": "The search ended that evening, but the arrest was shown only the next morning. The accused reached a Magistrate at 4:45 in the evening."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The Tripura High Court refused bail to three of them, citing the strict bail bar in drug cases. In the Supreme Court, a new point came up about the clock.",
+   "chip": "3 · DETAINED, OR ARRESTED?"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "They said their liberty was curtailed from two, so the deadline was missed. The government said they were only intercepted, and the time for formalities does not count.",
+   "shown": "They said their liberty was curtailed from 2, so the deadline was missed. The government said they were only intercepted, and the time for formalities does not count."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the Supreme Court decide? The twenty four hours run from the moment of detention, when liberty is curtailed, not from the formal arrest.",
+   "shown": "Finally, what did the Supreme Court decide? The 24 hours run from the moment of detention, when liberty is curtailed, not from the formal arrest.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "Magistrates must record the actual time of detention. Here, the deadline was missed, so the High Court's order was set aside, and the three will be released on bail."
+  }
+ ]
+}

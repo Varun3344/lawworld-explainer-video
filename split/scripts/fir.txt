@@ -1,0 +1,163 @@
+// FIR, Zero FIR and e-FIR under the BNSS - CONCEPT VIDEO (legal-concept explainer, Cause of Action build): ~5.5 min, 16:9 + 9:16.
+// Source: no storyboard PDF. Script drafted and research-checked on 10-11-2026 against the bare-act text on Indian Kanoon (BNSS
+// "Entire Act" doc 91117739, s.173 also at doc 165794322; BNS doc 149679501; BSA ss.148/160 docs 6178062/129938794) and against
+// the judgments' court copies on Indian Kanoon (doc ids below). Meera (informant), Mysuru, Hubballi and the phone theft are
+// HYPOTHETICAL (label it). Scene labels and citation footers are not read aloud; section numbers appear in the captions in digit
+// form. Cases are named by name only in narration; every citation below is for the panel footers.
+// STATUTE (BNSS 2023, in force 1 July 2024) - what each clip relies on:
+//  - s.173(1) (c04, c05, c07): "Every information relating to the commission of a cognizable offence, irrespective of the area where
+//    the offence is committed, may be given orally or by electronic communication to an officer in charge of a police station";
+//    (i) oral -> "reduced to writing ... read over to the informant"; every information "whether given in writing or reduced to
+//    writing" "shall be signed by the person giving it" (c06). "FIR" is the common name, not the Sanhita's word (c04).
+//  - s.173(1)(ii) (c12): electronic information "shall be taken on record by him on being signed within three days by the person
+//    giving it", substance entered in a book in the form the State Government prescribes by rules (book: panel only). The Sanhita
+//    has no consequence clause for a missed signature - never invent one.
+//  - s.2(1)(i) (c11): "electronic communication" = written, verbal, pictorial information or video content sent by an electronic
+//    device "including a telephone, mobile phone, or other wireless telecommunication device, or a computer, or audio-video player
+//    or camera ...". "e-FIR" is popular shorthand only.
+//  - s.173(1) first proviso (c13): information given by the woman against whom an offence under BNS 64, 65, 66, 67, 68, 69, 70, 71,
+//    74, 75, 76, 77, 78, 79 or 124 (acid attack) is alleged to have been committed OR ATTEMPTED -> "recorded, by a woman police
+//    officer or any woman officer". Second proviso (c14): if "the person" against whom those offences are alleged (any victim, not
+//    only a woman) is temporarily or permanently mentally or physically disabled -> recorded by a police officer at the person's
+//    residence or a convenient place of their choice, in the presence of an interpreter or a special educator, as the case may be;
+//    (b) videographed; (c) statement recorded by a Magistrate under s.183(6)(a) as soon as possible [(c): panel only].
+//  - s.173(2) (c15): "A copy of the information as recorded ... shall be given forthwith, free of cost, to the informant or the victim."
+//  - s.173(3) (c18, c19): "Without prejudice to ... section 175", information of a cognizable offence "made punishable for three
+//    years or more but less than seven years"; the officer in charge "may", "with the prior permission from an officer not below the
+//    rank of Deputy Superintendent of Police, considering the nature and gravity of the offence" [nature/gravity: panel only],
+//    (i) conduct a preliminary enquiry "to ascertain whether there exists a prima facie case for proceeding in the matter within a
+//    period of fourteen days"; or (ii) proceed with investigation when a prima facie case exists. A discretion, never compulsory.
+//  - s.173(4) (c22-c25): a person aggrieved by a refusal to record "may send the substance of such information, in writing and by
+//    post, to the Superintendent of Police concerned" who, "if satisfied that such information discloses the commission of a
+//    cognizable offence, shall either investigate the case himself or direct an investigation" by a subordinate officer, "failing
+//    which such aggrieved person may make an application to the Magistrate".
+//  - s.175(3) (c25, c26): a Magistrate empowered under s.210 may, "after considering the application supported by an affidavit made
+//    under sub-section (4) of section 173, and after making such inquiry as he thinks necessary and submission made in this regard by
+//    the police officer, order such an investigation". "May": no promise that investigation will be ordered.
+//  - s.174 (c28-c30): non-cognizable information (of an offence "within the limits of such station") -> substance entered in the
+//    book, informant referred to the Magistrate (174(1)(i)); daily diary reports sent to the Magistrate fortnightly (174(1)(ii), panel
+//    only); 174(2) "No police officer shall investigate a non-cognizable case without the order of a Magistrate having power to try
+//    such case or commit the case for trial"; 174(4) at least one cognizable offence -> the case is deemed cognizable. 174(3) (no
+//    arrest without warrant in an ordered investigation) is left to the Cognizable/Non-Cognizable video.
+//  - BNS (c35): s.217 "False information, with intent to cause public servant to use his lawful power to injury of another person"
+//    (similar to IPC 182; up to one year, or fine up to 10,000 rupees, or both) and s.248 "False charge of offence made with intent to
+//    injure" (similar to IPC 211; up to five years or fine up to two lakh rupees or both; up to ten years in the aggravated case (b)).
+//    Narration says "may be an offence ... for example"; punishments are panel-only if shown at all.
+//  - BSA 2023 (c32 footer): s.160 (former statement to corroborate; = IEA s.157) and s.148 (contradiction by previous writing;
+//    = IEA s.145).
+// CASES (court copies checked on Indian Kanoon; SCC pins as noted - where the court copy is unnumbered, confirm the pin in the SCC
+// report before printing it on a footer):
+//  - c16, c17: Lalita Kumari v. Govt. of U.P., (2014) 2 SCC 1, Constitution Bench, 12 Nov 2013 (IK doc 10239019): para 120.1-120.8
+//    (SCC; = para 111(i)-(viii) of the court copy; Imran Pratapgadhi para 22 quotes it as "Paragraph 120"). 120.1 registration
+//    mandatory under s.154 when the information discloses a cognizable offence, no preliminary inquiry then; 120.2 if not disclosed
+//    but an inquiry is needed, a preliminary inquiry only to ascertain whether a cognizable offence is disclosed; 120.5 scope is not
+//    veracity; 120.6 categories are illustrations: matrimonial/family disputes, commercial offences, medical negligence, corruption,
+//    abnormal delay (e.g. over 3 months unexplained); 120.7 time-bound, not over 7 days; 120.3 closure copy to the informant within
+//    one week with brief reasons. OLD CODE - the narration says so.
+//  - c20, c21: Imran Pratapgadhi v. State of Gujarat, 2025 INSC 410, 28 Mar 2025, Abhay S. Oka and Ujjal Bhuyan JJ. (IK doc
+//    118192392): para 20 (mandatory registration "subject to the exception carved out by sub-Section (3)"); para 22 (173(1)
+//    "substantially the same" as 154(1), so Lalita Kumari is relevant); para 23 and 42(i) (173(3) "makes a significant departure",
+//    "is an exception to sub-Section (1)", inquiry allowed "even if the information received discloses commission of any cognizable
+//    offence"); para 24 and 42(ii) (prima facie case -> register the FIR immediately and investigate; none -> "immediately inform the
+//    first informant" so he can use 173(4)); para 25 ("unless the offence falls in sub-Section (3) of Section 173, it is mandatory to
+//    register FIR"); para 28 (a discretion). NOT NAMED in narration ("The Supreme Court has called this an exception"): the appellant
+//    is a sitting MP and Flow refuses "prominent people" prompts. Name it on the footer.
+//  - c25-c27: Om Prakash Ambadkar v. State of Maharashtra, 2025 INSC 139, 16 Jan 2025 (IK date), J.B. Pardiwala and R. Mahadevan JJ.
+//    (IK doc 141233097): para 29 (before ordering investigation under 175(3) the Magistrate must (a) consider the application,
+//    supported by an affidavit, made to the SP under 173(4), (b) conduct such inquiry as he thinks necessary, (c) consider the police
+//    officer's submissions); para 31(a) (approaching the SP is now mandatory and the applicant must furnish a copy of the 173(4)
+//    application, supported by an affidavit, with the 175(3) application) -> c37 "a copy of that letter"; para 32 (Priyanka
+//    Srivastava); para 34 (175(3) "merely codify the procedural practices and safeguards" introduced by judicial decisions). Not
+//    named in narration (c27 "The Supreme Court has said ..."); name it on the footer.
+//  - c27: Priyanka Srivastava v. State of U.P., (2015) 6 SCC 287, 19 Mar 2015, Dipak Misra and Prafulla C. Pant JJ. (IK doc
+//    163299097): s.156(3) applications "to be supported by an affidavit duly sworn by the applicant"; prior applications under
+//    154(1) and 154(3) required; a false affidavit exposes the applicant to prosecution. Court copy para 27 (usually cited as SCC
+//    paras 30-31 - confirm). OLD CODE - the narration says so.
+//  - c10: Satvinder Kaur v. State (Govt. of NCT of Delhi), (1999) 8 SCC 728, 5 Oct 1999, K.T. Thomas and M.B. Shah JJ. (IK doc
+//    1841921): the SHO may investigate a cognizable case for which an FIR is lodged; if the crime was not committed within his
+//    territorial jurisdiction the FIR "can be forwarded to the police station having jurisdiction", "But this would not mean that in
+//    a case which requires investigation, the police officer can refuse to record the FIR and/or investigate it". Court copy
+//    unnumbered - confirm the SCC pin. OLD CODE (ss.154, 156, 170 CrPC) - the narration says so.
+//  - c32: Sheikh Hasib v. State of Bihar, (1972) 4 SCC 773, decided 23 Aug 1971, three Judges (IK doc 401470), para 4: the FIR "does
+//    not constitute substantive evidence"; it "can, however, only be used as a previous statement for the purpose of either
+//    corroborating its maker" (IEA 157) "or for contradicting him" (IEA 145); its object is "to set the criminal law in motion".
+//    Narration says "generally", because an FIR may be admissible on another footing in some cases (e.g. a deceased informant's
+//    statement). Not named.
+//  - c33: Supdt. of Police, CBI v. Tapan Kumar Singh, (2003) 6 SCC 175, para 20: "a first information report is not an
+//    encyclopaedia, which must disclose all facts and details relating to the offence reported" - checked as quoted in Neeharika
+//    Infrastructure Pvt. Ltd. v. State of Maharashtra, AIR 2021 SC 1918, 13 Apr 2021, three Judges (IK doc 199473647), paras 9.6 and
+//    10(xii). OLD CODE. Not named.
+//  - c34: Thulia Kali v. State of T.N., (1972) 3 SCC 393, 25 Feb 1972 (IK doc 147273): delay "quite often results in embellishment";
+//    "essential that the delay in the lodging of the first information report should be satisfactorily explained". State of H.P.
+//    v. Gian Chand, (2001) 6 SCC 71, 1 May 2001 (IK doc 146987): delay is not a "ritualistic formula" for discarding the case; if
+//    satisfactorily explained it is not by itself a ground to disbelieve it. Court copies unnumbered (both usually cited as para 12 -
+//    confirm). Not named.
+// THINGS THE PANELS MUST RESPECT:
+//  - "Zero FIR" and "e-FIR" are popular names (c07, c11); the statutory words are "irrespective of the area where the offence is
+//    committed" and "electronic communication". The TRANSFER of a Zero FIR to the station with jurisdiction is not written into
+//    s.173: it rests on practice and Satvinder Kaur (old Code), hence "generally transferred" (c09). No e-Zero-FIR, portal, helpline
+//    or state-scheme claims.
+//  - c08 ASSUMES that Meera's information discloses a cognizable offence. The First Schedule lists theft under BNS 303(2) of property
+//    worth less than 5,000 rupees (first offence, restoration -> community service) as NON-COGNIZABLE, so never show a blanket
+//    "theft = cognizable" stamp; and never place Meera's theft inside or outside the 173(3) three-to-seven-year band.
+//  - Registration is not arrest and not proof of guilt (c31): no accused, "CULPRIT" or arrest anywhere in Meera's story.
+//  - 173(3) is a police discretion with prior DSP-rank permission, not a compulsory step; the 14 days are 173(3)'s, the 7 days are
+//    Lalita Kumari's (old Code) - never mix them; Lalita Kumari's categories are illustrations, not a closed list.
+//  - The SP route needs writing AND post; the Magistrate route follows it ("failing which") and needs an affidavit; the Magistrate
+//    "may" order investigation - no guaranteed outcome.
+//  - Non-cognizable (c28-c30): the information is still entered and the informant referred; police need the Magistrate's order to
+//    investigate; never show it as "police refused".
+//  - c35: "may be an offence" - never suggest that an informant whose case fails has lied.
+//  - Neutral wording about police conduct (Flow filter): c22 "suppose the information is not recorded", not "the police refused".
+// Deliberately left out of the narration: 173(1) third limb (Magistrate statement under 183(6)(a)), the book entry for electronic
+// information, "nature and gravity" in 173(3), the fortnightly diary in 174(1)(ii), 174(3), 175(4) (public servants), 176, the
+// BNSS s.215 complaint requirement for prosecuting false information (not checked), any e-Zero-FIR scheme (not checked).
+// Fast budget (no PACE=v1): 38 clips, whole sentences per clip, no digits in the spoken half; outro 6 s (24 syllables).
+# 1 · WHERE CAN YOU REPORT A CRIME?
+8 | Your phone is stolen in another city. Must you go back there to report it? Under the B N S S, you need not.
+10 | Hi, I'm Ravishankar from LawWorld. Where, and how, can an F I R be lodged under the Bharatiya Nagarik Suraksha Sanhita? What if it is not recorded?
+8 | Here is a hypothetical. Meera, a teacher from Mysuru, has her phone stolen at a bus stand in Hubballi.
+# 2 · WHAT AN FIR IS
+10 | Section One Seventy Three, sub section One, deals with information about a cognizable offence. Once recorded, it is commonly called the F I R.
+8 | It may be given in writing, orally, or electronically, to the officer in charge of a police station.
+6 | Oral information is reduced to writing, read over to the informant, and signed.
+# 3 · ZERO FIR: REPORT ANYWHERE
+8 | Notice the words: irrespective of the area where the offence is committed. That phrase is the basis of the Zero F I R.
+8 | Assume Meera's information discloses a cognizable offence. She may report it at a police station in Mysuru.
+8 | It is recorded there, and the case is then generally transferred to the police station that has jurisdiction.
+10 | Under the old Code of Criminal Procedure, the Supreme Court held in Satvinder Kaur that police cannot refuse an F I R only for lack of jurisdiction.
+# 4 · E-FIR: ELECTRONIC INFORMATION
+10 | Now suppose Meera reports electronically, from a laptop. That is the E F I R route; the Sanhita calls it electronic communication. || Now suppose Meera reports electronically, from a laptop. That is the e-FIR route; the Sanhita calls it electronic communication.
+6 | Under clause Two, it is taken on record once the person giving it signs it within three days. || Under clause (ii), it is taken on record once the person giving it signs it within three days.
+# 5 · SAFEGUARDS AND A FREE COPY
+10 | When a woman reports specified offences against her, such as sexual offences or an acid attack, a woman officer must record it.
+10 | If the victim of these offences is disabled, it is recorded at home or a chosen place, with an interpreter or special educator, and videographed.
+8 | Under sub section Two, the informant or the victim gets a free copy of the information as recorded, forthwith.
+# 6 · PRELIMINARY ENQUIRY
+10 | Under the old Code, the Constitution Bench in Lalita Kumari held registration mandatory when the information discloses a cognizable offence.
+10 | A preliminary inquiry was permitted only in limited cases, and only to check whether a cognizable offence was disclosed.
+10 | Sub section Three is new. For offences punishable with three years or more but less than seven years, police may hold a preliminary enquiry.
+10 | It needs prior permission from a Deputy Superintendent of Police or above, and must check, within fourteen days, whether a prima facie case exists.
+8 | The Supreme Court has called this an exception, allowing enquiry even when a cognizable offence is disclosed.
+10 | Outside that exception, registration remains mandatory. And if the enquiry finds no prima facie case, the informant should be told immediately.
+# 7 · WHEN INFORMATION IS NOT RECORDED
+8 | Now suppose the information is not recorded. Section One Seventy Three, sub section Four, gives Meera a remedy.
+8 | She may send the substance of her information, in writing and by post, to the Superintendent of Police concerned.
+10 | If satisfied that it discloses a cognizable offence, the Superintendent must investigate, or direct a subordinate officer to investigate.
+8 | Failing that, she may apply to the Magistrate. Section One Seventy Five, sub section Three, requires an affidavit in support.
+10 | The Magistrate may make any necessary inquiry, and must consider the police officer's submissions, before ordering investigation.
+10 | The Supreme Court has said these conditions codify earlier judicial safeguards, like Priyanka Srivastava's affidavit rule under the old Code.
+# 8 · NON-COGNIZABLE INFORMATION
+8 | What if the information discloses only a non cognizable offence? Then Section One Seventy Four applies instead.
+6 | The officer records its substance in a book, and refers the informant to the Magistrate.
+10 | Police need a Magistrate's order to investigate it. But where at least one offence is cognizable, the whole case is treated as cognizable.
+# 9 · WHAT AN FIR IS NOT
+6 | Registration is not arrest, and an F I R is not proof of guilt; that is for the court.
+8 | Nor is it substantive evidence. It can generally be used only to corroborate or contradict its maker.
+8 | Under the old Code, the Supreme Court also held that an F I R is not an encyclopaedia of every fact and detail.
+10 | Report promptly. Delay is not fatal by itself, but courts look for a satisfactory explanation, because delay can invite embellishment.
+10 | Knowingly giving false information may be an offence, for example under Sections Two Seventeen and Two Forty Eight of the Bharatiya Nyaya Sanhita.
+# 10 · YOUR CHECKLIST
+8 | Finally, a quick checklist. Take your free copy, check that it records your facts accurately, and note the sections mentioned.
+10 | Not recorded? Write to the Superintendent of Police by post. If that fails, apply to the Magistrate, with an affidavit and a copy of that letter.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more legal concepts made simple.

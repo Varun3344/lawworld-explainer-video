@@ -1,0 +1,156 @@
+// Setting Aside an Ex Parte Decree under Order IX Rule 13 CPC - CONCEPT VIDEO (legal-concept explainer, Cause of Action build): ~5 min,
+// 16:9 + 9:16. Source: no storyboard PDF. Drafted 10-11-2026 from the bare-act text and the judgments below; every provision and
+// passage was read that day (source named per item). SHOW THE OWNER THIS SCRIPT; RENDER ONLY AFTER HIS YES.
+// Sunil (defendant, a printer), Pallavi (plaintiff, a paper supplier), the unpaid invoices, the shop he left two years ago, the
+// affixed summons and the bank-account attachment are HYPOTHETICAL: label them "HYPOTHETICAL EXAMPLE" on screen. Cases are spoken by
+// name only; the citations below go in the footers. No public figure is named aloud (parties are private litigants).
+// Fast budget (no PACE=v1): 38 clips, 780 spoken words, 304 s; closing line 6 s (house standard, 24 syl). check_scenes: 0 flagged.
+// Bare-act sources: CPC 1908 = Indian Kanoon full-Act page (indiankanoon.org/doc/161831507, text as amended incl. 1976/1999/2002);
+// Limitation Act 1963 = Indian Kanoon full-Act page (indiankanoon.org/doc/1317393). India Code was not used.
+//  - O.IX R.6(1) (c04-c05): "Where the plaintiff appears and the defendant does not appear when the suit is called on for hearing":
+//    (a) "if it is proved that the summons was duly served, the Court may make an order that the suit shall be heard ex parte";
+//    (b) "if it is not proved that the summons was duly served, the Court shall direct a second summons to be issued and served";
+//    (c) served but not in sufficient time -> hearing postponed, notice of the new day (panel footnote only, not narrated).
+//  - O.IX R.7 (c06): where the Court "has adjourned the hearing of the suit ex-parte and the defendant, at or before such hearing,
+//    appears and assigns good cause for his previous non-appearance, he may, upon such terms as the Court directs as to costs or
+//    otherwise, be heard in answer to the suit as if he had appeared on the day fixed for his appearance". Panel keeps "at or before
+//    the adjourned hearing": per Arjun Singh v. Mohindra Kumar, AIR 1964 SC 993 (as summarised in Bhanu Kumar Jain), R.7 does not
+//    lie once the hearing is complete and the suit is adjourned only for judgment. Do not show R.7 as available "any time before decree".
+//  - O.IX R.13 main rule (c10-c12): "In any case in which a decree is passed ex parte against a defendant, he may apply to the Court
+//    by which the decree was passed for an order to set it aside; and if he satisfies the Court that the summons was not duly served,
+//    or that he was prevented by any sufficient cause from appearing when the suit was called on for hearing, the Court shall make an
+//    order setting aside the decree as against him upon such terms as to costs, payment into Court or otherwise as it thinks fit, and
+//    shall appoint a day for proceeding with the suit". c11 says "if satisfied"; the panel may show "if he satisfies the Court".
+//  - O.IX R.13 first proviso (c14): "where the decree is of such a nature that it cannot be set aside as against such defendant only
+//    it may be set aside as against all or any of the other defendants also" (narration: "the others too"; panel: "all or any").
+//  - O.IX R.13 second proviso (c15-c16; added by Act 104 of 1976 w.e.f. 1-2-1977): "no Court shall set aside a decree passed ex parte
+//    merely on the ground that there has been an irregularity in the service of summons, if it is satisfied that the defendant had
+//    notice of the date of hearing and had sufficient time to appear and answer the plaintiff's claim".
+//  - O.IX R.13 Explanation (c17; 1976): "Where there has been an appeal against a decree passed ex parte under this rule, and the
+//    appeal has been disposed of on any ground other than the ground that the appellant has withdrawn the appeal, no application
+//    shall lie under this rule for setting aside that ex parte decree."
+//  - O.IX R.14 (c32): "No decree shall be set aside on any such application as aforesaid unless notice thereof has been served on
+//    the opposite party."
+//  - O.V R.17 (c13): affixing is the serving officer's step where the defendant refuses to sign the acknowledgement, or cannot be
+//    found after due and reasonable diligence (absent from his residence, no likelihood of finding him there within a reasonable time)
+//    and there is no agent or other person to serve; the copy is affixed "on the outer door or some other conspicuous part of the house
+//    in which the defendant ordinarily resides or carries on business or personally works for gain", and the return must state the
+//    circumstances and the name and address of the person (if any) who identified the house. c13 shortens the place to "ordinarily
+//    resides or carries on business"; the panel may add "or personally works for gain". O.V R.19 (court examines the serving officer
+//    where the return is not verified by affidavit, then declares due service or orders fresh service) = panel footnote only.
+//    Whether affixing at Sunil's old shop was due service is for the court: show it as "Sunil's ground", never a "NOT SERVED" verdict.
+//  - O.XLIII R.1(d) (c33): an appeal lies from "an order under rule 13 of Order IX rejecting an application (in a case open to appeal)
+//    for an order to set aside a decree passed ex parte" (with s.104). Only REJECTION is listed; an order allowing the application
+//    is not in O.XLIII: the panel must not say "either side may appeal". Panel keeps "(in a case open to appeal)".
+//  - s.96(2) CPC (c27): "An appeal may lie from an original decree passed ex parte."
+//  - O.XLI R.5 (c34): (1) "An appeal shall not operate as a stay of proceedings under a decree ... nor shall execution of a decree be
+//    stayed by reason only of an appeal having been preferred from the decree; but the Appellate Court may for sufficient cause order
+//    stay of execution of such decree." R.5(3) conditions (substantial loss, no unreasonable delay, security) = panel footnote only.
+//    NOTE: nothing in Order IX makes a R.13 application a stay either. The source of the decree court's power to stay execution
+//    while a R.13 application is pending (usually s.151 in practice) was NOT verified, so c37 says only "seek a stay of execution
+//    if needed" and names no provision; the panel must not cite one.
+//  - Limitation Act Art.123 (c18-c20, c35): "To set aside a decree passed ex parte or to re-hear an appeal decreed or heard ex parte"
+//    | "Thirty days" | "The date of the decree or where the summons or notice was not duly served, when the applicant had knowledge of
+//    the decree." Explanation: "For the purpose of this article, substituted service under rule 20 of Order V of the Code of Civil
+//    Procedure, 1908 (5 of 1908) shall not be deemed to be due service." The Explanation is ON SCREEN ONLY (footnote under c19-c20),
+//    cut from the narration for the word budget. Sunil's service was by affixing under O.V R.17 (not R.20 substituted service), so
+//    the footnote must not say the Explanation decides his case.
+//  - Limitation Act s.5 (c21): "Any appeal or any application, other than an application under any of the provisions of Order XXI of
+//    the Code of Civil Procedure, 1908 (5 of 1908), may be admitted after the prescribed period, if the appellant or the applicant
+//    satisfies the court that he had sufficient cause for not preferring the appeal or making the application within such period."
+//    A R.13 application (Order IX) is therefore covered. Several High Court amendments to O.IX R.13 (Madras, Kerala, Punjab, MP) and
+//    Karnataka's O.IX R.15 also apply s.5 expressly; not needed once the 1963 Act's s.5 applies, and not narrated.
+// Judgments (texts read on Indian Kanoon 10-11-2026):
+//  - G.P. Srivastava v. R.K. Raizada, (2000) 3 SCC 54 : AIR 2000 SC 1221, decided 03-03-2000 (S. Saghir Ahmad, R.P. Sethi JJ.;
+//    Sethi J.), Indian Kanoon doc/295872 (c22-c26). The passage: unless "sufficient cause" is shown "the Court has no power to set
+//    aside an ex-parte decree"; "The words 'was prevented by any sufficient cause from appearing' must be liberally construed to
+//    enable the court to do complete justice between the parties particularly when no negligence or inaction is imputable to erring
+//    party. Sufficient cause for the purpose of Order 9 Rule 13 has to be construed as elastic expression for which no hard and fast
+//    guidelines can be prescribed. The courts have wide discretion ..."; it "refers to the date on which the absence was made a ground
+//    for proceeding ex-parte and cannot be stretched to rely upon other circumstances anterior in time"; the defendant "cannot be
+//    penalised for his previous negligence which had been overlooked and thereby condoned earlier"; where he "approaches the Court
+//    immediately and within the statutory time specified, the discretion is normally exercised in his favour, provided the absence
+//    was not malafide or intentional. For the absence of a party in the case the other side can be compensated by adequate costs and
+//    the lis decided on merits." The Indian Kanoon copy has NO paragraph numbers and the SCC pin was NOT verified (para 7 is commonly
+//    cited but unconfirmed): footer = "(2000) 3 SCC 54" with no paragraph. Followed in A. Murugesan v. Jamuna Rani (SC, 07-02-2019,
+//    C.A. 1545/2019, non-reportable, doc/177017613): the court must confine itself to sufficient cause on the date, not past conduct.
+//  - Bhanu Kumar Jain v. Archana Kumar, (2005) 1 SCC 787 : AIR 2005 SC 626, decided 17-12-2004 (N. Santosh Hegde, B.P. Singh,
+//    S.B. Sinha JJ.; Sinha J.), Indian Kanoon doc/785132 (c28-c31). Paragraph numbers as quoted by the Supreme Court in G.N.R. Babu
+//    @ S.N. Babu v. Dr. B.C. Muthappa, C.A. 6228/2022, decided 06-09-2022 (A.S. Oka, Ajay Rastogi JJ.), doc/31632273 (paras 24-27,
+//    38), and for para 26 also Mahesh Yadav v. Rajeshwar Singh (16-12-2008, doc/1147404) and Koushik Mutually Aided Coop. Housing
+//    Society v. Ameena Begum (01-12-2023, doc/27192951). Para 24: a s.96(2) appeal may be filed on the grounds that (i) the material
+//    brought on record by the plaintiff would not entail a decree, (ii) the suit could not have been posted for ex parte hearing.
+//    Para 25: under R.13 the defendant may also show "sufficient and cogent reasons" for not attending. Para 26: the defendant "has
+//    two clear options, one, to file an appeal and another to file an application ... in terms of Order 9 Rule 13 ... He can take
+//    recourse to both the proceedings simultaneously but in the event the appeal is dismissed as a result whereof the ex parte decree
+//    passed by the trial court merges with the order passed by the appellate court, having regard to Explanation appended to Order 9
+//    Rule 13 of the Code a petition under Order 9 Rule 13 would not be maintainable. However, Explanation I appended to the said
+//    provision does not suggest that the converse is also true." Para 38 (per G.N.R. Babu para 7): after a R.13 application is
+//    dismissed, the defendant "would not be permitted to raise a contention as regards the correctness or otherwise of the order
+//    posting the suit for ex parte hearing ... and/or existence of a sufficient case for non-appearance", but may argue in the s.96
+//    appeal "that the materials brought on record by the plaintiffs were not sufficient for passing a decree in his favour or the suit
+//    was otherwise not maintainable. Lack of jurisdiction of the court can also be a possible plea"; the Explanation "shall receive a
+//    strict construction". Closing paragraph (number not verified): contentions on merit "confining their contentions to the
+//    materials which are on records of the case" (c31 "the evidence on record"). Footer: (2005) 1 SCC 787, paras 26, 38.
+// Panels must respect: setting aside is never automatic or promised - "shall" applies only once the court is satisfied; never a
+// "DECREE SET ASIDE" stamp on Sunil's case; the second proviso can defeat a claim of mere irregular service; R.13 relief comes "upon
+// such terms" (costs / payment into court); Art.123's knowledge rule applies only where the summons was NOT duly served; s.5 is a
+// discretion ("may be admitted"); an appeal and an application may run together, but a dismissed appeal ends the R.13 route; only a
+// REJECTION of a R.13 application is appealable under O.XLIII R.1(d); neither route stays execution by itself. The bank-account
+// attachment in c01/c09 is the hypothetical's execution step: no rule citation for it on screen.
+// Left out deliberately: G.N.R. Babu para 8 (where NO R.13 application was made, the s.96 appellant may show from the trial record
+// that the summons was not served or the ex parte order was unjustified, but cannot lead evidence in appeal to make out sufficient
+// cause) - verified, cut for the word budget; Parimal v. Veena (2011) and Sunil Poddar v. Union Bank (2008) (not opened); O.IX R.13
+// High Court amendments (Allahabad, Bombay, Calcutta, Karnataka, Kerala, MP, Madras, Orissa, Punjab: extra provisos/explanations on
+// service on an adult male member with an adverse interest, s.5) - not narrated, present form not checked; review and a separate suit
+// alleging fraud (mentioned in Bhanu Kumar Jain para 26) - not narrated; O.V R.9 presumption of service by post/courier on refusal;
+// revision against an order allowing a R.13 application.
+# 1 · THE DECREE YOU NEVER SAW
+8 | A money decree, in a suit you never knew about. Now your bank account is attached. Can that decree be undone?
+8 | Hi, I'm Ravishankar from LawWorld. Today, Order Nine, Rule Thirteen of the C P C: setting aside an ex parte decree.
+6 | An ex parte decree is passed in the defendant's absence, after the suit is heard without him.
+# 2 · HOW A SUIT GOES EX PARTE
+6 | Order Nine, Rule Six applies when the plaintiff appears but the defendant does not, at the hearing.
+8 | If due service is proved, the court may order the suit to be heard ex parte. Otherwise, it must issue a second summons.
+8 | Before the decree, Rule Seven lets him appear at or before the adjourned hearing, show good cause, and be heard on terms.
+# 3 · A HYPOTHETICAL: SUNIL'S CASE
+8 | A hypothetical case. Pallavi, a paper supplier, sues Sunil, a printer, for money due on unpaid invoices.
+8 | The summons goes to a shop Sunil left two years ago. The process server reports that he affixed it to the door.
+8 | The court hears the suit ex parte and passes a money decree. Sunil first learns of it when his bank account is attached.
+# 4 · RULE 13: TWO GROUNDS
+8 | After the decree, Rule Thirteen lets the defendant apply to the court that passed it, for an order setting it aside.
+10 | The court shall set the decree aside if satisfied that the summons was not duly served, or that he was prevented by sufficient cause from appearing.
+8 | It may impose terms as to costs, payment into court or otherwise, and then appoints a day for proceeding with the suit.
+10 | Sunil relies on the first ground: under Order Five, Rule Seventeen, affixing is done where the defendant ordinarily resides or carries on business.
+# 5 · THE PROVISOS AND THE EXPLANATION
+8 | First proviso: a decree that cannot be set aside against one defendant only may be set aside against the others too.
+10 | Second proviso: a mere irregularity in service is not enough, if the defendant had notice of the hearing date and sufficient time to appear.
+6 | So if Sunil actually knew the date in time, irregular service alone will not help him.
+10 | Under the Explanation, if an appeal against the ex parte decree was disposed of other than by withdrawal, no Rule Thirteen application lies.
+# 6 · THE 30-DAY CLOCK
+8 | Under Article One Twenty Three of the Limitation Act, you have thirty days from the date of the decree to apply.
+8 | But where the summons was not duly served, the thirty days run instead from when the applicant had knowledge of the decree.
+6 | If Sunil shows he was not duly served, his thirty days run from when he learnt of the decree.
+8 | Missed it? Section Five of the Limitation Act lets the court admit a late application, on sufficient cause for the delay.
+# 7 · WHAT COUNTS AS SUFFICIENT CAUSE
+10 | On this second ground, in G P Srivastava versus R K Raizada, the Supreme Court held that sufficient cause must be liberally construed, to do complete justice. || On this second ground, in G.P. Srivastava versus R.K. Raizada, the Supreme Court held that sufficient cause must be liberally construed, to do complete justice.
+10 | This applies particularly where no negligence or inaction is imputable to him. It is an elastic expression, and courts have wide discretion.
+8 | The cause must relate to the date the court proceeded ex parte. Earlier lapses, already overlooked, cannot be held against him.
+10 | If a defendant comes promptly, within time, and his absence was not mala fide or intentional, discretion is normally exercised in his favour.
+// c26 reworded 10-11 20:05: Flow's policy filter refused "The other side can be compensated by adequate costs, and the case decided on merits." Same meaning (G.P. Srivastava); the panel still quotes the judgment.
+6 | Costs can make up for any hardship caused, and the case is then decided on its merits.
+# 8 · APPEAL, APPLICATION, OR BOTH
+6 | Section Ninety Six, sub section Two, also allows an appeal from an ex parte decree.
+8 | In Bhanu Kumar Jain versus Archana Kumar, the Supreme Court said a defendant may pursue both remedies simultaneously.
+10 | But if the appeal is dismissed, the decree merges with the appellate order, and the Rule Thirteen application is no longer maintainable.
+8 | The converse is not true. If the Rule Thirteen application fails, the appeal survives, but he cannot reargue sufficient cause there.
+6 | In that appeal, he may argue that the evidence on record did not justify the decree.
+# 9 · NOTICE, APPEAL AND EXECUTION
+8 | Under Rule Fourteen, no decree is set aside unless notice of the application is served on the opposite party.
+8 | If the Rule Thirteen application is rejected, an appeal lies under Order Forty Three, Rule One, clause D.
+8 | An appeal alone is not a stay. Order Forty One, Rule Five lets the appellate court stay execution for sufficient cause.
+# 10 · YOUR CHECKLIST
+8 | So, act fast. Apply within thirty days of the decree, or of learning of it if the summons was not duly served.
+8 | Get certified copies of the order sheet and the process server's report, and check the address and manner of service.
+8 | Support sufficient cause with documents, offer costs, check whether an appeal was filed, and seek a stay of execution if needed.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more legal concepts made simple.

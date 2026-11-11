@@ -1,0 +1,64 @@
+{
+ "projectTitle": "LawWorld_ddc",
+ "title": "Three dying declarations that don't match",
+ "source": "split/scripts/ddc.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Before she died, a woman gave three statements. One named only her mother-in-law. The other two named all four in the family. Which one would you believe?",
+   "chip": "1 · WHICH ONE IS TRUE?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "The Sessions Court acquitted her husband and his family. The High Court believed just the first statement, and gave the mother-in-law life imprisonment. So who was right?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On fifth November, twenty twenty six, Honourable Justice Ujjal Bhuyan and Honourable Justice Atul S Chandurkar ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 5 November 2026, Honourable Justice Ujjal Bhuyan and Honourable Justice Atul S. Chandurkar ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "The prosecution said her husband and his family ill-treated her over dowry, and because she had no child. She suffered burns at home and died five days later.",
+   "chip": "2 · THREE STATEMENTS"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "A doctor at the hospital recorded the first. A police officer and a Special Executive Magistrate took the other two, which named all four accused."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The Sessions Court found the statements did not match. The man who put out the fire and took her to hospital was never called as a witness, nor was any neighbour.",
+   "chip": "3 · TWO COURTS, TWO VIEWS"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The High Court found the doctor's record voluntary. By the family's own defence, it said, the mother-in-law alone was at home with her, and gave no explanation."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the Supreme Court decide? Given the inconsistency in the three statements, the Sessions Court was right. She was entitled to the benefit of doubt.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "Her acquittal had strengthened the presumption of innocence, and the doctor's record, without corroboration, could not alone reverse it. So she was acquitted."
+  }
+ ]
+}

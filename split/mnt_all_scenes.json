@@ -1,0 +1,218 @@
+{
+ "projectTitle": "LawWorld_mnt",
+ "title": "Maintenance under Section 144 BNSS",
+ "source": "split/scripts/mnt.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 8,
+   "dialogue": "Can a wife who earns a salary still claim maintenance? Can parents claim from a married daughter? Does jail wipe out arrears?",
+   "chip": "1 · MAINTENANCE: A RIGHT, NOT CHARITY"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 8,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. Who can claim maintenance, how much can be ordered, and how is the order enforced?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "The law is Section One Forty Four of the Bharatiya Nagarik Suraksha Sanhita, or B N S S, which replaces Section One Twenty Five of the old Code.",
+   "shown": "The law is Section 144 of the Bharatiya Nagarik Suraksha Sanhita, or BNSS, which replaces Section 125 of the old Code."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "Under the old Code, Chaturbhuj versus Sita Bai calls it a measure of social justice. Its object is to prevent vagrancy and destitution."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 8,
+   "dialogue": "So who can claim? Four groups of relatives, against a person with sufficient means who neglects or refuses to maintain them.",
+   "chip": "2 · WHO CAN CLAIM"
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 8,
+   "dialogue": "First, a wife unable to maintain herself. Second, a child, legitimate or illegitimate, unable to maintain itself."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "Third, an adult child, other than a married daughter, unable to maintain itself because of a physical or mental abnormality or injury."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Fourth, a parent unable to maintain themselves. Vijaya Manohar Arbat, under the old Code, holds that parents may claim from a daughter with means of her own."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 8,
+   "dialogue": "Unlike the old Code, clause B no longer uses the word minor. Whether that helps adult children is not yet settled by the courts.",
+   "shown": "Unlike the old Code, clause (b) no longer uses the word “minor”. Whether that helps adult children is not yet settled by the courts."
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "For this Chapter, wife also includes a divorced woman who has not remarried.",
+   "shown": "For this Chapter, “wife” also includes a divorced woman who has not remarried.",
+   "chip": "3 · WHO COUNTS AS A WIFE"
+  },
+  {
+   "sceneId": "c11",
+   "seconds": 8,
+   "dialogue": "The remedy is secular. The Supreme Court has held, under the old Code, that it covers women of every faith."
+  },
+  {
+   "sceneId": "c12",
+   "seconds": 8,
+   "dialogue": "Here is a hypothetical. Deepa and her young son live with her parents. Her husband Raghu, an engineer, has stopped paying for them.",
+   "chip": "4 · HYPOTHETICAL: DEEPA'S CLAIM"
+  },
+  {
+   "sceneId": "c13",
+   "seconds": 8,
+   "dialogue": "Deepa earns a little from tutoring. Under Chaturbhuj, that alone does not end her claim. Can she live as she did in her husband's home?"
+  },
+  {
+   "sceneId": "c14",
+   "seconds": 8,
+   "dialogue": "In Anju Garg, under the old Code, the Supreme Court said an able bodied husband must earn, even by physical labour.",
+   "shown": "In Anju Garg, under the old Code, the Supreme Court said an able-bodied husband must earn, even by physical labour."
+  },
+  {
+   "sceneId": "c15",
+   "seconds": 8,
+   "dialogue": "How much? There is no statutory ceiling. The old limit of five hundred rupees a month was removed in two thousand one.",
+   "shown": "How much? There is no statutory ceiling. The old limit of ₹500 a month was removed in 2001.",
+   "chip": "5 · HOW MUCH, AND INTERIM RELIEF"
+  },
+  {
+   "sceneId": "c16",
+   "seconds": 8,
+   "dialogue": "The Magistrate fixes a monthly rate, weighing status, reasonable needs, independent income and the standard of living."
+  },
+  {
+   "sceneId": "c17",
+   "seconds": 8,
+   "dialogue": "Rajnesh versus Neha, under the old Code, says it must neither oppress the payer, nor be so meagre that it drives the wife to penury."
+  },
+  {
+   "sceneId": "c18",
+   "seconds": 8,
+   "dialogue": "Pending the case, interim maintenance and expenses may be ordered, as far as possible within sixty days of notice.",
+   "shown": "Pending the case, interim maintenance and expenses may be ordered, as far as possible within 60 days of notice."
+  },
+  {
+   "sceneId": "c19",
+   "seconds": 8,
+   "dialogue": "Sub section Two: the allowance runs from the date of the order or, if the court so orders, from the date of the application.",
+   "shown": "Sub-section (2): the allowance runs from the date of the order or, if the court so orders, from the date of the application.",
+   "chip": "6 · FROM WHEN, AND FULL DISCLOSURE"
+  },
+  {
+   "sceneId": "c20",
+   "seconds": 8,
+   "dialogue": "Rajnesh directed that maintenance be awarded from the date of application, since delays are beyond the applicant's control."
+  },
+  {
+   "sceneId": "c21",
+   "seconds": 10,
+   "dialogue": "It also made a disclosure affidavit of assets and liabilities mandatory for both sides. False statements in it may invite perjury proceedings."
+  },
+  {
+   "sceneId": "c22",
+   "seconds": 8,
+   "dialogue": "Claiming under another law too, like the Domestic Violence Act? Disclose that order. The court will consider adjusting the amounts."
+  },
+  {
+   "sceneId": "c23",
+   "seconds": 10,
+   "dialogue": "Sub section Four bars a wife who lives in adultery, refuses without sufficient reason to live with her husband, or lives apart by mutual consent.",
+   "shown": "Sub-section (4) bars a wife who lives in adultery, refuses without sufficient reason to live with her husband, or lives apart by mutual consent.",
+   "chip": "7 · WHEN A WIFE CANNOT CLAIM"
+  },
+  {
+   "sceneId": "c24",
+   "seconds": 6,
+   "dialogue": "Proof of any of these also requires the Magistrate to cancel an existing order."
+  },
+  {
+   "sceneId": "c25",
+   "seconds": 8,
+   "dialogue": "Suppose Raghu offers maintenance only if Deepa returns. The Magistrate may weigh her reasons, and still order it on just ground."
+  },
+  {
+   "sceneId": "c26",
+   "seconds": 6,
+   "dialogue": "The law itself treats his marrying another woman as a just ground for her refusal."
+  },
+  {
+   "sceneId": "c27",
+   "seconds": 8,
+   "dialogue": "If Raghu fails without sufficient cause to pay, the Magistrate may issue a warrant, for every breach, to levy the amount due.",
+   "chip": "8 · ENFORCING THE ORDER"
+  },
+  {
+   "sceneId": "c28",
+   "seconds": 8,
+   "dialogue": "For each month's allowance left unpaid after the warrant, he may be imprisoned for up to one month, or until he pays, if sooner."
+  },
+  {
+   "sceneId": "c29",
+   "seconds": 8,
+   "dialogue": "But there is a time limit. Deepa must apply to levy the amount within one year of the date on which it became due."
+  },
+  {
+   "sceneId": "c30",
+   "seconds": 8,
+   "dialogue": "Jail does not wipe out the debt. Kuldip Kaur, under the old Code, calls imprisonment a mode of enforcement, not satisfaction."
+  },
+  {
+   "sceneId": "c31",
+   "seconds": 8,
+   "dialogue": "Section One Forty Five lets Deepa file where Raghu is, where he or his wife resides, or where he last resided with his wife.",
+   "shown": "Section 145 lets Deepa file where Raghu is, where he or his wife resides, or where he last resided with his wife.",
+   "chip": "9 · WHERE TO FILE, AND LATER CHANGES"
+  },
+  {
+   "sceneId": "c32",
+   "seconds": 6,
+   "dialogue": "The B N S S adds a new option: the district where his father or mother resides.",
+   "shown": "The BNSS adds a new option: the district where his father or mother resides."
+  },
+  {
+   "sceneId": "c33",
+   "seconds": 6,
+   "dialogue": "Where a Family Court has been set up for the area, it exercises this jurisdiction."
+  },
+  {
+   "sceneId": "c34",
+   "seconds": 8,
+   "dialogue": "Under Section One Forty Six, the Magistrate may alter the order on proof of a change in the circumstances of either party.",
+   "shown": "Under Section 146, the Magistrate may alter the order on proof of a change in the circumstances of either party."
+  },
+  {
+   "sceneId": "c35",
+   "seconds": 8,
+   "dialogue": "Finally, a checklist. Gather proof of the relationship, the respondent's income and assets, and your own monthly expenses.",
+   "chip": "10 · YOUR CHECKLIST"
+  },
+  {
+   "sceneId": "c36",
+   "seconds": 10,
+   "dialogue": "File the disclosure affidavit with your application, and seek interim maintenance early. If payments stop, apply within one year of each missed payment."
+  },
+  {
+   "sceneId": "c37",
+   "seconds": 8,
+   "dialogue": "Maintenance prevents destitution; it is not a penalty. The amount always depends on the evidence before the court."
+  },
+  {
+   "sceneId": "c38",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more legal concepts made simple."
+  }
+ ]
+}

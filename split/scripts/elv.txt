@@ -1,0 +1,180 @@
+// Electronic Evidence and the Certificate under Section 63 of the Bharatiya Sakshya Adhiniyam - CONCEPT VIDEO (legal-concept explainer,
+// Cause of Action build): ~5.3 min, 16:9 + 9:16. Set id elv.
+// Source: NO owner storyboard. Drafted 10-11-2026 from the orchestrator's topic brief; every legal point was checked the same day against
+// the BSA text on Indian Kanoon (Entire Act: indiankanoon.org/doc/70224818; s.63: doc/125020475), the Schedule text on advocatekhoj
+// (library/bareacts/bharatiyaaakshya2023/b.php - Indian Kanoon's Act page omits the Schedule; the A/B split, hash value and expert are
+// confirmed by Pune Bar Association paras 1-2 and 4; check the Gazette / India Code before a panel quotes the form word for word), and
+// the judgments below. Nisha, her bakery in Belagavi, the night burglary, the pen drive, the chats and the call records are HYPOTHETICAL
+// (label "HYPOTHETICAL EXAMPLE"); no accused is named or shown. Scene labels and citation footers are not read aloud; section numbers
+// appear in the captions in digit form.
+// FLOW / NAMES: the two leading cases carry politicians' names - Anvar P.V. v. P.K. Basheer (P.K. Basheer is a Kerala MLA) and Arjun
+// Panditrao Khotkar v. Kailash Kushanrao Gorantyal (Arjun Khotkar is a Maharashtra politician). NEITHER is spoken: c26 "In twenty
+// fourteen, a three judge bench of the Supreme Court", c28 "In twenty twenty, another three judge bench"; the case names go on the
+// panel footers only. Pune Bar Association v. Union of India is not spoken either (c24 "the Supreme Court"). Names spoken aloud:
+// Ravishankar (presenter), Nisha (hypothetical), Belagavi (place), LawWorld, WhatsApp.
+// STATUTE (Bharatiya Sakshya Adhiniyam, 2023 - "BSA"; in force 1 July 2024 - S.O. 849(E) of 23 Feb 2024 per secondary sources; the
+// notification itself was not read):
+//  - s.2(1)(d) (c06): "document" means any matter expressed or described or otherwise recorded upon any substance ... "and includes
+//    electronic and digital records"; Illustration (vi): "An electronic record on emails, server logs, documents on computers, laptop or
+//    smartphone, messages, websites, locational evidence and voice mail messages stored on digital devices are documents" (panel only).
+//    s.2(1)(e)(ii): documentary evidence = "all documents including electronic or digital records produced for the inspection of the
+//    Court" (panel only).
+//  - s.61 (c07): "Nothing in this Adhiniyam shall apply to deny the admissibility of an electronic or digital record in the evidence on
+//    the ground that it is an electronic or digital record and such record shall, subject to section 63, have the same legal effect,
+//    validity and enforceability as other document." s.62 (panel): "The contents of electronic records may be proved in accordance with
+//    the provisions of section 63." (= IEA s.65A).
+//  - s.57 (c08-c10): "Primary evidence means the document itself produced for the inspection of the Court." Explanations 4-7 are NEW
+//    (IEA s.62 had 1-3 only): Expl. 4 a record created or stored "simultaneously or sequentially in multiple files, each such file is
+//    primary evidence"; Expl. 5 "Where an electronic or digital record is produced from proper custody, such electronic and digital
+//    record is primary evidence unless it is disputed"; Expl. 6 a video recording simultaneously stored in electronic form and
+//    transmitted, broadcast or transferred - "each of the stored recordings is primary evidence" (panel only); Expl. 7 stored in multiple
+//    storage spaces in a computer resource - "each such automated storage, including temporary files, is primary evidence". c09 merges
+//    Expl. 4 and 7; c10 is Expl. 5.
+//  - s.63(1) (c11, c12): any information contained in an electronic record "printed on paper, stored, recorded or copied in optical or
+//    magnetic media or semiconductor memory which is produced by a computer or any communication device" ... ("the computer output")
+//    "shall be deemed to be also a document, if the conditions mentioned in this section are satisfied" and "shall be admissible in any
+//    proceedings, without further proof or production of the original". A copy made from the DVR onto a pen drive = information copied
+//    in semiconductor memory = computer output (c11).
+//  - s.63(2)(a)-(d) (c13, c14): (a) output produced while the device was used regularly to create, store or process information for an
+//    activity regularly carried on "by the person having lawful control over the use" of it; (b) information of that kind "regularly fed"
+//    in the ordinary course; (c) the device "operating properly" or, if not, not such as to affect the record or the accuracy of its
+//    contents; (d) the information "reproduces or is derived from" information so fed. s.63(3) (standalone, computer system, network,
+//    computer resource or intermediary = a single device): panel only.
+//  - s.63(4) (c15-c17): "a certificate doing any of the following things shall be submitted along with the electronic record at each
+//    instance where it is being submitted for admission" (these words are new vs s.65B(4)); (a) identifies the record and describes "the
+//    manner in which it was produced"; (b) particulars of the device; (c) deals with the s.63(2) conditions, "purporting to be signed by a
+//    person in charge of the computer or communication device or the management of the relevant activities (whichever is appropriate) and
+//    an expert"; "sufficient for a matter to be stated to the best of the knowledge and belief of the person stating it in the
+//    certificate specified in the Schedule". Old IEA s.65B(4)(c) (as quoted in Anvar): signed by "a person occupying a responsible
+//    official position in relation to the operation of the relevant device or the management of the relevant activities" - NO expert,
+//    hence c16 "That is new".
+//  - THE SCHEDULE "[See section 63(4)(c)] Certificate" (c18-c21): Part A "(To be filled by the Party)": source tick-boxes (Computer /
+//    Storage Media, DVR, Mobile, Flash Drive, CD/DVD, Server, Cloud, Other), make & model, colour, serial number, IMEI/UIN/UID/MAC/Cloud
+//    ID; the source "was under the lawful control for regularly creating, storing or processing information", the device "was working
+//    properly", the information "regularly fed ... during the ordinary course of business"; any malfunction "has not affected the
+//    electronic/digital record or its accuracy"; the source is "Owned / Maintained / Managed / Operated by me (select as applicable)";
+//    "HASH value/s of the electronic/digital record/s is ____, obtained through the following algorithm: SHA1 / SHA256 / MD5 / Other
+//    (Legally acceptable standard) (Hash report to be enclosed with the certificate)"; name, signature, date, time (IST), place.
+//    Part B "(To be filled by the Expert)": the same source / device particulars and the same hash statement and algorithm; name,
+//    designation and signature. c19 says "own, manage or operate" (Maintained left to the panel).
+//  - s.39 (c25 footer): (1) experts in "foreign law, science or art, or any other field"; (2) for information in a computer resource or
+//    other electronic or digital form, the opinion of the Examiner of Electronic Evidence under s.79A of the IT Act is a relevant fact,
+//    and such Examiner "shall be an expert".
+//  - s.170 (c36): (1) the Indian Evidence Act, 1872 is repealed; (2) "if, immediately before the date on which this Adhiniyam comes into
+//    force, there is any application, trial, inquiry, investigation, proceeding or appeal pending", it "shall be dealt with under the
+//    provisions of the Indian Evidence Act, 1872 ... as if this Adhiniyam had not come into force". c36 names three of the six; the
+//    narration does not go into how courts read "pending" in edge cases - the checklist (c37) says "check which law applies".
+// CASES (Supreme Court; Indian Kanoon court copies unless stated):
+//  - c26, c27: Anvar P.V. v. P.K. Basheer, (2014) 10 SCC 473, 18 Sep 2014, three Judges: R.M. Lodha CJI, Kurian Joseph J. (author),
+//    R.F. Nariman J. (IK doc 187283766; the IK copy is UNNUMBERED - the pins are the SCC numbers as quoted in Arjun Panditrao para 24
+//    (paras 14-16) and as cited in Arjun paras 32 and 72(b) (para 24)): para 14 an electronic record is provable only per s.65B; para 15
+//    what the certificate must contain; para 16 "best of his knowledge and belief"; the certificate "must accompany the electronic record";
+//    the safeguards "ensure the source and authenticity", records being "more susceptible to tampering, alteration, transposition,
+//    excision" (c27); para 22 Navjot Sandhu overruled to that extent, "An electronic record by way of secondary evidence shall not be
+//    admitted in evidence unless the requirements under Section 65B are satisfied"; CD, VCD, chip without the certificate "inadmissible"
+//    (c26 "mandatory for secondary electronic evidence"). NOT NAMED IN NARRATION.
+//  - c28-c32: Arjun Panditrao Khotkar v. Kailash Kushanrao Gorantyal, (2020) 7 SCC 1 : AIR 2020 SC 4908, 14 Jul 2020, three Judges:
+//    R.F. Nariman J. (author), S. Ravindra Bhat J., V. Ramasubramanian J. (separate concurring opinion) (IK doc 172105947). Paragraph
+//    numbers are as delivered (they match the judgment's own cross-references to "paragraphs 50 and 54 above" and "paragraph 62");
+//    confirm the SCC pin before a footer prints "SCC ... para":
+//      para 59: the s.65B(4) certificate "is a condition precedent to the admissibility of evidence by way of electronic record";
+//        "Oral evidence in the place of such certificate cannot possibly suffice" (c28);
+//      paras 32 and 72(b): the certificate "is unnecessary if the original document itself is produced. This can be done by the owner of
+//        a laptop computer, a computer tablet or even a mobile phone, by stepping into the witness box and proving that the concerned
+//        device, on which the original information is first stored, is owned and/or operated by him"; where the computer is part of a
+//        system or network that cannot be brought to court, only s.65B(1) with the certificate (network caveat: panel only) (c29);
+//      paras 45 and 50: where the certificate is applied for and refused or not answered, the party may apply to the court for its
+//        production; where a certificate is defective or refused, the trial Judge "must summon the person/persons referred to in
+//        Section 65B(4) ... and require that such certificate be given" (c30);
+//      para 52: "the electronic evidence, i.e. the computer output, has to be furnished at the latest before the trial begins", so the
+//        accused has a fair chance to prepare (c31);
+//      para 54: the court may in appropriate cases allow the prosecution to produce the certificate later, after a balancing exercise,
+//        without "serious or irreversible prejudice to the accused"; para 57: "So long as the hearing in a trial is not yet over, the
+//        requisite certificate can be directed to be produced by the learned Judge at any stage" (subject to paras 50 and 54) (c32);
+//      para 58: the signer can be anyone in a "responsible official position" or the management of the relevant activities; "best of
+//        his knowledge and belief" (and read as or) (panel only);
+//      paras 61-62: licence conditions oblige service providers to keep call records for a limited period (one year under the 2020
+//        licence terms quoted - NOT spoken, may have changed); general directions to preserve seized CDRs (c34 "only for a limited time");
+//      para 72(a): Anvar, as clarified, is the law; Tomaso Bruno per incuriam; Shafhi Mohammad overruled. NOT NAMED IN NARRATION.
+//  - c24, c25: Pune Bar Association v. Union of India, W.P.(C) No. 599 of 2026, order of 22 May 2026, Surya Kant CJI, Joymalya Bagchi and
+//    Vipul M. Pancholi JJ. (Supreme Court PDF via livelaw.in/pdf_upload/2026/05/27/pune-bar-association-v-union-of-india-676590.pdf,
+//    read in full): paras 1-2 the Schedule certificate = Part A (inter alia hash value) + Part B "signed by an expert"; para 4 s.63(4)
+//    "improved upon the certificate envisaged under the old law"; "Hash value of an electronic data is synonymous with an electronic
+//    fingerprint and provides a sure way of identifying and verifying digital data", included "to ensure its authenticity and
+//    integrity"; the provision is not "arbitrary or unreasonable" (c24); paras 6-7: reading s.39(1) and (2) together, besides s.79A
+//    Examiners, a person whom the Court is satisfied "on the basis of unimpeachable material" has "special skill and expertise in computer
+//    science and cyber forensics" may sign Part B; the Madras HC finding (R. v. B, 2024 SCC OnLine Mad 6084: Part B only by a s.79A
+//    Examiner) "shall not be treated as a binding precedent"; but the Court refrained "from giving any conclusive opinion" and kept "the
+//    question of law open" (c25). The Court declined to admit the writ petition (no notice issued): narration says "declined a
+//    challenge", never "upheld after a full hearing". Not named in narration.
+// THINGS THE PANELS MUST RESPECT:
+//  - Anvar and Arjun Panditrao interpret IEA s.65B (the OLD Act); the only BSA ruling used is the Pune Bar order. Never caption the two
+//    as BSA decisions; c26 says "the old Section Sixty Five B certificate".
+//  - c29 (the original-device route) is the 2020 holding under the OLD Act. Under the BSA, s.57 Explanations 4-7 widen primary evidence
+//    and s.63(4) requires the certificate "at each instance" a record is submitted by virtue of s.63; whether and when the certificate
+//    may be dispensed with for an electronic record produced as primary evidence under the BSA was NOT verified as settled - never show
+//    "NO CERTIFICATE NEEDED UNDER BSA"; the checklist advice is to file the certificate.
+//  - c11 says the pen-drive copy "is a computer output, governed by Section 63" (true by s.63(1)'s definition); it does NOT claim that a
+//    copy can never be primary evidence under s.57 Expl. 4 - no "SECONDARY" stamp on the pen drive.
+//  - c20 "could sign Part A": the Schedule says Part A is filled "by the Party" and declares the source is owned / maintained / managed /
+//    operated "by me"; who fills it in a prosecution is not spelled out - show Nisha as the person who runs the DVR, not as "the party".
+//  - Hash (c21-c23): the Schedule lists SHA1, SHA256, MD5 or another legally acceptable standard (panel may show them). A matching hash
+//    shows the data is unchanged since the hash was taken; it does not by itself prove who made the recording or that it is true.
+//  - c25: who may sign Part B is an OPEN question (Pune Bar para 7) - never present it as settled.
+//  - c32: later production is discretionary and subject to no serious prejudice to the accused - never "can always be filed later".
+//  - c34: no retention period as a number. c33 "risks exclusion", never "is always rejected".
+//  - The burglary is hypothetical; no accused, no "THIEF" label; police shown neutrally.
+// Deliberately left out of the narration: s.63(3) (one device across a network or intermediary), s.57 Expl. 6 (video stored and
+// transmitted at once) and s.2(1)(d) Illustration (vi) (panels only); Arjun's network caveat (panel); the knowledge "and"/"or" reading
+// (Arjun para 58); s.39(2) and s.79A IT Act examiners in detail; Tomaso Bruno, Shafhi Mohammad, Navjot Sandhu; civil-case discretion
+// (Arjun para 50); the BNSS s.230 supply of documents (Arjun cites CrPC s.207); any High Court ruling on s.63 BSA.
+// Fast budget (no PACE=v1): 39 clips, 780 words, whole sentences per clip, no digits in the spoken half; outro 6 s (24 syl).
+# 1 · CAN A VIDEO CLIP BE EVIDENCE?
+8 | The C C T V footage shows everything. Yet the court may refuse to admit it, for want of one certificate.
+10 | Hi, I'm Ravishankar from LawWorld. Today: electronic evidence, and the certificate under Section Sixty Three of the Bharatiya Sakshya Adhiniyam.
+6 | It replaced Section Sixty Five B of the old Evidence Act in July twenty twenty four. || It replaced Section 65B of the old Evidence Act in July 2024.
+8 | Take a hypothetical. Nisha's bakery in Belagavi is burgled at night, and her C C T V camera records it.
+6 | Police copy the footage onto a pen drive. They also rely on WhatsApp chats and call records.
+# 2 · ELECTRONIC RECORDS ARE DOCUMENTS
+8 | Are these documents? Yes. Under Section Two, sub section One, clause D, a document includes electronic and digital records.
+8 | Section Sixty One bars refusing a record only because it is electronic. But Section Sixty Three still applies.
+# 3 · PRIMARY OR SECONDARY?
+8 | Primary evidence is the document itself. Section Fifty Seven now adds explanations for electronic records.
+8 | Where a record sits in multiple files or storage spaces, even temporary ones, each is primary evidence.
+6 | And so is a record produced from proper custody, unless it is disputed.
+8 | But Nisha's pen drive holds a copy from the D V R. It is a computer output, governed by Section Sixty Three. || But Nisha's pen drive holds a copy from the DVR. It is a computer output, governed by Section 63.
+# 4 · SECTION 63: THE CONDITIONS
+8 | Sub section One deems a computer output a document, admissible without the original, if the conditions are met.
+10 | Sub section Two lists them. The device was regularly used by the person in lawful control, and such information was regularly fed in.
+8 | It worked properly, or a fault did not affect the record. And the record reproduces, or derives from, what was fed in.
+# 5 · THE CERTIFICATE AND ITS SCHEDULE
+10 | Sub section Four requires a certificate. It identifies the record, explains how it was produced, describes the device, and addresses those conditions.
+8 | It is signed by a person in charge of the device or relevant activities, and also by an expert. That is new.
+8 | It must accompany the record at each submission for admission, and may be stated to the best of knowledge and belief.
+8 | The Schedule gives the form: Part A for the party, and Part B for the expert. Both identify the source device.
+8 | In Part A, the party affirms lawful control, regular use and proper working, and whether they own, manage or operate it.
+6 | For the bakery footage, Nisha, who runs the D V R, could sign Part A, and an expert Part B. || For the bakery footage, Nisha, who runs the DVR, could sign Part A, and an expert Part B.
+# 6 · HASH VALUE: A DIGITAL FINGERPRINT
+8 | Both parts also state the record's hash value, and the algorithm used to calculate it. A hash report is enclosed.
+8 | A hash value is a short code calculated from a file's contents. Change even one character, and the hash value changes.
+8 | So if the copy in court gives the same hash value, the data has not changed since the certificate recorded it.
+10 | In May twenty twenty six, the Supreme Court declined a challenge to this rule. It called a hash value an electronic fingerprint, ensuring integrity. || In May 2026, the Supreme Court declined a challenge to this rule. It called a hash value an electronic fingerprint, ensuring integrity.
+10 | It also observed that, besides notified examiners, a person the court finds skilled in cyber forensics may sign Part B, but kept the question open.
+# 7 · WHAT THE SUPREME COURT HELD
+10 | In twenty fourteen, a three judge bench of the Supreme Court held the old Section Sixty Five B certificate mandatory for secondary electronic evidence. || In 2014, a three-judge bench of the Supreme Court held the old Section 65B certificate mandatory for secondary electronic evidence.
+8 | Electronic records are more open to tampering, so the certificate safeguards their source and authenticity.
+8 | In twenty twenty, another three judge bench called it a condition precedent. Oral evidence cannot replace it. || In 2020, another three-judge bench called it a condition precedent. Oral evidence cannot replace it.
+10 | It held a certificate unnecessary when the original is produced, as when a phone's owner enters the witness box and proves the device is his.
+# 8 · WHEN THE CERTIFICATE IS MISSING
+8 | What if the person who must sign refuses? The party can apply to the court, which can summon that person to produce it.
+8 | In criminal trials, electronic evidence must reach the accused before the trial begins, so a defence can be prepared.
+8 | Until the hearing ends, the judge may still allow a certificate later, if the accused is not seriously prejudiced.
+# 9 · SCREENSHOTS, EMAILS AND CALL RECORDS
+8 | A WhatsApp screenshot or email printout is a computer output too. Without a proper certificate, it risks exclusion.
+10 | Call records come from the service provider's system, so its responsible officer should certify them. Providers keep them only for a limited time.
+8 | Common mistakes? A screenshot with no certificate, a signer with no responsibility for the device, or no expert part.
+# 10 · OLD ACT OR NEW? YOUR CHECKLIST
+10 | Under Section One Seventy, trials, investigations and other proceedings pending when the Adhiniyam began continue under the old Evidence Act.
+8 | Finally, a quick checklist. Check which law applies, preserve the original device, and make the copy with its hash value.
+8 | Get Part A signed by the person in charge, Part B by an expert, and file the certificate with every submission.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more legal concepts made simple.

@@ -1,0 +1,231 @@
+{
+ "projectTitle": "LawWorld_csr",
+ "title": "Charge Sheets and Closure Reports",
+ "source": "split/scripts/csr.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Does a charge sheet mean the accused is guilty? Does a closure report mean the case is over for good? Both ideas are wrong. Here is what really happens.",
+   "chip": "1 · WHAT FOLLOWS THE INVESTIGATION"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. The F I R has been registered, and the police have finished investigating. So what exactly happens next?",
+   "shown": "Hi, I'm Ravishankar from LawWorld. The FIR has been registered, and the police have finished investigating. So what exactly happens next?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 8,
+   "dialogue": "Police may file a charge sheet that recommends prosecution, or a closure report recommending that the case should not proceed."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "Under the Bharatiya Nagarik Suraksha Sanhita, or B N S S, the police report informs the court. It does not replace the court's decision.",
+   "shown": "Under the Bharatiya Nagarik Suraksha Sanhita, or BNSS, the police report informs the court. It does not replace the court's decision."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "Section One Ninety Three, sub section Three, requires the police report to be sent to the Magistrate when the investigation is completed.",
+   "shown": "Section 193(3) requires the police report to be sent to the Magistrate when the investigation is completed.",
+   "chip": "2 · WHAT A CHARGE SHEET CONTAINS"
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 8,
+   "dialogue": "A charge sheet is the report that supports prosecution. It identifies the parties, the allegations and the witnesses."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 8,
+   "dialogue": "It states whether an offence appears to have been committed, and by whom. Documents relied on, and witness statements, go with it."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "This is the police assessment of the material. Filing a charge sheet is different from the court framing charges, and neither amounts to conviction."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Let's take an example. Ravi reports that his laptop has been stolen. Police examine the C C T V footage, and they speak to the witnesses.",
+   "shown": "Let's take an example. Ravi reports that his laptop has been stolen. Police examine the CCTV footage, and they speak to the witnesses.",
+   "chip": "3 · EXAMPLE: A THEFT INVESTIGATION"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "They recover a laptop they believe links Arjun to the theft. If the material supports prosecution, they submit a charge sheet explaining that conclusion."
+  },
+  {
+   "sceneId": "c11",
+   "seconds": 8,
+   "dialogue": "Arjun can challenge the allegation and the evidence. Police have recommended proceeding, but the court still plays its own role."
+  },
+  {
+   "sceneId": "c12",
+   "seconds": 8,
+   "dialogue": "Now suppose the footage is unclear, the laptop is not recovered, and there is not enough material to proceed against anyone.",
+   "chip": "4 · WHEN POLICE RECOMMEND CLOSURE"
+  },
+  {
+   "sceneId": "c13",
+   "seconds": 8,
+   "dialogue": "Police may then file a closure report explaining their findings. In other cases, they may conclude that no offence occurred."
+  },
+  {
+   "sceneId": "c14",
+   "seconds": 8,
+   "dialogue": "Reasons matter. An untraced offender, or insufficient evidence, does not automatically mean Ravi's complaint was false."
+  },
+  {
+   "sceneId": "c15",
+   "seconds": 10,
+   "dialogue": "The report is a recommendation for judicial consideration. It is not an acquittal after trial, nor an automatic end to every further step."
+  },
+  {
+   "sceneId": "c16",
+   "seconds": 10,
+   "dialogue": "The Magistrate is not bound by the police conclusion. It may accept closure and drop proceedings, or disagree and take cognizance on sufficient material.",
+   "chip": "5 · THE COURT AND THE INFORMANT"
+  },
+  {
+   "sceneId": "c17",
+   "seconds": 8,
+   "dialogue": "Or it may direct further investigation. But it cannot compel police to take a particular view on prosecution."
+  },
+  {
+   "sceneId": "c18",
+   "seconds": 8,
+   "dialogue": "Before accepting closure and dropping proceedings, the court must give the informant notice, and an opportunity to be heard."
+  },
+  {
+   "sceneId": "c19",
+   "seconds": 8,
+   "dialogue": "The Supreme Court set out these three options and this notice safeguard in Bhagwant Singh, under the old Code of Criminal Procedure."
+  },
+  {
+   "sceneId": "c20",
+   "seconds": 10,
+   "dialogue": "Ravi may file objections, commonly called a protest petition. For example, he might point to an important witness the police overlooked."
+  },
+  {
+   "sceneId": "c21",
+   "seconds": 10,
+   "dialogue": "The court chooses the lawful course. Objections do not guarantee prosecution, and a protest treated as a complaint follows the complaint procedure."
+  },
+  {
+   "sceneId": "c22",
+   "seconds": 10,
+   "dialogue": "Is every charge sheet due within ninety days? No. Section One Ninety Three, sub section One, requires investigation without unnecessary delay.",
+   "shown": "Is every charge sheet due within 90 days? No. Section 193(1) requires investigation without unnecessary delay.",
+   "chip": "6 · INVESTIGATION TIMELINES ARE DIFFERENT"
+  },
+  {
+   "sceneId": "c23",
+   "seconds": 8,
+   "dialogue": "Sub section Two: two months, only for listed sexual and Pocso offences, counted from recording the information.",
+   "shown": "Sub-section (2): two months, only for listed sexual and POCSO offences, counted from recording the information."
+  },
+  {
+   "sceneId": "c24",
+   "seconds": 8,
+   "dialogue": "Sub section Three separately requires a progress update to the informant or victim within ninety days.",
+   "shown": "Sub-section (3) separately requires a progress update to the informant or victim within 90 days."
+  },
+  {
+   "sceneId": "c25",
+   "seconds": 6,
+   "dialogue": "The action taken must also be communicated to the original informant."
+  },
+  {
+   "sceneId": "c26",
+   "seconds": 8,
+   "dialogue": "That update is no deadline for finishing every investigation. Always identify the offence, and its own timeline."
+  },
+  {
+   "sceneId": "c27",
+   "seconds": 10,
+   "dialogue": "The sixty or ninety day limits in Section One Eighty Seven, sub section Three, depend on the offence. They concern investigation detention and default bail.",
+   "shown": "The 60- or 90-day limits in Section 187(3) depend on the offence. They concern investigation detention and default bail.",
+   "chip": "7 · 60 OR 90 DAYS AND DEFAULT BAIL"
+  },
+  {
+   "sceneId": "c28",
+   "seconds": 10,
+   "dialogue": "If the required report is not filed in time, an accused in custody may claim default bail. But the claim must be timely, and bail furnished."
+  },
+  {
+   "sceneId": "c29",
+   "seconds": 10,
+   "dialogue": "Expiry does not erase the F I R, or bar a later charge sheet. And it releases no one who has not claimed bail and met the legal conditions.",
+   "shown": "Expiry does not erase the FIR, or bar a later charge sheet. And it releases no one who has not claimed bail and met the legal conditions."
+  },
+  {
+   "sceneId": "c30",
+   "seconds": 10,
+   "dialogue": "In cases instituted on a police report, Section Two Thirty requires the Magistrate to give the accused specified papers free, without delay.",
+   "shown": "In cases instituted on a police report, Section 230 requires the Magistrate to give the accused specified papers free, without delay.",
+   "chip": "8 · COPIES FOR THE DEFENCE AND VICTIM"
+  },
+  {
+   "sceneId": "c31",
+   "seconds": 8,
+   "dialogue": "That must happen within fourteen days from the accused's production or appearance. The clock does not run from the date of filing.",
+   "shown": "That must happen within 14 days from the accused's production or appearance. The clock does not run from the date of filing."
+  },
+  {
+   "sceneId": "c32",
+   "seconds": 10,
+   "dialogue": "A victim represented by an advocate also gets them. They include the police report, the F I R, and relevant statements and documents.",
+   "shown": "A victim represented by an advocate also gets them. They include the police report, the FIR, and relevant statements and documents."
+  },
+  {
+   "sceneId": "c33",
+   "seconds": 6,
+   "dialogue": "Exclusions apply, bulky papers may be inspected instead, and electronic supply counts."
+  },
+  {
+   "sceneId": "c34",
+   "seconds": 10,
+   "dialogue": "A police report does not bar further investigation. Under Section One Ninety Three, sub section Nine, new evidence can lead to a supplementary report.",
+   "shown": "A police report does not bar further investigation. Under Section 193(9), new evidence can lead to a supplementary report.",
+   "chip": "9 · NEW EVIDENCE AND A SUPPLEMENTARY REPORT"
+  },
+  {
+   "sceneId": "c35",
+   "seconds": 10,
+   "dialogue": "During trial, further investigation needs the trial court's permission, and must be completed within ninety days, extendable with its permission.",
+   "shown": "During trial, further investigation needs the trial court's permission, and must be completed within 90 days, extendable with its permission."
+  },
+  {
+   "sceneId": "c36",
+   "seconds": 8,
+   "dialogue": "For Ravi, a newly discovered recording could justify examining evidence that was unavailable earlier."
+  },
+  {
+   "sceneId": "c37",
+   "seconds": 6,
+   "dialogue": "A further report adds to the earlier record. It does not automatically replace it."
+  },
+  {
+   "sceneId": "c38",
+   "seconds": 8,
+   "dialogue": "A charge sheet recommends prosecution. A closure report recommends closure. Either way, the court decides the next legal step.",
+   "chip": "10 · REMEMBER THE DIFFERENCE"
+  },
+  {
+   "sceneId": "c39",
+   "seconds": 10,
+   "dialogue": "The informant has a right to be heard before closure is accepted. Check each deadline separately, get the relevant papers, and respond to notices promptly."
+  },
+  {
+   "sceneId": "c40",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more legal concepts made simple."
+  }
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "projectTitle": "LawWorld_exd",
+ "title": "Setting Aside an Ex Parte Decree",
+ "source": "split/scripts/exd.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 8,
+   "dialogue": "A money decree, in a suit you never knew about. Now your bank account is attached. Can that decree be undone?",
+   "chip": "1 · THE DECREE YOU NEVER SAW"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 8,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. Today, Order Nine, Rule Thirteen of the C P C: setting aside an ex parte decree.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. Today, Order IX Rule 13 of the CPC: setting aside an ex parte decree."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 6,
+   "dialogue": "An ex parte decree is passed in the defendant's absence, after the suit is heard without him."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 6,
+   "dialogue": "Order Nine, Rule Six applies when the plaintiff appears but the defendant does not, at the hearing.",
+   "shown": "Order IX Rule 6 applies when the plaintiff appears but the defendant does not, at the hearing.",
+   "chip": "2 · HOW A SUIT GOES EX PARTE"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 8,
+   "dialogue": "If due service is proved, the court may order the suit to be heard ex parte. Otherwise, it must issue a second summons."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 8,
+   "dialogue": "Before the decree, Rule Seven lets him appear at or before the adjourned hearing, show good cause, and be heard on terms.",
+   "shown": "Before the decree, Rule 7 lets him appear at or before the adjourned hearing, show good cause, and be heard on terms."
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 8,
+   "dialogue": "A hypothetical case. Pallavi, a paper supplier, sues Sunil, a printer, for money due on unpaid invoices.",
+   "chip": "3 · A HYPOTHETICAL: SUNIL'S CASE"
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 8,
+   "dialogue": "The summons goes to a shop Sunil left two years ago. The process server reports that he affixed it to the door."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 8,
+   "dialogue": "The court hears the suit ex parte and passes a money decree. Sunil first learns of it when his bank account is attached."
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 8,
+   "dialogue": "After the decree, Rule Thirteen lets the defendant apply to the court that passed it, for an order setting it aside.",
+   "shown": "After the decree, Rule 13 lets the defendant apply to the court that passed it, for an order setting it aside.",
+   "chip": "4 · RULE 13: TWO GROUNDS"
+  },
+  {
+   "sceneId": "c11",
+   "seconds": 10,
+   "dialogue": "The court shall set the decree aside if satisfied that the summons was not duly served, or that he was prevented by sufficient cause from appearing."
+  },
+  {
+   "sceneId": "c12",
+   "seconds": 8,
+   "dialogue": "It may impose terms as to costs, payment into court or otherwise, and then appoints a day for proceeding with the suit."
+  },
+  {
+   "sceneId": "c13",
+   "seconds": 10,
+   "dialogue": "Sunil relies on the first ground: under Order Five, Rule Seventeen, affixing is done where the defendant ordinarily resides or carries on business.",
+   "shown": "Sunil relies on the first ground: under Order V Rule 17, affixing is done where the defendant ordinarily resides or carries on business."
+  },
+  {
+   "sceneId": "c14",
+   "seconds": 8,
+   "dialogue": "First proviso: a decree that cannot be set aside against one defendant only may be set aside against the others too.",
+   "chip": "5 · THE PROVISOS AND THE EXPLANATION"
+  },
+  {
+   "sceneId": "c15",
+   "seconds": 10,
+   "dialogue": "Second proviso: a mere irregularity in service is not enough, if the defendant had notice of the hearing date and sufficient time to appear."
+  },
+  {
+   "sceneId": "c16",
+   "seconds": 6,
+   "dialogue": "So if Sunil actually knew the date in time, irregular service alone will not help him."
+  },
+  {
+   "sceneId": "c17",
+   "seconds": 10,
+   "dialogue": "Under the Explanation, if an appeal against the ex parte decree was disposed of other than by withdrawal, no Rule Thirteen application lies.",
+   "shown": "Under the Explanation, if an appeal against the ex parte decree was disposed of other than by withdrawal, no Rule 13 application lies."
+  },
+  {
+   "sceneId": "c18",
+   "seconds": 8,
+   "dialogue": "Under Article One Twenty Three of the Limitation Act, you have thirty days from the date of the decree to apply.",
+   "shown": "Under Article 123 of the Limitation Act, you have 30 days from the date of the decree to apply.",
+   "chip": "6 · THE 30-DAY CLOCK"
+  },
+  {
+   "sceneId": "c19",
+   "seconds": 8,
+   "dialogue": "But where the summons was not duly served, the thirty days run instead from when the applicant had knowledge of the decree.",
+   "shown": "But where the summons was not duly served, the 30 days run instead from when the applicant had knowledge of the decree."
+  },
+  {
+   "sceneId": "c20",
+   "seconds": 6,
+   "dialogue": "If Sunil shows he was not duly served, his thirty days run from when he learnt of the decree.",
+   "shown": "If Sunil shows he was not duly served, his 30 days run from when he learnt of the decree."
+  },
+  {
+   "sceneId": "c21",
+   "seconds": 8,
+   "dialogue": "Missed it? Section Five of the Limitation Act lets the court admit a late application, on sufficient cause for the delay.",
+   "shown": "Missed it? Section 5 of the Limitation Act lets the court admit a late application, on sufficient cause for the delay."
+  },
+  {
+   "sceneId": "c22",
+   "seconds": 10,
+   "dialogue": "On this second ground, in G P Srivastava versus R K Raizada, the Supreme Court held that sufficient cause must be liberally construed, to do complete justice.",
+   "shown": "On this second ground, in G.P. Srivastava versus R.K. Raizada, the Supreme Court held that sufficient cause must be liberally construed, to do complete justice.",
+   "chip": "7 · WHAT COUNTS AS SUFFICIENT CAUSE"
+  },
+  {
+   "sceneId": "c23",
+   "seconds": 10,
+   "dialogue": "This applies particularly where no negligence or inaction is imputable to him. It is an elastic expression, and courts have wide discretion."
+  },
+  {
+   "sceneId": "c24",
+   "seconds": 8,
+   "dialogue": "The cause must relate to the date the court proceeded ex parte. Earlier lapses, already overlooked, cannot be held against him."
+  },
+  {
+   "sceneId": "c25",
+   "seconds": 10,
+   "dialogue": "If a defendant comes promptly, within time, and his absence was not mala fide or intentional, discretion is normally exercised in his favour."
+  },
+  {
+   "sceneId": "c26",
+   "seconds": 6,
+   "dialogue": "Costs can make up for any hardship caused, and the case is then decided on its merits."
+  },
+  {
+   "sceneId": "c27",
+   "seconds": 6,
+   "dialogue": "Section Ninety Six, sub section Two, also allows an appeal from an ex parte decree.",
+   "shown": "Section 96(2) also allows an appeal from an ex parte decree.",
+   "chip": "8 · APPEAL, APPLICATION, OR BOTH"
+  },
+  {
+   "sceneId": "c28",
+   "seconds": 8,
+   "dialogue": "In Bhanu Kumar Jain versus Archana Kumar, the Supreme Court said a defendant may pursue both remedies simultaneously."
+  },
+  {
+   "sceneId": "c29",
+   "seconds": 10,
+   "dialogue": "But if the appeal is dismissed, the decree merges with the appellate order, and the Rule Thirteen application is no longer maintainable.",
+   "shown": "But if the appeal is dismissed, the decree merges with the appellate order, and the Rule 13 application is no longer maintainable."
+  },
+  {
+   "sceneId": "c30",
+   "seconds": 8,
+   "dialogue": "The converse is not true. If the Rule Thirteen application fails, the appeal survives, but he cannot reargue sufficient cause there.",
+   "shown": "The converse is not true. If the Rule 13 application fails, the appeal survives, but he cannot reargue sufficient cause there."
+  },
+  {
+   "sceneId": "c31",
+   "seconds": 6,
+   "dialogue": "In that appeal, he may argue that the evidence on record did not justify the decree."
+  },
+  {
+   "sceneId": "c32",
+   "seconds": 8,
+   "dialogue": "Under Rule Fourteen, no decree is set aside unless notice of the application is served on the opposite party.",
+   "shown": "Under Rule 14, no decree is set aside unless notice of the application is served on the opposite party.",
+   "chip": "9 · NOTICE, APPEAL AND EXECUTION"
+  },
+  {
+   "sceneId": "c33",
+   "seconds": 8,
+   "dialogue": "If the Rule Thirteen application is rejected, an appeal lies under Order Forty Three, Rule One, clause D.",
+   "shown": "If the Rule 13 application is rejected, an appeal lies under Order XLIII Rule 1(d)."
+  },
+  {
+   "sceneId": "c34",
+   "seconds": 8,
+   "dialogue": "An appeal alone is not a stay. Order Forty One, Rule Five lets the appellate court stay execution for sufficient cause.",
+   "shown": "An appeal alone is not a stay. Order XLI Rule 5 lets the appellate court stay execution for sufficient cause."
+  },
+  {
+   "sceneId": "c35",
+   "seconds": 8,
+   "dialogue": "So, act fast. Apply within thirty days of the decree, or of learning of it if the summons was not duly served.",
+   "shown": "So, act fast. Apply within 30 days of the decree, or of learning of it if the summons was not duly served.",
+   "chip": "10 · YOUR CHECKLIST"
+  },
+  {
+   "sceneId": "c36",
+   "seconds": 8,
+   "dialogue": "Get certified copies of the order sheet and the process server's report, and check the address and manner of service."
+  },
+  {
+   "sceneId": "c37",
+   "seconds": 8,
+   "dialogue": "Support sufficient cause with documents, offer costs, check whether an appeal was filed, and seek a stay of execution if needed."
+  },
+  {
+   "sceneId": "c38",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more legal concepts made simple."
+  }
+ ]
+}

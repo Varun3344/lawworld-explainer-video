@@ -1,0 +1,225 @@
+{
+ "projectTitle": "LawWorld_inj",
+ "title": "Temporary Injunctions under Order 39 CPC",
+ "source": "split/scripts/inj.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 6,
+   "dialogue": "Construction starts tomorrow on land you claim. Your suit may take years. Can a court freeze things today?",
+   "chip": "1 · WHAT A TEMPORARY INJUNCTION DOES"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. That is what a temporary injunction under Order Thirty Nine of the Code of Civil Procedure is for.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. That is what a temporary injunction under Order XXXIX of the Code of Civil Procedure is for."
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 8,
+   "dialogue": "It is an interim order made while a suit is pending, preserving the position until the rights are decided."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 6,
+   "dialogue": "Section Ninety Four, clause C, gives the power. Order Thirty Nine sets out how it is used.",
+   "shown": "Section 94(c) gives the power. Order XXXIX sets out how it is used."
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 6,
+   "dialogue": "A perpetual injunction, by contrast, is granted only by the decree, on the merits."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 8,
+   "dialogue": "A hypothetical case. Anita sues her neighbour Naresh over a strip of land, and he starts digging foundations there.",
+   "chip": "2 · WHEN RULES 1 AND 2 APPLY"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "Rule One covers disputed property in danger of being wasted, damaged or alienated, or wrongfully sold in execution of a decree.",
+   "shown": "Rule 1 covers disputed property in danger of being wasted, damaged or alienated, or wrongfully sold in execution of a decree."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 8,
+   "dialogue": "It covers a defendant who threatens or intends to remove or dispose of his property to defraud his creditors."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 8,
+   "dialogue": "Or threats to dispossess the plaintiff, or cause other injury in relation to the disputed property. That fits Anita."
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 8,
+   "dialogue": "Rule Two covers suits to restrain a breach of contract or other injury, on terms such as giving security.",
+   "shown": "Rule 2 covers suits to restrain a breach of contract or other injury, on terms such as giving security."
+  },
+  {
+   "sceneId": "c11",
+   "seconds": 8,
+   "dialogue": "Fitting a situation is only the start. In Dalpat Kumar versus Prahlad Singh, the Supreme Court explained three tests.",
+   "chip": "3 · THE THREE TESTS"
+  },
+  {
+   "sceneId": "c12",
+   "seconds": 10,
+   "dialogue": "First, a prima facie case: a bona fide, substantial question for trial. It is not prima facie title; title must be proved by evidence at the trial."
+  },
+  {
+   "sceneId": "c13",
+   "seconds": 10,
+   "dialogue": "Second, irreparable injury: a material injury that damages cannot adequately compensate. A prima facie case alone is not enough."
+  },
+  {
+   "sceneId": "c14",
+   "seconds": 8,
+   "dialogue": "Third, the balance of convenience: the court compares the mischief to each side if relief is refused, or if granted."
+  },
+  {
+   "sceneId": "c15",
+   "seconds": 8,
+   "dialogue": "Anita's sale deed raises a serious question, and a short pause may cost Naresh less than a permanent structure would cost her."
+  },
+  {
+   "sceneId": "c16",
+   "seconds": 6,
+   "dialogue": "Even then, the relief is discretionary and equitable, so the applicant's conduct counts.",
+   "chip": "4 · CONDUCT MATTERS"
+  },
+  {
+   "sceneId": "c17",
+   "seconds": 8,
+   "dialogue": "In Gujarat Bottling versus Coca Cola, the Supreme Court said that conduct should be fair and honest, and free from blame."
+  },
+  {
+   "sceneId": "c18",
+   "seconds": 6,
+   "dialogue": "Hiding a material fact, or waiting months while the walls rise, can count against Anita."
+  },
+  {
+   "sceneId": "c19",
+   "seconds": 6,
+   "dialogue": "Now suppose Naresh plans to pour the concrete tomorrow morning. Must the court hear him first?",
+   "chip": "5 · WITHOUT NOTICE: EX PARTE ORDERS"
+  },
+  {
+   "sceneId": "c20",
+   "seconds": 8,
+   "dialogue": "Rule Three makes notice to the other side the norm, unless the delay would defeat the very object of the injunction.",
+   "shown": "Rule 3 makes notice to the other side the norm, unless the delay would defeat the very object of the injunction."
+  },
+  {
+   "sceneId": "c21",
+   "seconds": 8,
+   "dialogue": "Acting without notice, the court must record its reasons. In Morgan Stanley, the Supreme Court called such orders exceptional."
+  },
+  {
+   "sceneId": "c22",
+   "seconds": 8,
+   "dialogue": "Anita must at once deliver, or send by registered post, copies of her application, affidavit, plaint and documents."
+  },
+  {
+   "sceneId": "c23",
+   "seconds": 6,
+   "dialogue": "That day or the next, she must file an affidavit that the copies were delivered or sent."
+  },
+  {
+   "sceneId": "c24",
+   "seconds": 8,
+   "dialogue": "Under Rule Three A, the court must try to finally decide the application within thirty days, or record why it could not.",
+   "shown": "Under Rule 3A, the court must try to finally decide the application within 30 days, or record why it could not."
+  },
+  {
+   "sceneId": "c25",
+   "seconds": 8,
+   "dialogue": "Naresh can respond. Under Rule Four, any dissatisfied party may apply to discharge, vary or set aside the order.",
+   "shown": "Naresh can respond. Under Rule 4, any dissatisfied party may apply to discharge, vary or set aside the order.",
+   "chip": "6 · CHALLENGING THE ORDER"
+  },
+  {
+   "sceneId": "c26",
+   "seconds": 10,
+   "dialogue": "An ex parte order resting on a knowingly false or misleading material statement must be vacated, unless the court records reasons not to."
+  },
+  {
+   "sceneId": "c27",
+   "seconds": 8,
+   "dialogue": "If Naresh keeps building, Rule Two A lets the court attach his property and detain him in civil prison for up to three months.",
+   "shown": "If Naresh keeps building, Rule 2A lets the court attach his property and detain him in civil prison for up to three months.",
+   "chip": "7 · IF THE ORDER IS DISOBEYED"
+  },
+  {
+   "sceneId": "c28",
+   "seconds": 8,
+   "dialogue": "Attachment cannot last beyond one year. If the breach continues, the property may be sold, and the injured party compensated."
+  },
+  {
+   "sceneId": "c29",
+   "seconds": 8,
+   "dialogue": "Orders under Rules One, Two, Two A, Four and Ten are appealable under Order Forty Three, Rule One, clause R.",
+   "shown": "Orders under Rules 1, 2, 2A, 4 and 10 are appealable under Order XLIII Rule 1(r).",
+   "chip": "8 · APPEALS"
+  },
+  {
+   "sceneId": "c30",
+   "seconds": 8,
+   "dialogue": "But in Wander versus Antox, the Supreme Court said an appeal court should not substitute its own discretion for the trial court's."
+  },
+  {
+   "sceneId": "c31",
+   "seconds": 10,
+   "dialogue": "It interferes only if discretion was exercised arbitrarily, capriciously or perversely, or settled principles were ignored."
+  },
+  {
+   "sceneId": "c32",
+   "seconds": 8,
+   "dialogue": "Suppose the wall is already up, and Anita wants it pulled down now. That is a mandatory interim injunction.",
+   "chip": "9 · MANDATORY RELIEF AND LEGAL BARS"
+  },
+  {
+   "sceneId": "c33",
+   "seconds": 8,
+   "dialogue": "In Dorab Cawasji Warden, the Supreme Court required a strong case for trial, of a higher standard than a prima facie case."
+  },
+  {
+   "sceneId": "c34",
+   "seconds": 8,
+   "dialogue": "It also needs irreparable or serious injury, and the balance of convenience in the applicant's favour."
+  },
+  {
+   "sceneId": "c35",
+   "seconds": 8,
+   "dialogue": "Section Forty One of the Specific Relief Act lists cases where no injunction can be granted. Its bars reach interim relief too.",
+   "shown": "Section 41 of the Specific Relief Act lists cases where no injunction can be granted. Its bars reach interim relief too."
+  },
+  {
+   "sceneId": "c36",
+   "seconds": 8,
+   "dialogue": "When drafting, prove each test with documents and an affidavit, since Rule One speaks of proof by affidavit or otherwise.",
+   "shown": "When drafting, prove each test with documents and an affidavit, since Rule 1 speaks of proof by affidavit or otherwise.",
+   "chip": "10 · DRAFTING THE APPLICATION"
+  },
+  {
+   "sceneId": "c37",
+   "seconds": 8,
+   "dialogue": "Seeking it without notice? Show the urgency, disclose every material fact, and finish the Rule Three steps on time.",
+   "shown": "Seeking it without notice? Show the urgency, disclose every material fact, and finish the Rule 3 steps on time."
+  },
+  {
+   "sceneId": "c38",
+   "seconds": 6,
+   "dialogue": "Finally, check any local High Court amendments to Order Thirty Nine before you file.",
+   "shown": "Finally, check any local High Court amendments to Order XXXIX before you file."
+  },
+  {
+   "sceneId": "c39",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more legal concepts made simple."
+  }
+ ]
+}

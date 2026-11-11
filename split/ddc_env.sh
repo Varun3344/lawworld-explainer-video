@@ -1,0 +1,4 @@
+# Sau. Kamalbai Waman Patil v. The State of Maharashtra (SC, Crl.A. 118/2018, 2026 INSC 1196, 05.11.2026, reportable): three inconsistent dying declarations, uncorroborated Ex-56 cannot reverse an acquittal. HOOK-format judgment reel, ENGLISH, 06-11-2026 DRAFT (opening spoken to everyone, no "Advocates,"; render only after the owner's yes).
+export SPLIT_D=downloads/ddc SPLIT_SB=split/ddc SPLIT_ALL=split/ddc_all_scenes.json SPLIT_GO=split/GOddc
+export SPLIT_ACCOUNT=a1; . split/accounts.sh
+export SPLIT_VOCAB="LawWorld, Ravishankar, Supreme Court, Honourable Justice Ujjal Bhuyan, Honourable Justice Atul S Chandurkar, Sessions Court, High Court, mother-in-law, father-in-law, husband, dowry, ill-treated, prosecution, Special Executive Magistrate, police officer, statements, accused, acquitted, acquittal, life imprisonment, voluntary, defence, explanation, inconsistency, benefit of doubt, presumption of innocence, corroboration, neighbour, lawworld dot A I"

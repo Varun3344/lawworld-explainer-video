@@ -1,0 +1,89 @@
+// Cheque Dishonour: Law and Timelines - CONCEPT VIDEO (legal-concept explainer, Cause of Action build): ~5 min, 16:9 + 9:16.
+// Source: the owner's storyboard ~/Downloads/Cheque_Dishonour_Law_and_Timelines_Storyboard.pdf ("Cheque Dishonour Law and
+// Timelines - From bank presentation to filing a complaint under Section 138"; research checked 19 October 2026), 813 spoken
+// words, twelve scenes, presenter right / graphics left, ivory and terracotta. The dated worked example is FICTIONAL (so stated).
+// Points preserved from the PDF's own editing and source notes:
+//  - citations and LawWorld IDs are ON SCREEN ONLY; cases are spoken the way the narration names them (Rangappa versus Sri Mohan,
+//    Ishar Alloy, Suman Sethi, C. C. Alavi Haji, Yogendra Pratap Singh versus Savitri Pandey, Econ Antri, M S R Leathers);
+//    Sripati Singh, Bridgestone, Jai Balaji and Sanjabij Tari stay in the footers, never spoken;
+//  - the four clocks have DIFFERENT starting events; keep the trigger under each number whenever the timeline is on screen:
+//    THREE MONTHS (cheque date) -> 30 DAYS (receipt of bank information) -> 15 DAYS (receipt of notice) -> ONE MONTH (cause of action);
+//  - s.138(a) says six months or validity, whichever is earlier; RBI circular of 4 Nov 2011 (from 1 Apr 2012) limits ordinary
+//    validity to three months; "three months is not automatically 90 days";
+//  - track bank-information receipt and notice dispatch separately; DISPATCH and RECEIPT are different dates; presumed service
+//    is rebuttable; never invent a delivery date;
+//  - 15 days are counted from receipt, EXCLUDING the receipt day; there is NO separate statutory reply deadline - never label
+//    the 15 days a compulsory reply deadline; replying or negotiating does not stop the payment clock;
+//  - cause of action = the day after the 15 payment days (DAY 16); an earlier complaint is PREMATURE and later cognizance does
+//    not cure it;
+//  - filing period = ONE CALENDAR MONTH, not automatically 30 days; exclude the cause-of-action date (Econ Antri); a delayed
+//    complaint needs sufficient cause accepted by the court (s.142(1)(b) proviso); a delayed statutory NOTICE is NOT cured by
+//    that proviso; a court filing extension does not extend the notice period; negotiations do not extend the filing deadline;
+//  - worked example (label FICTIONAL EXAMPLE, not a live deadline calculation): cheque 1 Apr 2026, presented 24 Apr, bank
+//    information 1 May, notice dispatched 2 May, received 6 May, payment days 7-21 May, cause of action + earliest filing 22 May,
+//    ordinary last filing day 22 Jun 2026 (a 31-day month); assumes proven actual receipt, no intervening payment, no court
+//    closure or extension issue; on a court holiday check the computation rule and the court calendar;
+//  - forum: s.142(2)(a) payee's account branch (even if deposited at another branch, Explanation); s.142(2)(b) drawer's bank
+//    branch otherwise; s.142A(2) for subsequent complaints against the same drawer;
+//  - later payment does not automatically erase the case; settlement or compounding (s.147, number on screen only) needs
+//    appropriate legal steps;
+//  - source notes kept for the graphics, NOT narrated: s.141 (never assume liability for every director or partner merely by
+//    designation); court-holiday last day (check the computation rule and the court calendar); the 31-day filing month of
+//    the example; a court filing extension does not extend the notice period;
+//  - kept OFF the narration as the PDF does (it covers commencement and deadlines, not trial/sentence/appeal): the s.138 maximum
+//    (two years, fine up to twice the cheque amount - statutory limits, not automatic outcomes) and s.143A interim compensation
+//    (discretionary, not an automatic filing-stage award);
+//  - keep the distinction between the statutory notice and a court summons clear.
+// Older judgments are read with the later amendments (the present 30-day notice period, the RBI validity direction), as the PDF says.
+// Whole sentences per clip, no digits in the spoken half. Fast budget (no PACE=v1): 40 clips, 352 s; the closing line is 6 s
+// because its fixed 24-syllable text is SPARSE at 8 s under the fast budget.
+# 1 · FOUR CLOCKS AFTER A BOUNCED CHEQUE
+8 | Your cheque has bounced. So when must you send notice, how long does the drawer get to pay, and when can you file a complaint?
+10 | Hi, I'm Ravishankar from LawWorld. A complaint under Section One Thirty Eight of the Negotiable Instruments Act runs on four separate legal clocks.
+# 2 · THE POSITION OF LAW
+10 | First, the essentials. The bounced cheque must relate to a legally enforceable debt or liability, and the statutory conditions must be met.
+10 | In Rangappa versus Sri Mohan, the Supreme Court confirmed a rebuttable presumption for the holder, once the necessary foundation is established.
+6 | That foundation includes the drawer's signature. The drawer can still raise a probable defence.
+8 | A security cheque may also attract liability, when the secured debt has become payable and remains unpaid.
+# 3 · CLOCK ONE: PRESENT IN TIME
+8 | Clock one starts with the cheque's date. The Act itself mentions six months, or the cheque's validity, whichever is earlier.
+10 | R B I directions limit ordinary cheque validity to three months. Do not assume ninety days. A postdated cheque becomes payable on its stated date. || RBI directions limit ordinary cheque validity to three months. Do not assume 90 days. A postdated cheque becomes payable on its stated date.
+10 | Deposit early enough to reach the drawee bank in time. Ishar Alloy explains why a last minute deposit at your collecting bank may be insufficient. || Deposit early enough to reach the drawee bank in time. Ishar Alloy explains why a last-minute deposit at your collecting bank may be insufficient.
+# 4 · CLOCK TWO: THE DEMAND NOTICE
+10 | Clock two begins when the payee receives the bank's information that the cheque was returned unpaid. Within thirty days, give the drawer a written demand notice.
+8 | Record both the memo date, and when the information actually reached you. Clearly identify the cheque, and demand its amount.
+8 | If interest or costs are claimed, state them separately. Suman Sethi explains why the cheque amount must be identifiable.
+10 | Dispatch and receipt dates serve different purposes. The payment clock turns on receipt, including legally presumed service where applicable.
+8 | C C Alavi Haji explains the rebuttable presumption for a correctly addressed notice sent by registered post. || C.C. Alavi Haji explains the rebuttable presumption for a correctly addressed notice sent by registered post.
+10 | Refusal or avoidance does not necessarily defeat service. Keep the signed notice, postal records and address proof, and never invent a delivery date.
+# 5 · CLOCK THREE: THE PAYMENT WINDOW
+8 | Clock three gives the drawer fifteen days after receipt of the notice to pay the cheque amount. Exclude the receipt date when counting.
+10 | Payment within this period prevents the cause of action from arising on that notice. A reply denying liability is not payment, and it does not stop the clock.
+8 | There is no separate statutory reply deadline. A drawer who disputes the demand should still reply promptly, with records.
+10 | If unpaid after those fifteen days, the cause of action arises on the next day. Do not file early, even if the drawer has rejected the demand.
+10 | In Yogendra Pratap Singh versus Savitri Pandey, the Supreme Court held that filing before the payment period expires is not maintainable.
+6 | Later cognizance cannot cure a premature complaint; a fresh one may need delay condoned.
+# 6 · CLOCK FOUR: FILE WITHIN ONE MONTH
+10 | Clock four is one calendar month from the cause of action, not a fixed thirty days. Econ Antri confirms that the cause of action date is excluded.
+8 | A delayed complaint may be entertained if the court accepts sufficient cause under the proviso to Section One Forty Two.
+10 | But a delayed notice is different; this proviso does not excuse it. Negotiations and promises to pay do not, by themselves, extend the filing deadline.
+# 7 · A WORKED EXAMPLE
+10 | Here is a fictional example. The cheque was presented within validity, and the bank's dishonour information reached the payee on first May. || Here is a fictional example. The cheque was presented within validity, and the bank's dishonour information reached the payee on 1 May.
+8 | Notice was dispatched on second May, and actually received on sixth May. So the payment days run from seventh to twenty first May. || Notice was dispatched on 2 May, and actually received on 6 May. So the payment days run from 7 to 21 May.
+8 | If unpaid, the cause of action arises on twenty second May, and the ordinary complaint window runs to twenty second June. || If unpaid, the cause of action arises on 22 May, and the ordinary complaint window runs to 22 June.
+8 | These dates assume proven actual receipt, no intervening payment, and no special court closure or extension issue.
+# 8 · THE COURT AND THE COMPLAINT
+8 | Now file a written complaint. It must be made by the payee or holder in due course, before the competent Magistrate.
+10 | For collection through an account, jurisdiction ordinarily follows the payee's account branch, even if deposited at another branch of that bank.
+10 | Presentation otherwise than through an account follows the drawer's bank branch. Also check the special rule for subsequent complaints against the same drawer.
+10 | Organise the cheque, return memo, debt records, notice, service proof and date calculation, together with the required synopsis and affidavits.
+# 9 · COMMON MISTAKES
+8 | Avoid treating every return memo as automatic guilt, confusing a reply with payment, or filing early.
+10 | A cheque may be presented again within its validity. M S R Leathers permits prosecution on a subsequent dishonour, if all conditions are met. || A cheque may be presented again within its validity. MSR Leathers permits prosecution on a subsequent dishonour, if all conditions are met.
+6 | But a reminder notice alone, without a fresh dishonour, does not restart the clock.
+10 | After the payment window, document any later payment. It does not automatically erase the case; settlement or compounding needs legal steps.
+# 10 · REMEMBER THE SEQUENCE
+10 | Remember the sequence. Present within the cheque's validity, ordinarily three months. Send notice within thirty days of receiving the bank's information.
+10 | Allow fifteen days after notice receipt for payment. Then file within one calendar month of the cause of action. And keep proof for every date.
+8 | Those four clocks, supported by the underlying debt and proper service, form the foundation of a cheque dishonour complaint.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more legal concepts made simple.

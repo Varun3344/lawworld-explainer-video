@@ -1,0 +1,73 @@
+// Bailable and Non-Bailable Offences (BNSS) - CONCEPT VIDEO (legal-concept explainer, Cause of Action build): ~5 min, 16:9 + 9:16.
+// Source: the owner's storyboard ~/Downloads/Bailable_and_Non_Bailable_Offences_BNSS_Storyboard.pdf, 710 spoken words, ten scenes,
+// research-checked by the owner on 19 October 2026 (so stated in the PDF). Amit and Sita are hypothetical persons, as in the PDF.
+// The narration follows the storyboard's own sentences; fast energetic budget (v2 pace). Whole sentences per clip, no digits spoken.
+// Points preserved from the PDF's editing notes (page 4, "Points to preserve during editing"):
+//  - every example assumes ONLY the stated offence and subsection (BNS 115(2) ordinary hurt; BNS 118(1) hurt by dangerous weapon;
+//    BNS 117(2) ordinary grievous hurt); aggravating facts, additional charges, special enactments and amendments can change it;
+//  - the bailable classification of BNS 117(2) is NEVER applied to the different aggravated offences in 117(3) and 117(4);
+//  - s.478 does not require every accused to produce a surety: its proviso requires a personal bond where indigence and inability
+//    to furnish surety are established; inability to give a bail bond within one week of arrest is sufficient ground to PRESUME
+//    indigence - a presumption, NOT a mandatory waiting period before relief; a bond amount is not automatically an upfront cash
+//    payment or a fine (s.484(1): the amount must not be excessive);
+//  - non-bailable is NOT a blanket ban, and does not remove statutory release rights where their conditions apply, incl. 480(2);
+//    ss.480(1) and 483 carry restrictions, exceptions and prosecution-hearing requirements (said generally, no promise of bail);
+//  - anticipatory bail under s.482 excludes accusations under BNS 65 and 70(2) (s.482(4)); special statutes may add restrictions;
+//    filing an application alone gives NO protection from arrest - only the court's direction does;
+//  - default bail (187(3)), undertrial detention (479) and post-conviction release are NOT taught here and are never turned into
+//    deadline promises; release in one matter does not require release where lawful detention continues in another (487(2));
+//  - s.47(2) (police must tell a person arrested without warrant in a bailable case of the bail entitlement) stays an on-screen
+//    footer, never as if Amit's ordinary hurt (non-cognizable) required or allowed arrest; bail is never shown as acquittal or guilt.
+// On screen only (graphics/footers, not narrated, to hold ~5:30): 47(2), the one-week indigence presumption, 480(2), the
+// prosecution-hearing provisos of 480(1)/483(1), 480(3)-(5) and 483(3). Closing line = 6 s (house standard; 24 syl).
+// Sections cross-checked 07-11-2026 against the BNSS text (Indian Kanoon: 2(1)(b)-(e), 47(2), 478, 480, 482, 483, 484, 485).
+# 1 · DOES NON BAILABLE MEAN NO BAIL?
+6 | Does non bailable mean no bail? Does bailable mean the case is over? Both beliefs are wrong!
+10 | Hi, I'm Ravishankar from LawWorld. A family hears that their relative faces a non bailable offence, and fears that bail is now impossible.
+10 | Others assume a bailable offence makes the case disappear. Let us see what bail means under the Bharatiya Nagarik Suraksha Sanhita, or B N S S.
+# 2 · START WITH THE DEFINITIONS
+10 | Section Two, sub section One, clause B defines bail as release from legal custody on conditions set by an officer or court, through a bond or a bail bond. || Section 2(1)(b) defines bail as release from legal custody on conditions set by an officer or court, through a bond or a bail bond.
+8 | Clause C defines a bailable offence as one shown as bailable in the First Schedule, or made bailable by another law. || Clause (c) defines a bailable offence as one shown as bailable in the First Schedule, or made bailable by another law.
+10 | Every other offence is non bailable. Bail concerns liberty while the case proceeds. It is not an acquittal, and it is not a finding of guilt. || Every other offence is non-bailable. Bail concerns liberty while the case proceeds. It is not an acquittal, and it is not a finding of guilt.
+# 3 · A BAILABLE OFFENCE AND THE RIGHT TO RELEASE
+6 | Meet Amit. He is accused of slapping an adult neighbour during a private argument.
+10 | Assume only ordinary voluntarily causing hurt, B N S Section One Fifteen, sub section Two. The B N S S First Schedule lists it as bailable. || Assume only ordinary voluntarily causing hurt, BNS Section 115(2). The BNSS First Schedule lists it as bailable.
+6 | Amit appears before the Magistrate, ready to meet the lawful bail requirements.
+6 | Under Section Four Seventy Eight, his release is a right once those requirements are met. || Under Section 478(1), his release is a right once those requirements are met.
+10 | But the case continues, and Amit must attend as required. The Bharatiya Nyaya Sanhita defines the offence, and the B N S S supplies the procedure. || But the case continues, and Amit must attend as required. The Bharatiya Nyaya Sanhita defines the offence, and the BNSS supplies the procedure.
+# 4 · WHAT IF AMIT CANNOT FIND A SURETY?
+10 | What if Amit cannot find a surety? Under Section Two, clause D, a bail bond involves a surety. Clause E describes a personal bond, without one. || What if Amit cannot find a surety? Under Section 2(1)(d), a bail bond involves a surety. Clause (e) describes a personal bond, without one.
+6 | A surety undertakes responsibility for the accused's appearance.
+10 | Section Four Seventy Eight lets the officer or court accept a personal bond, and requires it for an indigent person who cannot furnish surety. || Section 478(1) lets the officer or court accept a personal bond, and requires it for an indigent person who cannot furnish surety.
+10 | Section Four Eighty Four adds that the bond amount must not be excessive. And bail should never become a punishment merely because someone is poor. || Section 484(1) adds that the bond amount must not be excessive. And bail should never become a punishment merely because someone is poor.
+# 5 · NON BAILABLE CAN STILL ATTRACT BAIL
+10 | Now change the example. A person is accused of causing hurt with a knife, with the facts falling under B N S Section One Eighteen, sub section One. || Now change the example. A person is accused of causing hurt with a knife, with the facts falling under BNS Section 118(1).
+10 | The First Schedule classifies that offence as non bailable. Does that mean bail is prohibited? No! Non bailable is not a blanket ban on bail. || The First Schedule classifies that offence as non-bailable. Does that mean bail is prohibited? No! Non-bailable is not a blanket ban on bail.
+10 | Section Four Eighty governs bail in non bailable cases before the Magistrate, and within its limits, the officer in charge of a police station. || Section 480 governs bail in non-bailable cases before the Magistrate, and within its limits, the officer in charge of a police station.
+6 | Section Four Eighty Three gives special bail powers to the Sessions Court and the High Court. || Section 483 gives special bail powers to the Sessions Court and the High Court.
+# 6 · HOW THE COURT CONSIDERS THE APPLICATION
+6 | How does the court decide? It examines the material, and the seriousness of the offence.
+6 | It weighs risks such as absconding, threatening witnesses, or interfering with evidence.
+10 | Section Four Eighty contains restrictions, including rules for offences punishable with death or life imprisonment, alongside specified exceptions. || Section 480 contains restrictions, including rules for offences punishable with death or life imprisonment, alongside specified exceptions.
+8 | So the label non bailable only begins the analysis. By itself, it does not decide whether this person should receive bail. || So the label non-bailable only begins the analysis. By itself, it does not decide whether this person should receive bail.
+# 7 · ANTICIPATORY BAIL BEFORE ARREST
+8 | Now suppose Sita has reason to believe she may be arrested on an accusation of a non bailable offence. || Now suppose Sita has reason to believe she may be arrested on an accusation of a non-bailable offence.
+10 | Under Section Four Eighty Two, she may apply to the Sessions Court or High Court, which may direct that, if arrested, she be released on bail, on conditions. || Under Section 482, she may apply to the Sessions Court or High Court, which may direct that, if arrested, she be released on bail, on conditions.
+8 | This is anticipatory bail: protection sought before arrest, rather than ordinary bail sought after entering custody.
+10 | It is not automatic immunity. Filing alone does not protect Sita. Only a court direction secures her release on bail if she is arrested.
+10 | Section Four Eighty Two, sub section Four, excludes B N S Section Seventy, sub section Two, and all of Section Sixty Five. Special laws may add more. || Section 482(4) excludes BNS Section 70(2), and all of Section 65. Special laws may add more.
+# 8 · RELEASE COMES WITH RESPONSIBILITIES
+10 | After release, obey the order and the bond. Attend when required, cooperate as directed, and never threaten witnesses or tamper with evidence.
+10 | Section Four Eighty Five deals with appearance undertakings and recorded conditions. Under other provisions, a breach can lead to a return to custody. || Section 485 deals with appearance undertakings and recorded conditions. Under other provisions, a breach can lead to a return to custody.
+10 | Even in a bailable case, a missed date may let the court refuse bail on a later occasion in that same case, under Section Four Seventy Eight, sub section Two. || Even in a bailable case, a missed date may let the court refuse bail on a later occasion in that same case, under Section 478(2).
+# 9 · DO NOT CONFUSE BAIL WITH COGNIZABILITY
+10 | Do not confuse bail with cognizability. Cognizable and non cognizable concern police powers. Bailable and non bailable concern release on bail. || Do not confuse bail with cognizability. Cognizable and non-cognizable concern police powers. Bailable and non-bailable concern release on bail.
+10 | In the First Schedule, ordinary grievous hurt under B N S Section One Seventeen, sub section Two, is listed as cognizable and bailable. || In the First Schedule, ordinary grievous hurt under BNS Section 117(2) is listed as cognizable and bailable.
+6 | That does not cover the different, aggravated offences in sub sections Three and Four. || That does not cover the different, aggravated offences in Section 117(3) and 117(4).
+10 | So cognizable does not automatically mean non bailable. Check the exact subsection and special laws; the seriousness of the name alone is not enough. || So cognizable does not automatically mean non-bailable. Check the exact subsection and special laws; the seriousness of the name alone is not enough.
+# 10 · THE DISTINCTION TO REMEMBER
+6 | Remember: Section Four Seventy Eight provides bail as a right when its requirements are met. || Remember: Section 478 provides bail as a right when its requirements are met.
+8 | For non bailable offences, release remains possible, including under Sections Four Eighty and Four Eighty Three. || For non-bailable offences, release remains possible, including under Sections 480 and 483.
+8 | Section Four Eighty Two concerns anticipatory bail. A bond secures attendance, and bail does not end the case. || Section 482 concerns anticipatory bail. A bond secures attendance, and bail does not end the case.
+6 | Identify the exact offence, the correct bail route, and the conditions of release.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more legal concepts made simple.

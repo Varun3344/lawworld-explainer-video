@@ -1,0 +1,165 @@
+// Maintenance for Wives, Children and Parents under Section 144 BNSS - CONCEPT VIDEO (legal-concept explainer, Cause of Action
+// build): ~5 min, 16:9 + 9:16. Set id mnt.
+// Source: NO owner storyboard. Drafted 10-11-2026 from the orchestrator's topic brief; every legal point was checked the same day
+// against the BNSS text in the Gazette of India (Extraordinary, Part II s.1, No. 54, 25 Dec 2023, Act 46 of 2023, pp. 41-44; same
+// words on Indian Kanoon's full BNSS doc 91117739) and against the judgments' court copies on Indian Kanoon (doc ids below).
+// Deepa (claimant wife), her young son and Raghu (husband, respondent) are HYPOTHETICAL: label "HYPOTHETICAL EXAMPLE" on screen.
+// Scene labels and citation footers are not read aloud; section numbers appear in the captions in digit form. Cases are named by
+// name only in narration (no citations read aloud); every case below was decided on s.125 CrPC and the narration says "under the
+// old Code" at its first mention.
+// STATUTE (Bharatiya Nagarik Suraksha Sanhita, 2023, Chapter X "Order for maintenance of wives, children and parents"):
+//  - s.144(1) (c03, c05-c08): "If any person having sufficient means neglects or refuses to maintain- (a) his wife, unable to
+//    maintain herself; or (b) his legitimate or illegitimate child, whether married or not, unable to maintain itself; or (c) his
+//    legitimate or illegitimate child (not being a married daughter) who has attained majority, where such child is, by reason of any
+//    physical or mental abnormality or injury unable to maintain itself; or (d) his father or mother, unable to maintain himself or
+//    herself, a Magistrate of the first class may, upon proof of such neglect or refusal, order such person to make a monthly
+//    allowance for the maintenance of his wife or such child, father or mother, at such monthly rate as such Magistrate thinks fit".
+//    Successor of s.125 CrPC (Indian Kanoon marks it "Similar to Section 125"). "Magistrate of the first class": panel only.
+//  - s.144(1)(b) DROPS THE WORD "MINOR" (c06, c09). s.125(1)(b) CrPC read "his legitimate or illegitimate minor child, whether married
+//    or not"; the first proviso also dropped "minor" ("the father of a female child referred to in clause (b) ... until she attains
+//    her majority, if ... the husband of such female child, if married, is not possessed of sufficient means" - panel only). Checked
+//    in the Gazette PDF itself. Effect UNSETTLED: LiveLaw commentary ("Maintenance Under BNSS, Omission Of Word 'Minor', A Major
+//    Change"; "Reading Between Lines: Interpretive Analysis Of Section 144 BNSS") reads it as widening; the Kerala High Court (Nov 2025,
+//    as reported by LiveLaw) said the scheme of s.125 CrPC / s.144 BNSS does not contemplate a major daughter's claim; Amarendra Kumar
+//    Paul v. Maya Paul, (2009) 8 SCC 359 (old Code) limited (b) to minors; no Supreme Court ruling on s.144 found. Hence c09 "not yet
+//    settled by the courts" - never show adult children under (b) as entitled.
+//  - "his" covers a daughter (c08): BNSS s.2(2) adopts BNS definitions; BNS s.2(10) "The pronoun 'he' and its derivatives are used of
+//    any person, whether male, female or transgender" (BNS, Indian Kanoon doc 149679501) - same reasoning as Vijaya Manohar Arbat.
+//  - s.144(1) Explanation (c10): "For the purposes of this Chapter, 'wife' includes a woman who has been divorced by, or has obtained a
+//    divorce from, her husband and has not remarried."
+//  - No ceiling (c15): s.125(1) once capped the allowance at "not exceeding five hundred rupees in the whole"; the Code of Criminal
+//    Procedure (Amendment) Act, 2001 (Act 50 of 2001, 24 Sep 2001; text read on Casemine's copy) omitted those words and inserted the
+//    interim-maintenance and sixty-day provisos. s.144 BNSS: "at such monthly rate as such Magistrate thinks fit" (c16).
+//  - s.144(1) second proviso (c18): "during the pendency of the proceeding" the Magistrate may order "a monthly allowance for the
+//    interim maintenance ... and the expenses of such proceeding which the Magistrate considers reasonable"; third proviso (c18): the
+//    application "shall, as far as possible, be disposed of within sixty days from the date of the service of notice of the
+//    application to such person".
+//  - s.144(2) (c19): "payable from the date of the order, or, if so ordered, from the date of the application for maintenance or
+//    interim maintenance and expenses of proceeding, as the case may be".
+//  - s.144(3) (c27-c29): fails "without sufficient cause to comply" -> "for every breach of the order, issue a warrant for levying the
+//    amount due in the manner provided for levying fines" ("as fines": panel only), and may sentence him "for the whole or any part of
+//    each month's allowance ... remaining unpaid after the execution of the warrant, to imprisonment for a term which may extend to one
+//    month or until payment if sooner made"; first proviso: no warrant "unless application be made to the Court to levy such amount
+//    within a period of one year from the date on which it became due". Second proviso (c25): offer to maintain on condition she lives
+//    with him, she refuses -> the Magistrate "may consider any grounds of refusal stated by her, and may make an order ...
+//    notwithstanding such offer, if he is satisfied that there is just ground for so doing". Explanation (c26): "If a husband has
+//    contracted marriage with another woman or keeps a mistress, it shall be considered to be just ground for his wife's refusal to
+//    live with him" (c26 speaks the first limb only; the panel may show both).
+//  - s.144(4) (c23): no wife entitled "if she is living in adultery, or if, without any sufficient reason, she refuses to live with her
+//    husband, or if they are living separately by mutual consent". s.144(5) (c24): on proof of any of these "the Magistrate shall
+//    cancel the order". These bars apply to a WIFE only - not to children or parents.
+//  - s.145(1) (c31, c32): proceedings "may be taken against any person in any district- (a) where he is; or (b) where he or his wife
+//    resides; or (c) where he last resided with his wife, or as the case may be, with the mother of the illegitimate child; or (d)
+//    where his father or mother resides". (d) is NEW (s.126(1) CrPC had only (a)-(c)). The text says "where he or his wife resides",
+//    NOT "where the claimant resides" - the panel must not paraphrase it so. (c) for the mother of an illegitimate child: panel only.
+//  - Family Courts Act, 1984, s.7(2)(a) (c33): a Family Court "shall also have and exercise the jurisdiction exercisable by a
+//    Magistrate of the first class under Chapter IX (relating to order for maintenance of wife, children and parents)" of the CrPC
+//    (quoted in G.M. Nair v. Jagadamma, Kerala HC, 1993); s.8 excludes the Magistrate where a Family Court is established. The Chapter
+//    IX reference now reads as Chapter X BNSS (General Clauses Act s.8). Footer: "Family Courts Act s.7(2)(a)".
+//  - s.146(1) (c34): "On proof of a change in the circumstances" of the person receiving or ordered to pay, "the Magistrate may make
+//    such alteration, as he thinks fit, in the allowance" ("up or down" = alteration either way). s.146(3)(a) (an order for a divorced
+//    woman is cancelled "as from the date of her remarriage"), 146(2) (civil court decision), 146(3)(b)-(c), 146(4): footer only.
+//  - s.147: copy of the order free; enforceable "by any Magistrate in any place where the person against whom it is made may be" -
+//    footer only under c27-c30 (the clip was cut for length).
+// CASES (Supreme Court; court copies read on Indian Kanoon on 10-11-2026):
+//  - Chaturbhuj v. Sita Bai, (2008) 2 SCC 316, 27 Nov 2007, Arijit Pasayat and Aftab Alam JJ. (IK doc 1720873). SCC p. 320, para 6
+//    (= court copy para 5; the SCC pin as quoted in a later Supreme Court judgment): s.125 "is a measure of social justice and is
+//    specially enacted to protect women and children"; "The object is to prevent vagrancy and destitution"; "not to punish a person
+//    for his past neglect" (c04, c37). Court copy paras 7-8 (SCC pin to confirm): the wife "was earning some income. That is not
+//    sufficient to rule out application of Section 125"; "The test is whether the wife is in a position to maintain herself in the way
+//    she was used to in the place of her husband"; "unable to maintain herself" does not mean "absolutely destitute" (c13).
+//  - Dr. Vijaya Manohar Arbat v. Kashirao Rajaram Sawai, (1987) 2 SCC 278, 18 Feb 1987, M.M. Dutt and G.L. Oza JJ. (IK doc 780813):
+//    "his" in s.125(1)(d) includes a female; parents may claim against a daughter, married or not; "Before ordering maintenance in
+//    favour of a father or a mother against their married daughter, the court must be satisfied that the daughter has sufficient means
+//    of her own independently of the means or income of her husband" (headnotes 2.1-2.3, SCR pp. 335-337) (c08). Ordinary party.
+//  - Mohd. Abdul Samad v. State of Telangana, 2024 INSC 506, 10 Jul 2024, B.V. Nagarathna and Augustine George Masih JJ. (IK doc
+//    7964121), joint order of conclusions: (a) s.125 "applies to all married women including Muslim married women"; (b) "to all
+//    non-Muslim divorced women"; (c)(ii) Muslim women married and divorced under Muslim law may use s.125 and/or the 1986 Act (c11).
+//    NOT NAMED in narration (c11 "The Supreme Court has held"); name it on the footer.
+//  - Anju Garg v. Deepak Kumar Garg, 28 Sep 2022, Dinesh Maheshwari and Bela M. Trivedi JJ. (IK doc 116873845; reported as 2022 SCC
+//    OnLine SC 1314 - confirm the cite), para 10: "The husband is required to earn money even by physical labour, if he is an
+//    able-bodied, and could not avoid his obligation, except on the legally permissible grounds mentioned in the statute" (c14).
+//  - Rajnesh v. Neha, (2021) 2 SCC 324, 4 Nov 2020, Indu Malhotra and R. Subhash Reddy JJ., Crl. A. 730 of 2020 (IK doc 117541087;
+//    court copy unnumbered, Parts B-I to VI; SCC pins as noted):
+//     * Part B-III (c16, c17): factors - "status of the parties; reasonable needs of the wife and dependant children; ... whether the
+//       applicant has any independent source of income; whether the income is sufficient to enable her to maintain the same standard
+//       of living as she was accustomed to in her matrimonial home ..."; the award must "neither be so extravagant which becomes
+//       oppressive and unbearable for the respondent, nor should it be so meagre that it drives the wife to penury". B-III(c): a wife's
+//       earning "cannot operate as a bar"; an able-bodied husband is presumed capable of earning. SCC pins for B-III not confirmed
+//       (child support = SCC paras 91-92, per Aditi v. Jitesh Sharma).
+//     * Part B-IV (c20) = SCC para 113 (so cited in Rinki Kumari v. Kundan Kumar, Jharkhand HC): maintenance from "the date on which
+//       the application was made"; "the period during which the maintenance proceedings remained pending is not within the control of
+//       the applicant"; Final Directions VI(d): "maintenance in all cases will be awarded from the date of filing the application".
+//       s.144(2) still says "if so ordered" - c19 gives the statute first, then c20 gives Rajnesh.
+//     * Part B-II(xi) = SCC para 72 (72.1-72.11, as quoted in Aditi alias Mithi v. Jitesh Sharma, 6 Nov 2023, IK doc 182154741)
+//       (c21, c36): 72.1 the Affidavit of Disclosure of Assets and Liabilities (Enclosures I-III) "shall be filed by the parties in all
+//       maintenance proceedings"; 72.2 the applicant files "a concise application accompanied with the Affidavit of Disclosure of
+//       Assets"; 72.3 the respondent's reply with the affidavit "within a maximum period of four weeks", no more than two
+//       opportunities, defence may be struck off if wilful and contumacious (panel only); 72.8 false statements -> "proceeding u/S. 340
+//       Cr.P.C., and for contempt of Court" (now s.379 BNSS; c21 says "perjury proceedings"); 72.9 EWS / BPL / casual labourers exempt
+//       (panel only); 72.10 interim application decided within four to six months after the affidavits (panel only).
+//     * Final Directions VI(a) (c22): "(i) where successive claims for maintenance are made by a party under different statutes, the
+//       Court would consider an adjustment or set-off, of the amount awarded in the previous proceeding/s ...; (ii) it is made
+//       mandatory for the applicant to disclose the previous proceeding and the orders passed therein". SCC para NOT confirmed (sources
+//       give 128.1 or 130) - check before a footer prints it.
+//     * Final Directions VI(e) (footer only): enforcement also as a money decree under CPC ss.51, 55, 58, 60 r/w Order XXI.
+//  - Kuldip Kaur v. Surinder Singh, (1989) 1 SCC 405, 3 Nov 1988, M.P. Thakkar and S. Natarajan JJ. (IK doc 572744; court copy
+//    unnumbered - SCC pin usually para 6, confirm): "Sentencing a person to jail is a 'mode of enforcement'. It is not a 'mode of
+//    satisfaction' of the liability. The liability can be satisfied only by making actual payment of the arrears." (c30)
+// Panel rules: Deepa and Raghu are HYPOTHETICAL; Raghu is "RESPONDENT", never "DEFAULTER" or "DESERTER"; no amount is promised or
+// computed on screen ("the Magistrate decides"); c09 shows "NOT YET SETTLED", never adult children under (b) as entitled; the c23-c24
+// bars are a WIFE's only; keep "maintenance is not a penalty" (Chaturbhuj, Rajnesh B-III) visible in chapter 10; parents' claims
+// are against a son OR a daughter. c35-c36 checklist items are filing practice drawn from Rajnesh para 72, not statutory rules.
+// Left out on purpose: s.145(2) ex parte procedure (set aside within three months), s.145(3) costs, s.146(2)-(4) detail, s.147, the
+// female-child proviso, live-in / validity-of-marriage cases, the Senior Citizens Act 2007, HAMA/HMA/DV Act detail beyond the set-off
+// rule, Poongodi v. Thangavel (one-year proviso), Bhuwan Mohan Singh, quantum percentages (there is no fixed formula).
+// Fast budget (no PACE=v1); whole sentences per clip, no digits spoken; the closing line is 6 s (24 syl).
+# 1 · MAINTENANCE: A RIGHT, NOT CHARITY
+8 | Can a wife who earns a salary still claim maintenance? Can parents claim from a married daughter? Does jail wipe out arrears?
+8 | Hi, I'm Ravishankar from LawWorld. Who can claim maintenance, how much can be ordered, and how is the order enforced?
+10 | The law is Section One Forty Four of the Bharatiya Nagarik Suraksha Sanhita, or B N S S, which replaces Section One Twenty Five of the old Code.
+10 | Under the old Code, Chaturbhuj versus Sita Bai calls it a measure of social justice. Its object is to prevent vagrancy and destitution.
+# 2 · WHO CAN CLAIM
+8 | So who can claim? Four groups of relatives, against a person with sufficient means who neglects or refuses to maintain them.
+8 | First, a wife unable to maintain herself. Second, a child, legitimate or illegitimate, unable to maintain itself.
+10 | Third, an adult child, other than a married daughter, unable to maintain itself because of a physical or mental abnormality or injury.
+10 | Fourth, a parent unable to maintain themselves. Vijaya Manohar Arbat, under the old Code, holds that parents may claim from a daughter with means of her own.
+8 | Unlike the old Code, clause B no longer uses the word minor. Whether that helps adult children is not yet settled by the courts. || Unlike the old Code, clause (b) no longer uses the word “minor”. Whether that helps adult children is not yet settled by the courts.
+# 3 · WHO COUNTS AS A WIFE
+6 | For this Chapter, wife also includes a divorced woman who has not remarried. || For this Chapter, “wife” also includes a divorced woman who has not remarried.
+8 | The remedy is secular. The Supreme Court has held, under the old Code, that it covers women of every faith.
+# 4 · HYPOTHETICAL: DEEPA'S CLAIM
+8 | Here is a hypothetical. Deepa and her young son live with her parents. Her husband Raghu, an engineer, has stopped paying for them.
+8 | Deepa earns a little from tutoring. Under Chaturbhuj, that alone does not end her claim. Can she live as she did in her husband's home?
+8 | In Anju Garg, under the old Code, the Supreme Court said an able bodied husband must earn, even by physical labour. || In Anju Garg, under the old Code, the Supreme Court said an able-bodied husband must earn, even by physical labour.
+# 5 · HOW MUCH, AND INTERIM RELIEF
+8 | How much? There is no statutory ceiling. The old limit of five hundred rupees a month was removed in two thousand one. || How much? There is no statutory ceiling. The old limit of ₹500 a month was removed in 2001.
+8 | The Magistrate fixes a monthly rate, weighing status, reasonable needs, independent income and the standard of living.
+8 | Rajnesh versus Neha, under the old Code, says it must neither oppress the payer, nor be so meagre that it drives the wife to penury.
+8 | Pending the case, interim maintenance and expenses may be ordered, as far as possible within sixty days of notice.
+# 6 · FROM WHEN, AND FULL DISCLOSURE
+8 | Sub section Two: the allowance runs from the date of the order or, if the court so orders, from the date of the application.
+8 | Rajnesh directed that maintenance be awarded from the date of application, since delays are beyond the applicant's control.
+10 | It also made a disclosure affidavit of assets and liabilities mandatory for both sides. False statements in it may invite perjury proceedings.
+8 | Claiming under another law too, like the Domestic Violence Act? Disclose that order. The court will consider adjusting the amounts.
+# 7 · WHEN A WIFE CANNOT CLAIM
+10 | Sub section Four bars a wife who lives in adultery, refuses without sufficient reason to live with her husband, or lives apart by mutual consent.
+6 | Proof of any of these also requires the Magistrate to cancel an existing order.
+8 | Suppose Raghu offers maintenance only if Deepa returns. The Magistrate may weigh her reasons, and still order it on just ground.
+6 | The law itself treats his marrying another woman as a just ground for her refusal.
+# 8 · ENFORCING THE ORDER
+8 | If Raghu fails without sufficient cause to pay, the Magistrate may issue a warrant, for every breach, to levy the amount due.
+8 | For each month's allowance left unpaid after the warrant, he may be imprisoned for up to one month, or until he pays, if sooner.
+8 | But there is a time limit. Deepa must apply to levy the amount within one year of the date on which it became due.
+8 | Jail does not wipe out the debt. Kuldip Kaur, under the old Code, calls imprisonment a mode of enforcement, not satisfaction.
+# 9 · WHERE TO FILE, AND LATER CHANGES
+8 | Section One Forty Five lets Deepa file where Raghu is, where he or his wife resides, or where he last resided with his wife.
+6 | The B N S S adds a new option: the district where his father or mother resides.
+6 | Where a Family Court has been set up for the area, it exercises this jurisdiction.
+// c34 reworded 10-11 20:3x: Flow's policy filter refused the line with "alter the allowance, up or down". Same meaning (s.146(1)).
+8 | Under Section One Forty Six, the Magistrate may alter the order on proof of a change in the circumstances of either party.
+# 10 · YOUR CHECKLIST
+8 | Finally, a checklist. Gather proof of the relationship, the respondent's income and assets, and your own monthly expenses.
+10 | File the disclosure affidavit with your application, and seek interim maintenance early. If payments stop, apply within one year of each missed payment.
+8 | Maintenance prevents destitution; it is not a penalty. The amount always depends on the evidence before the court.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more legal concepts made simple.

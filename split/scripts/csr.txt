@@ -1,0 +1,88 @@
+// Charge Sheets and Closure Reports - CONCEPT VIDEO (legal-concept explainer, Cause of Action build): ~5 min, 16:9 + 9:16.
+// Source: the owner's storyboard ~/Downloads/Charge_Sheets_and_Closure_Reports_BNSS_Storyboard.pdf ("BNSS police reports, court
+// powers and timelines explained"), 699 spoken words, ten scenes, research-checked by the owner on 19 October 2026 (so stated in
+// the PDF). Ravi (informant), Arjun (accused) and the laptop theft are hypothetical, as in the PDF. Scene labels and citation
+// footers are not read aloud; section numbers appear in the captions in digit form.
+// Points preserved from the PDF's editing notes and animation column:
+//  - a police report INFORMS the court, it does not replace the court's decision; a charge sheet is the police assessment, not
+//    proof of guilt; filing a charge sheet is different from the court framing charges (251 / 263 where applicable), and
+//    neither is a conviction ("No automatic conviction" stays visible); Arjun is always "ACCUSED", never "THIEF" or "CONVICT";
+//  - final-report terminology varies; one report may seek prosecution of some persons and no action against others;
+//  - arrest is not a filing prerequisite: s.190(1) proviso (the Magistrate cannot refuse the report because the accused is not
+//    in custody);
+//  - closure: "insufficient evidence / offender untraced" is distinct from "complaint proved false"; lack of proof does not
+//    establish a knowingly false complaint; closure acceptance is NOT a trial acquittal; no automatic CLOSED stamp before the
+//    court considers the report;
+//  - the Magistrate is not bound by the police conclusion: accept closure / take cognizance on sufficient material / direct
+//    further investigation (s.210(1)(b), s.175(3), s.193(9)); the court may disagree on the material but cannot compel police
+//    to adopt a particular prosecution opinion;
+//  - notice to the informant + opportunity to be heard before closure is accepted = Bhagwant Singh v. Commissioner of Police
+//    (para 4); with Vinubhai Haribhai Malaviya (para 28) and Rajesh v. State of Haryana (1 May 2019) these interpret the
+//    PREDECESSOR CrPC provisions - the narration says so; the case is named by name only in narration (rule carried over from the ars/swp storyboards; this PDF's footer uses the SCC cite - ask the owner which form the footer shows);
+//  - a protest petition does not guarantee prosecution; a protest treated as an independent complaint requires the complaint
+//    procedure; NEVER assign a universal BNSS protest deadline;
+//  - s.193(1) no unnecessary delay; s.193(2) two months from recording the information ONLY for BNS 64-68, 70-71 and POCSO 4,
+//    6, 8, 10 - never extended to every offence; s.193(3)(ii) progress update within 90 days and (iii) action taken to the
+//    original informant - NOT a recurring 90-day obligation and NOT a deadline to finish every investigation;
+//  - s.187(3) 60/90 days concern investigation detention and default bail, depending on the offence (check the exact offence,
+//    case law and special law); default bail needs a timely claim before a legally effective report and readiness to furnish
+//    bail (Explanation I); expiry does not erase the FIR, bar a later charge sheet, or release anyone automatically - the bail
+//    consequence is different from termination of the case;
+//  - s.230: free papers without delay, within 14 days from the accused's PRODUCTION OR APPEARANCE (not from the filing date);
+//    victim only if represented by an advocate; statutory exclusions and the voluminous-document procedure; electronic supply
+//    recognised (read with s.193(6)-(8));
+//  - s.193(9): further investigation and a further/supplementary report; trial-court permission and the 90-day limit
+//    (extendable with that court's permission) apply EXPRESSLY to further investigation DURING TRIAL; a further investigation
+//    does not automatically replace the earlier record;
+//  - earlier pending proceedings, special laws, sanction requirements and court directions may alter the process (source notes).
+// Outro is 6 s, not 8 s: at the fast budget its 24 syllables fit 6 s (22-25) and are SPARSE for 8 s (30-34).
+# 1 · WHAT FOLLOWS THE INVESTIGATION
+10 | Does a charge sheet mean the accused is guilty? Does a closure report mean the case is over for good? Both ideas are wrong. Here is what really happens.
+10 | Hi, I'm Ravishankar from LawWorld. The F I R has been registered, and the police have finished investigating. So what exactly happens next?
+8 | Police may file a charge sheet that recommends prosecution, or a closure report recommending that the case should not proceed.
+10 | Under the Bharatiya Nagarik Suraksha Sanhita, or B N S S, the police report informs the court. It does not replace the court's decision.
+# 2 · WHAT A CHARGE SHEET CONTAINS
+10 | Section One Ninety Three, sub section Three, requires the police report to be sent to the Magistrate when the investigation is completed.
+8 | A charge sheet is the report that supports prosecution. It identifies the parties, the allegations and the witnesses.
+8 | It states whether an offence appears to have been committed, and by whom. Documents relied on, and witness statements, go with it.
+10 | This is the police assessment of the material. Filing a charge sheet is different from the court framing charges, and neither amounts to conviction.
+# 3 · EXAMPLE: A THEFT INVESTIGATION
+10 | Let's take an example. Ravi reports that his laptop has been stolen. Police examine the C C T V footage, and they speak to the witnesses.
+10 | They recover a laptop they believe links Arjun to the theft. If the material supports prosecution, they submit a charge sheet explaining that conclusion.
+8 | Arjun can challenge the allegation and the evidence. Police have recommended proceeding, but the court still plays its own role.
+# 4 · WHEN POLICE RECOMMEND CLOSURE
+8 | Now suppose the footage is unclear, the laptop is not recovered, and there is not enough material to proceed against anyone.
+8 | Police may then file a closure report explaining their findings. In other cases, they may conclude that no offence occurred.
+8 | Reasons matter. An untraced offender, or insufficient evidence, does not automatically mean Ravi's complaint was false.
+10 | The report is a recommendation for judicial consideration. It is not an acquittal after trial, nor an automatic end to every further step.
+# 5 · THE COURT AND THE INFORMANT
+10 | The Magistrate is not bound by the police conclusion. It may accept closure and drop proceedings, or disagree and take cognizance on sufficient material.
+8 | Or it may direct further investigation. But it cannot compel police to take a particular view on prosecution.
+8 | Before accepting closure and dropping proceedings, the court must give the informant notice, and an opportunity to be heard.
+8 | The Supreme Court set out these three options and this notice safeguard in Bhagwant Singh, under the old Code of Criminal Procedure.
+10 | Ravi may file objections, commonly called a protest petition. For example, he might point to an important witness the police overlooked.
+10 | The court chooses the lawful course. Objections do not guarantee prosecution, and a protest treated as a complaint follows the complaint procedure.
+# 6 · INVESTIGATION TIMELINES ARE DIFFERENT
+10 | Is every charge sheet due within ninety days? No. Section One Ninety Three, sub section One, requires investigation without unnecessary delay.
+8 | Sub section Two: two months, only for listed sexual and Pocso offences, counted from recording the information. || Sub-section (2): two months, only for listed sexual and POCSO offences, counted from recording the information.
+8 | Sub section Three separately requires a progress update to the informant or victim within ninety days.
+6 | The action taken must also be communicated to the original informant.
+8 | That update is no deadline for finishing every investigation. Always identify the offence, and its own timeline.
+# 7 · 60 OR 90 DAYS AND DEFAULT BAIL
+10 | The sixty or ninety day limits in Section One Eighty Seven, sub section Three, depend on the offence. They concern investigation detention and default bail. || The 60- or 90-day limits in Section 187(3) depend on the offence. They concern investigation detention and default bail.
+10 | If the required report is not filed in time, an accused in custody may claim default bail. But the claim must be timely, and bail furnished.
+10 | Expiry does not erase the F I R, or bar a later charge sheet. And it releases no one who has not claimed bail and met the legal conditions.
+# 8 · COPIES FOR THE DEFENCE AND VICTIM
+10 | In cases instituted on a police report, Section Two Thirty requires the Magistrate to give the accused specified papers free, without delay.
+8 | That must happen within fourteen days from the accused's production or appearance. The clock does not run from the date of filing.
+10 | A victim represented by an advocate also gets them. They include the police report, the F I R, and relevant statements and documents.
+6 | Exclusions apply, bulky papers may be inspected instead, and electronic supply counts.
+# 9 · NEW EVIDENCE AND A SUPPLEMENTARY REPORT
+10 | A police report does not bar further investigation. Under Section One Ninety Three, sub section Nine, new evidence can lead to a supplementary report.
+10 | During trial, further investigation needs the trial court's permission, and must be completed within ninety days, extendable with its permission.
+8 | For Ravi, a newly discovered recording could justify examining evidence that was unavailable earlier.
+6 | A further report adds to the earlier record. It does not automatically replace it.
+# 10 · REMEMBER THE DIFFERENCE
+8 | A charge sheet recommends prosecution. A closure report recommends closure. Either way, the court decides the next legal step.
+10 | The informant has a right to be heard before closure is accepted. Check each deadline separately, get the relevant papers, and respond to notices promptly.
+6 | Thanks for watching! Please like, share and subscribe, and follow LawWorld for more legal concepts made simple.

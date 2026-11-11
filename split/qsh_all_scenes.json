@@ -1,0 +1,227 @@
+{
+ "projectTitle": "LawWorld_qsh",
+ "title": "Quashing under Section 528 BNSS",
+ "source": "split/scripts/qsh.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 8,
+   "dialogue": "Can a High Court end a criminal case before trial? Yes, but only rarely, and never just because the accused calls it false.",
+   "chip": "1 · CAN AN FIR BE QUASHED?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 8,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. When will the High Court quash an F I R or a criminal case, and when will it refuse?",
+   "shown": "Hi, I'm Ravishankar from LawWorld. When will the High Court quash an FIR or a criminal case, and when will it refuse?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "The power sits in Section Five Twenty Eight of the Bharatiya Nagarik Suraksha Sanhita, or B N S S. It succeeds Section Four Eighty Two of the old Code.",
+   "shown": "The power sits in Section 528 of the Bharatiya Nagarik Suraksha Sanhita, or BNSS. It succeeds Section 482 of the old Code."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "Nothing in the Sanhita limits the High Court's inherent powers to give effect to orders under it, prevent abuse of process, or secure the ends of justice.",
+   "chip": "2 · WHAT SECTION 528 SAYS"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 6,
+   "dialogue": "It creates no new power. It preserves a power that belongs to the High Court alone."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 8,
+   "dialogue": "What can be quashed? An F I R and its investigation, a charge sheet, a summoning order, or the proceedings themselves.",
+   "shown": "What can be quashed? An FIR and its investigation, a charge sheet, a summoning order, or the proceedings themselves.",
+   "chip": "3 · WHAT CAN BE QUASHED"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 8,
+   "dialogue": "A charge sheet does not close the door. Anand Kumar Mohatta, under the old Code, says abuse of process may then be aggravated."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 6,
+   "dialogue": "Pepsi Foods, also under the old Code, calls summoning an accused a serious matter."
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "The leading case is State of Haryana versus Bhajan Lal, under the old Code and Article Two Twenty Six. It gives seven illustrative categories.",
+   "shown": "The leading case is State of Haryana versus Bhajan Lal, under the old Code and Article 226. It gives seven illustrative categories.",
+   "chip": "4 · THE BHAJAN LAL CATEGORIES"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 6,
+   "dialogue": "One: the allegations, even taken at face value and accepted in full, make out no offence."
+  },
+  {
+   "sceneId": "c11",
+   "seconds": 10,
+   "dialogue": "Two: no cognizable offence is disclosed to justify police investigation. Three: the uncontroverted allegations and evidence disclose no offence."
+  },
+  {
+   "sceneId": "c12",
+   "seconds": 8,
+   "dialogue": "Four: only a non cognizable offence is disclosed, which police cannot investigate without a Magistrate's order.",
+   "shown": "Four: only a non-cognizable offence is disclosed, which police cannot investigate without a Magistrate's order."
+  },
+  {
+   "sceneId": "c13",
+   "seconds": 8,
+   "dialogue": "Five: the allegations are so absurd and inherently improbable that no prudent person could find sufficient ground to proceed."
+  },
+  {
+   "sceneId": "c14",
+   "seconds": 6,
+   "dialogue": "Six: an express legal bar to the case, or a specific provision giving effective redress."
+  },
+  {
+   "sceneId": "c15",
+   "seconds": 8,
+   "dialogue": "Seven: the case is manifestly mala fide, or maliciously filed to wreak vengeance out of a private, personal grudge."
+  },
+  {
+   "sceneId": "c16",
+   "seconds": 8,
+   "dialogue": "The Court stressed that this list is not exhaustive, and that the power must be used very sparingly, with circumspection."
+  },
+  {
+   "sceneId": "c17",
+   "seconds": 8,
+   "dialogue": "The High Court does not hold a mini trial, or test whether the allegations are true. Disputed defences are left for trial.",
+   "shown": "The High Court does not hold a mini-trial, or test whether the allegations are true. Disputed defences are left for trial.",
+   "chip": "5 · WHAT THE HIGH COURT WILL NOT DO"
+  },
+  {
+   "sceneId": "c18",
+   "seconds": 8,
+   "dialogue": "Neeharika Infrastructure, under the old Code, says courts should not thwart investigation. Quashing is the exception, not the rule."
+  },
+  {
+   "sceneId": "c19",
+   "seconds": 8,
+   "dialogue": "Interim protection must not be routine. An interim stay needs brief reasons, and a no coercive steps order must say what it means.",
+   "shown": "Interim protection must not be routine. An interim stay needs brief reasons, and a “no coercive steps” order must say what it means."
+  },
+  {
+   "sceneId": "c20",
+   "seconds": 8,
+   "dialogue": "Here is a hypothetical. Harish pays Kavya an advance for furniture. Delivery runs late, and he withholds the balance.",
+   "chip": "6 · A BUSINESS DISPUTE WITH A CRIMINAL COLOUR"
+  },
+  {
+   "sceneId": "c21",
+   "seconds": 8,
+   "dialogue": "Instead of suing, Harish files an F I R alleging cheating and forgery. Kavya asks the High Court to quash it.",
+   "shown": "Instead of suing, Harish files an FIR alleging cheating and forgery. Kavya asks the High Court to quash it."
+  },
+  {
+   "sceneId": "c22",
+   "seconds": 8,
+   "dialogue": "Paramjeet Batra, under the old Code, tells the High Court to see whether a civil dispute is given a cloak of criminal offence."
+  },
+  {
+   "sceneId": "c23",
+   "seconds": 8,
+   "dialogue": "The Supreme Court has also held that a mere breach of contract is not cheating, without dishonest intention at the start."
+  },
+  {
+   "sceneId": "c24",
+   "seconds": 8,
+   "dialogue": "But a civil dispute can involve a real offence. If the F I R gives specific facts of forgery, the case may proceed.",
+   "shown": "But a civil dispute can involve a real offence. If the FIR gives specific facts of forgery, the case may proceed."
+  },
+  {
+   "sceneId": "c25",
+   "seconds": 8,
+   "dialogue": "Now suppose they settle. Kavya refunds part of the advance, and Harish files an affidavit supporting quashing.",
+   "chip": "7 · SETTLEMENT IN NON-COMPOUNDABLE CASES"
+  },
+  {
+   "sceneId": "c26",
+   "seconds": 8,
+   "dialogue": "Section Three Fifty Nine lists the offences that can be compounded, some only with the court's permission. Forgery is not among them.",
+   "shown": "Section 359 lists the offences that can be compounded, some only with the court's permission. Forgery is not among them."
+  },
+  {
+   "sceneId": "c27",
+   "seconds": 8,
+   "dialogue": "Gian Singh, under the old Code, holds that the High Court may still quash on settlement, using a power distinct from compounding."
+  },
+  {
+   "sceneId": "c28",
+   "seconds": 10,
+   "dialogue": "Cases with an overwhelmingly civil flavour, like commercial, matrimonial or family disputes, may be quashed once the parties resolve their entire dispute."
+  },
+  {
+   "sceneId": "c29",
+   "seconds": 10,
+   "dialogue": "Heinous offences like murder, rape and dacoity affect society, so settlement alone cannot end them, nor Prevention of Corruption Act cases."
+  },
+  {
+   "sceneId": "c30",
+   "seconds": 10,
+   "dialogue": "Narinder Singh and Parbatbhai Aahir, also under the old Code, add that timing matters, and economic offences affecting the State may not be quashed."
+  },
+  {
+   "sceneId": "c31",
+   "seconds": 8,
+   "dialogue": "Another route is revision under Sections Four Thirty Eight to Four Forty Two, but not against interlocutory orders.",
+   "shown": "Another route is revision under Sections 438 to 442, but not against interlocutory orders.",
+   "chip": "8 · OTHER ROUTES TO THE HIGH COURT"
+  },
+  {
+   "sceneId": "c32",
+   "seconds": 8,
+   "dialogue": "The Supreme Court has also held, under the old Code, that the revision remedy does not, by itself, bar the inherent power."
+  },
+  {
+   "sceneId": "c33",
+   "seconds": 8,
+   "dialogue": "Quashing petitions are also filed under Article Two Twenty Six. Bhajan Lal's categories cover both powers.",
+   "shown": "Quashing petitions are also filed under Article 226. Bhajan Lal's categories cover both powers."
+  },
+  {
+   "sceneId": "c34",
+   "seconds": 8,
+   "dialogue": "In practice, attach the F I R or charge sheet under challenge, and show which category applies from the prosecution's own papers.",
+   "shown": "In practice, attach the FIR or charge sheet under challenge, and show which category applies from the prosecution's own papers.",
+   "chip": "9 · PREPARING THE PETITION"
+  },
+  {
+   "sceneId": "c35",
+   "seconds": 10,
+   "dialogue": "In a settlement case, file the complainant's affidavit. The State and the complainant are heard, and the court must find the settlement real and complete."
+  },
+  {
+   "sceneId": "c36",
+   "seconds": 8,
+   "dialogue": "If the petition fails, the case simply continues. That is not a finding of guilt; the trial court still weighs the evidence."
+  },
+  {
+   "sceneId": "c37",
+   "seconds": 8,
+   "dialogue": "Remember: Section Five Twenty Eight exists to prevent abuse of process. It is used sparingly, and the facts decide.",
+   "shown": "Remember: Section 528 exists to prevent abuse of process. It is used sparingly, and the facts decide.",
+   "chip": "10 · REMEMBER THE TEST"
+  },
+  {
+   "sceneId": "c38",
+   "seconds": 6,
+   "dialogue": "For Kavya, everything turns on what the F I R alleges, and what was truly settled.",
+   "shown": "For Kavya, everything turns on what the FIR alleges, and what was truly settled."
+  },
+  {
+   "sceneId": "c39",
+   "seconds": 6,
+   "dialogue": "Thanks for watching! Please like, share and subscribe, and follow LawWorld for more legal concepts made simple."
+  }
+ ]
+}
