@@ -1,0 +1,62 @@
+// Union of India & Ors. v. Rohith Nathan and Anr., etc., 2026 INSC 1201, Miscellaneous Application Nos. 3313-3315 of 2026 [@ Diary
+// No. 51879 of 2026] with M.A. Nos. 3316-3318 of 2026 [@ Diary No. 51897 of 2026] in Civil Appeal Nos. 2827-2829 of 2018; Supreme Court
+// of India, Civil Appellate Jurisdiction; an ORDER of the Court (no author line), signed by Pamidighantam Sri Narasimha J. and
+// R. Mahadevan J.; New Delhi, November 06, 2026. REPORTABLE (page 1). HOOK format (split/JUDGMENT_HOOK_FORMAT.md), Supreme Court page,
+// ENGLISH; opening spoken to everyone, no "Advocates,". DRAFT 11-11-2026: awaiting the owner's yes; nothing rendered.
+// Source: the Court's PDF (16 pages, created 06-11-2026), scratchpad sc11nov/pdf/rohithnathan.pdf + txt/rohithnathan.txt, paras 1-20
+// read in full; facts with verbatim quotes in scratchpad sc11nov/ocl/FACTS.md. POLITICALLY SENSITIVE (OBC reservation): facts only,
+// no opinion, every claim from the order.
+// Facts used (para): delay condoned (1). MA Diary 51879: finalise service allocation for candidates recommended by UPSC in CSE-2025 "on
+// the basis of the principles for determination of OBC creamy-layer status applied by the applicants prior to 11.03.2026"; MA Diary
+// 51897: the 11.03.2026 judgment not to apply retrospectively "so as to reopen completed selections, appointments, service allocations,
+// cadre allocations, seniority positions or admissions"; "a reasonable period of two years to undertake the exercise of establishing
+// equivalence of posts" and frame a uniform policy; ongoing exams on the old conditions; no unsettling of completed admissions (2).
+// Background: the respondent candidates cleared the Civil Services Examinations; "the equivalence of posts in Public Sector Undertakings,
+// Banks, and other organisations vis-à-vis Government posts had not been formally determined", so the DoPT applied the Income/Wealth
+// Test (Category VI, 1993 OM read with the 2004 Letter) to the income of their parents employed in PSUs, classified them as creamy
+// layer, not considered for service allocation under the reserved category (3.1); CAT orders in their favour; the Union's writ petitions
+// dismissed by the High Courts of Madras, Delhi and Kerala (3.2); on 11.03.2026 the SC dismissed the civil appeals and directed the
+// claims of the respondents and intervenors to be considered on its principles and implemented within six months (3.4, 12 = paras
+// 42-44). The March judgment as this order describes it: "the interpretation of the 1993 OM and the 2004 Letter, the rejection of
+// mechanical exclusion based on salary income and the relief granted to the successful litigants are not open to reconsideration" (11);
+// "the respondent candidates fall within the non-creamy layer of the OBC category" (18(i)). SG: the CSE-2025 final result was declared
+// on 06.03.2026, "five days prior to the judgment" (4); "potential impact on more than 6.69 lakh reserved vacancies, including 3.70 lakh
+// OBC vacancies, filled over the preceding ten years" (4); prospective operation + two years (4.1). Respondents: "an attempt to
+// circumvent review jurisdiction and seek a rehearing"; the Union's failure to do the equivalence exercise despite assurances (5);
+// implement the UPSC list of 06.03.2026 in full (7). Held: scope limited to the operative directions and the temporal application (11);
+// binding precedent under Article 141, but no direction to reopen concluded selections (13); the six months were for the parties, "no
+// further time need be granted" (15); MAs cannot be "a ruse" for reconsideration (16); a time limit for equivalence "does not arise"
+// (17). Para 18: (ii) the benefit shall not by itself hurt anyone's seniority or reopen concluded selections; (v) the ratio "shall not, by
+// itself, furnish a ground for reopening selections or appointments already concluded prior to the judgment dated 11.03.2026"; pending
+// claims of the similarly placed on their own merits; (vi) selections and allotments after 11.03.2026 governed by the 1993 OM as
+// interpreted; (vii) the Government at liberty to formulate policy; (viii) "not inclined to prescribe any timeline for establishing
+// equivalence between posts ... as these matters fall within the domain of the executive and the legislature"; (ix) CSE-2025 result
+// declared 06.03.2026 but allocation of services not finalised, "no convincing or reasonable justification for deferring", so "the
+// creamy layer principle, as interpreted in the said judgment, shall govern the allocation of services to OBC candidates selected
+// through the Civil Services Examination, 2025". Para 19: MAs disposed of; compliance time "extended by a period of two months from today".
+// Not said: no private person's name anywhere but the cite card's cause title (no respondent, intervenor, counsel, SG); NOTHING says the
+// CSE-2025 result is cancelled, changed or revised (the order is about the allocation of services); the MAs were "disposed of", not
+// "dismissed"/"allowed"; the March judgment not "struck down"/"modified"; salary income is not said to be irrelevant, only "mechanical
+// exclusion based on salary income" was rejected; the 6.69 lakh figure is the government's "potential impact" submission, not a finding;
+// no view on reservation policy; the "children of serving Government Officers" argument (5), the IFoS candidate example (6), the
+// 166-day delay (7) and the non-party claims (18(v): "no opinion on the merits") are left out. Flow policy: no "fraud" / "collusion" /
+// "admitted".
+// FACT-CHECK 11-11-2026 (independent): c02 now ties the 6.69 lakh figure to reopening (para 4: the SG's "potential impact" of
+// retrospective application on "more than 6.69 lakh reserved vacancies ... filled over the preceding ten years"), spoken "over six and a
+// half lakh"; c03 back to the standard "Hi, I'm Ravishankar ... On the sixth of November" shape with "P S Narasimha" (the name on the
+// bench card and thumbnail; the full "Pamidighantam Sri Narasimha" ran 45 syllables).
+# 1 · WHICH RULE APPLIES?
+10 | The U P S C result came out on the sixth of March. Five days later, the Supreme Court ruled on the O B C creamy layer. Which rule governs service allocation? || The UPSC result came out on 6 March. Five days later, the Supreme Court ruled on the OBC creamy layer. Which rule governs service allocation?
+10 | The government wanted the earlier criteria for this batch, and warned that reopening could affect over six and a half lakh reserved posts. Where does the Court draw the line? || The government wanted the earlier criteria for this batch, and warned that reopening could affect over 6.5 lakh reserved posts. Where does the Court draw the line?
+10 | Hi, I'm Ravishankar from LawWorld. On the sixth of November, Honourable Justice P S Narasimha and Honourable Justice R Mahadevan ruled. || Hi, I'm Ravishankar from LawWorld. On 6 November, Honourable Justice P.S. Narasimha and Honourable Justice R. Mahadevan ruled.
+# 2 · PARENTS IN PSUs
+10 | The case began with Civil Services candidates whose parents worked in public sector undertakings. Those posts had no formal equivalence with government posts.
+10 | So the Department of Personnel used an income test for them instead. The Tribunal disagreed with that, and three High Courts upheld the Tribunal's view.
+# 3 · AFTER THE MARCH RULING
+10 | On the eleventh of March, the Supreme Court dismissed the government's appeals, rejecting mechanical exclusion on salary income, with six months to comply. || On 11 March, the Supreme Court dismissed the government's appeals, rejecting mechanical exclusion on salary income, with six months to comply.
+10 | The government then asked that completed selections stay intact, and sought two years to fix equivalence of posts. Candidates called it a bid for a rehearing.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the Supreme Court decide? Service allocation for the twenty twenty five batch is still pending, so the March ruling on the creamy layer will govern it. || Finally, what did the Supreme Court decide? Service allocation for the 2025 batch is still pending, so the March ruling on the creamy layer will govern it.
+10 | Selections concluded before the March ruling are not reopened by it alone. The Court set no timeline for equivalence of posts, and gave two more months to comply.

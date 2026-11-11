@@ -1,0 +1,51 @@
+// The Chairman, National Book Trust, India & Anr. v. A.R. Abdul Gaffar & Ors., 2026 INSC 1202, Civil Appeal No. 14369 of 2015
+// (sci.gov.in listing: Diary No. 29802 / 2012), Supreme Court of India, Civil Appellate Jurisdiction; Prashant Kumar Mishra J. (wrote
+// it) and Augustine George Masih J.; pronounced 06.11.2026 (New Delhi, November 06, 2026). REPORTABLE (page 1). Appeal from the Delhi
+// High Court Full Bench judgment of 01.06.2012 (answering a reference). HOOK format (split/JUDGMENT_HOOK_FORMAT.md), Supreme Court page,
+// ENGLISH; opening spoken to everyone, no "Advocates,". DRAFT 11-11-2026: awaiting the owner's yes; nothing rendered.
+// Source: the Court's own signed PDF (14 pages, sci.gov.in "Latest Judgments", uploaded 06-11-2026 16:35:47), scratchpad
+// sc11nov/pdf/nbt.pdf + sc11nov/txt/nbt.txt, paras 1-28 read in full. Facts with quotes: scratchpad sc11nov/nbt/FACTS.md.
+// Facts used (para): the only question: is the National Book Trust a 'State' under Article 12 (1). Delhi HC Full Bench, answering a
+// reference, applied Ramana Dayaram Shetty, Ajay Hasia and principally Pradeep Kumar Biswas, cumulatively (2); noted the resolutions,
+// the Chairman appointed by the Government at its pleasure, Government nominees, objects (3); judgment of 01.06.2012: "deep and
+// pervasive control", "an instrumentality or alter ego of the Government", within 'other authorities' (4). Amicus Curiae Shri Sanjay
+// Jain, Sr. Adv., assisted by Ms. Harshita Sukhija (5); his approach (17); thanked (28). Article 12 cast wide so obligations cannot be
+// avoided by a separate legal form (6). Ajay Hasia (5 judges): a registered society "could, depending upon the facts" be an
+// instrumentality; form not determinative; six indicia "not conclusive or clinching" (7). Pradeep Kumar Biswas (7 judges): not a
+// rigid checklist; "financially, functionally and administratively dominated by or under the control of the Government", control
+// "particular to the body and pervasive"; "merely regulatory" control is not enough (8); control "sufficiently deep and pervasive" (9).
+// The Trust: "a society/trust and is not a juristic person in the same manner as a statutory corporation" - "no substance" (10);
+// grants "only one of its sources of income", own receipts "for certain years" a substantial part (16). Control found: created by
+// Government of India resolution 15.06.1957, reorganised 28.09.1962, to disseminate literature "at moderate prices" (11, 19); Rule 3:
+// Chairman appointed by the Government of India, holds office at its pleasure, Ministries of Education, Finance and I&B in the
+// governing body, other members nominated (12); Rule 26 Executive Committee with the same Ministries, Finance representative = Financial
+// Adviser, regulatory power needs prior Government approval (13); annual report and audited accounts to the Government (Rule 59), CAG
+// audit (Rule 58), Rule 60 approval for altering rules and purposes (14); cumulative, not ordinary regulation (15, 24). Publishing is
+// not by itself a sovereign function; a public function alone is insufficient (Zee Telefilms) (18). 'State' does not make the Trust a
+// Government department, "nor does it make every employee of the Trust a civil servant"; no automatic consequence under Articles
+// 309-311 (22, 23); the question is Part III discipline (23). HELD: dominated "financially, functionally and administratively", control
+// "particular to the Trust and pervasive in character"; "Its registration as a society, or the fact that it generates part of its
+// income independently cannot displace the cumulative constitutional character of the institution" (25); NBT is an 'other authority'
+// and "consequently a 'State'" (26); appeal dismissed (27).
+// c02 "Fourteen years later": HC 01.06.2012 (4) -> SC 06.11.2026 = 14 years 5 months. c02 "must respect fundamental rights" = para 23
+// "attract the constitutional discipline of Part III" (the judgment never mentions writ petitions in terms).
+// Not said: the respondents' names and their original grievance (the judgment gives none: para 1 "shorn of any unnecessary factual
+// matrix"; the cause title appears only on the cite card); the PM-YUVA scheme and later material (20, "corroborative" only); the cases
+// on both sides cited by the amicus (21); Ramana Dayaram Shetty and Zee Telefilms in speech (cards only, if at all). No general rule:
+// the reel never says that every society or every Government-funded body is 'State' (the test is cumulative and fact-specific, 21).
+// No "fraud" / "collusion" / "admitted".
+# 1 · IS A BOOK TRUST THE STATE?
+10 | It is registered as a society, and it earns money selling books. So can the National Book Trust still be the State under the Constitution of India?
+10 | If it is the State, it must respect fundamental rights. A Full Bench of the Delhi High Court said yes, in twenty twelve. Fourteen years later, did the Supreme Court agree? || If it is the State, it must respect fundamental rights. A Full Bench of the Delhi High Court said yes, in 2012. 14 years later, did the Supreme Court agree?
+10 | Hi, I'm Ravishankar from LawWorld. On the sixth of November, Honourable Justices Prashant Kumar Mishra and Augustine George Masih ruled on the appeal. || Hi, I'm Ravishankar from LawWorld. On 6 November, Honourable Justices Prashant Kumar Mishra and Augustine George Masih ruled on the appeal.
+# 2 · WHO RUNS THE TRUST?
+10 | The Government created the Trust in nineteen fifty seven, to publish good books at moderate prices. It appoints the Chairman, who serves at its pleasure. || The Government created the Trust in 1957, to publish good books at moderate prices. It appoints the Chairman, who serves at its pleasure.
+10 | Three Ministries sit on its governing body and executive committee, and the C A G audits its accounts. The High Court found this control deep and pervasive. || Three Ministries sit on its governing body and Executive Committee, and the CAG audits its accounts. The High Court found this control deep and pervasive.
+# 3 · SOCIETY, OR STATE?
+10 | In the Supreme Court, the Trust said it is a registered society, not a statutory corporation, and that grants are only one source of its income.
+10 | But under Ajay Hasia, a society can be the State. Under Pradeep Kumar Biswas, Government control must be pervasive, not merely regulatory.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the Supreme Court decide? The Government's control over the Trust is pervasive, so it is the State under Article Twelve. The High Court was right. || Finally, what did the Supreme Court decide? The Government's control over the Trust is pervasive, so it is the State under Article 12. The High Court was right.
+10 | Being a society, or earning part of its own income, cannot change that. But this ruling does not make every employee a civil servant. The Trust's appeal was dismissed.

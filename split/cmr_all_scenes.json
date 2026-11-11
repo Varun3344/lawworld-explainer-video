@@ -1,0 +1,69 @@
+{
+ "projectTitle": "LawWorld_cmr",
+ "title": "Retired early, without a hearing?",
+ "source": "split/scripts/cmr.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "You have served the government for over twenty years, with no inquiry against you, but your grades are poor. Can it still retire you early, without a hearing?",
+   "shown": "You have served the government for over 20 years, with no inquiry against you, but your grades are poor. Can it still retire you early, without a hearing?",
+   "chip": "1 · RETIRED EARLY, NO HEARING?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "Two clerks were retired with immediate effect. They called it a punishment in disguise, and said their poor grades were never shown to them. Were they right?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On the sixth of November, Honourable Justice Manmohan and Honourable Justice Shree Chandrashekhar ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 6 November, Honourable Justice Manmohan and Honourable Justice Shree Chandrashekhar ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "Both had joined the Legal Metrology Department in Raipur as peons, and were promoted to Assistant Grade Three in twenty twelve and twenty thirteen.",
+   "shown": "Both had joined the Legal Metrology Department in Raipur as peons, and were promoted to Assistant Grade-III in 2012 and 2013.",
+   "chip": "2 · THE REVIEW"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "In twenty seventeen, the Chhattisgarh government ordered a review of staff who turned fifty or served twenty years. A committee reviewed fourteen clerks.",
+   "shown": "In 2017, the Chhattisgarh government ordered a review of staff who turned 50 or served 20 years. A committee reviewed 14 clerks."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "It found five, including these two, below the B grade benchmark, and both were retired. The High Court refused to interfere, first a Single Judge, then a Division Bench.",
+   "shown": "It found five, including these two, below the B-grade benchmark, and both were retired. The High Court refused to interfere, first a Single Judge, then a Division Bench.",
+   "chip": "3 · A PUNISHMENT IN DISGUISE?"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "In the Supreme Court, they said others like them were spared, and promotion wiped out old remarks. The State replied that all fourteen were judged by the same yardstick.",
+   "shown": "In the Supreme Court, they said others like them were spared, and promotion wiped out old remarks. The State replied that all 14 were judged by the same yardstick."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the Supreme Court decide? Under the rules, compulsory retirement is not a punishment and needs no hearing. Courts don't re-weigh the record.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "Grades after promotion still count, and so do grades that were never shown to them. With no mala fides or arbitrariness, the appeals were dismissed."
+  }
+ ]
+}

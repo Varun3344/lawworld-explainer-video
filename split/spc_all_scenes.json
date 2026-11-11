@@ -1,0 +1,66 @@
+{
+ "projectTitle": "LawWorld_spc",
+ "title": "School pillar: not the immediate cause",
+ "source": "split/scripts/spc.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "A twelve year old girl died when a pillar under construction at her school fell. Should the school's President and Superintendent face a criminal trial for her death?",
+   "shown": "A 12-year-old girl died when a pillar under construction at her school fell. Should the school's President and Superintendent face a criminal trial for her death?",
+   "chip": "1 · WHO IS CRIMINALLY LIABLE?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "The High Court found a breach of duty and refused to quash the case. But is a breach of duty, by itself, enough for a criminal trial over her death?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On the second of November, Honourable Justice J B Pardiwala and Honourable Justice Manmohan ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 2 November, Honourable Justice J.B. Pardiwala and Honourable Justice Manmohan ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "She studied in the seventh standard at an Ashram school in Amravati district. A pillar being built on the school premises collapsed and fell on her.",
+   "shown": "She studied in the 7th standard at an Ashram school in Amravati district. A pillar being built on the school premises collapsed and fell on her.",
+   "chip": "2 · A PILLAR UNDER CONSTRUCTION"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "Her father filed a police complaint. A charge sheet followed against the school's President and Superintendent, for culpable homicide not amounting to murder."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The High Court noted the cement ratio was not maintained and the pillar had no solid base. Finding a breach of duty, it let the prosecution go on.",
+   "chip": "3 · THE IMMEDIATE CAUSE?"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The two argued that their act was not the immediate cause of death. The State said that at least causing death by negligence was made out, so let the trial court decide."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the Supreme Court decide? Citing Kurban Hussein, it held the negligent act must be the immediate cause of death, the causa causans, not just one cause.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "It noted the contractor's team built the pillar. An intervening cause broke the chain. The case against the two was quashed; trial may go on against any other co-accused."
+  }
+ ]
+}

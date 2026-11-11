@@ -1,0 +1,70 @@
+{
+ "projectTitle": "LawWorld_bhk",
+ "title": "Himachal's share of Bhakra-Beas power",
+ "source": "split/scripts/bhk.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "A State sued in the Supreme Court in nineteen ninety six for its share of power, and won it in twenty eleven. So why was it still waiting for its arrears?",
+   "shown": "A State sued in the Supreme Court in 1996 for its share of power, and won it in 2011. So why was it still waiting for its arrears?",
+   "chip": "1 · STILL WAITING?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "The Centre put those arrears at over thirteen thousand million units. But Punjab said Himachal itself owed over six thousand crore rupees in costs. Who owes whom?",
+   "shown": "The Centre put those arrears at over 13,000 million units. But Punjab said Himachal itself owed over ₹6,000 crore in costs. Who owes whom?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On the sixth of November, Honourable Chief Justice Surya Kant, Justice Joymalya Bagchi and Justice V Mohana ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 6 November, Honourable Chief Justice Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "When Punjab was split in nineteen sixty six, part of it went to Himachal. So Himachal claimed a share of the Bhakra Nangal and Beas power.",
+   "shown": "When Punjab was split in 1966, part of it went to Himachal. So Himachal claimed a share of the Bhakra-Nangal and Beas power.",
+   "chip": "2 · WHOSE POWER?"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "It sought seven point one nine percent, its share of Punjab's population. In twenty eleven, the Court granted it, but refused its claim to twelve percent free power.",
+   "shown": "It sought 7.19%, its share of Punjab's population. In 2011, the Court granted it, but refused its claim to 12% free power."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The Court asked the Centre to compute the arrears within six months. The Centre's figure came in twenty thirteen, but Punjab and Haryana disputed it.",
+   "shown": "The Court asked the Centre to compute the arrears within six months. The Centre's figure came in 2013, but Punjab and Haryana disputed it.",
+   "chip": "3 · A DECREE STUCK"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "After years of mediation, the Attorney General proposed a cashless settlement. Himachal and Haryana agreed in principle. Punjab objected."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the Supreme Court decide? Punjab's objections were an attempt to reopen what the twenty eleven decree had settled, so they were rejected.",
+   "shown": "Finally, what did the Supreme Court decide? Punjab's objections were an attempt to reopen what the 2011 decree had settled, so they were rejected.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "Himachal's share of the capital cost is set off against its arrears, and the rest comes over twenty lean seasons. The Court warned that its directions are binding."
+  }
+ ]
+}

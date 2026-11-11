@@ -1,0 +1,68 @@
+{
+ "projectTitle": "LawWorld_nbt",
+ "title": "National Book Trust: State under Article 12?",
+ "source": "split/scripts/nbt.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "It is registered as a society, and it earns money selling books. So can the National Book Trust still be the State under the Constitution of India?",
+   "chip": "1 · IS A BOOK TRUST THE STATE?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "If it is the State, it must respect fundamental rights. A Full Bench of the Delhi High Court said yes, in twenty twelve. Fourteen years later, did the Supreme Court agree?",
+   "shown": "If it is the State, it must respect fundamental rights. A Full Bench of the Delhi High Court said yes, in 2012. 14 years later, did the Supreme Court agree?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On the sixth of November, Honourable Justices Prashant Kumar Mishra and Augustine George Masih ruled on the appeal.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 6 November, Honourable Justices Prashant Kumar Mishra and Augustine George Masih ruled on the appeal."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "The Government created the Trust in nineteen fifty seven, to publish good books at moderate prices. It appoints the Chairman, who serves at its pleasure.",
+   "shown": "The Government created the Trust in 1957, to publish good books at moderate prices. It appoints the Chairman, who serves at its pleasure.",
+   "chip": "2 · WHO RUNS THE TRUST?"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "Three Ministries sit on its governing body and executive committee, and the C A G audits its accounts. The High Court found this control deep and pervasive.",
+   "shown": "Three Ministries sit on its governing body and Executive Committee, and the CAG audits its accounts. The High Court found this control deep and pervasive."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "In the Supreme Court, the Trust said it is a registered society, not a statutory corporation, and that grants are only one source of its income.",
+   "chip": "3 · SOCIETY, OR STATE?"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "But under Ajay Hasia, a society can be the State. Under Pradeep Kumar Biswas, Government control must be pervasive, not merely regulatory."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the Supreme Court decide? The Government's control over the Trust is pervasive, so it is the State under Article Twelve. The High Court was right.",
+   "shown": "Finally, what did the Supreme Court decide? The Government's control over the Trust is pervasive, so it is the State under Article 12. The High Court was right.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "Being a society, or earning part of its own income, cannot change that. But this ruling does not make every employee a civil servant. The Trust's appeal was dismissed."
+  }
+ ]
+}

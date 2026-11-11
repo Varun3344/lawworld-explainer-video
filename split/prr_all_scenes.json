@@ -1,0 +1,65 @@
+{
+ "projectTitle": "LawWorld_prr",
+ "title": "Rejected before registration?",
+ "source": "split/scripts/prr.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "You file a civil suit to protect your land. Before it is even registered, the judge decides you are likely to lose, and rejects it. Can a court do that?",
+   "chip": "1 · THROWN OUT BEFORE REGISTRATION?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "The plaintiff says his sale deed was only security for a loan. The trial court found no buy-back clause and rejected his plaint, and the High Court agreed. So who was right?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On the fifth of November, Honourable Justice Ujjal Bhuyan and Honourable Justice Atul S Chandurkar ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 5 November, Honourable Justice Ujjal Bhuyan and Honourable Justice Atul S. Chandurkar ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "The plaintiff says his son settled the land on him. Needing money, he says, he borrowed twenty five lakh rupees from the defendant's husband, at twenty four percent a month.",
+   "shown": "The plaintiff says his son settled the land on him. Needing money, he says, he borrowed ₹25 lakh from the defendant's husband, at 24% a month.",
+   "chip": "2 · A LOAN AND A SALE DEED"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "He says the sale deed was only security for the loan, and he stayed in possession. When he offered to repay, he says, the land was not returned. So he sued."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "Before the suit got a number, the District Judge at Cuddalore rejected the plaint. The sale deed had no resale clause, and no resale agreement was filed.",
+   "chip": "3 · REJECTED AT THE DOOR"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The Madras High Court agreed, for lack of cause of action. The defendant called it a real sale. The plaintiff argued no plaint can be rejected before registration."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the Supreme Court decide? A plaint can be rejected even before registration, but not because the court thinks the suit will fail after trial.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "This plaint disclosed a cause of action, so it was restored for registration, with no view on merits. And rejections before registration must be recorded."
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "projectTitle": "LawWorld_ack",
+ "title": "Too late to sue? Balance sheets as acknowledgment",
+ "source": "split/scripts/ack.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Your bills date back to two thousand three, and you sue only in twenty fourteen. Is it too late, or can the other side's own balance sheets keep your claim alive?",
+   "shown": "Your bills date back to 2003, and you sue only in 2014. Is it too late, or can the other side's own balance sheets keep your claim alive?",
+   "chip": "1 · TOO LATE TO SUE?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "The trial court said a housing society's balance sheets acknowledged the debt. The Delhi High Court disagreed, and rejected the plaint as time barred. So who was right?",
+   "shown": "The trial court said a housing society's balance sheets acknowledged the debt. The Delhi High Court disagreed, and rejected the plaint as time-barred. So who was right?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On the sixth of November, a bench of three Honourable Judges of the Supreme Court heard this civil appeal and ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 6 November, a bench of three Honourable Judges of the Supreme Court heard this civil appeal and ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "In two thousand, a Delhi housing society hired a contractor for building work. His running bills went up to two thousand three, but he sued in twenty fourteen.",
+   "shown": "In 2000, a Delhi housing society hired a contractor for building work. His running bills went up to 2003, but he sued in 2014.",
+   "chip": "2 · BILLS AND BALANCE SHEETS"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "The society's own bank records showed three cheques in his favour. And up to twenty thirteen, its balance sheets carried forward nearly twenty two lakh rupees.",
+   "shown": "The society's own bank records showed three cheques in his favour. And up to 2013, its balance sheets carried forward nearly ₹22 lakh."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The society sought rejection of the plaint under Order Seven Rule Eleven. The High Court agreed, saying the entries did not show the money was due to him.",
+   "shown": "The society sought rejection of the plaint under Order VII Rule 11. The High Court agreed, saying the entries did not show the money was due to him.",
+   "chip": "3 · REJECTED AT THE THRESHOLD"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The contractor's heir argued the entries were acknowledgments under the Limitation Act. The society said a time barred debt cannot be revived forever.",
+   "shown": "The contractor's heir argued the entries were acknowledgments under the Limitation Act. The society said a time-barred debt cannot be revived forever."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the Supreme Court decide? The entries were acknowledgments under Section Eighteen, so a fresh period ran from each. No condonation was needed.",
+   "shown": "Finally, what did the Supreme Court decide? The entries were acknowledgments under Section 18, so a fresh period ran from each. No condonation was needed.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "At the threshold, the High Court should not have gone into the depths of evidence. Its order was set aside, and the suit was revived, with the merits left open."
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+// G. Pazhanivel v. S. Thilagavathy, 2026 INSC 1197, Civil Appeal No. 13154 of 2026, Supreme Court of India, Civil Appellate
+// Jurisdiction (Atul S. Chandurkar J. wrote it, Ujjal Bhuyan J.), pronounced 05.11.2026 (New Delhi, November 5, 2026), REPORTABLE (page 1).
+// HOOK format (split/JUDGMENT_HOOK_FORMAT.md), the Supreme Court page (English). Opening clip spoken to everyone, no "Advocates,".
+// DRAFT 06-11-2026: awaiting the owner's yes; nothing rendered. Re-checked 11-11-2026 against the PDF (sc11nov/pdf/pazhanivel.pdf),
+// paras 1-22: all facts OK; c03 changed to the brief's shape ("On the fifth of November,", as atc); c10 card names the register.
+// Source: the Court's own signed PDF (19 pages, sci.gov.in "Latest Judgments"), scratchpad drafts6nov/prr/judgment.pdf + judgment.txt,
+// paras 1-22 read in full.
+// Facts used (para): the appeal questions the trial Court's order, upheld by the High Court, rejecting the plaint under Order VII
+// Rule 11 CPC prior to registration of the civil suit (1). The PLAINTIFF'S CASE (2, 13; voiced only as "the plaintiff says"): owner of
+// a piece of land settled on him by his son by a registered settlement deed of 26.02.2021; in need of money he borrowed Rs.25,00,000
+// from the defendant's husband at interest of 24% per month; on the husband's insistence a sale deed of the land was registered on
+// 15.03.2021 in the defendant's name; possession continued with him; the sale deed was only security for the loan; he offered to
+// repay Rs.25,00,000 with interest; the defendant avoided executing a sale deed in his favour and attempted to take forcible
+// possession on 25.05.2025. Reliefs: declaration of title + permanent injunction; redemption of "the mortgage deed, styled as sale
+// deed dated 15.03.2021"; mandatory injunction to reconvey; costs (2). Trial court: presented before the Principal District Judge,
+// Cuddalore; prior to registration the judge heard the plaintiff and perused the documents; the sale deed had no provision for
+// re-sale and no agreement to that effect was filed, so the defendant had the full right of enjoyment; plaint rejected, refund of
+// court fees (3); verbatim order: "The sale deed does not contain the resale provision. No agreement is filed by the plaintiff in mark
+// of agreeing for resale." (12); Unnumbered O.S., order dated 11.07.2025 (19). High Court: a Division Bench of the Madras High Court
+// held the rejection proper, no inference of a mortgage or conditional sale from the settlement deed or the sale deed; "for lack of
+// cause of action, the plaint was rightly rejected"; suit not numbered, refund extended in appeal (4); A.S. No. 970 of 2025,
+// 16.10.2025 (19). Plaintiff's counsel: Order VII Rule 11 cannot be used prior to registration, registration a ministerial act;
+// alternatively the plaint discloses a cause of action (5, 10). Defendant's counsel: the registered sale deed was an outright sale,
+// no inference of security; no bar to Rule 11 at any stage, even before registration (6).
+// Held: the trial Court "erred in rejecting the plaint ... after entering into the merits of the case and without indicating how the
+// plaint was liable to be rejected in a summary manner"; the High Court too erred; the suit warranted an adjudication on merits (7);
+// Register of Civil Suits, Order IV Rule 2 (8); the plaintiff's contention that Rule 11 can be used only after registration "cannot be
+// accepted" (10) - T. Arivandandam (1977 INSC 204), Saleem Bhai (2002 INSC 554), Madiraju Venkata Ramana Raju (2018 INSC 249), Church
+// of Christ Charitable Trust (2012 INSC 264) (10.1-10.3); "In a given case, such power may be exercised even prior to registration of
+// the plaint"; registration is no "shield of invincibility" (11); the trial Court named no clause of Rule 11 (12); "On a meaningful
+// reading of the entire plaint, it is evident that the same discloses a cause of action"; not barred by law; the trial Court failed to
+// notice the various prayers; not permissible to ignore material averments or refuse to read the plaint as a whole (14); the High
+// Court did not consider the ground that the plaintiff had no chance to lead evidence (15); "Likelihood of a suit being dismissed
+// after trial does not furnish a ground for the Court to reject the plaint prior to the trial. If a plaint discloses a cause of
+// action, which it does in the present case, and the suit does not appear to be barred by any law ... it has to go for trial";
+// Ganga Bai (1974 INSC 87); no ground under Order VII Rule 11 made out (16); rejection is a "decree" (s.2(2)), so a record of
+// pre-registration rejections is needed, e.g. for appeals and Order VII Rule 13 (17); Selvaraj (Madras HC): "a roving enquiry into
+// the merits of the matter was not called for" - cited as that HC decision's observation, not voiced (18). Orders: the trial Court's
+// order of 11.07.2025 and the HC judgment of 16.10.2025 set aside; "The plaint is restored for being duly registered"; the suit to
+// be decided in accordance with law; observations not an expression on the merits (19); whenever a trial Court rejects a plaint
+// under Order VII Rule 11 prior to registration, it "shall be duly recorded in a register maintained for such purpose under Order IV
+// Rule 2"; High Courts may act under Section 122 CPC (20); copy to the Registrar General of the High Courts and the Director of the
+// State Judicial Academies (21); appeal allowed, no costs (22).
+// Not said: any private person's name (only the cause title on the cite card); the loan, the 24% a month, the security purpose,
+// the possession and the refusal to reconvey are the PLAINTIFF'S CASE (c02, c04, c05 say "says"); the hook does NOT say a plaint can
+// never be rejected before registration (the Court held it can, 10-11; c09 says so); no view on who owns the land (19; c10 says so).
+// Flow policy: no names, no "admitted" / "fraud" / "collusion"; no accusation beyond "she would not sell it back", voiced as his claim.
+// Also not said: "24% a month" is verbatim (paras 2 and 13) though it reads like a slip for a year; kept as the plaintiff's own case.
+# 1 · THROWN OUT BEFORE REGISTRATION?
+10 | You file a civil suit to protect your land. Before it is even registered, the judge decides you are likely to lose, and rejects it. Can a court do that?
+10 | The plaintiff says his sale deed was only security for a loan. The trial court found no buy-back clause and rejected his plaint, and the High Court agreed. So who was right?
+10 | Hi, I'm Ravishankar from LawWorld. On the fifth of November, Honourable Justice Ujjal Bhuyan and Honourable Justice Atul S Chandurkar ruled. || Hi, I'm Ravishankar from LawWorld. On 5 November, Honourable Justice Ujjal Bhuyan and Honourable Justice Atul S. Chandurkar ruled.
+# 2 · A LOAN AND A SALE DEED
+10 | The plaintiff says his son settled the land on him. Needing money, he says, he borrowed twenty five lakh rupees from the defendant's husband, at twenty four percent a month. || The plaintiff says his son settled the land on him. Needing money, he says, he borrowed ₹25 lakh from the defendant's husband, at 24% a month.
+10 | He says the sale deed was only security for the loan, and he stayed in possession. When he offered to repay, he says, the land was not returned. So he sued.
+# 3 · REJECTED AT THE DOOR
+10 | Before the suit got a number, the District Judge at Cuddalore rejected the plaint. The sale deed had no resale clause, and no resale agreement was filed.
+10 | The Madras High Court agreed, for lack of cause of action. The defendant called it a real sale. The plaintiff argued no plaint can be rejected before registration.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the Supreme Court decide? A plaint can be rejected even before registration, but not because the court thinks the suit will fail after trial.
+10 | This plaint disclosed a cause of action, so it was restored for registration, with no view on merits. And rejections before registration must be recorded.

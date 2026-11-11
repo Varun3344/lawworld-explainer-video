@@ -1,0 +1,62 @@
+// Chatur Singh Dhruw v. The State of Chhattisgarh & Ors., 2026 INSC 1205, Civil Appeal No. 14172 of 2026 (arising out of SLP (C) No.
+// 24392 of 2023), with Civil Appeal No. ____ of 2026 (arising out of SLP (C) No. 25201 of 2023), Supreme Court of India, Civil Appellate
+// Jurisdiction; Manmohan J. (wrote it) and Shree Chandrashekhar J.; pronounced 06.11.2026 (New Delhi, November 06, 2026). REPORTABLE
+// (page 1). Appeals from the Chhattisgarh High Court Division Bench (Bilaspur), Writ Appeal Nos. 565 and 577 of 2019, 12.04.2023.
+// HOOK format (split/JUDGMENT_HOOK_FORMAT.md), Supreme Court page, ENGLISH; opening spoken to everyone, no "Advocates,".
+// DRAFT 11-11-2026: awaiting the owner's yes; nothing rendered.
+// Source: the Court's own PDF (27 pages, sci.gov.in "Latest Judgments"), scratchpad sc11nov/pdf/chaturdhruw.pdf + txt/chaturdhruw.txt,
+// paras 1-51 read in full. The appeal-number blank on page 1 is filled from the sci.gov.in listing ("C.A. No. 14172/2026", Diary No.
+// 42685/2023, 06-Nov-2026, scratchpad sc11nov/latest.txt); the connected appeal's number is not listed. Facts + quotes: sc11nov/cmr/FACTS.md.
+// Facts used (para): the Division Bench affirmed the Single Judge's judgments of 23.08.2019 (WP Nos. 5765 and 5680 of 2017), who had
+// declined to interfere with the compulsory retirement orders of 09.10.2017 (2). Appointed Peons (Class-IV) in the Legal Metrology
+// Department (Weights and Measures), Raipur, in 1989 and 1993; promoted to Assistant Grade-III in 2012 and 2013 (3; exact dates
+// 03.10.2012 and 14.03.2013, 40); regularised 19.06.2015 (3). GAD Circular of 25.04.2017 to all departments: review the service records
+// of those with 50 years of age or 20 years of qualifying service; FR 56 and Rule 42 of the CG Civil Services (Pension) Rules, 1976;
+// criteria: integrity, physical capacity, reputation and work on the whole record, overall evaluation below 'Good' (B), last 5 years
+// not decreasing (4, 31). Retired by orders of 09.10.2017 (5), "in the public interest ... retired with immediate effect" (45).
+// Screening Committee at HoD level met 04.09.2017 (13); zone = clerical staff with age 50 or 20 years' service as on 01.07.2017 (14, 15);
+// 14 clerical staff (16); grades scored A+ = 5 ... D = 1 and averaged for 2013-2017 (17(f), 19); 5 below the 'B' benchmark (18, 33);
+// 9 retained (38); 3 others also recommended (34). One appellant: 'A' in 2013, then 'C' 2014-2017 (22, 41) - card only, unnamed.
+// Appellants: others similarly placed were not retired, arbitrary and discriminatory (6); in substance punitive and stigmatic (7); a
+// substitute for disciplinary proceedings (8); not the entire record (9); adverse entries never communicated (Dev Dutt, Sukhdev Singh)
+// (10); promotion and regularisation made earlier entries lose significance (Baikuntha Nath Das) (11). State: strictly per the Circular
+// (12); uniform application to all 14 (18). SC order of 09.10.2025: Principal Secretary's affidavit (6, 34).
+// Held: compulsory retirement "is neither punitive nor stigmatic in character"; audi alteram partem and Article 311(2) do not apply to an
+// order made under the service rules (24); satisfaction must rest on objective, relevant material (25); review only whether the norms
+// were observed (26); no "re-weighing of the material by the Court" (27); interference only for no evidence, non-application of mind,
+// manifest arbitrariness or perversity, mala fides (28); comparison with an unretired colleague is not by itself a ground, no negative
+// equality (29, 30); in any event the parameters were uniformly applied (31-36); the whole record was examined first, the 2013-2017
+// reports as a corroborative exercise (37, 38); the promotion principle covers only entries that pre-date the promotion (39-42);
+// regularisation is no endorsement (43); the orders carry no stigma (44-46); no departmental inquiry pending or contemplated, the
+// "circumvent" plea rejected (47); uncommunicated adverse remarks no ground to quash (Baikuntha Nath Das, 48); Dev Dutt and Sukhdev
+// Singh "were rendered in the context of promotion" (49); no arbitrariness, mala fides or perversity (50); the HC judgments of
+// 12.04.2023 affirmed, appeals dismissed, no costs (51).
+// Not said: the appellants' or the committee members' names (only the cause title on the cite card); the "questionable" integrity
+// certificate of one appellant (21) and the Hindi report extracts (7); the average scores of the other twelve; no claim that the
+// government may retire anyone at will: the hook is a question; c05 says the review covers staff with 50 years of age or 20 years of
+// service; the c09 card carries "made in accordance with the relevant service rules". c02 "punishment in disguise" and "never shown to
+// them" are the appellants' own case (7, 8, 10). "with immediate effect" is the order's own wording (45); the 3 other recommended
+// employees are not said to have been retired (34 says "recommended"). Flow policy: no names, no "admitted" / "fraud" / "collusion".
+// FACT-CHECK 11-11-2026 (independent checker): c01 "no charge against you" -> "no inquiry against you, but your grades are poor" (47:
+// no departmental inquiry pending or contemplated; but both had below-'B' records and adverse remarks, one a 'questionable' integrity
+// certificate, 21, 22, 33, 41 - "no charge" read as a clean record) and "without a disciplinary inquiry" -> "without a hearing" (24);
+// c04 "Chhattisgarh's Legal Metrology Department" -> "the Legal Metrology Department in Raipur" (joined 1989/1993, before the State
+// existed; para 3 says "Raipur"); c05 "a State circular" -> "the Chhattisgarh government" (GAD, Government of Chhattisgarh, 4);
+// c09 "Under the rules," added (24: audi alteram partem does not apply to an order "made in accordance with the relevant service
+// rules"); c10 "the rulings on sharing grades dealt with promotion" -> "so do grades that were never shown to them" (48 heading:
+// uncommunicated adverse entries "may be taken into account"; answers c02's question directly; Dev Dutt/Sukhdev Singh stay on the card).
+# 1 · RETIRED EARLY, NO HEARING?
+10 | You have served the government for over twenty years, with no inquiry against you, but your grades are poor. Can it still retire you early, without a hearing? || You have served the government for over 20 years, with no inquiry against you, but your grades are poor. Can it still retire you early, without a hearing?
+10 | Two clerks were retired with immediate effect. They called it a punishment in disguise, and said their poor grades were never shown to them. Were they right?
+10 | Hi, I'm Ravishankar from LawWorld. On the sixth of November, Honourable Justice Manmohan and Honourable Justice Shree Chandrashekhar ruled. || Hi, I'm Ravishankar from LawWorld. On 6 November, Honourable Justice Manmohan and Honourable Justice Shree Chandrashekhar ruled.
+# 2 · THE REVIEW
+10 | Both had joined the Legal Metrology Department in Raipur as peons, and were promoted to Assistant Grade Three in twenty twelve and twenty thirteen. || Both had joined the Legal Metrology Department in Raipur as peons, and were promoted to Assistant Grade-III in 2012 and 2013.
+10 | In twenty seventeen, the Chhattisgarh government ordered a review of staff who turned fifty or served twenty years. A committee reviewed fourteen clerks. || In 2017, the Chhattisgarh government ordered a review of staff who turned 50 or served 20 years. A committee reviewed 14 clerks.
+# 3 · A PUNISHMENT IN DISGUISE?
+10 | It found five, including these two, below the B grade benchmark, and both were retired. The High Court refused to interfere, first a Single Judge, then a Division Bench. || It found five, including these two, below the B-grade benchmark, and both were retired. The High Court refused to interfere, first a Single Judge, then a Division Bench.
+10 | In the Supreme Court, they said others like them were spared, and promotion wiped out old remarks. The State replied that all fourteen were judged by the same yardstick. || In the Supreme Court, they said others like them were spared, and promotion wiped out old remarks. The State replied that all 14 were judged by the same yardstick.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the Supreme Court decide? Under the rules, compulsory retirement is not a punishment and needs no hearing. Courts don't re-weigh the record.
+10 | Grades after promotion still count, and so do grades that were never shown to them. With no mala fides or arbitrariness, the appeals were dismissed.

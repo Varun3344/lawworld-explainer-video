@@ -1,0 +1,69 @@
+{
+ "projectTitle": "LawWorld_anc",
+ "title": "Ancestral property: can a son claim half?",
+ "source": "split/scripts/anc.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "Your grandfather's property comes to your father. Can you, his son, call it ancestral property and sue for half of it, while your father is still alive?",
+   "chip": "1 · ANCESTRAL PROPERTY?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "A trial court said yes, and gave the son a half share. The High Court reversed it. Nearly thirty years after he sued, the Supreme Court has ruled. Who was right?",
+   "shown": "A trial court said yes, and gave the son a half share. The High Court reversed it. Nearly 30 years after he sued, the Supreme Court has ruled. Who was right?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On the sixth of November, Honourable Justice Augustine George Masih and Honourable Justice Sunita Agarwal ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 6 November, Honourable Justice Augustine George Masih and Honourable Justice Sunita Agarwal ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "A grandfather died without a will. In nineteen ninety three, his daughter sued to divide his property. His grandson was born while that suit was pending.",
+   "shown": "A grandfather died without a will. In 1993, his daughter sued to divide his property. His grandson was born while that suit was pending.",
+   "chip": "2 · A GRANDFATHER'S PLOT"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "On the third of February, nineteen ninety four, a compromise decree gave the boy's father a plot as his share. Three years later, the father sold it to two buyers.",
+   "shown": "On 3 February 1994, a compromise decree gave the boy's father a plot as his share. Three years later, the father sold it to two buyers."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "The same year, through his mother, the minor son sued for half. A Chennai civil court agreed, but on the buyers' appeal, the High Court held the father was the absolute owner.",
+   "chip": "3 · BY BIRTH, OR BY SECTION 8?"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The son said he was a coparcener by birth, before the decree, so the father could not sell the son's share. The buyers said a grandson is not a Class One heir.",
+   "shown": "The son said he was a coparcener by birth, before the decree, so the father could not sell the son's share. The buyers said a grandson is not a Class I heir."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the Supreme Court decide? What a father inherits under Section Eight of the Hindu Succession Act is his own, not joint family property.",
+   "shown": "Finally, what did the Supreme Court decide? What a father inherits under Section 8 of the Hindu Succession Act is his own, not joint family property.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "The partition made the father's share his exclusive property. The grandfather had died before the son was born, so the son could not claim a share. The appeal was dismissed."
+  }
+ ]
+}

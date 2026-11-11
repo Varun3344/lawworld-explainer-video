@@ -1,0 +1,53 @@
+// J. Rajesh (Minor) thr. his mother and natural guardian J. Gomathi v. M. Kumaran (Dead) thr. LRs. & Ors., 2026 INSC 1208, Civil Appeal
+// No. 7020 of 2012, Supreme Court of India, Civil Appellate Jurisdiction; Augustine George Masih J. and Sunita Agarwal J. (wrote it);
+// pronounced 06.11.2026 (New Delhi, November 06, 2026). REPORTABLE (page 1). Appeal from the High Court's judgment of 11.08.2010 (first
+// appeal from the City Civil Court, Chennai). HOOK format (split/JUDGMENT_HOOK_FORMAT.md), Supreme Court page, ENGLISH; opening spoken
+// to everyone, no "Advocates,". DRAFT 11-11-2026: awaiting the owner's yes; nothing rendered.
+// Source: the Court's own signed PDF (31 pages, sci.gov.in "Latest Judgments"), scratchpad sc11nov/pdf/rajesh.pdf + txt/rajesh.txt,
+// paras 1-42 read in full; fact sheet with verbatim quotes: scratchpad sc11nov/anc/FACTS.md.
+// Question (1): whether the appellant is entitled to half share in the property of his father "who is still alive" and can seek
+// partition "on the premise of the property in question being ancestral/joint family property".
+// Facts used (para): minor son's suit O.S. No. 1698 of 1997 through his mother for partition and possession of half share of 1811 sq.
+// ft. of land, pleaded as joint family property of his late grandfather inherited along with his father, D1 (2, 37); the father's
+// sister filed C.S. No. 1728 of 1993 for partition of the grandfather's property; compromise decree 03.02.1994, the father got 1811 sq.
+// ft. (3, 35); the father sold it to D2 and D3 by sale deeds of 03.04.1997 and 17.04.1997 (4); no challenge to the compromise decree or
+// the sale deeds, only partition + half share sought (4, 40); buyers: the father was absolute owner by the compromise decree (5); the
+// II Additional Judge, City Civil Court, Chennai passed a preliminary decree of partition, the buyers appealed (6), for the half share
+// (19, 21); the First Appellate Court / High Court set it aside, judgment of 11.08.2010 (7, 13, 21); the son born 06.01.1994, the
+// sister's suit filed in 1993, the father did not contest (8, 37); grandfather died intestate, date of death not disclosed (35, 39).
+// High Court: under Section 8 HSA the son of a male dying intestate becomes absolute owner, his son has no right by birth (9); partition
+// done, coparcenary does not survive, Section 6 not attracted (10); the divided share reached the son "who became absolute owner",
+// the grandson gets no interest (12, 13). Son's case: Section 29-A (Tamil Nadu Amendment, 1989) kept coparcenary incidents (14-16);
+// born 06.01.1994, decree 03.02.1994 after his birth, coparcener by birth, not made a party (17); Rohit Chauhan, Arshnoor Singh (18);
+// the father could not transfer the entire property without demarcating his share; father ex parte, died 2024 (21). Buyers: Section 8
+// governs, Sections 6 / 29-A not attracted (22); grandson excluded from Class I, the divided son gets absolute right with full power of
+// alienation (23); Chander Sen, Vimalben, Radha Bai (24); decree never challenged, father alive when the suit was filed (25).
+// Held: a son's son is not a Class I heir, the pre-1956 right of a son's son in his grandfather's property during his father's lifetime
+// was not saved (34); on the grandfather's death the property devolved on his Class I heirs under Section 8 and "did not constitute HUF
+// property of son consisting of his own branch including the grandson"; each heir became exclusive owner under the compromise decree
+// of 03.02.1994; joint coparcenary did not continue (35); succession opened "evidently before the appellant was born", no devolution on
+// him (36); Chander Sen applied: property devolving under Section 8 is not HUF "vis-à-vis his own son", "The express words of Section 8
+// ... must prevail" (38); Section 6 / Section 29-A no application, not a "surviving coparcener" (39); the father's share "became his
+// exclusive property in his individual capacity and cannot be said to be coparcenary"; no infirmity in the High Court's judgment (41);
+// appeal dismissed, no order as to costs (42).
+// Not said: any private person's name (only the cause title on the cite card); NOT a sweeping rule that sons never get a share in
+// ancestral property: c09 states the Court's own rule with its condition (inherited under Section 8, para 38) and c10 the case-specific
+// reasons (the 1994 partition, the grandfather's death before the son's birth, paras 35, 36, 41); "collusive" (only the buyers'
+// submission, para 25, and a Flow-policy word); "Madras" (the judgment says only "the High Court"); the grandfather's date of death
+// (not disclosed); the father's death in 2024 (the suit was filed in his lifetime, paras 1, 37, 40); Section 29-A only on cards.
+// "Nearly thirty years": suit filed 1997 (2), judgment 06.11.2026.
+# 1 · ANCESTRAL PROPERTY?
+10 | Your grandfather's property comes to your father. Can you, his son, call it ancestral property and sue for half of it, while your father is still alive?
+10 | A trial court said yes, and gave the son a half share. The High Court reversed it. Nearly thirty years after he sued, the Supreme Court has ruled. Who was right?
+10 | Hi, I'm Ravishankar from LawWorld. On the sixth of November, Honourable Justice Augustine George Masih and Honourable Justice Sunita Agarwal ruled. || Hi, I'm Ravishankar from LawWorld. On 6 November, Honourable Justice Augustine George Masih and Honourable Justice Sunita Agarwal ruled.
+# 2 · A GRANDFATHER'S PLOT
+10 | A grandfather died without a will. In nineteen ninety three, his daughter sued to divide his property. His grandson was born while that suit was pending. || A grandfather died without a will. In 1993, his daughter sued to divide his property. His grandson was born while that suit was pending.
+10 | On the third of February, nineteen ninety four, a compromise decree gave the boy's father a plot as his share. Three years later, the father sold it to two buyers. || On 3 February 1994, a compromise decree gave the boy's father a plot as his share. Three years later, the father sold it to two buyers.
+# 3 · BY BIRTH, OR BY SECTION 8?
+10 | The same year, through his mother, the minor son sued for half. A Chennai civil court agreed, but on the buyers' appeal, the High Court held the father was the absolute owner.
+10 | The son said he was a coparcener by birth, before the decree, so the father could not sell the son's share. The buyers said a grandson is not a Class One heir. || The son said he was a coparcener by birth, before the decree, so the father could not sell the son's share. The buyers said a grandson is not a Class I heir.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the Supreme Court decide? What a father inherits under Section Eight of the Hindu Succession Act is his own, not joint family property.
+10 | The partition made the father's share his exclusive property. The grandfather had died before the son was born, so the son could not claim a share. The appeal was dismissed.

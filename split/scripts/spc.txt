@@ -1,0 +1,55 @@
+// Matin Shankarrao Bhosale & Anr. v. State of Maharashtra & Anr., 2026 INSC 1198, Criminal Appeal No. 5171 of 2026 (arising out of
+// SLP (Crl.) No. 13889 of 2026), Supreme Court of India, Criminal Appellate Jurisdiction. ORDER by J.B. Pardiwala J. (wrote it), with
+// Manmohan J.; New Delhi, 02.11.2026 (uploaded on sci.gov.in 05-11-2026). REPORTABLE (page 1). Appeal from the High Court's order of
+// 25.02.2026 in Criminal Application No. 239 of 2021 refusing to quash FIR No. 39 of 2020 / Chargesheet No. 15 of 2020 (para 2).
+// HOOK format (split/JUDGMENT_HOOK_FORMAT.md), Supreme Court page, ENGLISH; opening spoken to everyone, no "Advocates,".
+// DRAFT 11-11-2026: awaiting the owner's yes; nothing rendered. FACT-CHECKED 11-11-2026 (independent check): c02 no longer quotes
+// para 61 (it gave the verdict's direction away) and now ends on the para 39/41 question; c04 drops the hostel and "other girls were
+// hurt" (FIR / High Court account only, not a Supreme Court finding); c10 says "any other co-accused" (para 63).
+// Source: the Court's own signed PDF (44 pages), scratchpad sc11nov/pdf/matinbhosale.pdf + sc11nov/txt/matinbhosale.txt, paras 1-63
+// read in full; listing "Crl.A. No. 5171/2026 ... 02-Nov-2026" (sc11nov/latest.txt). Fact table with quotes: sc11nov/spc/FACTS.md.
+// SENSITIVE: a child died. Respectful, calm wording; no name of the child, her family, the appellants or the school in speech.
+// Facts used (para): appellants = President and Superintendent of the school (9, 26); the father (Respondent No. 2) lodged the FIR on
+// 19.02.2020, Mangrul Chawala PS, District Amravati (4, 6); [NOT used: hostel, other girls injured = FIR (7) / HC (15) only]; 7th
+// standard in an Adivasi Ashram Shala, 12 years old (8); "some construction of a pillar was going on which unfortunately collapsed and
+// fell on the deceased" (11); charge-sheet under s.304 r/w 34 IPC, "culpable homicide not amounting to murder" (3, 12); quashing sought
+// (13, 14); HC: "the ratio of cement was not maintained", no "solid base of cement and iron", "breach of duty", application rejected
+// (15). Appellants: not even s.304A; "the causa causans and not causa sine-qua-non ... fixes the culpability"; being "one of the causes"
+// is not enough, it must be "the direct consequence" (18, 20). State: only a prima facie case at this stage; "at least" s.304A, "let the
+// trial court decide" (22, 23).
+// Held: s.304A applies to acts "directly the cause of death" (33); s.304 not attracted: "the mere failure to attain the standard of care
+// ... would not be a criminal act", no knowledge that "inferior construction in all probability was likely to cause death" (39); the
+// test: "the proximate and efficient cause of the death without the intervention of others' negligence", causa causans or "causa
+// interveniens, which has broken the chain of causation" (41); Sushil Ansal (2014) 6 SCC 173: causa causans = "The immediate cause; the
+// last link in the chain of causation" (42); Kurban Hussein Mohamedalli Rangawalla, AIR 1965 SC 1616, approving Emperor v. Omkar
+// Rampratap: "It must be the causa causans; it is not enough that it may have been the causa sine qua non" (43); applied: "It was the
+// contractor and his team who were actually undertaking the construction"; the appellants' alleged negligence "cannot be regarded as
+// the causa causans. Although it may be a causa sine qua non" (44); "Mere negligence or rashness is ... not enough" for s.304A (55,
+// Andrews v. DPP 47); Ambalal D. Bhatt (1972) 3 SCC 525: breaking rules does not by itself make the act "the proximate and efficient
+// cause of the death" (56); Balwant Singh (57), Dr. P.B. Desai / Jacob Mathew (58). Para 59: the appellants "should not be asked to face
+// the trial either for ... Section 304A ... or Section 304 IPC"; at most the contractor "prima facie", "subject to the evidence that may be
+// led at the time of the trial if at all contractor is also one of the accused". Para 60: "not the causa causans, but there was a cause
+// interveniens, which broke the chain of causation". Para 61: "Dictating this order was a very painful experience." ... "the law remains
+// the law, and it has got to be respected." Para 62: appeal allowed, proceedings from Chargesheet No. 15 of 2020 quashed "so far as
+// appellants are concerned". Para 63: "The trial may proceed further against any other co-accused, in accordance with law."
+// Not said: any private name (only the cause title on the cite card); the school's or village's name; no graphic word (the order's own
+// "crushed" in para 61 and the FIR's injury details are left out); the High Court's name (the order says only "the High Court"); the
+// incident date (not stated by the Court; the FIR date 19.02.2020 is on a card only); the HC's "admittedly" (Flow policy). The reel never
+// says the two were careful or careless: the Court only ASSUMED negligence for argument (44). The contractor: speech says only that his
+// team did the construction (44); the prima facie remark is on one card with "prima facie, subject to evidence" (59); nothing says the
+// contractor is an accused. Flow policy: no "fraud" / "collusion" / "admitted".
+# 1 · WHO IS CRIMINALLY LIABLE?
+10 | A twelve year old girl died when a pillar under construction at her school fell. Should the school's President and Superintendent face a criminal trial for her death? || A 12-year-old girl died when a pillar under construction at her school fell. Should the school's President and Superintendent face a criminal trial for her death?
+10 | The High Court found a breach of duty and refused to quash the case. But is a breach of duty, by itself, enough for a criminal trial over her death?
+10 | Hi, I'm Ravishankar from LawWorld. On the second of November, Honourable Justice J B Pardiwala and Honourable Justice Manmohan ruled. || Hi, I'm Ravishankar from LawWorld. On 2 November, Honourable Justice J.B. Pardiwala and Honourable Justice Manmohan ruled.
+# 2 · A PILLAR UNDER CONSTRUCTION
+10 | She studied in the seventh standard at an Ashram school in Amravati district. A pillar being built on the school premises collapsed and fell on her. || She studied in the 7th standard at an Ashram school in Amravati district. A pillar being built on the school premises collapsed and fell on her.
+10 | Her father filed a police complaint. A charge sheet followed against the school's President and Superintendent, for culpable homicide not amounting to murder.
+# 3 · THE IMMEDIATE CAUSE?
+10 | The High Court noted the cement ratio was not maintained and the pillar had no solid base. Finding a breach of duty, it let the prosecution go on.
+10 | The two argued that their act was not the immediate cause of death. The State said that at least causing death by negligence was made out, so let the trial court decide.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the Supreme Court decide? Citing Kurban Hussein, it held the negligent act must be the immediate cause of death, the causa causans, not just one cause.
+10 | It noted the contractor's team built the pillar. An intervening cause broke the chain. The case against the two was quashed; trial may go on against any other co-accused.

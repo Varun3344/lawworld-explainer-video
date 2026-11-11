@@ -1,0 +1,57 @@
+// State of Himachal Pradesh v. Union of India and others, 2026 INSC 1200, Original Suit No. 2 of 1996, Supreme Court of India, Civil
+// Original Jurisdiction (Article 131); Surya Kant CJI (wrote it), Joymalya Bagchi J. and V. Mohana J.; dated 06.11.2026 (New Delhi).
+// REPORTABLE (page 1). Defendants: the Union of India (D1), the States of Punjab (D2) and Haryana (D3), the State of Rajasthan and the
+// Union Territory of Chandigarh (para 1); the judgment-debtors are Punjab and Haryana only (5.20(iv), 5.26).
+// HOOK format (split/JUDGMENT_HOOK_FORMAT.md), Supreme Court page, ENGLISH; opening spoken to everyone, no "Advocates,".
+// DRAFT 11-11-2026: awaiting the owner's yes; nothing rendered.
+// Source: the Court's own signed PDF (37 pages, sci.gov.in "Latest Judgments": "STATE OF HIMACHAL PRADESH VS. UNION OF INDIA - ORGNL.SUIT
+// No. 2/1996 - 06-Nov-2026", uploaded 06-11-2026 13:26), scratchpad sc11nov/pdf/himachal.pdf + txt/himachal.txt, paras 1-45 read in full.
+// Facts used (para): the suit, under Article 131, claims a share of the power from the Bhakra-Nangal and Beas Hydro-Electric Projects (1);
+// the dispute among the successor States, unresolved for decades, led to the suit in 1996 (2). The projects were built "substantially
+// upon the territory of the then princely State of Bilaspur and within the Kangra district", both now in Himachal (5.1); the power was
+// "enjoyed principally" by composite Punjab and, after 1966, by Punjab, Haryana, Rajasthan and Chandigarh (5.2). Punjab reorganised from
+// 01.11.1966: split into Punjab and Haryana, Chandigarh created, territory "together with its population" transferred to Himachal (5.8);
+// Section 78 of the Punjab Reorganisation Act, 1966 (5.9); only ad hoc allocations (5.10). Himachal's claim of 22.10.1969: 7.19%, "founded
+// upon the proportion of the population of composite Punjab that had been transferred" to it; rejected by the Centre in 1994; a 1995
+// tripartite meeting failed (5.12); suit in 1996: 12% free power (Home State), 7.19%, Rs. 2,199.77 crores compensation, interest (5.13).
+// Judgment of 27.09.2011: decreed in part, "entitled to 7.19% of the power generated" (3); not time-barred etc. (5.20); 12% free power
+// refused (5.22); 7.19% of composite Punjab's power = 6.095% of Bhakra-Nangal from 01.11.1966, 5.752% of Beas Unit I and 2.984% of Beas
+// Unit II from production (5.23); the Union to compute the amount and file it "within six months" (5.25). Ministry of Power order of
+// 31.10.2011 revised the allocation from 01.11.2011 (5.27). Union's affidavit of 05.07.2013: 13,066 million units (8,523 + 3,145 + 1,398)
+// for 01.11.1966 to October 2011; "the Plaintiff-State accepted this computation, the same was disputed by the States of Punjab and
+// Haryana" (5.28). Settlement efforts through the Attorney General from 07.08.2014 (report 16.01.2015), the third reference from
+// 11.09.2024, a "last opportunity" on 04.02.2025 (5.34, 5.35). Punjab: net Rs. 6,683.68 crores "recoverable from the Plaintiff-State as on
+// 31.03.2026" (13, 14). The AG's cashless framework "without requiring any direct financial transaction between the States" (20, 21);
+// Himachal and Haryana "expressed their agreement to the proposal in principle" on 30.07.2026 and 20.08.2026 (23); Punjab's three
+// objections: the 1.2 lakh units a day (11,094 MU), conversion at the O&M rate of 79 paise (5,768 MU), 30 years instead of 15 (24-26).
+// Held: "in the nature of execution proceedings", not to reopen the 2011 decree (30); Punjab's contentions "vague and superficial, and
+// amount to an attempt to relitigate issues already settled by this Court in its decree dated 27.09.2011" (33); not persuaded "to accept
+// any of them" (32); the O&M conversion "inaccurate and misleading": the arrears relate to an earlier period (36); 30 years: no other
+// reason, Haryana agreed to 15 (37); period raised from 15 to 20 years as a concession to the Defendant States (38). Directions (41):
+// (a) arrears taken at 13,066 MU, supplied by Punjab and Haryana over 20 lean seasons (October to March), 58:42 Bhakra-Nangal, 60:40 Beas;
+// (b) Himachal pays the BBMB charges for the year of each tranche; (c) its 7.19% capital-cost share assessed at Rs. 420.77 crores
+// (Punjab 249.23, Haryana 171.55); (d) adjusted against the arrears at Rs. 3.85 a unit, about 1,093 MU; (e) balance about 11,973 MU at
+// about 598 MU a year over 20 lean seasons; (f) cashless. Para 43: "the directions issued by this Court are binding and are required to
+// be acted upon without reservation." Suit disposed of (45).
+// Not said: "recalcitrance" / "unwillingness" (para 43 speaks of "a Judgment Debtor" in general; no State is called recalcitrant); the
+// submergence acreage; Rajasthan's and Chandigarh's separate pleas; the rate dispute (NFL / BTPS / O&M) and Himachal's Rs. 4,249.45 crore
+// and Rs. 1,745 crore claims; "a decree pending for decades" (the decree is of 2011: the claim and the dispute are decades old, paras 40,
+// 43). "cashless" is spoken only for the AG's proposal (c07): Himachal still pays the BBMB's yearly charges (41(b)), shown as a note on the c10 card.
+// Fact-check 11-11-2026: c01 "It won in twenty eleven" -> "and won it" (the suit was decreed only in part, para 3: it won its 7.19% share,
+// the 12% free power was refused, 5.22); c03 standard "Hi, I'm Ravishankar ... On the sixth of November" opener (42 syl).
+// Flow policy: no private names, no "admitted" / "fraud" / "collusion".
+# 1 · STILL WAITING?
+10 | A State sued in the Supreme Court in nineteen ninety six for its share of power, and won it in twenty eleven. So why was it still waiting for its arrears? || A State sued in the Supreme Court in 1996 for its share of power, and won it in 2011. So why was it still waiting for its arrears?
+10 | The Centre put those arrears at over thirteen thousand million units. But Punjab said Himachal itself owed over six thousand crore rupees in costs. Who owes whom? || The Centre put those arrears at over 13,000 million units. But Punjab said Himachal itself owed over ₹6,000 crore in costs. Who owes whom?
+10 | Hi, I'm Ravishankar from LawWorld. On the sixth of November, Honourable Chief Justice Surya Kant, Justice Joymalya Bagchi and Justice V Mohana ruled. || Hi, I'm Ravishankar from LawWorld. On 6 November, Honourable Chief Justice Surya Kant, Justice Joymalya Bagchi and Justice V. Mohana ruled.
+# 2 · WHOSE POWER?
+10 | When Punjab was split in nineteen sixty six, part of it went to Himachal. So Himachal claimed a share of the Bhakra Nangal and Beas power. || When Punjab was split in 1966, part of it went to Himachal. So Himachal claimed a share of the Bhakra-Nangal and Beas power.
+10 | It sought seven point one nine percent, its share of Punjab's population. In twenty eleven, the Court granted it, but refused its claim to twelve percent free power. || It sought 7.19%, its share of Punjab's population. In 2011, the Court granted it, but refused its claim to 12% free power.
+# 3 · A DECREE STUCK
+10 | The Court asked the Centre to compute the arrears within six months. The Centre's figure came in twenty thirteen, but Punjab and Haryana disputed it. || The Court asked the Centre to compute the arrears within six months. The Centre's figure came in 2013, but Punjab and Haryana disputed it.
+10 | After years of mediation, the Attorney General proposed a cashless settlement. Himachal and Haryana agreed in principle. Punjab objected.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the Supreme Court decide? Punjab's objections were an attempt to reopen what the twenty eleven decree had settled, so they were rejected. || Finally, what did the Supreme Court decide? Punjab's objections were an attempt to reopen what the 2011 decree had settled, so they were rejected.
+10 | Himachal's share of the capital cost is set off against its arrears, and the rest comes over twenty lean seasons. The Court warned that its directions are binding.

@@ -1,0 +1,58 @@
+// Yusuf v. Vigyapan Loke Delhi Advertising CGHS Ltd., 2026 INSC 1207, Civil Appeal No. 14175 of 2026 (arising out of SLP (C)
+// No. 30778 of 2024), Supreme Court of India, Civil Appellate Jurisdiction; Vikram Nath J. (wrote it), Augustine George Masih J. and
+// Sandeep Mehta J.; pronounced 06.11.2026 (New Delhi, November 06, 2026). REPORTABLE (page 1). Appeal from the Delhi High Court's order
+// of 04.11.2024 in C.R.P. No. 66 of 2020. HOOK format (split/JUDGMENT_HOOK_FORMAT.md), Supreme Court page, ENGLISH; opening spoken to
+// everyone, no "Advocates,". DRAFT 11-11-2026: awaiting the owner's yes; nothing rendered.
+// Source: the Court's own signed PDF (7 pages, sci.gov.in "Latest Judgments"), scratchpad sc11nov/pdf/yusuf.pdf + sc11nov/txt/yusuf.txt,
+// paras 1-19 read in full; facts with verbatim quotes in scratchpad sc11nov/ack/FACTS.md. The appeal-number blank on page 1 is filled
+// from the sci.gov.in listing ("C.A. No. 14175/2026", Diary No. 58317/2024, 06-Nov-2026; scratchpad sc11nov/latest.txt).
+// Facts used (para): HC order 04.11.2024 in C.R.P. 66/2020 allowed the defendant's revision and rejected the plaint as barred by
+// limitation (2, 3.5). Suit filed in 2014 under Order XXXVII CPC for money due under a civil works contract dated 10.02.2000 with the
+// defendant society, for construction work on a multi-storey building in Mayur Vihar, Delhi; running bills raised between 2000 and
+// 2003; claim Rs 11,16,000 + interest Rs 11,04,840 at 9% p.a. (3.1). The defendant's Order VII Rule 11 application: barred by
+// limitation, no cause of action, not maintainable (3.2). Trial Court, 06.01.2020: application rejected; the outstanding amounts were
+// reflected in the society's balance sheets "for the years 2004, 2005 till 2013, which amounts to acknowledgment of debt consequently
+// giving rise to a fresh period of limitation"; maintainability and genuineness of bills need evidence (3.3). Revision: suit of 2014
+// for transactions of 2000 and 2003 time-barred (3.4). HC: bank statements no acknowledgment beyond 2005 (3.5); the balance sheet as on
+// 31.03.2013 reflected Rs 21,79,465 under sundry creditors pertaining to 2004-05 "but it did not in any way indicate that the amount was
+// due and payable to the original plaintiff" (8). The appeal is by the original plaintiff's legal heir (3.6). The limited question:
+// whether, given the balance-sheet entries up to 2013, the suit could be rejected at threshold as time-barred (5). Bills of 2000-2003
+// not in dispute; the society had issued cheques to him, which were dishonoured; he relies on balance-sheet entries FY 2004-05 to
+// FY 2012-13 (6), especially the entry dated 31.03.2013 (7). Section 18 Limitation Act: a written acknowledgment of a subsisting
+// liability gives rise to a fresh period of limitation (9). Bishal Jaiswal, 2021 INSC 254 (three judges): balance-sheet entries may be
+// acknowledgments, read with the balance sheet as a whole, notes and auditor's report (10); Axis Bank v. Naren Sheth, 2023 INSC 820
+// (11). The 2004-05 bank reconciliation statements record three cheques issued in favour of "Wazir Hussain Contractor" (12); later
+// balance sheets carried forward Rs 21,79,134 under "Balances pertaining to 2004-05" (13).
+// Held: Section 18 needs no naming of the creditor and no fixed format, so long as it acknowledges a subsisting liability, read with
+// the surrounding circumstances; here the liability was in the society's own balance sheets, carried forward to 2013, "renewing the
+// limitation period every year" (14). Not conclusive that the whole amount is owed: "These are matters for trial"; at the Order VII
+// Rule 11 stage the court "ought not to have gone into the depths of evidence and conclusively determined the non-existence of
+// liability", only whether the plaint disclosed a prima facie case on the material (15). The plea that a time-barred debt cannot be
+// revived indefinitely, especially without a condonation application, "cannot be sustained": since the entries are an acknowledgment
+// under Section 18, "a fresh period of limitation would automatically run from each subsequent date of acknowledgment", so "there was
+// no requirement for an application seeking condonation of delay" (16). HC order set aside; "The suit shall stand revived on the file
+// of the Trial Court. All questions on the merits of the claim shall remain open." (17); appeal allowed (18).
+// Not said: no private name in speech (Wazir Hussain, Yusuf: only the cause title on the cite card); he is "a contractor", the
+// appellant "his heir" (no death is mentioned: the judgment only says "legal heir"). The defendant's "alleged embezzlement" plea (3.2)
+// is left out (an accusation, never decided). No claim that the society owes the money (15: merits open). The hook is a question; the
+// holding is spoken about "the entries" of this case, not as a rule that every balance-sheet entry restarts limitation (Bishal
+// Jaiswal's caveat is on a card). The amount: para 8 says Rs 21,79,465, para 13 Rs 21,79,134; speech says "nearly twenty two lakh
+// rupees", cards "₹21.79 lakh". Flow policy: no "fraud" / "collusion" / "admitted"; "dishonoured" only on a card.
+// c03, three judges: "Honourable Justice" x3 + "Hi," + the date is 48 syllables (> 43), so one "Honourable Justices" covers all three
+// (39 syl). Fallback if the owner wants "Honourable Justice" per judge: "I'm Ravishankar from LawWorld. Honourable Justice Vikram Nath,
+// Honourable Justice Augustine George Masih and Honourable Justice Sandeep Mehta ruled." (42 syl, the date only on the bench card).
+# 1 · TOO LATE TO SUE?
+10 | Your bills date back to two thousand three, and you sue only in twenty fourteen. Is it too late, or can the other side's own balance sheets keep your claim alive? || Your bills date back to 2003, and you sue only in 2014. Is it too late, or can the other side's own balance sheets keep your claim alive?
+10 | The trial court said a housing society's balance sheets acknowledged the debt. The Delhi High Court disagreed, and rejected the plaint as time barred. So who was right? || The trial court said a housing society's balance sheets acknowledged the debt. The Delhi High Court disagreed, and rejected the plaint as time-barred. So who was right?
+10 | Hi, I'm Ravishankar from LawWorld. On the sixth of November, a bench of three Honourable Judges of the Supreme Court heard this civil appeal and ruled. || Hi, I'm Ravishankar from LawWorld. On 6 November, a bench of three Honourable Judges of the Supreme Court heard this civil appeal and ruled.
+# 2 · BILLS AND BALANCE SHEETS
+10 | In two thousand, a Delhi housing society hired a contractor for building work. His running bills went up to two thousand three, but he sued in twenty fourteen. || In 2000, a Delhi housing society hired a contractor for building work. His running bills went up to 2003, but he sued in 2014.
+10 | The society's own bank records showed three cheques in his favour. And up to twenty thirteen, its balance sheets carried forward nearly twenty two lakh rupees. || The society's own bank records showed three cheques in his favour. And up to 2013, its balance sheets carried forward nearly ₹22 lakh.
+# 3 · REJECTED AT THE THRESHOLD
+10 | The society sought rejection of the plaint under Order Seven Rule Eleven. The High Court agreed, saying the entries did not show the money was due to him.
+10 | The contractor's heir argued the entries were acknowledgments under the Limitation Act. The society said a time barred debt cannot be revived forever. || The contractor's heir argued the entries were acknowledgments under the Limitation Act. The society said a time-barred debt cannot be revived forever.
+# 4 · BEFORE THE VERDICT
+10 | Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I. || Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.
+# 5 · WHAT THE COURT HELD
+10 | Finally, what did the Supreme Court decide? The entries were acknowledgments under Section Eighteen, so a fresh period ran from each. No condonation was needed.
+10 | At the threshold, the High Court should not have gone into the depths of evidence. Its order was set aside, and the suit was revived, with the merits left open.

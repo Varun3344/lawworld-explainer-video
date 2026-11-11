@@ -1,0 +1,68 @@
+{
+ "projectTitle": "LawWorld_ocl",
+ "title": "OBC creamy layer: CSE-2025 allocation",
+ "source": "split/scripts/ocl.txt",
+ "scenes": [
+  {
+   "sceneId": "c01",
+   "seconds": 10,
+   "dialogue": "The U P S C result came out on the sixth of March. Five days later, the Supreme Court ruled on the O B C creamy layer. Which rule governs service allocation?",
+   "shown": "The UPSC result came out on 6 March. Five days later, the Supreme Court ruled on the OBC creamy layer. Which rule governs service allocation?",
+   "chip": "1 · WHICH RULE APPLIES?"
+  },
+  {
+   "sceneId": "c02",
+   "seconds": 10,
+   "dialogue": "The government wanted the earlier criteria for this batch, and warned that reopening could affect over six and a half lakh reserved posts. Where does the Court draw the line?",
+   "shown": "The government wanted the earlier criteria for this batch, and warned that reopening could affect over 6.5 lakh reserved posts. Where does the Court draw the line?"
+  },
+  {
+   "sceneId": "c03",
+   "seconds": 10,
+   "dialogue": "Hi, I'm Ravishankar from LawWorld. On the sixth of November, Honourable Justice P S Narasimha and Honourable Justice R Mahadevan ruled.",
+   "shown": "Hi, I'm Ravishankar from LawWorld. On 6 November, Honourable Justice P.S. Narasimha and Honourable Justice R. Mahadevan ruled."
+  },
+  {
+   "sceneId": "c04",
+   "seconds": 10,
+   "dialogue": "The case began with Civil Services candidates whose parents worked in public sector undertakings. Those posts had no formal equivalence with government posts.",
+   "chip": "2 · PARENTS IN PSUs"
+  },
+  {
+   "sceneId": "c05",
+   "seconds": 10,
+   "dialogue": "So the Department of Personnel used an income test for them instead. The Tribunal disagreed with that, and three High Courts upheld the Tribunal's view."
+  },
+  {
+   "sceneId": "c06",
+   "seconds": 10,
+   "dialogue": "On the eleventh of March, the Supreme Court dismissed the government's appeals, rejecting mechanical exclusion on salary income, with six months to comply.",
+   "shown": "On 11 March, the Supreme Court dismissed the government's appeals, rejecting mechanical exclusion on salary income, with six months to comply.",
+   "chip": "3 · AFTER THE MARCH RULING"
+  },
+  {
+   "sceneId": "c07",
+   "seconds": 10,
+   "dialogue": "The government then asked that completed selections stay intact, and sought two years to fix equivalence of posts. Candidates called it a bid for a rehearing."
+  },
+  {
+   "sceneId": "c08",
+   "seconds": 10,
+   "dialogue": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all in one A I platform for advocates at lawworld dot A I.",
+   "shown": "Before I tell you what the Supreme Court decided, a quick request: follow LawWorld, and try India's all-in-one AI platform for advocates at lawworld.ai.",
+   "chip": "4 · BEFORE THE VERDICT"
+  },
+  {
+   "sceneId": "c09",
+   "seconds": 10,
+   "dialogue": "Finally, what did the Supreme Court decide? Service allocation for the twenty twenty five batch is still pending, so the March ruling on the creamy layer will govern it.",
+   "shown": "Finally, what did the Supreme Court decide? Service allocation for the 2025 batch is still pending, so the March ruling on the creamy layer will govern it.",
+   "chip": "5 · WHAT THE COURT HELD"
+  },
+  {
+   "sceneId": "c10",
+   "seconds": 10,
+   "dialogue": "Selections concluded before the March ruling are not reopened by it alone. The Court set no timeline for equivalence of posts, and gave two more months to comply."
+  }
+ ]
+}
