@@ -36,7 +36,7 @@ PY
 }
 until ready >/dev/null; do sleep 60; done
 log "all clips rendered and flattened"
-python3 split/presenter_geom.py downloads/$SET/flat/c*.mp4 --anchor c01 --seam left --max-up 0.10 --out $O/geom.json --place-out $O/place.json > $O/geom.log 2>&1 || { log "geom FAILED"; tail -5 $O/geom.log; exit 1; }
+python3 split/presenter_geom.py downloads/$SET/flat/c*.mp4 ${=GEOM_EXTRA:-} --anchor c01 --seam left --max-up 0.10 --out $O/geom.json --place-out $O/place.json > $O/geom.log 2>&1 || { log "geom FAILED"; tail -5 $O/geom.log; exit 1; }
 grep -E "SIZE OUTLIER" $O/geom.log | sed "s/^/[post $SET] /"
 # a size outlier (a clip framed closer than the rest) sets the common size when every clip still fits that way: no clip beyond
 # 5 % past its native resolution (s <= 1.25 in the 640x1080 box; Video 2 needed 1.244 for four close-framed clips) and every presenter's reach 24 px inside the box; else it stays larger at

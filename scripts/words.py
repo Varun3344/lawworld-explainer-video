@@ -59,9 +59,27 @@ def numify(tokens):
             flush(); out.append(t)
     flush()
     return out
+def reconcile(exp, got):
+    """10-11-2026: spelling-only differences that cost re-takes (and Flow credits): whisper writes "versus" as "v"/"vs", joins
+    two-word names ("Sita Bai" -> "sitabai"), splits brand words ("LawWorld" -> "law world") and expands "I'm" to "i am".
+    Map those onto the script's own tokens so they are neither missing nor extra. Real wording changes are untouched."""
+    es = set(exp)
+    if "versus" in es: got = ["versus" if g in ("v", "vs") else g for g in got]
+    pairs = {exp[i] + exp[i + 1]: [exp[i], exp[i + 1]] for i in range(len(exp) - 1)}
+    out = []
+    for g in got: out += pairs[g] if (g not in es and g in pairs) else [g]
+    got, out, i = out, [], 0
+    while i < len(got):
+        j = got[i] + got[i + 1] if i + 1 < len(got) else None
+        if j and j in es and (got[i] not in es or got[i + 1] not in es): out.append(j); i += 2; continue
+        if i + 1 < len(got) and got[i] == "i" and got[i + 1] == "am" and "i'm" in es: out.append("i'm"); i += 2; continue
+        out.append(got[i]); i += 1
+    return out
+
 def check(dialogue, words):
     exp = numify([norm(w) for w in dialogue.replace("-", " ").split() if norm(w)])
     got = numify([norm(x) for w in words for x in w["word"].replace("-", " ").split() if norm(x)])
+    got = reconcile(exp, got)
     sm = difflib.SequenceMatcher(a=exp, b=got, autojunk=False)
     missing, extra = [], []
     for tag, i1, i2, j1, j2 in sm.get_opcodes():

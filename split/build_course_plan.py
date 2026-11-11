@@ -12,6 +12,10 @@ Writes out/<set>/timeline.json, plan.json, anchors.txt, captions.srt."""
 import os, re, sys, json, math, subprocess, difflib, importlib.util
 spec = importlib.util.spec_from_file_location("words", "scripts/words.py"); W = importlib.util.module_from_spec(spec); spec.loader.exec_module(W); norm = W.norm
 def dur(f): return float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f], capture_output=True, text=True).stdout.strip())
+def vdur(f):   # 10-11-2026: the VIDEO stream's length; a cut past it (audio runs ~1 frame longer) dropped a picture frame -> lips +42 ms per such clip (qsh)
+    r = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=duration", "-of", "csv=p=0", f], capture_output=True, text=True).stdout.strip()
+    try: return float(r)
+    except ValueError: return dur(f)
 
 SET = sys.argv[sys.argv.index("--set") + 1]
 D = f"downloads/{SET}"; CLIPS = f"{D}/flat"; OUT = f"out/{SET}"; os.makedirs(OUT, exist_ok=True)
@@ -61,7 +65,7 @@ for cid in IDS:
     # LIP SYNC (owner 19-10-2026): cut on frame boundaries. ffmpeg's trim keeps every frame whose time is < out, so an unaligned cut
     # gives the picture up to one frame more than the sound, clip after clip (Cause of Action: the lips ended 0.64 s behind the voice).
     # in / out sit 0.1 ms before a frame time: the video keeps exactly k_out - k_in frames and the audio the same length.
-    k_in, k_out = int(round(tin * 24)), int(min(round(tout * 24), math.floor(d * 24 + 1e-6)))
+    k_in, k_out = int(round(tin * 24)), int(min(round(tout * 24), math.floor(min(d, vdur(c) if os.path.exists(c) else d) * 24 + 1e-6)))
     tin = max(0.0, k_in / 24 - 1e-4); tout = k_out / 24 - 1e-4
     segs.append({"clip": f"{CLIPS}/{cid}.mp4", "in": round(tin, 6), "out": round(tout, 6), "base": round(t, 6), "cid": cid, "place": PLACE.get(cid)})
     for i, x in enumerate(toks): words.append({"word": x, "start": round(t + tm[i][0] - tin, 3), "end": round(t + tm[i][1] - tin, 3), "cid": cid})
@@ -102,7 +106,7 @@ if not HOOK_FMT:
 chips = [{"at": r3(HOOK if s["sceneId"] == IDS[0] else S(s["sceneId"]) - 0.1), "label": s["chip"]} for s in ALL if s.get("chip") and s["sceneId"] in IDS]
 cue(type="panel", t0=0.0 if HOOK_FMT else HOOK - 0.3, t1=pend + 0.25, scenes=chips)   # hook: the panel slides in under the cover
 # the name tag sits on the clip where he introduces himself (hook format: after the hook and the curiosity clips, not on c01)
-NAME_CID = next((c for c in IDS if "ravishankar" in SCRIPT[c].lower() or "ರವಿಶಂಕರ್" in SCRIPT[c]), IDS[0]) if HOOK_FMT else IDS[0]   # Kannada hook reels too (04-11-2026)
+NAME_CID = next((c for c in (IDS if HOOK_FMT else IDS[:3]) if "ravishankar" in SCRIPT[c].lower() or "ರವಿಶಂಕರ್" in SCRIPT[c]), IDS[0])   # 07-11: concept sets that open on a question introduce him in c02   # Kannada hook reels too (04-11-2026)
 cue(type="lower_third", t0=S(NAME_CID) + 0.5, t1=S(NAME_CID) + 5.2, name="Ravishankar", role="LawWorld")
 
 # ── sound: a soft pop on every build, a whoosh as a big card arrives, a ding on a result, a slam on a stamp (the set's cue file may
